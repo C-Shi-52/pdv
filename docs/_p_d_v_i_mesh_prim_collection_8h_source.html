@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIMeshPrimCollection.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_mesh_prim_collection_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIMeshPrimCollection.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_mesh_prim_collection_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIMESHPRIMCOLLECTION_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIMESHPRIMCOLLECTION_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbb">   22</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbb">PrimCollectionType</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbbac56319bd2d7a6f11388d0abad16c23c8">   24</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbbac56319bd2d7a6f11388d0abad16c23c8">PRIMCOLLECTIONTYPE_NULL</a> = 0,    </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbba4a45e179b14ebf08dc859abae06179db">   25</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbba4a45e179b14ebf08dc859abae06179db">PRIMCOLLECTIONTYPE_POINT</a> = 1,   </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbbac90103e092fe0cf16d97efaccb0a6f82">   26</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbbac90103e092fe0cf16d97efaccb0a6f82">PRIMCOLLECTIONTYPE_CURVE</a> = 2,   </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbba1e30a1feaa2b711947be746ac5f1dbae">   27</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbba1e30a1feaa2b711947be746ac5f1dbae">PRIMCOLLECTIONTYPE_SURFACE</a> = 3, </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbba0116272c03dcd529c7b36646d4ec0d5a">   28</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbba0116272c03dcd529c7b36646d4ec0d5a">PRIMCOLLECTIONTYPE_BODY</a> = 4,    </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
+</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">// 图元集合数据掩码信息</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define PRIMCOLLECTION_MASK_MATERIAL 0x01    </span><span class="comment">// 是否包含颜色和透明度数据，1表示是，0表示否</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define PRIMCOLLECTION_MASK_BOUNDINGBOX 0x02 </span><span class="comment">// 是否包含包围盒数据，1表示是，0表示否</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define PRIMCOLLECTION_MASK_TOPO_SOLID 0x04  </span><span class="comment">// 是否是拓扑实体，1表示是，0表示否</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="};">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html">   37</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html">IMeshPrimCollection</a></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>{</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a3de93f14e811ed47c5ae72671b235e8e">   45</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a3de93f14e811ed47c5ae72671b235e8e">GetBitMask</a>() = 0;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#ab6a6f1b95bce0952ec3dc068cbf5b284">   53</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#ab6a6f1b95bce0952ec3dc068cbf5b284">SetBitMask</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iBitMask) = 0;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a2ac228192de3b9fa70d63eed096a6e73">   60</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a2ac228192de3b9fa70d63eed096a6e73">GetID</a>() = 0;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a437d66ca50c030ffb37045564cf386f0">   67</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a437d66ca50c030ffb37045564cf386f0">GetMaterialFlag</a>() = 0;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a93e2d73a2594f518f505df0dccf0c3f7">   75</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a93e2d73a2594f518f505df0dccf0c3f7">SetMaterialFlag</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;iMaterialFlag) = 0;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#abfe2ef7839d6973578fbbe2a0c28663f">   82</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#abfe2ef7839d6973578fbbe2a0c28663f">GetBoundingBoxFlag</a>() = 0;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#aab72be59bc64b21a8082b4368477834c">   90</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#aab72be59bc64b21a8082b4368477834c">SetBoundingBoxFlag</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;iBoundingBoxFlag) = 0;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a7caf1231c9e1865ffcad98be8732d7a8">   97</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a7caf1231c9e1865ffcad98be8732d7a8">GetTopoFlag</a>() = 0;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a553056a94e2852ad56f0029819a870ce">  105</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a553056a94e2852ad56f0029819a870ce">SetTopoFlag</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;iIsTopoSolid) = 0;</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a2c9da276e41ebc2c8923fc4f5a853e98">  112</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a2c9da276e41ebc2c8923fc4f5a853e98">GetType</a>() = 0;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#af8bbefd3a9098d30c38e972d33717135">  120</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#af8bbefd3a9098d30c38e972d33717135">SetType</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;iType) = 0;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a2e5ff58055e65c0cc262be315a37bf4d">  128</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a2e5ff58055e65c0cc262be315a37bf4d">GetMaterialID</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;oMaterialID) = 0;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a046c2c11bad297ea868ff3bc52581264">  136</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a046c2c11bad297ea868ff3bc52581264">SetMaterialID</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iMaterialID) = 0;</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span></div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a3eec86b9ba46c006a920234bc5932739">  144</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a3eec86b9ba46c006a920234bc5932739">GetPointStyle</a>(<a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;oPointStyle) = 0;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span></div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a5f7bda8f7a7a644f4bd51c8f6dac78bc">  152</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a5f7bda8f7a7a644f4bd51c8f6dac78bc">SetPointStyle</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iPointStyle) = 0;</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span></div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a31217f1f8e81803b9ab9c771606a13e8">  160</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a31217f1f8e81803b9ab9c771606a13e8">GetLineStyle</a>(<a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;oLineStyle) = 0;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span></div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a5ac6ec6dc7c7d7585322b3f1b053a4ff">  168</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a5ac6ec6dc7c7d7585322b3f1b053a4ff">SetLineStyle</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iLineStyle) = 0;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a3f1d176975ea25d53e4799c037ad7152">  175</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a3f1d176975ea25d53e4799c037ad7152">GetLength</a>() = 0;</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span></div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a4bdeb988be6b1fd4ff68b910beee6c3d">  183</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a4bdeb988be6b1fd4ff68b910beee6c3d">SetLength</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a>&amp; iLength) = 0;</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span></div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a3a45bf6d578ec4e7b3b04d69f3c01468">  190</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a3a45bf6d578ec4e7b3b04d69f3c01468">GetArea</a>() = 0;</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span></div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a16e8faf44c042d2664d0385b8339c6e3">  198</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a16e8faf44c042d2664d0385b8339c6e3">SetArea</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a>&amp; iArea) = 0;</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span></div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a52b5db826606402f317e26fc3a9d3a03">  206</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a52b5db826606402f317e26fc3a9d3a03">GetBoundingBox</a>(<a class="code hl_struct" href="structkernel_1_1pdv_1_1_bounding_box.html">BoundingBox</a> &amp;oBoundingBox) = 0;</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span></div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#ad13f2185eb8e218784de05a87f7d1470">  214</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#ad13f2185eb8e218784de05a87f7d1470">GetBoundingBoxCornerPoints</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a06a1d0913eea2e2cec287161e6e94f73">DftVector3F</a> oCornerPoints[8]) = 0;</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span></div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a29ce592ba2973d85414f33c1e5ae2cf8">  222</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a29ce592ba2973d85414f33c1e5ae2cf8">SetBoundingBox</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structkernel_1_1pdv_1_1_bounding_box.html">BoundingBox</a> &amp;iBoundingBox) = 0;</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span></div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#ada85ea613cc5904b97e4c5b054334269">  230</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#ada85ea613cc5904b97e4c5b054334269">GetTopoID</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;oTopoID) = 0;</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a37e9b599fb70b30fc6a717fa7fe8ae02">  238</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a37e9b599fb70b30fc6a717fa7fe8ae02">SetTopoID</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iTopoID) = 0;</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span></div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#af3ca6b571b5a5ee0f4fd280f903b6172">  246</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#af3ca6b571b5a5ee0f4fd280f903b6172">GetPrimitiveIndexArray</a>(std::vector&lt;DftUInt&gt; &amp;oPrimitiveIndexArray) = 0;</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span></div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a0d7cd43611243b8f02f0facea7492215">  254</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a0d7cd43611243b8f02f0facea7492215">SetPrimitiveIndexArray</a>(<span class="keyword">const</span> std::vector&lt;DftUInt&gt; &amp;iPrimitiveIndexArray) = 0;</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>};</div>
+</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span> </div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a053d8ce6a85300520cc14cd4650ced33"><div class="ttname"><a href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></div><div class="ttdeci">unsigned long long DftUInt64</div><div class="ttdoc">64位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:64</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a06a1d0913eea2e2cec287161e6e94f73"><div class="ttname"><a href="_dft_types_8h.html#a06a1d0913eea2e2cec287161e6e94f73">DftVector3F</a></div><div class="ttdeci">float DftVector3F[3]</div><div class="ttdoc">单精度浮点型三维向量</div><div class="ttdef"><b>定义</b> DftTypes.h:110</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a7d52a2546e42c2a67869161bc9af895b"><div class="ttname"><a href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></div><div class="ttdeci">float DftFloat</div><div class="ttdoc">单精度浮点数</div><div class="ttdef"><b>定义</b> DftTypes.h:66</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a9dd0d1ca2dc17c79bf9082d2b72d957f"><div class="ttname"><a href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></div><div class="ttdeci">unsigned int DftUInt</div><div class="ttdoc">无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:48</div></div>
+<div class="ttc" id="a_dft_types_8h_html_aa0f85f8d3a1d218672e4d650f38fb674"><div class="ttname"><a href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></div><div class="ttdeci">int DftBool</div><div class="ttdoc">布尔型</div><div class="ttdef"><b>定义</b> DftTypes.h:40</div></div>
+<div class="ttc" id="a_dft_types_8h_html_ab3a04804b0cf7c050b58e7e7807455d6"><div class="ttname"><a href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></div><div class="ttdeci">unsigned char DftUInt8</div><div class="ttdoc">8位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:52</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_prim_collection_8h_html_a280fd4e87481090080d30d2f5b6a2fbb"><div class="ttname"><a href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbb">kernel::pdv::PrimCollectionType</a></div><div class="ttdeci">PrimCollectionType</div><div class="ttdoc">模型图元集合数据类型标识符</div><div class="ttdef"><b>定义</b> PDVIMeshPrimCollection.h:23</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_prim_collection_8h_html_a280fd4e87481090080d30d2f5b6a2fbba0116272c03dcd529c7b36646d4ec0d5a"><div class="ttname"><a href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbba0116272c03dcd529c7b36646d4ec0d5a">kernel::pdv::PRIMCOLLECTIONTYPE_BODY</a></div><div class="ttdeci">@ PRIMCOLLECTIONTYPE_BODY</div><div class="ttdoc">体</div><div class="ttdef"><b>定义</b> PDVIMeshPrimCollection.h:28</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_prim_collection_8h_html_a280fd4e87481090080d30d2f5b6a2fbba1e30a1feaa2b711947be746ac5f1dbae"><div class="ttname"><a href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbba1e30a1feaa2b711947be746ac5f1dbae">kernel::pdv::PRIMCOLLECTIONTYPE_SURFACE</a></div><div class="ttdeci">@ PRIMCOLLECTIONTYPE_SURFACE</div><div class="ttdoc">曲面</div><div class="ttdef"><b>定义</b> PDVIMeshPrimCollection.h:27</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_prim_collection_8h_html_a280fd4e87481090080d30d2f5b6a2fbba4a45e179b14ebf08dc859abae06179db"><div class="ttname"><a href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbba4a45e179b14ebf08dc859abae06179db">kernel::pdv::PRIMCOLLECTIONTYPE_POINT</a></div><div class="ttdeci">@ PRIMCOLLECTIONTYPE_POINT</div><div class="ttdoc">点</div><div class="ttdef"><b>定义</b> PDVIMeshPrimCollection.h:25</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_prim_collection_8h_html_a280fd4e87481090080d30d2f5b6a2fbbac56319bd2d7a6f11388d0abad16c23c8"><div class="ttname"><a href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbbac56319bd2d7a6f11388d0abad16c23c8">kernel::pdv::PRIMCOLLECTIONTYPE_NULL</a></div><div class="ttdeci">@ PRIMCOLLECTIONTYPE_NULL</div><div class="ttdoc">未知</div><div class="ttdef"><b>定义</b> PDVIMeshPrimCollection.h:24</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_prim_collection_8h_html_a280fd4e87481090080d30d2f5b6a2fbbac90103e092fe0cf16d97efaccb0a6f82"><div class="ttname"><a href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbbac90103e092fe0cf16d97efaccb0a6f82">kernel::pdv::PRIMCOLLECTIONTYPE_CURVE</a></div><div class="ttdeci">@ PRIMCOLLECTIONTYPE_CURVE</div><div class="ttdoc">曲线</div><div class="ttdef"><b>定义</b> PDVIMeshPrimCollection.h:26</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html">kernel::pdv::IMeshPrimCollection</a></div><div class="ttdoc">网格图元集合的接口</div><div class="ttdef"><b>定义</b> PDVIMeshPrimCollection.h:38</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a046c2c11bad297ea868ff3bc52581264"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a046c2c11bad297ea868ff3bc52581264">kernel::pdv::IMeshPrimCollection::SetMaterialID</a></div><div class="ttdeci">virtual PDV_RESULT SetMaterialID(const DftUInt64 &amp;iMaterialID)=0</div><div class="ttdoc">设置图元集合对象的材质ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a0d7cd43611243b8f02f0facea7492215"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a0d7cd43611243b8f02f0facea7492215">kernel::pdv::IMeshPrimCollection::SetPrimitiveIndexArray</a></div><div class="ttdeci">virtual PDV_RESULT SetPrimitiveIndexArray(const std::vector&lt; DftUInt &gt; &amp;iPrimitiveIndexArray)=0</div><div class="ttdoc">设置图元索引数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a16e8faf44c042d2664d0385b8339c6e3"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a16e8faf44c042d2664d0385b8339c6e3">kernel::pdv::IMeshPrimCollection::SetArea</a></div><div class="ttdeci">virtual PDV_RESULT SetArea(const DftFloat &amp;iArea)=0</div><div class="ttdoc">设置子集对象的曲面面积</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a29ce592ba2973d85414f33c1e5ae2cf8"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a29ce592ba2973d85414f33c1e5ae2cf8">kernel::pdv::IMeshPrimCollection::SetBoundingBox</a></div><div class="ttdeci">virtual PDV_RESULT SetBoundingBox(const BoundingBox &amp;iBoundingBox)=0</div><div class="ttdoc">设置包围盒数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a2ac228192de3b9fa70d63eed096a6e73"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a2ac228192de3b9fa70d63eed096a6e73">kernel::pdv::IMeshPrimCollection::GetID</a></div><div class="ttdeci">virtual DftUInt64 GetID()=0</div><div class="ttdoc">获取图元集合对象唯一标识</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a2c9da276e41ebc2c8923fc4f5a853e98"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a2c9da276e41ebc2c8923fc4f5a853e98">kernel::pdv::IMeshPrimCollection::GetType</a></div><div class="ttdeci">virtual DftUInt GetType()=0</div><div class="ttdoc">获取图元集合类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a2e5ff58055e65c0cc262be315a37bf4d"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a2e5ff58055e65c0cc262be315a37bf4d">kernel::pdv::IMeshPrimCollection::GetMaterialID</a></div><div class="ttdeci">virtual PDV_RESULT GetMaterialID(DftUInt64 &amp;oMaterialID)=0</div><div class="ttdoc">获取图元集合对象的材质ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a31217f1f8e81803b9ab9c771606a13e8"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a31217f1f8e81803b9ab9c771606a13e8">kernel::pdv::IMeshPrimCollection::GetLineStyle</a></div><div class="ttdeci">virtual PDV_RESULT GetLineStyle(DftUInt8 &amp;oLineStyle)=0</div><div class="ttdoc">获取图元集合对象的线类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a37e9b599fb70b30fc6a717fa7fe8ae02"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a37e9b599fb70b30fc6a717fa7fe8ae02">kernel::pdv::IMeshPrimCollection::SetTopoID</a></div><div class="ttdeci">virtual PDV_RESULT SetTopoID(const DftUInt64 &amp;iTopoID)=0</div><div class="ttdoc">设置图元集合关联拓扑ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a3a45bf6d578ec4e7b3b04d69f3c01468"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a3a45bf6d578ec4e7b3b04d69f3c01468">kernel::pdv::IMeshPrimCollection::GetArea</a></div><div class="ttdeci">virtual DftFloat GetArea()=0</div><div class="ttdoc">获取子集对象的曲面面积</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a3de93f14e811ed47c5ae72671b235e8e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a3de93f14e811ed47c5ae72671b235e8e">kernel::pdv::IMeshPrimCollection::GetBitMask</a></div><div class="ttdeci">virtual DftUInt8 GetBitMask()=0</div><div class="ttdoc">获取图元集合对象的内容标志</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a3eec86b9ba46c006a920234bc5932739"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a3eec86b9ba46c006a920234bc5932739">kernel::pdv::IMeshPrimCollection::GetPointStyle</a></div><div class="ttdeci">virtual PDV_RESULT GetPointStyle(DftUInt8 &amp;oPointStyle)=0</div><div class="ttdoc">获取图元集合对象的点类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a3f1d176975ea25d53e4799c037ad7152"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a3f1d176975ea25d53e4799c037ad7152">kernel::pdv::IMeshPrimCollection::GetLength</a></div><div class="ttdeci">virtual DftFloat GetLength()=0</div><div class="ttdoc">获取子集对象的曲线长度</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a437d66ca50c030ffb37045564cf386f0"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a437d66ca50c030ffb37045564cf386f0">kernel::pdv::IMeshPrimCollection::GetMaterialFlag</a></div><div class="ttdeci">virtual DftBool GetMaterialFlag()=0</div><div class="ttdoc">获取图元集合对象是否包含材质</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a4bdeb988be6b1fd4ff68b910beee6c3d"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a4bdeb988be6b1fd4ff68b910beee6c3d">kernel::pdv::IMeshPrimCollection::SetLength</a></div><div class="ttdeci">virtual PDV_RESULT SetLength(const DftFloat &amp;iLength)=0</div><div class="ttdoc">设置子集对象的曲线长度</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a52b5db826606402f317e26fc3a9d3a03"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a52b5db826606402f317e26fc3a9d3a03">kernel::pdv::IMeshPrimCollection::GetBoundingBox</a></div><div class="ttdeci">virtual PDV_RESULT GetBoundingBox(BoundingBox &amp;oBoundingBox)=0</div><div class="ttdoc">获取包围盒数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a553056a94e2852ad56f0029819a870ce"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a553056a94e2852ad56f0029819a870ce">kernel::pdv::IMeshPrimCollection::SetTopoFlag</a></div><div class="ttdeci">virtual PDV_RESULT SetTopoFlag(const DftBool &amp;iIsTopoSolid)=0</div><div class="ttdoc">设置图元集合对象是否是拓扑实体</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a5ac6ec6dc7c7d7585322b3f1b053a4ff"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a5ac6ec6dc7c7d7585322b3f1b053a4ff">kernel::pdv::IMeshPrimCollection::SetLineStyle</a></div><div class="ttdeci">virtual PDV_RESULT SetLineStyle(const DftUInt8 &amp;iLineStyle)=0</div><div class="ttdoc">设置图元集合对象的线类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a5f7bda8f7a7a644f4bd51c8f6dac78bc"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a5f7bda8f7a7a644f4bd51c8f6dac78bc">kernel::pdv::IMeshPrimCollection::SetPointStyle</a></div><div class="ttdeci">virtual PDV_RESULT SetPointStyle(const DftUInt8 &amp;iPointStyle)=0</div><div class="ttdoc">设置图元集合对象的点类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a7caf1231c9e1865ffcad98be8732d7a8"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a7caf1231c9e1865ffcad98be8732d7a8">kernel::pdv::IMeshPrimCollection::GetTopoFlag</a></div><div class="ttdeci">virtual DftBool GetTopoFlag()=0</div><div class="ttdoc">获取图元集合对象是否是拓扑实体</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_a93e2d73a2594f518f505df0dccf0c3f7"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#a93e2d73a2594f518f505df0dccf0c3f7">kernel::pdv::IMeshPrimCollection::SetMaterialFlag</a></div><div class="ttdeci">virtual PDV_RESULT SetMaterialFlag(const DftBool &amp;iMaterialFlag)=0</div><div class="ttdoc">设置图元集合对象是否包含材质</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_aab72be59bc64b21a8082b4368477834c"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#aab72be59bc64b21a8082b4368477834c">kernel::pdv::IMeshPrimCollection::SetBoundingBoxFlag</a></div><div class="ttdeci">virtual PDV_RESULT SetBoundingBoxFlag(const DftBool &amp;iBoundingBoxFlag)=0</div><div class="ttdoc">设置图元集合对象是否包含包围盒数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_ab6a6f1b95bce0952ec3dc068cbf5b284"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#ab6a6f1b95bce0952ec3dc068cbf5b284">kernel::pdv::IMeshPrimCollection::SetBitMask</a></div><div class="ttdeci">virtual PDV_RESULT SetBitMask(const DftUInt8 &amp;iBitMask)=0</div><div class="ttdoc">设置图元集合对象的内容标志</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_abfe2ef7839d6973578fbbe2a0c28663f"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#abfe2ef7839d6973578fbbe2a0c28663f">kernel::pdv::IMeshPrimCollection::GetBoundingBoxFlag</a></div><div class="ttdeci">virtual DftBool GetBoundingBoxFlag()=0</div><div class="ttdoc">获取图元集合对象是否包含包围盒数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_ad13f2185eb8e218784de05a87f7d1470"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#ad13f2185eb8e218784de05a87f7d1470">kernel::pdv::IMeshPrimCollection::GetBoundingBoxCornerPoints</a></div><div class="ttdeci">virtual PDV_RESULT GetBoundingBoxCornerPoints(DftVector3F oCornerPoints[8])=0</div><div class="ttdoc">获取图元集合包围盒的角点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_ada85ea613cc5904b97e4c5b054334269"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#ada85ea613cc5904b97e4c5b054334269">kernel::pdv::IMeshPrimCollection::GetTopoID</a></div><div class="ttdeci">virtual PDV_RESULT GetTopoID(DftUInt64 &amp;oTopoID)=0</div><div class="ttdoc">获取图元集合关联拓扑ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_af3ca6b571b5a5ee0f4fd280f903b6172"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#af3ca6b571b5a5ee0f4fd280f903b6172">kernel::pdv::IMeshPrimCollection::GetPrimitiveIndexArray</a></div><div class="ttdeci">virtual PDV_RESULT GetPrimitiveIndexArray(std::vector&lt; DftUInt &gt; &amp;oPrimitiveIndexArray)=0</div><div class="ttdoc">获取图元索引数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_prim_collection_html_af8bbefd3a9098d30c38e972d33717135"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html#af8bbefd3a9098d30c38e972d33717135">kernel::pdv::IMeshPrimCollection::SetType</a></div><div class="ttdeci">virtual PDV_RESULT SetType(const DftUInt &amp;iType)=0</div><div class="ttdoc">设置图元集合类型</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_bounding_box_html"><div class="ttname"><a href="structkernel_1_1pdv_1_1_bounding_box.html">kernel::pdv::BoundingBox</a></div><div class="ttdoc">立方体包围盒</div><div class="ttdef"><b>定义</b> PDVBase.h:407</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_mesh_prim_collection_8h.html">PDVIMeshPrimCollection.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,374 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: kernel::pdv::IAnnotationGeometry类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('classkernel_1_1pdv_1_1_i_annotation_geometry.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">kernel::pdv::IAnnotationGeometry类 参考<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>标注几何的接口  
+ <a href="#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_p_d_v_i_annotation_geometry_8h_source.html">PDVIAnnotationGeometry.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a8dd5169a61c2bd8757c20255dfc34c54" id="r_a8dd5169a61c2bd8757c20255dfc34c54"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dd5169a61c2bd8757c20255dfc34c54">GetID</a> ()=0</td></tr>
+<tr class="memdesc:a8dd5169a61c2bd8757c20255dfc34c54"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取标注辅助几何对象唯一标识  <br /></td></tr>
+<tr class="memitem:a948c961334d85b68e107e091788b904e" id="r_a948c961334d85b68e107e091788b904e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a948c961334d85b68e107e091788b904e">GetMatrix</a> ()=0</td></tr>
+<tr class="memdesc:a948c961334d85b68e107e091788b904e"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取标注辅助几何相对于模型对象的局部变换信息  <br /></td></tr>
+<tr class="memitem:a07992a4caa1596405fb1dbceccd1665e" id="r_a07992a4caa1596405fb1dbceccd1665e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07992a4caa1596405fb1dbceccd1665e">SetMatrix</a> (const <a class="el" href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a> &amp;iTransformation)=0</td></tr>
+<tr class="memdesc:a07992a4caa1596405fb1dbceccd1665e"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置标注辅助几何相对于模型对象的局部变换信息  <br /></td></tr>
+<tr class="memitem:a15687acf61ac99990e0438f949df8bcf" id="r_a15687acf61ac99990e0438f949df8bcf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15687acf61ac99990e0438f949df8bcf">GetBox</a> (<a class="el" href="structkernel_1_1pdv_1_1_oriented_bounding_box.html">OrientedBoundingBox</a> &amp;oBox)=0</td></tr>
+<tr class="memdesc:a15687acf61ac99990e0438f949df8bcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取外包盒  <br /></td></tr>
+<tr class="memitem:a7b8337b01d07d1ab3be24a97f602222a" id="r_a7b8337b01d07d1ab3be24a97f602222a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b8337b01d07d1ab3be24a97f602222a">SetBox</a> (const <a class="el" href="structkernel_1_1pdv_1_1_oriented_bounding_box.html">OrientedBoundingBox</a> &amp;iBox)=0</td></tr>
+<tr class="memdesc:a7b8337b01d07d1ab3be24a97f602222a"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置标注辅助几何的外包盒  <br /></td></tr>
+<tr class="memitem:a62f7739b48077c0fe0ddb744a3db243c" id="r_a62f7739b48077c0fe0ddb744a3db243c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62f7739b48077c0fe0ddb744a3db243c">GetRenderBodyID</a> ()=0</td></tr>
+<tr class="memdesc:a62f7739b48077c0fe0ddb744a3db243c"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取标注辅助几何的渲染主体数据ID  <br /></td></tr>
+<tr class="memitem:af49f2b97c50d9a2371fb87514f425d3e" id="r_af49f2b97c50d9a2371fb87514f425d3e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af49f2b97c50d9a2371fb87514f425d3e">SetRenderBodyID</a> (const <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iRenderBodyID)=0</td></tr>
+<tr class="memdesc:af49f2b97c50d9a2371fb87514f425d3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置标注辅助几何的渲染主体数据ID  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>标注几何的接口 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">成员函数说明</h2>
+<a id="a15687acf61ac99990e0438f949df8bcf" name="a15687acf61ac99990e0438f949df8bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15687acf61ac99990e0438f949df8bcf">&#9670;&#160;</a></span>GetBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationGeometry::GetBox </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structkernel_1_1pdv_1_1_oriented_bounding_box.html">OrientedBoundingBox</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oBox</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取外包盒 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oBox</td><td>外包盒 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a8dd5169a61c2bd8757c20255dfc34c54" name="a8dd5169a61c2bd8757c20255dfc34c54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dd5169a61c2bd8757c20255dfc34c54">&#9670;&#160;</a></span>GetID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> kernel::pdv::IAnnotationGeometry::GetID </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取标注辅助几何对象唯一标识 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33" title="64位无符号整数">DftUInt64</a> 标注辅助几何对象唯一标识 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a948c961334d85b68e107e091788b904e" name="a948c961334d85b68e107e091788b904e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a948c961334d85b68e107e091788b904e">&#9670;&#160;</a></span>GetMatrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a> kernel::pdv::IAnnotationGeometry::GetMatrix </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取标注辅助几何相对于模型对象的局部变换信息 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="struct_p_d_v_matrix4_f.html" title="单精度浮点数4X4矩阵">PDVMatrix4F</a> 局部变换信息 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a62f7739b48077c0fe0ddb744a3db243c" name="a62f7739b48077c0fe0ddb744a3db243c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62f7739b48077c0fe0ddb744a3db243c">&#9670;&#160;</a></span>GetRenderBodyID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> kernel::pdv::IAnnotationGeometry::GetRenderBodyID </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取标注辅助几何的渲染主体数据ID </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33" title="64位无符号整数">DftUInt64</a> 标注辅助几何的渲染主体数据ID </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a7b8337b01d07d1ab3be24a97f602222a" name="a7b8337b01d07d1ab3be24a97f602222a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b8337b01d07d1ab3be24a97f602222a">&#9670;&#160;</a></span>SetBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationGeometry::SetBox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structkernel_1_1pdv_1_1_oriented_bounding_box.html">OrientedBoundingBox</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iBox</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置标注辅助几何的外包盒 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBox</td><td>外包盒 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a07992a4caa1596405fb1dbceccd1665e" name="a07992a4caa1596405fb1dbceccd1665e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07992a4caa1596405fb1dbceccd1665e">&#9670;&#160;</a></span>SetMatrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationGeometry::SetMatrix </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iTransformation</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置标注辅助几何相对于模型对象的局部变换信息 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iTransformation</td><td>局部变换信息 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="af49f2b97c50d9a2371fb87514f425d3e" name="af49f2b97c50d9a2371fb87514f425d3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af49f2b97c50d9a2371fb87514f425d3e">&#9670;&#160;</a></span>SetRenderBodyID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationGeometry::SetRenderBodyID </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iRenderBodyID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置标注辅助几何的渲染主体数据ID </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iRenderBodyID</td><td>标注辅助几何的渲染主体数据ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>PDVSDK-docs/PDVCore/<a class="el" href="_p_d_v_i_annotation_geometry_8h_source.html">PDVIAnnotationGeometry.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>kernel</b></li><li class="navelem"><b>pdv</b></li><li class="navelem"><a href="classkernel_1_1pdv_1_1_i_annotation_geometry.html">IAnnotationGeometry</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+{
+	"models(size = 3)":	{
+		"models[0]":	{
+			"_id":	"251546253793968129",
+			"_bitMask":	9,
+			"_name":	"red",
+			"_box":	{
+				"_min":	[0, 0, 0],
+				"_max":	[100, 100, 100]
+			},
+			"_volume":	1000000,
+			"_surfaceArea":	60000,
+			"_mass":	1,
+			"_centerOfGravity":	[50, 50, 50],
+			"_meshIDs":	"(invalid)",
+			"_primityIDs":	"(invalid)",
+			"_brepIDs(size = 1)":	["251546253772996683"],
+			"_annotationID":	"(invalid)",
+			"_attributeID":	"(invalid)",
+			"_extendBitMasks":	1,
+			"_boundingVolume":	{
+				"_box":	{
+					"_center":	[50, 50, 50],
+					"_vectorX":	[50, 0, 0],
+					"_vectorY":	[0, 50, 0],
+					"_vectorZ":	[0, 0, 50]
+				},
+				"_sphere":	{
+					"_center":	[50, 50, 50],
+					"_radius":	86.6025
+				}
+			},
+			"_modelStatistics":	{
+				"_faceMeshCount":	1,
+				"_faceSubSetCount":	6,
+				"_faceCount":	12,
+				"_lineMeshCount":	1,
+				"_lineSubSetCount":	12,
+				"_lineCount":	12,
+				"_pointMeshCount":	0,
+				"_pointSubSetCount":	0,
+				"_pointCount":	0
+			},
+			"_PMIStatistics":	"(invalid)",
+			"_renderBodyIDs(size = 1)":	["251546253781385216"],
+			"_resultConfigID":	"(invalid)",
+			"_resultID":	"(invalid)",
+			"_referenceGeometryGroupID":	"(invalid)",
+			"_refCount":	2
+		},
+		"models[1]":	{
+			"_id":	"251546254104346639",
+			"_bitMask":	9,
+			"_name":	"red",
+			"_box":	{
+				"_min":	[0, 0, 0],
+				"_max":	[100, 100, 100]
+			},
+			"_volume":	1000000,
+			"_surfaceArea":	60000,
+			"_mass":	1,
+			"_centerOfGravity":	[50, 50, 50],
+			"_meshIDs":	"(invalid)",
+			"_primityIDs":	"(invalid)",
+			"_brepIDs(size = 1)":	["251546254100152398"],
+			"_annotationID":	"(invalid)",
+			"_attributeID":	"(invalid)",
+			"_extendBitMasks":	1,
+			"_boundingVolume":	{
+				"_box":	{
+					"_center":	[50, 50, 50],
+					"_vectorX":	[50, 0, 0],
+					"_vectorY":	[0, 50, 0],
+					"_vectorZ":	[0, 0, 50]
+				},
+				"_sphere":	{
+					"_center":	[50, 50, 50],
+					"_radius":	86.6025
+				}
+			},
+			"_modelStatistics":	{
+				"_faceMeshCount":	1,
+				"_faceSubSetCount":	6,
+				"_faceCount":	12,
+				"_lineMeshCount":	1,
+				"_lineSubSetCount":	12,
+				"_lineCount":	12,
+				"_pointMeshCount":	0,
+				"_pointSubSetCount":	0,
+				"_pointCount":	0
+			},
+			"_PMIStatistics":	"(invalid)",
+			"_renderBodyIDs(size = 1)":	["251546254100152399"],
+			"_resultConfigID":	"(invalid)",
+			"_resultID":	"(invalid)",
+			"_referenceGeometryGroupID":	"(invalid)",
+			"_refCount":	1
+		},
+		"models[2]":	{
+			"_id":	"251546254150483994",
+			"_bitMask":	9,
+			"_name":	"red",
+			"_box":	{
+				"_min":	[0, 0, 0],
+				"_max":	[100, 100, 100]
+			},
+			"_volume":	1000000,
+			"_surfaceArea":	60000,
+			"_mass":	1,
+			"_centerOfGravity":	[50, 50, 50],
+			"_meshIDs":	"(invalid)",
+			"_primityIDs":	"(invalid)",
+			"_brepIDs(size = 1)":	["251546254146289742"],
+			"_annotationID":	"(invalid)",
+			"_attributeID":	"(invalid)",
+			"_extendBitMasks":	1,
+			"_boundingVolume":	{
+				"_box":	{
+					"_center":	[50, 50, 50],
+					"_vectorX":	[50, 0, 0],
+					"_vectorY":	[0, 50, 0],
+					"_vectorZ":	[0, 0, 50]
+				},
+				"_sphere":	{
+					"_center":	[50, 50, 50],
+					"_radius":	86.6025
+				}
+			},
+			"_modelStatistics":	{
+				"_faceMeshCount":	1,
+				"_faceSubSetCount":	6,
+				"_faceCount":	12,
+				"_lineMeshCount":	1,
+				"_lineSubSetCount":	12,
+				"_lineCount":	12,
+				"_pointMeshCount":	0,
+				"_pointSubSetCount":	0,
+				"_pointCount":	0
+			},
+			"_PMIStatistics":	"(invalid)",
+			"_renderBodyIDs(size = 1)":	["251546254150483968"],
+			"_resultConfigID":	"(invalid)",
+			"_resultID":	"(invalid)",
+			"_referenceGeometryGroupID":	"(invalid)",
+			"_refCount":	1
+		}
+	}
+}

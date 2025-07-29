@@ -1,0 +1,361 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: kernel::pdv::IGeomCurveData类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('classkernel_1_1pdv_1_1_i_geom_curve_data.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">kernel::pdv::IGeomCurveData类 参考<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>几何曲线数据接口  
+ <a href="#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_p_d_v_i_geom_curve_data_8h_source.html">PDVIGeomCurveData.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a889decf707898c7e5cf4a27aaf01a3ba" id="r_a889decf707898c7e5cf4a27aaf01a3ba"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a889decf707898c7e5cf4a27aaf01a3ba">GetID</a> () const =0</td></tr>
+<tr class="memdesc:a889decf707898c7e5cf4a27aaf01a3ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取唯一标识  <br /></td></tr>
+<tr class="memitem:a616788ebba69e8f4f1c48101969dfb8f" id="r_a616788ebba69e8f4f1c48101969dfb8f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a616788ebba69e8f4f1c48101969dfb8f">GetType</a> () const =0</td></tr>
+<tr class="memdesc:a616788ebba69e8f4f1c48101969dfb8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取曲线类型  <br /></td></tr>
+<tr class="memitem:a576d9c38948fbe55bf081947615f8f2d" id="r_a576d9c38948fbe55bf081947615f8f2d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_curve.html">ICurve</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a576d9c38948fbe55bf081947615f8f2d">GetCurve</a> () const =0</td></tr>
+<tr class="memdesc:a576d9c38948fbe55bf081947615f8f2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取曲线接口  <br /></td></tr>
+<tr class="memitem:a630224e29b4245ee80b1ffa7f7a7093f" id="r_a630224e29b4245ee80b1ffa7f7a7093f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a630224e29b4245ee80b1ffa7f7a7093f">GetStartParameter</a> () const =0</td></tr>
+<tr class="memdesc:a630224e29b4245ee80b1ffa7f7a7093f"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取起始参数  <br /></td></tr>
+<tr class="memitem:a86ad70a215f4de6c5963dde11c85745f" id="r_a86ad70a215f4de6c5963dde11c85745f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86ad70a215f4de6c5963dde11c85745f">GetEndParameter</a> () const =0</td></tr>
+<tr class="memdesc:a86ad70a215f4de6c5963dde11c85745f"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取终止参数  <br /></td></tr>
+<tr class="memitem:a4416cd4d196493616d2e553f2d747e29" id="r_a4416cd4d196493616d2e553f2d747e29"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classkernel_1_1pdv_1_1_i_curve_on_surface.html">ICurveOnSurface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4416cd4d196493616d2e553f2d747e29">GetCurveOnSurfaceData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iSrfId) const =0</td></tr>
+<tr class="memdesc:a4416cd4d196493616d2e553f2d747e29"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取曲面上的曲线数据  <br /></td></tr>
+<tr class="memitem:afea38be0704c4588f25dfc15dba6b7a3" id="r_afea38be0704c4588f25dfc15dba6b7a3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afea38be0704c4588f25dfc15dba6b7a3">GetCurveOnSurfaceData</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_curve_on_surface.html">ICurveOnSurface</a> * &gt; &amp;iCrvOnSrfs) const =0</td></tr>
+<tr class="memdesc:afea38be0704c4588f25dfc15dba6b7a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取曲面上的曲线数据  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>几何曲线数据接口 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">成员函数说明</h2>
+<a id="a576d9c38948fbe55bf081947615f8f2d" name="a576d9c38948fbe55bf081947615f8f2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a576d9c38948fbe55bf081947615f8f2d">&#9670;&#160;</a></span>GetCurve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_curve.html">ICurve</a> * kernel::pdv::IGeomCurveData::GetCurve </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取曲线接口 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_curve.html" title="曲线接口">ICurve</a> * 曲线接口 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4416cd4d196493616d2e553f2d747e29" name="a4416cd4d196493616d2e553f2d747e29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4416cd4d196493616d2e553f2d747e29">&#9670;&#160;</a></span>GetCurveOnSurfaceData() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="classkernel_1_1pdv_1_1_i_curve_on_surface.html">ICurveOnSurface</a> * kernel::pdv::IGeomCurveData::GetCurveOnSurfaceData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iSrfId</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取曲面上的曲线数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_curve_on_surface.html" title="曲面上的曲线接口">ICurveOnSurface</a> * 曲面上的曲线数据 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSrfId</td><td>曲面的唯一标识 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="afea38be0704c4588f25dfc15dba6b7a3" name="afea38be0704c4588f25dfc15dba6b7a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afea38be0704c4588f25dfc15dba6b7a3">&#9670;&#160;</a></span>GetCurveOnSurfaceData() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void kernel::pdv::IGeomCurveData::GetCurveOnSurfaceData </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_curve_on_surface.html">ICurveOnSurface</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iCrvOnSrfs</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取曲面上的曲线数据 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCrvOnSrfs</td><td>曲面上的曲线数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a86ad70a215f4de6c5963dde11c85745f" name="a86ad70a215f4de6c5963dde11c85745f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86ad70a215f4de6c5963dde11c85745f">&#9670;&#160;</a></span>GetEndParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> kernel::pdv::IGeomCurveData::GetEndParameter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取终止参数 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e" title="双精度浮点数">DftDouble</a> 终止参数 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a889decf707898c7e5cf4a27aaf01a3ba" name="a889decf707898c7e5cf4a27aaf01a3ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a889decf707898c7e5cf4a27aaf01a3ba">&#9670;&#160;</a></span>GetID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> kernel::pdv::IGeomCurveData::GetID </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取唯一标识 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33" title="64位无符号整数">DftUInt64</a> 唯一标识 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a630224e29b4245ee80b1ffa7f7a7093f" name="a630224e29b4245ee80b1ffa7f7a7093f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a630224e29b4245ee80b1ffa7f7a7093f">&#9670;&#160;</a></span>GetStartParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> kernel::pdv::IGeomCurveData::GetStartParameter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取起始参数 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e" title="双精度浮点数">DftDouble</a> 起始参数 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a616788ebba69e8f4f1c48101969dfb8f" name="a616788ebba69e8f4f1c48101969dfb8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a616788ebba69e8f4f1c48101969dfb8f">&#9670;&#160;</a></span>GetType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> kernel::pdv::IGeomCurveData::GetType </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取曲线类型 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6" title="8位无符号整数">DftUInt8</a> 曲线类型，见 <a class="el" href="_p_d_v_i_curve_8h.html#a01ca071217013c6f397bc05d90c5ba97" title="曲线类型">CurveType</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>PDVSDK-docs/PDVCore/<a class="el" href="_p_d_v_i_geom_curve_data_8h_source.html">PDVIGeomCurveData.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>kernel</b></li><li class="navelem"><b>pdv</b></li><li class="navelem"><a href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

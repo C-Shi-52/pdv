@@ -1,0 +1,1121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: kernel::pdv::IMeshPrimCollection类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('classkernel_1_1pdv_1_1_i_mesh_prim_collection.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">kernel::pdv::IMeshPrimCollection类 参考<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>网格图元集合的接口  
+ <a href="#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_p_d_v_i_mesh_prim_collection_8h_source.html">PDVIMeshPrimCollection.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a3de93f14e811ed47c5ae72671b235e8e" id="r_a3de93f14e811ed47c5ae72671b235e8e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3de93f14e811ed47c5ae72671b235e8e">GetBitMask</a> ()=0</td></tr>
+<tr class="memdesc:a3de93f14e811ed47c5ae72671b235e8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图元集合对象的内容标志  <br /></td></tr>
+<tr class="memitem:ab6a6f1b95bce0952ec3dc068cbf5b284" id="r_ab6a6f1b95bce0952ec3dc068cbf5b284"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6a6f1b95bce0952ec3dc068cbf5b284">SetBitMask</a> (const <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iBitMask)=0</td></tr>
+<tr class="memdesc:ab6a6f1b95bce0952ec3dc068cbf5b284"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图元集合对象的内容标志  <br /></td></tr>
+<tr class="memitem:a2ac228192de3b9fa70d63eed096a6e73" id="r_a2ac228192de3b9fa70d63eed096a6e73"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ac228192de3b9fa70d63eed096a6e73">GetID</a> ()=0</td></tr>
+<tr class="memdesc:a2ac228192de3b9fa70d63eed096a6e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图元集合对象唯一标识  <br /></td></tr>
+<tr class="memitem:a437d66ca50c030ffb37045564cf386f0" id="r_a437d66ca50c030ffb37045564cf386f0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a437d66ca50c030ffb37045564cf386f0">GetMaterialFlag</a> ()=0</td></tr>
+<tr class="memdesc:a437d66ca50c030ffb37045564cf386f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图元集合对象是否包含材质  <br /></td></tr>
+<tr class="memitem:a93e2d73a2594f518f505df0dccf0c3f7" id="r_a93e2d73a2594f518f505df0dccf0c3f7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93e2d73a2594f518f505df0dccf0c3f7">SetMaterialFlag</a> (const <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;iMaterialFlag)=0</td></tr>
+<tr class="memdesc:a93e2d73a2594f518f505df0dccf0c3f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图元集合对象是否包含材质  <br /></td></tr>
+<tr class="memitem:abfe2ef7839d6973578fbbe2a0c28663f" id="r_abfe2ef7839d6973578fbbe2a0c28663f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfe2ef7839d6973578fbbe2a0c28663f">GetBoundingBoxFlag</a> ()=0</td></tr>
+<tr class="memdesc:abfe2ef7839d6973578fbbe2a0c28663f"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图元集合对象是否包含包围盒数据  <br /></td></tr>
+<tr class="memitem:aab72be59bc64b21a8082b4368477834c" id="r_aab72be59bc64b21a8082b4368477834c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab72be59bc64b21a8082b4368477834c">SetBoundingBoxFlag</a> (const <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;iBoundingBoxFlag)=0</td></tr>
+<tr class="memdesc:aab72be59bc64b21a8082b4368477834c"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图元集合对象是否包含包围盒数据  <br /></td></tr>
+<tr class="memitem:a7caf1231c9e1865ffcad98be8732d7a8" id="r_a7caf1231c9e1865ffcad98be8732d7a8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7caf1231c9e1865ffcad98be8732d7a8">GetTopoFlag</a> ()=0</td></tr>
+<tr class="memdesc:a7caf1231c9e1865ffcad98be8732d7a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图元集合对象是否是拓扑实体  <br /></td></tr>
+<tr class="memitem:a553056a94e2852ad56f0029819a870ce" id="r_a553056a94e2852ad56f0029819a870ce"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a553056a94e2852ad56f0029819a870ce">SetTopoFlag</a> (const <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;iIsTopoSolid)=0</td></tr>
+<tr class="memdesc:a553056a94e2852ad56f0029819a870ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图元集合对象是否是拓扑实体  <br /></td></tr>
+<tr class="memitem:a2c9da276e41ebc2c8923fc4f5a853e98" id="r_a2c9da276e41ebc2c8923fc4f5a853e98"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c9da276e41ebc2c8923fc4f5a853e98">GetType</a> ()=0</td></tr>
+<tr class="memdesc:a2c9da276e41ebc2c8923fc4f5a853e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图元集合类型  <br /></td></tr>
+<tr class="memitem:af8bbefd3a9098d30c38e972d33717135" id="r_af8bbefd3a9098d30c38e972d33717135"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8bbefd3a9098d30c38e972d33717135">SetType</a> (const <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;iType)=0</td></tr>
+<tr class="memdesc:af8bbefd3a9098d30c38e972d33717135"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图元集合类型  <br /></td></tr>
+<tr class="memitem:a2e5ff58055e65c0cc262be315a37bf4d" id="r_a2e5ff58055e65c0cc262be315a37bf4d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e5ff58055e65c0cc262be315a37bf4d">GetMaterialID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;oMaterialID)=0</td></tr>
+<tr class="memdesc:a2e5ff58055e65c0cc262be315a37bf4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图元集合对象的材质ID  <br /></td></tr>
+<tr class="memitem:a046c2c11bad297ea868ff3bc52581264" id="r_a046c2c11bad297ea868ff3bc52581264"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a046c2c11bad297ea868ff3bc52581264">SetMaterialID</a> (const <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iMaterialID)=0</td></tr>
+<tr class="memdesc:a046c2c11bad297ea868ff3bc52581264"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图元集合对象的材质ID  <br /></td></tr>
+<tr class="memitem:a3eec86b9ba46c006a920234bc5932739" id="r_a3eec86b9ba46c006a920234bc5932739"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eec86b9ba46c006a920234bc5932739">GetPointStyle</a> (<a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;oPointStyle)=0</td></tr>
+<tr class="memdesc:a3eec86b9ba46c006a920234bc5932739"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图元集合对象的点类型  <br /></td></tr>
+<tr class="memitem:a5f7bda8f7a7a644f4bd51c8f6dac78bc" id="r_a5f7bda8f7a7a644f4bd51c8f6dac78bc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f7bda8f7a7a644f4bd51c8f6dac78bc">SetPointStyle</a> (const <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iPointStyle)=0</td></tr>
+<tr class="memdesc:a5f7bda8f7a7a644f4bd51c8f6dac78bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图元集合对象的点类型  <br /></td></tr>
+<tr class="memitem:a31217f1f8e81803b9ab9c771606a13e8" id="r_a31217f1f8e81803b9ab9c771606a13e8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31217f1f8e81803b9ab9c771606a13e8">GetLineStyle</a> (<a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;oLineStyle)=0</td></tr>
+<tr class="memdesc:a31217f1f8e81803b9ab9c771606a13e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图元集合对象的线类型  <br /></td></tr>
+<tr class="memitem:a5ac6ec6dc7c7d7585322b3f1b053a4ff" id="r_a5ac6ec6dc7c7d7585322b3f1b053a4ff"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ac6ec6dc7c7d7585322b3f1b053a4ff">SetLineStyle</a> (const <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iLineStyle)=0</td></tr>
+<tr class="memdesc:a5ac6ec6dc7c7d7585322b3f1b053a4ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图元集合对象的线类型  <br /></td></tr>
+<tr class="memitem:a3f1d176975ea25d53e4799c037ad7152" id="r_a3f1d176975ea25d53e4799c037ad7152"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f1d176975ea25d53e4799c037ad7152">GetLength</a> ()=0</td></tr>
+<tr class="memdesc:a3f1d176975ea25d53e4799c037ad7152"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取子集对象的曲线长度  <br /></td></tr>
+<tr class="memitem:a4bdeb988be6b1fd4ff68b910beee6c3d" id="r_a4bdeb988be6b1fd4ff68b910beee6c3d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bdeb988be6b1fd4ff68b910beee6c3d">SetLength</a> (const <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iLength)=0</td></tr>
+<tr class="memdesc:a4bdeb988be6b1fd4ff68b910beee6c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置子集对象的曲线长度  <br /></td></tr>
+<tr class="memitem:a3a45bf6d578ec4e7b3b04d69f3c01468" id="r_a3a45bf6d578ec4e7b3b04d69f3c01468"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a45bf6d578ec4e7b3b04d69f3c01468">GetArea</a> ()=0</td></tr>
+<tr class="memdesc:a3a45bf6d578ec4e7b3b04d69f3c01468"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取子集对象的曲面面积  <br /></td></tr>
+<tr class="memitem:a16e8faf44c042d2664d0385b8339c6e3" id="r_a16e8faf44c042d2664d0385b8339c6e3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16e8faf44c042d2664d0385b8339c6e3">SetArea</a> (const <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iArea)=0</td></tr>
+<tr class="memdesc:a16e8faf44c042d2664d0385b8339c6e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置子集对象的曲面面积  <br /></td></tr>
+<tr class="memitem:a52b5db826606402f317e26fc3a9d3a03" id="r_a52b5db826606402f317e26fc3a9d3a03"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52b5db826606402f317e26fc3a9d3a03">GetBoundingBox</a> (<a class="el" href="structkernel_1_1pdv_1_1_bounding_box.html">BoundingBox</a> &amp;oBoundingBox)=0</td></tr>
+<tr class="memdesc:a52b5db826606402f317e26fc3a9d3a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取包围盒数据  <br /></td></tr>
+<tr class="memitem:ad13f2185eb8e218784de05a87f7d1470" id="r_ad13f2185eb8e218784de05a87f7d1470"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad13f2185eb8e218784de05a87f7d1470">GetBoundingBoxCornerPoints</a> (<a class="el" href="_dft_types_8h.html#a06a1d0913eea2e2cec287161e6e94f73">DftVector3F</a> oCornerPoints[8])=0</td></tr>
+<tr class="memdesc:ad13f2185eb8e218784de05a87f7d1470"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图元集合包围盒的角点  <br /></td></tr>
+<tr class="memitem:a29ce592ba2973d85414f33c1e5ae2cf8" id="r_a29ce592ba2973d85414f33c1e5ae2cf8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29ce592ba2973d85414f33c1e5ae2cf8">SetBoundingBox</a> (const <a class="el" href="structkernel_1_1pdv_1_1_bounding_box.html">BoundingBox</a> &amp;iBoundingBox)=0</td></tr>
+<tr class="memdesc:a29ce592ba2973d85414f33c1e5ae2cf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置包围盒数据  <br /></td></tr>
+<tr class="memitem:ada85ea613cc5904b97e4c5b054334269" id="r_ada85ea613cc5904b97e4c5b054334269"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada85ea613cc5904b97e4c5b054334269">GetTopoID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;oTopoID)=0</td></tr>
+<tr class="memdesc:ada85ea613cc5904b97e4c5b054334269"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图元集合关联拓扑ID  <br /></td></tr>
+<tr class="memitem:a37e9b599fb70b30fc6a717fa7fe8ae02" id="r_a37e9b599fb70b30fc6a717fa7fe8ae02"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37e9b599fb70b30fc6a717fa7fe8ae02">SetTopoID</a> (const <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iTopoID)=0</td></tr>
+<tr class="memdesc:a37e9b599fb70b30fc6a717fa7fe8ae02"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图元集合关联拓扑ID  <br /></td></tr>
+<tr class="memitem:af3ca6b571b5a5ee0f4fd280f903b6172" id="r_af3ca6b571b5a5ee0f4fd280f903b6172"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3ca6b571b5a5ee0f4fd280f903b6172">GetPrimitiveIndexArray</a> (std::vector&lt; <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &gt; &amp;oPrimitiveIndexArray)=0</td></tr>
+<tr class="memdesc:af3ca6b571b5a5ee0f4fd280f903b6172"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图元索引数据  <br /></td></tr>
+<tr class="memitem:a0d7cd43611243b8f02f0facea7492215" id="r_a0d7cd43611243b8f02f0facea7492215"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d7cd43611243b8f02f0facea7492215">SetPrimitiveIndexArray</a> (const std::vector&lt; <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &gt; &amp;iPrimitiveIndexArray)=0</td></tr>
+<tr class="memdesc:a0d7cd43611243b8f02f0facea7492215"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图元索引数据  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>网格图元集合的接口 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">成员函数说明</h2>
+<a id="a3a45bf6d578ec4e7b3b04d69f3c01468" name="a3a45bf6d578ec4e7b3b04d69f3c01468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a45bf6d578ec4e7b3b04d69f3c01468">&#9670;&#160;</a></span>GetArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> kernel::pdv::IMeshPrimCollection::GetArea </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取子集对象的曲面面积 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b" title="单精度浮点数">DftFloat</a> 曲面面积 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd>如果子集对象的类型为 SUBSETTYPE_SURFACE 则返回曲面面积，否则返回0 </dd></dl>
+
+</div>
+</div>
+<a id="a3de93f14e811ed47c5ae72671b235e8e" name="a3de93f14e811ed47c5ae72671b235e8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3de93f14e811ed47c5ae72671b235e8e">&#9670;&#160;</a></span>GetBitMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> kernel::pdv::IMeshPrimCollection::GetBitMask </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取图元集合对象的内容标志 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6" title="8位无符号整数">DftUInt8</a> 图元集合对象的内容标志 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd>第1位：是否关联材质；第2位：是否包含图元集合；第3-8位：保留使用，固定设置为0 </dd></dl>
+
+</div>
+</div>
+<a id="a52b5db826606402f317e26fc3a9d3a03" name="a52b5db826606402f317e26fc3a9d3a03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52b5db826606402f317e26fc3a9d3a03">&#9670;&#160;</a></span>GetBoundingBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::GetBoundingBox </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structkernel_1_1pdv_1_1_bounding_box.html">BoundingBox</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oBoundingBox</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取包围盒数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oBoundingBox</td><td>包围盒数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果图元集合对象包含包围盒数据，则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7">PDV_RESULT_NO_ERROR</a> 否则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62dada79fc97bc79907f42aebce9dba58d56">PDV_RESULT_MESHPRIMCOLLECTION_NO_BOUNDINGBOX</a> </dd></dl>
+
+</div>
+</div>
+<a id="ad13f2185eb8e218784de05a87f7d1470" name="ad13f2185eb8e218784de05a87f7d1470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad13f2185eb8e218784de05a87f7d1470">&#9670;&#160;</a></span>GetBoundingBoxCornerPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::GetBoundingBoxCornerPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a06a1d0913eea2e2cec287161e6e94f73">DftVector3F</a></td>          <td class="paramname"><span class="paramname"><em>oCornerPoints</em></span>[8]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取图元集合包围盒的角点 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oCornerPoints</td><td>图元集合包围盒的角点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="abfe2ef7839d6973578fbbe2a0c28663f" name="abfe2ef7839d6973578fbbe2a0c28663f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfe2ef7839d6973578fbbe2a0c28663f">&#9670;&#160;</a></span>GetBoundingBoxFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::IMeshPrimCollection::GetBoundingBoxFlag </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取图元集合对象是否包含包围盒数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 图元集合对象是否包含包围盒数据 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a2ac228192de3b9fa70d63eed096a6e73" name="a2ac228192de3b9fa70d63eed096a6e73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ac228192de3b9fa70d63eed096a6e73">&#9670;&#160;</a></span>GetID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> kernel::pdv::IMeshPrimCollection::GetID </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取图元集合对象唯一标识 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33" title="64位无符号整数">DftUInt64</a> 图元集合对象唯一标识 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a3f1d176975ea25d53e4799c037ad7152" name="a3f1d176975ea25d53e4799c037ad7152"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f1d176975ea25d53e4799c037ad7152">&#9670;&#160;</a></span>GetLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> kernel::pdv::IMeshPrimCollection::GetLength </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取子集对象的曲线长度 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b" title="单精度浮点数">DftFloat</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd>如果子集对象的类型为 SUBSETTYPE_CURVE 则返回曲线长度，否则返回0 </dd></dl>
+
+</div>
+</div>
+<a id="a31217f1f8e81803b9ab9c771606a13e8" name="a31217f1f8e81803b9ab9c771606a13e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31217f1f8e81803b9ab9c771606a13e8">&#9670;&#160;</a></span>GetLineStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::GetLineStyle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oLineStyle</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取图元集合对象的线类型 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oLineStyle</td><td>图元集合对象的线类型 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果图元集合对象的类型为 <a class="el" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbbac90103e092fe0cf16d97efaccb0a6f82">PRIMCOLLECTIONTYPE_CURVE</a> 则返回线类型 </dd></dl>
+
+</div>
+</div>
+<a id="a437d66ca50c030ffb37045564cf386f0" name="a437d66ca50c030ffb37045564cf386f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a437d66ca50c030ffb37045564cf386f0">&#9670;&#160;</a></span>GetMaterialFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::IMeshPrimCollection::GetMaterialFlag </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取图元集合对象是否包含材质 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 图元集合对象是否包含材质 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a2e5ff58055e65c0cc262be315a37bf4d" name="a2e5ff58055e65c0cc262be315a37bf4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e5ff58055e65c0cc262be315a37bf4d">&#9670;&#160;</a></span>GetMaterialID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::GetMaterialID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oMaterialID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取图元集合对象的材质ID </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oMaterialID</td><td>图元集合对象的材质ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果图元集合对象包含颜色和透明度数据，则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7">PDV_RESULT_NO_ERROR</a> 否则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da6a9205bf05f4e459d5f698fb4fdb4896">PDV_RESULT_MESHPRIMCOLLECTION_NO_MATERIAL</a> </dd></dl>
+
+</div>
+</div>
+<a id="a3eec86b9ba46c006a920234bc5932739" name="a3eec86b9ba46c006a920234bc5932739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eec86b9ba46c006a920234bc5932739">&#9670;&#160;</a></span>GetPointStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::GetPointStyle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oPointStyle</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取图元集合对象的点类型 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oPointStyle</td><td>图元集合对象的点类型 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果图元集合对象的类型为 <a class="el" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbba4a45e179b14ebf08dc859abae06179db">PRIMCOLLECTIONTYPE_POINT</a> 则返回点类型 </dd></dl>
+
+</div>
+</div>
+<a id="af3ca6b571b5a5ee0f4fd280f903b6172" name="af3ca6b571b5a5ee0f4fd280f903b6172"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3ca6b571b5a5ee0f4fd280f903b6172">&#9670;&#160;</a></span>GetPrimitiveIndexArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::GetPrimitiveIndexArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oPrimitiveIndexArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取图元索引数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oPrimitiveIndexArray</td><td>图元索引数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a7caf1231c9e1865ffcad98be8732d7a8" name="a7caf1231c9e1865ffcad98be8732d7a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7caf1231c9e1865ffcad98be8732d7a8">&#9670;&#160;</a></span>GetTopoFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::IMeshPrimCollection::GetTopoFlag </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取图元集合对象是否是拓扑实体 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 图元集合对象是否是拓扑实体 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ada85ea613cc5904b97e4c5b054334269" name="ada85ea613cc5904b97e4c5b054334269"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada85ea613cc5904b97e4c5b054334269">&#9670;&#160;</a></span>GetTopoID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::GetTopoID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oTopoID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取图元集合关联拓扑ID </p>
+<dl class="section return"><dt>返回</dt><dd>如果图元集合对象包含topo数据，则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7">PDV_RESULT_NO_ERROR</a> 否则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da10a18e9b5e1e6a506f79c703cdfbdb77">PDV_RESULT_MESHPRIMCOLLECTION_NO_TOPO</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oTopoID</td><td>图元集合关联拓扑ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a2c9da276e41ebc2c8923fc4f5a853e98" name="a2c9da276e41ebc2c8923fc4f5a853e98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c9da276e41ebc2c8923fc4f5a853e98">&#9670;&#160;</a></span>GetType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> kernel::pdv::IMeshPrimCollection::GetType </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取图元集合类型 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f" title="无符号整数">DftUInt</a> 图元集合类型 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a16e8faf44c042d2664d0385b8339c6e3" name="a16e8faf44c042d2664d0385b8339c6e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16e8faf44c042d2664d0385b8339c6e3">&#9670;&#160;</a></span>SetArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetArea </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iArea</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置子集对象的曲面面积 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iArea</td><td>子集对象的曲面面积 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果子集对象的类型为 SUBSETTYPE_SURFACE 则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7">PDV_RESULT_NO_ERROR</a> 否则返回 PDV_RESULT_MESHSUBSET_TYPE_ERROR </dd></dl>
+
+</div>
+</div>
+<a id="ab6a6f1b95bce0952ec3dc068cbf5b284" name="ab6a6f1b95bce0952ec3dc068cbf5b284"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6a6f1b95bce0952ec3dc068cbf5b284">&#9670;&#160;</a></span>SetBitMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetBitMask </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iBitMask</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置图元集合对象的内容标志 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBitMask</td><td>图元集合对象的内容标志 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a29ce592ba2973d85414f33c1e5ae2cf8" name="a29ce592ba2973d85414f33c1e5ae2cf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29ce592ba2973d85414f33c1e5ae2cf8">&#9670;&#160;</a></span>SetBoundingBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetBoundingBox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structkernel_1_1pdv_1_1_bounding_box.html">BoundingBox</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iBoundingBox</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置包围盒数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBoundingBox</td><td>包围盒数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果图元集合对象包含包围盒数据，则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7">PDV_RESULT_NO_ERROR</a> 否则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62dada79fc97bc79907f42aebce9dba58d56">PDV_RESULT_MESHPRIMCOLLECTION_NO_BOUNDINGBOX</a> </dd></dl>
+
+</div>
+</div>
+<a id="aab72be59bc64b21a8082b4368477834c" name="aab72be59bc64b21a8082b4368477834c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab72be59bc64b21a8082b4368477834c">&#9670;&#160;</a></span>SetBoundingBoxFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetBoundingBoxFlag </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iBoundingBoxFlag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置图元集合对象是否包含包围盒数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBoundingBoxFlag</td><td>图元集合对象是否包含包围盒数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4bdeb988be6b1fd4ff68b910beee6c3d" name="a4bdeb988be6b1fd4ff68b910beee6c3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bdeb988be6b1fd4ff68b910beee6c3d">&#9670;&#160;</a></span>SetLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iLength</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置子集对象的曲线长度 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iLength</td><td>子集对象的曲线长度 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果子集对象的类型为 SUBSETTYPE_CURVE 则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7">PDV_RESULT_NO_ERROR</a> 否则返回 PDV_RESULT_MESHSUBSET_TYPE_ERROR </dd></dl>
+
+</div>
+</div>
+<a id="a5ac6ec6dc7c7d7585322b3f1b053a4ff" name="a5ac6ec6dc7c7d7585322b3f1b053a4ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ac6ec6dc7c7d7585322b3f1b053a4ff">&#9670;&#160;</a></span>SetLineStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetLineStyle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iLineStyle</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置图元集合对象的线类型 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iLineStyle</td><td>图元集合对象的线类型 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果图元集合对象的类型为 <a class="el" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbbac90103e092fe0cf16d97efaccb0a6f82">PRIMCOLLECTIONTYPE_CURVE</a> 则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7">PDV_RESULT_NO_ERROR</a> 否则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da64243821860d3a45b1aed5bb7f98875c">PDV_RESULT_MESHPRIMCOLLECTION_TYPE_ERROR</a> </dd></dl>
+
+</div>
+</div>
+<a id="a93e2d73a2594f518f505df0dccf0c3f7" name="a93e2d73a2594f518f505df0dccf0c3f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93e2d73a2594f518f505df0dccf0c3f7">&#9670;&#160;</a></span>SetMaterialFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetMaterialFlag </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iMaterialFlag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置图元集合对象是否包含材质 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iMaterialFlag</td><td>图元集合对象是否包含材质 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a046c2c11bad297ea868ff3bc52581264" name="a046c2c11bad297ea868ff3bc52581264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a046c2c11bad297ea868ff3bc52581264">&#9670;&#160;</a></span>SetMaterialID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetMaterialID </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iMaterialID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置图元集合对象的材质ID </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iMaterialID</td><td>图元集合对象的材质ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果图元集合对象包含颜色和透明度数据，则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7">PDV_RESULT_NO_ERROR</a> 否则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da6a9205bf05f4e459d5f698fb4fdb4896">PDV_RESULT_MESHPRIMCOLLECTION_NO_MATERIAL</a> </dd></dl>
+
+</div>
+</div>
+<a id="a5f7bda8f7a7a644f4bd51c8f6dac78bc" name="a5f7bda8f7a7a644f4bd51c8f6dac78bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f7bda8f7a7a644f4bd51c8f6dac78bc">&#9670;&#160;</a></span>SetPointStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetPointStyle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iPointStyle</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置图元集合对象的点类型 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPointStyle</td><td>图元集合对象的曲点类型 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果图元集合对象的类型为 <a class="el" href="_p_d_v_i_mesh_prim_collection_8h.html#a280fd4e87481090080d30d2f5b6a2fbba4a45e179b14ebf08dc859abae06179db">PRIMCOLLECTIONTYPE_POINT</a> 则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7">PDV_RESULT_NO_ERROR</a> 否则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da64243821860d3a45b1aed5bb7f98875c">PDV_RESULT_MESHPRIMCOLLECTION_TYPE_ERROR</a> </dd></dl>
+
+</div>
+</div>
+<a id="a0d7cd43611243b8f02f0facea7492215" name="a0d7cd43611243b8f02f0facea7492215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d7cd43611243b8f02f0facea7492215">&#9670;&#160;</a></span>SetPrimitiveIndexArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetPrimitiveIndexArray </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iPrimitiveIndexArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置图元索引数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPrimitiveIndexArray</td><td>图元索引数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a553056a94e2852ad56f0029819a870ce" name="a553056a94e2852ad56f0029819a870ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a553056a94e2852ad56f0029819a870ce">&#9670;&#160;</a></span>SetTopoFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetTopoFlag </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iIsTopoSolid</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置图元集合对象是否是拓扑实体 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iIsTopoSolid</td><td>图元集合对象是否是拓扑实体 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a37e9b599fb70b30fc6a717fa7fe8ae02" name="a37e9b599fb70b30fc6a717fa7fe8ae02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37e9b599fb70b30fc6a717fa7fe8ae02">&#9670;&#160;</a></span>SetTopoID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetTopoID </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iTopoID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置图元集合关联拓扑ID </p>
+<dl class="section return"><dt>返回</dt><dd>如果图元集合对象包含topo数据，则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7">PDV_RESULT_NO_ERROR</a> 否则返回 <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62da10a18e9b5e1e6a506f79c703cdfbdb77">PDV_RESULT_MESHPRIMCOLLECTION_NO_TOPO</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iTopoID</td><td>图元集合关联拓扑ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="af8bbefd3a9098d30c38e972d33717135" name="af8bbefd3a9098d30c38e972d33717135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8bbefd3a9098d30c38e972d33717135">&#9670;&#160;</a></span>SetType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IMeshPrimCollection::SetType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iType</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置图元集合类型 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iType</td><td>图元集合类型 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>PDVSDK-docs/PDVCore/<a class="el" href="_p_d_v_i_mesh_prim_collection_8h_source.html">PDVIMeshPrimCollection.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>kernel</b></li><li class="navelem"><b>pdv</b></li><li class="navelem"><a href="classkernel_1_1pdv_1_1_i_mesh_prim_collection.html">IMeshPrimCollection</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

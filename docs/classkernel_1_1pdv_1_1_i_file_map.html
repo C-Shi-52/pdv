@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: kernel::pdv::IFileMap类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('classkernel_1_1pdv_1_1_i_file_map.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">kernel::pdv::IFileMap类 参考<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>PDV文件链接的接口  
+ <a href="#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_p_d_v_i_external_link_8h_source.html">PDVIExternalLink.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a15050f6184c1861388e5a828032d42f3" id="r_a15050f6184c1861388e5a828032d42f3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15050f6184c1861388e5a828032d42f3">GetPath</a> ()=0</td></tr>
+<tr class="memdesc:a15050f6184c1861388e5a828032d42f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取外部PDV文件路径，采用当前文件路径的相对路径表达  <br /></td></tr>
+<tr class="memitem:ace5dc641985e0f451cc927f6b77f52c6" id="r_ace5dc641985e0f451cc927f6b77f52c6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace5dc641985e0f451cc927f6b77f52c6">SetPath</a> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iPath)=0</td></tr>
+<tr class="memdesc:ace5dc641985e0f451cc927f6b77f52c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置外部PDV文件路径  <br /></td></tr>
+<tr class="memitem:a95a5b39d58293d0f650859bf89149107" id="r_a95a5b39d58293d0f650859bf89149107"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95a5b39d58293d0f650859bf89149107">GetObjectIDMapArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_i_d_map.html">IIDMap</a> * &gt; &amp;oObjIDMapArray)=0</td></tr>
+<tr class="memdesc:a95a5b39d58293d0f650859bf89149107"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取外部PDV文件链接的数据对象标识映射数据  <br /></td></tr>
+<tr class="memitem:aaf22c7796b2243fd3f6fa2ea36d55870" id="r_aaf22c7796b2243fd3f6fa2ea36d55870"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_i_d_map.html">IIDMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf22c7796b2243fd3f6fa2ea36d55870">AddObjectIDMap</a> ()=0</td></tr>
+<tr class="memdesc:aaf22c7796b2243fd3f6fa2ea36d55870"><td class="mdescLeft">&#160;</td><td class="mdescRight">添加外部PDV文件链接的数据对象标识映射数据  <br /></td></tr>
+<tr class="memitem:a73ca0dd1c5671004150cfaf1703cabba" id="r_a73ca0dd1c5671004150cfaf1703cabba"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73ca0dd1c5671004150cfaf1703cabba">ClearObjectIDMapArray</a> ()=0</td></tr>
+<tr class="memdesc:a73ca0dd1c5671004150cfaf1703cabba"><td class="mdescLeft">&#160;</td><td class="mdescRight">清除外部PDV文件链接的数据对象标识映射数据  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>PDV文件链接的接口 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">成员函数说明</h2>
+<a id="aaf22c7796b2243fd3f6fa2ea36d55870" name="aaf22c7796b2243fd3f6fa2ea36d55870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf22c7796b2243fd3f6fa2ea36d55870">&#9670;&#160;</a></span>AddObjectIDMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_i_d_map.html">IIDMap</a> * kernel::pdv::IFileMap::AddObjectIDMap </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>添加外部PDV文件链接的数据对象标识映射数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_i_d_map.html" title="PDV数据对象标识映射的接口">IIDMap</a> * 外部PDV文件链接的数据对象标识映射数据 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a73ca0dd1c5671004150cfaf1703cabba" name="a73ca0dd1c5671004150cfaf1703cabba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73ca0dd1c5671004150cfaf1703cabba">&#9670;&#160;</a></span>ClearObjectIDMapArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IFileMap::ClearObjectIDMapArray </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>清除外部PDV文件链接的数据对象标识映射数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a95a5b39d58293d0f650859bf89149107" name="a95a5b39d58293d0f650859bf89149107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95a5b39d58293d0f650859bf89149107">&#9670;&#160;</a></span>GetObjectIDMapArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IFileMap::GetObjectIDMapArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_i_d_map.html">IIDMap</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oObjIDMapArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取外部PDV文件链接的数据对象标识映射数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oObjIDMapArray</td><td>外部PDV文件链接的数据对象标识映射数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a15050f6184c1861388e5a828032d42f3" name="a15050f6184c1861388e5a828032d42f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15050f6184c1861388e5a828032d42f3">&#9670;&#160;</a></span>GetPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> kernel::pdv::IFileMap::GetPath </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取外部PDV文件路径，采用当前文件路径的相对路径表达 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="class_c_unicode_string.html" title="Unicode字符操作接口">CUnicodeString</a> 外部PDV文件路径 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ace5dc641985e0f451cc927f6b77f52c6" name="ace5dc641985e0f451cc927f6b77f52c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace5dc641985e0f451cc927f6b77f52c6">&#9670;&#160;</a></span>SetPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IFileMap::SetPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置外部PDV文件路径 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPath</td><td>外部PDV文件路径 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>PDVSDK-docs/PDVCore/<a class="el" href="_p_d_v_i_external_link_8h_source.html">PDVIExternalLink.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>kernel</b></li><li class="navelem"><b>pdv</b></li><li class="navelem"><a href="classkernel_1_1pdv_1_1_i_file_map.html">IFileMap</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

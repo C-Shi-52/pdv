@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/DftBase/DftFileOS.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_dft_file_o_s_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">DftFileOS.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_dft_file_o_s_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef DFT_DftFileOS_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define DFT_DftFileOS_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="_dft_base_8h.html">DftBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_dft_define_8h.html">DftDefine.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="_dft_types_8h.html">DftTypes.h</a>&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">struct </span>Dft_FOLDER_PATHINFO;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a3a956f10a66329e375117326bfec11ee">   26</a></span>DFT_PUBLIC(<a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a3a956f10a66329e375117326bfec11ee">DftIsFileExist</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iFilename);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a06c81ae6fd8a141b20cd84f6bee3eb80">   34</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a06c81ae6fd8a141b20cd84f6bee3eb80">DftRecursiveCreateDirectoryByPath</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iPath);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a896cc4b9f1f3efad798aa33367a97d12">   42</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a896cc4b9f1f3efad798aa33367a97d12">DftGetExecutablePath</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>** oStrPathOut);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a3fd61d216e2d5e406aede4419b413fcd">   50</a></span>DFT_PUBLIC(<a class="code hl_typedef" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a3fd61d216e2d5e406aede4419b413fcd">DftGetFileSize</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iFilePath);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a1b6e214bf27dc04c169efa6ca990e486">   59</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a1b6e214bf27dc04c169efa6ca990e486">DftNormalizePathString</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iStrPathIn, <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>** oStrPathOut);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a55779b39d47e450e463983e0b2b60ce8">   68</a></span>DFT_PUBLIC(<a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a55779b39d47e450e463983e0b2b60ce8">DftIsPathEqual</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iStrPath1, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iStrPath2);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#ade3a6bcc06615da79062b9f057296f38">   77</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#ade3a6bcc06615da79062b9f057296f38">DftGetParentDirectoryByPath</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iStrFullPath, <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>** oStrPathOut);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a30789f6bc503d14e0c033378c3dc3c28">   86</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a30789f6bc503d14e0c033378c3dc3c28">DftGetFileNameByPath</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iStrFullPath, <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>** oFileNameOut);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#ac5c96060af7d4c33c354dc357a185c1e">   95</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#ac5c96060af7d4c33c354dc357a185c1e">DftGetFileNameNoExtByPath</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iStrFullPath, <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>** oFileName);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a7bf54443a98e8dc8ba1e1a745c3ce1f3">  104</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a7bf54443a98e8dc8ba1e1a745c3ce1f3">DftGetDirectoryByPath</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iStrFullPath, <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>** oDirPath);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a93f36132a650729f558556fe1bfb35a8">  113</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a93f36132a650729f558556fe1bfb35a8">DftGetFileExtByPath</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iStrFullPath, <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>** oExtName);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a8110dbd5a7e28cc75ddc9010f2545a23">  120</a></span>DFT_PUBLIC(Dft_FOLDER_PATHINFO*) <a class="code hl_function" href="_dft_file_o_s_8h.html#a8110dbd5a7e28cc75ddc9010f2545a23">DftCreateFolderPathInfo</a>();</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a6309f074dabe4c53eb6c2dc459d39d9d">  128</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a6309f074dabe4c53eb6c2dc459d39d9d">DftDestroyFolderPathInfo</a>(Dft_FOLDER_PATHINFO* iFolderPahtInfo);</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#abc49ae111131a2e3aac31b890545b355">  136</a></span>DFT_PUBLIC(<a class="code hl_typedef" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#abc49ae111131a2e3aac31b890545b355">DftGetSubFileCount</a>(<span class="keyword">const</span> Dft_FOLDER_PATHINFO* iFolderPahtInfo);</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span></div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#ad2d3621e37a7873e156fae8ae5c5ea8f">  145</a></span>DFT_PUBLIC(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>*) <a class="code hl_function" href="_dft_file_o_s_8h.html#ad2d3621e37a7873e156fae8ae5c5ea8f">DftGetSubFilePath</a>(<span class="keyword">const</span> Dft_FOLDER_PATHINFO* iFolderPahtInfo, <span class="keywordtype">size_t</span> oIndex);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span></div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#ae4c95758ce118abd1e9ea2a584bbb6fe">  153</a></span>DFT_PUBLIC(<a class="code hl_typedef" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#ae4c95758ce118abd1e9ea2a584bbb6fe">DftGetSubFolderCount</a>(<span class="keyword">const</span> Dft_FOLDER_PATHINFO* iFolderPahtInfo);</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span></div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#aa9805b02fb415d99dbb71b7aaa5fc96d">  162</a></span>DFT_PUBLIC(<span class="keyword">const</span> Dft_FOLDER_PATHINFO*) <a class="code hl_function" href="_dft_file_o_s_8h.html#aa9805b02fb415d99dbb71b7aaa5fc96d">DftGetSubFolderInfo</a>(<span class="keyword">const</span> Dft_FOLDER_PATHINFO* iFolderPahtInfo, <span class="keywordtype">size_t</span> oIndex);</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span></div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a45f6beb1cc9b937e4613518140171708">  170</a></span>DFT_PUBLIC(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>*) <a class="code hl_function" href="_dft_file_o_s_8h.html#a45f6beb1cc9b937e4613518140171708">DftGetFolderPath</a>(<span class="keyword">const</span> Dft_FOLDER_PATHINFO* iFolderPahtInfo);</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span></div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a2c63709790e07f8760d06760349b39da">  180</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a2c63709790e07f8760d06760349b39da">DftGetFileFolderList</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iStrFolderPath, Dft_FOLDER_PATHINFO* iStuFolderInfo, <a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> iCurrentFolderOnly);</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span></div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>)</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a38823ebab7aba6a7cb8faf4e9c26b276">  194</a></span><a class="code hl_function" href="_dft_file_o_s_8h.html#a38823ebab7aba6a7cb8faf4e9c26b276">DftGetAllFileFolderList</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* inputPath, <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>*** iVecFileList, <a class="code hl_typedef" href="_dft_types_8h.html#a38e18d76f41d8d87570413e102f69bed">DftInt32</a>* oFileCount, <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>*** oVecFolderList,</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>                        <a class="code hl_typedef" href="_dft_types_8h.html#a38e18d76f41d8d87570413e102f69bed">DftInt32</a>* oFolderCount, <a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> iCurrentFolderOnly);</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span></div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#aa3d1f7c0d2d2683b7a0c3091442ddc98">  203</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#aa3d1f7c0d2d2683b7a0c3091442ddc98">DftDeleteFilesOfDirectory</a>(const <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iStrFolderName);</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span></div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a7989fd8bcb27be80093ee68c38e6b9c7">  211</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a7989fd8bcb27be80093ee68c38e6b9c7">DftDeleteDirectoryByPath</a>(const <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iPath);</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span></div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a50a70ab7b49bbaa3d3d59a48a17c3534">  219</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a50a70ab7b49bbaa3d3d59a48a17c3534">DftDeleteFileByPath</a>(const <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iPath);</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span></div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a0f2f9ecd0014bebcc1391f379457c26b">  228</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a0f2f9ecd0014bebcc1391f379457c26b">DftSVCopyDirectoryFiles</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iStrSrcFolderPath, <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iStrDstFolderPath);</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span></div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a35e1ffa14fcb8eaeb8a7c7b25b992a2b">  236</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a35e1ffa14fcb8eaeb8a7c7b25b992a2b">GetCurrentDir</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>** oDirPath);</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span></div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#ae494e6afc597559b4ec3a10fe1ef158c">  244</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#ae494e6afc597559b4ec3a10fe1ef158c">DftGetTempDir</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>** oDirPath);</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span></div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno"><a class="line" href="_dft_file_o_s_8h.html#a03a8344d4924f4d9a3be868eba1d51bf">  252</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_file_o_s_8h.html#a03a8344d4924f4d9a3be868eba1d51bf">DftCreateTempDirectory</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>** oDirPath);</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_base_8h_html"><div class="ttname"><a href="_dft_base_8h.html">DftBase.h</a></div><div class="ttdoc">概述：DftBase基础头文件</div></div>
+<div class="ttc" id="a_dft_define_8h_html"><div class="ttname"><a href="_dft_define_8h.html">DftDefine.h</a></div><div class="ttdoc">概述：类型定义</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a03a8344d4924f4d9a3be868eba1d51bf"><div class="ttname"><a href="_dft_file_o_s_8h.html#a03a8344d4924f4d9a3be868eba1d51bf">DftCreateTempDirectory</a></div><div class="ttdeci">DftStatus DftCreateTempDirectory(DftUTF8Char **oDirPath)</div><div class="ttdoc">创建临时路径</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a06c81ae6fd8a141b20cd84f6bee3eb80"><div class="ttname"><a href="_dft_file_o_s_8h.html#a06c81ae6fd8a141b20cd84f6bee3eb80">DftRecursiveCreateDirectoryByPath</a></div><div class="ttdeci">DftStatus DftRecursiveCreateDirectoryByPath(const DftUTF8Char *iPath)</div><div class="ttdoc">创建一个文件夹，如果父文件夹不存在，则递归创建</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a0f2f9ecd0014bebcc1391f379457c26b"><div class="ttname"><a href="_dft_file_o_s_8h.html#a0f2f9ecd0014bebcc1391f379457c26b">DftSVCopyDirectoryFiles</a></div><div class="ttdeci">DftStatus DftSVCopyDirectoryFiles(DftUTF8Char *iStrSrcFolderPath, DftUTF8Char *iStrDstFolderPath)</div><div class="ttdoc">复制一个文件夹及其下所有文件</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a1b6e214bf27dc04c169efa6ca990e486"><div class="ttname"><a href="_dft_file_o_s_8h.html#a1b6e214bf27dc04c169efa6ca990e486">DftNormalizePathString</a></div><div class="ttdeci">DftStatus DftNormalizePathString(const DftUTF8Char *iStrPathIn, DftUTF8Char **oStrPathOut)</div><div class="ttdoc">规范化路径字符串</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a2c63709790e07f8760d06760349b39da"><div class="ttname"><a href="_dft_file_o_s_8h.html#a2c63709790e07f8760d06760349b39da">DftGetFileFolderList</a></div><div class="ttdeci">DftStatus DftGetFileFolderList(const DftUTF8Char *iStrFolderPath, Dft_FOLDER_PATHINFO *iStuFolderInfo, DftBool iCurrentFolderOnly)</div><div class="ttdoc">获取指定路径下的所有文件和文件夹</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a30789f6bc503d14e0c033378c3dc3c28"><div class="ttname"><a href="_dft_file_o_s_8h.html#a30789f6bc503d14e0c033378c3dc3c28">DftGetFileNameByPath</a></div><div class="ttdeci">DftStatus DftGetFileNameByPath(const DftUTF8Char *iStrFullPath, DftUTF8Char **oFileNameOut)</div><div class="ttdoc">通过路径获取文件名(包含文件名和扩展名，不包含所在文件夹的路径；可输入非全路径)</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a35e1ffa14fcb8eaeb8a7c7b25b992a2b"><div class="ttname"><a href="_dft_file_o_s_8h.html#a35e1ffa14fcb8eaeb8a7c7b25b992a2b">GetCurrentDir</a></div><div class="ttdeci">DftStatus GetCurrentDir(DftUTF8Char **oDirPath)</div><div class="ttdoc">获取当前路径</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a38823ebab7aba6a7cb8faf4e9c26b276"><div class="ttname"><a href="_dft_file_o_s_8h.html#a38823ebab7aba6a7cb8faf4e9c26b276">DftGetAllFileFolderList</a></div><div class="ttdeci">DftStatus DftGetAllFileFolderList(DftUTF8Char *inputPath, DftUTF8Char ***iVecFileList, DftInt32 *oFileCount, DftUTF8Char ***oVecFolderList, DftInt32 *oFolderCount, DftBool iCurrentFolderOnly)</div><div class="ttdoc">获取指定路径下的所有文件和文件夹</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a3a956f10a66329e375117326bfec11ee"><div class="ttname"><a href="_dft_file_o_s_8h.html#a3a956f10a66329e375117326bfec11ee">DftIsFileExist</a></div><div class="ttdeci">DftBool DftIsFileExist(const DftUTF8Char *iFilename)</div><div class="ttdoc">判断文件路径是否存在</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a3fd61d216e2d5e406aede4419b413fcd"><div class="ttname"><a href="_dft_file_o_s_8h.html#a3fd61d216e2d5e406aede4419b413fcd">DftGetFileSize</a></div><div class="ttdeci">DftInt DftGetFileSize(const DftUTF8Char *iFilePath)</div><div class="ttdoc">获取文件大小</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a45f6beb1cc9b937e4613518140171708"><div class="ttname"><a href="_dft_file_o_s_8h.html#a45f6beb1cc9b937e4613518140171708">DftGetFolderPath</a></div><div class="ttdeci">const DftUTF8Char * DftGetFolderPath(const Dft_FOLDER_PATHINFO *iFolderPahtInfo)</div><div class="ttdoc">获取文件夹路径</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a50a70ab7b49bbaa3d3d59a48a17c3534"><div class="ttname"><a href="_dft_file_o_s_8h.html#a50a70ab7b49bbaa3d3d59a48a17c3534">DftDeleteFileByPath</a></div><div class="ttdeci">DftStatus DftDeleteFileByPath(const DftUTF8Char *iPath)</div><div class="ttdoc">删除一个文件</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a55779b39d47e450e463983e0b2b60ce8"><div class="ttname"><a href="_dft_file_o_s_8h.html#a55779b39d47e450e463983e0b2b60ce8">DftIsPathEqual</a></div><div class="ttdeci">DftBool DftIsPathEqual(const DftUTF8Char *iStrPath1, const DftUTF8Char *iStrPath2)</div><div class="ttdoc">比较两个路径是否相同</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a6309f074dabe4c53eb6c2dc459d39d9d"><div class="ttname"><a href="_dft_file_o_s_8h.html#a6309f074dabe4c53eb6c2dc459d39d9d">DftDestroyFolderPathInfo</a></div><div class="ttdeci">DftStatus DftDestroyFolderPathInfo(Dft_FOLDER_PATHINFO *iFolderPahtInfo)</div><div class="ttdoc">销毁文件夹路径信息对象</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a7989fd8bcb27be80093ee68c38e6b9c7"><div class="ttname"><a href="_dft_file_o_s_8h.html#a7989fd8bcb27be80093ee68c38e6b9c7">DftDeleteDirectoryByPath</a></div><div class="ttdeci">DftStatus DftDeleteDirectoryByPath(const DftUTF8Char *iPath)</div><div class="ttdoc">删除一个文件夹</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a7bf54443a98e8dc8ba1e1a745c3ce1f3"><div class="ttname"><a href="_dft_file_o_s_8h.html#a7bf54443a98e8dc8ba1e1a745c3ce1f3">DftGetDirectoryByPath</a></div><div class="ttdeci">DftStatus DftGetDirectoryByPath(const DftUTF8Char *iStrFullPath, DftUTF8Char **oDirPath)</div><div class="ttdoc">通过路径获取文件所在目录</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a8110dbd5a7e28cc75ddc9010f2545a23"><div class="ttname"><a href="_dft_file_o_s_8h.html#a8110dbd5a7e28cc75ddc9010f2545a23">DftCreateFolderPathInfo</a></div><div class="ttdeci">Dft_FOLDER_PATHINFO * DftCreateFolderPathInfo()</div><div class="ttdoc">创建文件夹路径信息对象</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a896cc4b9f1f3efad798aa33367a97d12"><div class="ttname"><a href="_dft_file_o_s_8h.html#a896cc4b9f1f3efad798aa33367a97d12">DftGetExecutablePath</a></div><div class="ttdeci">DftStatus DftGetExecutablePath(DftUTF8Char **oStrPathOut)</div><div class="ttdoc">获取可执行文件路径</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_a93f36132a650729f558556fe1bfb35a8"><div class="ttname"><a href="_dft_file_o_s_8h.html#a93f36132a650729f558556fe1bfb35a8">DftGetFileExtByPath</a></div><div class="ttdeci">DftStatus DftGetFileExtByPath(const DftUTF8Char *iStrFullPath, DftUTF8Char **oExtName)</div><div class="ttdoc">通过路径获取文件扩展名(只包含扩展名，不包含文件名；可输入非全路径)</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_aa3d1f7c0d2d2683b7a0c3091442ddc98"><div class="ttname"><a href="_dft_file_o_s_8h.html#aa3d1f7c0d2d2683b7a0c3091442ddc98">DftDeleteFilesOfDirectory</a></div><div class="ttdeci">DftStatus DftDeleteFilesOfDirectory(const DftUTF8Char *iStrFolderName)</div><div class="ttdoc">删除指定目录下的文件(不清除文件夹)</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_aa9805b02fb415d99dbb71b7aaa5fc96d"><div class="ttname"><a href="_dft_file_o_s_8h.html#aa9805b02fb415d99dbb71b7aaa5fc96d">DftGetSubFolderInfo</a></div><div class="ttdeci">const Dft_FOLDER_PATHINFO * DftGetSubFolderInfo(const Dft_FOLDER_PATHINFO *iFolderPahtInfo, size_t oIndex)</div><div class="ttdoc">获取指定索引的子文件夹信息</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_abc49ae111131a2e3aac31b890545b355"><div class="ttname"><a href="_dft_file_o_s_8h.html#abc49ae111131a2e3aac31b890545b355">DftGetSubFileCount</a></div><div class="ttdeci">DftInt DftGetSubFileCount(const Dft_FOLDER_PATHINFO *iFolderPahtInfo)</div><div class="ttdoc">获取子文件数量</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_ac5c96060af7d4c33c354dc357a185c1e"><div class="ttname"><a href="_dft_file_o_s_8h.html#ac5c96060af7d4c33c354dc357a185c1e">DftGetFileNameNoExtByPath</a></div><div class="ttdeci">DftStatus DftGetFileNameNoExtByPath(const DftUTF8Char *iStrFullPath, DftUTF8Char **oFileName)</div><div class="ttdoc">获取文件名，不包含扩展名</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_ad2d3621e37a7873e156fae8ae5c5ea8f"><div class="ttname"><a href="_dft_file_o_s_8h.html#ad2d3621e37a7873e156fae8ae5c5ea8f">DftGetSubFilePath</a></div><div class="ttdeci">const DftUTF8Char * DftGetSubFilePath(const Dft_FOLDER_PATHINFO *iFolderPahtInfo, size_t oIndex)</div><div class="ttdoc">获取指定索引的子文件路径</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_ade3a6bcc06615da79062b9f057296f38"><div class="ttname"><a href="_dft_file_o_s_8h.html#ade3a6bcc06615da79062b9f057296f38">DftGetParentDirectoryByPath</a></div><div class="ttdeci">DftStatus DftGetParentDirectoryByPath(const DftUTF8Char *iStrFullPath, DftUTF8Char **oStrPathOut)</div><div class="ttdoc">通过全路径获取父目录</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_ae494e6afc597559b4ec3a10fe1ef158c"><div class="ttname"><a href="_dft_file_o_s_8h.html#ae494e6afc597559b4ec3a10fe1ef158c">DftGetTempDir</a></div><div class="ttdeci">DftStatus DftGetTempDir(DftUTF8Char **oDirPath)</div><div class="ttdoc">获取临时路径</div></div>
+<div class="ttc" id="a_dft_file_o_s_8h_html_ae4c95758ce118abd1e9ea2a584bbb6fe"><div class="ttname"><a href="_dft_file_o_s_8h.html#ae4c95758ce118abd1e9ea2a584bbb6fe">DftGetSubFolderCount</a></div><div class="ttdeci">DftInt DftGetSubFolderCount(const Dft_FOLDER_PATHINFO *iFolderPahtInfo)</div><div class="ttdoc">获取子文件夹数量</div></div>
+<div class="ttc" id="a_dft_status_8h_html_aaec3efe5260f65ebb619b167325491b0"><div class="ttname"><a href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a></div><div class="ttdeci">DftStatus</div><div class="ttdoc">状态码</div><div class="ttdef"><b>定义</b> DftStatus.h:16</div></div>
+<div class="ttc" id="a_dft_types_8h_html"><div class="ttname"><a href="_dft_types_8h.html">DftTypes.h</a></div><div class="ttdoc">概述：定义DftBase库中的基本数据类型</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a38e18d76f41d8d87570413e102f69bed"><div class="ttname"><a href="_dft_types_8h.html#a38e18d76f41d8d87570413e102f69bed">DftInt32</a></div><div class="ttdeci">int DftInt32</div><div class="ttdoc">32位整数</div><div class="ttdef"><b>定义</b> DftTypes.h:58</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a5d93be842d58e31eed8521c9012501a0"><div class="ttname"><a href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a></div><div class="ttdeci">char DftUTF8Char</div><div class="ttdoc">utf-8字符</div><div class="ttdef"><b>定义</b> DftTypes.h:97</div></div>
+<div class="ttc" id="a_dft_types_8h_html_aa0f85f8d3a1d218672e4d650f38fb674"><div class="ttname"><a href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></div><div class="ttdeci">int DftBool</div><div class="ttdoc">布尔型</div><div class="ttdef"><b>定义</b> DftTypes.h:40</div></div>
+<div class="ttc" id="a_dft_types_8h_html_af0fc3c96826067c11a44bb8caca06b9e"><div class="ttname"><a href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a></div><div class="ttdeci">int DftInt</div><div class="ttdoc">整数</div><div class="ttdef"><b>定义</b> DftTypes.h:46</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_88cccc9d439318285f6d519044a748d2.html">DftBase</a></li><li class="navelem"><a href="_dft_file_o_s_8h.html">DftFileOS.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

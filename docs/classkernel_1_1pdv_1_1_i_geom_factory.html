@@ -1,0 +1,1402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: kernel::pdv::IGeomFactory类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('classkernel_1_1pdv_1_1_i_geom_factory.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">kernel::pdv::IGeomFactory类 参考<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>PDV几何工厂接口  
+ <a href="#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_p_d_v_i_geom_factory_8h_source.html">PDVIGeomFactory.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a466bdd4449f253370f354de5f3291088" id="r_a466bdd4449f253370f354de5f3291088"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html">IGeomCurve2dData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a466bdd4449f253370f354de5f3291088">CreateLine2dData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iStartPoint, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iEndPoint)=0</td></tr>
+<tr class="memdesc:a466bdd4449f253370f354de5f3291088"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建直线几何接口类  <br /></td></tr>
+<tr class="memitem:a1c9ff07b0a252d4f7d29f23a80bafa52" id="r_a1c9ff07b0a252d4f7d29f23a80bafa52"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html">IGeomCurve2dData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c9ff07b0a252d4f7d29f23a80bafa52">CreateLine2dData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iOrigin, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDirection, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iStartPara, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iEndPara)=0</td></tr>
+<tr class="memdesc:a1c9ff07b0a252d4f7d29f23a80bafa52"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建直线几何接口类  <br /></td></tr>
+<tr class="memitem:a4a29712a84fe392308db2cf43bb9b557" id="r_a4a29712a84fe392308db2cf43bb9b557"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html">IGeomCurve2dData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a29712a84fe392308db2cf43bb9b557">CreateCircle2dData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iOrigin, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iXDir, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iRadius, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iStartAngle, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iEndAngle)=0</td></tr>
+<tr class="memdesc:a4a29712a84fe392308db2cf43bb9b557"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建圆几何接口类  <br /></td></tr>
+<tr class="memitem:af808b11e166bffd2090c7a5eae099899" id="r_af808b11e166bffd2090c7a5eae099899"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html">IGeomCurve2dData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af808b11e166bffd2090c7a5eae099899">CreateEllipse2dData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iOrigin, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iXDir, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iMajorRadius, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iMinorRadius, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iStartAngle, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iEndAngle)=0</td></tr>
+<tr class="memdesc:af808b11e166bffd2090c7a5eae099899"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建椭圆几何接口类  <br /></td></tr>
+<tr class="memitem:a827f61c896dd27c909ab15970f29a85a" id="r_a827f61c896dd27c909ab15970f29a85a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html">IGeomCurve2dData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a827f61c896dd27c909ab15970f29a85a">CreateNurbsCurve2dData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="structkernel_1_1pdv_1_1_nurbs_curve2d_data.html">NurbsCurve2dData</a> &amp;iNurbsCurve, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iStartParam, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iEndParam)=0</td></tr>
+<tr class="memdesc:a827f61c896dd27c909ab15970f29a85a"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建NURBS曲线几何接口类  <br /></td></tr>
+<tr class="memitem:a7160c6c9f2c5bc892eadb466c936e5f4" id="r_a7160c6c9f2c5bc892eadb466c936e5f4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7160c6c9f2c5bc892eadb466c936e5f4">CreateNoCurveData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a7160c6c9f2c5bc892eadb466c936e5f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建空的几何接口类  <br /></td></tr>
+<tr class="memitem:a67ca8f549e802a966125542b72370218" id="r_a67ca8f549e802a966125542b72370218"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67ca8f549e802a966125542b72370218">CreateLineData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iStartPoint, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iEndPoint)=0</td></tr>
+<tr class="memdesc:a67ca8f549e802a966125542b72370218"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建直线几何接口类  <br /></td></tr>
+<tr class="memitem:a09b3d8c77aed78aab85744a6bf506464" id="r_a09b3d8c77aed78aab85744a6bf506464"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09b3d8c77aed78aab85744a6bf506464">CreateLineData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iOrigin, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iDirection, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iStartPara, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iEndPara)=0</td></tr>
+<tr class="memdesc:a09b3d8c77aed78aab85744a6bf506464"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建直线几何接口类  <br /></td></tr>
+<tr class="memitem:ad88e4c4bf03d8ae792ae320bd718668b" id="r_ad88e4c4bf03d8ae792ae320bd718668b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad88e4c4bf03d8ae792ae320bd718668b">CreateCircleData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iOrigin, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iXDir, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iYDir, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iRadius, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iStartAngle, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iEndAngle)=0</td></tr>
+<tr class="memdesc:ad88e4c4bf03d8ae792ae320bd718668b"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建圆几何接口类  <br /></td></tr>
+<tr class="memitem:a4086c555109051ddb52555f65c7c49ec" id="r_a4086c555109051ddb52555f65c7c49ec"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4086c555109051ddb52555f65c7c49ec">CreateEllipseData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iOrigin, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iXDir, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iYDir, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iMajorRadius, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iMinorRadius, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iStartAngle, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iEndAngle)=0</td></tr>
+<tr class="memdesc:a4086c555109051ddb52555f65c7c49ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建椭圆几何接口类  <br /></td></tr>
+<tr class="memitem:a1b88743512ba14a696019b2613651767" id="r_a1b88743512ba14a696019b2613651767"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b88743512ba14a696019b2613651767">CreateNurbsCurveData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="structkernel_1_1pdv_1_1_nurbs_curve_data.html">NurbsCurveData</a> &amp;iNurbsCurve, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iStartParam, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iEndParam)=0</td></tr>
+<tr class="memdesc:a1b88743512ba14a696019b2613651767"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建NURBS曲线接口类  <br /></td></tr>
+<tr class="memitem:a4a2c5a227bf15875fb70712e8fd31312" id="r_a4a2c5a227bf15875fb70712e8fd31312"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a2c5a227bf15875fb70712e8fd31312">CreatePlaneData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iOrigin, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iXDir, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iYDir, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDomainMin, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDomainMax)=0</td></tr>
+<tr class="memdesc:a4a2c5a227bf15875fb70712e8fd31312"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建平面几何接口类  <br /></td></tr>
+<tr class="memitem:aa86df7b09e1a6d4f5c26c1440fb6759c" id="r_aa86df7b09e1a6d4f5c26c1440fb6759c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa86df7b09e1a6d4f5c26c1440fb6759c">CreateCylinderData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iOrigin, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iXDir, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iYDir, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iRadius, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDomainMin, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDomainMax)=0</td></tr>
+<tr class="memdesc:aa86df7b09e1a6d4f5c26c1440fb6759c"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建圆柱面几何接口类  <br /></td></tr>
+<tr class="memitem:adaa09995a48f432dbc7f24eaf57923a5" id="r_adaa09995a48f432dbc7f24eaf57923a5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaa09995a48f432dbc7f24eaf57923a5">CreateConeData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iOrigin, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iXDir, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iYDir, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iHalfAngle, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iRadius, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDomainMin, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDomainMax)=0</td></tr>
+<tr class="memdesc:adaa09995a48f432dbc7f24eaf57923a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建圆锥面几何接口类  <br /></td></tr>
+<tr class="memitem:a018e4ca0fc80211e1fedebb4348c63d9" id="r_a018e4ca0fc80211e1fedebb4348c63d9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a018e4ca0fc80211e1fedebb4348c63d9">CreateTorusData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iOrigin, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iXDir, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iYDir, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iMajorRadius, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iMinorRadius, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDomainMin, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDomainMax)=0</td></tr>
+<tr class="memdesc:a018e4ca0fc80211e1fedebb4348c63d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建圆环面几何接口类  <br /></td></tr>
+<tr class="memitem:a949bd2feab145c46cf58f7f002dca50f" id="r_a949bd2feab145c46cf58f7f002dca50f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a949bd2feab145c46cf58f7f002dca50f">CreateSphereData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iOrigin, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iXDir, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iYDir, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iRadius, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDomainMin, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDomainMax)=0</td></tr>
+<tr class="memdesc:a949bd2feab145c46cf58f7f002dca50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建球面几何接口类  <br /></td></tr>
+<tr class="memitem:a08f1ddaf1ea42f1ffd427223816c9913" id="r_a08f1ddaf1ea42f1ffd427223816c9913"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08f1ddaf1ea42f1ffd427223816c9913">CreateNurbsSurfaceData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="structkernel_1_1pdv_1_1_nurbs_surface_data.html">NurbsSurfaceData</a> &amp;iNurbsSurface, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDomainMin, const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;iDomainMax)=0</td></tr>
+<tr class="memdesc:a08f1ddaf1ea42f1ffd427223816c9913"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建NURBS曲面几何接口类  <br /></td></tr>
+<tr class="memitem:a49ba0ba48402f4cd9fe9d9761724be99" id="r_a49ba0ba48402f4cd9fe9d9761724be99"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_point_data.html">IGeomPointData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49ba0ba48402f4cd9fe9d9761724be99">CreatePointData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iPosition)=0</td></tr>
+<tr class="memdesc:a49ba0ba48402f4cd9fe9d9761724be99"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建点数据  <br /></td></tr>
+<tr class="memitem:a2bf67fc86d83b3a9623e9e4115ab1ca9" id="r_a2bf67fc86d83b3a9623e9e4115ab1ca9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_curve_on_surface.html">ICurveOnSurface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bf67fc86d83b3a9623e9e4115ab1ca9">CreateCurveOnSurface</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iSrfId, const <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html">IGeomCurve2dData</a> *iPCrv)=0</td></tr>
+<tr class="memdesc:a2bf67fc86d83b3a9623e9e4115ab1ca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建曲面上的曲线数据  <br /></td></tr>
+<tr class="memitem:a748f4e87c2318d7d6250daf95edde092" id="r_a748f4e87c2318d7d6250daf95edde092"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748f4e87c2318d7d6250daf95edde092">AddCurveOnSurfaceData</a> (<a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> *iCrvData, const <a class="el" href="classkernel_1_1pdv_1_1_i_curve_on_surface.html">ICurveOnSurface</a> *iCOS)=0</td></tr>
+<tr class="memdesc:a748f4e87c2318d7d6250daf95edde092"><td class="mdescLeft">&#160;</td><td class="mdescRight">添加曲面上的曲线数据  <br /></td></tr>
+<tr class="memitem:a8ba4e6106f53f4f050afebac6da3d2aa" id="r_a8ba4e6106f53f4f050afebac6da3d2aa"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_topo.html">ITopo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ba4e6106f53f4f050afebac6da3d2aa">CreateTopoData</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID, <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> iType)=0</td></tr>
+<tr class="memdesc:a8ba4e6106f53f4f050afebac6da3d2aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建拓扑数据  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a2de1bee3f558f3043171b8d415d958a3" id="r_a2de1bee3f558f3043171b8d415d958a3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classkernel_1_1pdv_1_1_i_geom_factory.html">IGeomFactory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2de1bee3f558f3043171b8d415d958a3">GetGeomFactory</a> ()</td></tr>
+<tr class="memdesc:a2de1bee3f558f3043171b8d415d958a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取PDV几何工厂接口  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>PDV几何工厂接口 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">成员函数说明</h2>
+<a id="a748f4e87c2318d7d6250daf95edde092" name="a748f4e87c2318d7d6250daf95edde092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a748f4e87c2318d7d6250daf95edde092">&#9670;&#160;</a></span>AddCurveOnSurfaceData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::IGeomFactory::AddCurveOnSurfaceData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> *</td>          <td class="paramname"><span class="paramname"><em>iCrvData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classkernel_1_1pdv_1_1_i_curve_on_surface.html">ICurveOnSurface</a> *</td>          <td class="paramname"><span class="paramname"><em>iCOS</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>添加曲面上的曲线数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCrvData</td><td>几何曲线对象 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCOS</td><td>曲面上的曲线数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4a29712a84fe392308db2cf43bb9b557" name="a4a29712a84fe392308db2cf43bb9b557"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a29712a84fe392308db2cf43bb9b557">&#9670;&#160;</a></span>CreateCircle2dData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html">IGeomCurve2dData</a> * kernel::pdv::IGeomFactory::CreateCircle2dData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iXDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iStartAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iEndAngle</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建圆几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html" title="二维几何曲线数据接口">IGeomCurve2dData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iOrigin</td><td>圆心坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iXDir</td><td>X轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iRadius</td><td>半径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartAngle</td><td>起始角（单位为弧度） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iEndAngle</td><td>终止角（单位为弧度） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ad88e4c4bf03d8ae792ae320bd718668b" name="ad88e4c4bf03d8ae792ae320bd718668b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad88e4c4bf03d8ae792ae320bd718668b">&#9670;&#160;</a></span>CreateCircleData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> * kernel::pdv::IGeomFactory::CreateCircleData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iXDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iYDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iStartAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iEndAngle</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建圆几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html" title="几何曲线数据接口">IGeomCurveData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iOrigin</td><td>圆心坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iXDir</td><td>X轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iYDir</td><td>Y轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iRadius</td><td>半径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartAngle</td><td>起始角（单位为弧度） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iEndAngle</td><td>终止角（单位为弧度） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="adaa09995a48f432dbc7f24eaf57923a5" name="adaa09995a48f432dbc7f24eaf57923a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaa09995a48f432dbc7f24eaf57923a5">&#9670;&#160;</a></span>CreateConeData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a> * kernel::pdv::IGeomFactory::CreateConeData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iXDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iYDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iHalfAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDomainMin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDomainMax</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建圆锥面几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html" title="几何曲面数据接口">IGeomSurfaceData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iOrigin</td><td>原点坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iXDir</td><td>X轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iYDir</td><td>Y轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iHalfAngle</td><td>锥角（圆锥z轴和母线之间的夹角） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iRadius</td><td>圆锥半径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDomainMin</td><td>参数域的最小值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDomainMax</td><td>参数域的最大值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a2bf67fc86d83b3a9623e9e4115ab1ca9" name="a2bf67fc86d83b3a9623e9e4115ab1ca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bf67fc86d83b3a9623e9e4115ab1ca9">&#9670;&#160;</a></span>CreateCurveOnSurface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_curve_on_surface.html">ICurveOnSurface</a> * kernel::pdv::IGeomFactory::CreateCurveOnSurface </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iSrfId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html">IGeomCurve2dData</a> *</td>          <td class="paramname"><span class="paramname"><em>iPCrv</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建曲面上的曲线数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_curve_on_surface.html" title="曲面上的曲线接口">ICurveOnSurface</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSrfId</td><td>曲面的唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPCrv</td><td>参数曲线 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aa86df7b09e1a6d4f5c26c1440fb6759c" name="aa86df7b09e1a6d4f5c26c1440fb6759c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa86df7b09e1a6d4f5c26c1440fb6759c">&#9670;&#160;</a></span>CreateCylinderData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a> * kernel::pdv::IGeomFactory::CreateCylinderData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iXDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iYDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDomainMin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDomainMax</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建圆柱面几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html" title="几何曲面数据接口">IGeomSurfaceData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iOrigin</td><td>原点坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iXDir</td><td>X轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iYDir</td><td>Y轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iRadius</td><td>半径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDomainMin</td><td>参数域的最小值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDomainMax</td><td>参数域的最大值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="af808b11e166bffd2090c7a5eae099899" name="af808b11e166bffd2090c7a5eae099899"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af808b11e166bffd2090c7a5eae099899">&#9670;&#160;</a></span>CreateEllipse2dData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html">IGeomCurve2dData</a> * kernel::pdv::IGeomFactory::CreateEllipse2dData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iXDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iMajorRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iMinorRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iStartAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iEndAngle</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建椭圆几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html" title="二维几何曲线数据接口">IGeomCurve2dData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iOrigin</td><td>圆心坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iXDir</td><td>X轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iMajorRadius</td><td>大径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iMinorRadius</td><td>小径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartAngle</td><td>起始角（单位为弧度） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iEndAngle</td><td>终止角（单位为弧度） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4086c555109051ddb52555f65c7c49ec" name="a4086c555109051ddb52555f65c7c49ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4086c555109051ddb52555f65c7c49ec">&#9670;&#160;</a></span>CreateEllipseData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> * kernel::pdv::IGeomFactory::CreateEllipseData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iXDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iYDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iMajorRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iMinorRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iStartAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iEndAngle</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建椭圆几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html" title="几何曲线数据接口">IGeomCurveData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iOrigin</td><td>圆心坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iXDir</td><td>X轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iYDir</td><td>Y轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iMajorRadius</td><td>大径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iMinorRadius</td><td>小径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartAngle</td><td>起始角（单位为弧度） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iEndAngle</td><td>终止角（单位为弧度） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a1c9ff07b0a252d4f7d29f23a80bafa52" name="a1c9ff07b0a252d4f7d29f23a80bafa52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c9ff07b0a252d4f7d29f23a80bafa52">&#9670;&#160;</a></span>CreateLine2dData() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html">IGeomCurve2dData</a> * kernel::pdv::IGeomFactory::CreateLine2dData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDirection</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iStartPara</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iEndPara</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建直线几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html" title="二维几何曲线数据接口">IGeomCurve2dData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iOrigin</td><td>起点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDirection</td><td>终点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartPara</td><td>起始参数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iEndPara</td><td>终止参数 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a466bdd4449f253370f354de5f3291088" name="a466bdd4449f253370f354de5f3291088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a466bdd4449f253370f354de5f3291088">&#9670;&#160;</a></span>CreateLine2dData() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html">IGeomCurve2dData</a> * kernel::pdv::IGeomFactory::CreateLine2dData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iStartPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iEndPoint</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建直线几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html" title="二维几何曲线数据接口">IGeomCurve2dData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartPoint</td><td>起点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iEndPoint</td><td>终点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>尽量用另一个重载接口，这个不带参数变量，容易出问题 </dd></dl>
+
+</div>
+</div>
+<a id="a09b3d8c77aed78aab85744a6bf506464" name="a09b3d8c77aed78aab85744a6bf506464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09b3d8c77aed78aab85744a6bf506464">&#9670;&#160;</a></span>CreateLineData() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> * kernel::pdv::IGeomFactory::CreateLineData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDirection</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iStartPara</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iEndPara</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建直线几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html" title="几何曲线数据接口">IGeomCurveData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iOrigin</td><td>起点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDirection</td><td>终点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartPara</td><td>起始参数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iEndPara</td><td>终止参数 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a67ca8f549e802a966125542b72370218" name="a67ca8f549e802a966125542b72370218"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ca8f549e802a966125542b72370218">&#9670;&#160;</a></span>CreateLineData() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> * kernel::pdv::IGeomFactory::CreateLineData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iStartPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iEndPoint</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建直线几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html" title="几何曲线数据接口">IGeomCurveData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartPoint</td><td>起点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iEndPoint</td><td>终点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>尽量用另一个重载接口，这个不带参数变量，容易出问题 </dd></dl>
+
+</div>
+</div>
+<a id="a7160c6c9f2c5bc892eadb466c936e5f4" name="a7160c6c9f2c5bc892eadb466c936e5f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7160c6c9f2c5bc892eadb466c936e5f4">&#9670;&#160;</a></span>CreateNoCurveData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> * kernel::pdv::IGeomFactory::CreateNoCurveData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建空的几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html" title="几何曲线数据接口">IGeomCurveData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a827f61c896dd27c909ab15970f29a85a" name="a827f61c896dd27c909ab15970f29a85a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a827f61c896dd27c909ab15970f29a85a">&#9670;&#160;</a></span>CreateNurbsCurve2dData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html">IGeomCurve2dData</a> * kernel::pdv::IGeomFactory::CreateNurbsCurve2dData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structkernel_1_1pdv_1_1_nurbs_curve2d_data.html">NurbsCurve2dData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iNurbsCurve</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iStartParam</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iEndParam</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建NURBS曲线几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve2d_data.html" title="二维几何曲线数据接口">IGeomCurve2dData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iNurbsCurve</td><td>NURBS曲线数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartParam</td><td>起始参数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iEndParam</td><td>终止参数 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a1b88743512ba14a696019b2613651767" name="a1b88743512ba14a696019b2613651767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b88743512ba14a696019b2613651767">&#9670;&#160;</a></span>CreateNurbsCurveData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a> * kernel::pdv::IGeomFactory::CreateNurbsCurveData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structkernel_1_1pdv_1_1_nurbs_curve_data.html">NurbsCurveData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iNurbsCurve</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iStartParam</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iEndParam</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建NURBS曲线接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html" title="几何曲线数据接口">IGeomCurveData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iNurbsCurve</td><td>NURBS曲线数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a08f1ddaf1ea42f1ffd427223816c9913" name="a08f1ddaf1ea42f1ffd427223816c9913"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08f1ddaf1ea42f1ffd427223816c9913">&#9670;&#160;</a></span>CreateNurbsSurfaceData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a> * kernel::pdv::IGeomFactory::CreateNurbsSurfaceData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structkernel_1_1pdv_1_1_nurbs_surface_data.html">NurbsSurfaceData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iNurbsSurface</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDomainMin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDomainMax</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建NURBS曲面几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html" title="几何曲面数据接口">IGeomSurfaceData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iNurbsSurface</td><td>NURBS曲面几何数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDomainMin</td><td>参数域的最小值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDomainMax</td><td>参数域的最大值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4a2c5a227bf15875fb70712e8fd31312" name="a4a2c5a227bf15875fb70712e8fd31312"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a2c5a227bf15875fb70712e8fd31312">&#9670;&#160;</a></span>CreatePlaneData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a> * kernel::pdv::IGeomFactory::CreatePlaneData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iXDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iYDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDomainMin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDomainMax</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建平面几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html" title="几何曲面数据接口">IGeomSurfaceData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iOrigin</td><td>原点坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iXDir</td><td>X轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iYDir</td><td>Y轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDomainMin</td><td>参数域的最小值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDomainMax</td><td>参数域的最大值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a49ba0ba48402f4cd9fe9d9761724be99" name="a49ba0ba48402f4cd9fe9d9761724be99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49ba0ba48402f4cd9fe9d9761724be99">&#9670;&#160;</a></span>CreatePointData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_point_data.html">IGeomPointData</a> * kernel::pdv::IGeomFactory::CreatePointData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iPosition</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建点数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_point_data.html" title="几何点数据接口">IGeomPointData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPosition</td><td>点的位置信息 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a949bd2feab145c46cf58f7f002dca50f" name="a949bd2feab145c46cf58f7f002dca50f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a949bd2feab145c46cf58f7f002dca50f">&#9670;&#160;</a></span>CreateSphereData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a> * kernel::pdv::IGeomFactory::CreateSphereData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iXDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iYDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDomainMin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDomainMax</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建球面几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html" title="几何曲面数据接口">IGeomSurfaceData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iOrigin</td><td>原点坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iXDir</td><td>X轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iYDir</td><td>Y轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iRadius</td><td>球半径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDomainMin</td><td>参数域的最小值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDomainMax</td><td>参数域的最大值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a8ba4e6106f53f4f050afebac6da3d2aa" name="a8ba4e6106f53f4f050afebac6da3d2aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ba4e6106f53f4f050afebac6da3d2aa">&#9670;&#160;</a></span>CreateTopoData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_topo.html">ITopo</a> * kernel::pdv::IGeomFactory::CreateTopoData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></td>          <td class="paramname"><span class="paramname"><em>iType</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建拓扑数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_topo.html" title="拓扑的接口">ITopo</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iType</td><td>拓扑数据的类型 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a018e4ca0fc80211e1fedebb4348c63d9" name="a018e4ca0fc80211e1fedebb4348c63d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a018e4ca0fc80211e1fedebb4348c63d9">&#9670;&#160;</a></span>CreateTorusData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a> * kernel::pdv::IGeomFactory::CreateTorusData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iXDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iYDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iMajorRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iMinorRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDomainMin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_d.html">PDVVector2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDomainMax</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建圆环面几何接口类 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html" title="几何曲面数据接口">IGeomSurfaceData</a> * </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>唯一标识 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iOrigin</td><td>原点坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iXDir</td><td>X轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iYDir</td><td>Y轴方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iMajorRadius</td><td>主半径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iMinorRadius</td><td>副半径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDomainMin</td><td>参数域的最小值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDomainMax</td><td>参数域的最大值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a2de1bee3f558f3043171b8d415d958a3" name="a2de1bee3f558f3043171b8d415d958a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de1bee3f558f3043171b8d415d958a3">&#9670;&#160;</a></span>GetGeomFactory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classkernel_1_1pdv_1_1_i_geom_factory.html">IGeomFactory</a> * kernel::pdv::IGeomFactory::GetGeomFactory </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取PDV几何工厂接口 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_geom_factory.html" title="PDV几何工厂接口">IGeomFactory</a> * PDV几何工厂接口 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>PDVSDK-docs/PDVCore/<a class="el" href="_p_d_v_i_geom_factory_8h_source.html">PDVIGeomFactory.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>kernel</b></li><li class="navelem"><b>pdv</b></li><li class="navelem"><a href="classkernel_1_1pdv_1_1_i_geom_factory.html">IGeomFactory</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

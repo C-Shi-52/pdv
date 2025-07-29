@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/DftBase/DftXml.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_dft_xml_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">DftXml.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_dft_xml_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifndef DFT_XML_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define DFT_XML_H</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_dft_base_8h.html">DftBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="_dft_types_8h.html">DftTypes.h</a>&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="_dft_status_8h.html">DftStatus.h</a>&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a773bbafe35f3b4beea123228526f0177">   25</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a773bbafe35f3b4beea123228526f0177">DftXmlLoadFromFile</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* iXmlFileName, <a class="code hl_typedef" href="_dft_types_8h.html#a896fe197993f685d88785827d83854f9">DftXmlHandle</a>* oXmlHandle);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a3868ed16ab63bd959bc3b66c74a42822">   34</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a3868ed16ab63bd959bc3b66c74a42822">DftXmlLoadFromString</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* iXmlString, <a class="code hl_typedef" href="_dft_types_8h.html#a896fe197993f685d88785827d83854f9">DftXmlHandle</a>* oXmlHandle);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a5ce14e20329a425bc5d3e2409396ed49">   43</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a5ce14e20329a425bc5d3e2409396ed49">DftXmlOutputToString</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a896fe197993f685d88785827d83854f9">DftXmlHandle</a> iXmlHandle, <span class="keywordtype">char</span>** oXmlString);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#abb3011dc34054e41b026a823d663910d">   52</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#abb3011dc34054e41b026a823d663910d">DftXmlSaveToFile</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a896fe197993f685d88785827d83854f9">DftXmlHandle</a> iXmlHandle, <span class="keyword">const</span> <span class="keywordtype">char</span>* iXmlFileName);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a2ae00614d8fd742d195056172373cad8">   61</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a2ae00614d8fd742d195056172373cad8">DftXmlGetEncoding</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a896fe197993f685d88785827d83854f9">DftXmlHandle</a> iXmlHandle, <span class="keywordtype">char</span>** oEncoding);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a6d3530b489982c1f0eca429b1eb26cdc">   69</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a6d3530b489982c1f0eca429b1eb26cdc">DftXmlReleaseHandle</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a896fe197993f685d88785827d83854f9">DftXmlHandle</a>* iXmlHandle);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#ac5b8517744e0d4376f49dec6eacbe737">   78</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#ac5b8517744e0d4376f49dec6eacbe737">DftXmlGetRootNode</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a896fe197993f685d88785827d83854f9">DftXmlHandle</a> iXmlHandle, <a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a>* oRootNode);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#ab379a0adb5145e5ecfdbddf089ccca41">   87</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#ab379a0adb5145e5ecfdbddf089ccca41">DftXmlGetHandle</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, <a class="code hl_typedef" href="_dft_types_8h.html#a896fe197993f685d88785827d83854f9">DftXmlHandle</a>* oXmlHandle);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a54552da8118d4952bec2203682081e35">   96</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a54552da8118d4952bec2203682081e35">DftXmlGetParentNode</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, <a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a>* oParentNode);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#addd90d2409b90a505c8b921d7e2113b5">  105</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#addd90d2409b90a505c8b921d7e2113b5">DftXmlGetFirstChildNode</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, <a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a>* oChildNode);</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a89bcd511561d803db5decffbea13f5b2">  114</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a89bcd511561d803db5decffbea13f5b2">DftXmlGetLastChildNode</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, <a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a>* oLastChildNode);</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a72485039ac9536869b45d9adaba05f31">  124</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a72485039ac9536869b45d9adaba05f31">DftXmlInsertEndChildNode</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, <span class="keyword">const</span> <span class="keywordtype">char</span>* iNodeName, <a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a>* oChildNode);</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a0bfcbb061f36e57ee9871edd5bb73f11">  132</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a0bfcbb061f36e57ee9871edd5bb73f11">DftXmlRemoveChildNode</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a714ccf7ac7606940112e7b295d997920">  141</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a714ccf7ac7606940112e7b295d997920">DftXmlGetNextSiblingNode</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, <a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a>* oNextSiblingNode);</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span></div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#ae977779a8b95ac1ebcb20720daa1bbda">  150</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#ae977779a8b95ac1ebcb20720daa1bbda">DftXmlGetPreviousSiblingNode</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, <a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a>* oPreviousSiblingNode);</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span></div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#ac1c26056b9be67ab2f804a69f1e52c12">  160</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#ac1c26056b9be67ab2f804a69f1e52c12">DftXmlInsertEndSiblingNode</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, <span class="keyword">const</span> <span class="keywordtype">char</span>* iNodeName, <a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a>* oSiblingNode);</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span></div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>)</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#ad0c824fe9721200067b94af9e83933f4">  173</a></span><a class="code hl_function" href="_dft_xml_8h.html#ad0c824fe9721200067b94af9e83933f4">DftXmlFindNode</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, const <span class="keywordtype">char</span>* iNodeName, const <span class="keywordtype">char</span>* iAttributeName, const <span class="keywordtype">char</span>* iAttributeValue, <a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a>* oNode);</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#aad3cc76b7abee711ecc663d7aa56bfe6">  182</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#aad3cc76b7abee711ecc663d7aa56bfe6">DftXmlGetNodeName</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, <span class="keywordtype">char</span>** oNodeName);</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span></div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a1a3587838b218c65e79f01d5cea5ec75">  191</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a1a3587838b218c65e79f01d5cea5ec75">DftXmlSetNodeName</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, const <span class="keywordtype">char</span>* iNodeName);</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span></div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a45dd8a006ca000ddd646d511fdec7e10">  200</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a45dd8a006ca000ddd646d511fdec7e10">DftXmlGetNodeText</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, <span class="keywordtype">char</span>** oNodeName);</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span></div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a86c0057c1c2fc8a6435ecef02d814cc5">  209</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a86c0057c1c2fc8a6435ecef02d814cc5">DftXmlSetNodeText</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, const <span class="keywordtype">char</span>* iNodeText);</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span></div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a0fc113b7547d5a59a3a5f4c07162379f">  219</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a0fc113b7547d5a59a3a5f4c07162379f">DftXmlGetNodeAttribute</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, const <span class="keywordtype">char</span>* iAttributeName, <span class="keywordtype">char</span>** oAttributeValue);</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span></div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#a78a7f9625a0161d5b9b5750ac71f40f7">  229</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#a78a7f9625a0161d5b9b5750ac71f40f7">DftXmlSetNodeAttribute</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, const <span class="keywordtype">char</span>* iAttributeName, const <span class="keywordtype">char</span>* iAttributeValue);</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="_dft_xml_8h.html#ae9265a230075ede83d62087ac1988a07">  238</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_xml_8h.html#ae9265a230075ede83d62087ac1988a07">DftXmlGetChidrenNodeCount</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a> iXmlNode, <a class="code hl_typedef" href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a>* oCount);</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="preprocessor">#endif </span><span class="comment">// DFT_XML_H</span></div>
+<div class="ttc" id="a_dft_base_8h_html"><div class="ttname"><a href="_dft_base_8h.html">DftBase.h</a></div><div class="ttdoc">概述：DftBase基础头文件</div></div>
+<div class="ttc" id="a_dft_status_8h_html"><div class="ttname"><a href="_dft_status_8h.html">DftStatus.h</a></div><div class="ttdoc">概述：状态码定义</div></div>
+<div class="ttc" id="a_dft_status_8h_html_aaec3efe5260f65ebb619b167325491b0"><div class="ttname"><a href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a></div><div class="ttdeci">DftStatus</div><div class="ttdoc">状态码</div><div class="ttdef"><b>定义</b> DftStatus.h:16</div></div>
+<div class="ttc" id="a_dft_types_8h_html"><div class="ttname"><a href="_dft_types_8h.html">DftTypes.h</a></div><div class="ttdoc">概述：定义DftBase库中的基本数据类型</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a5bbc51b77e95ede87f6ff9542ea3eac4"><div class="ttname"><a href="_dft_types_8h.html#a5bbc51b77e95ede87f6ff9542ea3eac4">DftXmlNodeHandle</a></div><div class="ttdeci">void * DftXmlNodeHandle</div><div class="ttdoc">XML 节点句柄</div><div class="ttdef"><b>定义</b> DftTypes.h:132</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a707c1d82ee5ee4556ced400697de3dcf"><div class="ttname"><a href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a></div><div class="ttdeci">unsigned int DftUInt32</div><div class="ttdoc">32位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:60</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a896fe197993f685d88785827d83854f9"><div class="ttname"><a href="_dft_types_8h.html#a896fe197993f685d88785827d83854f9">DftXmlHandle</a></div><div class="ttdeci">void * DftXmlHandle</div><div class="ttdoc">XML 文档句柄</div><div class="ttdef"><b>定义</b> DftTypes.h:130</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a0bfcbb061f36e57ee9871edd5bb73f11"><div class="ttname"><a href="_dft_xml_8h.html#a0bfcbb061f36e57ee9871edd5bb73f11">DftXmlRemoveChildNode</a></div><div class="ttdeci">DftStatus DftXmlRemoveChildNode(DftXmlNodeHandle iXmlNode)</div><div class="ttdoc">删除 XML 子节点</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a0fc113b7547d5a59a3a5f4c07162379f"><div class="ttname"><a href="_dft_xml_8h.html#a0fc113b7547d5a59a3a5f4c07162379f">DftXmlGetNodeAttribute</a></div><div class="ttdeci">DftStatus DftXmlGetNodeAttribute(DftXmlNodeHandle iXmlNode, const char *iAttributeName, char **oAttributeValue)</div><div class="ttdoc">获取 XML 节点属性值</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a1a3587838b218c65e79f01d5cea5ec75"><div class="ttname"><a href="_dft_xml_8h.html#a1a3587838b218c65e79f01d5cea5ec75">DftXmlSetNodeName</a></div><div class="ttdeci">DftStatus DftXmlSetNodeName(DftXmlNodeHandle iXmlNode, const char *iNodeName)</div><div class="ttdoc">设置 XML 节点名</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a2ae00614d8fd742d195056172373cad8"><div class="ttname"><a href="_dft_xml_8h.html#a2ae00614d8fd742d195056172373cad8">DftXmlGetEncoding</a></div><div class="ttdeci">DftStatus DftXmlGetEncoding(DftXmlHandle iXmlHandle, char **oEncoding)</div><div class="ttdoc">获取 XML 文档编码</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a3868ed16ab63bd959bc3b66c74a42822"><div class="ttname"><a href="_dft_xml_8h.html#a3868ed16ab63bd959bc3b66c74a42822">DftXmlLoadFromString</a></div><div class="ttdeci">DftStatus DftXmlLoadFromString(const char *iXmlString, DftXmlHandle *oXmlHandle)</div><div class="ttdoc">从字符串加载 XML 内容</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a45dd8a006ca000ddd646d511fdec7e10"><div class="ttname"><a href="_dft_xml_8h.html#a45dd8a006ca000ddd646d511fdec7e10">DftXmlGetNodeText</a></div><div class="ttdeci">DftStatus DftXmlGetNodeText(DftXmlNodeHandle iXmlNode, char **oNodeName)</div><div class="ttdoc">获取 XML 节点文本</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a54552da8118d4952bec2203682081e35"><div class="ttname"><a href="_dft_xml_8h.html#a54552da8118d4952bec2203682081e35">DftXmlGetParentNode</a></div><div class="ttdeci">DftStatus DftXmlGetParentNode(DftXmlNodeHandle iXmlNode, DftXmlNodeHandle *oParentNode)</div><div class="ttdoc">获取 XML 节点的父节点</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a5ce14e20329a425bc5d3e2409396ed49"><div class="ttname"><a href="_dft_xml_8h.html#a5ce14e20329a425bc5d3e2409396ed49">DftXmlOutputToString</a></div><div class="ttdeci">DftStatus DftXmlOutputToString(DftXmlHandle iXmlHandle, char **oXmlString)</div><div class="ttdoc">输出 XML 文档内容</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a6d3530b489982c1f0eca429b1eb26cdc"><div class="ttname"><a href="_dft_xml_8h.html#a6d3530b489982c1f0eca429b1eb26cdc">DftXmlReleaseHandle</a></div><div class="ttdeci">DftStatus DftXmlReleaseHandle(DftXmlHandle *iXmlHandle)</div><div class="ttdoc">释放 XML 文档对象</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a714ccf7ac7606940112e7b295d997920"><div class="ttname"><a href="_dft_xml_8h.html#a714ccf7ac7606940112e7b295d997920">DftXmlGetNextSiblingNode</a></div><div class="ttdeci">DftStatus DftXmlGetNextSiblingNode(DftXmlNodeHandle iXmlNode, DftXmlNodeHandle *oNextSiblingNode)</div><div class="ttdoc">获取 XML 节点的下一个兄弟节点</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a72485039ac9536869b45d9adaba05f31"><div class="ttname"><a href="_dft_xml_8h.html#a72485039ac9536869b45d9adaba05f31">DftXmlInsertEndChildNode</a></div><div class="ttdeci">DftStatus DftXmlInsertEndChildNode(DftXmlNodeHandle iXmlNode, const char *iNodeName, DftXmlNodeHandle *oChildNode)</div><div class="ttdoc">追加 XML 子节点</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a773bbafe35f3b4beea123228526f0177"><div class="ttname"><a href="_dft_xml_8h.html#a773bbafe35f3b4beea123228526f0177">DftXmlLoadFromFile</a></div><div class="ttdeci">DftStatus DftXmlLoadFromFile(const char *iXmlFileName, DftXmlHandle *oXmlHandle)</div><div class="ttdoc">从文件加载 XML 内容</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a78a7f9625a0161d5b9b5750ac71f40f7"><div class="ttname"><a href="_dft_xml_8h.html#a78a7f9625a0161d5b9b5750ac71f40f7">DftXmlSetNodeAttribute</a></div><div class="ttdeci">DftStatus DftXmlSetNodeAttribute(DftXmlNodeHandle iXmlNode, const char *iAttributeName, const char *iAttributeValue)</div><div class="ttdoc">设置 XML 节点属性值</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a86c0057c1c2fc8a6435ecef02d814cc5"><div class="ttname"><a href="_dft_xml_8h.html#a86c0057c1c2fc8a6435ecef02d814cc5">DftXmlSetNodeText</a></div><div class="ttdeci">DftStatus DftXmlSetNodeText(DftXmlNodeHandle iXmlNode, const char *iNodeText)</div><div class="ttdoc">设置 XML 节点文本</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_a89bcd511561d803db5decffbea13f5b2"><div class="ttname"><a href="_dft_xml_8h.html#a89bcd511561d803db5decffbea13f5b2">DftXmlGetLastChildNode</a></div><div class="ttdeci">DftStatus DftXmlGetLastChildNode(DftXmlNodeHandle iXmlNode, DftXmlNodeHandle *oLastChildNode)</div><div class="ttdoc">获取 XML 节点的最后一个子节点</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_aad3cc76b7abee711ecc663d7aa56bfe6"><div class="ttname"><a href="_dft_xml_8h.html#aad3cc76b7abee711ecc663d7aa56bfe6">DftXmlGetNodeName</a></div><div class="ttdeci">DftStatus DftXmlGetNodeName(DftXmlNodeHandle iXmlNode, char **oNodeName)</div><div class="ttdoc">获取 XML 节点名</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_ab379a0adb5145e5ecfdbddf089ccca41"><div class="ttname"><a href="_dft_xml_8h.html#ab379a0adb5145e5ecfdbddf089ccca41">DftXmlGetHandle</a></div><div class="ttdeci">DftStatus DftXmlGetHandle(DftXmlNodeHandle iXmlNode, DftXmlHandle *oXmlHandle)</div><div class="ttdoc">获取 XML 文档对象</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_abb3011dc34054e41b026a823d663910d"><div class="ttname"><a href="_dft_xml_8h.html#abb3011dc34054e41b026a823d663910d">DftXmlSaveToFile</a></div><div class="ttdeci">DftStatus DftXmlSaveToFile(DftXmlHandle iXmlHandle, const char *iXmlFileName)</div><div class="ttdoc">保存 XML 文档到文件</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_ac1c26056b9be67ab2f804a69f1e52c12"><div class="ttname"><a href="_dft_xml_8h.html#ac1c26056b9be67ab2f804a69f1e52c12">DftXmlInsertEndSiblingNode</a></div><div class="ttdeci">DftStatus DftXmlInsertEndSiblingNode(DftXmlNodeHandle iXmlNode, const char *iNodeName, DftXmlNodeHandle *oSiblingNode)</div><div class="ttdoc">追加 XML 兄弟节点</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_ac5b8517744e0d4376f49dec6eacbe737"><div class="ttname"><a href="_dft_xml_8h.html#ac5b8517744e0d4376f49dec6eacbe737">DftXmlGetRootNode</a></div><div class="ttdeci">DftStatus DftXmlGetRootNode(DftXmlHandle iXmlHandle, DftXmlNodeHandle *oRootNode)</div><div class="ttdoc">获取 XML 根节点</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_ad0c824fe9721200067b94af9e83933f4"><div class="ttname"><a href="_dft_xml_8h.html#ad0c824fe9721200067b94af9e83933f4">DftXmlFindNode</a></div><div class="ttdeci">DftStatus DftXmlFindNode(DftXmlNodeHandle iXmlNode, const char *iNodeName, const char *iAttributeName, const char *iAttributeValue, DftXmlNodeHandle *oNode)</div><div class="ttdoc">按节点名和节点属性查找 XML 节点</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_addd90d2409b90a505c8b921d7e2113b5"><div class="ttname"><a href="_dft_xml_8h.html#addd90d2409b90a505c8b921d7e2113b5">DftXmlGetFirstChildNode</a></div><div class="ttdeci">DftStatus DftXmlGetFirstChildNode(DftXmlNodeHandle iXmlNode, DftXmlNodeHandle *oChildNode)</div><div class="ttdoc">获取 XML 节点的第一个子节点</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_ae9265a230075ede83d62087ac1988a07"><div class="ttname"><a href="_dft_xml_8h.html#ae9265a230075ede83d62087ac1988a07">DftXmlGetChidrenNodeCount</a></div><div class="ttdeci">DftStatus DftXmlGetChidrenNodeCount(DftXmlNodeHandle iXmlNode, DftUInt32 *oCount)</div><div class="ttdoc">获取 XML 节点的子节点数量</div></div>
+<div class="ttc" id="a_dft_xml_8h_html_ae977779a8b95ac1ebcb20720daa1bbda"><div class="ttname"><a href="_dft_xml_8h.html#ae977779a8b95ac1ebcb20720daa1bbda">DftXmlGetPreviousSiblingNode</a></div><div class="ttdeci">DftStatus DftXmlGetPreviousSiblingNode(DftXmlNodeHandle iXmlNode, DftXmlNodeHandle *oPreviousSiblingNode)</div><div class="ttdoc">获取 XML 节点的上一个兄弟节点</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_88cccc9d439318285f6d519044a748d2.html">DftBase</a></li><li class="navelem"><a href="_dft_xml_8h.html">DftXml.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

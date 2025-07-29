@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIMeshPrimitive.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_mesh_primitive_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIMeshPrimitive.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_mesh_primitive_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIMESHPRIMITIVE_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIMESHPRIMITIVE_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72ab">   22</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72ab">PrimitiveType</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba2c52f5f38383b4f1ff0f55b75e4feb5a">   24</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba2c52f5f38383b4f1ff0f55b75e4feb5a">PRIMITIVETYPE_NULL</a> = 0,          </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba4d89a0c6afdae04ecb7484ac07cc600f">   25</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba4d89a0c6afdae04ecb7484ac07cc600f">PRIMITIVETYPE_POINTLIST</a> = 1,     </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72abab4266e545b88f5a8040e72428d6a65aa">   26</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72abab4266e545b88f5a8040e72428d6a65aa">PRIMITIVETYPE_LINELIST</a> = 2,      </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72abac6365c4e765244d85ee7301ac9b83f9d">   27</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72abac6365c4e765244d85ee7301ac9b83f9d">PRIMITIVETYPE_LINESTRIP</a> = 3,     </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72abaac69e6735b93e4fb81b4a8a216a6c78f">   28</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72abaac69e6735b93e4fb81b4a8a216a6c78f">PRIMITIVETYPE_TRIANGLELIST</a> = 4,  </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba0aaffa0f85570605192b48d9f4c7dc00">   29</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba0aaffa0f85570605192b48d9f4c7dc00">PRIMITIVETYPE_TRIANGLESTRIP</a> = 5, </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba99b94335236c8d8b40e36a975a1f16ef">   30</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba99b94335236c8d8b40e36a975a1f16ef">PRIMITIVETYPE_TRIANGLEFAN</a> = 6,   </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba3a027e7688e544ce94811f8086df8ee6">   31</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba3a027e7688e544ce94811f8086df8ee6">PRIMITIVETYPE_QUADLIST</a> = 7,      </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba92f30fb4217074739e803dd787289e8a">   32</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba92f30fb4217074739e803dd787289e8a">PRIMITIVETYPE_QUADSTRIP</a> = 8,     </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>};</div>
+</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
+<div class="foldopen" id="foldopen00036" data-start="{" data-end="};">
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_primitive.html">   36</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_mesh_primitive.html">IMeshPrimitive</a></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>{</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_primitive.html#a7c4f38f5bedb46be59b94dece3842349">   48</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_primitive.html#a7c4f38f5bedb46be59b94dece3842349">GetData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&amp; oPrimitiveType, std::vector&lt;DftUInt&gt;&amp; oCoordIndexArray, std::vector&lt;DftUInt&gt;&amp; oNormalIndexArray,</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                               std::vector&lt;DftUInt&gt;&amp; oTextureIndexArray) = 0;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_mesh_primitive.html#a4a6b8b3c186cca77f4b5d0dc5018c9f2">   60</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_mesh_primitive.html#a4a6b8b3c186cca77f4b5d0dc5018c9f2">SetData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iPrimitiveType, <span class="keyword">const</span> std::vector&lt;DftUInt&gt;&amp; iCoordIndexArray, <span class="keyword">const</span> std::vector&lt;DftUInt&gt;&amp; iNormalIndexArray,</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                               <span class="keyword">const</span> std::vector&lt;DftUInt&gt;&amp; iTextureIndexArray) = 0;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>};</div>
+</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a9dd0d1ca2dc17c79bf9082d2b72d957f"><div class="ttname"><a href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></div><div class="ttdeci">unsigned int DftUInt</div><div class="ttdoc">无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:48</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_primitive_8h_html_a209330c9325f83377c85a8388cfd72ab"><div class="ttname"><a href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72ab">kernel::pdv::PrimitiveType</a></div><div class="ttdeci">PrimitiveType</div><div class="ttdoc">图元类型标识符</div><div class="ttdef"><b>定义</b> PDVIMeshPrimitive.h:23</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_primitive_8h_html_a209330c9325f83377c85a8388cfd72aba0aaffa0f85570605192b48d9f4c7dc00"><div class="ttname"><a href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba0aaffa0f85570605192b48d9f4c7dc00">kernel::pdv::PRIMITIVETYPE_TRIANGLESTRIP</a></div><div class="ttdeci">@ PRIMITIVETYPE_TRIANGLESTRIP</div><div class="ttdoc">三角形带图元</div><div class="ttdef"><b>定义</b> PDVIMeshPrimitive.h:29</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_primitive_8h_html_a209330c9325f83377c85a8388cfd72aba2c52f5f38383b4f1ff0f55b75e4feb5a"><div class="ttname"><a href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba2c52f5f38383b4f1ff0f55b75e4feb5a">kernel::pdv::PRIMITIVETYPE_NULL</a></div><div class="ttdeci">@ PRIMITIVETYPE_NULL</div><div class="ttdoc">未知</div><div class="ttdef"><b>定义</b> PDVIMeshPrimitive.h:24</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_primitive_8h_html_a209330c9325f83377c85a8388cfd72aba3a027e7688e544ce94811f8086df8ee6"><div class="ttname"><a href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba3a027e7688e544ce94811f8086df8ee6">kernel::pdv::PRIMITIVETYPE_QUADLIST</a></div><div class="ttdeci">@ PRIMITIVETYPE_QUADLIST</div><div class="ttdoc">四边形图元</div><div class="ttdef"><b>定义</b> PDVIMeshPrimitive.h:31</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_primitive_8h_html_a209330c9325f83377c85a8388cfd72aba4d89a0c6afdae04ecb7484ac07cc600f"><div class="ttname"><a href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba4d89a0c6afdae04ecb7484ac07cc600f">kernel::pdv::PRIMITIVETYPE_POINTLIST</a></div><div class="ttdeci">@ PRIMITIVETYPE_POINTLIST</div><div class="ttdoc">点图元</div><div class="ttdef"><b>定义</b> PDVIMeshPrimitive.h:25</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_primitive_8h_html_a209330c9325f83377c85a8388cfd72aba92f30fb4217074739e803dd787289e8a"><div class="ttname"><a href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba92f30fb4217074739e803dd787289e8a">kernel::pdv::PRIMITIVETYPE_QUADSTRIP</a></div><div class="ttdeci">@ PRIMITIVETYPE_QUADSTRIP</div><div class="ttdoc">四边形带图元</div><div class="ttdef"><b>定义</b> PDVIMeshPrimitive.h:32</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_primitive_8h_html_a209330c9325f83377c85a8388cfd72aba99b94335236c8d8b40e36a975a1f16ef"><div class="ttname"><a href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72aba99b94335236c8d8b40e36a975a1f16ef">kernel::pdv::PRIMITIVETYPE_TRIANGLEFAN</a></div><div class="ttdeci">@ PRIMITIVETYPE_TRIANGLEFAN</div><div class="ttdoc">三角形扇图元</div><div class="ttdef"><b>定义</b> PDVIMeshPrimitive.h:30</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_primitive_8h_html_a209330c9325f83377c85a8388cfd72abaac69e6735b93e4fb81b4a8a216a6c78f"><div class="ttname"><a href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72abaac69e6735b93e4fb81b4a8a216a6c78f">kernel::pdv::PRIMITIVETYPE_TRIANGLELIST</a></div><div class="ttdeci">@ PRIMITIVETYPE_TRIANGLELIST</div><div class="ttdoc">三角形图元</div><div class="ttdef"><b>定义</b> PDVIMeshPrimitive.h:28</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_primitive_8h_html_a209330c9325f83377c85a8388cfd72abab4266e545b88f5a8040e72428d6a65aa"><div class="ttname"><a href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72abab4266e545b88f5a8040e72428d6a65aa">kernel::pdv::PRIMITIVETYPE_LINELIST</a></div><div class="ttdeci">@ PRIMITIVETYPE_LINELIST</div><div class="ttdoc">线图元</div><div class="ttdef"><b>定义</b> PDVIMeshPrimitive.h:26</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_primitive_8h_html_a209330c9325f83377c85a8388cfd72abac6365c4e765244d85ee7301ac9b83f9d"><div class="ttname"><a href="_p_d_v_i_mesh_primitive_8h.html#a209330c9325f83377c85a8388cfd72abac6365c4e765244d85ee7301ac9b83f9d">kernel::pdv::PRIMITIVETYPE_LINESTRIP</a></div><div class="ttdeci">@ PRIMITIVETYPE_LINESTRIP</div><div class="ttdoc">线段条带图元</div><div class="ttdef"><b>定义</b> PDVIMeshPrimitive.h:27</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_primitive_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_primitive.html">kernel::pdv::IMeshPrimitive</a></div><div class="ttdoc">网格图元的接口</div><div class="ttdef"><b>定义</b> PDVIMeshPrimitive.h:37</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_primitive_html_a4a6b8b3c186cca77f4b5d0dc5018c9f2"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_primitive.html#a4a6b8b3c186cca77f4b5d0dc5018c9f2">kernel::pdv::IMeshPrimitive::SetData</a></div><div class="ttdeci">virtual PDV_RESULT SetData(DftUInt iPrimitiveType, const std::vector&lt; DftUInt &gt; &amp;iCoordIndexArray, const std::vector&lt; DftUInt &gt; &amp;iNormalIndexArray, const std::vector&lt; DftUInt &gt; &amp;iTextureIndexArray)=0</div><div class="ttdoc">设置网格顶点数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_primitive_html_a7c4f38f5bedb46be59b94dece3842349"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh_primitive.html#a7c4f38f5bedb46be59b94dece3842349">kernel::pdv::IMeshPrimitive::GetData</a></div><div class="ttdeci">virtual PDV_RESULT GetData(DftUInt &amp;oPrimitiveType, std::vector&lt; DftUInt &gt; &amp;oCoordIndexArray, std::vector&lt; DftUInt &gt; &amp;oNormalIndexArray, std::vector&lt; DftUInt &gt; &amp;oTextureIndexArray)=0</div><div class="ttdoc">获取网格顶点数据</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_mesh_primitive_8h.html">PDVIMeshPrimitive.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

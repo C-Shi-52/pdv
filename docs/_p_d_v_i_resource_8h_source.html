@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIResource.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_resource_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIResource.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_resource_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIRESOURCE_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIRESOURCE_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58">   22</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58">ResourceType</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a3a3d5a3da7a9456e81a4c31c965ae3ac">   24</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a3a3d5a3da7a9456e81a4c31c965ae3ac">RESOURCETYPE_NULL</a> = 0,              </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a7a60ae2c8b78b6b5d412963e6be1f1a6">   25</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a7a60ae2c8b78b6b5d412963e6be1f1a6">RESOURCETYPE_IMAGE</a> = 1,             </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a58f6a1fe86bf692815bf92c450d4848c">   26</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a58f6a1fe86bf692815bf92c450d4848c">RESOURCETYPE_AUDIO</a> = 2,             </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a3c2e526156b3daf8454e50c82bd2fe84">   27</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a3c2e526156b3daf8454e50c82bd2fe84">RESOURCETYPE_VIDEO</a> = 3,             </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58aa73ccbf348c4b2aea59eba7f708d00ea">   28</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58aa73ccbf348c4b2aea59eba7f708d00ea">RESOURCETYPE_FONT</a> = 4,              </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58aaf9902e045ad7163fe7d9642b1f5d729">   29</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58aaf9902e045ad7163fe7d9642b1f5d729">RESOURCETYPE_DOCUMENT</a> = 5,          </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a338b49b975fac7438b7e883bd6ca4ebb">   30</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a338b49b975fac7438b7e883bd6ca4ebb">RESOURCETYPE_OTHER</a> = 6,             </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58aae4c70db098df89d07820a4dc87ffb42">   31</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58aae4c70db098df89d07820a4dc87ffb42">RESOURCETYPE_VIEWDATA</a> = 101,        </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58af4b9c32b13b14bf991c74f8a764aea34">   32</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58af4b9c32b13b14bf991c74f8a764aea34">RESOURCETYPE_FRAMEANIMATIONDATA</a> = 102,    </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a1bc72043266587728730d188b52bee60">   33</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a1bc72043266587728730d188b52bee60">RESOURCETYPE_MATERIALDATA</a> = 103,          </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a3921ee7d6737ed01a8634817c965289a">   34</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a3921ee7d6737ed01a8634817c965289a">RESOURCETYPE_SECTIONDATA</a> = 104,           </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58ac3753a52211183e99eac3145c8405d48">   35</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58ac3753a52211183e99eac3145c8405d48">RESOURCETYPE_VIEWLISTDATA</a> = 105,          </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a34f0069d5e6432fc0cbf7676240d0cf1">   36</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a34f0069d5e6432fc0cbf7676240d0cf1">RESOURCETYPE_ANIMATIONDATA</a> = 106,         </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58aaec2ed3ae021f7a9b81cbe20b57c0084">   37</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58aaec2ed3ae021f7a9b81cbe20b57c0084">RESOURCETYPE_ANIMATIONCLIPDATA</a> = 107,     </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a4d9089d49595b8d6c2c903e6c8f8fbc5">   38</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a4d9089d49595b8d6c2c903e6c8f8fbc5">RESOURCETYPE_COLORBARCONFIG</a> = 108,        </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a98d5a520334eb138f55d6dbbd7066247">   39</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a98d5a520334eb138f55d6dbbd7066247">RESOURCETYPE_TABLEDATA</a> = 109              </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>};</div>
+</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="};">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_resource.html">   43</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_resource.html">IResource</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>{</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_resource.html#a55a411bb5db151de14af7c844b4fbd6f">   52</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_resource.html#a55a411bb5db151de14af7c844b4fbd6f">GetName</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oName) = 0;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_resource.html#afbcc2792ec573c324590eed8bfe872bf">   61</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_resource.html#afbcc2792ec573c324590eed8bfe872bf">SetName</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iName, <a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> iNeedRead = FALSE) = 0;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_resource.html#ac11895b6cb6c485399ecec3d91b9af7a">   68</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_resource.html#ac11895b6cb6c485399ecec3d91b9af7a">GetType</a>() = 0;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_resource.html#a2a00802ac4befec6b90aafb09f947426">   76</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_resource.html#a2a00802ac4befec6b90aafb09f947426">SetType</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;iType) = 0;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_resource.html#ad24290d61f9db7a8d898b375b2a85bbd">   84</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_resource.html#ad24290d61f9db7a8d898b375b2a85bbd">GetFormat</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oFormat) = 0;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_resource.html#a1288753563f9b266c72db2f89ec64822">   92</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_resource.html#a1288753563f9b266c72db2f89ec64822">SetFormat</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iFormat) = 0;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_resource.html#a719b30d17df1c599480d424561bc631a">  101</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_resource.html#a719b30d17df1c599480d424561bc631a">GetFileData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a> *&amp;oFileData, <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;oLength) = 0;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_resource.html#a822b6ecd36246eb5f46ce4c1e1f1c7c3">  110</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_resource.html#a822b6ecd36246eb5f46ce4c1e1f1c7c3">SetFileData</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a> *iFileData, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iLength) = 0;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>};</div>
+</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a053d8ce6a85300520cc14cd4650ced33"><div class="ttname"><a href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></div><div class="ttdeci">unsigned long long DftUInt64</div><div class="ttdoc">64位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:64</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a9dd0d1ca2dc17c79bf9082d2b72d957f"><div class="ttname"><a href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></div><div class="ttdeci">unsigned int DftUInt</div><div class="ttdoc">无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:48</div></div>
+<div class="ttc" id="a_dft_types_8h_html_aa0f85f8d3a1d218672e4d650f38fb674"><div class="ttname"><a href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></div><div class="ttdeci">int DftBool</div><div class="ttdoc">布尔型</div><div class="ttdef"><b>定义</b> DftTypes.h:40</div></div>
+<div class="ttc" id="a_dft_types_8h_html_ac2aba550cab19b83538f0e748d793efa"><div class="ttname"><a href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a></div><div class="ttdeci">unsigned char DftByte</div><div class="ttdoc">字节</div><div class="ttdef"><b>定义</b> DftTypes.h:42</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58">kernel::pdv::ResourceType</a></div><div class="ttdeci">ResourceType</div><div class="ttdoc">资源文件的类型</div><div class="ttdef"><b>定义</b> PDVIResource.h:23</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58a1bc72043266587728730d188b52bee60"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a1bc72043266587728730d188b52bee60">kernel::pdv::RESOURCETYPE_MATERIALDATA</a></div><div class="ttdeci">@ RESOURCETYPE_MATERIALDATA</div><div class="ttdoc">材质应用数据</div><div class="ttdef"><b>定义</b> PDVIResource.h:33</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58a338b49b975fac7438b7e883bd6ca4ebb"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a338b49b975fac7438b7e883bd6ca4ebb">kernel::pdv::RESOURCETYPE_OTHER</a></div><div class="ttdeci">@ RESOURCETYPE_OTHER</div><div class="ttdoc">其他附件</div><div class="ttdef"><b>定义</b> PDVIResource.h:30</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58a34f0069d5e6432fc0cbf7676240d0cf1"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a34f0069d5e6432fc0cbf7676240d0cf1">kernel::pdv::RESOURCETYPE_ANIMATIONDATA</a></div><div class="ttdeci">@ RESOURCETYPE_ANIMATIONDATA</div><div class="ttdoc">动画数据</div><div class="ttdef"><b>定义</b> PDVIResource.h:36</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58a3921ee7d6737ed01a8634817c965289a"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a3921ee7d6737ed01a8634817c965289a">kernel::pdv::RESOURCETYPE_SECTIONDATA</a></div><div class="ttdeci">@ RESOURCETYPE_SECTIONDATA</div><div class="ttdoc">剖切补面数据</div><div class="ttdef"><b>定义</b> PDVIResource.h:34</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58a3a3d5a3da7a9456e81a4c31c965ae3ac"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a3a3d5a3da7a9456e81a4c31c965ae3ac">kernel::pdv::RESOURCETYPE_NULL</a></div><div class="ttdeci">@ RESOURCETYPE_NULL</div><div class="ttdoc">未知</div><div class="ttdef"><b>定义</b> PDVIResource.h:24</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58a3c2e526156b3daf8454e50c82bd2fe84"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a3c2e526156b3daf8454e50c82bd2fe84">kernel::pdv::RESOURCETYPE_VIDEO</a></div><div class="ttdeci">@ RESOURCETYPE_VIDEO</div><div class="ttdoc">视频类型</div><div class="ttdef"><b>定义</b> PDVIResource.h:27</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58a4d9089d49595b8d6c2c903e6c8f8fbc5"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a4d9089d49595b8d6c2c903e6c8f8fbc5">kernel::pdv::RESOURCETYPE_COLORBARCONFIG</a></div><div class="ttdeci">@ RESOURCETYPE_COLORBARCONFIG</div><div class="ttdoc">colorBar配置</div><div class="ttdef"><b>定义</b> PDVIResource.h:38</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58a58f6a1fe86bf692815bf92c450d4848c"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a58f6a1fe86bf692815bf92c450d4848c">kernel::pdv::RESOURCETYPE_AUDIO</a></div><div class="ttdeci">@ RESOURCETYPE_AUDIO</div><div class="ttdoc">音频类型</div><div class="ttdef"><b>定义</b> PDVIResource.h:26</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58a7a60ae2c8b78b6b5d412963e6be1f1a6"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a7a60ae2c8b78b6b5d412963e6be1f1a6">kernel::pdv::RESOURCETYPE_IMAGE</a></div><div class="ttdeci">@ RESOURCETYPE_IMAGE</div><div class="ttdoc">图像类型</div><div class="ttdef"><b>定义</b> PDVIResource.h:25</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58a98d5a520334eb138f55d6dbbd7066247"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58a98d5a520334eb138f55d6dbbd7066247">kernel::pdv::RESOURCETYPE_TABLEDATA</a></div><div class="ttdeci">@ RESOURCETYPE_TABLEDATA</div><div class="ttdoc">标签数据</div><div class="ttdef"><b>定义</b> PDVIResource.h:39</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58aa73ccbf348c4b2aea59eba7f708d00ea"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58aa73ccbf348c4b2aea59eba7f708d00ea">kernel::pdv::RESOURCETYPE_FONT</a></div><div class="ttdeci">@ RESOURCETYPE_FONT</div><div class="ttdoc">字体类型</div><div class="ttdef"><b>定义</b> PDVIResource.h:28</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58aae4c70db098df89d07820a4dc87ffb42"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58aae4c70db098df89d07820a4dc87ffb42">kernel::pdv::RESOURCETYPE_VIEWDATA</a></div><div class="ttdeci">@ RESOURCETYPE_VIEWDATA</div><div class="ttdoc">视图数据</div><div class="ttdef"><b>定义</b> PDVIResource.h:31</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58aaec2ed3ae021f7a9b81cbe20b57c0084"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58aaec2ed3ae021f7a9b81cbe20b57c0084">kernel::pdv::RESOURCETYPE_ANIMATIONCLIPDATA</a></div><div class="ttdeci">@ RESOURCETYPE_ANIMATIONCLIPDATA</div><div class="ttdoc">动画片段数据</div><div class="ttdef"><b>定义</b> PDVIResource.h:37</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58aaf9902e045ad7163fe7d9642b1f5d729"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58aaf9902e045ad7163fe7d9642b1f5d729">kernel::pdv::RESOURCETYPE_DOCUMENT</a></div><div class="ttdeci">@ RESOURCETYPE_DOCUMENT</div><div class="ttdoc">文档类型</div><div class="ttdef"><b>定义</b> PDVIResource.h:29</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58ac3753a52211183e99eac3145c8405d48"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58ac3753a52211183e99eac3145c8405d48">kernel::pdv::RESOURCETYPE_VIEWLISTDATA</a></div><div class="ttdeci">@ RESOURCETYPE_VIEWLISTDATA</div><div class="ttdoc">视图列表数据</div><div class="ttdef"><b>定义</b> PDVIResource.h:35</div></div>
+<div class="ttc" id="a_p_d_v_i_resource_8h_html_a22a0df0fa1e5b2cfe0b1f657d549de58af4b9c32b13b14bf991c74f8a764aea34"><div class="ttname"><a href="_p_d_v_i_resource_8h.html#a22a0df0fa1e5b2cfe0b1f657d549de58af4b9c32b13b14bf991c74f8a764aea34">kernel::pdv::RESOURCETYPE_FRAMEANIMATIONDATA</a></div><div class="ttdeci">@ RESOURCETYPE_FRAMEANIMATIONDATA</div><div class="ttdoc">帧动画数据</div><div class="ttdef"><b>定义</b> PDVIResource.h:32</div></div>
+<div class="ttc" id="aclass_c_unicode_string_html"><div class="ttname"><a href="class_c_unicode_string.html">CUnicodeString</a></div><div class="ttdoc">Unicode字符操作接口</div><div class="ttdef"><b>定义</b> UnicodeString.h:80</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_resource_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_resource.html">kernel::pdv::IResource</a></div><div class="ttdoc">资源的接口</div><div class="ttdef"><b>定义</b> PDVIResource.h:44</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_resource_html_a1288753563f9b266c72db2f89ec64822"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_resource.html#a1288753563f9b266c72db2f89ec64822">kernel::pdv::IResource::SetFormat</a></div><div class="ttdeci">virtual PDV_RESULT SetFormat(const CUnicodeString &amp;iFormat)=0</div><div class="ttdoc">设置资源文件的格式</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_resource_html_a2a00802ac4befec6b90aafb09f947426"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_resource.html#a2a00802ac4befec6b90aafb09f947426">kernel::pdv::IResource::SetType</a></div><div class="ttdeci">virtual PDV_RESULT SetType(const DftUInt &amp;iType)=0</div><div class="ttdoc">设置资源文件的类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_resource_html_a55a411bb5db151de14af7c844b4fbd6f"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_resource.html#a55a411bb5db151de14af7c844b4fbd6f">kernel::pdv::IResource::GetName</a></div><div class="ttdeci">virtual PDV_RESULT GetName(CUnicodeString &amp;oName)=0</div><div class="ttdoc">获取资源文件名</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_resource_html_a719b30d17df1c599480d424561bc631a"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_resource.html#a719b30d17df1c599480d424561bc631a">kernel::pdv::IResource::GetFileData</a></div><div class="ttdeci">virtual PDV_RESULT GetFileData(DftByte *&amp;oFileData, DftUInt64 &amp;oLength)=0</div><div class="ttdoc">获取资源文件数据，和其二进制数据长度</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_resource_html_a822b6ecd36246eb5f46ce4c1e1f1c7c3"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_resource.html#a822b6ecd36246eb5f46ce4c1e1f1c7c3">kernel::pdv::IResource::SetFileData</a></div><div class="ttdeci">virtual PDV_RESULT SetFileData(const DftByte *iFileData, const DftUInt64 &amp;iLength)=0</div><div class="ttdoc">设置资源文件数据，和其二进制数据长度</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_resource_html_ac11895b6cb6c485399ecec3d91b9af7a"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_resource.html#ac11895b6cb6c485399ecec3d91b9af7a">kernel::pdv::IResource::GetType</a></div><div class="ttdeci">virtual DftUInt GetType()=0</div><div class="ttdoc">获取资源文件的类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_resource_html_ad24290d61f9db7a8d898b375b2a85bbd"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_resource.html#ad24290d61f9db7a8d898b375b2a85bbd">kernel::pdv::IResource::GetFormat</a></div><div class="ttdeci">virtual PDV_RESULT GetFormat(CUnicodeString &amp;oFormat)=0</div><div class="ttdoc">获取资源文件的格式</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_resource_html_afbcc2792ec573c324590eed8bfe872bf"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_resource.html#afbcc2792ec573c324590eed8bfe872bf">kernel::pdv::IResource::SetName</a></div><div class="ttdeci">virtual PDV_RESULT SetName(const CUnicodeString &amp;iName, DftBool iNeedRead=0)=0</div><div class="ttdoc">设置资源文件名</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_resource_8h.html">PDVIResource.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

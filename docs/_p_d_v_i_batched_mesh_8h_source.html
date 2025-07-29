@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIBatchedMesh.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_batched_mesh_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIBatchedMesh.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_batched_mesh_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIBATCHEDMESH_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIBATCHEDMESH_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html">   22</a></span><span class="keyword">struct </span><a class="code hl_function" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa4cbd861e2b6c5c17926b85f361ee69a">RenderGeometryRangeInfo</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a17959e59cd872cd24494c9d09529d6d8">   24</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a17959e59cd872cd24494c9d09529d6d8">_renderGeometryID</a>;               </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#ab8bce0d644c8d56dfc9455aba9abc41e">   25</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#ab8bce0d644c8d56dfc9455aba9abc41e">_vertexIndexMax</a>;                 </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0a84a9c0a9fb006bd7a37031ad2e8be5">   26</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0a84a9c0a9fb006bd7a37031ad2e8be5">_vertexIndexMin</a>;                 </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa456e2e1a8386a50a72e7476246ba4dc">   27</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa456e2e1a8386a50a72e7476246ba4dc">_indexMax</a>;                       </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0fc55ca43399dab068bdc21386904763">   28</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0fc55ca43399dab068bdc21386904763">_indexMin</a>;                       </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa4cbd861e2b6c5c17926b85f361ee69a">   30</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa4cbd861e2b6c5c17926b85f361ee69a">RenderGeometryRangeInfo</a>() { <a class="code hl_function" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a06074b9042e7793f89c52fae45358518">Clear</a>(); }</div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a6be85eeadc26d9b392090e140a6de3bc">   32</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a6be85eeadc26d9b392090e140a6de3bc">RenderGeometryRangeInfo</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa4cbd861e2b6c5c17926b85f361ee69a">RenderGeometryRangeInfo</a>&amp; iData)</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a17959e59cd872cd24494c9d09529d6d8">_renderGeometryID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a17959e59cd872cd24494c9d09529d6d8">_renderGeometryID</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#ab8bce0d644c8d56dfc9455aba9abc41e">_vertexIndexMax</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#ab8bce0d644c8d56dfc9455aba9abc41e">_vertexIndexMax</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0a84a9c0a9fb006bd7a37031ad2e8be5">_vertexIndexMin</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0a84a9c0a9fb006bd7a37031ad2e8be5">_vertexIndexMin</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa456e2e1a8386a50a72e7476246ba4dc">_indexMax</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa456e2e1a8386a50a72e7476246ba4dc">_indexMax</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0fc55ca43399dab068bdc21386904763">_indexMin</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0fc55ca43399dab068bdc21386904763">_indexMin</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    }</div>
+</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
+<div class="foldopen" id="foldopen00041" data-start="{" data-end="}">
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a90f515a48c38069434ffd34bf569cac5">   41</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa4cbd861e2b6c5c17926b85f361ee69a">RenderGeometryRangeInfo</a>&amp; <a class="code hl_function" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a90f515a48c38069434ffd34bf569cac5">operator=</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa4cbd861e2b6c5c17926b85f361ee69a">RenderGeometryRangeInfo</a>&amp; iData)</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    {</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordflow">if</span> (&amp;iData != <span class="keyword">this</span>)</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a17959e59cd872cd24494c9d09529d6d8">_renderGeometryID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a17959e59cd872cd24494c9d09529d6d8">_renderGeometryID</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#ab8bce0d644c8d56dfc9455aba9abc41e">_vertexIndexMax</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#ab8bce0d644c8d56dfc9455aba9abc41e">_vertexIndexMax</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0a84a9c0a9fb006bd7a37031ad2e8be5">_vertexIndexMin</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0a84a9c0a9fb006bd7a37031ad2e8be5">_vertexIndexMin</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa456e2e1a8386a50a72e7476246ba4dc">_indexMax</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa456e2e1a8386a50a72e7476246ba4dc">_indexMax</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0fc55ca43399dab068bdc21386904763">_indexMin</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0fc55ca43399dab068bdc21386904763">_indexMin</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        }</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    }</div>
+</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
+<div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a06074b9042e7793f89c52fae45358518">   54</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a06074b9042e7793f89c52fae45358518">Clear</a>()</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a17959e59cd872cd24494c9d09529d6d8">_renderGeometryID</a> = DFT_INVALID_ID;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#ab8bce0d644c8d56dfc9455aba9abc41e">_vertexIndexMax</a> = 0;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0a84a9c0a9fb006bd7a37031ad2e8be5">_vertexIndexMin</a> = 0;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa456e2e1a8386a50a72e7476246ba4dc">_indexMax</a> = 0;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0fc55ca43399dab068bdc21386904763">_indexMin</a> = 0;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    }</div>
+</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>};</div>
+</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="_p_d_v_i_batched_mesh_8h.html#a59dca2cec96d7cc3dc3b6eeb6c6ed490">   64</a></span><span class="keyword">typedef</span> std::vector&lt;RenderGeometryRangeInfo&gt; <a class="code hl_typedef" href="_p_d_v_i_batched_mesh_8h.html#a59dca2cec96d7cc3dc3b6eeb6c6ed490">RenderGeometryRangeInfoArray</a>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span></div>
+<div class="foldopen" id="foldopen00067" data-start="{" data-end="};">
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html">   67</a></span><span class="keyword">struct </span><a class="code hl_function" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#ad618eb4a3c3d65e3b474e7b00b500a97">BatchedRenderMeshInfo</a></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>{</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> _treeNodeID;                     <span class="comment">// 节点对象ID</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> _renderBodyID;                   <span class="comment">// 渲染主体对象对象ID</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> _renderMeshID;                   <span class="comment">// 渲染网格对象ID</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <a class="code hl_typedef" href="_p_d_v_i_batched_mesh_8h.html#a59dca2cec96d7cc3dc3b6eeb6c6ed490">RenderGeometryRangeInfoArray</a> _renderGeometryRangeInfos;        <span class="comment">// 渲染几何体范围信息列表</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#ad618eb4a3c3d65e3b474e7b00b500a97">   74</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#ad618eb4a3c3d65e3b474e7b00b500a97">BatchedRenderMeshInfo</a>() { <a class="code hl_function" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#ad65f120dcf1a4e36b607931eb4f0b587">Clear</a>(); }</div>
+<div class="foldopen" id="foldopen00076" data-start="{" data-end="}">
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#a9f4641de36832aa3bd5710e37b35db77">   76</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#a9f4641de36832aa3bd5710e37b35db77">BatchedRenderMeshInfo</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#ad618eb4a3c3d65e3b474e7b00b500a97">BatchedRenderMeshInfo</a>&amp; iData)</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    {</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        _treeNodeID = iData._treeNodeID;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        _renderBodyID = iData._renderBodyID;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        _renderMeshID = iData._renderMeshID;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        _renderGeometryRangeInfos = iData._renderGeometryRangeInfos;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    }</div>
+</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="foldopen" id="foldopen00084" data-start="{" data-end="}">
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#af653ecc4639596616ca36b7ba2ca0efc">   84</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#ad618eb4a3c3d65e3b474e7b00b500a97">BatchedRenderMeshInfo</a>&amp; <a class="code hl_function" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#af653ecc4639596616ca36b7ba2ca0efc">operator=</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#ad618eb4a3c3d65e3b474e7b00b500a97">BatchedRenderMeshInfo</a>&amp; iData)</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    {</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <span class="keywordflow">if</span> (&amp;iData != <span class="keyword">this</span>)</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        {</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            _treeNodeID = iData._treeNodeID;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            _renderBodyID = iData._renderBodyID;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            _renderMeshID = iData._renderMeshID;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            _renderGeometryRangeInfos = iData._renderGeometryRangeInfos;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        }</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    }</div>
+</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span></div>
+<div class="foldopen" id="foldopen00096" data-start="{" data-end="}">
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#ad65f120dcf1a4e36b607931eb4f0b587">   96</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#ad65f120dcf1a4e36b607931eb4f0b587">Clear</a>()</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    {</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        _treeNodeID = DFT_INVALID_ID;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        _renderBodyID = DFT_INVALID_ID;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        _renderMeshID = DFT_INVALID_ID;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        _renderGeometryRangeInfos.clear();</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    }</div>
+</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>};</div>
+</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="_p_d_v_i_batched_mesh_8h.html#aaab0bb0b1dad69dcf62c115d5c50b8f0">  105</a></span><span class="keyword">typedef</span> std::vector&lt;BatchedRenderMeshInfo&gt; <a class="code hl_typedef" href="_p_d_v_i_batched_mesh_8h.html#aaab0bb0b1dad69dcf62c115d5c50b8f0">BatchedRenderMeshInfoArray</a>;</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span></div>
+<div class="foldopen" id="foldopen00108" data-start="{" data-end="};">
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_batched_mesh.html">  108</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_batched_mesh.html">IBatchedMesh</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>{</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_batched_mesh.html#ac327ddaaa4ea28041b51e1cc563c21c7">  118</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_batched_mesh.html#ac327ddaaa4ea28041b51e1cc563c21c7">GetBatchedRenderMeshInfoArray</a>(<a class="code hl_typedef" href="_p_d_v_i_batched_mesh_8h.html#aaab0bb0b1dad69dcf62c115d5c50b8f0">BatchedRenderMeshInfoArray</a> &amp;oBatchedRenderMeshInfoArray) = 0;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_batched_mesh.html#a0af81071473feeb9628a5bdbd8f0962b">  126</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_batched_mesh.html#a0af81071473feeb9628a5bdbd8f0962b">SetBatchedRenderMeshInfoArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_p_d_v_i_batched_mesh_8h.html#aaab0bb0b1dad69dcf62c115d5c50b8f0">BatchedRenderMeshInfoArray</a> &amp;iBatchedRenderMeshInfoArray) = 0;</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>};</div>
+</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a053d8ce6a85300520cc14cd4650ced33"><div class="ttname"><a href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></div><div class="ttdeci">unsigned long long DftUInt64</div><div class="ttdoc">64位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:64</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a707c1d82ee5ee4556ced400697de3dcf"><div class="ttname"><a href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a></div><div class="ttdeci">unsigned int DftUInt32</div><div class="ttdoc">32位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:60</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_batched_mesh_8h_html_a59dca2cec96d7cc3dc3b6eeb6c6ed490"><div class="ttname"><a href="_p_d_v_i_batched_mesh_8h.html#a59dca2cec96d7cc3dc3b6eeb6c6ed490">kernel::pdv::RenderGeometryRangeInfoArray</a></div><div class="ttdeci">std::vector&lt; RenderGeometryRangeInfo &gt; RenderGeometryRangeInfoArray</div><div class="ttdoc">渲染几何体范围信息列表</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:64</div></div>
+<div class="ttc" id="a_p_d_v_i_batched_mesh_8h_html_aaab0bb0b1dad69dcf62c115d5c50b8f0"><div class="ttname"><a href="_p_d_v_i_batched_mesh_8h.html#aaab0bb0b1dad69dcf62c115d5c50b8f0">kernel::pdv::BatchedRenderMeshInfoArray</a></div><div class="ttdeci">std::vector&lt; BatchedRenderMeshInfo &gt; BatchedRenderMeshInfoArray</div><div class="ttdoc">关联的渲染网格信息列表</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:105</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_batched_mesh_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_batched_mesh.html">kernel::pdv::IBatchedMesh</a></div><div class="ttdoc">批处理网格的接口</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:109</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_batched_mesh_html_a0af81071473feeb9628a5bdbd8f0962b"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_batched_mesh.html#a0af81071473feeb9628a5bdbd8f0962b">kernel::pdv::IBatchedMesh::SetBatchedRenderMeshInfoArray</a></div><div class="ttdeci">virtual PDV_RESULT SetBatchedRenderMeshInfoArray(const BatchedRenderMeshInfoArray &amp;iBatchedRenderMeshInfoArray)=0</div><div class="ttdoc">设置关联的渲染网格信息列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_batched_mesh_html_ac327ddaaa4ea28041b51e1cc563c21c7"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_batched_mesh.html#ac327ddaaa4ea28041b51e1cc563c21c7">kernel::pdv::IBatchedMesh::GetBatchedRenderMeshInfoArray</a></div><div class="ttdeci">virtual PDV_RESULT GetBatchedRenderMeshInfoArray(BatchedRenderMeshInfoArray &amp;oBatchedRenderMeshInfoArray)=0</div><div class="ttdoc">获取关联的渲染网格信息列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_batched_render_mesh_info_html_a9f4641de36832aa3bd5710e37b35db77"><div class="ttname"><a href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#a9f4641de36832aa3bd5710e37b35db77">kernel::pdv::BatchedRenderMeshInfo::BatchedRenderMeshInfo</a></div><div class="ttdeci">BatchedRenderMeshInfo(const BatchedRenderMeshInfo &amp;iData)</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:76</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_batched_render_mesh_info_html_ad618eb4a3c3d65e3b474e7b00b500a97"><div class="ttname"><a href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#ad618eb4a3c3d65e3b474e7b00b500a97">kernel::pdv::BatchedRenderMeshInfo::BatchedRenderMeshInfo</a></div><div class="ttdeci">BatchedRenderMeshInfo()</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:74</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_batched_render_mesh_info_html_ad65f120dcf1a4e36b607931eb4f0b587"><div class="ttname"><a href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#ad65f120dcf1a4e36b607931eb4f0b587">kernel::pdv::BatchedRenderMeshInfo::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:96</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_batched_render_mesh_info_html_af653ecc4639596616ca36b7ba2ca0efc"><div class="ttname"><a href="structkernel_1_1pdv_1_1_batched_render_mesh_info.html#af653ecc4639596616ca36b7ba2ca0efc">kernel::pdv::BatchedRenderMeshInfo::operator=</a></div><div class="ttdeci">BatchedRenderMeshInfo &amp; operator=(const BatchedRenderMeshInfo &amp;iData)</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:84</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_render_geometry_range_info_html_a06074b9042e7793f89c52fae45358518"><div class="ttname"><a href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a06074b9042e7793f89c52fae45358518">kernel::pdv::RenderGeometryRangeInfo::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:54</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_render_geometry_range_info_html_a0a84a9c0a9fb006bd7a37031ad2e8be5"><div class="ttname"><a href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0a84a9c0a9fb006bd7a37031ad2e8be5">kernel::pdv::RenderGeometryRangeInfo::_vertexIndexMin</a></div><div class="ttdeci">DftUInt32 _vertexIndexMin</div><div class="ttdoc">顶点索引最小值</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:26</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_render_geometry_range_info_html_a0fc55ca43399dab068bdc21386904763"><div class="ttname"><a href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a0fc55ca43399dab068bdc21386904763">kernel::pdv::RenderGeometryRangeInfo::_indexMin</a></div><div class="ttdeci">DftUInt32 _indexMin</div><div class="ttdoc">索引最小值</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:28</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_render_geometry_range_info_html_a17959e59cd872cd24494c9d09529d6d8"><div class="ttname"><a href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a17959e59cd872cd24494c9d09529d6d8">kernel::pdv::RenderGeometryRangeInfo::_renderGeometryID</a></div><div class="ttdeci">DftUInt64 _renderGeometryID</div><div class="ttdoc">渲染几何体ID</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:24</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_render_geometry_range_info_html_a6be85eeadc26d9b392090e140a6de3bc"><div class="ttname"><a href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a6be85eeadc26d9b392090e140a6de3bc">kernel::pdv::RenderGeometryRangeInfo::RenderGeometryRangeInfo</a></div><div class="ttdeci">RenderGeometryRangeInfo(const RenderGeometryRangeInfo &amp;iData)</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:32</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_render_geometry_range_info_html_a90f515a48c38069434ffd34bf569cac5"><div class="ttname"><a href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#a90f515a48c38069434ffd34bf569cac5">kernel::pdv::RenderGeometryRangeInfo::operator=</a></div><div class="ttdeci">RenderGeometryRangeInfo &amp; operator=(const RenderGeometryRangeInfo &amp;iData)</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:41</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_render_geometry_range_info_html_aa456e2e1a8386a50a72e7476246ba4dc"><div class="ttname"><a href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa456e2e1a8386a50a72e7476246ba4dc">kernel::pdv::RenderGeometryRangeInfo::_indexMax</a></div><div class="ttdeci">DftUInt32 _indexMax</div><div class="ttdoc">索引最大值</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:27</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_render_geometry_range_info_html_aa4cbd861e2b6c5c17926b85f361ee69a"><div class="ttname"><a href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#aa4cbd861e2b6c5c17926b85f361ee69a">kernel::pdv::RenderGeometryRangeInfo::RenderGeometryRangeInfo</a></div><div class="ttdeci">RenderGeometryRangeInfo()</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:30</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_render_geometry_range_info_html_ab8bce0d644c8d56dfc9455aba9abc41e"><div class="ttname"><a href="structkernel_1_1pdv_1_1_render_geometry_range_info.html#ab8bce0d644c8d56dfc9455aba9abc41e">kernel::pdv::RenderGeometryRangeInfo::_vertexIndexMax</a></div><div class="ttdeci">DftUInt32 _vertexIndexMax</div><div class="ttdoc">顶点索引最大值</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:25</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_batched_mesh_8h.html">PDVIBatchedMesh.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/DftBase/DftLog.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_dft_log_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">DftLog.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_dft_log_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="_dft_types_8h.html">DftTypes.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="_dft_base_8h.html">DftBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#ifndef DFT_FEATUREMAKERLOG_H</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#define DFT_FEATUREMAKERLOG_H</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4">   17</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4">DFTLEVEL</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4a075e7b6e871eda9fe0eae596a7850a07">   19</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4a075e7b6e871eda9fe0eae596a7850a07">DFT_LEVEL_INFO</a> = 0,    </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4a87c3b1c504d10b2e10817c0dce44b4bc">   20</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4a87c3b1c504d10b2e10817c0dce44b4bc">DFT_LEVEL_DEBUG</a> = 1,   </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4af14f97f0e25da43a4a63b23538665340">   21</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4af14f97f0e25da43a4a63b23538665340">DFT_LEVEL_WARNING</a> = 2, </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4ac5d1aceae38c47f422ccdbd61a12c0f5">   22</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4ac5d1aceae38c47f422ccdbd61a12c0f5">DFT_LEVEL_ERROR</a> = 3,   </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4aece8b4741d50096ac7fb7bd824c781ef">   23</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4aece8b4741d50096ac7fb7bd824c781ef">DFT_LEVEL_FATAL</a> = 4    </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>};</div>
+</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
+<div class="foldopen" id="foldopen00027" data-start="{" data-end="};">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437">   27</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437">DFTLOGINFOKEY</a></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">    /*******************************************************************************</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">     *</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">     *  通用日志Key</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment">     *</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="comment">     *******************************************************************************/</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a69f898d7ea521088cb17a7584b15f168">   34</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a69f898d7ea521088cb17a7584b15f168">DFT_CUSTOM</a> = 0,  </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a42eb98aa8050439395470a74726885cd">   35</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a42eb98aa8050439395470a74726885cd">DFT_VERSION</a> = 1, </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="comment">    /*******************************************************************************</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="comment">     *</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="comment">     *  转换器通用日志Key</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">     *</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment">     *******************************************************************************/</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a62c65bee39d5731b12b0dff60c495a98">   42</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a62c65bee39d5731b12b0dff60c495a98">DFT_ORIGIN_CAD</a> = 1001,                           </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437acef5a07344c7091a4494f00e2bf83ff2">   43</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437acef5a07344c7091a4494f00e2bf83ff2">DFT_ORIGIN_CAD_VERSION</a> = 1002,                   </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437ae95f4c2ef57b52c80680901472710364">   44</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437ae95f4c2ef57b52c80680901472710364">DFT_ORIGIN_MODEL_NAME</a> = 1003,                    </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a04673278c033b09844e3214e8997ef64">   45</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a04673278c033b09844e3214e8997ef64">DFT_ORIGIN_MODEL_PATH</a> = 1004,                    </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437aced684a0d9f76cff34f9ee92ee724b08">   46</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437aced684a0d9f76cff34f9ee92ee724b08">DFT_CONVERTER_CONFIG_ISHIDDENBODY</a> = 1010,        </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a6f3a54727a0669c389def8ac310f0089">   47</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a6f3a54727a0669c389def8ac310f0089">DFT_CONVERTER_CONFIG_ISHIDDENPART</a> = 1011,        </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437afde565ab14c3c484df4fbfbf8f4f02df">   48</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437afde565ab14c3c484df4fbfbf8f4f02df">DFT_CONVERTER_CONFIG_ISCOLOR</a> = 1012,             </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a33e0e313b6ccd115a287c06ecd426385">   49</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a33e0e313b6ccd115a287c06ecd426385">DFT_CONVERTER_CONFIG_ISATTRIBUTES</a> = 1013,        </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437ac678e3791d16d9077b61b37a07396c27">   50</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437ac678e3791d16d9077b61b37a07396c27">DFT_CONVERTER_CONFIG_ISWIREFRAMES</a> = 1014,        </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a1517106144246dcc5d5810fa1f35215c">   51</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a1517106144246dcc5d5810fa1f35215c">DFT_CONVERTER_CONFIG_ISGEOMETRY</a> = 1015,          </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a4c14640045511aac2bddfcc71a1c98d3">   52</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a4c14640045511aac2bddfcc71a1c98d3">DFT_CONVERTER_CONFIG_ISPMI</a> = 1016,               </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a1be9d5c366a8842806a815286a349714">   53</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a1be9d5c366a8842806a815286a349714">DFT_CONVERTER_STAGE_FLAG</a> = 1020,                 </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437ace0044582512ae65bcbef07cf26a815f">   54</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437ace0044582512ae65bcbef07cf26a815f">DFT_CONVERTER_LOAD_TIME</a> = 1021,                  </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437acf4864f4a4fce1865ad0228c29b3ca3f">   55</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437acf4864f4a4fce1865ad0228c29b3ca3f">DFT_CONVERTER_CONVERT_TIME</a> = 1022,               </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a5b8e66c41f58c9b887e7f7bacfd50f58">   56</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a5b8e66c41f58c9b887e7f7bacfd50f58">DFT_CONVERTER_CONVERT_NODE_NAME</a> = 1030,          </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a28b00b049e15f846d29edb62ea748b40">   57</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a28b00b049e15f846d29edb62ea748b40">DFT_CONVERTER_CONVERT_NODE_FILE_NAME</a> = 1031,     </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a350a2e416a4bf0fa256b32c60788eaf5">   58</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a350a2e416a4bf0fa256b32c60788eaf5">DFT_CONVERTER_CONVERT_CONVERT_PERCENTAGE</a> = 1032, </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437aba3a50796160922f8f25d0fb58f29fea">   59</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437aba3a50796160922f8f25d0fb58f29fea">DFT_CONVERTER_EXPORT_TIME</a> = 1040,                </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a89c5728d437a77598a5caa46554f13f4">   60</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a89c5728d437a77598a5caa46554f13f4">DFT_CONVERTER_EXPORT_FILE_NAME</a> = 1041,           </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437addec7d36fd1cc6d17e2db581098baddf">   62</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437addec7d36fd1cc6d17e2db581098baddf">DFT_CONVERTER_SUMMARY_ORIGIN_SIZE</a> = 1050,        </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a04eb96f728e182165a7a8ecd796dcdb9">   63</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a04eb96f728e182165a7a8ecd796dcdb9">DFT_CONVERTER_SUMMARY_NODE_COUNT</a> = 1051,         </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a9fa937bdb4f58ee1172d5797857b1112">   64</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a9fa937bdb4f58ee1172d5797857b1112">DFT_CONVERTER_SUMMARY_PART_COUNT</a> = 1052,         </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437af7010e4ff46b9ada4ea29b82b9965e75">   65</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437af7010e4ff46b9ada4ea29b82b9965e75">DFT_CONVERTER_SUMMARY_CLE_SIZE</a> = 1053,           </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a5cfb19897620ed78ae1f0d9f3155ea93">   66</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a5cfb19897620ed78ae1f0d9f3155ea93">DFT_CONVERTER_SUMMARY_PDV_SIZE</a> = 1054,           </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437ac498309d34ce1775c7f0c7d8eeb7cd15">   67</a></span>    <a class="code hl_enumvalue" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437ac498309d34ce1775c7f0c7d8eeb7cd15">DFT_CONVERTER_SUMMARY_COMPRESS_PERCENTAGE</a> = 1055 </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>};</div>
+</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#ad316ff57560beb7f737110512c283d86">   76</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_log_8h.html#ad316ff57560beb7f737110512c283d86">DftLogInit</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iName);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a68529b61db68fb3ab1c9285077b4e67f">   83</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_log_8h.html#a68529b61db68fb3ab1c9285077b4e67f">DftLogUnInit</a>();</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a9225e222c1fe1541265c4adfff85aa57">   91</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_log_8h.html#a9225e222c1fe1541265c4adfff85aa57">DftLogSetLogDestination</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iPath);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#ababb4dccc4ee58ae0eb2c338e40dd2c0">   99</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_log_8h.html#ababb4dccc4ee58ae0eb2c338e40dd2c0">DftLogSetErrorDestination</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iPath);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a8d49f5cf62d0d4757dcd5d52cbddf5e2">  107</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_log_8h.html#a8d49f5cf62d0d4757dcd5d52cbddf5e2">DftLogSetLogBufferSecs</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iTime);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a8e955a82b0dcd7e3c93bc7d72983359f">  117</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_log_8h.html#a8e955a82b0dcd7e3c93bc7d72983359f">DftLogInfo</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437">DFTLOGINFOKEY</a> iKey, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iCh, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iCustomKey = NULL);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#ab2a60efc106709ce31b744152d6a38e1">  127</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_log_8h.html#ab2a60efc106709ce31b744152d6a38e1">DftLogWarning</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437">DFTLOGINFOKEY</a> iKey, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iCh, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iCustomKey = NULL);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="_dft_log_8h.html#a15efbad85a648cec838b544730912e72">  137</a></span>DFT_PUBLIC(<a class="code hl_enumeration" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>) <a class="code hl_function" href="_dft_log_8h.html#a15efbad85a648cec838b544730912e72">DftLogError</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437">DFTLOGINFOKEY</a> iKey, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iCh, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a>* iCustomKey = NULL);</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_base_8h_html"><div class="ttname"><a href="_dft_base_8h.html">DftBase.h</a></div><div class="ttdoc">概述：DftBase基础头文件</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a15efbad85a648cec838b544730912e72"><div class="ttname"><a href="_dft_log_8h.html#a15efbad85a648cec838b544730912e72">DftLogError</a></div><div class="ttdeci">DftStatus DftLogError(const DFTLOGINFOKEY iKey, const DftUTF8Char *iCh, const DftUTF8Char *iCustomKey=0)</div><div class="ttdoc">日志记录错误信息</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437">DFTLOGINFOKEY</a></div><div class="ttdeci">DFTLOGINFOKEY</div><div class="ttdoc">通用日志Key</div><div class="ttdef"><b>定义</b> DftLog.h:28</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a04673278c033b09844e3214e8997ef64"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a04673278c033b09844e3214e8997ef64">DFT_ORIGIN_MODEL_PATH</a></div><div class="ttdeci">@ DFT_ORIGIN_MODEL_PATH</div><div class="ttdoc">原始CAD模型存储路径</div><div class="ttdef"><b>定义</b> DftLog.h:45</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a04eb96f728e182165a7a8ecd796dcdb9"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a04eb96f728e182165a7a8ecd796dcdb9">DFT_CONVERTER_SUMMARY_NODE_COUNT</a></div><div class="ttdeci">@ DFT_CONVERTER_SUMMARY_NODE_COUNT</div><div class="ttdoc">模型节点数</div><div class="ttdef"><b>定义</b> DftLog.h:63</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a1517106144246dcc5d5810fa1f35215c"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a1517106144246dcc5d5810fa1f35215c">DFT_CONVERTER_CONFIG_ISGEOMETRY</a></div><div class="ttdeci">@ DFT_CONVERTER_CONFIG_ISGEOMETRY</div><div class="ttdoc">是否导出几何信息</div><div class="ttdef"><b>定义</b> DftLog.h:51</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a1be9d5c366a8842806a815286a349714"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a1be9d5c366a8842806a815286a349714">DFT_CONVERTER_STAGE_FLAG</a></div><div class="ttdeci">@ DFT_CONVERTER_STAGE_FLAG</div><div class="ttdoc">模型转换阶段标识，可选值为LOAD/CONVERT/EXPORT</div><div class="ttdef"><b>定义</b> DftLog.h:53</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a28b00b049e15f846d29edb62ea748b40"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a28b00b049e15f846d29edb62ea748b40">DFT_CONVERTER_CONVERT_NODE_FILE_NAME</a></div><div class="ttdeci">@ DFT_CONVERTER_CONVERT_NODE_FILE_NAME</div><div class="ttdoc">当前开始转换的模型对象关联的物理文件</div><div class="ttdef"><b>定义</b> DftLog.h:57</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a33e0e313b6ccd115a287c06ecd426385"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a33e0e313b6ccd115a287c06ecd426385">DFT_CONVERTER_CONFIG_ISATTRIBUTES</a></div><div class="ttdeci">@ DFT_CONVERTER_CONFIG_ISATTRIBUTES</div><div class="ttdoc">是否导出属性参数</div><div class="ttdef"><b>定义</b> DftLog.h:49</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a350a2e416a4bf0fa256b32c60788eaf5"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a350a2e416a4bf0fa256b32c60788eaf5">DFT_CONVERTER_CONVERT_CONVERT_PERCENTAGE</a></div><div class="ttdeci">@ DFT_CONVERTER_CONVERT_CONVERT_PERCENTAGE</div><div class="ttdoc">模型转换进度，单位为百分比</div><div class="ttdef"><b>定义</b> DftLog.h:58</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a42eb98aa8050439395470a74726885cd"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a42eb98aa8050439395470a74726885cd">DFT_VERSION</a></div><div class="ttdeci">@ DFT_VERSION</div><div class="ttdoc">软件版本标识</div><div class="ttdef"><b>定义</b> DftLog.h:35</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a4c14640045511aac2bddfcc71a1c98d3"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a4c14640045511aac2bddfcc71a1c98d3">DFT_CONVERTER_CONFIG_ISPMI</a></div><div class="ttdeci">@ DFT_CONVERTER_CONFIG_ISPMI</div><div class="ttdoc">是否导出PMI信息</div><div class="ttdef"><b>定义</b> DftLog.h:52</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a5b8e66c41f58c9b887e7f7bacfd50f58"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a5b8e66c41f58c9b887e7f7bacfd50f58">DFT_CONVERTER_CONVERT_NODE_NAME</a></div><div class="ttdeci">@ DFT_CONVERTER_CONVERT_NODE_NAME</div><div class="ttdoc">当前开始转换的模型节点名</div><div class="ttdef"><b>定义</b> DftLog.h:56</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a5cfb19897620ed78ae1f0d9f3155ea93"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a5cfb19897620ed78ae1f0d9f3155ea93">DFT_CONVERTER_SUMMARY_PDV_SIZE</a></div><div class="ttdeci">@ DFT_CONVERTER_SUMMARY_PDV_SIZE</div><div class="ttdoc">导出CLE后大小，单位为MB</div><div class="ttdef"><b>定义</b> DftLog.h:66</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a62c65bee39d5731b12b0dff60c495a98"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a62c65bee39d5731b12b0dff60c495a98">DFT_ORIGIN_CAD</a></div><div class="ttdeci">@ DFT_ORIGIN_CAD</div><div class="ttdoc">原始模型CAD工具名称</div><div class="ttdef"><b>定义</b> DftLog.h:42</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a69f898d7ea521088cb17a7584b15f168"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a69f898d7ea521088cb17a7584b15f168">DFT_CUSTOM</a></div><div class="ttdeci">@ DFT_CUSTOM</div><div class="ttdoc">自定义</div><div class="ttdef"><b>定义</b> DftLog.h:34</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a6f3a54727a0669c389def8ac310f0089"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a6f3a54727a0669c389def8ac310f0089">DFT_CONVERTER_CONFIG_ISHIDDENPART</a></div><div class="ttdeci">@ DFT_CONVERTER_CONFIG_ISHIDDENPART</div><div class="ttdoc">是否导出隐藏零部件</div><div class="ttdef"><b>定义</b> DftLog.h:47</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a89c5728d437a77598a5caa46554f13f4"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a89c5728d437a77598a5caa46554f13f4">DFT_CONVERTER_EXPORT_FILE_NAME</a></div><div class="ttdeci">@ DFT_CONVERTER_EXPORT_FILE_NAME</div><div class="ttdoc">模型导出名</div><div class="ttdef"><b>定义</b> DftLog.h:60</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437a9fa937bdb4f58ee1172d5797857b1112"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437a9fa937bdb4f58ee1172d5797857b1112">DFT_CONVERTER_SUMMARY_PART_COUNT</a></div><div class="ttdeci">@ DFT_CONVERTER_SUMMARY_PART_COUNT</div><div class="ttdoc">模型零件数</div><div class="ttdef"><b>定义</b> DftLog.h:64</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437aba3a50796160922f8f25d0fb58f29fea"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437aba3a50796160922f8f25d0fb58f29fea">DFT_CONVERTER_EXPORT_TIME</a></div><div class="ttdeci">@ DFT_CONVERTER_EXPORT_TIME</div><div class="ttdoc">模型导出时间，单位为秒</div><div class="ttdef"><b>定义</b> DftLog.h:59</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437ac498309d34ce1775c7f0c7d8eeb7cd15"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437ac498309d34ce1775c7f0c7d8eeb7cd15">DFT_CONVERTER_SUMMARY_COMPRESS_PERCENTAGE</a></div><div class="ttdeci">@ DFT_CONVERTER_SUMMARY_COMPRESS_PERCENTAGE</div><div class="ttdoc">压缩转换率，单位为&#39;&#39;</div><div class="ttdef"><b>定义</b> DftLog.h:67</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437ac678e3791d16d9077b61b37a07396c27"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437ac678e3791d16d9077b61b37a07396c27">DFT_CONVERTER_CONFIG_ISWIREFRAMES</a></div><div class="ttdeci">@ DFT_CONVERTER_CONFIG_ISWIREFRAMES</div><div class="ttdoc">是否导出线框</div><div class="ttdef"><b>定义</b> DftLog.h:50</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437ace0044582512ae65bcbef07cf26a815f"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437ace0044582512ae65bcbef07cf26a815f">DFT_CONVERTER_LOAD_TIME</a></div><div class="ttdeci">@ DFT_CONVERTER_LOAD_TIME</div><div class="ttdoc">模型打开/加载时间，单位为秒</div><div class="ttdef"><b>定义</b> DftLog.h:54</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437aced684a0d9f76cff34f9ee92ee724b08"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437aced684a0d9f76cff34f9ee92ee724b08">DFT_CONVERTER_CONFIG_ISHIDDENBODY</a></div><div class="ttdeci">@ DFT_CONVERTER_CONFIG_ISHIDDENBODY</div><div class="ttdoc">是否导出隐藏BODY</div><div class="ttdef"><b>定义</b> DftLog.h:46</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437acef5a07344c7091a4494f00e2bf83ff2"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437acef5a07344c7091a4494f00e2bf83ff2">DFT_ORIGIN_CAD_VERSION</a></div><div class="ttdeci">@ DFT_ORIGIN_CAD_VERSION</div><div class="ttdoc">原始模型CAD工具版本</div><div class="ttdef"><b>定义</b> DftLog.h:43</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437acf4864f4a4fce1865ad0228c29b3ca3f"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437acf4864f4a4fce1865ad0228c29b3ca3f">DFT_CONVERTER_CONVERT_TIME</a></div><div class="ttdeci">@ DFT_CONVERTER_CONVERT_TIME</div><div class="ttdoc">模型转换时间，单位为秒</div><div class="ttdef"><b>定义</b> DftLog.h:55</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437addec7d36fd1cc6d17e2db581098baddf"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437addec7d36fd1cc6d17e2db581098baddf">DFT_CONVERTER_SUMMARY_ORIGIN_SIZE</a></div><div class="ttdeci">@ DFT_CONVERTER_SUMMARY_ORIGIN_SIZE</div><div class="ttdoc">原始模型大小，单位为MB</div><div class="ttdef"><b>定义</b> DftLog.h:62</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437ae95f4c2ef57b52c80680901472710364"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437ae95f4c2ef57b52c80680901472710364">DFT_ORIGIN_MODEL_NAME</a></div><div class="ttdeci">@ DFT_ORIGIN_MODEL_NAME</div><div class="ttdoc">原始CAD模型名</div><div class="ttdef"><b>定义</b> DftLog.h:44</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437af7010e4ff46b9ada4ea29b82b9965e75"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437af7010e4ff46b9ada4ea29b82b9965e75">DFT_CONVERTER_SUMMARY_CLE_SIZE</a></div><div class="ttdeci">@ DFT_CONVERTER_SUMMARY_CLE_SIZE</div><div class="ttdoc">导出CLE后大小，单位为MB</div><div class="ttdef"><b>定义</b> DftLog.h:65</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a207cacf01800f7200f475300589a2437afde565ab14c3c484df4fbfbf8f4f02df"><div class="ttname"><a href="_dft_log_8h.html#a207cacf01800f7200f475300589a2437afde565ab14c3c484df4fbfbf8f4f02df">DFT_CONVERTER_CONFIG_ISCOLOR</a></div><div class="ttdeci">@ DFT_CONVERTER_CONFIG_ISCOLOR</div><div class="ttdoc">是否导出颜色材质</div><div class="ttdef"><b>定义</b> DftLog.h:48</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a68529b61db68fb3ab1c9285077b4e67f"><div class="ttname"><a href="_dft_log_8h.html#a68529b61db68fb3ab1c9285077b4e67f">DftLogUnInit</a></div><div class="ttdeci">DftStatus DftLogUnInit()</div><div class="ttdoc">释放对象</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a6d377caf6a7df0eceecbfc02ecdf76d4"><div class="ttname"><a href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4">DFTLEVEL</a></div><div class="ttdeci">DFTLEVEL</div><div class="ttdoc">日志级别</div><div class="ttdef"><b>定义</b> DftLog.h:18</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a6d377caf6a7df0eceecbfc02ecdf76d4a075e7b6e871eda9fe0eae596a7850a07"><div class="ttname"><a href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4a075e7b6e871eda9fe0eae596a7850a07">DFT_LEVEL_INFO</a></div><div class="ttdeci">@ DFT_LEVEL_INFO</div><div class="ttdoc">信息</div><div class="ttdef"><b>定义</b> DftLog.h:19</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a6d377caf6a7df0eceecbfc02ecdf76d4a87c3b1c504d10b2e10817c0dce44b4bc"><div class="ttname"><a href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4a87c3b1c504d10b2e10817c0dce44b4bc">DFT_LEVEL_DEBUG</a></div><div class="ttdeci">@ DFT_LEVEL_DEBUG</div><div class="ttdoc">调试</div><div class="ttdef"><b>定义</b> DftLog.h:20</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a6d377caf6a7df0eceecbfc02ecdf76d4ac5d1aceae38c47f422ccdbd61a12c0f5"><div class="ttname"><a href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4ac5d1aceae38c47f422ccdbd61a12c0f5">DFT_LEVEL_ERROR</a></div><div class="ttdeci">@ DFT_LEVEL_ERROR</div><div class="ttdoc">错误</div><div class="ttdef"><b>定义</b> DftLog.h:22</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a6d377caf6a7df0eceecbfc02ecdf76d4aece8b4741d50096ac7fb7bd824c781ef"><div class="ttname"><a href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4aece8b4741d50096ac7fb7bd824c781ef">DFT_LEVEL_FATAL</a></div><div class="ttdeci">@ DFT_LEVEL_FATAL</div><div class="ttdoc">致命</div><div class="ttdef"><b>定义</b> DftLog.h:23</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a6d377caf6a7df0eceecbfc02ecdf76d4af14f97f0e25da43a4a63b23538665340"><div class="ttname"><a href="_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4af14f97f0e25da43a4a63b23538665340">DFT_LEVEL_WARNING</a></div><div class="ttdeci">@ DFT_LEVEL_WARNING</div><div class="ttdoc">警告</div><div class="ttdef"><b>定义</b> DftLog.h:21</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a8d49f5cf62d0d4757dcd5d52cbddf5e2"><div class="ttname"><a href="_dft_log_8h.html#a8d49f5cf62d0d4757dcd5d52cbddf5e2">DftLogSetLogBufferSecs</a></div><div class="ttdeci">DftStatus DftLogSetLogBufferSecs(const DftUInt iTime)</div><div class="ttdoc">设置记录间隔时间，单位为秒</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a8e955a82b0dcd7e3c93bc7d72983359f"><div class="ttname"><a href="_dft_log_8h.html#a8e955a82b0dcd7e3c93bc7d72983359f">DftLogInfo</a></div><div class="ttdeci">DftStatus DftLogInfo(const DFTLOGINFOKEY iKey, const DftUTF8Char *iCh, const DftUTF8Char *iCustomKey=0)</div><div class="ttdoc">日志记录信息</div></div>
+<div class="ttc" id="a_dft_log_8h_html_a9225e222c1fe1541265c4adfff85aa57"><div class="ttname"><a href="_dft_log_8h.html#a9225e222c1fe1541265c4adfff85aa57">DftLogSetLogDestination</a></div><div class="ttdeci">DftStatus DftLogSetLogDestination(const DftUTF8Char *iPath)</div><div class="ttdoc">设置日志存放路径</div></div>
+<div class="ttc" id="a_dft_log_8h_html_ab2a60efc106709ce31b744152d6a38e1"><div class="ttname"><a href="_dft_log_8h.html#ab2a60efc106709ce31b744152d6a38e1">DftLogWarning</a></div><div class="ttdeci">DftStatus DftLogWarning(const DFTLOGINFOKEY iKey, const DftUTF8Char *iCh, const DftUTF8Char *iCustomKey=0)</div><div class="ttdoc">日志记录警告信息</div></div>
+<div class="ttc" id="a_dft_log_8h_html_ababb4dccc4ee58ae0eb2c338e40dd2c0"><div class="ttname"><a href="_dft_log_8h.html#ababb4dccc4ee58ae0eb2c338e40dd2c0">DftLogSetErrorDestination</a></div><div class="ttdeci">DftStatus DftLogSetErrorDestination(const DftUTF8Char *iPath)</div><div class="ttdoc">设置错误日志存放路径</div></div>
+<div class="ttc" id="a_dft_log_8h_html_ad316ff57560beb7f737110512c283d86"><div class="ttname"><a href="_dft_log_8h.html#ad316ff57560beb7f737110512c283d86">DftLogInit</a></div><div class="ttdeci">DftStatus DftLogInit(const DftUTF8Char *iName)</div><div class="ttdoc">初始化</div></div>
+<div class="ttc" id="a_dft_status_8h_html_aaec3efe5260f65ebb619b167325491b0"><div class="ttname"><a href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a></div><div class="ttdeci">DftStatus</div><div class="ttdoc">状态码</div><div class="ttdef"><b>定义</b> DftStatus.h:16</div></div>
+<div class="ttc" id="a_dft_types_8h_html"><div class="ttname"><a href="_dft_types_8h.html">DftTypes.h</a></div><div class="ttdoc">概述：定义DftBase库中的基本数据类型</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a5d93be842d58e31eed8521c9012501a0"><div class="ttname"><a href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a></div><div class="ttdeci">char DftUTF8Char</div><div class="ttdoc">utf-8字符</div><div class="ttdef"><b>定义</b> DftTypes.h:97</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a9dd0d1ca2dc17c79bf9082d2b72d957f"><div class="ttname"><a href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></div><div class="ttdeci">unsigned int DftUInt</div><div class="ttdoc">无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:48</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_88cccc9d439318285f6d519044a748d2.html">DftBase</a></li><li class="navelem"><a href="_dft_log_8h.html">DftLog.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

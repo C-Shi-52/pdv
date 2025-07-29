@@ -1,0 +1,735 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: kernel::pdv::BasePDVConverter类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('classkernel_1_1pdv_1_1_base_p_d_v_converter.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">kernel::pdv::BasePDVConverter类 参考<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a65092089f0614976421d8155f0392c89" id="r_a65092089f0614976421d8155f0392c89"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_base_p_d_v_data_extractor.html">BasePDVDataExtractor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65092089f0614976421d8155f0392c89">GetPDVDataExtractor</a> ()=0</td></tr>
+<tr class="memdesc:a65092089f0614976421d8155f0392c89"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: GetPDVDataExtractor, 获取pdv数据提取器  <br /></td></tr>
+<tr class="memitem:a50250845cbd0901c4af915c9e1c6c646" id="r_a50250845cbd0901c4af915c9e1c6c646"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50250845cbd0901c4af915c9e1c6c646">IsExportHiddenModel</a> ()=0</td></tr>
+<tr class="memdesc:a50250845cbd0901c4af915c9e1c6c646"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: IsExportHiddenModel, 是否导出隐藏模型  <br /></td></tr>
+<tr class="memitem:aa28c06019bfe1efedfeceeea2cd582b1" id="r_aa28c06019bfe1efedfeceeea2cd582b1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa28c06019bfe1efedfeceeea2cd582b1">GetSourceType</a> ()=0</td></tr>
+<tr class="memdesc:aa28c06019bfe1efedfeceeea2cd582b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: GetSourceType, 获取模型对象来源类型  <br /></td></tr>
+<tr class="memitem:ad2600e282adf238acf542ff1ac02b2d5" id="r_ad2600e282adf238acf542ff1ac02b2d5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2600e282adf238acf542ff1ac02b2d5">IsExportAttribute</a> ()=0</td></tr>
+<tr class="memdesc:ad2600e282adf238acf542ff1ac02b2d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: IsExportAttribute, 是否导出属性  <br /></td></tr>
+<tr class="memitem:a01c3e41c5a9ed2c8359c0ebbc8ee7303" id="r_a01c3e41c5a9ed2c8359c0ebbc8ee7303"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01c3e41c5a9ed2c8359c0ebbc8ee7303">IsExportProperty</a> ()=0</td></tr>
+<tr class="memdesc:a01c3e41c5a9ed2c8359c0ebbc8ee7303"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: IsExportProperty, 是否导出模型属性  <br /></td></tr>
+<tr class="memitem:a85da1df7236006b2a75a3b8f67122f3b" id="r_a85da1df7236006b2a75a3b8f67122f3b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85da1df7236006b2a75a3b8f67122f3b">IsExportColor</a> ()=0</td></tr>
+<tr class="memdesc:a85da1df7236006b2a75a3b8f67122f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: IsExportColor, 是否导出模型颜色  <br /></td></tr>
+<tr class="memitem:a1f0e4618117cc0e1f20ee60031992f73" id="r_a1f0e4618117cc0e1f20ee60031992f73"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f0e4618117cc0e1f20ee60031992f73">IsExportMdlPMI</a> ()=0</td></tr>
+<tr class="memdesc:a1f0e4618117cc0e1f20ee60031992f73"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: IsExportMdlPMI, 是否导出模型PMI  <br /></td></tr>
+<tr class="memitem:a5fde6ff025a60ee7909c38bd81522953" id="r_a5fde6ff025a60ee7909c38bd81522953"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fde6ff025a60ee7909c38bd81522953">IsExportRenderBuffer</a> ()=0</td></tr>
+<tr class="memdesc:a5fde6ff025a60ee7909c38bd81522953"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: IsExportRenderBuffer, 是否导出渲染数据  <br /></td></tr>
+<tr class="memitem:ad8673c0b884ca993884e8c1f048fdf54" id="r_ad8673c0b884ca993884e8c1f048fdf54"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8673c0b884ca993884e8c1f048fdf54">IsRunBatchedAndInstancedMesh</a> ()</td></tr>
+<tr class="memdesc:ad8673c0b884ca993884e8c1f048fdf54"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: IsRunBatchedAndInstancedMesh, 是否对渲染数据进行合批和实例化处理, 默认读取配置文件  <br /></td></tr>
+<tr class="memitem:a4b5c83d7a7e3433efeac2364381c486e" id="r_a4b5c83d7a7e3433efeac2364381c486e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b5c83d7a7e3433efeac2364381c486e">GetBatchedAndInstancedConfig</a> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;oInstancedMinVertexCount, <a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> &amp;oInstancedVertexCompareDecimalPlaces, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;oBatchedMaxVertexCount, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;oBatchedOctreeNodeReserveDepth)</td></tr>
+<tr class="memdesc:a4b5c83d7a7e3433efeac2364381c486e"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: GetBatchedAndInstancedConfig, 获取合批实例化的配置参数  <br /></td></tr>
+<tr class="memitem:af9a65853b93f813ea5556b324c09f16a" id="r_af9a65853b93f813ea5556b324c09f16a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9a65853b93f813ea5556b324c09f16a">GetSavePdvdataConfig</a> (<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> &amp;oCountMax, <a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> &amp;oSizeMax, <a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> &amp;oNeedCompress)</td></tr>
+<tr class="memdesc:af9a65853b93f813ea5556b324c09f16a"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: GetSavePdvdataConfig, 获取保存pdvdata的配置参数  <br /></td></tr>
+<tr class="memitem:ace17e8834b580495793f4503622baeed" id="r_ace17e8834b580495793f4503622baeed"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace17e8834b580495793f4503622baeed">IsExportXML</a> ()</td></tr>
+<tr class="memdesc:ace17e8834b580495793f4503622baeed"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: IsExportXML, 是否导出XML文件, 默认为不导出  <br /></td></tr>
+<tr class="memitem:adfecfdcafe3491a4e63cf03b58ec31a4" id="r_adfecfdcafe3491a4e63cf03b58ec31a4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfecfdcafe3491a4e63cf03b58ec31a4">IsExportNodeAttributeToXML</a> ()</td></tr>
+<tr class="memdesc:adfecfdcafe3491a4e63cf03b58ec31a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: IsExportNodeAttributeToXML, 是否导出XML文件时将节点属性导出, 默认为不导出  <br /></td></tr>
+<tr class="memitem:aed87ea1cf59c90d0e9be53ab2a0b1305" id="r_aed87ea1cf59c90d0e9be53ab2a0b1305"><td class="memItemLeft" align="right" valign="top"><a id="aed87ea1cf59c90d0e9be53ab2a0b1305" name="aed87ea1cf59c90d0e9be53ab2a0b1305"></a>
+virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsExportPDVExternalJson</b> ()</td></tr>
+<tr class="memitem:a43473146f6448030c9e9b63eb2a2ffce" id="r_a43473146f6448030c9e9b63eb2a2ffce"><td class="memItemLeft" align="right" valign="top"><a id="a43473146f6448030c9e9b63eb2a2ffce" name="a43473146f6448030c9e9b63eb2a2ffce"></a>
+virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsExportPDVAnimationJson</b> ()</td></tr>
+<tr class="memitem:af3ff4d61dc15dc80163d0ce95e900cd9" id="r_af3ff4d61dc15dc80163d0ce95e900cd9"><td class="memItemLeft" align="right" valign="top"><a id="af3ff4d61dc15dc80163d0ce95e900cd9" name="af3ff4d61dc15dc80163d0ce95e900cd9"></a>
+virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsExportMaterialJson</b> ()</td></tr>
+<tr class="memitem:aae218fd5650f8ec20d82e1944c4fefcd" id="r_aae218fd5650f8ec20d82e1944c4fefcd"><td class="memItemLeft" align="right" valign="top"><a id="aae218fd5650f8ec20d82e1944c4fefcd" name="aae218fd5650f8ec20d82e1944c4fefcd"></a>
+virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;destPath, PDVConverterProgressCallBack pProgressCallBack, void *dialogUI)</td></tr>
+<tr class="memitem:a2a5b0a27086a4f0399b90db0dc43c5f9" id="r_a2a5b0a27086a4f0399b90db0dc43c5f9"><td class="memItemLeft" align="right" valign="top"><a id="a2a5b0a27086a4f0399b90db0dc43c5f9" name="a2a5b0a27086a4f0399b90db0dc43c5f9"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>UnInit</b> ()</td></tr>
+<tr class="memitem:a4e3c42a5d18b18f0211ccb489700471a" id="r_a4e3c42a5d18b18f0211ccb489700471a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e3c42a5d18b18f0211ccb489700471a">Convert2PDV</a> (SourceObject iSrcObject, std::vector&lt; <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &gt; &amp;oOutputFiles, <a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> *oErrorCode)</td></tr>
+<tr class="memdesc:a4e3c42a5d18b18f0211ccb489700471a"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: Convert2PDV, 将源对象转换为pdv文件  <br /></td></tr>
+<tr class="memitem:a05a817651b0a8d3b656e99260093e6ef" id="r_a05a817651b0a8d3b656e99260093e6ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05a817651b0a8d3b656e99260093e6ef">Convert2SceneData</a> (SourceObject iSrcObject, <a class="el" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *&amp;oSceneData, <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> iSetProgress=0, <a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> *oErrorCode=0)</td></tr>
+<tr class="memdesc:a05a817651b0a8d3b656e99260093e6ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: Convert2SceneData, 将源对象转换为场景数据接口对象  <br /></td></tr>
+<tr class="memitem:a8043aa8b0bb52a0a1743a8f3670f3746" id="r_a8043aa8b0bb52a0a1743a8f3670f3746"><td class="memItemLeft" align="right" valign="top"><a id="a8043aa8b0bb52a0a1743a8f3670f3746" name="a8043aa8b0bb52a0a1743a8f3670f3746"></a>
+const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetDestPath</b> () const</td></tr>
+<tr class="memitem:af14888ab2362a577031056f7d682e51b" id="r_af14888ab2362a577031056f7d682e51b"><td class="memItemLeft" align="right" valign="top"><a id="af14888ab2362a577031056f7d682e51b" name="af14888ab2362a577031056f7d682e51b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDestPath</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;destPath)</td></tr>
+<tr class="memitem:a594a279ededa0bfe4e2fd89a491a7e03" id="r_a594a279ededa0bfe4e2fd89a491a7e03"><td class="memItemLeft" align="right" valign="top"><a id="a594a279ededa0bfe4e2fd89a491a7e03" name="a594a279ededa0bfe4e2fd89a491a7e03"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetUserData</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> dataLength, <a class="el" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a> *userData)</td></tr>
+<tr class="memitem:a6394f20ca915a55fc6363a23a627455f" id="r_a6394f20ca915a55fc6363a23a627455f"><td class="memItemLeft" align="right" valign="top"><a id="a6394f20ca915a55fc6363a23a627455f" name="a6394f20ca915a55fc6363a23a627455f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddUserData</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> dataLength, <a class="el" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a> *userData)</td></tr>
+<tr class="memitem:acb7a98a3823856f124cce59ba3582074" id="r_acb7a98a3823856f124cce59ba3582074"><td class="memItemLeft" align="right" valign="top"><a id="acb7a98a3823856f124cce59ba3582074" name="acb7a98a3823856f124cce59ba3582074"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearUserData</b> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:ad2f191ed5ac91be895643db4f7214a1b" id="r_ad2f191ed5ac91be895643db4f7214a1b"><td class="memItemLeft" align="right" valign="top"><a id="ad2f191ed5ac91be895643db4f7214a1b" name="ad2f191ed5ac91be895643db4f7214a1b"></a>
+<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SetSceneObjectData</b> (<a class="el" href="classkernel_1_1pdv_1_1_i_scene.html">IScene</a> *scene)</td></tr>
+<tr class="memitem:af7ebdbae9770118590cc97b69e866559" id="r_af7ebdbae9770118590cc97b69e866559"><td class="memItemLeft" align="right" valign="top"><a id="af7ebdbae9770118590cc97b69e866559" name="af7ebdbae9770118590cc97b69e866559"></a>
+<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SetDefaultCameraData</b> (<a class="el" href="classkernel_1_1pdv_1_1_i_scene.html">IScene</a> *scene, <a class="el" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *sceneData)</td></tr>
+<tr class="memitem:acfaf1d25480f1c72ffc2e552d6074af7" id="r_acfaf1d25480f1c72ffc2e552d6074af7"><td class="memItemLeft" align="right" valign="top"><a id="acfaf1d25480f1c72ffc2e552d6074af7" name="acfaf1d25480f1c72ffc2e552d6074af7"></a>
+<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SetSecurityData</b> (<a class="el" href="classkernel_1_1pdv_1_1_i_security.html">ISecurity</a> *security)</td></tr>
+<tr class="memitem:a352db49990bf64834b6982fa0dd6e820" id="r_a352db49990bf64834b6982fa0dd6e820"><td class="memItemLeft" align="right" valign="top"><a id="a352db49990bf64834b6982fa0dd6e820" name="a352db49990bf64834b6982fa0dd6e820"></a>
+<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SetModelTreeData</b> (<a class="el" href="classkernel_1_1pdv_1_1_i_model_tree.html">IModelTree</a> *modelTree, <a class="el" href="structkernel_1_1pdv_1_1___model_tree_node_data.html">ModelTreeNodeData</a> &amp;rootNodeData, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> unitConvertParameter)</td></tr>
+<tr class="memitem:a45c7ba0c6cad7fcd367bac885cc8c18f" id="r_a45c7ba0c6cad7fcd367bac885cc8c18f"><td class="memItemLeft" align="right" valign="top"><a id="a45c7ba0c6cad7fcd367bac885cc8c18f" name="a45c7ba0c6cad7fcd367bac885cc8c18f"></a>
+<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SetModelTreeNodeData</b> (<a class="el" href="classkernel_1_1pdv_1_1_i_model_tree_node.html">IModelTreeNode</a> *treeNode, <a class="el" href="classkernel_1_1pdv_1_1_i_model_tree_node.html">IModelTreeNode</a> *siblingNode, const <a class="el" href="structkernel_1_1pdv_1_1___model_tree_node_data.html">ModelTreeNodeData</a> &amp;nodeData, const <a class="el" href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a> &amp;parentWorldTrans, <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> parentNodeColorValid, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> parentColorRed, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> parentColorGreen, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> parentColorBlue, <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> parentNodeTransparencyValid, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> parentTransparency, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> unitConvertParameter)</td></tr>
+<tr class="memitem:a26df30ea923746ffad32236b3dcbeaed" id="r_a26df30ea923746ffad32236b3dcbeaed"><td class="memItemLeft" align="right" valign="top"><a id="a26df30ea923746ffad32236b3dcbeaed" name="a26df30ea923746ffad32236b3dcbeaed"></a>
+<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SetModelTreeSubNodeData</b> (<a class="el" href="classkernel_1_1pdv_1_1_i_model_tree_node.html">IModelTreeNode</a> *parentNode, const <a class="el" href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a> &amp;nodeWorldTrans, const std::vector&lt; <a class="el" href="structkernel_1_1pdv_1_1___model_tree_node_data.html">ModelTreeNodeData</a> &gt; &amp;subNodes, <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> parentNodeColorValid, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> parentColorRed, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> parentColorGreen, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> parentColorBlue, <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> parentNodeTransparencyValid, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> parentTransparency, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> unitConvertParameter)</td></tr>
+<tr class="memitem:a5305f9cf77df9163b6fb76ee269acd02" id="r_a5305f9cf77df9163b6fb76ee269acd02"><td class="memItemLeft" align="right" valign="top"><a id="a5305f9cf77df9163b6fb76ee269acd02" name="a5305f9cf77df9163b6fb76ee269acd02"></a>
+<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SetMaterialData</b> (<a class="el" href="classkernel_1_1pdv_1_1_i_material.html">IMaterial</a> *material, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;matName, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> transparency, const <a class="el" href="structkernel_1_1pdv_1_1_r_g_b_color.html">RGBColor</a> &amp;diffuse, const <a class="el" href="structkernel_1_1pdv_1_1_r_g_b_color.html">RGBColor</a> &amp;ambient, const <a class="el" href="structkernel_1_1pdv_1_1_r_g_b_color.html">RGBColor</a> &amp;specular, const <a class="el" href="structkernel_1_1pdv_1_1_r_g_b_color.html">RGBColor</a> &amp;emissive, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> emissiveIntensity, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> power, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> refGeomType, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> renderSide)</td></tr>
+<tr class="memitem:a90878509f1a60e86860e8479e0b52bd9" id="r_a90878509f1a60e86860e8479e0b52bd9"><td class="memItemLeft" align="right" valign="top"><a id="a90878509f1a60e86860e8479e0b52bd9" name="a90878509f1a60e86860e8479e0b52bd9"></a>
+<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SetMaterialData</b> (<a class="el" href="classkernel_1_1pdv_1_1_i_material.html">IMaterial</a> *material, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;matName, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> transparency, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> red, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> green, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> blue, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> refGeomType, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> renderSide)</td></tr>
+<tr class="memitem:ae0c63dc610d34af8c40164f38cf96a67" id="r_ae0c63dc610d34af8c40164f38cf96a67"><td class="memItemLeft" align="right" valign="top"><a id="ae0c63dc610d34af8c40164f38cf96a67" name="ae0c63dc610d34af8c40164f38cf96a67"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Color2PhongData</b> (const <a class="el" href="structkernel_1_1pdv_1_1_r_g_b_color.html">RGBColor</a> &amp;iColor, <a class="el" href="structkernel_1_1pdv_1_1_phong_data.html">PhongData</a> &amp;oPhongData)</td></tr>
+<tr class="memitem:acf6d407cab1211646e6c1e9a823e40ad" id="r_acf6d407cab1211646e6c1e9a823e40ad"><td class="memItemLeft" align="right" valign="top"><a id="acf6d407cab1211646e6c1e9a823e40ad" name="acf6d407cab1211646e6c1e9a823e40ad"></a>
+<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SetRenderData</b> (<a class="el" href="classkernel_1_1pdv_1_1_i_render_body.html">IRenderBody</a> *renderBody, <a class="el" href="classkernel_1_1pdv_1_1_i_b_rep.html">IBRep</a> *brep, const <a class="el" href="structkernel_1_1pdv_1_1___model_tree_node_data.html">ModelTreeNodeData</a> &amp;nodeData, const <a class="el" href="structkernel_1_1pdv_1_1___body_mesh_data.html">BodyMeshData</a> &amp;bodyMesh, <a class="el" href="_p_d_v_i_analysis_result_8h.html#a16116dc98100fd15254b1be8697422f1">AnalysisResultItem</a> *analysisResultItem, <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> parentNodeColorValid, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> parentColorRed, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> parentColorGreen, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> parentColorBlue, <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> parentNodeTransparencyValid, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> parentTransparency, <a class="el" href="structkernel_1_1pdv_1_1_bounding_box.html">BoundingBox</a> &amp;renderBodyBox, const std::map&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a>, <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;mapOriginalIDToTopoID, const std::map&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a>, <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;mapOriginalIDToGeomID, <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;oNewVertexId)</td></tr>
+<tr class="memitem:a238dc7aa3b1fa4f74e461957390e4e89" id="r_a238dc7aa3b1fa4f74e461957390e4e89"><td class="memItemLeft" align="right" valign="top"><a id="a238dc7aa3b1fa4f74e461957390e4e89" name="a238dc7aa3b1fa4f74e461957390e4e89"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>FillPhysicalData</b> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> renderBodyID, <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> renderVertexID, const <a class="el" href="structkernel_1_1pdv_1_1___body_mesh_data.html">BodyMeshData</a> &amp;bodyMesh, <a class="el" href="_p_d_v_i_analysis_result_8h.html#a16116dc98100fd15254b1be8697422f1">AnalysisResultItem</a> *analysisResultItem, <a class="el" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *sceneData)</td></tr>
+<tr class="memitem:a1f3425e610acf821b3fb8d6c3149ea22" id="r_a1f3425e610acf821b3fb8d6c3149ea22"><td class="memItemLeft" align="right" valign="top"><a id="a1f3425e610acf821b3fb8d6c3149ea22" name="a1f3425e610acf821b3fb8d6c3149ea22"></a>
+<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SetModelData</b> (<a class="el" href="classkernel_1_1pdv_1_1_i_model.html">IModel</a> *modelObj, const std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_render_body.html">IRenderBody</a> * &gt; &amp;renderBodies, const std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_b_rep.html">IBRep</a> * &gt; &amp;breps, const <a class="el" href="_p_d_v_i_reference_geometry_8h.html#ab48153f7c686b76b143b818aa4f4b624">ReferenceGeometryArray</a> &amp;iReferenceGeometries, const <a class="el" href="structkernel_1_1pdv_1_1_bounding_box.html">BoundingBox</a> &amp;iBox)</td></tr>
+<tr class="memitem:a2d6a5d3714c203e16e9178e1dd378abc" id="r_a2d6a5d3714c203e16e9178e1dd378abc"><td class="memItemLeft" align="right" valign="top"><a id="a2d6a5d3714c203e16e9178e1dd378abc" name="a2d6a5d3714c203e16e9178e1dd378abc"></a>
+<a class="el" href="classkernel_1_1pdv_1_1_i_attribute.html">IAttribute</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>SetAttributeData</b> (<a class="el" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *sceneData, const <a class="el" href="structkernel_1_1pdv_1_1___model_tree_node_data.html">ModelTreeNodeData</a> &amp;treeNodeData)</td></tr>
+<tr class="memitem:a1e39804a53479c7c178dea5ee095f1e8" id="r_a1e39804a53479c7c178dea5ee095f1e8"><td class="memItemLeft" align="right" valign="top"><a id="a1e39804a53479c7c178dea5ee095f1e8" name="a1e39804a53479c7c178dea5ee095f1e8"></a>
+<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SetAnnotationData</b> (<a class="el" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *sceneData, ModelTreeNodeDataArray &amp;topTreeNodes, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> convertParameter)</td></tr>
+<tr class="memitem:a1a726b5ffc544e8f77dfa561086692a0" id="r_a1a726b5ffc544e8f77dfa561086692a0"><td class="memItemLeft" align="right" valign="top"><a id="a1a726b5ffc544e8f77dfa561086692a0" name="a1a726b5ffc544e8f77dfa561086692a0"></a>
+virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetMeshOptimize</b> ()</td></tr>
+<tr class="memitem:a1d481a7ef541b753eef2fa2daf64f179" id="r_a1d481a7ef541b753eef2fa2daf64f179"><td class="memItemLeft" align="right" valign="top"><a id="a1d481a7ef541b753eef2fa2daf64f179" name="a1d481a7ef541b753eef2fa2daf64f179"></a>
+virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetPDVDataVertexMergeHandle</b> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:ae400e8e4aaf7328861b63048c257e4d9" id="r_ae400e8e4aaf7328861b63048c257e4d9"><td class="memItemLeft" align="right" valign="top"><a id="ae400e8e4aaf7328861b63048c257e4d9" name="ae400e8e4aaf7328861b63048c257e4d9"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_destPath</b></td></tr>
+<tr class="memitem:af6652a2d4dd8a1eb26529c2cf0c3277a" id="r_af6652a2d4dd8a1eb26529c2cf0c3277a"><td class="memItemLeft" align="right" valign="top"><a id="af6652a2d4dd8a1eb26529c2cf0c3277a" name="af6652a2d4dd8a1eb26529c2cf0c3277a"></a>
+PDVConverterProgressCallBack&#160;</td><td class="memItemRight" valign="bottom"><b>_pProgressCallBack</b></td></tr>
+<tr class="memitem:a2917d1e090266d075ca4714029629845" id="r_a2917d1e090266d075ca4714029629845"><td class="memItemLeft" align="right" valign="top"><a id="a2917d1e090266d075ca4714029629845" name="a2917d1e090266d075ca4714029629845"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>_pProgressCallBackDialogUI</b></td></tr>
+<tr class="memitem:a370bd6d583bd3aa641791702fa0058c7" id="r_a370bd6d583bd3aa641791702fa0058c7"><td class="memItemLeft" align="right" valign="top"><a id="a370bd6d583bd3aa641791702fa0058c7" name="a370bd6d583bd3aa641791702fa0058c7"></a>
+<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_dataLength</b></td></tr>
+<tr class="memitem:a570ffd6e02805940c749af99e5b02b4c" id="r_a570ffd6e02805940c749af99e5b02b4c"><td class="memItemLeft" align="right" valign="top"><a id="a570ffd6e02805940c749af99e5b02b4c" name="a570ffd6e02805940c749af99e5b02b4c"></a>
+<a class="el" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>_userData</b></td></tr>
+<tr class="memitem:a0ba19f16af826c2399ba1ae4650e1ff1" id="r_a0ba19f16af826c2399ba1ae4650e1ff1"><td class="memItemLeft" align="right" valign="top"><a id="a0ba19f16af826c2399ba1ae4650e1ff1" name="a0ba19f16af826c2399ba1ae4650e1ff1"></a>
+<a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_startPercent</b></td></tr>
+<tr class="memitem:a0b377d2a8ec63f67d3ca95fa4e1d5342" id="r_a0b377d2a8ec63f67d3ca95fa4e1d5342"><td class="memItemLeft" align="right" valign="top"><a id="a0b377d2a8ec63f67d3ca95fa4e1d5342" name="a0b377d2a8ec63f67d3ca95fa4e1d5342"></a>
+<a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_startExportPartPercent</b></td></tr>
+<tr class="memitem:a9faa3b7083ca64bb5624809d1f0cd453" id="r_a9faa3b7083ca64bb5624809d1f0cd453"><td class="memItemLeft" align="right" valign="top"><a id="a9faa3b7083ca64bb5624809d1f0cd453" name="a9faa3b7083ca64bb5624809d1f0cd453"></a>
+<a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_startExportPDVPercent</b></td></tr>
+<tr class="memitem:a3f84d0373ca48b0086937a7563cb266e" id="r_a3f84d0373ca48b0086937a7563cb266e"><td class="memItemLeft" align="right" valign="top"><a id="a3f84d0373ca48b0086937a7563cb266e" name="a3f84d0373ca48b0086937a7563cb266e"></a>
+<a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_curPercent</b></td></tr>
+<tr class="memitem:a1d27446fb068a0cd20df11246a3c99dd" id="r_a1d27446fb068a0cd20df11246a3c99dd"><td class="memItemLeft" align="right" valign="top"><a id="a1d27446fb068a0cd20df11246a3c99dd" name="a1d27446fb068a0cd20df11246a3c99dd"></a>
+<a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_percentIncrPerNode</b></td></tr>
+<tr class="memitem:a08d2d7c26109e1d54c5679a74cedb57f" id="r_a08d2d7c26109e1d54c5679a74cedb57f"><td class="memItemLeft" align="right" valign="top"><a id="a08d2d7c26109e1d54c5679a74cedb57f" name="a08d2d7c26109e1d54c5679a74cedb57f"></a>
+std::map&lt; ModelObject, <a class="el" href="classkernel_1_1pdv_1_1_i_model.html">IModel</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_mapModelToModel</b></td></tr>
+</table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">成员函数说明</h2>
+<a id="a4e3c42a5d18b18f0211ccb489700471a" name="a4e3c42a5d18b18f0211ccb489700471a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e3c42a5d18b18f0211ccb489700471a">&#9670;&#160;</a></span>Convert2PDV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::BasePDVConverter::Convert2PDV </td>
+          <td>(</td>
+          <td class="paramtype">SourceObject</td>          <td class="paramname"><span class="paramname"><em>iSrcObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oOutputFiles</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> *</td>          <td class="paramname"><span class="paramname"><em>oErrorCode</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>函数名称: Convert2PDV, 将源对象转换为pdv文件 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSrcObject</td><td>源对象 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oOutputFiles</td><td>输出文件列表 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oErrorCode</td><td>错误码 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a05a817651b0a8d3b656e99260093e6ef" name="a05a817651b0a8d3b656e99260093e6ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a817651b0a8d3b656e99260093e6ef">&#9670;&#160;</a></span>Convert2SceneData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::BasePDVConverter::Convert2SceneData </td>
+          <td>(</td>
+          <td class="paramtype">SourceObject</td>          <td class="paramname"><span class="paramname"><em>iSrcObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *&amp;</td>          <td class="paramname"><span class="paramname"><em>oSceneData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></td>          <td class="paramname"><span class="paramname"><em>iSetProgress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> *</td>          <td class="paramname"><span class="paramname"><em>oErrorCode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>函数名称: Convert2SceneData, 将源对象转换为场景数据接口对象 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSrcObject</td><td>源对象 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oSceneData</td><td>场景数据接口对象 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSetProgress</td><td>是否设置进度条 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oErrorCode</td><td>错误码 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4b5c83d7a7e3433efeac2364381c486e" name="a4b5c83d7a7e3433efeac2364381c486e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b5c83d7a7e3433efeac2364381c486e">&#9670;&#160;</a></span>GetBatchedAndInstancedConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void kernel::pdv::BasePDVConverter::GetBatchedAndInstancedConfig </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oInstancedMinVertexCount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oInstancedVertexCompareDecimalPlaces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oBatchedMaxVertexCount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oBatchedOctreeNodeReserveDepth</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: GetBatchedAndInstancedConfig, 获取合批实例化的配置参数 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: void </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oInstancedMinVertexCount</td><td>实例化时，限制实例渲染顶点数的最小值 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oInstancedVertexCompareDecimalPlaces</td><td>二次实例化算法中比较顶点数据时，涉及到小数点后的位数 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oBatchedMaxVertexCount</td><td>合批时，限制合批的顶点数据上限 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oBatchedOctreeNodeReserveDepth</td><td>合批时，限制合批节点八叉树的层级深度 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a65092089f0614976421d8155f0392c89" name="a65092089f0614976421d8155f0392c89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65092089f0614976421d8155f0392c89">&#9670;&#160;</a></span>GetPDVDataExtractor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_base_p_d_v_data_extractor.html">BasePDVDataExtractor</a> * kernel::pdv::BasePDVConverter::GetPDVDataExtractor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: GetPDVDataExtractor, 获取pdv数据提取器 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: BasePDVDataExtractor*, pdv数据提取器 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="af9a65853b93f813ea5556b324c09f16a" name="af9a65853b93f813ea5556b324c09f16a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9a65853b93f813ea5556b324c09f16a">&#9670;&#160;</a></span>GetSavePdvdataConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void kernel::pdv::BasePDVConverter::GetSavePdvdataConfig </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oCountMax</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oSizeMax</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oNeedCompress</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: GetSavePdvdataConfig, 获取保存pdvdata的配置参数 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: void </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oCountMax</td><td>pdvdata文件包含的对象的最大数量 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oSizeMax</td><td>pdvdata文件的体积的最大值，单位为 M（兆） </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oNeedCompress</td><td>是否需要压缩pdvdata文件，1是压缩，0是不压缩 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aa28c06019bfe1efedfeceeea2cd582b1" name="aa28c06019bfe1efedfeceeea2cd582b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa28c06019bfe1efedfeceeea2cd582b1">&#9670;&#160;</a></span>GetSourceType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> kernel::pdv::BasePDVConverter::GetSourceType </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: GetSourceType, 获取模型对象来源类型 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f" title="无符号整数">DftUInt</a>, 模型对象来源类型 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ad2600e282adf238acf542ff1ac02b2d5" name="ad2600e282adf238acf542ff1ac02b2d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2600e282adf238acf542ff1ac02b2d5">&#9670;&#160;</a></span>IsExportAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::BasePDVConverter::IsExportAttribute </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: IsExportAttribute, 是否导出属性 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a85da1df7236006b2a75a3b8f67122f3b" name="a85da1df7236006b2a75a3b8f67122f3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85da1df7236006b2a75a3b8f67122f3b">&#9670;&#160;</a></span>IsExportColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::BasePDVConverter::IsExportColor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: IsExportColor, 是否导出模型颜色 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a50250845cbd0901c4af915c9e1c6c646" name="a50250845cbd0901c4af915c9e1c6c646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50250845cbd0901c4af915c9e1c6c646">&#9670;&#160;</a></span>IsExportHiddenModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::BasePDVConverter::IsExportHiddenModel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: IsExportHiddenModel, 是否导出隐藏模型 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a1f0e4618117cc0e1f20ee60031992f73" name="a1f0e4618117cc0e1f20ee60031992f73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f0e4618117cc0e1f20ee60031992f73">&#9670;&#160;</a></span>IsExportMdlPMI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::BasePDVConverter::IsExportMdlPMI </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: IsExportMdlPMI, 是否导出模型PMI </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="adfecfdcafe3491a4e63cf03b58ec31a4" name="adfecfdcafe3491a4e63cf03b58ec31a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfecfdcafe3491a4e63cf03b58ec31a4">&#9670;&#160;</a></span>IsExportNodeAttributeToXML()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::BasePDVConverter::IsExportNodeAttributeToXML </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: IsExportNodeAttributeToXML, 是否导出XML文件时将节点属性导出, 默认为不导出 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a01c3e41c5a9ed2c8359c0ebbc8ee7303" name="a01c3e41c5a9ed2c8359c0ebbc8ee7303"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c3e41c5a9ed2c8359c0ebbc8ee7303">&#9670;&#160;</a></span>IsExportProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::BasePDVConverter::IsExportProperty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: IsExportProperty, 是否导出模型属性 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a5fde6ff025a60ee7909c38bd81522953" name="a5fde6ff025a60ee7909c38bd81522953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fde6ff025a60ee7909c38bd81522953">&#9670;&#160;</a></span>IsExportRenderBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::BasePDVConverter::IsExportRenderBuffer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: IsExportRenderBuffer, 是否导出渲染数据 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ace17e8834b580495793f4503622baeed" name="ace17e8834b580495793f4503622baeed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace17e8834b580495793f4503622baeed">&#9670;&#160;</a></span>IsExportXML()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::BasePDVConverter::IsExportXML </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: IsExportXML, 是否导出XML文件, 默认为不导出 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ad8673c0b884ca993884e8c1f048fdf54" name="ad8673c0b884ca993884e8c1f048fdf54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8673c0b884ca993884e8c1f048fdf54">&#9670;&#160;</a></span>IsRunBatchedAndInstancedMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::BasePDVConverter::IsRunBatchedAndInstancedMesh </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: IsRunBatchedAndInstancedMesh, 是否对渲染数据进行合批和实例化处理, 默认读取配置文件 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>PDVSDK-docs/PDVConverterCore/<a class="el" href="_base_p_d_v_converter_8h_source.html">BasePDVConverter.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>kernel</b></li><li class="navelem"><b>pdv</b></li><li class="navelem"><a href="classkernel_1_1pdv_1_1_base_p_d_v_converter.html">BasePDVConverter</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

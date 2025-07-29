@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVConverterCore/BasePDVDataExtractor.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_base_p_d_v_data_extractor_8h.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">BasePDVDataExtractor.h 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>概述: pdv数据提取器基类  
+<a href="#details">更多...</a></p>
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_base_8h_source.html">PDVBase.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_object_factory_8h_source.html">PDVIObjectFactory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_scene_data_8h_source.html">PDVISceneData.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_scene_8h_source.html">PDVIScene.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_camera_8h_source.html">PDVICamera.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_resource_8h_source.html">PDVIResource.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_security_8h_source.html">PDVISecurity.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_model_tree_8h_source.html">PDVIModelTree.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_model_tree_node_8h_source.html">PDVIModelTreeNode.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_model_8h_source.html">PDVIModel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_attribute_8h_source.html">PDVIAttribute.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_attribute_group_8h_source.html">PDVIAttributeGroup.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_attribute_item_8h_source.html">PDVIAttributeItem.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_annotation_8h_source.html">PDVIAnnotation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_mesh_8h_source.html">PDVIMesh.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_mesh_vertex_8h_source.html">PDVIMeshVertex.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_mesh_primitive_8h_source.html">PDVIMeshPrimitive.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_mesh_prim_collection_8h_source.html">PDVIMeshPrimCollection.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_render_vertex_8h_source.html">PDVIRenderVertex.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_geom_curve_data_8h_source.html">PDVIGeomCurveData.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_geom_surface_data_8h_source.html">PDVIGeomSurfaceData.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_reference_geometry_8h_source.html">PDVIReferenceGeometry.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_i_user_data_8h_source.html">PDVIUserData.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_file_8h_source.html">PDVFile.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_log_8h_source.html">PDVLog.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_c_a_d_annotation_def_8h_source.html">CADAnnotationDef.h</a>&quot;</code><br />
+</div>
+<p><a href="_base_p_d_v_data_extractor_8h_source.html">浏览该文件的源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+结构体</h2></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3A_5FModelTreeNodeData" id="r_kernel_3A_3Apdv_3A_3A_5FModelTreeNodeData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1___model_tree_node_data.html">kernel::pdv::_ModelTreeNodeData</a></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3A_5FPointMeshData" id="r_kernel_3A_3Apdv_3A_3A_5FPointMeshData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1___point_mesh_data.html">kernel::pdv::_PointMeshData</a></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3A_5FCurveMeshData" id="r_kernel_3A_3Apdv_3A_3A_5FCurveMeshData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1___curve_mesh_data.html">kernel::pdv::_CurveMeshData</a></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3A_5FSurfaceMeshData" id="r_kernel_3A_3Apdv_3A_3A_5FSurfaceMeshData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1___surface_mesh_data.html">kernel::pdv::_SurfaceMeshData</a></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3A_5FBodyMeshData" id="r_kernel_3A_3Apdv_3A_3A_5FBodyMeshData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1___body_mesh_data.html">kernel::pdv::_BodyMeshData</a></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3A_5FMeshData" id="r_kernel_3A_3Apdv_3A_3A_5FMeshData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1___mesh_data.html">kernel::pdv::_MeshData</a></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3A_5FAttributeItemData" id="r_kernel_3A_3Apdv_3A_3A_5FAttributeItemData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1___attribute_item_data.html">kernel::pdv::_AttributeItemData</a></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3A_5FAttributeGroupData" id="r_kernel_3A_3Apdv_3A_3A_5FAttributeGroupData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1___attribute_group_data.html">kernel::pdv::_AttributeGroupData</a></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3A_5FProgressInfo" id="r_kernel_3A_3Apdv_3A_3A_5FProgressInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1___progress_info.html">kernel::pdv::_ProgressInfo</a></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3ABasePDVDataExtractor" id="r_kernel_3A_3Apdv_3A_3ABasePDVDataExtractor"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkernel_1_1pdv_1_1_base_p_d_v_data_extractor.html">kernel::pdv::BasePDVDataExtractor</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+类型定义</h2></td></tr>
+<tr class="memitem:a5abccbbd45e126e4579e27eca5bf7512" id="r_a5abccbbd45e126e4579e27eca5bf7512"><td class="memItemLeft" align="right" valign="top"><a id="a5abccbbd45e126e4579e27eca5bf7512" name="a5abccbbd45e126e4579e27eca5bf7512"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::SourceObject</b></td></tr>
+<tr class="memitem:a61f7f7b14a855491107294c2a8244492" id="r_a61f7f7b14a855491107294c2a8244492"><td class="memItemLeft" align="right" valign="top"><a id="a61f7f7b14a855491107294c2a8244492" name="a61f7f7b14a855491107294c2a8244492"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::NodeObject</b></td></tr>
+<tr class="memitem:a683a37c2a9e3dd19076b5a93dce141e9" id="r_a683a37c2a9e3dd19076b5a93dce141e9"><td class="memItemLeft" align="right" valign="top"><a id="a683a37c2a9e3dd19076b5a93dce141e9" name="a683a37c2a9e3dd19076b5a93dce141e9"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::ModelObject</b></td></tr>
+<tr class="memitem:abbbef878d434b7c65a31a87b35aead0e" id="r_abbbef878d434b7c65a31a87b35aead0e"><td class="memItemLeft" align="right" valign="top"><a id="abbbef878d434b7c65a31a87b35aead0e" name="abbbef878d434b7c65a31a87b35aead0e"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::GeomObject</b></td></tr>
+<tr class="memitem:af00360f2ffce424140f5df1bedaf1dd5" id="r_af00360f2ffce424140f5df1bedaf1dd5"><td class="memItemLeft" align="right" valign="top"><a id="af00360f2ffce424140f5df1bedaf1dd5" name="af00360f2ffce424140f5df1bedaf1dd5"></a>
+typedef enum kernel::pdv::_ModelTreeNodeType&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::ModelTreeNodeType</b></td></tr>
+<tr class="memitem:a62cf0107f7b58f44a006d08f0a35eea1" id="r_a62cf0107f7b58f44a006d08f0a35eea1"><td class="memItemLeft" align="right" valign="top"><a id="a62cf0107f7b58f44a006d08f0a35eea1" name="a62cf0107f7b58f44a006d08f0a35eea1"></a>
+typedef enum kernel::pdv::_ConvertProgressStatus&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::ConvertProgressStatus</b></td></tr>
+<tr class="memitem:abd930823c1c83faa3216377f03d34182" id="r_abd930823c1c83faa3216377f03d34182"><td class="memItemLeft" align="right" valign="top"><a id="abd930823c1c83faa3216377f03d34182" name="abd930823c1c83faa3216377f03d34182"></a>
+typedef struct <a class="el" href="structkernel_1_1pdv_1_1___model_tree_node_data.html">kernel::pdv::_ModelTreeNodeData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::ModelTreeNodeData</b></td></tr>
+<tr class="memitem:a491ffd57fbe2ac78bdcefcc648b62680" id="r_a491ffd57fbe2ac78bdcefcc648b62680"><td class="memItemLeft" align="right" valign="top"><a id="a491ffd57fbe2ac78bdcefcc648b62680" name="a491ffd57fbe2ac78bdcefcc648b62680"></a>
+typedef std::vector&lt; <a class="el" href="structkernel_1_1pdv_1_1___model_tree_node_data.html">ModelTreeNodeData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::ModelTreeNodeDataArray</b></td></tr>
+<tr class="memitem:a06e783ae1d592fd3fd54c2d355c14468" id="r_a06e783ae1d592fd3fd54c2d355c14468"><td class="memItemLeft" align="right" valign="top"><a id="a06e783ae1d592fd3fd54c2d355c14468" name="a06e783ae1d592fd3fd54c2d355c14468"></a>
+typedef struct <a class="el" href="structkernel_1_1pdv_1_1___point_mesh_data.html">kernel::pdv::_PointMeshData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::PointMeshData</b></td></tr>
+<tr class="memitem:a5982c0e885681d7b74375b6d502a51cb" id="r_a5982c0e885681d7b74375b6d502a51cb"><td class="memItemLeft" align="right" valign="top"><a id="a5982c0e885681d7b74375b6d502a51cb" name="a5982c0e885681d7b74375b6d502a51cb"></a>
+typedef struct <a class="el" href="structkernel_1_1pdv_1_1___curve_mesh_data.html">kernel::pdv::_CurveMeshData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::CurveMeshData</b></td></tr>
+<tr class="memitem:a9d1edb1bb964bf6f8d119fd58b1fe25f" id="r_a9d1edb1bb964bf6f8d119fd58b1fe25f"><td class="memItemLeft" align="right" valign="top"><a id="a9d1edb1bb964bf6f8d119fd58b1fe25f" name="a9d1edb1bb964bf6f8d119fd58b1fe25f"></a>
+typedef struct <a class="el" href="structkernel_1_1pdv_1_1___surface_mesh_data.html">kernel::pdv::_SurfaceMeshData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::SurfaceMeshData</b></td></tr>
+<tr class="memitem:a66bd35645c394d4bc040b44d4dead164" id="r_a66bd35645c394d4bc040b44d4dead164"><td class="memItemLeft" align="right" valign="top"><a id="a66bd35645c394d4bc040b44d4dead164" name="a66bd35645c394d4bc040b44d4dead164"></a>
+typedef struct <a class="el" href="structkernel_1_1pdv_1_1___body_mesh_data.html">kernel::pdv::_BodyMeshData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::BodyMeshData</b></td></tr>
+<tr class="memitem:ae17925b0ab8c3e10a805ec334a28228d" id="r_ae17925b0ab8c3e10a805ec334a28228d"><td class="memItemLeft" align="right" valign="top"><a id="ae17925b0ab8c3e10a805ec334a28228d" name="ae17925b0ab8c3e10a805ec334a28228d"></a>
+typedef std::vector&lt; <a class="el" href="structkernel_1_1pdv_1_1___body_mesh_data.html">BodyMeshData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::BodyMeshDataArray</b></td></tr>
+<tr class="memitem:a29ccf79f2aaf3c3dcac121b52b9dbde3" id="r_a29ccf79f2aaf3c3dcac121b52b9dbde3"><td class="memItemLeft" align="right" valign="top"><a id="a29ccf79f2aaf3c3dcac121b52b9dbde3" name="a29ccf79f2aaf3c3dcac121b52b9dbde3"></a>
+typedef struct <a class="el" href="structkernel_1_1pdv_1_1___mesh_data.html">kernel::pdv::_MeshData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::MeshData</b></td></tr>
+<tr class="memitem:a3871504eb125896f2a8921dc2108d23d" id="r_a3871504eb125896f2a8921dc2108d23d"><td class="memItemLeft" align="right" valign="top"><a id="a3871504eb125896f2a8921dc2108d23d" name="a3871504eb125896f2a8921dc2108d23d"></a>
+typedef struct <a class="el" href="structkernel_1_1pdv_1_1___attribute_item_data.html">kernel::pdv::_AttributeItemData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::AttributeItemData</b></td></tr>
+<tr class="memitem:ac1cf680ff9e7fa8804f3eeaf844ff8b2" id="r_ac1cf680ff9e7fa8804f3eeaf844ff8b2"><td class="memItemLeft" align="right" valign="top"><a id="ac1cf680ff9e7fa8804f3eeaf844ff8b2" name="ac1cf680ff9e7fa8804f3eeaf844ff8b2"></a>
+typedef std::vector&lt; <a class="el" href="structkernel_1_1pdv_1_1___attribute_item_data.html">AttributeItemData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::AttributeItemArray</b></td></tr>
+<tr class="memitem:a7d738a06676b8c08e9943f1f6cd4161a" id="r_a7d738a06676b8c08e9943f1f6cd4161a"><td class="memItemLeft" align="right" valign="top"><a id="a7d738a06676b8c08e9943f1f6cd4161a" name="a7d738a06676b8c08e9943f1f6cd4161a"></a>
+typedef struct <a class="el" href="structkernel_1_1pdv_1_1___attribute_group_data.html">kernel::pdv::_AttributeGroupData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::AttributeGroupData</b></td></tr>
+<tr class="memitem:a3f6b11189b1e6fcc8d65aa1fa4dbbdb8" id="r_a3f6b11189b1e6fcc8d65aa1fa4dbbdb8"><td class="memItemLeft" align="right" valign="top"><a id="a3f6b11189b1e6fcc8d65aa1fa4dbbdb8" name="a3f6b11189b1e6fcc8d65aa1fa4dbbdb8"></a>
+typedef std::vector&lt; <a class="el" href="structkernel_1_1pdv_1_1___attribute_group_data.html">AttributeGroupData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::AttributeGroupArray</b></td></tr>
+<tr class="memitem:a509e1fcaa75e1ef8e4ae768fb859853a" id="r_a509e1fcaa75e1ef8e4ae768fb859853a"><td class="memItemLeft" align="right" valign="top"><a id="a509e1fcaa75e1ef8e4ae768fb859853a" name="a509e1fcaa75e1ef8e4ae768fb859853a"></a>
+typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::PDVConverterProgressCallBack</b>) (ConvertProgressStatus status, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> percent, void *dialogUI)</td></tr>
+<tr class="memitem:aa1d10074f5ad18ac993b88f58c5c1148" id="r_aa1d10074f5ad18ac993b88f58c5c1148"><td class="memItemLeft" align="right" valign="top"><a id="aa1d10074f5ad18ac993b88f58c5c1148" name="aa1d10074f5ad18ac993b88f58c5c1148"></a>
+typedef struct <a class="el" href="structkernel_1_1pdv_1_1___progress_info.html">kernel::pdv::_ProgressInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kernel::pdv::ProgressInfo</b></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+枚举</h2></td></tr>
+<tr class="memitem:aeb66dad09403c32c130916b61dd33322" id="r_aeb66dad09403c32c130916b61dd33322"><td class="memItemLeft" align="right" valign="top"><a id="aeb66dad09403c32c130916b61dd33322" name="aeb66dad09403c32c130916b61dd33322"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>_ModelTreeNodeType</b> { <b>NODE_TYPE_NULL</b> = 0
+, <b>NODE_TYPE_MODEL</b> = 1
+, <b>NODE_TYPE_GROUP</b> = 2
+ }</td></tr>
+<tr class="memitem:a06f53624f42e58116113f69d329afca7" id="r_a06f53624f42e58116113f69d329afca7"><td class="memItemLeft" align="right" valign="top"><a id="a06f53624f42e58116113f69d329afca7" name="a06f53624f42e58116113f69d329afca7"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>_ConvertProgressStatus</b> { <br />
+&#160;&#160;<b>CPSTATUS_INVALID</b> = 0
+, <b>CPSTATUS_START</b> = 1
+, <b>CPSTATUS_END</b> = 2
+, <b>CPSTATUS_PROGRESS</b> = 3
+, <br />
+&#160;&#160;<b>CPSTATUS_ERROR</b> = 4
+, <b>CPSTATUS_PREPARE_MODEL_TREE</b> = 11
+, <b>CPSTATUS_EXTRACT_DATA</b> = 12
+, <b>CPSTATUS_EXPORT_FILE</b> = 13
+<br />
+ }</td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>概述: pdv数据提取器基类 </p>
+<dl class="section author"><dt>作者</dt><dd>Steven.Liu </dd></dl>
+<dl class="section version"><dt>版本</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>日期</dt><dd>2022-12-01</dd></dl>
+<p>在pdv转换器中继承该类, 用于pdv数据提取 </p>
+</div></div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_738d9b174ee59d56e5a1d793712ad8cb.html">PDVConverterCore</a></li><li class="navelem"><a href="_base_p_d_v_data_extractor_8h.html">BasePDVDataExtractor.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVINodeSubsetMaterial.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_node_subset_material_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVINodeSubsetMaterial.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_node_subset_material_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVINODESUBSETMATERIAL_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVINODESUBSETMATERIAL_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_material_key.html">   21</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structkernel_1_1pdv_1_1_material_key.html">MaterialKey</a></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_material_key.html#a88d10c7490453eefc2443cd18e1dd318">   23</a></span>    std::vector&lt; DftUInt64&gt; <a class="code hl_variable" href="structkernel_1_1pdv_1_1_material_key.html#a88d10c7490453eefc2443cd18e1dd318">_materialIDs</a>; </div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_material_key.html#aee411982cfeadd1e7b0e27d9e9ac80e7">   25</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> <a class="code hl_function" href="structkernel_1_1pdv_1_1_material_key.html#aee411982cfeadd1e7b0e27d9e9ac80e7">operator&lt;</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structkernel_1_1pdv_1_1_material_key.html">MaterialKey</a>&amp; iData)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="structkernel_1_1pdv_1_1_material_key.html#a88d10c7490453eefc2443cd18e1dd318">_materialIDs</a>.size() != iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_material_key.html#a88d10c7490453eefc2443cd18e1dd318">_materialIDs</a>.size())</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_material_key.html#a88d10c7490453eefc2443cd18e1dd318">_materialIDs</a>.size() &lt; iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_material_key.html#a88d10c7490453eefc2443cd18e1dd318">_materialIDs</a>.size();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> i = 0; i &lt; <a class="code hl_variable" href="structkernel_1_1pdv_1_1_material_key.html#a88d10c7490453eefc2443cd18e1dd318">_materialIDs</a>.size(); i++)</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="structkernel_1_1pdv_1_1_material_key.html#a88d10c7490453eefc2443cd18e1dd318">_materialIDs</a>[i] != iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_material_key.html#a88d10c7490453eefc2443cd18e1dd318">_materialIDs</a>[i])</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_material_key.html#a88d10c7490453eefc2443cd18e1dd318">_materialIDs</a>[i] &lt; iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_material_key.html#a88d10c7490453eefc2443cd18e1dd318">_materialIDs</a>[i];</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        }</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordflow">return</span> FALSE;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
+</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
+</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
+<div class="foldopen" id="foldopen00041" data-start="{" data-end="};">
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_vertex_material_info.html">   41</a></span><span class="keyword">struct </span><a class="code hl_function" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a159151b158800fb3fd409f8a5480e197">VertexMaterialInfo</a></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>{</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_vertex_material_info.html#ae2e7531cba821bbb20e445a488bab26a">   43</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#ae2e7531cba821bbb20e445a488bab26a">_vertexStart</a>;         </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aad244e721b31fd7b74e3f1a80a69d647">   44</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aad244e721b31fd7b74e3f1a80a69d647">_vertexEnd</a>;           </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a4f5ed1b54ec2bc0197e76053d7ab36fd">   45</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a4f5ed1b54ec2bc0197e76053d7ab36fd">_indexStart</a>;          </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a3521b8c6581af96dc80240b1a9c6e6ea">   46</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a3521b8c6581af96dc80240b1a9c6e6ea">_indexEnd</a>;            </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aeabec04b294fc3362b0fb00adf2fe928">   47</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aeabec04b294fc3362b0fb00adf2fe928">_materialID</a>;          </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a159151b158800fb3fd409f8a5480e197">   49</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a159151b158800fb3fd409f8a5480e197">VertexMaterialInfo</a>() { <a class="code hl_function" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a7207c8348ede9f82756adfb66cafd17a">Clear</a>(); }</div>
+<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a1e39a76449f24ba469319008e80fc012">   51</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a1e39a76449f24ba469319008e80fc012">VertexMaterialInfo</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a159151b158800fb3fd409f8a5480e197">VertexMaterialInfo</a>&amp; iData)</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    {</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#ae2e7531cba821bbb20e445a488bab26a">_vertexStart</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#ae2e7531cba821bbb20e445a488bab26a">_vertexStart</a>;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aad244e721b31fd7b74e3f1a80a69d647">_vertexEnd</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aad244e721b31fd7b74e3f1a80a69d647">_vertexEnd</a>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a4f5ed1b54ec2bc0197e76053d7ab36fd">_indexStart</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a4f5ed1b54ec2bc0197e76053d7ab36fd">_indexStart</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a3521b8c6581af96dc80240b1a9c6e6ea">_indexEnd</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a3521b8c6581af96dc80240b1a9c6e6ea">_indexEnd</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aeabec04b294fc3362b0fb00adf2fe928">_materialID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aeabec04b294fc3362b0fb00adf2fe928">_materialID</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
+</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
+<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a6e7245aa0068589482466d67c4dad351">   60</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a159151b158800fb3fd409f8a5480e197">VertexMaterialInfo</a>&amp; <a class="code hl_function" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a6e7245aa0068589482466d67c4dad351">operator=</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a159151b158800fb3fd409f8a5480e197">VertexMaterialInfo</a>&amp; iData)</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordflow">if</span> (&amp;iData != <span class="keyword">this</span>)</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        {</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#ae2e7531cba821bbb20e445a488bab26a">_vertexStart</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#ae2e7531cba821bbb20e445a488bab26a">_vertexStart</a>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aad244e721b31fd7b74e3f1a80a69d647">_vertexEnd</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aad244e721b31fd7b74e3f1a80a69d647">_vertexEnd</a>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a4f5ed1b54ec2bc0197e76053d7ab36fd">_indexStart</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a4f5ed1b54ec2bc0197e76053d7ab36fd">_indexStart</a>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a3521b8c6581af96dc80240b1a9c6e6ea">_indexEnd</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a3521b8c6581af96dc80240b1a9c6e6ea">_indexEnd</a>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aeabec04b294fc3362b0fb00adf2fe928">_materialID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aeabec04b294fc3362b0fb00adf2fe928">_materialID</a>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        }</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    }</div>
+</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span></div>
+<div class="foldopen" id="foldopen00073" data-start="{" data-end="}">
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a7207c8348ede9f82756adfb66cafd17a">   73</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a7207c8348ede9f82756adfb66cafd17a">Clear</a>()</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    {</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#ae2e7531cba821bbb20e445a488bab26a">_vertexStart</a> = 0;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aad244e721b31fd7b74e3f1a80a69d647">_vertexEnd</a> = 0;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a4f5ed1b54ec2bc0197e76053d7ab36fd">_indexStart</a> = 0;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#a3521b8c6581af96dc80240b1a9c6e6ea">_indexEnd</a> = 0;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_vertex_material_info.html#aeabec04b294fc3362b0fb00adf2fe928">_materialID</a> = 0;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    }</div>
+</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>};</div>
+</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="_p_d_v_i_node_subset_material_8h.html#a1d99021c28a71d8f8599b644f37af77d">   83</a></span><span class="keyword">typedef</span> std::vector&lt;VertexMaterialInfo&gt; <a class="code hl_typedef" href="_p_d_v_i_node_subset_material_8h.html#a1d99021c28a71d8f8599b644f37af77d">VertexMaterialInfoArray</a>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span></div>
+<div class="foldopen" id="foldopen00086" data-start="{" data-end="};">
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html">   86</a></span><span class="keyword">struct </span><a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#ae54de3339e3c92d055298e4f629ccb76">NodeRenderMeshInfo</a></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>{</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#af3a0a1ddc7f7bb24c04b31a25439ed75">   88</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#af3a0a1ddc7f7bb24c04b31a25439ed75">_renderMeshID</a>;                 </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#a4f33b450f581635a0a89c270d9c363c1">   89</a></span>    <a class="code hl_typedef" href="_p_d_v_i_node_subset_material_8h.html#a1d99021c28a71d8f8599b644f37af77d">VertexMaterialInfoArray</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#a4f33b450f581635a0a89c270d9c363c1">_nodeVertexInfoArray</a>; </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#ae54de3339e3c92d055298e4f629ccb76">   91</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#ae54de3339e3c92d055298e4f629ccb76">NodeRenderMeshInfo</a>() { <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#a8eab60e1a5cd0307782c7e80df96be55">Clear</a>(); }</div>
+<div class="foldopen" id="foldopen00093" data-start="{" data-end="}">
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#aa3a81ae944da420a211f7b03ef38169a">   93</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#aa3a81ae944da420a211f7b03ef38169a">NodeRenderMeshInfo</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#ae54de3339e3c92d055298e4f629ccb76">NodeRenderMeshInfo</a>&amp; iData)</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    {</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#af3a0a1ddc7f7bb24c04b31a25439ed75">_renderMeshID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#af3a0a1ddc7f7bb24c04b31a25439ed75">_renderMeshID</a>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#a4f33b450f581635a0a89c270d9c363c1">_nodeVertexInfoArray</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#a4f33b450f581635a0a89c270d9c363c1">_nodeVertexInfoArray</a>;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    }</div>
+</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span></div>
+<div class="foldopen" id="foldopen00099" data-start="{" data-end="}">
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#aa1d19323cad4807bb12bfda5dc26136d">   99</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#ae54de3339e3c92d055298e4f629ccb76">NodeRenderMeshInfo</a>&amp; <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#aa1d19323cad4807bb12bfda5dc26136d">operator=</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#ae54de3339e3c92d055298e4f629ccb76">NodeRenderMeshInfo</a>&amp; iData)</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    {</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        <span class="keywordflow">if</span> (&amp;iData != <span class="keyword">this</span>)</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        {</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#af3a0a1ddc7f7bb24c04b31a25439ed75">_renderMeshID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#af3a0a1ddc7f7bb24c04b31a25439ed75">_renderMeshID</a>;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#a4f33b450f581635a0a89c270d9c363c1">_nodeVertexInfoArray</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#a4f33b450f581635a0a89c270d9c363c1">_nodeVertexInfoArray</a>;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        }</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    }</div>
+</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span></div>
+<div class="foldopen" id="foldopen00109" data-start="{" data-end="}">
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#a8eab60e1a5cd0307782c7e80df96be55">  109</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#a8eab60e1a5cd0307782c7e80df96be55">Clear</a>()</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    {</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#af3a0a1ddc7f7bb24c04b31a25439ed75">_renderMeshID</a> = DFT_INVALID_ID;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#a4f33b450f581635a0a89c270d9c363c1">_nodeVertexInfoArray</a>.clear();</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    }</div>
+</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>};</div>
+</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="_p_d_v_i_node_subset_material_8h.html#a4ba10bdbb1aa269468ca3da68cacb2ae">  116</a></span><span class="keyword">typedef</span> std::vector&lt;NodeRenderMeshInfo&gt; <a class="code hl_typedef" href="_p_d_v_i_node_subset_material_8h.html#a4ba10bdbb1aa269468ca3da68cacb2ae">NodeRenderMeshInfoArray</a>;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span></div>
+<div class="foldopen" id="foldopen00119" data-start="{" data-end="};">
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_body_info.html">  119</a></span><span class="keyword">struct </span><a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a9aaab5611266ea34bdcaca9b44078e6c">NodeRenderBodyInfo</a></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>{</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a4912f810aff085e11f15e7a5137f40e0">  121</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a4912f810aff085e11f15e7a5137f40e0">_renderBodyID</a>;                     </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a03ef39a98fad8370d13775d0abda838b">  122</a></span>    <a class="code hl_typedef" href="_p_d_v_i_node_subset_material_8h.html#a4ba10bdbb1aa269468ca3da68cacb2ae">NodeRenderMeshInfoArray</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a03ef39a98fad8370d13775d0abda838b">_renderMeshInfoArray</a>; </div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a9aaab5611266ea34bdcaca9b44078e6c">  124</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a9aaab5611266ea34bdcaca9b44078e6c">NodeRenderBodyInfo</a>() { <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_body_info.html#aa97a48a9197c0d457ee3fa3b456d5e07">Clear</a>(); }</div>
+<div class="foldopen" id="foldopen00126" data-start="{" data-end="}">
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a42a563fb6e3449d9aaeed94d71c68294">  126</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a42a563fb6e3449d9aaeed94d71c68294">NodeRenderBodyInfo</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a9aaab5611266ea34bdcaca9b44078e6c">NodeRenderBodyInfo</a>&amp; iData)</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    {</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a4912f810aff085e11f15e7a5137f40e0">_renderBodyID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a4912f810aff085e11f15e7a5137f40e0">_renderBodyID</a>;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a03ef39a98fad8370d13775d0abda838b">_renderMeshInfoArray</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a03ef39a98fad8370d13775d0abda838b">_renderMeshInfoArray</a>;</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    }</div>
+</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span></div>
+<div class="foldopen" id="foldopen00132" data-start="{" data-end="}">
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_body_info.html#ad2c5b583c36b63ff68572bdf8dc22a48">  132</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a9aaab5611266ea34bdcaca9b44078e6c">NodeRenderBodyInfo</a>&amp; <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_body_info.html#ad2c5b583c36b63ff68572bdf8dc22a48">operator=</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a9aaab5611266ea34bdcaca9b44078e6c">NodeRenderBodyInfo</a>&amp; iData)</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    {</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        <span class="keywordflow">if</span> (&amp;iData != <span class="keyword">this</span>)</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>        {</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a4912f810aff085e11f15e7a5137f40e0">_renderBodyID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a4912f810aff085e11f15e7a5137f40e0">_renderBodyID</a>;</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a03ef39a98fad8370d13775d0abda838b">_renderMeshInfoArray</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a03ef39a98fad8370d13775d0abda838b">_renderMeshInfoArray</a>;</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>        }</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    }</div>
+</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span></div>
+<div class="foldopen" id="foldopen00142" data-start="{" data-end="}">
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_node_render_body_info.html#aa97a48a9197c0d457ee3fa3b456d5e07">  142</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_node_render_body_info.html#aa97a48a9197c0d457ee3fa3b456d5e07">Clear</a>()</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    {</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a4912f810aff085e11f15e7a5137f40e0">_renderBodyID</a> = DFT_INVALID_ID;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_node_render_body_info.html#a03ef39a98fad8370d13775d0abda838b">_renderMeshInfoArray</a>.clear();</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    }</div>
+</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>};</div>
+</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span></div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="_p_d_v_i_node_subset_material_8h.html#a644134eeea10270947e2f61455d17bd7">  149</a></span><span class="keyword">typedef</span> std::vector&lt;NodeRenderBodyInfo&gt; <a class="code hl_typedef" href="_p_d_v_i_node_subset_material_8h.html#a644134eeea10270947e2f61455d17bd7">NodeRenderBodyInfoArray</a>;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span></div>
+<div class="foldopen" id="foldopen00152" data-start="{" data-end="};">
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_node_subset_material.html">  152</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_node_subset_material.html">INodeSubsetMaterial</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>{</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span></div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_node_subset_material.html#a621e019a2430f85473d81bd070488f70">  161</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_node_subset_material.html#a621e019a2430f85473d81bd070488f70">GetNodeID</a>() = 0;</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span></div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_node_subset_material.html#acb45edfce18845dca41c8675874298aa">  169</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_node_subset_material.html#acb45edfce18845dca41c8675874298aa">SetNodeID</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iNodeID) = 0;</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span></div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_node_subset_material.html#a7e96ee7561a99fdf6184475206c1d2a0">  177</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_node_subset_material.html#a7e96ee7561a99fdf6184475206c1d2a0">GetNodeRenderBodyInfoArray</a>(<a class="code hl_typedef" href="_p_d_v_i_node_subset_material_8h.html#a644134eeea10270947e2f61455d17bd7">NodeRenderBodyInfoArray</a> &amp;oNodeRenderBodyInfoArray) = 0;</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span></div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_node_subset_material.html#ad690bbd1b847dfa3dd2548e694471bcf">  185</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_node_subset_material.html#ad690bbd1b847dfa3dd2548e694471bcf">SetNodeRenderBodyInfoArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_p_d_v_i_node_subset_material_8h.html#a644134eeea10270947e2f61455d17bd7">NodeRenderBodyInfoArray</a> &amp;iNodeRenderBodyInfoArray) = 0;</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>};</div>
+</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a053d8ce6a85300520cc14cd4650ced33"><div class="ttname"><a href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></div><div class="ttdeci">unsigned long long DftUInt64</div><div class="ttdoc">64位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:64</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a707c1d82ee5ee4556ced400697de3dcf"><div class="ttname"><a href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a></div><div class="ttdeci">unsigned int DftUInt32</div><div class="ttdoc">32位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:60</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a9dd0d1ca2dc17c79bf9082d2b72d957f"><div class="ttname"><a href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></div><div class="ttdeci">unsigned int DftUInt</div><div class="ttdoc">无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:48</div></div>
+<div class="ttc" id="a_dft_types_8h_html_aa0f85f8d3a1d218672e4d650f38fb674"><div class="ttname"><a href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></div><div class="ttdeci">int DftBool</div><div class="ttdoc">布尔型</div><div class="ttdef"><b>定义</b> DftTypes.h:40</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="a_p_d_v_i_node_subset_material_8h_html_a1d99021c28a71d8f8599b644f37af77d"><div class="ttname"><a href="_p_d_v_i_node_subset_material_8h.html#a1d99021c28a71d8f8599b644f37af77d">kernel::pdv::VertexMaterialInfoArray</a></div><div class="ttdeci">std::vector&lt; VertexMaterialInfo &gt; VertexMaterialInfoArray</div><div class="ttdoc">顶点材质信息列表</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:83</div></div>
+<div class="ttc" id="a_p_d_v_i_node_subset_material_8h_html_a4ba10bdbb1aa269468ca3da68cacb2ae"><div class="ttname"><a href="_p_d_v_i_node_subset_material_8h.html#a4ba10bdbb1aa269468ca3da68cacb2ae">kernel::pdv::NodeRenderMeshInfoArray</a></div><div class="ttdeci">std::vector&lt; NodeRenderMeshInfo &gt; NodeRenderMeshInfoArray</div><div class="ttdoc">节点关联渲染网格信息列表</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:116</div></div>
+<div class="ttc" id="a_p_d_v_i_node_subset_material_8h_html_a644134eeea10270947e2f61455d17bd7"><div class="ttname"><a href="_p_d_v_i_node_subset_material_8h.html#a644134eeea10270947e2f61455d17bd7">kernel::pdv::NodeRenderBodyInfoArray</a></div><div class="ttdeci">std::vector&lt; NodeRenderBodyInfo &gt; NodeRenderBodyInfoArray</div><div class="ttdoc">节点关联渲染主体信息列表</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:149</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_node_subset_material_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_node_subset_material.html">kernel::pdv::INodeSubsetMaterial</a></div><div class="ttdoc">节点面材质的接口</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:153</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_node_subset_material_html_a621e019a2430f85473d81bd070488f70"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_node_subset_material.html#a621e019a2430f85473d81bd070488f70">kernel::pdv::INodeSubsetMaterial::GetNodeID</a></div><div class="ttdeci">virtual DftUInt64 GetNodeID()=0</div><div class="ttdoc">获取关联的节点ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_node_subset_material_html_a7e96ee7561a99fdf6184475206c1d2a0"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_node_subset_material.html#a7e96ee7561a99fdf6184475206c1d2a0">kernel::pdv::INodeSubsetMaterial::GetNodeRenderBodyInfoArray</a></div><div class="ttdeci">virtual PDV_RESULT GetNodeRenderBodyInfoArray(NodeRenderBodyInfoArray &amp;oNodeRenderBodyInfoArray)=0</div><div class="ttdoc">获取关联的renderBody信息数组</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_node_subset_material_html_acb45edfce18845dca41c8675874298aa"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_node_subset_material.html#acb45edfce18845dca41c8675874298aa">kernel::pdv::INodeSubsetMaterial::SetNodeID</a></div><div class="ttdeci">virtual PDV_RESULT SetNodeID(const DftUInt64 &amp;iNodeID)=0</div><div class="ttdoc">设置关联的节点ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_node_subset_material_html_ad690bbd1b847dfa3dd2548e694471bcf"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_node_subset_material.html#ad690bbd1b847dfa3dd2548e694471bcf">kernel::pdv::INodeSubsetMaterial::SetNodeRenderBodyInfoArray</a></div><div class="ttdeci">virtual PDV_RESULT SetNodeRenderBodyInfoArray(const NodeRenderBodyInfoArray &amp;iNodeRenderBodyInfoArray)=0</div><div class="ttdoc">设置关联的renderBody信息数组</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_material_key_html"><div class="ttname"><a href="structkernel_1_1pdv_1_1_material_key.html">kernel::pdv::MaterialKey</a></div><div class="ttdoc">作为map的key使用，用于合批实例化算法中对rendermesh按照材质数据进行分组</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:22</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_material_key_html_a88d10c7490453eefc2443cd18e1dd318"><div class="ttname"><a href="structkernel_1_1pdv_1_1_material_key.html#a88d10c7490453eefc2443cd18e1dd318">kernel::pdv::MaterialKey::_materialIDs</a></div><div class="ttdeci">std::vector&lt; DftUInt64 &gt; _materialIDs</div><div class="ttdoc">材质ID</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:23</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_material_key_html_aee411982cfeadd1e7b0e27d9e9ac80e7"><div class="ttname"><a href="structkernel_1_1pdv_1_1_material_key.html#aee411982cfeadd1e7b0e27d9e9ac80e7">kernel::pdv::MaterialKey::operator&lt;</a></div><div class="ttdeci">DftBool operator&lt;(const MaterialKey &amp;iData) const</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:25</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_node_render_body_info_html_a03ef39a98fad8370d13775d0abda838b"><div class="ttname"><a href="structkernel_1_1pdv_1_1_node_render_body_info.html#a03ef39a98fad8370d13775d0abda838b">kernel::pdv::NodeRenderBodyInfo::_renderMeshInfoArray</a></div><div class="ttdeci">NodeRenderMeshInfoArray _renderMeshInfoArray</div><div class="ttdoc">渲染网格信息数组</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:122</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_node_render_body_info_html_a42a563fb6e3449d9aaeed94d71c68294"><div class="ttname"><a href="structkernel_1_1pdv_1_1_node_render_body_info.html#a42a563fb6e3449d9aaeed94d71c68294">kernel::pdv::NodeRenderBodyInfo::NodeRenderBodyInfo</a></div><div class="ttdeci">NodeRenderBodyInfo(const NodeRenderBodyInfo &amp;iData)</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:126</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_node_render_body_info_html_a4912f810aff085e11f15e7a5137f40e0"><div class="ttname"><a href="structkernel_1_1pdv_1_1_node_render_body_info.html#a4912f810aff085e11f15e7a5137f40e0">kernel::pdv::NodeRenderBodyInfo::_renderBodyID</a></div><div class="ttdeci">DftUInt64 _renderBodyID</div><div class="ttdoc">渲染主体唯一标识</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:121</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_node_render_body_info_html_a9aaab5611266ea34bdcaca9b44078e6c"><div class="ttname"><a href="structkernel_1_1pdv_1_1_node_render_body_info.html#a9aaab5611266ea34bdcaca9b44078e6c">kernel::pdv::NodeRenderBodyInfo::NodeRenderBodyInfo</a></div><div class="ttdeci">NodeRenderBodyInfo()</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:124</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_node_render_body_info_html_aa97a48a9197c0d457ee3fa3b456d5e07"><div class="ttname"><a href="structkernel_1_1pdv_1_1_node_render_body_info.html#aa97a48a9197c0d457ee3fa3b456d5e07">kernel::pdv::NodeRenderBodyInfo::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:142</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_node_render_body_info_html_ad2c5b583c36b63ff68572bdf8dc22a48"><div class="ttname"><a href="structkernel_1_1pdv_1_1_node_render_body_info.html#ad2c5b583c36b63ff68572bdf8dc22a48">kernel::pdv::NodeRenderBodyInfo::operator=</a></div><div class="ttdeci">NodeRenderBodyInfo &amp; operator=(const NodeRenderBodyInfo &amp;iData)</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:132</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_node_render_mesh_info_html_a4f33b450f581635a0a89c270d9c363c1"><div class="ttname"><a href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#a4f33b450f581635a0a89c270d9c363c1">kernel::pdv::NodeRenderMeshInfo::_nodeVertexInfoArray</a></div><div class="ttdeci">VertexMaterialInfoArray _nodeVertexInfoArray</div><div class="ttdoc">顶点信息数组</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:89</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_node_render_mesh_info_html_a8eab60e1a5cd0307782c7e80df96be55"><div class="ttname"><a href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#a8eab60e1a5cd0307782c7e80df96be55">kernel::pdv::NodeRenderMeshInfo::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:109</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_node_render_mesh_info_html_aa1d19323cad4807bb12bfda5dc26136d"><div class="ttname"><a href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#aa1d19323cad4807bb12bfda5dc26136d">kernel::pdv::NodeRenderMeshInfo::operator=</a></div><div class="ttdeci">NodeRenderMeshInfo &amp; operator=(const NodeRenderMeshInfo &amp;iData)</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:99</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_node_render_mesh_info_html_aa3a81ae944da420a211f7b03ef38169a"><div class="ttname"><a href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#aa3a81ae944da420a211f7b03ef38169a">kernel::pdv::NodeRenderMeshInfo::NodeRenderMeshInfo</a></div><div class="ttdeci">NodeRenderMeshInfo(const NodeRenderMeshInfo &amp;iData)</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:93</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_node_render_mesh_info_html_ae54de3339e3c92d055298e4f629ccb76"><div class="ttname"><a href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#ae54de3339e3c92d055298e4f629ccb76">kernel::pdv::NodeRenderMeshInfo::NodeRenderMeshInfo</a></div><div class="ttdeci">NodeRenderMeshInfo()</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:91</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_node_render_mesh_info_html_af3a0a1ddc7f7bb24c04b31a25439ed75"><div class="ttname"><a href="structkernel_1_1pdv_1_1_node_render_mesh_info.html#af3a0a1ddc7f7bb24c04b31a25439ed75">kernel::pdv::NodeRenderMeshInfo::_renderMeshID</a></div><div class="ttdeci">DftUInt64 _renderMeshID</div><div class="ttdoc">渲染网格唯一标识</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:88</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_vertex_material_info_html_a159151b158800fb3fd409f8a5480e197"><div class="ttname"><a href="structkernel_1_1pdv_1_1_vertex_material_info.html#a159151b158800fb3fd409f8a5480e197">kernel::pdv::VertexMaterialInfo::VertexMaterialInfo</a></div><div class="ttdeci">VertexMaterialInfo()</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:49</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_vertex_material_info_html_a1e39a76449f24ba469319008e80fc012"><div class="ttname"><a href="structkernel_1_1pdv_1_1_vertex_material_info.html#a1e39a76449f24ba469319008e80fc012">kernel::pdv::VertexMaterialInfo::VertexMaterialInfo</a></div><div class="ttdeci">VertexMaterialInfo(const VertexMaterialInfo &amp;iData)</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:51</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_vertex_material_info_html_a3521b8c6581af96dc80240b1a9c6e6ea"><div class="ttname"><a href="structkernel_1_1pdv_1_1_vertex_material_info.html#a3521b8c6581af96dc80240b1a9c6e6ea">kernel::pdv::VertexMaterialInfo::_indexEnd</a></div><div class="ttdeci">DftUInt32 _indexEnd</div><div class="ttdoc">索引结束</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:46</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_vertex_material_info_html_a4f5ed1b54ec2bc0197e76053d7ab36fd"><div class="ttname"><a href="structkernel_1_1pdv_1_1_vertex_material_info.html#a4f5ed1b54ec2bc0197e76053d7ab36fd">kernel::pdv::VertexMaterialInfo::_indexStart</a></div><div class="ttdeci">DftUInt32 _indexStart</div><div class="ttdoc">索引起始</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:45</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_vertex_material_info_html_a6e7245aa0068589482466d67c4dad351"><div class="ttname"><a href="structkernel_1_1pdv_1_1_vertex_material_info.html#a6e7245aa0068589482466d67c4dad351">kernel::pdv::VertexMaterialInfo::operator=</a></div><div class="ttdeci">VertexMaterialInfo &amp; operator=(const VertexMaterialInfo &amp;iData)</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:60</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_vertex_material_info_html_a7207c8348ede9f82756adfb66cafd17a"><div class="ttname"><a href="structkernel_1_1pdv_1_1_vertex_material_info.html#a7207c8348ede9f82756adfb66cafd17a">kernel::pdv::VertexMaterialInfo::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:73</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_vertex_material_info_html_aad244e721b31fd7b74e3f1a80a69d647"><div class="ttname"><a href="structkernel_1_1pdv_1_1_vertex_material_info.html#aad244e721b31fd7b74e3f1a80a69d647">kernel::pdv::VertexMaterialInfo::_vertexEnd</a></div><div class="ttdeci">DftUInt32 _vertexEnd</div><div class="ttdoc">顶点索引结束</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:44</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_vertex_material_info_html_ae2e7531cba821bbb20e445a488bab26a"><div class="ttname"><a href="structkernel_1_1pdv_1_1_vertex_material_info.html#ae2e7531cba821bbb20e445a488bab26a">kernel::pdv::VertexMaterialInfo::_vertexStart</a></div><div class="ttdeci">DftUInt32 _vertexStart</div><div class="ttdoc">顶点索引起始</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:43</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_vertex_material_info_html_aeabec04b294fc3362b0fb00adf2fe928"><div class="ttname"><a href="structkernel_1_1pdv_1_1_vertex_material_info.html#aeabec04b294fc3362b0fb00adf2fe928">kernel::pdv::VertexMaterialInfo::_materialID</a></div><div class="ttdeci">DftUInt64 _materialID</div><div class="ttdoc">材质ID</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:47</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_node_subset_material_8h.html">PDVINodeSubsetMaterial.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

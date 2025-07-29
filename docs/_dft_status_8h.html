@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/DftBase/DftStatus.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_dft_status_8h.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">DftStatus.h 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>概述：状态码定义  
+<a href="#details">更多...</a></p>
+
+<p><a href="_dft_status_8h_source.html">浏览该文件的源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+枚举</h2></td></tr>
+<tr class="memitem:aaec3efe5260f65ebb619b167325491b0" id="r_aaec3efe5260f65ebb619b167325491b0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaec3efe5260f65ebb619b167325491b0">DftStatus</a> { <br />
+&#160;&#160;<a class="el" href="#aaec3efe5260f65ebb619b167325491b0a871405a91bd6030ebfb92297bf941075">DFT_SUCCESS</a> = 0
+, <a class="el" href="#aaec3efe5260f65ebb619b167325491b0a80edf0553611453036934fe452b37b0b">DFT_ERROR</a> = -1
+, <a class="el" href="#aaec3efe5260f65ebb619b167325491b0a2132a3fa70021cd9bb6ccb9f11739b65">DFT_INVALID_PARAM</a> = -2
+, <a class="el" href="#aaec3efe5260f65ebb619b167325491b0a877e5c59fa7c37731680492c28f7ec0c">DFT_MEMORY_ERROR</a> = -100
+, <br />
+&#160;&#160;<a class="el" href="#aaec3efe5260f65ebb619b167325491b0a7aa52ad05e8f0b9fb2382c75b73f0e36">DFT_XML_ERROR</a> = -2000
+, <a class="el" href="#aaec3efe5260f65ebb619b167325491b0af56a5f66f706e761c862914b77b40139">DFT_XML_PARSE_ERROR</a> = -2001
+, <a class="el" href="#aaec3efe5260f65ebb619b167325491b0a7e185c550dbf2e882df7de8e5363bc9a">DFT_XML_DECLARATION_ERROR</a> = -2002
+, <a class="el" href="#aaec3efe5260f65ebb619b167325491b0ae81e02913a6f4275a23e0fd93ef9251e">DFT_XML_NODE_ERROR</a> = -2010
+, <br />
+&#160;&#160;<a class="el" href="#aaec3efe5260f65ebb619b167325491b0a6f8cc076f84707a544a02dae90c4d4e0">DFT_XML_NODE_NAME_ERROR</a> = -2011
+, <a class="el" href="#aaec3efe5260f65ebb619b167325491b0afc4ee6b56f9397a7a49520565f06e035">DFT_XML_NODE_NAME_BOUNDS_ERROR</a> = -2012
+, <a class="el" href="#aaec3efe5260f65ebb619b167325491b0aeeac01346bc15588f396d99c9883288b">DFT_XML_NODE_ATTRIBUTE_NOTEXIST_ERROR</a> = -2013
+, <a class="el" href="#aaec3efe5260f65ebb619b167325491b0a94a9a4d82f942887dc37d3a4f628f1be">DFT_XML_NODE_CREATE_ERROR</a> = -2014
+, <br />
+&#160;&#160;<a class="el" href="#aaec3efe5260f65ebb619b167325491b0a1bbd2b2a428aff9315a2309e8dddac30">DFT_XML_NODE_NOTEXIST_ERROR</a> = -2015
+, <a class="el" href="#aaec3efe5260f65ebb619b167325491b0a09002b90af0c683382fa247349f37796">DFT_XML_SAVE_ERROR</a> = -2020
+, <a class="el" href="#aaec3efe5260f65ebb619b167325491b0a5e9543246266133e38b51abf085e7c68">DFT_LZMA_NEEDS_MORE_MEMORY</a> = -3000
+<br />
+ }</td></tr>
+<tr class="memdesc:aaec3efe5260f65ebb619b167325491b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">状态码  <a href="#aaec3efe5260f65ebb619b167325491b0">更多...</a><br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>概述：状态码定义 </p>
+<dl class="section author"><dt>作者</dt><dd></dd></dl>
+<dl class="section version"><dt>版本</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>日期</dt><dd></dd></dl>
+<p>详细说明 </p>
+</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">枚举类型说明</h2>
+<a id="aaec3efe5260f65ebb619b167325491b0" name="aaec3efe5260f65ebb619b167325491b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaec3efe5260f65ebb619b167325491b0">&#9670;&#160;</a></span>DftStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#aaec3efe5260f65ebb619b167325491b0">DftStatus</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>状态码 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0a871405a91bd6030ebfb92297bf941075" name="aaec3efe5260f65ebb619b167325491b0a871405a91bd6030ebfb92297bf941075"></a>DFT_SUCCESS&#160;</td><td class="fielddoc"><p>No error </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0a80edf0553611453036934fe452b37b0b" name="aaec3efe5260f65ebb619b167325491b0a80edf0553611453036934fe452b37b0b"></a>DFT_ERROR&#160;</td><td class="fielddoc"><p>General error </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0a2132a3fa70021cd9bb6ccb9f11739b65" name="aaec3efe5260f65ebb619b167325491b0a2132a3fa70021cd9bb6ccb9f11739b65"></a>DFT_INVALID_PARAM&#160;</td><td class="fielddoc"><p>Invalid parameter </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0a877e5c59fa7c37731680492c28f7ec0c" name="aaec3efe5260f65ebb619b167325491b0a877e5c59fa7c37731680492c28f7ec0c"></a>DFT_MEMORY_ERROR&#160;</td><td class="fielddoc"><p>Memory error </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0a7aa52ad05e8f0b9fb2382c75b73f0e36" name="aaec3efe5260f65ebb619b167325491b0a7aa52ad05e8f0b9fb2382c75b73f0e36"></a>DFT_XML_ERROR&#160;</td><td class="fielddoc"><p>XML一般错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0af56a5f66f706e761c862914b77b40139" name="aaec3efe5260f65ebb619b167325491b0af56a5f66f706e761c862914b77b40139"></a>DFT_XML_PARSE_ERROR&#160;</td><td class="fielddoc"><p>解析XML文件失败 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0a7e185c550dbf2e882df7de8e5363bc9a" name="aaec3efe5260f65ebb619b167325491b0a7e185c550dbf2e882df7de8e5363bc9a"></a>DFT_XML_DECLARATION_ERROR&#160;</td><td class="fielddoc"><p>XML声明不存在 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0ae81e02913a6f4275a23e0fd93ef9251e" name="aaec3efe5260f65ebb619b167325491b0ae81e02913a6f4275a23e0fd93ef9251e"></a>DFT_XML_NODE_ERROR&#160;</td><td class="fielddoc"><p>XML节点错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0a6f8cc076f84707a544a02dae90c4d4e0" name="aaec3efe5260f65ebb619b167325491b0a6f8cc076f84707a544a02dae90c4d4e0"></a>DFT_XML_NODE_NAME_ERROR&#160;</td><td class="fielddoc"><p>XML节点名错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0afc4ee6b56f9397a7a49520565f06e035" name="aaec3efe5260f65ebb619b167325491b0afc4ee6b56f9397a7a49520565f06e035"></a>DFT_XML_NODE_NAME_BOUNDS_ERROR&#160;</td><td class="fielddoc"><p>XML节点命名数组越界 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0aeeac01346bc15588f396d99c9883288b" name="aaec3efe5260f65ebb619b167325491b0aeeac01346bc15588f396d99c9883288b"></a>DFT_XML_NODE_ATTRIBUTE_NOTEXIST_ERROR&#160;</td><td class="fielddoc"><p>XML节点属性不存在 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0a94a9a4d82f942887dc37d3a4f628f1be" name="aaec3efe5260f65ebb619b167325491b0a94a9a4d82f942887dc37d3a4f628f1be"></a>DFT_XML_NODE_CREATE_ERROR&#160;</td><td class="fielddoc"><p>创建XML节点失败 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0a1bbd2b2a428aff9315a2309e8dddac30" name="aaec3efe5260f65ebb619b167325491b0a1bbd2b2a428aff9315a2309e8dddac30"></a>DFT_XML_NODE_NOTEXIST_ERROR&#160;</td><td class="fielddoc"><p>XML节点不存在 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0a09002b90af0c683382fa247349f37796" name="aaec3efe5260f65ebb619b167325491b0a09002b90af0c683382fa247349f37796"></a>DFT_XML_SAVE_ERROR&#160;</td><td class="fielddoc"><p>保存XML文件失败 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaec3efe5260f65ebb619b167325491b0a5e9543246266133e38b51abf085e7c68" name="aaec3efe5260f65ebb619b167325491b0a5e9543246266133e38b51abf085e7c68"></a>DFT_LZMA_NEEDS_MORE_MEMORY&#160;</td><td class="fielddoc"><p>需要更多的内存 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_88cccc9d439318285f6d519044a748d2.html">DftBase</a></li><li class="navelem"><a href="_dft_status_8h.html">DftStatus.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

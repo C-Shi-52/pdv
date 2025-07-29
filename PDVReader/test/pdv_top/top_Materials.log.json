@@ -1,0 +1,122 @@
+{
+	"materials(size = 6)":	{
+		"materials[0]":	{
+			"_id":	"251546253433257985",
+			"_name":	"导出材质_node_0",
+			"_type":	2,
+			"_transparency":	114,
+			"_PhongData":	{
+				"_bitMask":	0,
+				"_diffuse":	[255, 255, 0],
+				"_ambient":	[255, 255, 255],
+				"_specular":	[255, 255, 255],
+				"_emissive":	[0, 0, 0],
+				"_emissiveIntensity":	1,
+				"_power":	20,
+				"_textureID":	"(invalid)",
+				"_normalTextureID":	"(invalid)"
+			},
+			"_refGeomType":	3,
+			"_opacityEnabled":	1,
+			"_renderSide":	3,
+			"_refCount":	1
+		},
+		"materials[1]":	{
+			"_id":	"251546253781385217",
+			"_name":	"导出材质_surface_1",
+			"_type":	2,
+			"_transparency":	255,
+			"_PhongData":	{
+				"_bitMask":	0,
+				"_diffuse":	[255, 0, 0],
+				"_ambient":	[255, 255, 255],
+				"_specular":	[255, 255, 255],
+				"_emissive":	[0, 0, 0],
+				"_emissiveIntensity":	1,
+				"_power":	20,
+				"_textureID":	"(invalid)",
+				"_normalTextureID":	"(invalid)"
+			},
+			"_refGeomType":	3,
+			"_opacityEnabled":	0,
+			"_renderSide":	1,
+			"_refCount":	1
+		},
+		"materials[2]":	{
+			"_id":	"251546253789773824",
+			"_name":	"导出材质_curve_2",
+			"_type":	1,
+			"_transparency":	255,
+			"_RGBData":	{
+				"_color":	[102, 102, 102]
+			},
+			"_refGeomType":	2,
+			"_opacityEnabled":	0,
+			"_renderSide":	1,
+			"_refCount":	3
+		},
+		"materials[3]":	{
+			"_id":	"251546254100152400",
+			"_name":	"导出材质_surface_3",
+			"_type":	2,
+			"_transparency":	114,
+			"_PhongData":	{
+				"_bitMask":	0,
+				"_diffuse":	[255, 0, 0],
+				"_ambient":	[255, 255, 255],
+				"_specular":	[255, 255, 255],
+				"_emissive":	[0, 0, 0],
+				"_emissiveIntensity":	1,
+				"_power":	20,
+				"_textureID":	"(invalid)",
+				"_normalTextureID":	"(invalid)"
+			},
+			"_refGeomType":	3,
+			"_opacityEnabled":	1,
+			"_renderSide":	3,
+			"_refCount":	1
+		},
+		"materials[4]":	{
+			"_id":	"251546254112735233",
+			"_name":	"导出材质_node_4",
+			"_type":	2,
+			"_transparency":	102,
+			"_PhongData":	{
+				"_bitMask":	0,
+				"_diffuse":	[0, 0, 255],
+				"_ambient":	[255, 255, 255],
+				"_specular":	[255, 255, 255],
+				"_emissive":	[0, 0, 0],
+				"_emissiveIntensity":	1,
+				"_power":	20,
+				"_textureID":	"(invalid)",
+				"_normalTextureID":	"(invalid)"
+			},
+			"_refGeomType":	3,
+			"_opacityEnabled":	1,
+			"_renderSide":	3,
+			"_refCount":	1
+		},
+		"materials[5]":	{
+			"_id":	"251546254150483969",
+			"_name":	"导出材质_surface_5",
+			"_type":	2,
+			"_transparency":	255,
+			"_PhongData":	{
+				"_bitMask":	0,
+				"_diffuse":	[0, 0, 255],
+				"_ambient":	[255, 255, 255],
+				"_specular":	[255, 255, 255],
+				"_emissive":	[0, 0, 0],
+				"_emissiveIntensity":	1,
+				"_power":	20,
+				"_textureID":	"(invalid)",
+				"_normalTextureID":	"(invalid)"
+			},
+			"_refGeomType":	3,
+			"_opacityEnabled":	0,
+			"_renderSide":	1,
+			"_refCount":	1
+		}
+	}
+}

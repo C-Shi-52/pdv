@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIRenderBody.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_render_body_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIRenderBody.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_render_body_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIRENDERBODY_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIRENDERBODY_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="_p_d_v_i_render_body_8h.html#a795ac7c463c84841b23a656e23121d67">   21</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_render_body_8h.html#a795ac7c463c84841b23a656e23121d67">RenderBodyBitMask</a></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="_p_d_v_i_render_body_8h.html#a795ac7c463c84841b23a656e23121d67a0fda01dc3d7c10121de9f91e80f9ce3a">   23</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_render_body_8h.html#a795ac7c463c84841b23a656e23121d67a0fda01dc3d7c10121de9f91e80f9ce3a">RENDER_BODY_MASK_BREP</a> = 0x0001,   </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_p_d_v_i_render_body_8h.html#a795ac7c463c84841b23a656e23121d67a1374305aebe45cd6ca72a4820b01bdb7">   24</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_render_body_8h.html#a795ac7c463c84841b23a656e23121d67a1374305aebe45cd6ca72a4820b01bdb7">RENDER_BODY_MASK_SUBSET</a> = 0x0002, </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_d_v_i_render_body_8h.html#a795ac7c463c84841b23a656e23121d67a3ad92083554bfd758ae82040ad2fa462">   25</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_render_body_8h.html#a795ac7c463c84841b23a656e23121d67a3ad92083554bfd758ae82040ad2fa462">RENDER_BODY_MASK_MATRIX</a> = 0x0004  </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>};</div>
+</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
+<div class="foldopen" id="foldopen00029" data-start="{" data-end="};">
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html">   29</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_render_body.html">IRenderBody</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>{</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a4942a3887c26dd548f42c0f633a7abfa">   38</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a4942a3887c26dd548f42c0f633a7abfa">GetBitMask</a>() = 0;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a0b44560ab00abf3540ea9a27ea227a53">   46</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a0b44560ab00abf3540ea9a27ea227a53">SetBitMask</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iBitMask) = 0;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#ae075987c6b1d7772b1f1bb47ed104455">   54</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#ae075987c6b1d7772b1f1bb47ed104455">GetName</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oName) = 0;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#aee4bd42f2553303d70416e8005b07c34">   62</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#aee4bd42f2553303d70416e8005b07c34">SetName</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iName) = 0;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a78b57397d8e71ece34fd33f74867c32d">   70</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a78b57397d8e71ece34fd33f74867c32d">GetPointMeshIDs</a>(std::vector&lt;DftUInt64&gt; &amp;oPointMeshIDs) = 0;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a85341330e9b69cee2c79141c2e7b92be">   78</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a85341330e9b69cee2c79141c2e7b92be">SetPointMeshIDs</a>(<span class="keyword">const</span> std::vector&lt;DftUInt64&gt; &amp;iPointMeshIDs) = 0;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a524f6c386a7af235498e3819935095c9">   86</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a524f6c386a7af235498e3819935095c9">GetLineMeshIDs</a>(std::vector&lt;DftUInt64&gt; &amp;oLineMeshIDs) = 0;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a6d470cc8eaf136bc0d45cacc7d00e86c">   94</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a6d470cc8eaf136bc0d45cacc7d00e86c">SetLineMeshIDs</a>(<span class="keyword">const</span> std::vector&lt;DftUInt64&gt; &amp;iLineMeshIDs) = 0;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a3ea876b056359b08feaf76be18802371">  102</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a3ea876b056359b08feaf76be18802371">GetFaceMeshIDs</a>(std::vector&lt;DftUInt64&gt; &amp;oFaceMeshIDs)= 0;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a49bcc9b879cda34f2102c5d4e6d65042">  110</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a49bcc9b879cda34f2102c5d4e6d65042">SetFaceMeshIDs</a>(<span class="keyword">const</span> std::vector&lt;DftUInt64&gt; &amp;iFaceMeshIDs) = 0;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a15033d7cb6d80d9307796ef138cd3dce">  117</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a15033d7cb6d80d9307796ef138cd3dce">GetBrepID</a>() = 0;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#aede75c69ed7e4b8e571b20fd4ba0c163">  125</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#aede75c69ed7e4b8e571b20fd4ba0c163">SetBrepID</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iBrepID) = 0;</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#aecf1c1862f718fb63ad0d2759110d01b">  132</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#aecf1c1862f718fb63ad0d2759110d01b">GetRenderBodySubsetID</a>() = 0;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span></div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a53edc9bebd3a94e1a480501889692882">  140</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a53edc9bebd3a94e1a480501889692882">SetRenderBodySubsetID</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iRenderBodySubsetID) = 0;</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a0c9fc1c8b2cdbcfd85b249ae4f1cbf25">  148</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a0c9fc1c8b2cdbcfd85b249ae4f1cbf25">GetStatistics</a>(<a class="code hl_struct" href="structkernel_1_1pdv_1_1_statistics.html">Statistics</a> &amp;oStatistics) = 0;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span></div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a4650b98e83939007c83657ab07ff3446">  155</a></span>    <span class="keyword">virtual</span> <a class="code hl_struct" href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a4650b98e83939007c83657ab07ff3446">GetMatrix</a>() = 0;</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span></div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#a35e025cd0f37fe191b25f9b71520c235">  163</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#a35e025cd0f37fe191b25f9b71520c235">SetMatrix</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a> &amp;iMatrix) = 0;</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span></div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_render_body.html#aac1c6decad5dbcd0fd7682821c4b25af">  171</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_render_body.html#aac1c6decad5dbcd0fd7682821c4b25af">GetBox</a>(<a class="code hl_struct" href="structkernel_1_1pdv_1_1_oriented_bounding_box.html">OrientedBoundingBox</a>&amp; oBox) = 0;</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>};</div>
+</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a053d8ce6a85300520cc14cd4650ced33"><div class="ttname"><a href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></div><div class="ttdeci">unsigned long long DftUInt64</div><div class="ttdoc">64位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:64</div></div>
+<div class="ttc" id="a_dft_types_8h_html_ab3a04804b0cf7c050b58e7e7807455d6"><div class="ttname"><a href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></div><div class="ttdeci">unsigned char DftUInt8</div><div class="ttdoc">8位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:52</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="a_p_d_v_i_render_body_8h_html_a795ac7c463c84841b23a656e23121d67"><div class="ttname"><a href="_p_d_v_i_render_body_8h.html#a795ac7c463c84841b23a656e23121d67">kernel::pdv::RenderBodyBitMask</a></div><div class="ttdeci">RenderBodyBitMask</div><div class="ttdef"><b>定义</b> PDVIRenderBody.h:22</div></div>
+<div class="ttc" id="a_p_d_v_i_render_body_8h_html_a795ac7c463c84841b23a656e23121d67a0fda01dc3d7c10121de9f91e80f9ce3a"><div class="ttname"><a href="_p_d_v_i_render_body_8h.html#a795ac7c463c84841b23a656e23121d67a0fda01dc3d7c10121de9f91e80f9ce3a">kernel::pdv::RENDER_BODY_MASK_BREP</a></div><div class="ttdeci">@ RENDER_BODY_MASK_BREP</div><div class="ttdoc">是否关联几何拓扑数据</div><div class="ttdef"><b>定义</b> PDVIRenderBody.h:23</div></div>
+<div class="ttc" id="a_p_d_v_i_render_body_8h_html_a795ac7c463c84841b23a656e23121d67a1374305aebe45cd6ca72a4820b01bdb7"><div class="ttname"><a href="_p_d_v_i_render_body_8h.html#a795ac7c463c84841b23a656e23121d67a1374305aebe45cd6ca72a4820b01bdb7">kernel::pdv::RENDER_BODY_MASK_SUBSET</a></div><div class="ttdeci">@ RENDER_BODY_MASK_SUBSET</div><div class="ttdoc">是否关联渲染主体子集数据</div><div class="ttdef"><b>定义</b> PDVIRenderBody.h:24</div></div>
+<div class="ttc" id="a_p_d_v_i_render_body_8h_html_a795ac7c463c84841b23a656e23121d67a3ad92083554bfd758ae82040ad2fa462"><div class="ttname"><a href="_p_d_v_i_render_body_8h.html#a795ac7c463c84841b23a656e23121d67a3ad92083554bfd758ae82040ad2fa462">kernel::pdv::RENDER_BODY_MASK_MATRIX</a></div><div class="ttdeci">@ RENDER_BODY_MASK_MATRIX</div><div class="ttdoc">是否包含局部坐标系矩阵数据</div><div class="ttdef"><b>定义</b> PDVIRenderBody.h:25</div></div>
+<div class="ttc" id="aclass_c_unicode_string_html"><div class="ttname"><a href="class_c_unicode_string.html">CUnicodeString</a></div><div class="ttdoc">Unicode字符操作接口</div><div class="ttdef"><b>定义</b> UnicodeString.h:80</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html">kernel::pdv::IRenderBody</a></div><div class="ttdoc">渲染主体的接口</div><div class="ttdef"><b>定义</b> PDVIRenderBody.h:30</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a0b44560ab00abf3540ea9a27ea227a53"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a0b44560ab00abf3540ea9a27ea227a53">kernel::pdv::IRenderBody::SetBitMask</a></div><div class="ttdeci">virtual PDV_RESULT SetBitMask(const DftUInt8 &amp;iBitMask)=0</div><div class="ttdoc">设置标识位</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a0c9fc1c8b2cdbcfd85b249ae4f1cbf25"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a0c9fc1c8b2cdbcfd85b249ae4f1cbf25">kernel::pdv::IRenderBody::GetStatistics</a></div><div class="ttdeci">virtual PDV_RESULT GetStatistics(Statistics &amp;oStatistics)=0</div><div class="ttdoc">获取关统计信息</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a15033d7cb6d80d9307796ef138cd3dce"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a15033d7cb6d80d9307796ef138cd3dce">kernel::pdv::IRenderBody::GetBrepID</a></div><div class="ttdeci">virtual DftUInt64 GetBrepID()=0</div><div class="ttdoc">获取关联的几何拓扑对象ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a35e025cd0f37fe191b25f9b71520c235"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a35e025cd0f37fe191b25f9b71520c235">kernel::pdv::IRenderBody::SetMatrix</a></div><div class="ttdeci">virtual PDV_RESULT SetMatrix(const PDVMatrix4F &amp;iMatrix)=0</div><div class="ttdoc">设置关联的局部坐标系矩阵</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a3ea876b056359b08feaf76be18802371"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a3ea876b056359b08feaf76be18802371">kernel::pdv::IRenderBody::GetFaceMeshIDs</a></div><div class="ttdeci">virtual PDV_RESULT GetFaceMeshIDs(std::vector&lt; DftUInt64 &gt; &amp;oFaceMeshIDs)=0</div><div class="ttdoc">获取面网格对象列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a4650b98e83939007c83657ab07ff3446"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a4650b98e83939007c83657ab07ff3446">kernel::pdv::IRenderBody::GetMatrix</a></div><div class="ttdeci">virtual PDVMatrix4F GetMatrix()=0</div><div class="ttdoc">获取关联的局部坐标系矩阵</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a4942a3887c26dd548f42c0f633a7abfa"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a4942a3887c26dd548f42c0f633a7abfa">kernel::pdv::IRenderBody::GetBitMask</a></div><div class="ttdeci">virtual DftUInt8 GetBitMask()=0</div><div class="ttdoc">获取标识位</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a49bcc9b879cda34f2102c5d4e6d65042"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a49bcc9b879cda34f2102c5d4e6d65042">kernel::pdv::IRenderBody::SetFaceMeshIDs</a></div><div class="ttdeci">virtual PDV_RESULT SetFaceMeshIDs(const std::vector&lt; DftUInt64 &gt; &amp;iFaceMeshIDs)=0</div><div class="ttdoc">设置面网格对象列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a524f6c386a7af235498e3819935095c9"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a524f6c386a7af235498e3819935095c9">kernel::pdv::IRenderBody::GetLineMeshIDs</a></div><div class="ttdeci">virtual PDV_RESULT GetLineMeshIDs(std::vector&lt; DftUInt64 &gt; &amp;oLineMeshIDs)=0</div><div class="ttdoc">获取线网格对象列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a53edc9bebd3a94e1a480501889692882"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a53edc9bebd3a94e1a480501889692882">kernel::pdv::IRenderBody::SetRenderBodySubsetID</a></div><div class="ttdeci">virtual PDV_RESULT SetRenderBodySubsetID(const DftUInt64 &amp;iRenderBodySubsetID)=0</div><div class="ttdoc">设置关联的渲染主体子集对象ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a6d470cc8eaf136bc0d45cacc7d00e86c"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a6d470cc8eaf136bc0d45cacc7d00e86c">kernel::pdv::IRenderBody::SetLineMeshIDs</a></div><div class="ttdeci">virtual PDV_RESULT SetLineMeshIDs(const std::vector&lt; DftUInt64 &gt; &amp;iLineMeshIDs)=0</div><div class="ttdoc">设置线网格对象列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a78b57397d8e71ece34fd33f74867c32d"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a78b57397d8e71ece34fd33f74867c32d">kernel::pdv::IRenderBody::GetPointMeshIDs</a></div><div class="ttdeci">virtual PDV_RESULT GetPointMeshIDs(std::vector&lt; DftUInt64 &gt; &amp;oPointMeshIDs)=0</div><div class="ttdoc">获取点网格对象列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_a85341330e9b69cee2c79141c2e7b92be"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#a85341330e9b69cee2c79141c2e7b92be">kernel::pdv::IRenderBody::SetPointMeshIDs</a></div><div class="ttdeci">virtual PDV_RESULT SetPointMeshIDs(const std::vector&lt; DftUInt64 &gt; &amp;iPointMeshIDs)=0</div><div class="ttdoc">设置点网格对象列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_aac1c6decad5dbcd0fd7682821c4b25af"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#aac1c6decad5dbcd0fd7682821c4b25af">kernel::pdv::IRenderBody::GetBox</a></div><div class="ttdeci">virtual PDV_RESULT GetBox(OrientedBoundingBox &amp;oBox)=0</div><div class="ttdoc">获取有向包围盒</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_ae075987c6b1d7772b1f1bb47ed104455"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#ae075987c6b1d7772b1f1bb47ed104455">kernel::pdv::IRenderBody::GetName</a></div><div class="ttdeci">virtual PDV_RESULT GetName(CUnicodeString &amp;oName)=0</div><div class="ttdoc">获取名称</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_aecf1c1862f718fb63ad0d2759110d01b"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#aecf1c1862f718fb63ad0d2759110d01b">kernel::pdv::IRenderBody::GetRenderBodySubsetID</a></div><div class="ttdeci">virtual DftUInt64 GetRenderBodySubsetID()=0</div><div class="ttdoc">获取关联的渲染主体子集对象ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_aede75c69ed7e4b8e571b20fd4ba0c163"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#aede75c69ed7e4b8e571b20fd4ba0c163">kernel::pdv::IRenderBody::SetBrepID</a></div><div class="ttdeci">virtual PDV_RESULT SetBrepID(const DftUInt64 &amp;iBrepID)=0</div><div class="ttdoc">设置关联的几何拓扑对象ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html_aee4bd42f2553303d70416e8005b07c34"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html#aee4bd42f2553303d70416e8005b07c34">kernel::pdv::IRenderBody::SetName</a></div><div class="ttdeci">virtual PDV_RESULT SetName(const CUnicodeString &amp;iName)=0</div><div class="ttdoc">设置名称</div></div>
+<div class="ttc" id="astruct_p_d_v_matrix4_f_html"><div class="ttname"><a href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a></div><div class="ttdoc">单精度浮点数4X4矩阵</div><div class="ttdef"><b>定义</b> PDVMath.h:781</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_oriented_bounding_box_html"><div class="ttname"><a href="structkernel_1_1pdv_1_1_oriented_bounding_box.html">kernel::pdv::OrientedBoundingBox</a></div><div class="ttdoc">有向外包盒</div><div class="ttdef"><b>定义</b> PDVBase.h:573</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_statistics_html"><div class="ttname"><a href="structkernel_1_1pdv_1_1_statistics.html">kernel::pdv::Statistics</a></div><div class="ttdoc">模型统计信息</div><div class="ttdef"><b>定义</b> PDVBase.h:513</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_render_body_8h.html">PDVIRenderBody.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,914 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVBase.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_base_8h.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVBase.h 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>概述：pdv的基本数据定义  
+<a href="#details">更多...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="_dft_base_8h_source.html">DftBase.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_dft_json_8h_source.html">DftJson.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_unicode_string_8h_source.html">UnicodeString.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_types_8h_source.html">PDVTypes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_d_v_math_8h_source.html">PDVMath.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_dft_math_8h_source.html">DftMath.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_dft_file_o_s_8h_source.html">DftFileOS.h</a>&quot;</code><br />
+</div>
+<p><a href="_p_d_v_base_8h_source.html">浏览该文件的源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+结构体</h2></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3ARGBColor" id="r_kernel_3A_3Apdv_3A_3ARGBColor"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1_r_g_b_color.html">kernel::pdv::RGBColor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">颜色数据  <a href="structkernel_1_1pdv_1_1_r_g_b_color.html#details">更多...</a><br /></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3ABoundingBox" id="r_kernel_3A_3Apdv_3A_3ABoundingBox"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1_bounding_box.html">kernel::pdv::BoundingBox</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">立方体包围盒  <a href="structkernel_1_1pdv_1_1_bounding_box.html#details">更多...</a><br /></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3APlaneData" id="r_kernel_3A_3Apdv_3A_3APlaneData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1_plane_data.html">kernel::pdv::PlaneData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">平面  <a href="structkernel_1_1pdv_1_1_plane_data.html#details">更多...</a><br /></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3AStatistics" id="r_kernel_3A_3Apdv_3A_3AStatistics"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1_statistics.html">kernel::pdv::Statistics</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">模型统计信息  <a href="structkernel_1_1pdv_1_1_statistics.html#details">更多...</a><br /></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3AOrientedBoundingBox" id="r_kernel_3A_3Apdv_3A_3AOrientedBoundingBox"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1_oriented_bounding_box.html">kernel::pdv::OrientedBoundingBox</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">有向外包盒  <a href="structkernel_1_1pdv_1_1_oriented_bounding_box.html#details">更多...</a><br /></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3ABoundingSphere" id="r_kernel_3A_3Apdv_3A_3ABoundingSphere"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1_bounding_sphere.html">kernel::pdv::BoundingSphere</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">外包球  <a href="structkernel_1_1pdv_1_1_bounding_sphere.html#details">更多...</a><br /></td></tr>
+<tr class="memitem:kernel_3A_3Apdv_3A_3ABoundingVolume" id="r_kernel_3A_3Apdv_3A_3ABoundingVolume"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkernel_1_1pdv_1_1_bounding_volume.html">kernel::pdv::BoundingVolume</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">外包区域  <a href="structkernel_1_1pdv_1_1_bounding_volume.html#details">更多...</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:adfe005d314d763db4a8bf93c37bdc7a8" id="r_adfe005d314d763db4a8bf93c37bdc7a8"><td class="memItemLeft" align="right" valign="top"><a id="adfe005d314d763db4a8bf93c37bdc7a8" name="adfe005d314d763db4a8bf93c37bdc7a8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PDVCORE_API</b></td></tr>
+<tr class="memitem:afb6770f16818726a550ce8c5ed632e14" id="r_afb6770f16818726a550ce8c5ed632e14"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb6770f16818726a550ce8c5ed632e14">PDV_SUCCEEDED</a>(res)</td></tr>
+<tr class="memdesc:afb6770f16818726a550ce8c5ed632e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数返回结果是否成功  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+枚举</h2></td></tr>
+<tr class="memitem:aa642ea7f62d6891a6576c9322054e62d" id="r_aa642ea7f62d6891a6576c9322054e62d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a> { <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7">kernel::pdv::PDV_RESULT_NO_ERROR</a> = 0
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da38d22f09afb9d1a16f65ac8ad00f29aa">kernel::pdv::PDV_RESULT_GENERAL_ERROR</a> = 1
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da44a93ec5e0c9262f4fe0a22b00b6df54">kernel::pdv::PDV_RESULT_INITIAL_ERROR</a> = 2
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da060583998cdf36c7ade96258109b8e7d">kernel::pdv::PDV_RESULT_INPUT_ERROR</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62daf8d5712ce8794257efadaf6278f4df1f">kernel::pdv::PDV_RESULT_SCENE_ERROR</a> = 100
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da7a2d08e56b4943750a75115443f90cd3">kernel::pdv::PDV_RESULT_MODELTREE_ERROR</a> = 200
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da140ec43f36e2e1dec0de47d5a75ac396">kernel::pdv::PDV_RESULT_MODELTREENODE_NO_MODEL</a> = 201
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da9eb3953b5625ad0d1159f4057f4d4d76">kernel::pdv::PDV_RESULT_MODELTREENODE_NO_LOCAL_TRANSFORM</a> = 202
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62da95a88739a28ebad364e10027bd6ed9ba">kernel::pdv::PDV_RESULT_MODELTREENODE_NO_ATTRIBUTE</a> = 203
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da82e7fdd37a6bca8bf1508b95661166eb">kernel::pdv::PDV_RESULT_MODELTREENODE_NO_MATERIAL</a> = 204
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da1b48e2660e5acbd337d00503c8a49e1e">kernel::pdv::PDV_RESULT_MODELTREENODE_NO_ANNOTATION</a> = 205
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62daf2a89364c897e13ce128b97198cfc13f">kernel::pdv::PDV_RESULT_MODELTREENODE_NO_WORLD_TRANSFORM</a> = 206
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62dad8705f5a7ec017207d3cab94bd619978">kernel::pdv::PDV_RESULT_MODELTREENODE_NO_EXTERNAL_PDV</a> = 207
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62daf65292ec54a813618af0470eccf9b435">kernel::pdv::PDV_RESULT_MODELTREENODE_NO_EXTENDINFO</a> = 208
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da601d1e35cb60148809a20f1baa29a711">kernel::pdv::PDV_RESULT_MODEL_ERROR</a> = 300
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da79e4c8fda4712245d2acf5a35c227d82">kernel::pdv::PDV_RESULT_MODEL_NO_PROPERTY</a> = 301
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62da6f83a6f0a758eaec44b295c0e3bf93b4">kernel::pdv::PDV_RESULT_MODEL_NO_MESH</a> = 302
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da7035cba798659055b4b5f2534d97f85c">kernel::pdv::PDV_RESULT_MODEL_NO_PRIMITY</a> = 303
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da5580e72e73f311771dafc9a0b1137a85">kernel::pdv::PDV_RESULT_MODEL_NO_TOPO</a> = 304
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da2778db5cf337b92c7573de43b0ee12b9">kernel::pdv::PDV_RESULT_MODEL_NO_ANNOTATION</a> = 305
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62dafa6a3ea607de05f9ab5d161e35471820">kernel::pdv::PDV_RESULT_MODEL_NO_ATTRIBUTE</a> = 306
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da3690c4a92a96402616dd475f95630d51">kernel::pdv::PDV_RESULT_MODEL_NO_EXTENDINFO</a> = 307
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da4a1b4aff11c7f644e5989f9034b0752e">kernel::pdv::PDV_RESULT_MESH_ERROR</a> = 400
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da29fe45db7b2f44486e713349fce77a89">kernel::pdv::PDV_RESULT_MESH_NO_PRIMCOLLECTION</a> = 401
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62da449c15ca3f84521673db8e85eb53901c">kernel::pdv::PDV_RESULT_MESH_NO_MASS_PROPERTY</a> = 402
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da21e7df7c3cdac2f32075c2744d17c0d2">kernel::pdv::PDV_RESULT_MESH_NO_MATERIAL</a> = 403
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da6a9205bf05f4e459d5f698fb4fdb4896">kernel::pdv::PDV_RESULT_MESHPRIMCOLLECTION_NO_MATERIAL</a> = 404
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62dada79fc97bc79907f42aebce9dba58d56">kernel::pdv::PDV_RESULT_MESHPRIMCOLLECTION_NO_BOUNDINGBOX</a> = 405
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62da64243821860d3a45b1aed5bb7f98875c">kernel::pdv::PDV_RESULT_MESHPRIMCOLLECTION_TYPE_ERROR</a> = 406
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da10a18e9b5e1e6a506f79c703cdfbdb77">kernel::pdv::PDV_RESULT_MESHPRIMCOLLECTION_NO_TOPO</a> = 407
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da0ca2ff188aa7701003866e1bc0099c00">kernel::pdv::PDV_RESULT_LIGHT_WRONGTYPE</a> = 450
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62dabe39c5d1f244237570cffacf47311a82">kernel::pdv::PDV_RESULT_ATTRIBUTE_ERROR</a> = 500
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62dab99dbd02e6cb9a66d26a643ee82a1be5">kernel::pdv::PDV_RESULT_ATTRIBUTE_VALUE_TYPE_ERROR</a> = 501
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da3903633eb07ea6106dcb395d3f9ad17a">kernel::pdv::PDV_RESULT_CAMERA_ERROR</a> = 600
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da92eaf906d3e0c42e64739f3f8f90ed82">kernel::pdv::PDV_RESULT_ANNOTATION_ERROR</a> = 700
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da3dc646b41e796708a6d57c36be96070c">kernel::pdv::PDV_RESULT_ANNOTATIONITEM_TYPE_ERROR</a> = 701
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62dac7425a4dd91ba73e0fef15e5849d91d3">kernel::pdv::PDV_RESULT_REVIEW_ERROR</a> = 800
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da6405c0fc830f3ffcc8cbfe869cf0335c">kernel::pdv::PDV_RESULT_REVIEW_TYPE_ERROR</a> = 801
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da0518238563300ee00c5284d862b80e0f">kernel::pdv::PDV_RESULT_VIEW_ERROR</a> = 900
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da26004a12f3f748f2f4b0801d87bc5850">kernel::pdv::PDV_RESULT_VIEW_BKGTYPE_ERROR</a> = 901
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62da97c95bafb1644ab26341c328e6ccf2ec">kernel::pdv::PDV_RESULT_MATERIAL_ERROR</a> = 1000
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da646a14f256769b084ffc3cd6981f74d5">kernel::pdv::PDV_RESULT_MATERIAL_TYPE_ERROR</a> = 1001
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da7167478868d324c1df0a8a44c349a8cf">kernel::pdv::PDV_RESULT_MATERIAL_NO_COLOR</a> = 1002
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da9bba1fd55f55defe47bf204bd225f20c">kernel::pdv::PDV_RESULT_MATERIAL_NO_TRANSPARENCY</a> = 1003
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62da0d7d305d95e46650c9f811591edaf1c6">kernel::pdv::PDV_RESULT_ANIMATION_ERROR</a> = 1100
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da68d20be1a81cbca335c32ff5d59bac6e">kernel::pdv::PDV_RESULT_ANIMATION_CLIPTYPE_ERROR</a> = 1101
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da11fc8ebab12d587a9e27c6f8f1982a90">kernel::pdv::PDV_RESULT_SCENEEVENT_ERROR</a> = 1200
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62dad4b881e1300ec1801011c775cf424c74">kernel::pdv::PDV_RESULT_RESOURCE_ERROR</a> = 1300
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62da4a9c9ed0b79cc44b1c73cbce18d36a28">kernel::pdv::PDV_RESULT_SECURITY_ERROR</a> = 1400
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62dae23b704b132bfeb9a5f18d79ce65457d">kernel::pdv::PDV_RESULT_SECURITY_NO_ADMINISTRATOR_PASSWORD</a> = 1401
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da59fe04e281c236855de841b7cced298a">kernel::pdv::PDV_RESULT_SECURITY_NO_USER_PASSWORD</a> = 1402
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62da6a2b2977ea3d61a2a40d647b1181442c">kernel::pdv::PDV_RESULT_SECURITY_NO_PERMISSION</a> = 1403
+, <br />
+&#160;&#160;<a class="el" href="#aa642ea7f62d6891a6576c9322054e62dac8b6e0dfca136b796bbc949a863e0362">kernel::pdv::PDV_RESULT_SECURITY_NO_TIME_LIMIT</a> = 1404
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62daee78870611ad1768d0e29cc753026b1c">kernel::pdv::PDV_RESULT_USERDATA_ERROR</a> = 1500
+, <a class="el" href="#aa642ea7f62d6891a6576c9322054e62dac92fe254bb2299dd4cf101e92f6e6ba7">kernel::pdv::PDV_RESULT_EXTERNALLINK_ERROR</a> = 1600
+<br />
+ }</td></tr>
+<tr class="memdesc:aa642ea7f62d6891a6576c9322054e62d"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数返回结果类型  <a href="#aa642ea7f62d6891a6576c9322054e62d">更多...</a><br /></td></tr>
+<tr class="memitem:afe9171640e2d3c7f540d39127a8ac790" id="r_afe9171640e2d3c7f540d39127a8ac790"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe9171640e2d3c7f540d39127a8ac790">kernel::pdv::OBJTYPE_OLD</a> { <br />
+&#160;&#160;<a class="el" href="#afe9171640e2d3c7f540d39127a8ac790ac86391a8aa1e42a1ff93a89b473e69fd">kernel::pdv::OBJTYPE_UNKNOWN_OLD</a> = 0
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790ab63959f29de4ea679cab0e69d5f97a96">kernel::pdv::OBJTYPE_SCENE_OLD</a> = 1
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a4e83d79ed4ddc5972b9feb6f8ca06177">kernel::pdv::OBJTYPE_MODEL_TREE_OLD</a> = 2
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a7a0e20d47fd9a0ad9bd8328a80876424">kernel::pdv::OBJTYPE_MODEL_OLD</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a21dd6749bcedd5c85e472ed27d7b2868">kernel::pdv::OBJTYPE_MESH_OLD</a> = 4
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a73b34e4235f198a8d98c890dd94e1328">kernel::pdv::OBJTYPE_ATTRIBUTE_OLD</a> = 5
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790affbfe2fe1ed48d64369ad790b1787ada">kernel::pdv::OBJTYPE_ANNOTATION_OLD</a> = 6
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a28ef300b7083e490e007fd7905142bde">kernel::pdv::OBJTYPE_REVIEW_OLD</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a556e28b78a9e5d05c26b6f5025140497">kernel::pdv::OBJTYPE_CAMERA_OLD</a> = 8
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a1f1d2a6b9e255b581553b6c32ebd5005">kernel::pdv::OBJTYPE_VIEW_OLD</a> = 9
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790ad084fd2c21f2b60dfaf40b5f2353fbd4">kernel::pdv::OBJTYPE_MATERIAL_OLD</a> = 10
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790aa3bc7a679356e2508a3e00e71805d381">kernel::pdv::OBJTYPE_ANIMATION_OLD</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a043d32651337be3c5cab7a1aba9e145b">kernel::pdv::OBJTYPE_SCENE_EVENT_OLD</a> = 12
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a576902b974be54b03568cd1be9146452">kernel::pdv::OBJTYPE_RESOURCE_OLD</a> = 13
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a31fe928b3fa9c77e7402e4bc00e89e80">kernel::pdv::OBJTYPE_SECURITY_OLD</a> = 14
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a4ad737da96c7b286cf9d32be3aacb2c6">kernel::pdv::OBJTYPE_USER_DATA_OLD</a> = 15
+, <br />
+&#160;&#160;<a class="el" href="#afe9171640e2d3c7f540d39127a8ac790ace9c24fbf363d574c77ebca89308f585">kernel::pdv::OBJTYPE_EXTERNAL_LINK_OLD</a> = 16
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790abb6110615f084fc66c24b39d31b3a4f6">kernel::pdv::OBJTYPE_MODEL_TREE_NODE_OLD</a> = 21
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a5a091fcf992d97b3fab73c68afafb1fd">kernel::pdv::OBJTYPE_LIGHT_OLD</a> = 22
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a25445ae024d0665ee879f38887a903b5">kernel::pdv::OBJTYPE_TEXTURE_OLD</a> = 23
+, <br />
+&#160;&#160;<a class="el" href="#afe9171640e2d3c7f540d39127a8ac790aac19fa1fd280ca432d932a218fd60b31">kernel::pdv::OBJTYPE_PRIMCOLLECTION_OLD</a> = 41
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790ae122d6b6fed898a4428f141c52ba2d06">kernel::pdv::OBJTYPE_POINT_OLD</a> = 42
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790aa5f97ab8edd4525758d8bd4456b7d221">kernel::pdv::OBJTYPE_CURVE_OLD</a> = 43
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a710355e249344372ba58cc142c2304bd">kernel::pdv::OBJTYPE_SURFACE_OLD</a> = 44
+, <br />
+&#160;&#160;<a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a925be5e8c4b864e434cfcba999dea7e4">kernel::pdv::OBJTYPE_TOPO_OLD</a> = 45
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790ab566a302fcc9327f6298e242e83ca289">kernel::pdv::OBJTYPE_BREP_OLD</a> = 46
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790a98886f79b14240279e96ec3a3d48f0a5">kernel::pdv::OBJTYPE_PRIMITY_OLD</a> = 49
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790af0b7c5cef634cd6c46700dbbee107d61">kernel::pdv::OBJTYPE_ATTRIBUTE_GROUP_OLD</a> = 51
+, <br />
+&#160;&#160;<a class="el" href="#afe9171640e2d3c7f540d39127a8ac790ad3b5a036d07da8cd315ccc9de3539c83">kernel::pdv::OBJTYPE_ANNOTATION_ITEM_OLD</a> = 61
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790aef00f45018838dc1c6b27769cf82e932">kernel::pdv::OBJTYPE_ANNOTATION_VIEW_OLD</a> = 62
+, <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790ac615bc46389ce881828599cfc3e7bfd8">kernel::pdv::OBJTYPE_ANNOTATION_GEOMETRY_OLD</a> = 63
+<br />
+ }</td></tr>
+<tr class="memdesc:afe9171640e2d3c7f540d39127a8ac790"><td class="mdescLeft">&#160;</td><td class="mdescRight">文档对象类型  <a href="#afe9171640e2d3c7f540d39127a8ac790">更多...</a><br /></td></tr>
+<tr class="memitem:ae29e9b62b31a4bb36c96472fac351437" id="r_ae29e9b62b31a4bb36c96472fac351437"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae29e9b62b31a4bb36c96472fac351437">kernel::pdv::OBJTYPE</a> { <br />
+&#160;&#160;<a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a7631a843d60ef2d4ec5522092532ecfc">kernel::pdv::OBJTYPE_UNKNOWN</a> = 0
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437ac8b09d6be2988136aa9efc5c6cf0426c">kernel::pdv::OBJTYPE_SCENE</a> = 1
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437ae39a288c1877f952e5468a60e77fc9bf">kernel::pdv::OBJTYPE_MODEL_TREE</a> = 2
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437ae77f7b9135bd8fa2316b6859ca1f84f0">kernel::pdv::OBJTYPE_MODEL</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a8f7c45c8f89965a4160215562dd276e1">kernel::pdv::OBJTYPE_MESH</a> = 4
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437ab71626b2368e647e7d106c929e1f251a">kernel::pdv::OBJTYPE_PRIMITY</a> = 5
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a0ab6811b07b36e604f022fd9bfab6bcd">kernel::pdv::OBJTYPE_BREP</a> = 6
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a6a9e8b52f6fdab57e3737c9631125986">kernel::pdv::OBJTYPE_ATTRIBUTE</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a1742296fd9c967f93005aec9355d67be">kernel::pdv::OBJTYPE_MATERIAL</a> = 8
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a5885298303e22d05a6f5c95ad54b6254">kernel::pdv::OBJTYPE_TEXTURE</a> = 9
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a82cbc99fb3db78a7610622bc8ae8ba9d">kernel::pdv::OBJTYPE_CAMERA</a> = 10
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437ad8a0a5bf40e7cad48ea493cd09a81d46">kernel::pdv::OBJTYPE_LIGHT</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="#ae29e9b62b31a4bb36c96472fac351437abe4e30081a94cb6d9212138eb2e0a7cc">kernel::pdv::OBJTYPE_ANNOTATION</a> = 12
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a1eb33c2a81c25add7c31da46c9aff71e">kernel::pdv::OBJTYPE_REVIEW</a> = 13
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a803bdaae6a2eb145762492d1aed1c987">kernel::pdv::OBJTYPE_VIEW</a> = 14
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437ab4421d56f7f8f940671d4c697551ef0b">kernel::pdv::OBJTYPE_ANIMATION</a> = 15
+, <br />
+&#160;&#160;<a class="el" href="#ae29e9b62b31a4bb36c96472fac351437acd1dc9435145f84d9c35edbeb2083e2b">kernel::pdv::OBJTYPE_RESOURCE</a> = 16
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a5a10fb90f7c1083facfcb7cb02000539">kernel::pdv::OBJTYPE_SECURITY</a> = 17
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437addaaf844a0446c9bd002270de3b62ac2">kernel::pdv::OBJTYPE_EXTERNAL_LINK</a> = 18
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a24c748b645f1294f99161a2f07100996">kernel::pdv::OBJTYPE_USER_DATA</a> = 19
+, <br />
+&#160;&#160;<a class="el" href="#ae29e9b62b31a4bb36c96472fac351437ae86755692014682503a2e43026748194">kernel::pdv::OBJTYPE_MODEL_TREE_NODE</a> = 20
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437aa9d79646bcc5de6d4a591ef477b08873">kernel::pdv::OBJTYPE_PRIMCOLLECTION</a> = 21
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437adccf116e59306e27a9e75ac495e221bb">kernel::pdv::OBJTYPE_POINT</a> = 22
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a21689abd2fcc10771c9dd34d905c87eb">kernel::pdv::OBJTYPE_CURVE</a> = 23
+, <br />
+&#160;&#160;<a class="el" href="#ae29e9b62b31a4bb36c96472fac351437afdde0bb5b179344348eeabfe44ea33c6">kernel::pdv::OBJTYPE_SURFACE</a> = 24
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437af1f3ff2ca53766f27ec813646cbe4421">kernel::pdv::OBJTYPE_TOPO</a> = 25
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a18838c0fe9ac7ba74541947d2fa5f27c">kernel::pdv::OBJTYPE_ATTRIBUTE_GROUP</a> = 26
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437ac7a332c3c431e54dd21fa10385300cff">kernel::pdv::OBJTYPE_ANNOTATION_ITEM</a> = 27
+, <br />
+&#160;&#160;<a class="el" href="#ae29e9b62b31a4bb36c96472fac351437aca3996e676ac3f6e6cb7fd04c10308b2">kernel::pdv::OBJTYPE_ANNOTATION_VIEW</a> = 28
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a924559f5ef90bb22e7564d3e6a5c48f7">kernel::pdv::OBJTYPE_ANNOTATION_GEOMETRY</a> = 29
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437ad172f1fa02387af358c5ac89774a8566">kernel::pdv::OBJTYPE_ANIMATION_CLIP</a> = 30
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a6177ea591038e5f92cff24d903f152b0">kernel::pdv::OBJTYPE_TILE</a> = 50
+, <br />
+&#160;&#160;<a class="el" href="#ae29e9b62b31a4bb36c96472fac351437ab72fff4d75383f2e778f948e5c40ec90">kernel::pdv::OBJTYPE_RESULT_CONFIG</a> = 51
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437aac144440b563842f4dfc34da5440c113">kernel::pdv::OBJTYPE_NODE_SUBSET_MATERIAL</a> = 52
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a8ebf732ee9ffdcd1b03e0a0ec1713b6f">kernel::pdv::OBJTYPE_RENDER_BODY</a> = 53
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a7018f14f295b43415509e93a1be6f4c7">kernel::pdv::OBJTYPE_RENDER_MESH</a> = 54
+, <br />
+&#160;&#160;<a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a85591dd412c76b9e0bdff8bf01b623c8">kernel::pdv::OBJTYPE_BATCHED_MESH</a> = 55
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a4871c03824bda17acc06decc2a38203e">kernel::pdv::OBJTYPE_INSTANCED_MESH</a> = 56
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437ad4539d59bcc6cda0ff89e615541819c6">kernel::pdv::OBJTYPE_RENDER_GEOMETRY</a> = 57
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437afe2d9719f2b4a52e71908abbe85a6609">kernel::pdv::OBJTYPE_RENDER_VERTEX</a> = 58
+, <br />
+&#160;&#160;<a class="el" href="#ae29e9b62b31a4bb36c96472fac351437aabfb73b4d6a714b30f898ad3e7a6beba">kernel::pdv::OBJTYPE_RENDER_BODY_SUBSET</a> = 59
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a636fa7094cc4a5950026cd8209df29de">kernel::pdv::OBJTYPE_ANALYSIS_RESULT</a> = 60
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437a6c2690fae2246e86716a305ec9fa8532">kernel::pdv::OBJTYPE_PHYSICAL_QUANTITY</a> = 61
+, <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437ae5ca527db30a7ba583fa1f1580bb3e91">kernel::pdv::OBJTYPE_REFERENCE_GEOMETRY</a> = 62
+<br />
+ }</td></tr>
+<tr class="memdesc:ae29e9b62b31a4bb36c96472fac351437"><td class="mdescLeft">&#160;</td><td class="mdescRight">对象类型  <a href="#ae29e9b62b31a4bb36c96472fac351437">更多...</a><br /></td></tr>
+<tr class="memitem:a14bcd310036e7126757cf508e5d1f238" id="r_a14bcd310036e7126757cf508e5d1f238"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14bcd310036e7126757cf508e5d1f238">kernel::pdv::PointStyle</a> { <br />
+&#160;&#160;<a class="el" href="#a14bcd310036e7126757cf508e5d1f238abc3818a052528926c02401902275132c">kernel::pdv::POINTSTYLE_NULL</a> = 0
+, <a class="el" href="#a14bcd310036e7126757cf508e5d1f238acc687c5c0d7fc8f4a2a9295b0b031a96">kernel::pdv::POINTSTYLE_SOLID_POINT</a> = 1
+, <a class="el" href="#a14bcd310036e7126757cf508e5d1f238a20fefebee411e2b4ac783af0cdb546f8">kernel::pdv::POINTSTYLE_HOLLOW_POINT</a> = 2
+, <a class="el" href="#a14bcd310036e7126757cf508e5d1f238a4c252c193195ff9d39f5d5a268546af7">kernel::pdv::POINTSTYLE_CROSS_POINT</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="#a14bcd310036e7126757cf508e5d1f238a2ea2530302692e7f0c07adf279f94e09">kernel::pdv::POINTSTYLE_TRIANGLE</a> = 4
+<br />
+ }</td></tr>
+<tr class="memdesc:a14bcd310036e7126757cf508e5d1f238"><td class="mdescLeft">&#160;</td><td class="mdescRight">点类型  <a href="#a14bcd310036e7126757cf508e5d1f238">更多...</a><br /></td></tr>
+<tr class="memitem:aa4a0dfc4806bed135c8d46b80bd8ceff" id="r_aa4a0dfc4806bed135c8d46b80bd8ceff"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4a0dfc4806bed135c8d46b80bd8ceff">kernel::pdv::LineStyle</a> { <br />
+&#160;&#160;<a class="el" href="#aa4a0dfc4806bed135c8d46b80bd8ceffa26f7393f0ed6a66410f725acb4d0c114">kernel::pdv::LINESTYLE_NULL</a> = 0
+, <a class="el" href="#aa4a0dfc4806bed135c8d46b80bd8ceffa1b6855a3c1a51dfa487984bc049a4be4">kernel::pdv::LINESTYLE_THIN_SOLID_LINE</a> = 1
+, <a class="el" href="#aa4a0dfc4806bed135c8d46b80bd8ceffa842ee547d04016e0ba7b98f281f1facb">kernel::pdv::LINESTYLE_THICK_SOLID_LINE</a> = 2
+, <a class="el" href="#aa4a0dfc4806bed135c8d46b80bd8ceffa60e961bd41c0343ad8a9972ac470fffd">kernel::pdv::LINESTYLE_THIN_DASH_LINE</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="#aa4a0dfc4806bed135c8d46b80bd8ceffa5a16e279b8a8e2d111a6c368940ed2cb">kernel::pdv::LINESTYLE_THICK_DASH_LINE</a> = 4
+, <a class="el" href="#aa4a0dfc4806bed135c8d46b80bd8ceffa4c369d9ebe2d6d38f0f30216cf600521">kernel::pdv::LINESTYLE_THIN_DOT_DASH_LINE</a> = 5
+, <a class="el" href="#aa4a0dfc4806bed135c8d46b80bd8ceffaa9e959c82d41f04c081b54d9ec2e492d">kernel::pdv::LINESTYLE_THICK_DOT_DASH_LINE</a> = 6
+, <a class="el" href="#aa4a0dfc4806bed135c8d46b80bd8ceffa736ae2cbb1f000772dfc51606a60ff89">kernel::pdv::LINESTYLE_THIN_DOUBLE_DOT_LINE</a> = 7
+<br />
+ }</td></tr>
+<tr class="memdesc:aa4a0dfc4806bed135c8d46b80bd8ceff"><td class="mdescLeft">&#160;</td><td class="mdescRight">线类型  <a href="#aa4a0dfc4806bed135c8d46b80bd8ceff">更多...</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a67c5cef98847afd868312815aac4bd23" id="r_a67c5cef98847afd868312815aac4bd23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67c5cef98847afd868312815aac4bd23">kernel::pdv::GetPDVCoreVersion</a> ()</td></tr>
+<tr class="memdesc:a67c5cef98847afd868312815aac4bd23"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取PDVCore的版本  <br /></td></tr>
+<tr class="memitem:aedc85e62a84ceab7a14ea68e5506f346" id="r_aedc85e62a84ceab7a14ea68e5506f346"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedc85e62a84ceab7a14ea68e5506f346">kernel::pdv::GetObjectTypeString</a> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iType)</td></tr>
+<tr class="memdesc:aedc85e62a84ceab7a14ea68e5506f346"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取类型的描述  <br /></td></tr>
+<tr class="memitem:a5648a5c0cb4198fa36cc72060b89fd97" id="r_a5648a5c0cb4198fa36cc72060b89fd97"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a5648a5c0cb4198fa36cc72060b89fd97 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5648a5c0cb4198fa36cc72060b89fd97">kernel::pdv::ASSIGN</a> (std::vector&lt; T * &gt; &amp;oTarget, const std::vector&lt; T * &gt; &amp;iSource)</td></tr>
+<tr class="memdesc:a5648a5c0cb4198fa36cc72060b89fd97"><td class="mdescLeft">&#160;</td><td class="mdescRight">赋值数据，仅用于以指针为元素的vector  <br /></td></tr>
+<tr class="memitem:a5637b916c6bbbac51f6d4d806942c2fa" id="r_a5637b916c6bbbac51f6d4d806942c2fa"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a5637b916c6bbbac51f6d4d806942c2fa template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5637b916c6bbbac51f6d4d806942c2fa">kernel::pdv::CLEAR</a> (std::vector&lt; T * &gt; &amp;ioTarget)</td></tr>
+<tr class="memdesc:a5637b916c6bbbac51f6d4d806942c2fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">清空数据，仅用于以指针为元素的vector  <br /></td></tr>
+<tr class="memitem:acee09cdc7cc2ee51b6327c01a0b73c1e" id="r_acee09cdc7cc2ee51b6327c01a0b73c1e"><td class="memTemplParams" colspan="2">template&lt;typename K, typename T&gt; </td></tr>
+<tr class="memitem:acee09cdc7cc2ee51b6327c01a0b73c1e template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acee09cdc7cc2ee51b6327c01a0b73c1e">kernel::pdv::CLEAR</a> (std::map&lt; K, T * &gt; &amp;ioTarget)</td></tr>
+<tr class="memdesc:acee09cdc7cc2ee51b6327c01a0b73c1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">清空数据，仅用于以指针为元素的map  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>概述：pdv的基本数据定义 </p>
+<dl class="section author"><dt>作者</dt><dd>Steven.Liu </dd></dl>
+<dl class="section version"><dt>版本</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>日期</dt><dd>2022-11-17</dd></dl>
+<p>详细说明 </p>
+</div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">宏定义说明</h2>
+<a id="afb6770f16818726a550ce8c5ed632e14" name="afb6770f16818726a550ce8c5ed632e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb6770f16818726a550ce8c5ed632e14">&#9670;&#160;</a></span>PDV_SUCCEEDED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PDV_SUCCEEDED</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>res</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">((res) == PDV_RESULT_NO_ERROR)</div>
+</div><!-- fragment -->
+<p>函数返回结果是否成功 </p>
+
+</div>
+</div>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">枚举类型说明</h2>
+<a id="aa4a0dfc4806bed135c8d46b80bd8ceff" name="aa4a0dfc4806bed135c8d46b80bd8ceff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4a0dfc4806bed135c8d46b80bd8ceff">&#9670;&#160;</a></span>LineStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#aa4a0dfc4806bed135c8d46b80bd8ceff">kernel::pdv::LineStyle</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>线类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="aa4a0dfc4806bed135c8d46b80bd8ceffa26f7393f0ed6a66410f725acb4d0c114" name="aa4a0dfc4806bed135c8d46b80bd8ceffa26f7393f0ed6a66410f725acb4d0c114"></a>LINESTYLE_NULL&#160;</td><td class="fielddoc"><p>未知 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa4a0dfc4806bed135c8d46b80bd8ceffa1b6855a3c1a51dfa487984bc049a4be4" name="aa4a0dfc4806bed135c8d46b80bd8ceffa1b6855a3c1a51dfa487984bc049a4be4"></a>LINESTYLE_THIN_SOLID_LINE&#160;</td><td class="fielddoc"><p>细实线 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa4a0dfc4806bed135c8d46b80bd8ceffa842ee547d04016e0ba7b98f281f1facb" name="aa4a0dfc4806bed135c8d46b80bd8ceffa842ee547d04016e0ba7b98f281f1facb"></a>LINESTYLE_THICK_SOLID_LINE&#160;</td><td class="fielddoc"><p>粗实线 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa4a0dfc4806bed135c8d46b80bd8ceffa60e961bd41c0343ad8a9972ac470fffd" name="aa4a0dfc4806bed135c8d46b80bd8ceffa60e961bd41c0343ad8a9972ac470fffd"></a>LINESTYLE_THIN_DASH_LINE&#160;</td><td class="fielddoc"><p>细虚线 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa4a0dfc4806bed135c8d46b80bd8ceffa5a16e279b8a8e2d111a6c368940ed2cb" name="aa4a0dfc4806bed135c8d46b80bd8ceffa5a16e279b8a8e2d111a6c368940ed2cb"></a>LINESTYLE_THICK_DASH_LINE&#160;</td><td class="fielddoc"><p>粗虚线 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa4a0dfc4806bed135c8d46b80bd8ceffa4c369d9ebe2d6d38f0f30216cf600521" name="aa4a0dfc4806bed135c8d46b80bd8ceffa4c369d9ebe2d6d38f0f30216cf600521"></a>LINESTYLE_THIN_DOT_DASH_LINE&#160;</td><td class="fielddoc"><p>细点画线 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa4a0dfc4806bed135c8d46b80bd8ceffaa9e959c82d41f04c081b54d9ec2e492d" name="aa4a0dfc4806bed135c8d46b80bd8ceffaa9e959c82d41f04c081b54d9ec2e492d"></a>LINESTYLE_THICK_DOT_DASH_LINE&#160;</td><td class="fielddoc"><p>粗点画线 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa4a0dfc4806bed135c8d46b80bd8ceffa736ae2cbb1f000772dfc51606a60ff89" name="aa4a0dfc4806bed135c8d46b80bd8ceffa736ae2cbb1f000772dfc51606a60ff89"></a>LINESTYLE_THIN_DOUBLE_DOT_LINE&#160;</td><td class="fielddoc"><p>细双点画线 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="ae29e9b62b31a4bb36c96472fac351437" name="ae29e9b62b31a4bb36c96472fac351437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae29e9b62b31a4bb36c96472fac351437">&#9670;&#160;</a></span>OBJTYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ae29e9b62b31a4bb36c96472fac351437">kernel::pdv::OBJTYPE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>对象类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a7631a843d60ef2d4ec5522092532ecfc" name="ae29e9b62b31a4bb36c96472fac351437a7631a843d60ef2d4ec5522092532ecfc"></a>OBJTYPE_UNKNOWN&#160;</td><td class="fielddoc"><p>未知类型 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437ac8b09d6be2988136aa9efc5c6cf0426c" name="ae29e9b62b31a4bb36c96472fac351437ac8b09d6be2988136aa9efc5c6cf0426c"></a>OBJTYPE_SCENE&#160;</td><td class="fielddoc"><p>场景对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437ae39a288c1877f952e5468a60e77fc9bf" name="ae29e9b62b31a4bb36c96472fac351437ae39a288c1877f952e5468a60e77fc9bf"></a>OBJTYPE_MODEL_TREE&#160;</td><td class="fielddoc"><p>模型树对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437ae77f7b9135bd8fa2316b6859ca1f84f0" name="ae29e9b62b31a4bb36c96472fac351437ae77f7b9135bd8fa2316b6859ca1f84f0"></a>OBJTYPE_MODEL&#160;</td><td class="fielddoc"><p>模型对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a8f7c45c8f89965a4160215562dd276e1" name="ae29e9b62b31a4bb36c96472fac351437a8f7c45c8f89965a4160215562dd276e1"></a>OBJTYPE_MESH&#160;</td><td class="fielddoc"><p>网格对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437ab71626b2368e647e7d106c929e1f251a" name="ae29e9b62b31a4bb36c96472fac351437ab71626b2368e647e7d106c929e1f251a"></a>OBJTYPE_PRIMITY&#160;</td><td class="fielddoc"><p>基本体 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a0ab6811b07b36e604f022fd9bfab6bcd" name="ae29e9b62b31a4bb36c96472fac351437a0ab6811b07b36e604f022fd9bfab6bcd"></a>OBJTYPE_BREP&#160;</td><td class="fielddoc"><p>几何拓扑 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a6a9e8b52f6fdab57e3737c9631125986" name="ae29e9b62b31a4bb36c96472fac351437a6a9e8b52f6fdab57e3737c9631125986"></a>OBJTYPE_ATTRIBUTE&#160;</td><td class="fielddoc"><p>属性对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a1742296fd9c967f93005aec9355d67be" name="ae29e9b62b31a4bb36c96472fac351437a1742296fd9c967f93005aec9355d67be"></a>OBJTYPE_MATERIAL&#160;</td><td class="fielddoc"><p>材质对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a5885298303e22d05a6f5c95ad54b6254" name="ae29e9b62b31a4bb36c96472fac351437a5885298303e22d05a6f5c95ad54b6254"></a>OBJTYPE_TEXTURE&#160;</td><td class="fielddoc"><p>纹理对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a82cbc99fb3db78a7610622bc8ae8ba9d" name="ae29e9b62b31a4bb36c96472fac351437a82cbc99fb3db78a7610622bc8ae8ba9d"></a>OBJTYPE_CAMERA&#160;</td><td class="fielddoc"><p>摄像机对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437ad8a0a5bf40e7cad48ea493cd09a81d46" name="ae29e9b62b31a4bb36c96472fac351437ad8a0a5bf40e7cad48ea493cd09a81d46"></a>OBJTYPE_LIGHT&#160;</td><td class="fielddoc"><p>灯光对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437abe4e30081a94cb6d9212138eb2e0a7cc" name="ae29e9b62b31a4bb36c96472fac351437abe4e30081a94cb6d9212138eb2e0a7cc"></a>OBJTYPE_ANNOTATION&#160;</td><td class="fielddoc"><p>标注对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a1eb33c2a81c25add7c31da46c9aff71e" name="ae29e9b62b31a4bb36c96472fac351437a1eb33c2a81c25add7c31da46c9aff71e"></a>OBJTYPE_REVIEW&#160;</td><td class="fielddoc"><p>审阅对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a803bdaae6a2eb145762492d1aed1c987" name="ae29e9b62b31a4bb36c96472fac351437a803bdaae6a2eb145762492d1aed1c987"></a>OBJTYPE_VIEW&#160;</td><td class="fielddoc"><p>视图对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437ab4421d56f7f8f940671d4c697551ef0b" name="ae29e9b62b31a4bb36c96472fac351437ab4421d56f7f8f940671d4c697551ef0b"></a>OBJTYPE_ANIMATION&#160;</td><td class="fielddoc"><p>动画对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437acd1dc9435145f84d9c35edbeb2083e2b" name="ae29e9b62b31a4bb36c96472fac351437acd1dc9435145f84d9c35edbeb2083e2b"></a>OBJTYPE_RESOURCE&#160;</td><td class="fielddoc"><p>资源文件对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a5a10fb90f7c1083facfcb7cb02000539" name="ae29e9b62b31a4bb36c96472fac351437a5a10fb90f7c1083facfcb7cb02000539"></a>OBJTYPE_SECURITY&#160;</td><td class="fielddoc"><p>安全控制对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437addaaf844a0446c9bd002270de3b62ac2" name="ae29e9b62b31a4bb36c96472fac351437addaaf844a0446c9bd002270de3b62ac2"></a>OBJTYPE_EXTERNAL_LINK&#160;</td><td class="fielddoc"><p>外部链接对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a24c748b645f1294f99161a2f07100996" name="ae29e9b62b31a4bb36c96472fac351437a24c748b645f1294f99161a2f07100996"></a>OBJTYPE_USER_DATA&#160;</td><td class="fielddoc"><p>用户自定义对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437ae86755692014682503a2e43026748194" name="ae29e9b62b31a4bb36c96472fac351437ae86755692014682503a2e43026748194"></a>OBJTYPE_MODEL_TREE_NODE&#160;</td><td class="fielddoc"><p>模型树节点 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437aa9d79646bcc5de6d4a591ef477b08873" name="ae29e9b62b31a4bb36c96472fac351437aa9d79646bcc5de6d4a591ef477b08873"></a>OBJTYPE_PRIMCOLLECTION&#160;</td><td class="fielddoc"><p>图元集合 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437adccf116e59306e27a9e75ac495e221bb" name="ae29e9b62b31a4bb36c96472fac351437adccf116e59306e27a9e75ac495e221bb"></a>OBJTYPE_POINT&#160;</td><td class="fielddoc"><p>点 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a21689abd2fcc10771c9dd34d905c87eb" name="ae29e9b62b31a4bb36c96472fac351437a21689abd2fcc10771c9dd34d905c87eb"></a>OBJTYPE_CURVE&#160;</td><td class="fielddoc"><p>线 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437afdde0bb5b179344348eeabfe44ea33c6" name="ae29e9b62b31a4bb36c96472fac351437afdde0bb5b179344348eeabfe44ea33c6"></a>OBJTYPE_SURFACE&#160;</td><td class="fielddoc"><p>面 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437af1f3ff2ca53766f27ec813646cbe4421" name="ae29e9b62b31a4bb36c96472fac351437af1f3ff2ca53766f27ec813646cbe4421"></a>OBJTYPE_TOPO&#160;</td><td class="fielddoc"><p>拓扑 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a18838c0fe9ac7ba74541947d2fa5f27c" name="ae29e9b62b31a4bb36c96472fac351437a18838c0fe9ac7ba74541947d2fa5f27c"></a>OBJTYPE_ATTRIBUTE_GROUP&#160;</td><td class="fielddoc"><p>属性集 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437ac7a332c3c431e54dd21fa10385300cff" name="ae29e9b62b31a4bb36c96472fac351437ac7a332c3c431e54dd21fa10385300cff"></a>OBJTYPE_ANNOTATION_ITEM&#160;</td><td class="fielddoc"><p>标注项 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437aca3996e676ac3f6e6cb7fd04c10308b2" name="ae29e9b62b31a4bb36c96472fac351437aca3996e676ac3f6e6cb7fd04c10308b2"></a>OBJTYPE_ANNOTATION_VIEW&#160;</td><td class="fielddoc"><p>标注视图 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a924559f5ef90bb22e7564d3e6a5c48f7" name="ae29e9b62b31a4bb36c96472fac351437a924559f5ef90bb22e7564d3e6a5c48f7"></a>OBJTYPE_ANNOTATION_GEOMETRY&#160;</td><td class="fielddoc"><p>标注辅助几何 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437ad172f1fa02387af358c5ac89774a8566" name="ae29e9b62b31a4bb36c96472fac351437ad172f1fa02387af358c5ac89774a8566"></a>OBJTYPE_ANIMATION_CLIP&#160;</td><td class="fielddoc"><p>动画片段 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a6177ea591038e5f92cff24d903f152b0" name="ae29e9b62b31a4bb36c96472fac351437a6177ea591038e5f92cff24d903f152b0"></a>OBJTYPE_TILE&#160;</td><td class="fielddoc"><p>渲染瓦片 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437ab72fff4d75383f2e778f948e5c40ec90" name="ae29e9b62b31a4bb36c96472fac351437ab72fff4d75383f2e778f948e5c40ec90"></a>OBJTYPE_RESULT_CONFIG&#160;</td><td class="fielddoc"><p>分析结果配置 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437aac144440b563842f4dfc34da5440c113" name="ae29e9b62b31a4bb36c96472fac351437aac144440b563842f4dfc34da5440c113"></a>OBJTYPE_NODE_SUBSET_MATERIAL&#160;</td><td class="fielddoc"><p>节点面材质 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a8ebf732ee9ffdcd1b03e0a0ec1713b6f" name="ae29e9b62b31a4bb36c96472fac351437a8ebf732ee9ffdcd1b03e0a0ec1713b6f"></a>OBJTYPE_RENDER_BODY&#160;</td><td class="fielddoc"><p>渲染主体 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a7018f14f295b43415509e93a1be6f4c7" name="ae29e9b62b31a4bb36c96472fac351437a7018f14f295b43415509e93a1be6f4c7"></a>OBJTYPE_RENDER_MESH&#160;</td><td class="fielddoc"><p>渲染网格 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a85591dd412c76b9e0bdff8bf01b623c8" name="ae29e9b62b31a4bb36c96472fac351437a85591dd412c76b9e0bdff8bf01b623c8"></a>OBJTYPE_BATCHED_MESH&#160;</td><td class="fielddoc"><p>批处理网格 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a4871c03824bda17acc06decc2a38203e" name="ae29e9b62b31a4bb36c96472fac351437a4871c03824bda17acc06decc2a38203e"></a>OBJTYPE_INSTANCED_MESH&#160;</td><td class="fielddoc"><p>实例化网格 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437ad4539d59bcc6cda0ff89e615541819c6" name="ae29e9b62b31a4bb36c96472fac351437ad4539d59bcc6cda0ff89e615541819c6"></a>OBJTYPE_RENDER_GEOMETRY&#160;</td><td class="fielddoc"><p>渲染几何体 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437afe2d9719f2b4a52e71908abbe85a6609" name="ae29e9b62b31a4bb36c96472fac351437afe2d9719f2b4a52e71908abbe85a6609"></a>OBJTYPE_RENDER_VERTEX&#160;</td><td class="fielddoc"><p>渲染几何体顶点结构 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437aabfb73b4d6a714b30f898ad3e7a6beba" name="ae29e9b62b31a4bb36c96472fac351437aabfb73b4d6a714b30f898ad3e7a6beba"></a>OBJTYPE_RENDER_BODY_SUBSET&#160;</td><td class="fielddoc"><p>渲染主体子集 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a636fa7094cc4a5950026cd8209df29de" name="ae29e9b62b31a4bb36c96472fac351437a636fa7094cc4a5950026cd8209df29de"></a>OBJTYPE_ANALYSIS_RESULT&#160;</td><td class="fielddoc"><p>分析结果 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437a6c2690fae2246e86716a305ec9fa8532" name="ae29e9b62b31a4bb36c96472fac351437a6c2690fae2246e86716a305ec9fa8532"></a>OBJTYPE_PHYSICAL_QUANTITY&#160;</td><td class="fielddoc"><p>物理量 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae29e9b62b31a4bb36c96472fac351437ae5ca527db30a7ba583fa1f1580bb3e91" name="ae29e9b62b31a4bb36c96472fac351437ae5ca527db30a7ba583fa1f1580bb3e91"></a>OBJTYPE_REFERENCE_GEOMETRY&#160;</td><td class="fielddoc"><p>辅助几何 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="afe9171640e2d3c7f540d39127a8ac790" name="afe9171640e2d3c7f540d39127a8ac790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe9171640e2d3c7f540d39127a8ac790">&#9670;&#160;</a></span>OBJTYPE_OLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#afe9171640e2d3c7f540d39127a8ac790">kernel::pdv::OBJTYPE_OLD</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>文档对象类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790ac86391a8aa1e42a1ff93a89b473e69fd" name="afe9171640e2d3c7f540d39127a8ac790ac86391a8aa1e42a1ff93a89b473e69fd"></a>OBJTYPE_UNKNOWN_OLD&#160;</td><td class="fielddoc"><p>未知类型 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790ab63959f29de4ea679cab0e69d5f97a96" name="afe9171640e2d3c7f540d39127a8ac790ab63959f29de4ea679cab0e69d5f97a96"></a>OBJTYPE_SCENE_OLD&#160;</td><td class="fielddoc"><p>场景对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a4e83d79ed4ddc5972b9feb6f8ca06177" name="afe9171640e2d3c7f540d39127a8ac790a4e83d79ed4ddc5972b9feb6f8ca06177"></a>OBJTYPE_MODEL_TREE_OLD&#160;</td><td class="fielddoc"><p>模型树对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a7a0e20d47fd9a0ad9bd8328a80876424" name="afe9171640e2d3c7f540d39127a8ac790a7a0e20d47fd9a0ad9bd8328a80876424"></a>OBJTYPE_MODEL_OLD&#160;</td><td class="fielddoc"><p>模型对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a21dd6749bcedd5c85e472ed27d7b2868" name="afe9171640e2d3c7f540d39127a8ac790a21dd6749bcedd5c85e472ed27d7b2868"></a>OBJTYPE_MESH_OLD&#160;</td><td class="fielddoc"><p>网格对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a73b34e4235f198a8d98c890dd94e1328" name="afe9171640e2d3c7f540d39127a8ac790a73b34e4235f198a8d98c890dd94e1328"></a>OBJTYPE_ATTRIBUTE_OLD&#160;</td><td class="fielddoc"><p>属性对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790affbfe2fe1ed48d64369ad790b1787ada" name="afe9171640e2d3c7f540d39127a8ac790affbfe2fe1ed48d64369ad790b1787ada"></a>OBJTYPE_ANNOTATION_OLD&#160;</td><td class="fielddoc"><p>标注对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a28ef300b7083e490e007fd7905142bde" name="afe9171640e2d3c7f540d39127a8ac790a28ef300b7083e490e007fd7905142bde"></a>OBJTYPE_REVIEW_OLD&#160;</td><td class="fielddoc"><p>审阅对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a556e28b78a9e5d05c26b6f5025140497" name="afe9171640e2d3c7f540d39127a8ac790a556e28b78a9e5d05c26b6f5025140497"></a>OBJTYPE_CAMERA_OLD&#160;</td><td class="fielddoc"><p>摄像机对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a1f1d2a6b9e255b581553b6c32ebd5005" name="afe9171640e2d3c7f540d39127a8ac790a1f1d2a6b9e255b581553b6c32ebd5005"></a>OBJTYPE_VIEW_OLD&#160;</td><td class="fielddoc"><p>视图对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790ad084fd2c21f2b60dfaf40b5f2353fbd4" name="afe9171640e2d3c7f540d39127a8ac790ad084fd2c21f2b60dfaf40b5f2353fbd4"></a>OBJTYPE_MATERIAL_OLD&#160;</td><td class="fielddoc"><p>材质对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790aa3bc7a679356e2508a3e00e71805d381" name="afe9171640e2d3c7f540d39127a8ac790aa3bc7a679356e2508a3e00e71805d381"></a>OBJTYPE_ANIMATION_OLD&#160;</td><td class="fielddoc"><p>动画对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a043d32651337be3c5cab7a1aba9e145b" name="afe9171640e2d3c7f540d39127a8ac790a043d32651337be3c5cab7a1aba9e145b"></a>OBJTYPE_SCENE_EVENT_OLD&#160;</td><td class="fielddoc"><p>场景事件对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a576902b974be54b03568cd1be9146452" name="afe9171640e2d3c7f540d39127a8ac790a576902b974be54b03568cd1be9146452"></a>OBJTYPE_RESOURCE_OLD&#160;</td><td class="fielddoc"><p>资源文件对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a31fe928b3fa9c77e7402e4bc00e89e80" name="afe9171640e2d3c7f540d39127a8ac790a31fe928b3fa9c77e7402e4bc00e89e80"></a>OBJTYPE_SECURITY_OLD&#160;</td><td class="fielddoc"><p>安全控制对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a4ad737da96c7b286cf9d32be3aacb2c6" name="afe9171640e2d3c7f540d39127a8ac790a4ad737da96c7b286cf9d32be3aacb2c6"></a>OBJTYPE_USER_DATA_OLD&#160;</td><td class="fielddoc"><p>用户自定义对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790ace9c24fbf363d574c77ebca89308f585" name="afe9171640e2d3c7f540d39127a8ac790ace9c24fbf363d574c77ebca89308f585"></a>OBJTYPE_EXTERNAL_LINK_OLD&#160;</td><td class="fielddoc"><p>外部链接对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790abb6110615f084fc66c24b39d31b3a4f6" name="afe9171640e2d3c7f540d39127a8ac790abb6110615f084fc66c24b39d31b3a4f6"></a>OBJTYPE_MODEL_TREE_NODE_OLD&#160;</td><td class="fielddoc"><p>模型树节点 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a5a091fcf992d97b3fab73c68afafb1fd" name="afe9171640e2d3c7f540d39127a8ac790a5a091fcf992d97b3fab73c68afafb1fd"></a>OBJTYPE_LIGHT_OLD&#160;</td><td class="fielddoc"><p>灯光对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a25445ae024d0665ee879f38887a903b5" name="afe9171640e2d3c7f540d39127a8ac790a25445ae024d0665ee879f38887a903b5"></a>OBJTYPE_TEXTURE_OLD&#160;</td><td class="fielddoc"><p>纹理对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790aac19fa1fd280ca432d932a218fd60b31" name="afe9171640e2d3c7f540d39127a8ac790aac19fa1fd280ca432d932a218fd60b31"></a>OBJTYPE_PRIMCOLLECTION_OLD&#160;</td><td class="fielddoc"><p>图元集合 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790ae122d6b6fed898a4428f141c52ba2d06" name="afe9171640e2d3c7f540d39127a8ac790ae122d6b6fed898a4428f141c52ba2d06"></a>OBJTYPE_POINT_OLD&#160;</td><td class="fielddoc"><p>点 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790aa5f97ab8edd4525758d8bd4456b7d221" name="afe9171640e2d3c7f540d39127a8ac790aa5f97ab8edd4525758d8bd4456b7d221"></a>OBJTYPE_CURVE_OLD&#160;</td><td class="fielddoc"><p>线 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a710355e249344372ba58cc142c2304bd" name="afe9171640e2d3c7f540d39127a8ac790a710355e249344372ba58cc142c2304bd"></a>OBJTYPE_SURFACE_OLD&#160;</td><td class="fielddoc"><p>面 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a925be5e8c4b864e434cfcba999dea7e4" name="afe9171640e2d3c7f540d39127a8ac790a925be5e8c4b864e434cfcba999dea7e4"></a>OBJTYPE_TOPO_OLD&#160;</td><td class="fielddoc"><p>拓扑 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790ab566a302fcc9327f6298e242e83ca289" name="afe9171640e2d3c7f540d39127a8ac790ab566a302fcc9327f6298e242e83ca289"></a>OBJTYPE_BREP_OLD&#160;</td><td class="fielddoc"><p>几何拓扑 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790a98886f79b14240279e96ec3a3d48f0a5" name="afe9171640e2d3c7f540d39127a8ac790a98886f79b14240279e96ec3a3d48f0a5"></a>OBJTYPE_PRIMITY_OLD&#160;</td><td class="fielddoc"><p>基本体 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790af0b7c5cef634cd6c46700dbbee107d61" name="afe9171640e2d3c7f540d39127a8ac790af0b7c5cef634cd6c46700dbbee107d61"></a>OBJTYPE_ATTRIBUTE_GROUP_OLD&#160;</td><td class="fielddoc"><p>属性集 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790ad3b5a036d07da8cd315ccc9de3539c83" name="afe9171640e2d3c7f540d39127a8ac790ad3b5a036d07da8cd315ccc9de3539c83"></a>OBJTYPE_ANNOTATION_ITEM_OLD&#160;</td><td class="fielddoc"><p>标注项 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790aef00f45018838dc1c6b27769cf82e932" name="afe9171640e2d3c7f540d39127a8ac790aef00f45018838dc1c6b27769cf82e932"></a>OBJTYPE_ANNOTATION_VIEW_OLD&#160;</td><td class="fielddoc"><p>标注视图 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe9171640e2d3c7f540d39127a8ac790ac615bc46389ce881828599cfc3e7bfd8" name="afe9171640e2d3c7f540d39127a8ac790ac615bc46389ce881828599cfc3e7bfd8"></a>OBJTYPE_ANNOTATION_GEOMETRY_OLD&#160;</td><td class="fielddoc"><p>标注辅助几何 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="aa642ea7f62d6891a6576c9322054e62d" name="aa642ea7f62d6891a6576c9322054e62d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa642ea7f62d6891a6576c9322054e62d">&#9670;&#160;</a></span>PDV_RESULT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>函数返回结果类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7" name="aa642ea7f62d6891a6576c9322054e62da5e84d821537165682e5c702c91ada8e7"></a>PDV_RESULT_NO_ERROR&#160;</td><td class="fielddoc"><p>无错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da38d22f09afb9d1a16f65ac8ad00f29aa" name="aa642ea7f62d6891a6576c9322054e62da38d22f09afb9d1a16f65ac8ad00f29aa"></a>PDV_RESULT_GENERAL_ERROR&#160;</td><td class="fielddoc"><p>一般错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da44a93ec5e0c9262f4fe0a22b00b6df54" name="aa642ea7f62d6891a6576c9322054e62da44a93ec5e0c9262f4fe0a22b00b6df54"></a>PDV_RESULT_INITIAL_ERROR&#160;</td><td class="fielddoc"><p>初始化错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da060583998cdf36c7ade96258109b8e7d" name="aa642ea7f62d6891a6576c9322054e62da060583998cdf36c7ade96258109b8e7d"></a>PDV_RESULT_INPUT_ERROR&#160;</td><td class="fielddoc"><p>输入错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62daf8d5712ce8794257efadaf6278f4df1f" name="aa642ea7f62d6891a6576c9322054e62daf8d5712ce8794257efadaf6278f4df1f"></a>PDV_RESULT_SCENE_ERROR&#160;</td><td class="fielddoc"><p>场景对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da7a2d08e56b4943750a75115443f90cd3" name="aa642ea7f62d6891a6576c9322054e62da7a2d08e56b4943750a75115443f90cd3"></a>PDV_RESULT_MODELTREE_ERROR&#160;</td><td class="fielddoc"><p>模型树对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da140ec43f36e2e1dec0de47d5a75ac396" name="aa642ea7f62d6891a6576c9322054e62da140ec43f36e2e1dec0de47d5a75ac396"></a>PDV_RESULT_MODELTREENODE_NO_MODEL&#160;</td><td class="fielddoc"><p>模型树节点无关联模型 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da9eb3953b5625ad0d1159f4057f4d4d76" name="aa642ea7f62d6891a6576c9322054e62da9eb3953b5625ad0d1159f4057f4d4d76"></a>PDV_RESULT_MODELTREENODE_NO_LOCAL_TRANSFORM&#160;</td><td class="fielddoc"><p>模型树节点无局部变换信息 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da95a88739a28ebad364e10027bd6ed9ba" name="aa642ea7f62d6891a6576c9322054e62da95a88739a28ebad364e10027bd6ed9ba"></a>PDV_RESULT_MODELTREENODE_NO_ATTRIBUTE&#160;</td><td class="fielddoc"><p>模型树节点无关联属性对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da82e7fdd37a6bca8bf1508b95661166eb" name="aa642ea7f62d6891a6576c9322054e62da82e7fdd37a6bca8bf1508b95661166eb"></a>PDV_RESULT_MODELTREENODE_NO_MATERIAL&#160;</td><td class="fielddoc"><p>模型树节点无关联材质对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da1b48e2660e5acbd337d00503c8a49e1e" name="aa642ea7f62d6891a6576c9322054e62da1b48e2660e5acbd337d00503c8a49e1e"></a>PDV_RESULT_MODELTREENODE_NO_ANNOTATION&#160;</td><td class="fielddoc"><p>模型树节点无关联标注对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62daf2a89364c897e13ce128b97198cfc13f" name="aa642ea7f62d6891a6576c9322054e62daf2a89364c897e13ce128b97198cfc13f"></a>PDV_RESULT_MODELTREENODE_NO_WORLD_TRANSFORM&#160;</td><td class="fielddoc"><p>模型树节点无全局变换信息 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62dad8705f5a7ec017207d3cab94bd619978" name="aa642ea7f62d6891a6576c9322054e62dad8705f5a7ec017207d3cab94bd619978"></a>PDV_RESULT_MODELTREENODE_NO_EXTERNAL_PDV&#160;</td><td class="fielddoc"><p>模型树节点无关联外部pdv对象 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62daf65292ec54a813618af0470eccf9b435" name="aa642ea7f62d6891a6576c9322054e62daf65292ec54a813618af0470eccf9b435"></a>PDV_RESULT_MODELTREENODE_NO_EXTENDINFO&#160;</td><td class="fielddoc"><p>模型树节点无扩展数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da601d1e35cb60148809a20f1baa29a711" name="aa642ea7f62d6891a6576c9322054e62da601d1e35cb60148809a20f1baa29a711"></a>PDV_RESULT_MODEL_ERROR&#160;</td><td class="fielddoc"><p>模型对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da79e4c8fda4712245d2acf5a35c227d82" name="aa642ea7f62d6891a6576c9322054e62da79e4c8fda4712245d2acf5a35c227d82"></a>PDV_RESULT_MODEL_NO_PROPERTY&#160;</td><td class="fielddoc"><p>网格图元集合模型无全局坐标变换信息 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da6f83a6f0a758eaec44b295c0e3bf93b4" name="aa642ea7f62d6891a6576c9322054e62da6f83a6f0a758eaec44b295c0e3bf93b4"></a>PDV_RESULT_MODEL_NO_MESH&#160;</td><td class="fielddoc"><p>模型无网格数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da7035cba798659055b4b5f2534d97f85c" name="aa642ea7f62d6891a6576c9322054e62da7035cba798659055b4b5f2534d97f85c"></a>PDV_RESULT_MODEL_NO_PRIMITY&#160;</td><td class="fielddoc"><p>模型无基本体数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da5580e72e73f311771dafc9a0b1137a85" name="aa642ea7f62d6891a6576c9322054e62da5580e72e73f311771dafc9a0b1137a85"></a>PDV_RESULT_MODEL_NO_TOPO&#160;</td><td class="fielddoc"><p>模型无拓扑数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da2778db5cf337b92c7573de43b0ee12b9" name="aa642ea7f62d6891a6576c9322054e62da2778db5cf337b92c7573de43b0ee12b9"></a>PDV_RESULT_MODEL_NO_ANNOTATION&#160;</td><td class="fielddoc"><p>模型无标注数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62dafa6a3ea607de05f9ab5d161e35471820" name="aa642ea7f62d6891a6576c9322054e62dafa6a3ea607de05f9ab5d161e35471820"></a>PDV_RESULT_MODEL_NO_ATTRIBUTE&#160;</td><td class="fielddoc"><p>模型无属性数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da3690c4a92a96402616dd475f95630d51" name="aa642ea7f62d6891a6576c9322054e62da3690c4a92a96402616dd475f95630d51"></a>PDV_RESULT_MODEL_NO_EXTENDINFO&#160;</td><td class="fielddoc"><p>模型无拓展属性数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da4a1b4aff11c7f644e5989f9034b0752e" name="aa642ea7f62d6891a6576c9322054e62da4a1b4aff11c7f644e5989f9034b0752e"></a>PDV_RESULT_MESH_ERROR&#160;</td><td class="fielddoc"><p>网格对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da29fe45db7b2f44486e713349fce77a89" name="aa642ea7f62d6891a6576c9322054e62da29fe45db7b2f44486e713349fce77a89"></a>PDV_RESULT_MESH_NO_PRIMCOLLECTION&#160;</td><td class="fielddoc"><p>网格无图元集合数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da449c15ca3f84521673db8e85eb53901c" name="aa642ea7f62d6891a6576c9322054e62da449c15ca3f84521673db8e85eb53901c"></a>PDV_RESULT_MESH_NO_MASS_PROPERTY&#160;</td><td class="fielddoc"><p>网格无质量特性数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da21e7df7c3cdac2f32075c2744d17c0d2" name="aa642ea7f62d6891a6576c9322054e62da21e7df7c3cdac2f32075c2744d17c0d2"></a>PDV_RESULT_MESH_NO_MATERIAL&#160;</td><td class="fielddoc"><p>网格无颜色透明度数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da6a9205bf05f4e459d5f698fb4fdb4896" name="aa642ea7f62d6891a6576c9322054e62da6a9205bf05f4e459d5f698fb4fdb4896"></a>PDV_RESULT_MESHPRIMCOLLECTION_NO_MATERIAL&#160;</td><td class="fielddoc"><p>网格图元集合无颜色透明度数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62dada79fc97bc79907f42aebce9dba58d56" name="aa642ea7f62d6891a6576c9322054e62dada79fc97bc79907f42aebce9dba58d56"></a>PDV_RESULT_MESHPRIMCOLLECTION_NO_BOUNDINGBOX&#160;</td><td class="fielddoc"><p>网格图元集合无包围盒数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da64243821860d3a45b1aed5bb7f98875c" name="aa642ea7f62d6891a6576c9322054e62da64243821860d3a45b1aed5bb7f98875c"></a>PDV_RESULT_MESHPRIMCOLLECTION_TYPE_ERROR&#160;</td><td class="fielddoc"><p>网格图元集合类型错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da10a18e9b5e1e6a506f79c703cdfbdb77" name="aa642ea7f62d6891a6576c9322054e62da10a18e9b5e1e6a506f79c703cdfbdb77"></a>PDV_RESULT_MESHPRIMCOLLECTION_NO_TOPO&#160;</td><td class="fielddoc"><p>网格图元集合类型错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da0ca2ff188aa7701003866e1bc0099c00" name="aa642ea7f62d6891a6576c9322054e62da0ca2ff188aa7701003866e1bc0099c00"></a>PDV_RESULT_LIGHT_WRONGTYPE&#160;</td><td class="fielddoc"><p>灯光类型错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62dabe39c5d1f244237570cffacf47311a82" name="aa642ea7f62d6891a6576c9322054e62dabe39c5d1f244237570cffacf47311a82"></a>PDV_RESULT_ATTRIBUTE_ERROR&#160;</td><td class="fielddoc"><p>属性对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62dab99dbd02e6cb9a66d26a643ee82a1be5" name="aa642ea7f62d6891a6576c9322054e62dab99dbd02e6cb9a66d26a643ee82a1be5"></a>PDV_RESULT_ATTRIBUTE_VALUE_TYPE_ERROR&#160;</td><td class="fielddoc"><p>属性类型错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da3903633eb07ea6106dcb395d3f9ad17a" name="aa642ea7f62d6891a6576c9322054e62da3903633eb07ea6106dcb395d3f9ad17a"></a>PDV_RESULT_CAMERA_ERROR&#160;</td><td class="fielddoc"><p>摄像机对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da92eaf906d3e0c42e64739f3f8f90ed82" name="aa642ea7f62d6891a6576c9322054e62da92eaf906d3e0c42e64739f3f8f90ed82"></a>PDV_RESULT_ANNOTATION_ERROR&#160;</td><td class="fielddoc"><p>标注对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da3dc646b41e796708a6d57c36be96070c" name="aa642ea7f62d6891a6576c9322054e62da3dc646b41e796708a6d57c36be96070c"></a>PDV_RESULT_ANNOTATIONITEM_TYPE_ERROR&#160;</td><td class="fielddoc"><p>标注项类型错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62dac7425a4dd91ba73e0fef15e5849d91d3" name="aa642ea7f62d6891a6576c9322054e62dac7425a4dd91ba73e0fef15e5849d91d3"></a>PDV_RESULT_REVIEW_ERROR&#160;</td><td class="fielddoc"><p>审阅对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da6405c0fc830f3ffcc8cbfe869cf0335c" name="aa642ea7f62d6891a6576c9322054e62da6405c0fc830f3ffcc8cbfe869cf0335c"></a>PDV_RESULT_REVIEW_TYPE_ERROR&#160;</td><td class="fielddoc"><p>审阅对象类型错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da0518238563300ee00c5284d862b80e0f" name="aa642ea7f62d6891a6576c9322054e62da0518238563300ee00c5284d862b80e0f"></a>PDV_RESULT_VIEW_ERROR&#160;</td><td class="fielddoc"><p>视图对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da26004a12f3f748f2f4b0801d87bc5850" name="aa642ea7f62d6891a6576c9322054e62da26004a12f3f748f2f4b0801d87bc5850"></a>PDV_RESULT_VIEW_BKGTYPE_ERROR&#160;</td><td class="fielddoc"><p>视图对象背景类型错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da97c95bafb1644ab26341c328e6ccf2ec" name="aa642ea7f62d6891a6576c9322054e62da97c95bafb1644ab26341c328e6ccf2ec"></a>PDV_RESULT_MATERIAL_ERROR&#160;</td><td class="fielddoc"><p>材质对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da646a14f256769b084ffc3cd6981f74d5" name="aa642ea7f62d6891a6576c9322054e62da646a14f256769b084ffc3cd6981f74d5"></a>PDV_RESULT_MATERIAL_TYPE_ERROR&#160;</td><td class="fielddoc"><p>材质类型错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da7167478868d324c1df0a8a44c349a8cf" name="aa642ea7f62d6891a6576c9322054e62da7167478868d324c1df0a8a44c349a8cf"></a>PDV_RESULT_MATERIAL_NO_COLOR&#160;</td><td class="fielddoc"><p>材质对象无颜色数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da9bba1fd55f55defe47bf204bd225f20c" name="aa642ea7f62d6891a6576c9322054e62da9bba1fd55f55defe47bf204bd225f20c"></a>PDV_RESULT_MATERIAL_NO_TRANSPARENCY&#160;</td><td class="fielddoc"><p>材质对象无透明度数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da0d7d305d95e46650c9f811591edaf1c6" name="aa642ea7f62d6891a6576c9322054e62da0d7d305d95e46650c9f811591edaf1c6"></a>PDV_RESULT_ANIMATION_ERROR&#160;</td><td class="fielddoc"><p>动画对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da68d20be1a81cbca335c32ff5d59bac6e" name="aa642ea7f62d6891a6576c9322054e62da68d20be1a81cbca335c32ff5d59bac6e"></a>PDV_RESULT_ANIMATION_CLIPTYPE_ERROR&#160;</td><td class="fielddoc"><p>动画动作片段的类型错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da11fc8ebab12d587a9e27c6f8f1982a90" name="aa642ea7f62d6891a6576c9322054e62da11fc8ebab12d587a9e27c6f8f1982a90"></a>PDV_RESULT_SCENEEVENT_ERROR&#160;</td><td class="fielddoc"><p>场景事件对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62dad4b881e1300ec1801011c775cf424c74" name="aa642ea7f62d6891a6576c9322054e62dad4b881e1300ec1801011c775cf424c74"></a>PDV_RESULT_RESOURCE_ERROR&#160;</td><td class="fielddoc"><p>资源文件对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da4a9c9ed0b79cc44b1c73cbce18d36a28" name="aa642ea7f62d6891a6576c9322054e62da4a9c9ed0b79cc44b1c73cbce18d36a28"></a>PDV_RESULT_SECURITY_ERROR&#160;</td><td class="fielddoc"><p>安全控制对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62dae23b704b132bfeb9a5f18d79ce65457d" name="aa642ea7f62d6891a6576c9322054e62dae23b704b132bfeb9a5f18d79ce65457d"></a>PDV_RESULT_SECURITY_NO_ADMINISTRATOR_PASSWORD&#160;</td><td class="fielddoc"><p>安全控制不存在管理员密码数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da59fe04e281c236855de841b7cced298a" name="aa642ea7f62d6891a6576c9322054e62da59fe04e281c236855de841b7cced298a"></a>PDV_RESULT_SECURITY_NO_USER_PASSWORD&#160;</td><td class="fielddoc"><p>安全控制不存在用户密码数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62da6a2b2977ea3d61a2a40d647b1181442c" name="aa642ea7f62d6891a6576c9322054e62da6a2b2977ea3d61a2a40d647b1181442c"></a>PDV_RESULT_SECURITY_NO_PERMISSION&#160;</td><td class="fielddoc"><p>安全控制不存在权限数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62dac8b6e0dfca136b796bbc949a863e0362" name="aa642ea7f62d6891a6576c9322054e62dac8b6e0dfca136b796bbc949a863e0362"></a>PDV_RESULT_SECURITY_NO_TIME_LIMIT&#160;</td><td class="fielddoc"><p>安全控制不存在有效期数据 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62daee78870611ad1768d0e29cc753026b1c" name="aa642ea7f62d6891a6576c9322054e62daee78870611ad1768d0e29cc753026b1c"></a>PDV_RESULT_USERDATA_ERROR&#160;</td><td class="fielddoc"><p>用户自定义对象错误 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa642ea7f62d6891a6576c9322054e62dac92fe254bb2299dd4cf101e92f6e6ba7" name="aa642ea7f62d6891a6576c9322054e62dac92fe254bb2299dd4cf101e92f6e6ba7"></a>PDV_RESULT_EXTERNALLINK_ERROR&#160;</td><td class="fielddoc"><p>外部链接对象错误 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a14bcd310036e7126757cf508e5d1f238" name="a14bcd310036e7126757cf508e5d1f238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14bcd310036e7126757cf508e5d1f238">&#9670;&#160;</a></span>PointStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a14bcd310036e7126757cf508e5d1f238">kernel::pdv::PointStyle</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>点类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="a14bcd310036e7126757cf508e5d1f238abc3818a052528926c02401902275132c" name="a14bcd310036e7126757cf508e5d1f238abc3818a052528926c02401902275132c"></a>POINTSTYLE_NULL&#160;</td><td class="fielddoc"><p>未知 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a14bcd310036e7126757cf508e5d1f238acc687c5c0d7fc8f4a2a9295b0b031a96" name="a14bcd310036e7126757cf508e5d1f238acc687c5c0d7fc8f4a2a9295b0b031a96"></a>POINTSTYLE_SOLID_POINT&#160;</td><td class="fielddoc"><p>实心点 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a14bcd310036e7126757cf508e5d1f238a20fefebee411e2b4ac783af0cdb546f8" name="a14bcd310036e7126757cf508e5d1f238a20fefebee411e2b4ac783af0cdb546f8"></a>POINTSTYLE_HOLLOW_POINT&#160;</td><td class="fielddoc"><p>空心点 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a14bcd310036e7126757cf508e5d1f238a4c252c193195ff9d39f5d5a268546af7" name="a14bcd310036e7126757cf508e5d1f238a4c252c193195ff9d39f5d5a268546af7"></a>POINTSTYLE_CROSS_POINT&#160;</td><td class="fielddoc"><p>交叉点 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a14bcd310036e7126757cf508e5d1f238a2ea2530302692e7f0c07adf279f94e09" name="a14bcd310036e7126757cf508e5d1f238a2ea2530302692e7f0c07adf279f94e09"></a>POINTSTYLE_TRIANGLE&#160;</td><td class="fielddoc"><p>三角形 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">函数说明</h2>
+<a id="a5648a5c0cb4198fa36cc72060b89fd97" name="a5648a5c0cb4198fa36cc72060b89fd97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5648a5c0cb4198fa36cc72060b89fd97">&#9670;&#160;</a></span>ASSIGN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void kernel::pdv::ASSIGN </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; T * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oTarget</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; T * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iSource</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>赋值数据，仅用于以指针为元素的vector </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">ioTarget</td><td>目标数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSource</td><td>源数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acee09cdc7cc2ee51b6327c01a0b73c1e" name="acee09cdc7cc2ee51b6327c01a0b73c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acee09cdc7cc2ee51b6327c01a0b73c1e">&#9670;&#160;</a></span>CLEAR() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void kernel::pdv::CLEAR </td>
+          <td>(</td>
+          <td class="paramtype">std::map&lt; K, T * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>ioTarget</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>清空数据，仅用于以指针为元素的map </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">ioTarget</td><td>目标数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5637b916c6bbbac51f6d4d806942c2fa" name="a5637b916c6bbbac51f6d4d806942c2fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5637b916c6bbbac51f6d4d806942c2fa">&#9670;&#160;</a></span>CLEAR() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void kernel::pdv::CLEAR </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; T * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>ioTarget</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>清空数据，仅用于以指针为元素的vector </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">ioTarget</td><td>目标数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aedc85e62a84ceab7a14ea68e5506f346" name="aedc85e62a84ceab7a14ea68e5506f346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedc85e62a84ceab7a14ea68e5506f346">&#9670;&#160;</a></span>GetObjectTypeString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a> kernel::pdv::GetObjectTypeString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></td>          <td class="paramname"><span class="paramname"><em>iType</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取类型的描述 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iType</td><td>类型标识 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="class_c_unicode_string.html" title="Unicode字符操作接口">CUnicodeString</a> 类型的描述 </dd></dl>
+
+</div>
+</div>
+<a id="a67c5cef98847afd868312815aac4bd23" name="a67c5cef98847afd868312815aac4bd23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67c5cef98847afd868312815aac4bd23">&#9670;&#160;</a></span>GetPDVCoreVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a> kernel::pdv::GetPDVCoreVersion </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>获取PDVCore的版本 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="class_c_unicode_string.html" title="Unicode字符操作接口">CUnicodeString</a> PDVCore的版本描述 </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_base_8h.html">PDVBase.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

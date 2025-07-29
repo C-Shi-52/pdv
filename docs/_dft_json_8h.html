@@ -1,0 +1,1058 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/DftBase/DftJson.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_dft_json_8h.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">DftJson.h 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>概述：json文件操作接口  
+<a href="#details">更多...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="_dft_types_8h_source.html">DftTypes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_dft_base_8h_source.html">DftBase.h</a>&quot;</code><br />
+</div>
+<p><a href="_dft_json_8h_source.html">浏览该文件的源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+类型定义</h2></td></tr>
+<tr class="memitem:a530bdbd5eab3048787dbc7a1f07a3b55" id="r_a530bdbd5eab3048787dbc7a1f07a3b55"><td class="memItemLeft" align="right" valign="top"><a id="a530bdbd5eab3048787dbc7a1f07a3b55" name="a530bdbd5eab3048787dbc7a1f07a3b55"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><b>DftJson</b></td></tr>
+<tr class="memdesc:a530bdbd5eab3048787dbc7a1f07a3b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">json节点对象 <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a2220cd4a5faf2b34df371db02f3ef03a" id="r_a2220cd4a5faf2b34df371db02f3ef03a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2220cd4a5faf2b34df371db02f3ef03a">DftJsonParse</a> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *iValue)</td></tr>
+<tr class="memdesc:a2220cd4a5faf2b34df371db02f3ef03a"><td class="mdescLeft">&#160;</td><td class="mdescRight">将字符串解析为json节点  <br /></td></tr>
+<tr class="memitem:adc30a73950b13a8d93db06cbcfed54d9" id="r_adc30a73950b13a8d93db06cbcfed54d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc30a73950b13a8d93db06cbcfed54d9">DftJsonPrint</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:adc30a73950b13a8d93db06cbcfed54d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">将json节点解析为字符串  <br /></td></tr>
+<tr class="memitem:ae8357bcadae125c03aaf963cc2ec9bb2" id="r_ae8357bcadae125c03aaf963cc2ec9bb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8357bcadae125c03aaf963cc2ec9bb2">DftJsonDelete</a> (<a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> *iItem)</td></tr>
+<tr class="memdesc:ae8357bcadae125c03aaf963cc2ec9bb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">删除节点，释放内存  <br /></td></tr>
+<tr class="memitem:ab5e4c0f501a54acc152ee200829ac5f7" id="r_ab5e4c0f501a54acc152ee200829ac5f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5e4c0f501a54acc152ee200829ac5f7">DftJsonGetArraySize</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iArray)</td></tr>
+<tr class="memdesc:ab5e4c0f501a54acc152ee200829ac5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回队列节点的数量  <br /></td></tr>
+<tr class="memitem:a02d7fd08b4fd779e249622a62491af0c" id="r_a02d7fd08b4fd779e249622a62491af0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02d7fd08b4fd779e249622a62491af0c">DftJsonGetArrayItem</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iArray, <a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> iIndex)</td></tr>
+<tr class="memdesc:a02d7fd08b4fd779e249622a62491af0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">从队列节点中检索json节点  <br /></td></tr>
+<tr class="memitem:ae5f0238d1ab5d2fc93cbeabb557445d5" id="r_ae5f0238d1ab5d2fc93cbeabb557445d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5f0238d1ab5d2fc93cbeabb557445d5">DftJsonGetObjectItem</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iObject, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *const iString)</td></tr>
+<tr class="memdesc:ae5f0238d1ab5d2fc93cbeabb557445d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">从对象节点中检索对应的字符串json节点  <br /></td></tr>
+<tr class="memitem:a8fff7a26f0a15a6858d7e0f9b71de821" id="r_a8fff7a26f0a15a6858d7e0f9b71de821"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fff7a26f0a15a6858d7e0f9b71de821">DftJsonHasObjectItem</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iObject, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *iString)</td></tr>
+<tr class="memdesc:a8fff7a26f0a15a6858d7e0f9b71de821"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断对象节点中是否存在对应的字符串json节点  <br /></td></tr>
+<tr class="memitem:a635daded38618b478a793c1c2e16dacf" id="r_a635daded38618b478a793c1c2e16dacf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a635daded38618b478a793c1c2e16dacf">DftJsonGetStringValue</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:a635daded38618b478a793c1c2e16dacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取对象节点中是对应的字符串json节点的值  <br /></td></tr>
+<tr class="memitem:ad5dbd3687931b12e4dd31375e8ac8343" id="r_ad5dbd3687931b12e4dd31375e8ac8343"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5dbd3687931b12e4dd31375e8ac8343">DftJsonGetNumberValue</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:ad5dbd3687931b12e4dd31375e8ac8343"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取对象节点中是对应的数值json节点的值  <br /></td></tr>
+<tr class="memitem:a2a34179797db4a1b9190fc8cd6cad850" id="r_a2a34179797db4a1b9190fc8cd6cad850"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a34179797db4a1b9190fc8cd6cad850">DftJsonIsInvalid</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:a2a34179797db4a1b9190fc8cd6cad850"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断对象节点是否有效  <br /></td></tr>
+<tr class="memitem:a8aa08f767beffb4fcce15cb7b5ac8c45" id="r_a8aa08f767beffb4fcce15cb7b5ac8c45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8aa08f767beffb4fcce15cb7b5ac8c45">DftJsonIsFalse</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:a8aa08f767beffb4fcce15cb7b5ac8c45"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断对象节点是否为false  <br /></td></tr>
+<tr class="memitem:a5a7910f150fbcc91ad9016440515d5b0" id="r_a5a7910f150fbcc91ad9016440515d5b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a7910f150fbcc91ad9016440515d5b0">DftJsonIsTrue</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:a5a7910f150fbcc91ad9016440515d5b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断对象节点是否为true  <br /></td></tr>
+<tr class="memitem:ae7c869b446808dff8bcfee0db355a4b1" id="r_ae7c869b446808dff8bcfee0db355a4b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7c869b446808dff8bcfee0db355a4b1">DftJsonIsBool</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:ae7c869b446808dff8bcfee0db355a4b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断对象节点是否为 <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 类型  <br /></td></tr>
+<tr class="memitem:a5601ccae2fa37404524bd97d62a25ce1" id="r_a5601ccae2fa37404524bd97d62a25ce1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5601ccae2fa37404524bd97d62a25ce1">DftJsonIsNull</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:a5601ccae2fa37404524bd97d62a25ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断对象节点是否为空  <br /></td></tr>
+<tr class="memitem:a9f6b004e51316311a5942a7a37f8d1f5" id="r_a9f6b004e51316311a5942a7a37f8d1f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f6b004e51316311a5942a7a37f8d1f5">DftJsonIsNumber</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:a9f6b004e51316311a5942a7a37f8d1f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断对象节点是否为数值  <br /></td></tr>
+<tr class="memitem:a22d0e5217d9928c4eefe783b998aba86" id="r_a22d0e5217d9928c4eefe783b998aba86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22d0e5217d9928c4eefe783b998aba86">DftJsonIsString</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:a22d0e5217d9928c4eefe783b998aba86"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断对象节点是否为字符串  <br /></td></tr>
+<tr class="memitem:afc351523c5d920e188b5e58fccc4cf18" id="r_afc351523c5d920e188b5e58fccc4cf18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc351523c5d920e188b5e58fccc4cf18">DftJsonIsArray</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:afc351523c5d920e188b5e58fccc4cf18"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断对象节点是否为队列  <br /></td></tr>
+<tr class="memitem:a81727642212a1cf9f3bcbad96c3fce60" id="r_a81727642212a1cf9f3bcbad96c3fce60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81727642212a1cf9f3bcbad96c3fce60">DftJsonIsObject</a> (const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:a81727642212a1cf9f3bcbad96c3fce60"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断对象节点是否为对象  <br /></td></tr>
+<tr class="memitem:a9147b67f0357206795e172ead66689a2" id="r_a9147b67f0357206795e172ead66689a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9147b67f0357206795e172ead66689a2">DftJsonCreateNull</a> ()</td></tr>
+<tr class="memdesc:a9147b67f0357206795e172ead66689a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建空节点  <br /></td></tr>
+<tr class="memitem:a8ad2013c1336c322ed72ea6ff1915545" id="r_a8ad2013c1336c322ed72ea6ff1915545"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ad2013c1336c322ed72ea6ff1915545">DftJsonCreateBool</a> (<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> iBoolean)</td></tr>
+<tr class="memdesc:a8ad2013c1336c322ed72ea6ff1915545"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建值为boolean的布尔节点  <br /></td></tr>
+<tr class="memitem:a222db5158ab93c66efa0e7eccfee94d0" id="r_a222db5158ab93c66efa0e7eccfee94d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a222db5158ab93c66efa0e7eccfee94d0">DftJsonCreateNumber</a> (<a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iNum)</td></tr>
+<tr class="memdesc:a222db5158ab93c66efa0e7eccfee94d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建值为num的数字节点  <br /></td></tr>
+<tr class="memitem:a162b480ae34e624ac73e8d22b60cc8f3" id="r_a162b480ae34e624ac73e8d22b60cc8f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a162b480ae34e624ac73e8d22b60cc8f3">DftJsonCreateString</a> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *iString)</td></tr>
+<tr class="memdesc:a162b480ae34e624ac73e8d22b60cc8f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建值为iString的字符串节点  <br /></td></tr>
+<tr class="memitem:a24b94f80faf94c75d06f82dc8e132b99" id="r_a24b94f80faf94c75d06f82dc8e132b99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24b94f80faf94c75d06f82dc8e132b99">DftJsonCreateArray</a> ()</td></tr>
+<tr class="memdesc:a24b94f80faf94c75d06f82dc8e132b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建队列节点  <br /></td></tr>
+<tr class="memitem:a5277df63f6be4569a05602bf68ed1f1d" id="r_a5277df63f6be4569a05602bf68ed1f1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5277df63f6be4569a05602bf68ed1f1d">DftJsonCreateObject</a> ()</td></tr>
+<tr class="memdesc:a5277df63f6be4569a05602bf68ed1f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建对象节点  <br /></td></tr>
+<tr class="memitem:a09efcd653107178488c408d2ab467501" id="r_a09efcd653107178488c408d2ab467501"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09efcd653107178488c408d2ab467501">DftJsonAddItemToArray</a> (<a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iArray, <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:a09efcd653107178488c408d2ab467501"><td class="mdescLeft">&#160;</td><td class="mdescRight">将iItem节点添加到iArray队列中  <br /></td></tr>
+<tr class="memitem:a4aecd2ea093004d875ecb87dd7fc3641" id="r_a4aecd2ea093004d875ecb87dd7fc3641"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aecd2ea093004d875ecb87dd7fc3641">DftJsonAddItemToObject</a> (<a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iObject, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *iString, <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iItem)</td></tr>
+<tr class="memdesc:a4aecd2ea093004d875ecb87dd7fc3641"><td class="mdescLeft">&#160;</td><td class="mdescRight">将iItem节点添加到iObject属性中  <br /></td></tr>
+<tr class="memitem:a818b162473e6209e58aeb87753859c5a" id="r_a818b162473e6209e58aeb87753859c5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a818b162473e6209e58aeb87753859c5a">DftJsonAddNumberToObject</a> (<a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iObject, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *iName, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iValue)</td></tr>
+<tr class="memdesc:a818b162473e6209e58aeb87753859c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">将数字添加到iObject中  <br /></td></tr>
+<tr class="memitem:a98ab9e1cc2b6c81bb76c64e9f6719ee0" id="r_a98ab9e1cc2b6c81bb76c64e9f6719ee0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98ab9e1cc2b6c81bb76c64e9f6719ee0">DftJsonAddStringToObject</a> (<a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iObject, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *iName, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *iString)</td></tr>
+<tr class="memdesc:a98ab9e1cc2b6c81bb76c64e9f6719ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">将字符串添加到iObject中  <br /></td></tr>
+<tr class="memitem:a205a74d42f3c0a914c0cbe9ec67b5ed4" id="r_a205a74d42f3c0a914c0cbe9ec67b5ed4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a205a74d42f3c0a914c0cbe9ec67b5ed4">DftJsonAddObjectToObject</a> (<a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iObject, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *const iName)</td></tr>
+<tr class="memdesc:a205a74d42f3c0a914c0cbe9ec67b5ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">给iObject对象添加一个名为name的对象节点属性  <br /></td></tr>
+<tr class="memitem:ae36dcc3a00d9214beb36047a7b322e4a" id="r_ae36dcc3a00d9214beb36047a7b322e4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae36dcc3a00d9214beb36047a7b322e4a">DftJsonAddArrayToObject</a> (<a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iObject, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *const iName)</td></tr>
+<tr class="memdesc:ae36dcc3a00d9214beb36047a7b322e4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">给iObject对象添加一个名为name的队列节点属性  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>概述：json文件操作接口 </p>
+<dl class="section author"><dt>作者</dt><dd>yue.rui </dd></dl>
+<dl class="section version"><dt>版本</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>日期</dt><dd>2025-01-18</dd></dl>
+<p>详细说明 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">函数说明</h2>
+<a id="ae36dcc3a00d9214beb36047a7b322e4a" name="ae36dcc3a00d9214beb36047a7b322e4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae36dcc3a00d9214beb36047a7b322e4a">&#9670;&#160;</a></span>DftJsonAddArrayToObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonAddArrayToObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *const</td>          <td class="paramname"><span class="paramname"><em>iName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>给iObject对象添加一个名为name的队列节点属性 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回添加的节点对象，如果创建或者添加失败则返回NULL </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iObject</td><td>要创建的节点信息 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iName</td><td>要添加的属性名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a09efcd653107178488c408d2ab467501" name="a09efcd653107178488c408d2ab467501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09efcd653107178488c408d2ab467501">&#9670;&#160;</a></span>DftJsonAddItemToArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> DftJsonAddItemToArray </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iArray</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>将iItem节点添加到iArray队列中 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 返回添加是否成功 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iArray</td><td>要创建的节点信息 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>创建个数 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4aecd2ea093004d875ecb87dd7fc3641" name="a4aecd2ea093004d875ecb87dd7fc3641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aecd2ea093004d875ecb87dd7fc3641">&#9670;&#160;</a></span>DftJsonAddItemToObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> DftJsonAddItemToObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *</td>          <td class="paramname"><span class="paramname"><em>iString</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>将iItem节点添加到iObject属性中 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 返回创建节点对象是否成功 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iObject</td><td>基础节点对象 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iString</td><td>属性名称 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>添加的节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a818b162473e6209e58aeb87753859c5a" name="a818b162473e6209e58aeb87753859c5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a818b162473e6209e58aeb87753859c5a">&#9670;&#160;</a></span>DftJsonAddNumberToObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonAddNumberToObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *</td>          <td class="paramname"><span class="paramname"><em>iName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>将数字添加到iObject中 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回添加的节点对象，如果创建或者添加失败则返回NULL </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iObject</td><td>基础节点对象 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iName</td><td>添加节点名称 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iValue</td><td>添加数值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a205a74d42f3c0a914c0cbe9ec67b5ed4" name="a205a74d42f3c0a914c0cbe9ec67b5ed4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a205a74d42f3c0a914c0cbe9ec67b5ed4">&#9670;&#160;</a></span>DftJsonAddObjectToObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonAddObjectToObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *const</td>          <td class="paramname"><span class="paramname"><em>iName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>给iObject对象添加一个名为name的对象节点属性 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回添加的节点对象，如果创建或者添加失败则返回NULL </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iObject</td><td>要创建的节点信息 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iName</td><td>要添加的属性名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a98ab9e1cc2b6c81bb76c64e9f6719ee0" name="a98ab9e1cc2b6c81bb76c64e9f6719ee0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98ab9e1cc2b6c81bb76c64e9f6719ee0">&#9670;&#160;</a></span>DftJsonAddStringToObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonAddStringToObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *</td>          <td class="paramname"><span class="paramname"><em>iName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *</td>          <td class="paramname"><span class="paramname"><em>iString</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>将字符串添加到iObject中 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回添加的节点对象，如果创建或者添加失败则返回NULL </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iObject</td><td>基础节点对象 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iName</td><td>添加节点名称 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iString</td><td>添加字符串内容 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a24b94f80faf94c75d06f82dc8e132b99" name="a24b94f80faf94c75d06f82dc8e132b99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24b94f80faf94c75d06f82dc8e132b99">&#9670;&#160;</a></span>DftJsonCreateArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonCreateArray </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>创建队列节点 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回创建节点对象 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a8ad2013c1336c322ed72ea6ff1915545" name="a8ad2013c1336c322ed72ea6ff1915545"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ad2013c1336c322ed72ea6ff1915545">&#9670;&#160;</a></span>DftJsonCreateBool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonCreateBool </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></td>          <td class="paramname"><span class="paramname"><em>iBoolean</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>创建值为boolean的布尔节点 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回创建节点对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBoolean</td><td>节点信息 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a9147b67f0357206795e172ead66689a2" name="a9147b67f0357206795e172ead66689a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9147b67f0357206795e172ead66689a2">&#9670;&#160;</a></span>DftJsonCreateNull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonCreateNull </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>创建空节点 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回创建节点对象 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a222db5158ab93c66efa0e7eccfee94d0" name="a222db5158ab93c66efa0e7eccfee94d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a222db5158ab93c66efa0e7eccfee94d0">&#9670;&#160;</a></span>DftJsonCreateNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonCreateNumber </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iNum</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>创建值为num的数字节点 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回创建节点对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iNum</td><td>节点信息 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>说明 返回创建节点对象 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a5277df63f6be4569a05602bf68ed1f1d" name="a5277df63f6be4569a05602bf68ed1f1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5277df63f6be4569a05602bf68ed1f1d">&#9670;&#160;</a></span>DftJsonCreateObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonCreateObject </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>创建对象节点 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回创建节点对象 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a162b480ae34e624ac73e8d22b60cc8f3" name="a162b480ae34e624ac73e8d22b60cc8f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a162b480ae34e624ac73e8d22b60cc8f3">&#9670;&#160;</a></span>DftJsonCreateString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonCreateString </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *</td>          <td class="paramname"><span class="paramname"><em>iString</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>创建值为iString的字符串节点 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回创建节点对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iString</td><td>节点信息 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ae8357bcadae125c03aaf963cc2ec9bb2" name="ae8357bcadae125c03aaf963cc2ec9bb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8357bcadae125c03aaf963cc2ec9bb2">&#9670;&#160;</a></span>DftJsonDelete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0">DftStatus</a> DftJsonDelete </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> *</td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>删除节点，释放内存 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0" title="状态码">DftStatus</a> <a class="el" href="_dft_status_8h.html#aaec3efe5260f65ebb619b167325491b0a871405a91bd6030ebfb92297bf941075">DFT_SUCCESS</a> 执行成功；其他值，执行失败 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>json节点对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a02d7fd08b4fd779e249622a62491af0c" name="a02d7fd08b4fd779e249622a62491af0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02d7fd08b4fd779e249622a62491af0c">&#9670;&#160;</a></span>DftJsonGetArrayItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonGetArrayItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iArray</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a></td>          <td class="paramname"><span class="paramname"><em>iIndex</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>从队列节点中检索json节点 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回检索到的节点对象，如果不成功则返回NULL </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iArray</td><td>json队列节点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iIndex</td><td>索引 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ab5e4c0f501a54acc152ee200829ac5f7" name="ab5e4c0f501a54acc152ee200829ac5f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5e4c0f501a54acc152ee200829ac5f7">&#9670;&#160;</a></span>DftJsonGetArraySize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> DftJsonGetArraySize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>返回队列节点的数量 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e" title="整数">DftInt</a> 队列节点的数量 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iArray</td><td>json队列节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ad5dbd3687931b12e4dd31375e8ac8343" name="ad5dbd3687931b12e4dd31375e8ac8343"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5dbd3687931b12e4dd31375e8ac8343">&#9670;&#160;</a></span>DftJsonGetNumberValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> DftJsonGetNumberValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>获取对象节点中是对应的数值json节点的值 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e" title="双精度浮点数">DftDouble</a> 返回字符串对象的值 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>对象节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ae5f0238d1ab5d2fc93cbeabb557445d5" name="ae5f0238d1ab5d2fc93cbeabb557445d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5f0238d1ab5d2fc93cbeabb557445d5">&#9670;&#160;</a></span>DftJsonGetObjectItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonGetObjectItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *const</td>          <td class="paramname"><span class="paramname"><em>iString</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>从对象节点中检索对应的字符串json节点 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回检索到的节点对象，如果不成功则返回NULL，该接口为大小写不敏感 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iObject</td><td>对象节点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iString</td><td>对象属性名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a635daded38618b478a793c1c2e16dacf" name="a635daded38618b478a793c1c2e16dacf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a635daded38618b478a793c1c2e16dacf">&#9670;&#160;</a></span>DftJsonGetStringValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> * DftJsonGetStringValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>获取对象节点中是对应的字符串json节点的值 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0" title="utf-8字符">DftUTF8Char</a> * 返回字符串对象的值 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>对象节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a8fff7a26f0a15a6858d7e0f9b71de821" name="a8fff7a26f0a15a6858d7e0f9b71de821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fff7a26f0a15a6858d7e0f9b71de821">&#9670;&#160;</a></span>DftJsonHasObjectItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> DftJsonHasObjectItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *</td>          <td class="paramname"><span class="paramname"><em>iString</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断对象节点中是否存在对应的字符串json节点 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> TRUE表示存在，FALSE表示不存在 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iObject</td><td>对象节点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iString</td><td>对象属性名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="afc351523c5d920e188b5e58fccc4cf18" name="afc351523c5d920e188b5e58fccc4cf18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc351523c5d920e188b5e58fccc4cf18">&#9670;&#160;</a></span>DftJsonIsArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> DftJsonIsArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断对象节点是否为队列 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 返回判断结果 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>对象节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ae7c869b446808dff8bcfee0db355a4b1" name="ae7c869b446808dff8bcfee0db355a4b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7c869b446808dff8bcfee0db355a4b1">&#9670;&#160;</a></span>DftJsonIsBool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> DftJsonIsBool </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断对象节点是否为 <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 类型 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 返回判断结果 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>对象节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a8aa08f767beffb4fcce15cb7b5ac8c45" name="a8aa08f767beffb4fcce15cb7b5ac8c45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8aa08f767beffb4fcce15cb7b5ac8c45">&#9670;&#160;</a></span>DftJsonIsFalse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> DftJsonIsFalse </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断对象节点是否为false </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 返回判断结果 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>对象节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a2a34179797db4a1b9190fc8cd6cad850" name="a2a34179797db4a1b9190fc8cd6cad850"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a34179797db4a1b9190fc8cd6cad850">&#9670;&#160;</a></span>DftJsonIsInvalid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> DftJsonIsInvalid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断对象节点是否有效 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 返回判断结果，TRUE代表节点无效，FALSE代表有效 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>对象节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a5601ccae2fa37404524bd97d62a25ce1" name="a5601ccae2fa37404524bd97d62a25ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5601ccae2fa37404524bd97d62a25ce1">&#9670;&#160;</a></span>DftJsonIsNull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> DftJsonIsNull </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断对象节点是否为空 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 返回判断结果 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>对象节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a9f6b004e51316311a5942a7a37f8d1f5" name="a9f6b004e51316311a5942a7a37f8d1f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f6b004e51316311a5942a7a37f8d1f5">&#9670;&#160;</a></span>DftJsonIsNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> DftJsonIsNumber </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断对象节点是否为数值 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 返回判断结果 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>对象节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a81727642212a1cf9f3bcbad96c3fce60" name="a81727642212a1cf9f3bcbad96c3fce60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81727642212a1cf9f3bcbad96c3fce60">&#9670;&#160;</a></span>DftJsonIsObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> DftJsonIsObject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断对象节点是否为对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 返回判断结果 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>对象节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a22d0e5217d9928c4eefe783b998aba86" name="a22d0e5217d9928c4eefe783b998aba86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22d0e5217d9928c4eefe783b998aba86">&#9670;&#160;</a></span>DftJsonIsString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> DftJsonIsString </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断对象节点是否为字符串 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 返回判断结果 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>对象节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a5a7910f150fbcc91ad9016440515d5b0" name="a5a7910f150fbcc91ad9016440515d5b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a7910f150fbcc91ad9016440515d5b0">&#9670;&#160;</a></span>DftJsonIsTrue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> DftJsonIsTrue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断对象节点是否为true </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 返回判断结果 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>对象节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a2220cd4a5faf2b34df371db02f3ef03a" name="a2220cd4a5faf2b34df371db02f3ef03a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2220cd4a5faf2b34df371db02f3ef03a">&#9670;&#160;</a></span>DftJsonParse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> DftJsonParse </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *</td>          <td class="paramname"><span class="paramname"><em>iValue</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>将字符串解析为json节点 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55" title="json节点对象">DftJson</a> 返回json节点对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iValue</td><td>具备json格式的字符串 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>调用者将要负责管理解析创建出的对象内存，调用对应的内存析构接口 </dd></dl>
+
+</div>
+</div>
+<a id="adc30a73950b13a8d93db06cbcfed54d9" name="adc30a73950b13a8d93db06cbcfed54d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc30a73950b13a8d93db06cbcfed54d9">&#9670;&#160;</a></span>DftJsonPrint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> * DftJsonPrint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></td>          <td class="paramname"><span class="paramname"><em>iItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>将json节点解析为字符串 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0" title="utf-8字符">DftUTF8Char</a> *，返回具备json格式的字符串 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iItem</td><td>json节点对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_88cccc9d439318285f6d519044a748d2.html">DftBase</a></li><li class="navelem"><a href="_dft_json_8h.html">DftJson.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

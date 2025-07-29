@@ -1,0 +1,86 @@
+solid D:\work\code\DevelopmentCode\PDVReader\test\output\Node_251546254121123840\red (red.2).stl
+   facet normal 0 -1 0
+      outer loop
+         vertex 200 200 0
+         vertex 300 200 0
+         vertex 200 200 100
+      endloop
+   endfacet
+   facet normal 0 -1 0
+      outer loop
+         vertex 300 200 0
+         vertex 300 200 100
+         vertex 200 200 100
+      endloop
+   endfacet
+   facet normal 1 0 0
+      outer loop
+         vertex 300 200 0
+         vertex 300 300 0
+         vertex 300 200 100
+      endloop
+   endfacet
+   facet normal 1 0 0
+      outer loop
+         vertex 300 300 0
+         vertex 300 300 100
+         vertex 300 200 100
+      endloop
+   endfacet
+   facet normal 0 1 0
+      outer loop
+         vertex 300 300 0
+         vertex 200 300 0
+         vertex 300 300 100
+      endloop
+   endfacet
+   facet normal 0 1 0
+      outer loop
+         vertex 200 300 0
+         vertex 200 300 100
+         vertex 300 300 100
+      endloop
+   endfacet
+   facet normal -1 0 0
+      outer loop
+         vertex 200 300 0
+         vertex 200 200 0
+         vertex 200 300 100
+      endloop
+   endfacet
+   facet normal -1 0 0
+      outer loop
+         vertex 200 200 0
+         vertex 200 200 100
+         vertex 200 300 100
+      endloop
+   endfacet
+   facet normal -0 -0 -1
+      outer loop
+         vertex 200 200 0
+         vertex 200 300 0
+         vertex 300 200 0
+      endloop
+   endfacet
+   facet normal -0 -0 -1
+      outer loop
+         vertex 300 200 0
+         vertex 200 300 0
+         vertex 300 300 0
+      endloop
+   endfacet
+   facet normal 0 0 1
+      outer loop
+         vertex 200 200 100
+         vertex 300 200 100
+         vertex 200 300 100
+      endloop
+   endfacet
+   facet normal 0 0 1
+      outer loop
+         vertex 300 200 100
+         vertex 300 300 100
+         vertex 200 300 100
+      endloop
+   endfacet
+endsolid

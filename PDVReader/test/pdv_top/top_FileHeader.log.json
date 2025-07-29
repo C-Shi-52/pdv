@@ -1,0 +1,19 @@
+{
+	"_magic(size = 8)":	[145, 80, 68, 86, 26, 13, 10, 10],
+	"_domain(size = 4)":	[80, 68, 86, 67],
+	"_majorVersion":	1,
+	"_minorVersion":	0,
+	"_maxObjectID":	"251546254163066880",
+	"_reserved(size = 10)":	[8, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"InternalVersion":	8,
+	"_docInfo":	{
+		"_docID":	"05ddadbb61144bbc8126d2b37f056c30",
+		"_title":	"top.pdv",
+		"_author":	"wei.li",
+		"_copyright":	"Featuremaker, all rights reserved",
+		"_creationDate":	"1752753636847",
+		"_modDate":	"1752753636847",
+		"_producer":	"DftConverterCATIAV5",
+		"_creator":	"CATIA V5"
+	}
+}

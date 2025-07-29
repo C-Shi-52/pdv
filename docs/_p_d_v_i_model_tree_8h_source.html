@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIModelTree.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_model_tree_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIModelTree.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_model_tree_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIMODELTREE_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIMODELTREE_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">class </span><a class="code hl_class" href="classkernel_1_1pdv_1_1_i_model_tree_node.html">IModelTreeNode</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span></div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="};">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_model_tree.html">   25</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_model_tree.html">IModelTree</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>{</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_model_tree.html#ad90672dcb9f614a5fbf178b580ddad79">   34</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_model_tree.html#ad90672dcb9f614a5fbf178b580ddad79">GetName</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oName) = 0;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_model_tree.html#aa92030bbd7f08b32c9ff971f1798bc5c">   42</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_model_tree.html#aa92030bbd7f08b32c9ff971f1798bc5c">SetName</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iName) = 0;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_model_tree.html#aaa1a998e685d5997a386f8a17f49b872">   49</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_model_tree.html#aaa1a998e685d5997a386f8a17f49b872">GetNodeCount</a>() = 0;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_model_tree.html#a02b030b641e847ffb312f4ce8c14b22b">   59</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_model_tree.html#a02b030b641e847ffb312f4ce8c14b22b">AddNode</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iNodeName, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_model_tree_node.html">IModelTreeNode</a> *iParent, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_model_tree_node.html">IModelTreeNode</a> *&amp;oNewNode) = 0;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_model_tree.html#a450811a801a7de3d8e282212c0276aa9">   68</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_model_tree.html#a450811a801a7de3d8e282212c0276aa9">InsertNode</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iNodeName, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_model_tree_node.html">IModelTreeNode</a> *iNode, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_model_tree_node.html">IModelTreeNode</a> *&amp;oNewNode) = 0;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_model_tree.html#a59bdc7dd994c7cc9955cb45411f53ee9">   75</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_model_tree.html#a59bdc7dd994c7cc9955cb45411f53ee9">DeleteNode</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_model_tree_node.html">IModelTreeNode</a> *iNode) = 0;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_model_tree.html#a04608951f4aaab8c94d18c4551b21427">   83</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_model_tree.html#a04608951f4aaab8c94d18c4551b21427">GetRootNode</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_model_tree_node.html">IModelTreeNode</a> *&amp;oRootNode) = 0;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_model_tree.html#af5b05fc4712d50d30faf516d71f7eff5">   92</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_model_tree.html#af5b05fc4712d50d30faf516d71f7eff5">GetTreeNodeByID</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iNodeID, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_model_tree_node.html">IModelTreeNode</a> *&amp;oNode) = 0;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_model_tree.html#a7f279c4bd1dcdf49add20099218b87a3">  100</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_model_tree.html#a7f279c4bd1dcdf49add20099218b87a3">GetChildrenNodes</a>(std::vector&lt;IModelTreeNode *&gt; &amp;oChildrenArray) = 0;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_model_tree.html#a1e3dce9378d25126337681f7856dbd54">  108</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_model_tree.html#a1e3dce9378d25126337681f7856dbd54">MergeChildNodeByMaxLevel</a>(<a class="code hl_typedef" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> iMaxLevel) = 0;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_model_tree.html#a716a1cc3199235ec8cb96b2217da9e87">  116</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_model_tree.html#a716a1cc3199235ec8cb96b2217da9e87">MergeChildNodeByNodeID</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iNodeID) = 0;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>};</div>
+</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a053d8ce6a85300520cc14cd4650ced33"><div class="ttname"><a href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></div><div class="ttdeci">unsigned long long DftUInt64</div><div class="ttdoc">64位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:64</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a9dd0d1ca2dc17c79bf9082d2b72d957f"><div class="ttname"><a href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></div><div class="ttdeci">unsigned int DftUInt</div><div class="ttdoc">无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:48</div></div>
+<div class="ttc" id="a_dft_types_8h_html_af0fc3c96826067c11a44bb8caca06b9e"><div class="ttname"><a href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a></div><div class="ttdeci">int DftInt</div><div class="ttdoc">整数</div><div class="ttdef"><b>定义</b> DftTypes.h:46</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="aclass_c_unicode_string_html"><div class="ttname"><a href="class_c_unicode_string.html">CUnicodeString</a></div><div class="ttdoc">Unicode字符操作接口</div><div class="ttdef"><b>定义</b> UnicodeString.h:80</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html">kernel::pdv::IModelTree</a></div><div class="ttdoc">模型树的接口</div><div class="ttdef"><b>定义</b> PDVIModelTree.h:26</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html_a02b030b641e847ffb312f4ce8c14b22b"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html#a02b030b641e847ffb312f4ce8c14b22b">kernel::pdv::IModelTree::AddNode</a></div><div class="ttdeci">virtual PDV_RESULT AddNode(const CUnicodeString &amp;iNodeName, IModelTreeNode *iParent, IModelTreeNode *&amp;oNewNode)=0</div><div class="ttdoc">添加模型树节点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html_a04608951f4aaab8c94d18c4551b21427"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html#a04608951f4aaab8c94d18c4551b21427">kernel::pdv::IModelTree::GetRootNode</a></div><div class="ttdeci">virtual PDV_RESULT GetRootNode(IModelTreeNode *&amp;oRootNode)=0</div><div class="ttdoc">获取根节点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html_a1e3dce9378d25126337681f7856dbd54"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html#a1e3dce9378d25126337681f7856dbd54">kernel::pdv::IModelTree::MergeChildNodeByMaxLevel</a></div><div class="ttdeci">virtual PDV_RESULT MergeChildNodeByMaxLevel(DftInt iMaxLevel)=0</div><div class="ttdoc">根据最大层级数合并子节点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html_a450811a801a7de3d8e282212c0276aa9"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html#a450811a801a7de3d8e282212c0276aa9">kernel::pdv::IModelTree::InsertNode</a></div><div class="ttdeci">virtual PDV_RESULT InsertNode(const CUnicodeString &amp;iNodeName, IModelTreeNode *iNode, IModelTreeNode *&amp;oNewNode)=0</div><div class="ttdoc">插入模型树节点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html_a59bdc7dd994c7cc9955cb45411f53ee9"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html#a59bdc7dd994c7cc9955cb45411f53ee9">kernel::pdv::IModelTree::DeleteNode</a></div><div class="ttdeci">virtual PDV_RESULT DeleteNode(IModelTreeNode *iNode)=0</div><div class="ttdoc">删除树节点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html_a716a1cc3199235ec8cb96b2217da9e87"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html#a716a1cc3199235ec8cb96b2217da9e87">kernel::pdv::IModelTree::MergeChildNodeByNodeID</a></div><div class="ttdeci">virtual PDV_RESULT MergeChildNodeByNodeID(DftUInt64 iNodeID)=0</div><div class="ttdoc">根据节点ID合并子节点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html_a7f279c4bd1dcdf49add20099218b87a3"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html#a7f279c4bd1dcdf49add20099218b87a3">kernel::pdv::IModelTree::GetChildrenNodes</a></div><div class="ttdeci">virtual PDV_RESULT GetChildrenNodes(std::vector&lt; IModelTreeNode * &gt; &amp;oChildrenArray)=0</div><div class="ttdoc">获取模型树子全部子节点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html_aa92030bbd7f08b32c9ff971f1798bc5c"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html#aa92030bbd7f08b32c9ff971f1798bc5c">kernel::pdv::IModelTree::SetName</a></div><div class="ttdeci">virtual PDV_RESULT SetName(const CUnicodeString &amp;iName)=0</div><div class="ttdoc">设置模型树名称</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html_aaa1a998e685d5997a386f8a17f49b872"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html#aaa1a998e685d5997a386f8a17f49b872">kernel::pdv::IModelTree::GetNodeCount</a></div><div class="ttdeci">virtual DftUInt GetNodeCount()=0</div><div class="ttdoc">获取节点个数</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html_ad90672dcb9f614a5fbf178b580ddad79"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html#ad90672dcb9f614a5fbf178b580ddad79">kernel::pdv::IModelTree::GetName</a></div><div class="ttdeci">virtual PDV_RESULT GetName(CUnicodeString &amp;oName)=0</div><div class="ttdoc">获取模型树名称</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html_af5b05fc4712d50d30faf516d71f7eff5"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html#af5b05fc4712d50d30faf516d71f7eff5">kernel::pdv::IModelTree::GetTreeNodeByID</a></div><div class="ttdeci">virtual PDV_RESULT GetTreeNodeByID(DftUInt64 iNodeID, IModelTreeNode *&amp;oNode)=0</div><div class="ttdoc">根据ID获取节点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_node_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree_node.html">kernel::pdv::IModelTreeNode</a></div><div class="ttdoc">模型树节点的接口</div><div class="ttdef"><b>定义</b> PDVIModelTreeNode.h:98</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_model_tree_8h.html">PDVIModelTree.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

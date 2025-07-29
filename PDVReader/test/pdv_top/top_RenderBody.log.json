@@ -1,0 +1,40 @@
+{
+	"renderBodies(size = 3)":	{
+		"renderBody[0]":	{
+			"_id":	"251546253781385216",
+			"_name":	"red",
+			"_bitMask":	7,
+			"_pointMeshIDs(size = 0)":	[],
+			"_lineMeshIDs(size = 1)":	["251546253789773826"],
+			"_faceMeshIDs(size = 1)":	["251546253785579522"],
+			"_brepID":	"251546253772996683",
+			"_renderBodySubsetID":	"251546253793968128",
+			"_matrix":	[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]],
+			"_refCount":	0
+		},
+		"renderBody[1]":	{
+			"_id":	"251546254100152399",
+			"_name":	"red",
+			"_bitMask":	7,
+			"_pointMeshIDs(size = 0)":	[],
+			"_lineMeshIDs(size = 1)":	["251546254104346625"],
+			"_faceMeshIDs(size = 1)":	["251546254100152403"],
+			"_brepID":	"251546254100152398",
+			"_renderBodySubsetID":	"251546254104346638",
+			"_matrix":	[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]],
+			"_refCount":	0
+		},
+		"renderBody[2]":	{
+			"_id":	"251546254150483968",
+			"_name":	"red",
+			"_bitMask":	7,
+			"_pointMeshIDs(size = 0)":	[],
+			"_lineMeshIDs(size = 1)":	["251546254150483980"],
+			"_faceMeshIDs(size = 1)":	["251546254150483972"],
+			"_brepID":	"251546254146289742",
+			"_renderBodySubsetID":	"251546254150483993",
+			"_matrix":	[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]],
+			"_refCount":	0
+		}
+	}
+}

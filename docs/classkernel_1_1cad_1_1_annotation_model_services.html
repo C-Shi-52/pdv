@@ -1,0 +1,628 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: kernel::cad::AnnotationModelServices类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('classkernel_1_1cad_1_1_annotation_model_services.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">kernel::cad::AnnotationModelServices类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a1205864795f1c4ab96df848e744674cd" id="r_a1205864795f1c4ab96df848e744674cd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1205864795f1c4ab96df848e744674cd">AnnotationModel2GraphicData</a> (const <a class="el" href="structkernel_1_1cad_1_1_annotation_model.html">AnnotationModel</a> &amp;iAnnoModel, <a class="el" href="structkernel_1_1pdv_1_1_annotation_graphic_data.html">kernel::pdv::AnnotationGraphicData</a> &amp;oGraphicData)</td></tr>
+<tr class="memdesc:a1205864795f1c4ab96df848e744674cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: AnnotationModel2GraphicData, 将标注模型转换为图形数据  <br /></td></tr>
+<tr class="memitem:aafdf202d66f9415a8cecd5bc8560449f" id="r_aafdf202d66f9415a8cecd5bc8560449f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafdf202d66f9415a8cecd5bc8560449f">GetTextWidth</a> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iText, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iTextHeight, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iTextWidthFactor, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iFontPath)</td></tr>
+<tr class="memdesc:aafdf202d66f9415a8cecd5bc8560449f"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: GetTextWidth, 获取文本的显示总宽度  <br /></td></tr>
+<tr class="memitem:a8f1e6660ebb2cd7f26666a8ec32a60ab" id="r_a8f1e6660ebb2cd7f26666a8ec32a60ab"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f1e6660ebb2cd7f26666a8ec32a60ab">AppendArc2AnnotationModel</a> (const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;iOrigin, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iRadius, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iStartAngle, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iEndAngle, <a class="el" href="structkernel_1_1cad_1_1_annotation_model.html">AnnotationModel</a> &amp;oAnnoModel)</td></tr>
+<tr class="memdesc:a8f1e6660ebb2cd7f26666a8ec32a60ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: AppendArc2AnnotationModel, 将圆弧线添加至标注模型  <br /></td></tr>
+<tr class="memitem:a6fd841bd1bfc13e0ffb8a57ff762717c" id="r_a6fd841bd1bfc13e0ffb8a57ff762717c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fd841bd1bfc13e0ffb8a57ff762717c">AppendLinearDimensionLines2AnnotationModel</a> (const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;iExtensionLinePt1, const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;iExtensionLinePt2, const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;iDimesnionLinePt1, const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;iDimesnionLinePt2, <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> iArrow1Type, <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> iArrow2Type, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iArrowWidth, <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> iArrowReversed, <a class="el" href="structkernel_1_1cad_1_1_annotation_model.html">AnnotationModel</a> &amp;oAnnoModel, const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> *iDimesnionLineExtraPt=NULL)</td></tr>
+<tr class="memdesc:a6fd841bd1bfc13e0ffb8a57ff762717c"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: AppendDimensionLines2AnnotationModel, 将线性尺寸线添加至标注模型  <br /></td></tr>
+<tr class="memitem:acd6b528524c54adbe99369f773ba60f4" id="r_acd6b528524c54adbe99369f773ba60f4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd6b528524c54adbe99369f773ba60f4">AppendAngleDimensionLines2AnnotationModel</a> (const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;iExtensionLinePt1, const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;iExtensionLinePt2, const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;iDimesnionLinePt1, const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;iDimesnionLinePt2, <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> iArrow1Type, <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> iArrow2Type, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iArrowWidth, <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> iArrowReversed, <a class="el" href="structkernel_1_1cad_1_1_annotation_model.html">AnnotationModel</a> &amp;oAnnoModel, const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> *iDimesnionLineExtraPt=NULL, <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> iDimesnionLineExtendFromStart=TRUE)</td></tr>
+<tr class="memdesc:acd6b528524c54adbe99369f773ba60f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: AppendAngleDimensionLines2AnnotationModel, 将线性尺寸线添加至标注模型  <br /></td></tr>
+<tr class="memitem:acb4a9e3530f2dd45c0a67e2fa699a85c" id="r_acb4a9e3530f2dd45c0a67e2fa699a85c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb4a9e3530f2dd45c0a67e2fa699a85c">AppendDimensionValueWithTolerance2AnnotationModel</a> (const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;iPosition, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iDimensionValue, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iUpperTolerance, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iLowerTolerance, <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> iWithBracket, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iTextHeight, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iTextWidthFactor, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iAngle, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iFontPath, <a class="el" href="structkernel_1_1cad_1_1_annotation_model.html">AnnotationModel</a> &amp;oAnnoModel, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;oTotalWidth)</td></tr>
+<tr class="memdesc:acb4a9e3530f2dd45c0a67e2fa699a85c"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: AppendDimensionValueWithTolerance2AnnotationModel, 将带偏差的尺寸值添加至标注模型  <br /></td></tr>
+<tr class="memitem:a3723928ab414615c748b2f418a937e47" id="r_a3723928ab414615c748b2f418a937e47"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3723928ab414615c748b2f418a937e47">AppendGtolBaseSymbol2AnnotationModel</a> (<a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> iBaseSymbolType, const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;iBaseSymbolCenter, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iTextHeight, <a class="el" href="structkernel_1_1cad_1_1_annotation_model.html">AnnotationModel</a> &amp;oAnnoModel)</td></tr>
+<tr class="memdesc:a3723928ab414615c748b2f418a937e47"><td class="mdescLeft">&#160;</td><td class="mdescRight">函数名称: AppendGtolBaseSymbol2AnnotationModel, 将几何公差的基本符号添加至标注模型  <br /></td></tr>
+</table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">成员函数说明</h2>
+<a id="a1205864795f1c4ab96df848e744674cd" name="a1205864795f1c4ab96df848e744674cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1205864795f1c4ab96df848e744674cd">&#9670;&#160;</a></span>AnnotationModel2GraphicData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::cad::AnnotationModelServices::AnnotationModel2GraphicData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structkernel_1_1cad_1_1_annotation_model.html">AnnotationModel</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iAnnoModel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structkernel_1_1pdv_1_1_annotation_graphic_data.html">kernel::pdv::AnnotationGraphicData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oGraphicData</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: AnnotationModel2GraphicData, 将标注模型转换为图形数据 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iAnnoModel</td><td>标注模型 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oGraphicData</td><td>标注图形数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="acd6b528524c54adbe99369f773ba60f4" name="acd6b528524c54adbe99369f773ba60f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd6b528524c54adbe99369f773ba60f4">&#9670;&#160;</a></span>AppendAngleDimensionLines2AnnotationModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::cad::AnnotationModelServices::AppendAngleDimensionLines2AnnotationModel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iExtensionLinePt1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iExtensionLinePt2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDimesnionLinePt1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDimesnionLinePt2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></td>          <td class="paramname"><span class="paramname"><em>iArrow1Type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></td>          <td class="paramname"><span class="paramname"><em>iArrow2Type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></td>          <td class="paramname"><span class="paramname"><em>iArrowWidth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></td>          <td class="paramname"><span class="paramname"><em>iArrowReversed</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structkernel_1_1cad_1_1_annotation_model.html">AnnotationModel</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oAnnoModel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> *</td>          <td class="paramname"><span class="paramname"><em>iDimesnionLineExtraPt</em></span><span class="paramdefsep"> = </span><span class="paramdefval">NULL</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></td>          <td class="paramname"><span class="paramname"><em>iDimesnionLineExtendFromStart</em></span><span class="paramdefsep"> = </span><span class="paramdefval">TRUE</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: AppendAngleDimensionLines2AnnotationModel, 将线性尺寸线添加至标注模型 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iExtensionLinePt1</td><td>尺寸引出线点1 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iExtensionLinePt2</td><td>尺寸引出线点2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDimesnionLinePt1</td><td>尺寸线点1 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDimesnionLinePt2</td><td>尺寸线点2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iArrow1Type</td><td>箭头1类型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iArrow2Type</td><td>箭头2类型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iArrowWidth</td><td>箭头宽度 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iArrowReversed</td><td>箭头是否反向 尺寸线与尺寸引出线示意图: iDimesnionLinePt2 iDimesnionLinePt1 *&lt;---------------&gt;<em>------&mdash;</em> iDimesnionLineExtraPt <table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+</table>
+<ul>
+<li>* iExtensionLinePt2 iExtensionLinePt1 </li>
+</ul>
+</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oAnnoModel</td><td>标注模型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDimesnionLineExtraPt</td><td>尺寸线延伸点（可选）, 如果为空, 则不存在延伸点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDimesnionLineExtendFromStart</td><td>尺寸线从起始点延伸, 如果为否, 则从终止点延伸 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>尺寸线为弧度线, 圆弧沿逆时针方向从尺寸线点1旋转到尺寸线点2 </dd></dl>
+
+</div>
+</div>
+<a id="a8f1e6660ebb2cd7f26666a8ec32a60ab" name="a8f1e6660ebb2cd7f26666a8ec32a60ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f1e6660ebb2cd7f26666a8ec32a60ab">&#9670;&#160;</a></span>AppendArc2AnnotationModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::cad::AnnotationModelServices::AppendArc2AnnotationModel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></td>          <td class="paramname"><span class="paramname"><em>iRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></td>          <td class="paramname"><span class="paramname"><em>iStartAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></td>          <td class="paramname"><span class="paramname"><em>iEndAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structkernel_1_1cad_1_1_annotation_model.html">AnnotationModel</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oAnnoModel</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: AppendArc2AnnotationModel, 将圆弧线添加至标注模型 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iOrigin</td><td>原点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iRadius</td><td>半径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartAngle</td><td>起始角（弧度） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iEndAngle</td><td>终止角（弧度） </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oAnnoModel</td><td>标注模型 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="acb4a9e3530f2dd45c0a67e2fa699a85c" name="acb4a9e3530f2dd45c0a67e2fa699a85c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb4a9e3530f2dd45c0a67e2fa699a85c">&#9670;&#160;</a></span>AppendDimensionValueWithTolerance2AnnotationModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::cad::AnnotationModelServices::AppendDimensionValueWithTolerance2AnnotationModel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iPosition</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDimensionValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iUpperTolerance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iLowerTolerance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></td>          <td class="paramname"><span class="paramname"><em>iWithBracket</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></td>          <td class="paramname"><span class="paramname"><em>iTextHeight</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></td>          <td class="paramname"><span class="paramname"><em>iTextWidthFactor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></td>          <td class="paramname"><span class="paramname"><em>iAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iFontPath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structkernel_1_1cad_1_1_annotation_model.html">AnnotationModel</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oAnnoModel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oTotalWidth</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: AppendDimensionValueWithTolerance2AnnotationModel, 将带偏差的尺寸值添加至标注模型 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPosition</td><td>尺寸值起始位置 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDimensionValue</td><td>尺寸值文本 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iUpperTolerance</td><td>上偏差文本 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iLowerTolerance</td><td>下偏差文本 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iWithBracket</td><td>是否带括号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iTextHeight</td><td>文本高度 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iAngle</td><td>角度（逆时针, 单位为度） </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oAnnoModel</td><td>标注模型 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oTotalWidth</td><td>尺寸文本总宽度 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a3723928ab414615c748b2f418a937e47" name="a3723928ab414615c748b2f418a937e47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3723928ab414615c748b2f418a937e47">&#9670;&#160;</a></span>AppendGtolBaseSymbol2AnnotationModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::cad::AnnotationModelServices::AppendGtolBaseSymbol2AnnotationModel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></td>          <td class="paramname"><span class="paramname"><em>iBaseSymbolType</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iBaseSymbolCenter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></td>          <td class="paramname"><span class="paramname"><em>iTextHeight</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structkernel_1_1cad_1_1_annotation_model.html">AnnotationModel</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oAnnoModel</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: AppendGtolBaseSymbol2AnnotationModel, 将几何公差的基本符号添加至标注模型 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBaseSymbolType</td><td>基本符号类型, 见GtolType </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBaseSymbolCenter</td><td>基本符号中心 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iTextHeight</td><td>文本高度 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oAnnoModel</td><td>标注模型 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a6fd841bd1bfc13e0ffb8a57ff762717c" name="a6fd841bd1bfc13e0ffb8a57ff762717c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fd841bd1bfc13e0ffb8a57ff762717c">&#9670;&#160;</a></span>AppendLinearDimensionLines2AnnotationModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::cad::AnnotationModelServices::AppendLinearDimensionLines2AnnotationModel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iExtensionLinePt1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iExtensionLinePt2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDimesnionLinePt1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iDimesnionLinePt2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></td>          <td class="paramname"><span class="paramname"><em>iArrow1Type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></td>          <td class="paramname"><span class="paramname"><em>iArrow2Type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></td>          <td class="paramname"><span class="paramname"><em>iArrowWidth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></td>          <td class="paramname"><span class="paramname"><em>iArrowReversed</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structkernel_1_1cad_1_1_annotation_model.html">AnnotationModel</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oAnnoModel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector2_f.html">PDVVector2F</a> *</td>          <td class="paramname"><span class="paramname"><em>iDimesnionLineExtraPt</em></span><span class="paramdefsep"> = </span><span class="paramdefval">NULL</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: AppendDimensionLines2AnnotationModel, 将线性尺寸线添加至标注模型 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iExtensionLinePt1</td><td>尺寸引出线点1 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iExtensionLinePt2</td><td>尺寸引出线点2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDimesnionLinePt1</td><td>尺寸线点1 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDimesnionLinePt2</td><td>尺寸线点2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iArrow1Type</td><td>箭头1类型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iArrow2Type</td><td>箭头2类型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iArrowWidth</td><td>箭头宽度 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iArrowReversed</td><td>箭头是否反向 尺寸线与尺寸引出线示意图: iDimesnionLinePt1 iDimesnionLinePt2 *&lt;---------------&gt;<em>------&mdash;</em> iDimesnionLineExtraPt | | | |<ul>
+<li>* iExtensionLinePt1 iExtensionLinePt2 </li>
+</ul>
+</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oAnnoModel</td><td>标注模型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDimesnionLineExtraPt</td><td>尺寸线延伸点（可选）, 如果为空, 则不存在延伸点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aafdf202d66f9415a8cecd5bc8560449f" name="aafdf202d66f9415a8cecd5bc8560449f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafdf202d66f9415a8cecd5bc8560449f">&#9670;&#160;</a></span>GetTextWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> kernel::cad::AnnotationModelServices::GetTextWidth </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iText</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></td>          <td class="paramname"><span class="paramname"><em>iTextHeight</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></td>          <td class="paramname"><span class="paramname"><em>iTextWidthFactor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iFontPath</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>函数名称: GetTextWidth, 获取文本的显示总宽度 </p>
+<dl class="section return"><dt>返回</dt><dd>说明: <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iText</td><td>文本 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iTextHeight</td><td>文本高度 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iTextWidthFactor</td><td>文本宽高比 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iFontPath</td><td>字体文件路径 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>PDVSDK-docs/PDVConverterCore/<a class="el" href="_annotation_model_8h_source.html">AnnotationModel.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>kernel</b></li><li class="navelem"><b>cad</b></li><li class="navelem"><a href="classkernel_1_1cad_1_1_annotation_model_services.html">AnnotationModelServices</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

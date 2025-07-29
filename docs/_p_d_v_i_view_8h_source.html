@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIView.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_view_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIView.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_view_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIVIEW_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIVIEW_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="_p_d_v_i_view_8h.html#a8c613526c8ff47e03f81d305539eff25">   23</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_view_8h.html#a8c613526c8ff47e03f81d305539eff25">RenderBackgroundType</a></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_d_v_i_view_8h.html#a8c613526c8ff47e03f81d305539eff25a550e27f2199d3d5f9a07e9ca79165d39">   25</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_view_8h.html#a8c613526c8ff47e03f81d305539eff25a550e27f2199d3d5f9a07e9ca79165d39">RNDBKGTYPE_INVALID</a> = 0,   </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_p_d_v_i_view_8h.html#a8c613526c8ff47e03f81d305539eff25a3ac422642d5ef2e03fdccfdb8712c6e7">   26</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_view_8h.html#a8c613526c8ff47e03f81d305539eff25a3ac422642d5ef2e03fdccfdb8712c6e7">RNDBKGTYPE_PURECOLOR</a> = 1, </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_p_d_v_i_view_8h.html#a8c613526c8ff47e03f81d305539eff25a376f457541ac0307030e76b6a1b44fa5">   27</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_view_8h.html#a8c613526c8ff47e03f81d305539eff25a376f457541ac0307030e76b6a1b44fa5">RNDBKGTYPE_PICTURE</a> = 2,   </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
+</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">class </span>ICamera;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="};">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html">   33</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_view.html">IView</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>{</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a3bd579b5cb6fd80e08383ccab7ffcde0">   42</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a3bd579b5cb6fd80e08383ccab7ffcde0">GetName</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oName) = 0;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a5bfdc351c2df29d4181b7fbb9c8f1e98">   50</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a5bfdc351c2df29d4181b7fbb9c8f1e98">SetName</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iName) = 0;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a37f695417c0bfd8517e682d685e32965">   57</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a37f695417c0bfd8517e682d685e32965">GetCameraID</a>() = 0;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#aa83cde28ab64f13605e530cf277bd620">   65</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#aa83cde28ab64f13605e530cf277bd620">SetCameraID</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID) = 0;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a421e4b3b6b1118edfb84d5cb53e79135">   72</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a421e4b3b6b1118edfb84d5cb53e79135">GetClippedNodeCount</a>() = 0;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#aa0045277ba531eda8e26bd42ef9a1165">   80</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#aa0045277ba531eda8e26bd42ef9a1165">GetClippedNodeIDArray</a>(std::vector&lt;DftUInt64&gt; &amp;oClippedNodeIDs) = 0;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a8d1770469153eaf94a744536b6aa7570">   88</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a8d1770469153eaf94a744536b6aa7570">SetClippedNodeIDArray</a>(<span class="keyword">const</span> std::vector&lt;DftUInt64&gt; &amp;iClippedNodeIDs) = 0;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a76a8242efda3c3ac5e7c8a3dd8a71e77">   95</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a76a8242efda3c3ac5e7c8a3dd8a71e77">GetHiddenNodeCount</a>() = 0;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a5c9d4bf7219b71afdcdbb7eeb454add6">  103</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a5c9d4bf7219b71afdcdbb7eeb454add6">GetHiddenNodeIDArray</a>(std::vector&lt;DftUInt64&gt; &amp;oHiddenNodeIDs) = 0;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a52ef3e7d51414522236d483c93e703c6">  111</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a52ef3e7d51414522236d483c93e703c6">SetHiddenNodeIDArray</a>(<span class="keyword">const</span> std::vector&lt;DftUInt64&gt; &amp;iHiddenNodeIDs) = 0;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#aba90743e28a8439a7837473517f6599c">  118</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#aba90743e28a8439a7837473517f6599c">GetTransformedNodeCount</a>() = 0;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#ad214d594dbface99af87852461296a1e">  126</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#ad214d594dbface99af87852461296a1e">GetTransformedNodeIDArray</a>(std::vector&lt;DftUInt64&gt; &amp;oTransformedNodeIDs) = 0;</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a02f9719939aa2b69e4c70925ed739763">  134</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a02f9719939aa2b69e4c70925ed739763">SetTransformedNodeIDArray</a>(<span class="keyword">const</span> std::vector&lt;DftUInt64&gt; &amp;iTransformedNodeIDs) = 0;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#acd59690174415ff2885f21267dc9d5b0">  141</a></span>    <span class="keyword">virtual</span> std::vector&lt;PDVMatrix4D&gt; &amp;<a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#acd59690174415ff2885f21267dc9d5b0">GetNodeTransformations</a>() = 0;</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span></div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a3a24ffbbf025ec95624e0f23daf83c12">  149</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a3a24ffbbf025ec95624e0f23daf83c12">SetNodeTransformations</a>(<span class="keyword">const</span> std::vector&lt;PDVMatrix4D&gt;&amp; iTransformations) = 0;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span></div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#ae074515e6591cd6648622c317c3ae393">  156</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#ae074515e6591cd6648622c317c3ae393">GetClippingPlaneCount</a>() = 0;</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span></div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#ad189a1bbf402cb42dbaa572911ef8439">  168</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#ad189a1bbf402cb42dbaa572911ef8439">GetClippingPlaneData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iClippingPlaneIndex, <a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;oOrigin, <a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;oAxisX, <a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;oAxisY, <a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;oAxisZ) = 0;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span></div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a045d3d936ae5fe70a47af6450b6133c7">  176</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a045d3d936ae5fe70a47af6450b6133c7">GetClippingPlanes</a>(std::vector&lt;PlaneData&gt; &amp;oClippingPlanes) = 0;</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span></div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a34e1fa3ef0f3c8fe6c1fe1a36db91e86">  184</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a34e1fa3ef0f3c8fe6c1fe1a36db91e86">SetClippingPlanes</a>(<span class="keyword">const</span> std::vector&lt;PlaneData&gt; &amp;iClippingPlanes) = 0;</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span></div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a7651e8f85fba72143751af49095c9368">  191</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a7651e8f85fba72143751af49095c9368">GetMatChangedNodeCount</a>() = 0;</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span></div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#aac924dbee2fe6ed18ac5baa89966e439">  199</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#aac924dbee2fe6ed18ac5baa89966e439">GetMatChangedNodeIDArray</a>(std::vector&lt;DftUInt64&gt; &amp;oMatChangedNodeIDs) = 0;</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span></div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#ad994c8307251a4cf9fbe3550c820ae25">  207</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#ad994c8307251a4cf9fbe3550c820ae25">SetMatChangedNodeIDArray</a>(<span class="keyword">const</span> std::vector&lt;DftUInt64&gt; &amp;iMatChangedNodeIDs) = 0;</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span></div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a1887c3b06d1cb7a4f779262217ca40e5">  215</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a1887c3b06d1cb7a4f779262217ca40e5">GetNodeMaterialIDArray</a>(std::vector&lt;DftUInt64&gt; &amp;oNodeMaterialIDs) = 0;</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span></div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#abe707bd27e797a8c475b74fb6baf0c48">  223</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#abe707bd27e797a8c475b74fb6baf0c48">SetNodeMaterialIDArray</a>(<span class="keyword">const</span> std::vector&lt;DftUInt64&gt; &amp;iNodeMaterialIDs) = 0;</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span></div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a1c5ddd572635bdf88755a3bb76b52b64">  230</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a1c5ddd572635bdf88755a3bb76b52b64">GetBackgroundType</a>() = 0;</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a6f8ef6a32c6f0a67ed99627b9f40ee94">  238</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a6f8ef6a32c6f0a67ed99627b9f40ee94">SetBackgroundType</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> iBackgroundType) = 0;</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span></div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#af059198fff000bb78c7d4b35a787496f">  246</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#af059198fff000bb78c7d4b35a787496f">GetBackgroundColor</a>(<a class="code hl_struct" href="structkernel_1_1pdv_1_1_r_g_b_color.html">RGBColor</a> &amp;oColorValue) = 0;</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span></div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#aa0cb303f602791dd74b47cbcef8b6046">  254</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#aa0cb303f602791dd74b47cbcef8b6046">SetBackgroundColor</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structkernel_1_1pdv_1_1_r_g_b_color.html">RGBColor</a> &amp;iColorValue) = 0;</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span></div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#abd965c29e3f62b8155893d3b9f601cad">  262</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#abd965c29e3f62b8155893d3b9f601cad">GetBackgroundImageID</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;oImageID) = 0;</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span></div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#ac464dbb300ef35003dd795b6680b02f8">  270</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#ac464dbb300ef35003dd795b6680b02f8">SetBackgroundImageID</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iImageID) = 0;</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span></div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a9d1930fa2b658f62afef32e0a569fead">  278</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a9d1930fa2b658f62afef32e0a569fead">GetBackgroundTransparency</a>(<a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;oTransparencyValue) = 0;</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span></div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a4d806391d6810e23476ab27c7de25f10">  286</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a4d806391d6810e23476ab27c7de25f10">SetBackgroundTransparency</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iTransparencyValue) = 0;</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span></div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#aca35552d4bc0faff8684dd60ebf511ab">  293</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#aca35552d4bc0faff8684dd60ebf511ab">GetReviewCount</a>() = 0;</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span></div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a99faf7991df1f8beca076f10a2f89840">  301</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a99faf7991df1f8beca076f10a2f89840">GetReviewIDArray</a>(std::vector&lt;DftUInt64&gt; &amp;oReviewIDs) = 0;</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span></div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_view.html#a5e300a6485747d05cf7c21a16fa2261c">  309</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_view.html#a5e300a6485747d05cf7c21a16fa2261c">SetReviewIDArray</a>(<span class="keyword">const</span> std::vector&lt;DftUInt64&gt; &amp;iReviewIDs) = 0;</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>};</div>
+</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span> </div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a053d8ce6a85300520cc14cd4650ced33"><div class="ttname"><a href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></div><div class="ttdeci">unsigned long long DftUInt64</div><div class="ttdoc">64位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:64</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a9dd0d1ca2dc17c79bf9082d2b72d957f"><div class="ttname"><a href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></div><div class="ttdeci">unsigned int DftUInt</div><div class="ttdoc">无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:48</div></div>
+<div class="ttc" id="a_dft_types_8h_html_ab3a04804b0cf7c050b58e7e7807455d6"><div class="ttname"><a href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></div><div class="ttdeci">unsigned char DftUInt8</div><div class="ttdoc">8位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:52</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="a_p_d_v_i_view_8h_html_a8c613526c8ff47e03f81d305539eff25"><div class="ttname"><a href="_p_d_v_i_view_8h.html#a8c613526c8ff47e03f81d305539eff25">kernel::pdv::RenderBackgroundType</a></div><div class="ttdeci">RenderBackgroundType</div><div class="ttdoc">渲染背景类型</div><div class="ttdef"><b>定义</b> PDVIView.h:24</div></div>
+<div class="ttc" id="a_p_d_v_i_view_8h_html_a8c613526c8ff47e03f81d305539eff25a376f457541ac0307030e76b6a1b44fa5"><div class="ttname"><a href="_p_d_v_i_view_8h.html#a8c613526c8ff47e03f81d305539eff25a376f457541ac0307030e76b6a1b44fa5">kernel::pdv::RNDBKGTYPE_PICTURE</a></div><div class="ttdeci">@ RNDBKGTYPE_PICTURE</div><div class="ttdoc">单一背景图</div><div class="ttdef"><b>定义</b> PDVIView.h:27</div></div>
+<div class="ttc" id="a_p_d_v_i_view_8h_html_a8c613526c8ff47e03f81d305539eff25a3ac422642d5ef2e03fdccfdb8712c6e7"><div class="ttname"><a href="_p_d_v_i_view_8h.html#a8c613526c8ff47e03f81d305539eff25a3ac422642d5ef2e03fdccfdb8712c6e7">kernel::pdv::RNDBKGTYPE_PURECOLOR</a></div><div class="ttdeci">@ RNDBKGTYPE_PURECOLOR</div><div class="ttdoc">纯色</div><div class="ttdef"><b>定义</b> PDVIView.h:26</div></div>
+<div class="ttc" id="a_p_d_v_i_view_8h_html_a8c613526c8ff47e03f81d305539eff25a550e27f2199d3d5f9a07e9ca79165d39"><div class="ttname"><a href="_p_d_v_i_view_8h.html#a8c613526c8ff47e03f81d305539eff25a550e27f2199d3d5f9a07e9ca79165d39">kernel::pdv::RNDBKGTYPE_INVALID</a></div><div class="ttdeci">@ RNDBKGTYPE_INVALID</div><div class="ttdoc">无效类型</div><div class="ttdef"><b>定义</b> PDVIView.h:25</div></div>
+<div class="ttc" id="aclass_c_unicode_string_html"><div class="ttname"><a href="class_c_unicode_string.html">CUnicodeString</a></div><div class="ttdoc">Unicode字符操作接口</div><div class="ttdef"><b>定义</b> UnicodeString.h:80</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html">kernel::pdv::IView</a></div><div class="ttdoc">视图的接口</div><div class="ttdef"><b>定义</b> PDVIView.h:34</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a02f9719939aa2b69e4c70925ed739763"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a02f9719939aa2b69e4c70925ed739763">kernel::pdv::IView::SetTransformedNodeIDArray</a></div><div class="ttdeci">virtual PDV_RESULT SetTransformedNodeIDArray(const std::vector&lt; DftUInt64 &gt; &amp;iTransformedNodeIDs)=0</div><div class="ttdoc">设置视图控制位置变换的结构树节点ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a045d3d936ae5fe70a47af6450b6133c7"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a045d3d936ae5fe70a47af6450b6133c7">kernel::pdv::IView::GetClippingPlanes</a></div><div class="ttdeci">virtual PDV_RESULT GetClippingPlanes(std::vector&lt; PlaneData &gt; &amp;oClippingPlanes)=0</div><div class="ttdoc">获取视图的剖切面数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a1887c3b06d1cb7a4f779262217ca40e5"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a1887c3b06d1cb7a4f779262217ca40e5">kernel::pdv::IView::GetNodeMaterialIDArray</a></div><div class="ttdeci">virtual PDV_RESULT GetNodeMaterialIDArray(std::vector&lt; DftUInt64 &gt; &amp;oNodeMaterialIDs)=0</div><div class="ttdoc">材质发生变化的产品结构树各节点关联的材质</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a1c5ddd572635bdf88755a3bb76b52b64"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a1c5ddd572635bdf88755a3bb76b52b64">kernel::pdv::IView::GetBackgroundType</a></div><div class="ttdeci">virtual DftUInt8 GetBackgroundType()=0</div><div class="ttdoc">视图背景类型 0：无视图背景；1：颜色；2：图像；</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a34e1fa3ef0f3c8fe6c1fe1a36db91e86"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a34e1fa3ef0f3c8fe6c1fe1a36db91e86">kernel::pdv::IView::SetClippingPlanes</a></div><div class="ttdeci">virtual PDV_RESULT SetClippingPlanes(const std::vector&lt; PlaneData &gt; &amp;iClippingPlanes)=0</div><div class="ttdoc">设置视图剖切面数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a37f695417c0bfd8517e682d685e32965"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a37f695417c0bfd8517e682d685e32965">kernel::pdv::IView::GetCameraID</a></div><div class="ttdeci">virtual DftUInt64 GetCameraID()=0</div><div class="ttdoc">获取视图相机ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a3a24ffbbf025ec95624e0f23daf83c12"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a3a24ffbbf025ec95624e0f23daf83c12">kernel::pdv::IView::SetNodeTransformations</a></div><div class="ttdeci">virtual PDV_RESULT SetNodeTransformations(const std::vector&lt; PDVMatrix4D &gt; &amp;iTransformations)=0</div><div class="ttdoc">设置视图控制位置变换信息</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a3bd579b5cb6fd80e08383ccab7ffcde0"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a3bd579b5cb6fd80e08383ccab7ffcde0">kernel::pdv::IView::GetName</a></div><div class="ttdeci">virtual PDV_RESULT GetName(CUnicodeString &amp;oName)=0</div><div class="ttdoc">获取视图的命名</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a421e4b3b6b1118edfb84d5cb53e79135"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a421e4b3b6b1118edfb84d5cb53e79135">kernel::pdv::IView::GetClippedNodeCount</a></div><div class="ttdeci">virtual DftUInt GetClippedNodeCount()=0</div><div class="ttdoc">函数名称 GetClippedNodeCount, 被剖切的节点数量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a4d806391d6810e23476ab27c7de25f10"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a4d806391d6810e23476ab27c7de25f10">kernel::pdv::IView::SetBackgroundTransparency</a></div><div class="ttdeci">virtual PDV_RESULT SetBackgroundTransparency(const DftUInt8 &amp;iTransparencyValue)=0</div><div class="ttdoc">设置视图背景透明度</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a52ef3e7d51414522236d483c93e703c6"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a52ef3e7d51414522236d483c93e703c6">kernel::pdv::IView::SetHiddenNodeIDArray</a></div><div class="ttdeci">virtual PDV_RESULT SetHiddenNodeIDArray(const std::vector&lt; DftUInt64 &gt; &amp;iHiddenNodeIDs)=0</div><div class="ttdoc">设置视图隐藏的产品结构树ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a5bfdc351c2df29d4181b7fbb9c8f1e98"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a5bfdc351c2df29d4181b7fbb9c8f1e98">kernel::pdv::IView::SetName</a></div><div class="ttdeci">virtual PDV_RESULT SetName(const CUnicodeString &amp;iName)=0</div><div class="ttdoc">设置视图的命名</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a5c9d4bf7219b71afdcdbb7eeb454add6"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a5c9d4bf7219b71afdcdbb7eeb454add6">kernel::pdv::IView::GetHiddenNodeIDArray</a></div><div class="ttdeci">virtual PDV_RESULT GetHiddenNodeIDArray(std::vector&lt; DftUInt64 &gt; &amp;oHiddenNodeIDs)=0</div><div class="ttdoc">获取隐藏的结构树节点ID数组</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a5e300a6485747d05cf7c21a16fa2261c"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a5e300a6485747d05cf7c21a16fa2261c">kernel::pdv::IView::SetReviewIDArray</a></div><div class="ttdeci">virtual PDV_RESULT SetReviewIDArray(const std::vector&lt; DftUInt64 &gt; &amp;iReviewIDs)=0</div><div class="ttdoc">设置包含的审阅意见ID数组</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a6f8ef6a32c6f0a67ed99627b9f40ee94"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a6f8ef6a32c6f0a67ed99627b9f40ee94">kernel::pdv::IView::SetBackgroundType</a></div><div class="ttdeci">virtual PDV_RESULT SetBackgroundType(const DftUInt8 iBackgroundType)=0</div><div class="ttdoc">设置视图背景类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a7651e8f85fba72143751af49095c9368"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a7651e8f85fba72143751af49095c9368">kernel::pdv::IView::GetMatChangedNodeCount</a></div><div class="ttdeci">virtual DftUInt GetMatChangedNodeCount()=0</div><div class="ttdoc">材质发生变化的产品结构树节点数量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a76a8242efda3c3ac5e7c8a3dd8a71e77"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a76a8242efda3c3ac5e7c8a3dd8a71e77">kernel::pdv::IView::GetHiddenNodeCount</a></div><div class="ttdeci">virtual DftUInt GetHiddenNodeCount()=0</div><div class="ttdoc">函数名称 GetHiddenNodeCount, 隐藏节点数量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a8d1770469153eaf94a744536b6aa7570"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a8d1770469153eaf94a744536b6aa7570">kernel::pdv::IView::SetClippedNodeIDArray</a></div><div class="ttdeci">virtual PDV_RESULT SetClippedNodeIDArray(const std::vector&lt; DftUInt64 &gt; &amp;iClippedNodeIDs)=0</div><div class="ttdoc">函数名称 SetClippedNodeIDArray, 设置视图被剖切的产品结构树ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a99faf7991df1f8beca076f10a2f89840"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a99faf7991df1f8beca076f10a2f89840">kernel::pdv::IView::GetReviewIDArray</a></div><div class="ttdeci">virtual PDV_RESULT GetReviewIDArray(std::vector&lt; DftUInt64 &gt; &amp;oReviewIDs)=0</div><div class="ttdoc">获取视图包含的审阅意见ID数组</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_a9d1930fa2b658f62afef32e0a569fead"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#a9d1930fa2b658f62afef32e0a569fead">kernel::pdv::IView::GetBackgroundTransparency</a></div><div class="ttdeci">virtual PDV_RESULT GetBackgroundTransparency(DftUInt8 &amp;oTransparencyValue)=0</div><div class="ttdoc">视图背景透明度</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_aa0045277ba531eda8e26bd42ef9a1165"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#aa0045277ba531eda8e26bd42ef9a1165">kernel::pdv::IView::GetClippedNodeIDArray</a></div><div class="ttdeci">virtual PDV_RESULT GetClippedNodeIDArray(std::vector&lt; DftUInt64 &gt; &amp;oClippedNodeIDs)=0</div><div class="ttdoc">函数名称 GetClippedNodeIDArray, 获取被剖切的结构树节点ID数组</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_aa0cb303f602791dd74b47cbcef8b6046"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#aa0cb303f602791dd74b47cbcef8b6046">kernel::pdv::IView::SetBackgroundColor</a></div><div class="ttdeci">virtual PDV_RESULT SetBackgroundColor(const RGBColor &amp;iColorValue)=0</div><div class="ttdoc">设置视图背景颜色</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_aa83cde28ab64f13605e530cf277bd620"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#aa83cde28ab64f13605e530cf277bd620">kernel::pdv::IView::SetCameraID</a></div><div class="ttdeci">virtual PDV_RESULT SetCameraID(DftUInt64 iID)=0</div><div class="ttdoc">设置视图的相机ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_aac924dbee2fe6ed18ac5baa89966e439"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#aac924dbee2fe6ed18ac5baa89966e439">kernel::pdv::IView::GetMatChangedNodeIDArray</a></div><div class="ttdeci">virtual PDV_RESULT GetMatChangedNodeIDArray(std::vector&lt; DftUInt64 &gt; &amp;oMatChangedNodeIDs)=0</div><div class="ttdoc">材质发生变化的产品结构树节点标识列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_aba90743e28a8439a7837473517f6599c"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#aba90743e28a8439a7837473517f6599c">kernel::pdv::IView::GetTransformedNodeCount</a></div><div class="ttdeci">virtual DftUInt GetTransformedNodeCount()=0</div><div class="ttdoc">位置变换的结构树节点数量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_abd965c29e3f62b8155893d3b9f601cad"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#abd965c29e3f62b8155893d3b9f601cad">kernel::pdv::IView::GetBackgroundImageID</a></div><div class="ttdeci">virtual PDV_RESULT GetBackgroundImageID(DftUInt64 &amp;oImageID)=0</div><div class="ttdoc">视图背景图像关联的资源文件</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_abe707bd27e797a8c475b74fb6baf0c48"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#abe707bd27e797a8c475b74fb6baf0c48">kernel::pdv::IView::SetNodeMaterialIDArray</a></div><div class="ttdeci">virtual PDV_RESULT SetNodeMaterialIDArray(const std::vector&lt; DftUInt64 &gt; &amp;iNodeMaterialIDs)=0</div><div class="ttdoc">设置材质发生变化的产品结构树各节点关联的材质</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_ac464dbb300ef35003dd795b6680b02f8"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#ac464dbb300ef35003dd795b6680b02f8">kernel::pdv::IView::SetBackgroundImageID</a></div><div class="ttdeci">virtual PDV_RESULT SetBackgroundImageID(const DftUInt64 &amp;iImageID)=0</div><div class="ttdoc">设置视图背景图像关联的资源文件</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_aca35552d4bc0faff8684dd60ebf511ab"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#aca35552d4bc0faff8684dd60ebf511ab">kernel::pdv::IView::GetReviewCount</a></div><div class="ttdeci">virtual DftUInt GetReviewCount()=0</div><div class="ttdoc">获取视图包含的审阅意见数量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_acd59690174415ff2885f21267dc9d5b0"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#acd59690174415ff2885f21267dc9d5b0">kernel::pdv::IView::GetNodeTransformations</a></div><div class="ttdeci">virtual std::vector&lt; PDVMatrix4D &gt; &amp; GetNodeTransformations()=0</div><div class="ttdoc">视图控制位置变换信息</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_ad189a1bbf402cb42dbaa572911ef8439"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#ad189a1bbf402cb42dbaa572911ef8439">kernel::pdv::IView::GetClippingPlaneData</a></div><div class="ttdeci">virtual PDV_RESULT GetClippingPlaneData(DftUInt iClippingPlaneIndex, PDVVector3F &amp;oOrigin, PDVVector3F &amp;oAxisX, PDVVector3F &amp;oAxisY, PDVVector3F &amp;oAxisZ)=0</div><div class="ttdoc">视图的剖切面数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_ad214d594dbface99af87852461296a1e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#ad214d594dbface99af87852461296a1e">kernel::pdv::IView::GetTransformedNodeIDArray</a></div><div class="ttdeci">virtual PDV_RESULT GetTransformedNodeIDArray(std::vector&lt; DftUInt64 &gt; &amp;oTransformedNodeIDs)=0</div><div class="ttdoc">视图控制位置变换的结构树节点ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_ad994c8307251a4cf9fbe3550c820ae25"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#ad994c8307251a4cf9fbe3550c820ae25">kernel::pdv::IView::SetMatChangedNodeIDArray</a></div><div class="ttdeci">virtual PDV_RESULT SetMatChangedNodeIDArray(const std::vector&lt; DftUInt64 &gt; &amp;iMatChangedNodeIDs)=0</div><div class="ttdoc">设置视图材质发生变化的产品结构树节点标识列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_ae074515e6591cd6648622c317c3ae393"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#ae074515e6591cd6648622c317c3ae393">kernel::pdv::IView::GetClippingPlaneCount</a></div><div class="ttdeci">virtual DftUInt GetClippingPlaneCount()=0</div><div class="ttdoc">视图的剖切面数据个数</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html_af059198fff000bb78c7d4b35a787496f"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html#af059198fff000bb78c7d4b35a787496f">kernel::pdv::IView::GetBackgroundColor</a></div><div class="ttdeci">virtual PDV_RESULT GetBackgroundColor(RGBColor &amp;oColorValue)=0</div><div class="ttdoc">视图的背景颜色</div></div>
+<div class="ttc" id="astruct_p_d_v_vector3_f_html"><div class="ttname"><a href="struct_p_d_v_vector3_f.html">PDVVector3F</a></div><div class="ttdoc">单精度浮点数三维向量</div><div class="ttdef"><b>定义</b> PDVMath.h:481</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_r_g_b_color_html"><div class="ttname"><a href="structkernel_1_1pdv_1_1_r_g_b_color.html">kernel::pdv::RGBColor</a></div><div class="ttdoc">颜色数据</div><div class="ttdef"><b>定义</b> PDVBase.h:351</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_view_8h.html">PDVIView.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,1016 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: kernel::pdv::IAnnotationView类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('classkernel_1_1pdv_1_1_i_annotation_view.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">kernel::pdv::IAnnotationView类 参考<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>标注视图的接口  
+ <a href="#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_p_d_v_i_annotation_view_8h_source.html">PDVIAnnotationView.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ab6652eaaadd838252075eb09d5da07bb" id="r_ab6652eaaadd838252075eb09d5da07bb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6652eaaadd838252075eb09d5da07bb">GetID</a> ()=0</td></tr>
+<tr class="memdesc:ab6652eaaadd838252075eb09d5da07bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取标注视图对象唯一标识  <br /></td></tr>
+<tr class="memitem:a4789fb0684f7c872b3e75681be3ff4c0" id="r_a4789fb0684f7c872b3e75681be3ff4c0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4789fb0684f7c872b3e75681be3ff4c0">SetID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a4789fb0684f7c872b3e75681be3ff4c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置标注视图对象唯一标识  <br /></td></tr>
+<tr class="memitem:a58e07ce4c169baa6054afb2205605069" id="r_a58e07ce4c169baa6054afb2205605069"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58e07ce4c169baa6054afb2205605069">GetName</a> (<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oName)=0</td></tr>
+<tr class="memdesc:a58e07ce4c169baa6054afb2205605069"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取视图的命名  <br /></td></tr>
+<tr class="memitem:a73191720ea2f732441a47757a93ee7b5" id="r_a73191720ea2f732441a47757a93ee7b5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73191720ea2f732441a47757a93ee7b5">SetName</a> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iName)=0</td></tr>
+<tr class="memdesc:a73191720ea2f732441a47757a93ee7b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置视图的命名  <br /></td></tr>
+<tr class="memitem:a27420db688cae05e9f1e9777d541251f" id="r_a27420db688cae05e9f1e9777d541251f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27420db688cae05e9f1e9777d541251f">IsDefaultView</a> ()=0</td></tr>
+<tr class="memdesc:a27420db688cae05e9f1e9777d541251f"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取是否是默认视图  <br /></td></tr>
+<tr class="memitem:a9142f533e614728b0b662069d5bf6f66" id="r_a9142f533e614728b0b662069d5bf6f66"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9142f533e614728b0b662069d5bf6f66">SetIsDefaultView</a> (const <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;iIsDefaultView)=0</td></tr>
+<tr class="memdesc:a9142f533e614728b0b662069d5bf6f66"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置是否是默认视图  <br /></td></tr>
+<tr class="memitem:ae2eee18eb4b9ac3eb615e8bebe4ced85" id="r_ae2eee18eb4b9ac3eb615e8bebe4ced85"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2eee18eb4b9ac3eb615e8bebe4ced85">GetCameraFlag</a> () const =0</td></tr>
+<tr class="memdesc:ae2eee18eb4b9ac3eb615e8bebe4ced85"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取标注视图是否包含摄像机数据  <br /></td></tr>
+<tr class="memitem:aa8bdd9eef17e08421e2b1cc1b48f7fe2" id="r_aa8bdd9eef17e08421e2b1cc1b48f7fe2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8bdd9eef17e08421e2b1cc1b48f7fe2">SetCameraFlag</a> (const <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;iCameraFlag)=0</td></tr>
+<tr class="memdesc:aa8bdd9eef17e08421e2b1cc1b48f7fe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置标注视图是否包含摄像机数据  <br /></td></tr>
+<tr class="memitem:abf591d03fbfab7023651db38455d094a" id="r_abf591d03fbfab7023651db38455d094a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf591d03fbfab7023651db38455d094a">GetClipPlaneFlag</a> ()=0</td></tr>
+<tr class="memdesc:abf591d03fbfab7023651db38455d094a"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取标注视图是否包含剖切面数据  <br /></td></tr>
+<tr class="memitem:a3ed4d8221c7264a272f7a9eeee3aab82" id="r_a3ed4d8221c7264a272f7a9eeee3aab82"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ed4d8221c7264a272f7a9eeee3aab82">SetClipPlaneFlag</a> (const <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;iClipPlaneFlag)=0</td></tr>
+<tr class="memdesc:a3ed4d8221c7264a272f7a9eeee3aab82"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置标注视图是否包含剖切面数据  <br /></td></tr>
+<tr class="memitem:a0a0c57c78c57c43951ebf74e0eb29887" id="r_a0a0c57c78c57c43951ebf74e0eb29887"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a0c57c78c57c43951ebf74e0eb29887">GetAnnotationItemIDs</a> (std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;oAnnotationItemIDs)=0</td></tr>
+<tr class="memdesc:a0a0c57c78c57c43951ebf74e0eb29887"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取视图显示的标注项ID  <br /></td></tr>
+<tr class="memitem:ad1dabcd72a641a4746b5c0d7458e08d1" id="r_ad1dabcd72a641a4746b5c0d7458e08d1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1dabcd72a641a4746b5c0d7458e08d1">SetAnnotationItemIDs</a> (const std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;iAnnotationItemIDs)=0</td></tr>
+<tr class="memdesc:ad1dabcd72a641a4746b5c0d7458e08d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置视图显示的标注项ID  <br /></td></tr>
+<tr class="memitem:a011ea0778cc2ed9a31aeea45012cf0a5" id="r_a011ea0778cc2ed9a31aeea45012cf0a5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a011ea0778cc2ed9a31aeea45012cf0a5">GetCameraID</a> ()=0</td></tr>
+<tr class="memdesc:a011ea0778cc2ed9a31aeea45012cf0a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取摄像机对象ID  <br /></td></tr>
+<tr class="memitem:a8c11bee0c04922d5ea553c44c24cfb50" id="r_a8c11bee0c04922d5ea553c44c24cfb50"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_camera.html">ICamera</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c11bee0c04922d5ea553c44c24cfb50">GetCamera</a> ()=0</td></tr>
+<tr class="memdesc:a8c11bee0c04922d5ea553c44c24cfb50"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取摄像机对象  <br /></td></tr>
+<tr class="memitem:a0eddf636e398f6ec791f0e0b4f04a263" id="r_a0eddf636e398f6ec791f0e0b4f04a263"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eddf636e398f6ec791f0e0b4f04a263">SetCameraID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iCameraID)=0</td></tr>
+<tr class="memdesc:a0eddf636e398f6ec791f0e0b4f04a263"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置摄像机对象ID  <br /></td></tr>
+<tr class="memitem:a191fcfca09b208072519669431575db3" id="r_a191fcfca09b208072519669431575db3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a191fcfca09b208072519669431575db3">GetClippingPlanes</a> (std::vector&lt; <a class="el" href="structkernel_1_1pdv_1_1_plane_data.html">PlaneData</a> &gt; &amp;oClippingPlanes)=0</td></tr>
+<tr class="memdesc:a191fcfca09b208072519669431575db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取剖切面数据  <br /></td></tr>
+<tr class="memitem:aa1b335cb1687c70adc07454186fef5ae" id="r_aa1b335cb1687c70adc07454186fef5ae"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1b335cb1687c70adc07454186fef5ae">SetClippingPlanes</a> (const std::vector&lt; <a class="el" href="structkernel_1_1pdv_1_1_plane_data.html">PlaneData</a> &gt; &amp;iClippingPlanes)=0</td></tr>
+<tr class="memdesc:aa1b335cb1687c70adc07454186fef5ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置剖切面数据  <br /></td></tr>
+<tr class="memitem:aa6b9f1dc1839d5362ee80ddee6b7ece7" id="r_aa6b9f1dc1839d5362ee80ddee6b7ece7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6b9f1dc1839d5362ee80ddee6b7ece7">GetBitMask</a> ()=0</td></tr>
+<tr class="memdesc:aa6b9f1dc1839d5362ee80ddee6b7ece7"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取标注视图的标识位  <br /></td></tr>
+<tr class="memitem:a30cbe5b8e4ec0e884eaf111d193a6a6f" id="r_a30cbe5b8e4ec0e884eaf111d193a6a6f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30cbe5b8e4ec0e884eaf111d193a6a6f">SetBitMask</a> (<a class="el" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a> iBitMask)=0</td></tr>
+<tr class="memdesc:a30cbe5b8e4ec0e884eaf111d193a6a6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置标注视图的标识位  <br /></td></tr>
+<tr class="memitem:a7b32ff99f82d1dbf9081df2ade6ee63e" id="r_a7b32ff99f82d1dbf9081df2ade6ee63e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b32ff99f82d1dbf9081df2ade6ee63e">GetClippedNodeIDs</a> (std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;oClippedNodeIDs)=0</td></tr>
+<tr class="memdesc:a7b32ff99f82d1dbf9081df2ade6ee63e"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取视图被剖切对象节点ID列表  <br /></td></tr>
+<tr class="memitem:a4b4647e2a5e6a87b960d753fab4a883d" id="r_a4b4647e2a5e6a87b960d753fab4a883d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b4647e2a5e6a87b960d753fab4a883d">SetClippedNodeIDs</a> (const std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;iClippedNodeIDs)=0</td></tr>
+<tr class="memdesc:a4b4647e2a5e6a87b960d753fab4a883d"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置视图被剖切对象节点ID列表  <br /></td></tr>
+<tr class="memitem:a920540d81f6b267af61ea767b13db4fd" id="r_a920540d81f6b267af61ea767b13db4fd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a920540d81f6b267af61ea767b13db4fd">GetHiddenNodeIDs</a> (std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;oHiddenNodeIDs)=0</td></tr>
+<tr class="memdesc:a920540d81f6b267af61ea767b13db4fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取视图被隐藏对象节点ID列表  <br /></td></tr>
+<tr class="memitem:a69bde00565709b371df89b41db19689f" id="r_a69bde00565709b371df89b41db19689f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69bde00565709b371df89b41db19689f">SetHiddenNodeIDs</a> (const std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;iHiddenNodeIDs)=0</td></tr>
+<tr class="memdesc:a69bde00565709b371df89b41db19689f"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置视图被隐藏对象节点ID列表  <br /></td></tr>
+<tr class="memitem:abdf66f51c072a24c4742631521191fee" id="r_abdf66f51c072a24c4742631521191fee"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdf66f51c072a24c4742631521191fee">GetReferenceGeometryIDs</a> (std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;oAnnotationReferenceGeometryIDs)=0</td></tr>
+<tr class="memdesc:abdf66f51c072a24c4742631521191fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取视图关联的辅助几何ID  <br /></td></tr>
+<tr class="memitem:a407e033429398baf3bd9247b6b4a3efb" id="r_a407e033429398baf3bd9247b6b4a3efb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a407e033429398baf3bd9247b6b4a3efb">SetReferenceGeometryIDs</a> (const std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;iAnnotationReferenceGeometryIDs)=0</td></tr>
+<tr class="memdesc:a407e033429398baf3bd9247b6b4a3efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置视图关联的辅助几何ID  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>标注视图的接口 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">成员函数说明</h2>
+<a id="a0a0c57c78c57c43951ebf74e0eb29887" name="a0a0c57c78c57c43951ebf74e0eb29887"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a0c57c78c57c43951ebf74e0eb29887">&#9670;&#160;</a></span>GetAnnotationItemIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::GetAnnotationItemIDs </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oAnnotationItemIDs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取视图显示的标注项ID </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oAnnotationItemIDs</td><td>视图显示的标注项ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aa6b9f1dc1839d5362ee80ddee6b7ece7" name="aa6b9f1dc1839d5362ee80ddee6b7ece7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6b9f1dc1839d5362ee80ddee6b7ece7">&#9670;&#160;</a></span>GetBitMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a> kernel::pdv::IAnnotationView::GetBitMask </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取标注视图的标识位 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa" title="字节">DftByte</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a8c11bee0c04922d5ea553c44c24cfb50" name="a8c11bee0c04922d5ea553c44c24cfb50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c11bee0c04922d5ea553c44c24cfb50">&#9670;&#160;</a></span>GetCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_camera.html">ICamera</a> * kernel::pdv::IAnnotationView::GetCamera </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取摄像机对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_camera.html" title="摄像机数据的接口">ICamera</a> * 摄像机对象 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ae2eee18eb4b9ac3eb615e8bebe4ced85" name="ae2eee18eb4b9ac3eb615e8bebe4ced85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2eee18eb4b9ac3eb615e8bebe4ced85">&#9670;&#160;</a></span>GetCameraFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::IAnnotationView::GetCameraFlag </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取标注视图是否包含摄像机数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 标注视图是否包含摄像机数据 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a011ea0778cc2ed9a31aeea45012cf0a5" name="a011ea0778cc2ed9a31aeea45012cf0a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a011ea0778cc2ed9a31aeea45012cf0a5">&#9670;&#160;</a></span>GetCameraID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> kernel::pdv::IAnnotationView::GetCameraID </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取摄像机对象ID </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33" title="64位无符号整数">DftUInt64</a> 摄像机对象ID </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a7b32ff99f82d1dbf9081df2ade6ee63e" name="a7b32ff99f82d1dbf9081df2ade6ee63e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b32ff99f82d1dbf9081df2ade6ee63e">&#9670;&#160;</a></span>GetClippedNodeIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::GetClippedNodeIDs </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oClippedNodeIDs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取视图被剖切对象节点ID列表 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oClippedNodeIDs</td><td>被剖切对象节点ID列表 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a191fcfca09b208072519669431575db3" name="a191fcfca09b208072519669431575db3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a191fcfca09b208072519669431575db3">&#9670;&#160;</a></span>GetClippingPlanes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::GetClippingPlanes </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structkernel_1_1pdv_1_1_plane_data.html">PlaneData</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oClippingPlanes</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取剖切面数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oClippingPlanes</td><td>剖切面数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="abf591d03fbfab7023651db38455d094a" name="abf591d03fbfab7023651db38455d094a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf591d03fbfab7023651db38455d094a">&#9670;&#160;</a></span>GetClipPlaneFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::IAnnotationView::GetClipPlaneFlag </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取标注视图是否包含剖切面数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 标注视图是否包含剖切面数据 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a920540d81f6b267af61ea767b13db4fd" name="a920540d81f6b267af61ea767b13db4fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a920540d81f6b267af61ea767b13db4fd">&#9670;&#160;</a></span>GetHiddenNodeIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::GetHiddenNodeIDs </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oHiddenNodeIDs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取视图被隐藏对象节点ID列表 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oHiddenNodeIDs</td><td>被隐藏对象节点ID列表 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ab6652eaaadd838252075eb09d5da07bb" name="ab6652eaaadd838252075eb09d5da07bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6652eaaadd838252075eb09d5da07bb">&#9670;&#160;</a></span>GetID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> kernel::pdv::IAnnotationView::GetID </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取标注视图对象唯一标识 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33" title="64位无符号整数">DftUInt64</a> 标注视图对象唯一标识 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a58e07ce4c169baa6054afb2205605069" name="a58e07ce4c169baa6054afb2205605069"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58e07ce4c169baa6054afb2205605069">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::GetName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取视图的命名 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oName</td><td>视图的命名 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="abdf66f51c072a24c4742631521191fee" name="abdf66f51c072a24c4742631521191fee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdf66f51c072a24c4742631521191fee">&#9670;&#160;</a></span>GetReferenceGeometryIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::GetReferenceGeometryIDs </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oAnnotationReferenceGeometryIDs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取视图关联的辅助几何ID </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oAnnotationReferenceGeometryIDs</td><td>视图关联的辅助几何ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a27420db688cae05e9f1e9777d541251f" name="a27420db688cae05e9f1e9777d541251f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27420db688cae05e9f1e9777d541251f">&#9670;&#160;</a></span>IsDefaultView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> kernel::pdv::IAnnotationView::IsDefaultView </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取是否是默认视图 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674" title="布尔型">DftBool</a> 是否是默认视图 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ad1dabcd72a641a4746b5c0d7458e08d1" name="ad1dabcd72a641a4746b5c0d7458e08d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1dabcd72a641a4746b5c0d7458e08d1">&#9670;&#160;</a></span>SetAnnotationItemIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::SetAnnotationItemIDs </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iAnnotationItemIDs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置视图显示的标注项ID </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iAnnotationItemIDs</td><td>视图显示的标注项ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a30cbe5b8e4ec0e884eaf111d193a6a6f" name="a30cbe5b8e4ec0e884eaf111d193a6a6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30cbe5b8e4ec0e884eaf111d193a6a6f">&#9670;&#160;</a></span>SetBitMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::SetBitMask </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a></td>          <td class="paramname"><span class="paramname"><em>iBitMask</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置标注视图的标识位 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBitMask</td><td>标注视图的标识位 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aa8bdd9eef17e08421e2b1cc1b48f7fe2" name="aa8bdd9eef17e08421e2b1cc1b48f7fe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8bdd9eef17e08421e2b1cc1b48f7fe2">&#9670;&#160;</a></span>SetCameraFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::SetCameraFlag </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iCameraFlag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置标注视图是否包含摄像机数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCameraFlag</td><td>标注视图是否包含摄像机数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a0eddf636e398f6ec791f0e0b4f04a263" name="a0eddf636e398f6ec791f0e0b4f04a263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eddf636e398f6ec791f0e0b4f04a263">&#9670;&#160;</a></span>SetCameraID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::SetCameraID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iCameraID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置摄像机对象ID </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCameraID</td><td>摄像机对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4b4647e2a5e6a87b960d753fab4a883d" name="a4b4647e2a5e6a87b960d753fab4a883d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b4647e2a5e6a87b960d753fab4a883d">&#9670;&#160;</a></span>SetClippedNodeIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::SetClippedNodeIDs </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iClippedNodeIDs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置视图被剖切对象节点ID列表 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iClippedNodeIDs</td><td>被剖切对象节点ID列表 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aa1b335cb1687c70adc07454186fef5ae" name="aa1b335cb1687c70adc07454186fef5ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b335cb1687c70adc07454186fef5ae">&#9670;&#160;</a></span>SetClippingPlanes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::SetClippingPlanes </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structkernel_1_1pdv_1_1_plane_data.html">PlaneData</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iClippingPlanes</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置剖切面数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iClippingPlanes</td><td>剖切面数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a3ed4d8221c7264a272f7a9eeee3aab82" name="a3ed4d8221c7264a272f7a9eeee3aab82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ed4d8221c7264a272f7a9eeee3aab82">&#9670;&#160;</a></span>SetClipPlaneFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::SetClipPlaneFlag </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iClipPlaneFlag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置标注视图是否包含剖切面数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iClipPlaneFlag</td><td>标注视图是否包含剖切面数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a69bde00565709b371df89b41db19689f" name="a69bde00565709b371df89b41db19689f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69bde00565709b371df89b41db19689f">&#9670;&#160;</a></span>SetHiddenNodeIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::SetHiddenNodeIDs </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iHiddenNodeIDs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置视图被隐藏对象节点ID列表 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iHiddenNodeIDs</td><td>被隐藏对象节点ID列表 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4789fb0684f7c872b3e75681be3ff4c0" name="a4789fb0684f7c872b3e75681be3ff4c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4789fb0684f7c872b3e75681be3ff4c0">&#9670;&#160;</a></span>SetID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::SetID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置标注视图对象唯一标识 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>标注视图对象唯一标识 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a9142f533e614728b0b662069d5bf6f66" name="a9142f533e614728b0b662069d5bf6f66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9142f533e614728b0b662069d5bf6f66">&#9670;&#160;</a></span>SetIsDefaultView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::SetIsDefaultView </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iIsDefaultView</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置是否是默认视图 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iIsDefaultView</td><td>是否是默认视图 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a73191720ea2f732441a47757a93ee7b5" name="a73191720ea2f732441a47757a93ee7b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73191720ea2f732441a47757a93ee7b5">&#9670;&#160;</a></span>SetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::SetName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置视图的命名 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iName</td><td>视图的命名 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a407e033429398baf3bd9247b6b4a3efb" name="a407e033429398baf3bd9247b6b4a3efb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407e033429398baf3bd9247b6b4a3efb">&#9670;&#160;</a></span>SetReferenceGeometryIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAnnotationView::SetReferenceGeometryIDs </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iAnnotationReferenceGeometryIDs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置视图关联的辅助几何ID </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iAnnotationReferenceGeometryIDs</td><td>视图关联的辅助几何ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>PDVSDK-docs/PDVCore/<a class="el" href="_p_d_v_i_annotation_view_8h_source.html">PDVIAnnotationView.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>kernel</b></li><li class="navelem"><b>pdv</b></li><li class="navelem"><a href="classkernel_1_1pdv_1_1_i_annotation_view.html">IAnnotationView</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

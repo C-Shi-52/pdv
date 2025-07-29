@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIAnnotationItem.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_annotation_item_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIAnnotationItem.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_annotation_item_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIANNOTATIONITEM_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIANNOTATIONITEM_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_annotation_def_8h.html">PDVAnnotationDef.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_p_d_v_i_annotation_item_8h.html#a96a31edeba23b2c42e0ca7916a2a4863">   22</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_annotation_item_8h.html#a96a31edeba23b2c42e0ca7916a2a4863">AnnotationViewMode</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_p_d_v_i_annotation_item_8h.html#a96a31edeba23b2c42e0ca7916a2a4863a4ed40413c8201141e789dbf491fa26f1">   24</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_annotation_item_8h.html#a96a31edeba23b2c42e0ca7916a2a4863a4ed40413c8201141e789dbf491fa26f1">ANNOTATIONVIEWMODE_DEFAULTVIEW</a> = 0,         </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_d_v_i_annotation_item_8h.html#a96a31edeba23b2c42e0ca7916a2a4863aca5f0986eee0b473a886badca01a7e92">   25</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_annotation_item_8h.html#a96a31edeba23b2c42e0ca7916a2a4863aca5f0986eee0b473a886badca01a7e92">ANNOTATIONVIEWMODE_PARALLELSCREEN</a> = 1,      </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_p_d_v_i_annotation_item_8h.html#a96a31edeba23b2c42e0ca7916a2a4863a9e72b1f55841efbc7ef825b0b8898a34">   26</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_annotation_item_8h.html#a96a31edeba23b2c42e0ca7916a2a4863a9e72b1f55841efbc7ef825b0b8898a34">ANNOTATIONVIEWMODE_FIXEDSCREEN</a> = 2,         </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
+</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span></div>
+<div class="foldopen" id="foldopen00030" data-start="{" data-end="};">
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_linked_subset_info.html">   30</a></span><span class="keyword">struct </span><a class="code hl_function" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a1081447629ca0681fd8cd516742d9faa">LinkedSubsetInfo</a></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>{</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ab4267c9c78ccbc9dd1fe39e85ceb1355">   32</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ab4267c9c78ccbc9dd1fe39e85ceb1355">_nodeID</a>;       </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a62a2e6a7470c8e94710a629d7932b6d2">   33</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a62a2e6a7470c8e94710a629d7932b6d2">_renderBodyID</a>; </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ad3f8b4f16733d53422cd00b49b9fe42b">   34</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ad3f8b4f16733d53422cd00b49b9fe42b">_renderMeshID</a>; </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_linked_subset_info.html#adb68ea7766fb7771d9971b97a4f36fab">   35</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#adb68ea7766fb7771d9971b97a4f36fab">_subsetID</a>;     </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a1081447629ca0681fd8cd516742d9faa">   38</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a1081447629ca0681fd8cd516742d9faa">LinkedSubsetInfo</a>() { <a class="code hl_function" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a8acaa71a4569aae3fc62462f96101a68">Clear</a>(); }</div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a82b768120fb86deb00be538bd0ce0118">   40</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a82b768120fb86deb00be538bd0ce0118">LinkedSubsetInfo</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a1081447629ca0681fd8cd516742d9faa">LinkedSubsetInfo</a>&amp; iData)</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ab4267c9c78ccbc9dd1fe39e85ceb1355">_nodeID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ab4267c9c78ccbc9dd1fe39e85ceb1355">_nodeID</a>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a62a2e6a7470c8e94710a629d7932b6d2">_renderBodyID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a62a2e6a7470c8e94710a629d7932b6d2">_renderBodyID</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ad3f8b4f16733d53422cd00b49b9fe42b">_renderMeshID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ad3f8b4f16733d53422cd00b49b9fe42b">_renderMeshID</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#adb68ea7766fb7771d9971b97a4f36fab">_subsetID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#adb68ea7766fb7771d9971b97a4f36fab">_subsetID</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
+</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span></div>
+<div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_linked_subset_info.html#acbf02d20c54ae88750a4429025d7b022">   48</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a1081447629ca0681fd8cd516742d9faa">LinkedSubsetInfo</a>&amp; <a class="code hl_function" href="structkernel_1_1pdv_1_1_linked_subset_info.html#acbf02d20c54ae88750a4429025d7b022">operator=</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a1081447629ca0681fd8cd516742d9faa">LinkedSubsetInfo</a>&amp; iData)</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    {</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordflow">if</span> (&amp;iData != <span class="keyword">this</span>)</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ab4267c9c78ccbc9dd1fe39e85ceb1355">_nodeID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ab4267c9c78ccbc9dd1fe39e85ceb1355">_nodeID</a>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a62a2e6a7470c8e94710a629d7932b6d2">_renderBodyID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a62a2e6a7470c8e94710a629d7932b6d2">_renderBodyID</a>;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ad3f8b4f16733d53422cd00b49b9fe42b">_renderMeshID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ad3f8b4f16733d53422cd00b49b9fe42b">_renderMeshID</a>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#adb68ea7766fb7771d9971b97a4f36fab">_subsetID</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#adb68ea7766fb7771d9971b97a4f36fab">_subsetID</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        }</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
+</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
+<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a8acaa71a4569aae3fc62462f96101a68">   60</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a8acaa71a4569aae3fc62462f96101a68">Clear</a>()</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ab4267c9c78ccbc9dd1fe39e85ceb1355">_nodeID</a> = 0;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#a62a2e6a7470c8e94710a629d7932b6d2">_renderBodyID</a> = 0;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#ad3f8b4f16733d53422cd00b49b9fe42b">_renderMeshID</a> = 0;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_linked_subset_info.html#adb68ea7766fb7771d9971b97a4f36fab">_subsetID</a> = 0;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    }</div>
+</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
+</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="_p_d_v_i_annotation_item_8h.html#ab5a70b18c1081549aa89d96dc32209c9">   70</a></span><span class="keyword">typedef</span> std::vector&lt;LinkedSubsetInfo&gt; <a class="code hl_typedef" href="_p_d_v_i_annotation_item_8h.html#ab5a70b18c1081549aa89d96dc32209c9">LinkedSubsetInfoArray</a>;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span></div>
+<div class="foldopen" id="foldopen00073" data-start="{" data-end="};">
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html">   73</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_annotation_item.html">IAnnotationItem</a></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>{</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a6750237fcf8843be9ba83ddb9597e775">   81</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a6750237fcf8843be9ba83ddb9597e775">GetID</a>() = 0;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#ad469cac9aa70fd15b77c44d41d7a308c">   89</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#ad469cac9aa70fd15b77c44d41d7a308c">GetName</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oName) = 0;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a863770ba799a9f58b96640ca8630dad7">   97</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a863770ba799a9f58b96640ca8630dad7">SetName</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iName) = 0;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a5960b278717949cfbeeb0fd50c0e4fa8">  104</a></span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a5960b278717949cfbeeb0fd50c0e4fa8">GetType</a>() = 0;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a5452ad7bd717d9f350d238f0b1665582">  112</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a5452ad7bd717d9f350d238f0b1665582">SetType</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iType) = 0;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a0fea3a5ab5b574a8a0ae9f2110f9071a">  120</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a0fea3a5ab5b574a8a0ae9f2110f9071a">GetTrianglePoints</a>(std::vector&lt;PDVVector2F&gt; &amp;o2DPoints) = 0;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a4671f739e077f0e82168d80832f8e98f">  128</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a4671f739e077f0e82168d80832f8e98f">SetTrianglePoints</a>(<span class="keyword">const</span> std::vector&lt;PDVVector2F&gt; &amp;i2DPoints) = 0;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#abfce0cf2b078880df90047559cada9df">  136</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#abfce0cf2b078880df90047559cada9df">GetTriangleIndexes</a>(std::vector&lt;DftUInt&gt; &amp;oIndexes) = 0;</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span></div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a6ed244e9dffd0cfd36282e6ed5d23d44">  144</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a6ed244e9dffd0cfd36282e6ed5d23d44">SetTriangleIndexes</a>(<span class="keyword">const</span> std::vector&lt;DftUInt&gt; &amp;iIndexes) = 0;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span></div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#ac1ff8a11ece4d50873fe2f74b8f4581f">  151</a></span>    <span class="keyword">virtual</span> <a class="code hl_struct" href="structkernel_1_1pdv_1_1_r_g_b_color.html">RGBColor</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#ac1ff8a11ece4d50873fe2f74b8f4581f">GetTriangleColor</a>() = 0;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#ad9ab5d49bb0c409b79d8a36a50cbb934">  159</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#ad9ab5d49bb0c409b79d8a36a50cbb934">SetTriangleColor</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structkernel_1_1pdv_1_1_r_g_b_color.html">RGBColor</a> &amp;iColor) = 0;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span></div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a722cf5073a1c03e9a43b577895e3b020">  167</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a722cf5073a1c03e9a43b577895e3b020">GetGraphicData</a>(<a class="code hl_struct" href="structkernel_1_1pdv_1_1_annotation_graphic_data.html">AnnotationGraphicData</a> &amp;oGraphicData) = 0;</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#af4b2af40571dd380d5bd7ab099ab8903">  175</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#af4b2af40571dd380d5bd7ab099ab8903">SetGraphicData</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structkernel_1_1pdv_1_1_annotation_graphic_data.html">AnnotationGraphicData</a> &amp;iGraphicData) = 0;</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span></div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a091cb40bb7d2ea8b21218e3792eee491">  183</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a091cb40bb7d2ea8b21218e3792eee491">GetWires</a>(std::vector&lt;WireFrame2DData&gt; &amp;oWires) = 0;</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span></div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a22ed0b6f176b0c884809fb2e6fc458a0">  191</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a22ed0b6f176b0c884809fb2e6fc458a0">SetWires</a>(<span class="keyword">const</span> std::vector&lt;WireFrame2DData&gt; &amp;iWires) = 0;</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span></div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#ae305869138cccd630d14d26c2eb7ceac">  198</a></span>    <span class="keyword">virtual</span> <a class="code hl_struct" href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#ae305869138cccd630d14d26c2eb7ceac">GetTransformation</a>() = 0;</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span></div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a720124ac19a2482176b77dec9a89f9bc">  206</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a720124ac19a2482176b77dec9a89f9bc">SetTransformation</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a> &amp;iTransformation) = 0;</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span></div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#aa8bb0404049ff379263ba90940a1af34">  213</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#aa8bb0404049ff379263ba90940a1af34">GetFaceViewMode</a>() = 0;</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span></div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a7f45fe6bfdd845029a9316e2c90193e8">  221</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a7f45fe6bfdd845029a9316e2c90193e8">SetFaceViewMode</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iFaceViewMode) = 0;</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    </div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#abb4013aa8bcb00ecc4c9996658cf8666">  229</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#abb4013aa8bcb00ecc4c9996658cf8666">GetLinkedPrimCollectionIDs</a>(std::vector&lt;DftUInt64&gt;&amp; oLinkedPrimCollectionIDs) = 0;</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span></div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a66c07a7b9f565495b68cae372eb55fdf">  237</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a66c07a7b9f565495b68cae372eb55fdf">SetLinkedPrimCollectionIDs</a>(<span class="keyword">const</span> std::vector&lt;DftUInt64&gt;&amp; iLinkedPrimCollectionIDs) = 0;</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span></div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#acfb6e8b839ed96941f3ef1d17b478298">  245</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#acfb6e8b839ed96941f3ef1d17b478298">GetBox</a>(<a class="code hl_struct" href="structkernel_1_1pdv_1_1_oriented_bounding_box.html">OrientedBoundingBox</a> &amp;oBox) = 0;</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span></div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a79e779482e9398eb428c8b4c82f8d885">  253</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a79e779482e9398eb428c8b4c82f8d885">SetBox</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structkernel_1_1pdv_1_1_oriented_bounding_box.html">OrientedBoundingBox</a> &amp;iBox) = 0;</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    </div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a589f2d385f9ea58d057fee10deeea855">  260</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a589f2d385f9ea58d057fee10deeea855">GetRenderBodyID</a>() = 0;</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span></div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a279725854c70e421810837ddd79b02fd">  268</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a279725854c70e421810837ddd79b02fd">SetRenderBodyID</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iRenderBodyID) = 0;</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span></div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a0f9d66decb1e49cd5365d8824bc874fe">  276</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a0f9d66decb1e49cd5365d8824bc874fe">GetAnnotationGeometryIDs</a>(std::vector&lt;DftUInt64&gt;&amp; oAnnotationGeometryIDs) = 0;</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span></div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a9f619cfe2c749fb43166b96571d74627">  284</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a9f619cfe2c749fb43166b96571d74627">SetAnnotationGeometryIDs</a>(<span class="keyword">const</span> std::vector&lt;DftUInt64&gt;&amp; iAnnotationGeometryIDs) = 0;</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span></div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a7f1727d9b497809cc1c81409bea8618d">  292</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a7f1727d9b497809cc1c81409bea8618d">GetLinkedSubsetInfoArray</a>(<a class="code hl_typedef" href="_p_d_v_i_annotation_item_8h.html#ab5a70b18c1081549aa89d96dc32209c9">LinkedSubsetInfoArray</a> &amp;oLinkedSubsetInfoArray) = 0;</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span></div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a20806e49d33efb2e9b6b53580b9b6ff9">  300</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_annotation_item.html#a20806e49d33efb2e9b6b53580b9b6ff9">SetLinkedSubsetInfoArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_p_d_v_i_annotation_item_8h.html#ab5a70b18c1081549aa89d96dc32209c9">LinkedSubsetInfoArray</a> &amp;iLinkedSubsetInfoArray) = 0;</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>};</div>
+</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span> </div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span> </div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a053d8ce6a85300520cc14cd4650ced33"><div class="ttname"><a href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></div><div class="ttdeci">unsigned long long DftUInt64</div><div class="ttdoc">64位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:64</div></div>
+<div class="ttc" id="a_dft_types_8h_html_ab3a04804b0cf7c050b58e7e7807455d6"><div class="ttname"><a href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></div><div class="ttdeci">unsigned char DftUInt8</div><div class="ttdoc">8位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:52</div></div>
+<div class="ttc" id="a_p_d_v_annotation_def_8h_html"><div class="ttname"><a href="_p_d_v_annotation_def_8h.html">PDVAnnotationDef.h</a></div><div class="ttdoc">概述：pdv标注数据定义</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_annotation_item_8h_html_a96a31edeba23b2c42e0ca7916a2a4863"><div class="ttname"><a href="_p_d_v_i_annotation_item_8h.html#a96a31edeba23b2c42e0ca7916a2a4863">kernel::pdv::AnnotationViewMode</a></div><div class="ttdeci">AnnotationViewMode</div><div class="ttdoc">标注项的显示模式</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:23</div></div>
+<div class="ttc" id="a_p_d_v_i_annotation_item_8h_html_a96a31edeba23b2c42e0ca7916a2a4863a4ed40413c8201141e789dbf491fa26f1"><div class="ttname"><a href="_p_d_v_i_annotation_item_8h.html#a96a31edeba23b2c42e0ca7916a2a4863a4ed40413c8201141e789dbf491fa26f1">kernel::pdv::ANNOTATIONVIEWMODE_DEFAULTVIEW</a></div><div class="ttdeci">@ ANNOTATIONVIEWMODE_DEFAULTVIEW</div><div class="ttdoc">默认显示</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:24</div></div>
+<div class="ttc" id="a_p_d_v_i_annotation_item_8h_html_a96a31edeba23b2c42e0ca7916a2a4863a9e72b1f55841efbc7ef825b0b8898a34"><div class="ttname"><a href="_p_d_v_i_annotation_item_8h.html#a96a31edeba23b2c42e0ca7916a2a4863a9e72b1f55841efbc7ef825b0b8898a34">kernel::pdv::ANNOTATIONVIEWMODE_FIXEDSCREEN</a></div><div class="ttdeci">@ ANNOTATIONVIEWMODE_FIXEDSCREEN</div><div class="ttdoc">固定屏幕</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:26</div></div>
+<div class="ttc" id="a_p_d_v_i_annotation_item_8h_html_a96a31edeba23b2c42e0ca7916a2a4863aca5f0986eee0b473a886badca01a7e92"><div class="ttname"><a href="_p_d_v_i_annotation_item_8h.html#a96a31edeba23b2c42e0ca7916a2a4863aca5f0986eee0b473a886badca01a7e92">kernel::pdv::ANNOTATIONVIEWMODE_PARALLELSCREEN</a></div><div class="ttdeci">@ ANNOTATIONVIEWMODE_PARALLELSCREEN</div><div class="ttdoc">平行屏幕</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:25</div></div>
+<div class="ttc" id="a_p_d_v_i_annotation_item_8h_html_ab5a70b18c1081549aa89d96dc32209c9"><div class="ttname"><a href="_p_d_v_i_annotation_item_8h.html#ab5a70b18c1081549aa89d96dc32209c9">kernel::pdv::LinkedSubsetInfoArray</a></div><div class="ttdeci">std::vector&lt; LinkedSubsetInfo &gt; LinkedSubsetInfoArray</div><div class="ttdoc">关联子集信息数组</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:70</div></div>
+<div class="ttc" id="aclass_c_unicode_string_html"><div class="ttname"><a href="class_c_unicode_string.html">CUnicodeString</a></div><div class="ttdoc">Unicode字符操作接口</div><div class="ttdef"><b>定义</b> UnicodeString.h:80</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html">kernel::pdv::IAnnotationItem</a></div><div class="ttdoc">标注项的接口</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:74</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a091cb40bb7d2ea8b21218e3792eee491"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a091cb40bb7d2ea8b21218e3792eee491">kernel::pdv::IAnnotationItem::GetWires</a></div><div class="ttdeci">virtual PDV_RESULT GetWires(std::vector&lt; WireFrame2DData &gt; &amp;oWires)=0</div><div class="ttdoc">获取标注项的线框数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a0f9d66decb1e49cd5365d8824bc874fe"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a0f9d66decb1e49cd5365d8824bc874fe">kernel::pdv::IAnnotationItem::GetAnnotationGeometryIDs</a></div><div class="ttdeci">virtual PDV_RESULT GetAnnotationGeometryIDs(std::vector&lt; DftUInt64 &gt; &amp;oAnnotationGeometryIDs)=0</div><div class="ttdoc">获取链接的辅助几何对象ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a0fea3a5ab5b574a8a0ae9f2110f9071a"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a0fea3a5ab5b574a8a0ae9f2110f9071a">kernel::pdv::IAnnotationItem::GetTrianglePoints</a></div><div class="ttdeci">virtual PDV_RESULT GetTrianglePoints(std::vector&lt; PDVVector2F &gt; &amp;o2DPoints)=0</div><div class="ttdoc">获取标注项的三角形网格顶点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a20806e49d33efb2e9b6b53580b9b6ff9"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a20806e49d33efb2e9b6b53580b9b6ff9">kernel::pdv::IAnnotationItem::SetLinkedSubsetInfoArray</a></div><div class="ttdeci">virtual PDV_RESULT SetLinkedSubsetInfoArray(const LinkedSubsetInfoArray &amp;iLinkedSubsetInfoArray)=0</div><div class="ttdoc">设置链接的几何对象</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a22ed0b6f176b0c884809fb2e6fc458a0"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a22ed0b6f176b0c884809fb2e6fc458a0">kernel::pdv::IAnnotationItem::SetWires</a></div><div class="ttdeci">virtual PDV_RESULT SetWires(const std::vector&lt; WireFrame2DData &gt; &amp;iWires)=0</div><div class="ttdoc">设置标注项的线框数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a279725854c70e421810837ddd79b02fd"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a279725854c70e421810837ddd79b02fd">kernel::pdv::IAnnotationItem::SetRenderBodyID</a></div><div class="ttdeci">virtual PDV_RESULT SetRenderBodyID(const DftUInt64 &amp;iRenderBodyID)=0</div><div class="ttdoc">设置标注项的渲染主体数据ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a4671f739e077f0e82168d80832f8e98f"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a4671f739e077f0e82168d80832f8e98f">kernel::pdv::IAnnotationItem::SetTrianglePoints</a></div><div class="ttdeci">virtual PDV_RESULT SetTrianglePoints(const std::vector&lt; PDVVector2F &gt; &amp;i2DPoints)=0</div><div class="ttdoc">设置标注项的三角形网格顶点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a5452ad7bd717d9f350d238f0b1665582"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a5452ad7bd717d9f350d238f0b1665582">kernel::pdv::IAnnotationItem::SetType</a></div><div class="ttdeci">virtual PDV_RESULT SetType(const CUnicodeString &amp;iType)=0</div><div class="ttdoc">设置标注项的类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a589f2d385f9ea58d057fee10deeea855"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a589f2d385f9ea58d057fee10deeea855">kernel::pdv::IAnnotationItem::GetRenderBodyID</a></div><div class="ttdeci">virtual DftUInt64 GetRenderBodyID()=0</div><div class="ttdoc">获取标注项的渲染主体数据ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a5960b278717949cfbeeb0fd50c0e4fa8"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a5960b278717949cfbeeb0fd50c0e4fa8">kernel::pdv::IAnnotationItem::GetType</a></div><div class="ttdeci">virtual CUnicodeString GetType()=0</div><div class="ttdoc">获取标注项的类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a66c07a7b9f565495b68cae372eb55fdf"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a66c07a7b9f565495b68cae372eb55fdf">kernel::pdv::IAnnotationItem::SetLinkedPrimCollectionIDs</a></div><div class="ttdeci">virtual PDV_RESULT SetLinkedPrimCollectionIDs(const std::vector&lt; DftUInt64 &gt; &amp;iLinkedPrimCollectionIDs)=0</div><div class="ttdoc">设置链接的图元集合对象ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a6750237fcf8843be9ba83ddb9597e775"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a6750237fcf8843be9ba83ddb9597e775">kernel::pdv::IAnnotationItem::GetID</a></div><div class="ttdeci">virtual DftUInt64 GetID()=0</div><div class="ttdoc">获取标注项对象唯一标识</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a6ed244e9dffd0cfd36282e6ed5d23d44"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a6ed244e9dffd0cfd36282e6ed5d23d44">kernel::pdv::IAnnotationItem::SetTriangleIndexes</a></div><div class="ttdeci">virtual PDV_RESULT SetTriangleIndexes(const std::vector&lt; DftUInt &gt; &amp;iIndexes)=0</div><div class="ttdoc">设置标注项的三角形网格索引</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a720124ac19a2482176b77dec9a89f9bc"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a720124ac19a2482176b77dec9a89f9bc">kernel::pdv::IAnnotationItem::SetTransformation</a></div><div class="ttdeci">virtual PDV_RESULT SetTransformation(const PDVMatrix4F &amp;iTransformation)=0</div><div class="ttdoc">设置标注项相对于模型对象的局部变换信息</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a722cf5073a1c03e9a43b577895e3b020"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a722cf5073a1c03e9a43b577895e3b020">kernel::pdv::IAnnotationItem::GetGraphicData</a></div><div class="ttdeci">virtual PDV_RESULT GetGraphicData(AnnotationGraphicData &amp;oGraphicData)=0</div><div class="ttdoc">获取图形数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a79e779482e9398eb428c8b4c82f8d885"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a79e779482e9398eb428c8b4c82f8d885">kernel::pdv::IAnnotationItem::SetBox</a></div><div class="ttdeci">virtual PDV_RESULT SetBox(const OrientedBoundingBox &amp;iBox)=0</div><div class="ttdoc">设置标注项的外包盒</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a7f1727d9b497809cc1c81409bea8618d"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a7f1727d9b497809cc1c81409bea8618d">kernel::pdv::IAnnotationItem::GetLinkedSubsetInfoArray</a></div><div class="ttdeci">virtual PDV_RESULT GetLinkedSubsetInfoArray(LinkedSubsetInfoArray &amp;oLinkedSubsetInfoArray)=0</div><div class="ttdoc">获取链接的几何对象</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a7f45fe6bfdd845029a9316e2c90193e8"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a7f45fe6bfdd845029a9316e2c90193e8">kernel::pdv::IAnnotationItem::SetFaceViewMode</a></div><div class="ttdeci">virtual PDV_RESULT SetFaceViewMode(const DftUInt8 &amp;iFaceViewMode)=0</div><div class="ttdoc">设置标注项的显示模式</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a863770ba799a9f58b96640ca8630dad7"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a863770ba799a9f58b96640ca8630dad7">kernel::pdv::IAnnotationItem::SetName</a></div><div class="ttdeci">virtual PDV_RESULT SetName(const CUnicodeString &amp;iName)=0</div><div class="ttdoc">设置标注项的命名</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_a9f619cfe2c749fb43166b96571d74627"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#a9f619cfe2c749fb43166b96571d74627">kernel::pdv::IAnnotationItem::SetAnnotationGeometryIDs</a></div><div class="ttdeci">virtual PDV_RESULT SetAnnotationGeometryIDs(const std::vector&lt; DftUInt64 &gt; &amp;iAnnotationGeometryIDs)=0</div><div class="ttdoc">设置链接的辅助几何对象ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_aa8bb0404049ff379263ba90940a1af34"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#aa8bb0404049ff379263ba90940a1af34">kernel::pdv::IAnnotationItem::GetFaceViewMode</a></div><div class="ttdeci">virtual DftUInt8 GetFaceViewMode()=0</div><div class="ttdoc">获取标注项的显示模式</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_abb4013aa8bcb00ecc4c9996658cf8666"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#abb4013aa8bcb00ecc4c9996658cf8666">kernel::pdv::IAnnotationItem::GetLinkedPrimCollectionIDs</a></div><div class="ttdeci">virtual PDV_RESULT GetLinkedPrimCollectionIDs(std::vector&lt; DftUInt64 &gt; &amp;oLinkedPrimCollectionIDs)=0</div><div class="ttdoc">获取链接的图元集合对象ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_abfce0cf2b078880df90047559cada9df"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#abfce0cf2b078880df90047559cada9df">kernel::pdv::IAnnotationItem::GetTriangleIndexes</a></div><div class="ttdeci">virtual PDV_RESULT GetTriangleIndexes(std::vector&lt; DftUInt &gt; &amp;oIndexes)=0</div><div class="ttdoc">获取标注项的三角形网格索引</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_ac1ff8a11ece4d50873fe2f74b8f4581f"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#ac1ff8a11ece4d50873fe2f74b8f4581f">kernel::pdv::IAnnotationItem::GetTriangleColor</a></div><div class="ttdeci">virtual RGBColor GetTriangleColor()=0</div><div class="ttdoc">获取标注项的三角形网格颜色</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_acfb6e8b839ed96941f3ef1d17b478298"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#acfb6e8b839ed96941f3ef1d17b478298">kernel::pdv::IAnnotationItem::GetBox</a></div><div class="ttdeci">virtual PDV_RESULT GetBox(OrientedBoundingBox &amp;oBox)=0</div><div class="ttdoc">获取外包盒</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_ad469cac9aa70fd15b77c44d41d7a308c"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#ad469cac9aa70fd15b77c44d41d7a308c">kernel::pdv::IAnnotationItem::GetName</a></div><div class="ttdeci">virtual PDV_RESULT GetName(CUnicodeString &amp;oName)=0</div><div class="ttdoc">获取标注项的命名</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_ad9ab5d49bb0c409b79d8a36a50cbb934"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#ad9ab5d49bb0c409b79d8a36a50cbb934">kernel::pdv::IAnnotationItem::SetTriangleColor</a></div><div class="ttdeci">virtual PDV_RESULT SetTriangleColor(const RGBColor &amp;iColor)=0</div><div class="ttdoc">设置标注项的三角形网格颜色</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_ae305869138cccd630d14d26c2eb7ceac"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#ae305869138cccd630d14d26c2eb7ceac">kernel::pdv::IAnnotationItem::GetTransformation</a></div><div class="ttdeci">virtual PDVMatrix4F GetTransformation()=0</div><div class="ttdoc">获取标注项相对于模型对象的局部变换信息</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_item_html_af4b2af40571dd380d5bd7ab099ab8903"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation_item.html#af4b2af40571dd380d5bd7ab099ab8903">kernel::pdv::IAnnotationItem::SetGraphicData</a></div><div class="ttdeci">virtual PDV_RESULT SetGraphicData(const AnnotationGraphicData &amp;iGraphicData)=0</div><div class="ttdoc">设置图形数据</div></div>
+<div class="ttc" id="astruct_p_d_v_matrix4_f_html"><div class="ttname"><a href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a></div><div class="ttdoc">单精度浮点数4X4矩阵</div><div class="ttdef"><b>定义</b> PDVMath.h:781</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_annotation_graphic_data_html"><div class="ttname"><a href="structkernel_1_1pdv_1_1_annotation_graphic_data.html">kernel::pdv::AnnotationGraphicData</a></div><div class="ttdoc">标注图形数据</div><div class="ttdef"><b>定义</b> PDVAnnotationDef.h:104</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_linked_subset_info_html_a1081447629ca0681fd8cd516742d9faa"><div class="ttname"><a href="structkernel_1_1pdv_1_1_linked_subset_info.html#a1081447629ca0681fd8cd516742d9faa">kernel::pdv::LinkedSubsetInfo::LinkedSubsetInfo</a></div><div class="ttdeci">LinkedSubsetInfo()</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:38</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_linked_subset_info_html_a62a2e6a7470c8e94710a629d7932b6d2"><div class="ttname"><a href="structkernel_1_1pdv_1_1_linked_subset_info.html#a62a2e6a7470c8e94710a629d7932b6d2">kernel::pdv::LinkedSubsetInfo::_renderBodyID</a></div><div class="ttdeci">DftUInt64 _renderBodyID</div><div class="ttdoc">渲染主体ID</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:33</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_linked_subset_info_html_a82b768120fb86deb00be538bd0ce0118"><div class="ttname"><a href="structkernel_1_1pdv_1_1_linked_subset_info.html#a82b768120fb86deb00be538bd0ce0118">kernel::pdv::LinkedSubsetInfo::LinkedSubsetInfo</a></div><div class="ttdeci">LinkedSubsetInfo(const LinkedSubsetInfo &amp;iData)</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:40</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_linked_subset_info_html_a8acaa71a4569aae3fc62462f96101a68"><div class="ttname"><a href="structkernel_1_1pdv_1_1_linked_subset_info.html#a8acaa71a4569aae3fc62462f96101a68">kernel::pdv::LinkedSubsetInfo::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:60</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_linked_subset_info_html_ab4267c9c78ccbc9dd1fe39e85ceb1355"><div class="ttname"><a href="structkernel_1_1pdv_1_1_linked_subset_info.html#ab4267c9c78ccbc9dd1fe39e85ceb1355">kernel::pdv::LinkedSubsetInfo::_nodeID</a></div><div class="ttdeci">DftUInt64 _nodeID</div><div class="ttdoc">节点ID</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:32</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_linked_subset_info_html_acbf02d20c54ae88750a4429025d7b022"><div class="ttname"><a href="structkernel_1_1pdv_1_1_linked_subset_info.html#acbf02d20c54ae88750a4429025d7b022">kernel::pdv::LinkedSubsetInfo::operator=</a></div><div class="ttdeci">LinkedSubsetInfo &amp; operator=(const LinkedSubsetInfo &amp;iData)</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:48</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_linked_subset_info_html_ad3f8b4f16733d53422cd00b49b9fe42b"><div class="ttname"><a href="structkernel_1_1pdv_1_1_linked_subset_info.html#ad3f8b4f16733d53422cd00b49b9fe42b">kernel::pdv::LinkedSubsetInfo::_renderMeshID</a></div><div class="ttdeci">DftUInt64 _renderMeshID</div><div class="ttdoc">渲染网格ID</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:34</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_linked_subset_info_html_adb68ea7766fb7771d9971b97a4f36fab"><div class="ttname"><a href="structkernel_1_1pdv_1_1_linked_subset_info.html#adb68ea7766fb7771d9971b97a4f36fab">kernel::pdv::LinkedSubsetInfo::_subsetID</a></div><div class="ttdeci">DftUInt64 _subsetID</div><div class="ttdoc">子集ID</div><div class="ttdef"><b>定义</b> PDVIAnnotationItem.h:35</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_oriented_bounding_box_html"><div class="ttname"><a href="structkernel_1_1pdv_1_1_oriented_bounding_box.html">kernel::pdv::OrientedBoundingBox</a></div><div class="ttdoc">有向外包盒</div><div class="ttdef"><b>定义</b> PDVBase.h:573</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_r_g_b_color_html"><div class="ttname"><a href="structkernel_1_1pdv_1_1_r_g_b_color.html">kernel::pdv::RGBColor</a></div><div class="ttdoc">颜色数据</div><div class="ttdef"><b>定义</b> PDVBase.h:351</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_annotation_item_8h.html">PDVIAnnotationItem.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

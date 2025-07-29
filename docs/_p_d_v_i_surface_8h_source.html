@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVISurface.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_surface_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVISurface.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_surface_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVISURFACE_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVISURFACE_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10">   22</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10">SurfaceType</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10ab1b4f6da8162f9abb0fef005ea619583">   24</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10ab1b4f6da8162f9abb0fef005ea619583">ST_UNDIFINED</a> = 0,          </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a407153ebc132ce1efa09cc5a3c9d7b0e">   25</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a407153ebc132ce1efa09cc5a3c9d7b0e">ST_PLANE</a> = 1,              </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a0a1b95445e080fdeb9323e5bb06b164b">   26</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a0a1b95445e080fdeb9323e5bb06b164b">ST_CYLINDER</a> = 2,           </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a44066524d9478efdb3b0750f3caba445">   27</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a44066524d9478efdb3b0750f3caba445">ST_CONE</a> = 3,               </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a7659ac57721455efda5ed135d7662cf4">   28</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a7659ac57721455efda5ed135d7662cf4">ST_TORUS</a> = 4,              </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a0a1d57330b4ff15840a2d27b717cf4b3">   29</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a0a1d57330b4ff15840a2d27b717cf4b3">ST_SPHERE</a> = 5,             </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a1205618cb18ed82d1c4b4f1b9433a3db">   30</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a1205618cb18ed82d1c4b4f1b9433a3db">ST_BSPLINESURFACE</a> = 6,     </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10ae1ca87692ce4101461aa8d068ec2502b">   31</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10ae1ca87692ce4101461aa8d068ec2502b">ST_LINEAREXTRUSION</a> = 7,    </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a8756c68c281076f7b199e812c8ac2d2d">   32</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a8756c68c281076f7b199e812c8ac2d2d">ST_REVOLUTION</a> = 8          </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>};</div>
+</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
+<div class="foldopen" id="foldopen00036" data-start="{" data-end="};">
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_surface.html">   36</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_surface.html">ISurface</a></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>{</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_surface.html#aa69a144473714aad08c51fec325f91ef">   44</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10">SurfaceType</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_surface.html#aa69a144473714aad08c51fec325f91ef">GetType</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_surface.html#a2b0ac170716ccd6098aa77a579723fc7">   53</a></span>    <span class="keyword">virtual</span> <a class="code hl_struct" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_surface.html#a2b0ac170716ccd6098aa77a579723fc7">GetPosition</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iUPara, <a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iVPara) <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>};</div>
+</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span></div>
+<div class="foldopen" id="foldopen00057" data-start="{" data-end="};">
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_elementary_surface.html">   57</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_elementary_surface.html">IElementarySurface</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_surface.html">ISurface</a></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>{</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a5ba7ddd1d404a6da0c52db92f843964f">   65</a></span>    <span class="keyword">virtual</span> <a class="code hl_struct" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a5ba7ddd1d404a6da0c52db92f843964f">GetOrigin</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a692aeec8446a8d3b59cfed4c23739eb9">   72</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a692aeec8446a8d3b59cfed4c23739eb9">SetOrigin</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iOrigin) = 0;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a936eabba5395b37b09f4b0c41c079a90">   79</a></span>    <span class="keyword">virtual</span> <a class="code hl_struct" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a936eabba5395b37b09f4b0c41c079a90">GetXDirection</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a2ffae4c00c911a3918537362fb6c343e">   86</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a2ffae4c00c911a3918537362fb6c343e">SetXDirection</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iXDir) = 0;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a098eefd126734c3baec6eb2def388303">   93</a></span>    <span class="keyword">virtual</span> <a class="code hl_struct" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a098eefd126734c3baec6eb2def388303">GetYDirection</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#aa6f5a8944507f31c27481d7da4951cb0">  100</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#aa6f5a8944507f31c27481d7da4951cb0">SetYDirection</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iYDir) = 0;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#aa1a6ab53f99c8b53d32131eb66299435">  107</a></span>    <span class="keyword">virtual</span> <a class="code hl_struct" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#aa1a6ab53f99c8b53d32131eb66299435">GetZDirection</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a5fecc8b2213707dcf35965b830d36d9e">  114</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a5fecc8b2213707dcf35965b830d36d9e">SetZDirection</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iZDir) = 0;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>};</div>
+</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a498a500cb0cd9d5cbb7f60d581454d8e"><div class="ttname"><a href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></div><div class="ttdeci">double DftDouble</div><div class="ttdoc">双精度浮点数</div><div class="ttdef"><b>定义</b> DftTypes.h:68</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_i_surface_8h_html_ac5db7473164cf377a7dde7d1853d8b10"><div class="ttname"><a href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10">kernel::pdv::SurfaceType</a></div><div class="ttdeci">SurfaceType</div><div class="ttdoc">曲面类型</div><div class="ttdef"><b>定义</b> PDVISurface.h:23</div></div>
+<div class="ttc" id="a_p_d_v_i_surface_8h_html_ac5db7473164cf377a7dde7d1853d8b10a0a1b95445e080fdeb9323e5bb06b164b"><div class="ttname"><a href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a0a1b95445e080fdeb9323e5bb06b164b">kernel::pdv::ST_CYLINDER</a></div><div class="ttdeci">@ ST_CYLINDER</div><div class="ttdoc">圆柱面</div><div class="ttdef"><b>定义</b> PDVISurface.h:26</div></div>
+<div class="ttc" id="a_p_d_v_i_surface_8h_html_ac5db7473164cf377a7dde7d1853d8b10a0a1d57330b4ff15840a2d27b717cf4b3"><div class="ttname"><a href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a0a1d57330b4ff15840a2d27b717cf4b3">kernel::pdv::ST_SPHERE</a></div><div class="ttdeci">@ ST_SPHERE</div><div class="ttdoc">球面</div><div class="ttdef"><b>定义</b> PDVISurface.h:29</div></div>
+<div class="ttc" id="a_p_d_v_i_surface_8h_html_ac5db7473164cf377a7dde7d1853d8b10a1205618cb18ed82d1c4b4f1b9433a3db"><div class="ttname"><a href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a1205618cb18ed82d1c4b4f1b9433a3db">kernel::pdv::ST_BSPLINESURFACE</a></div><div class="ttdeci">@ ST_BSPLINESURFACE</div><div class="ttdoc">B样条曲面</div><div class="ttdef"><b>定义</b> PDVISurface.h:30</div></div>
+<div class="ttc" id="a_p_d_v_i_surface_8h_html_ac5db7473164cf377a7dde7d1853d8b10a407153ebc132ce1efa09cc5a3c9d7b0e"><div class="ttname"><a href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a407153ebc132ce1efa09cc5a3c9d7b0e">kernel::pdv::ST_PLANE</a></div><div class="ttdeci">@ ST_PLANE</div><div class="ttdoc">平面</div><div class="ttdef"><b>定义</b> PDVISurface.h:25</div></div>
+<div class="ttc" id="a_p_d_v_i_surface_8h_html_ac5db7473164cf377a7dde7d1853d8b10a44066524d9478efdb3b0750f3caba445"><div class="ttname"><a href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a44066524d9478efdb3b0750f3caba445">kernel::pdv::ST_CONE</a></div><div class="ttdeci">@ ST_CONE</div><div class="ttdoc">圆锥面</div><div class="ttdef"><b>定义</b> PDVISurface.h:27</div></div>
+<div class="ttc" id="a_p_d_v_i_surface_8h_html_ac5db7473164cf377a7dde7d1853d8b10a7659ac57721455efda5ed135d7662cf4"><div class="ttname"><a href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a7659ac57721455efda5ed135d7662cf4">kernel::pdv::ST_TORUS</a></div><div class="ttdeci">@ ST_TORUS</div><div class="ttdoc">圆环面</div><div class="ttdef"><b>定义</b> PDVISurface.h:28</div></div>
+<div class="ttc" id="a_p_d_v_i_surface_8h_html_ac5db7473164cf377a7dde7d1853d8b10a8756c68c281076f7b199e812c8ac2d2d"><div class="ttname"><a href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10a8756c68c281076f7b199e812c8ac2d2d">kernel::pdv::ST_REVOLUTION</a></div><div class="ttdeci">@ ST_REVOLUTION</div><div class="ttdoc">旋转面</div><div class="ttdef"><b>定义</b> PDVISurface.h:32</div></div>
+<div class="ttc" id="a_p_d_v_i_surface_8h_html_ac5db7473164cf377a7dde7d1853d8b10ab1b4f6da8162f9abb0fef005ea619583"><div class="ttname"><a href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10ab1b4f6da8162f9abb0fef005ea619583">kernel::pdv::ST_UNDIFINED</a></div><div class="ttdeci">@ ST_UNDIFINED</div><div class="ttdoc">未知曲面</div><div class="ttdef"><b>定义</b> PDVISurface.h:24</div></div>
+<div class="ttc" id="a_p_d_v_i_surface_8h_html_ac5db7473164cf377a7dde7d1853d8b10ae1ca87692ce4101461aa8d068ec2502b"><div class="ttname"><a href="_p_d_v_i_surface_8h.html#ac5db7473164cf377a7dde7d1853d8b10ae1ca87692ce4101461aa8d068ec2502b">kernel::pdv::ST_LINEAREXTRUSION</a></div><div class="ttdeci">@ ST_LINEAREXTRUSION</div><div class="ttdoc">拉伸面</div><div class="ttdef"><b>定义</b> PDVISurface.h:31</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_elementary_surface_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_elementary_surface.html">kernel::pdv::IElementarySurface</a></div><div class="ttdoc">基本几何曲面接口</div><div class="ttdef"><b>定义</b> PDVISurface.h:58</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_elementary_surface_html_a098eefd126734c3baec6eb2def388303"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a098eefd126734c3baec6eb2def388303">kernel::pdv::IElementarySurface::GetYDirection</a></div><div class="ttdeci">virtual PDVVector3D GetYDirection() const =0</div><div class="ttdoc">获取Y轴方向</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_elementary_surface_html_a2ffae4c00c911a3918537362fb6c343e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a2ffae4c00c911a3918537362fb6c343e">kernel::pdv::IElementarySurface::SetXDirection</a></div><div class="ttdeci">virtual void SetXDirection(const PDVVector3D &amp;iXDir)=0</div><div class="ttdoc">设置X轴方向</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_elementary_surface_html_a5ba7ddd1d404a6da0c52db92f843964f"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a5ba7ddd1d404a6da0c52db92f843964f">kernel::pdv::IElementarySurface::GetOrigin</a></div><div class="ttdeci">virtual PDVVector3D GetOrigin() const =0</div><div class="ttdoc">获取原点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_elementary_surface_html_a5fecc8b2213707dcf35965b830d36d9e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a5fecc8b2213707dcf35965b830d36d9e">kernel::pdv::IElementarySurface::SetZDirection</a></div><div class="ttdeci">virtual void SetZDirection(const PDVVector3D &amp;iZDir)=0</div><div class="ttdoc">设置Z轴方向</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_elementary_surface_html_a692aeec8446a8d3b59cfed4c23739eb9"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a692aeec8446a8d3b59cfed4c23739eb9">kernel::pdv::IElementarySurface::SetOrigin</a></div><div class="ttdeci">virtual void SetOrigin(const PDVVector3D &amp;iOrigin)=0</div><div class="ttdoc">设置原点</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_elementary_surface_html_a936eabba5395b37b09f4b0c41c079a90"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_elementary_surface.html#a936eabba5395b37b09f4b0c41c079a90">kernel::pdv::IElementarySurface::GetXDirection</a></div><div class="ttdeci">virtual PDVVector3D GetXDirection() const =0</div><div class="ttdoc">获取X轴方向</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_elementary_surface_html_aa1a6ab53f99c8b53d32131eb66299435"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_elementary_surface.html#aa1a6ab53f99c8b53d32131eb66299435">kernel::pdv::IElementarySurface::GetZDirection</a></div><div class="ttdeci">virtual PDVVector3D GetZDirection() const =0</div><div class="ttdoc">获取Z轴方向</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_elementary_surface_html_aa6f5a8944507f31c27481d7da4951cb0"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_elementary_surface.html#aa6f5a8944507f31c27481d7da4951cb0">kernel::pdv::IElementarySurface::SetYDirection</a></div><div class="ttdeci">virtual void SetYDirection(const PDVVector3D &amp;iYDir)=0</div><div class="ttdoc">设置Y轴方向</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_surface_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_surface.html">kernel::pdv::ISurface</a></div><div class="ttdoc">曲面接口</div><div class="ttdef"><b>定义</b> PDVISurface.h:37</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_surface_html_a2b0ac170716ccd6098aa77a579723fc7"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_surface.html#a2b0ac170716ccd6098aa77a579723fc7">kernel::pdv::ISurface::GetPosition</a></div><div class="ttdeci">virtual PDVVector3D GetPosition(DftDouble iUPara, DftDouble iVPara) const =0</div><div class="ttdoc">获取参数的空间位置</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_surface_html_aa69a144473714aad08c51fec325f91ef"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_surface.html#aa69a144473714aad08c51fec325f91ef">kernel::pdv::ISurface::GetType</a></div><div class="ttdeci">virtual SurfaceType GetType() const =0</div><div class="ttdoc">获取曲面类型</div></div>
+<div class="ttc" id="astruct_p_d_v_vector3_d_html"><div class="ttname"><a href="struct_p_d_v_vector3_d.html">PDVVector3D</a></div><div class="ttdoc">双精度浮点数三维向量</div><div class="ttdef"><b>定义</b> PDVMath.h:1023</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_surface_8h.html">PDVISurface.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,1360 @@
+{
+	"renderBodySubsets(size = 3)":	{
+		"renderBodySubset[0]":	{
+			"_id":	"251546253793968128",
+			"_pointMeshSubsets(size = 0)":	{
+			},
+			"_lineMeshSubsets(size = 1)":	{
+				"_lineMeshSubsets[0]":	{
+					"_renderMeshID":	"251546253789773826",
+					"_renderSubsets(size = 12)":	{
+						"_renderSubsets[0]":	{
+							"_id":	"251546253789773827",
+							"_type":	2,
+							"_box":	{
+								"_center":	[0, 0, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	0,
+									"_indexRangeEnd":	1
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996625",
+							"_geomID":	"251546253772996623"
+						},
+						"_renderSubsets[1]":	{
+							"_id":	"251546253789773828",
+							"_type":	2,
+							"_box":	{
+								"_center":	[50, 0, 0],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	2,
+									"_indexRangeEnd":	3
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996628",
+							"_geomID":	"251546253772996626"
+						},
+						"_renderSubsets[2]":	{
+							"_id":	"251546253789773829",
+							"_type":	2,
+							"_box":	{
+								"_center":	[100, 0, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	4,
+									"_indexRangeEnd":	5
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996631",
+							"_geomID":	"251546253772996629"
+						},
+						"_renderSubsets[3]":	{
+							"_id":	"251546253789773830",
+							"_type":	2,
+							"_box":	{
+								"_center":	[50, 0, 100],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	6,
+									"_indexRangeEnd":	7
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996634",
+							"_geomID":	"251546253772996632"
+						},
+						"_renderSubsets[4]":	{
+							"_id":	"251546253789773831",
+							"_type":	2,
+							"_box":	{
+								"_center":	[100, 50, 0],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	8,
+									"_indexRangeEnd":	9
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996637",
+							"_geomID":	"251546253772996635"
+						},
+						"_renderSubsets[5]":	{
+							"_id":	"251546253789773832",
+							"_type":	2,
+							"_box":	{
+								"_center":	[100, 100, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	10,
+									"_indexRangeEnd":	11
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996640",
+							"_geomID":	"251546253772996638"
+						},
+						"_renderSubsets[6]":	{
+							"_id":	"251546253789773833",
+							"_type":	2,
+							"_box":	{
+								"_center":	[100, 50, 100],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	12,
+									"_indexRangeEnd":	13
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996643",
+							"_geomID":	"251546253772996641"
+						},
+						"_renderSubsets[7]":	{
+							"_id":	"251546253789773834",
+							"_type":	2,
+							"_box":	{
+								"_center":	[50, 100, 0],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	14,
+									"_indexRangeEnd":	15
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996646",
+							"_geomID":	"251546253772996644"
+						},
+						"_renderSubsets[8]":	{
+							"_id":	"251546253789773835",
+							"_type":	2,
+							"_box":	{
+								"_center":	[0, 100, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	16,
+									"_indexRangeEnd":	17
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996649",
+							"_geomID":	"251546253772996647"
+						},
+						"_renderSubsets[9]":	{
+							"_id":	"251546253789773836",
+							"_type":	2,
+							"_box":	{
+								"_center":	[50, 100, 100],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	18,
+									"_indexRangeEnd":	19
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996652",
+							"_geomID":	"251546253772996650"
+						},
+						"_renderSubsets[10]":	{
+							"_id":	"251546253789773837",
+							"_type":	2,
+							"_box":	{
+								"_center":	[0, 50, 0],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	20,
+									"_indexRangeEnd":	21
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996655",
+							"_geomID":	"251546253772996653"
+						},
+						"_renderSubsets[11]":	{
+							"_id":	"251546253789773838",
+							"_type":	2,
+							"_box":	{
+								"_center":	[0, 50, 100],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	22,
+									"_indexRangeEnd":	23
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996658",
+							"_geomID":	"251546253772996656"
+						}
+					}
+				}
+			},
+			"_faceMeshSubsets(size = 1)":	{
+				"_faceMeshSubsets[0]":	{
+					"_renderMeshID":	"251546253785579522",
+					"_renderSubsets(size = 6)":	{
+						"_renderSubsets[0]":	{
+							"_id":	"251546253785579523",
+							"_type":	3,
+							"_box":	{
+								"_center":	[50, 0, 50],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	0,
+									"_vertexRangeEnd":	3,
+									"_indexRangeStart":	0,
+									"_indexRangeEnd":	5
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253768802306",
+							"_geomID":	"251546253768802304"
+						},
+						"_renderSubsets[1]":	{
+							"_id":	"251546253785579524",
+							"_type":	3,
+							"_box":	{
+								"_center":	[100, 50, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	4,
+									"_vertexRangeEnd":	7,
+									"_indexRangeStart":	6,
+									"_indexRangeEnd":	11
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996610",
+							"_geomID":	"251546253772996608"
+						},
+						"_renderSubsets[2]":	{
+							"_id":	"251546253785579525",
+							"_type":	3,
+							"_box":	{
+								"_center":	[50, 100, 50],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	8,
+									"_vertexRangeEnd":	11,
+									"_indexRangeStart":	12,
+									"_indexRangeEnd":	17
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996613",
+							"_geomID":	"251546253772996611"
+						},
+						"_renderSubsets[3]":	{
+							"_id":	"251546253785579526",
+							"_type":	3,
+							"_box":	{
+								"_center":	[0, 50, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	12,
+									"_vertexRangeEnd":	15,
+									"_indexRangeStart":	18,
+									"_indexRangeEnd":	23
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996616",
+							"_geomID":	"251546253772996614"
+						},
+						"_renderSubsets[4]":	{
+							"_id":	"251546253785579527",
+							"_type":	3,
+							"_box":	{
+								"_center":	[50, 50, 0],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	16,
+									"_vertexRangeEnd":	19,
+									"_indexRangeStart":	24,
+									"_indexRangeEnd":	29
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996619",
+							"_geomID":	"251546253772996617"
+						},
+						"_renderSubsets[5]":	{
+							"_id":	"251546253785579528",
+							"_type":	3,
+							"_box":	{
+								"_center":	[50, 50, 100],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	20,
+									"_vertexRangeEnd":	23,
+									"_indexRangeStart":	30,
+									"_indexRangeEnd":	35
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546253772996683",
+							"_topoID":	"251546253772996622",
+							"_geomID":	"251546253772996620"
+						}
+					}
+				}
+			},
+			"_refCount":	1
+		},
+		"renderBodySubset[1]":	{
+			"_id":	"251546254104346638",
+			"_pointMeshSubsets(size = 0)":	{
+			},
+			"_lineMeshSubsets(size = 1)":	{
+				"_lineMeshSubsets[0]":	{
+					"_renderMeshID":	"251546254104346625",
+					"_renderSubsets(size = 12)":	{
+						"_renderSubsets[0]":	{
+							"_id":	"251546254104346626",
+							"_type":	2,
+							"_box":	{
+								"_center":	[0, 0, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	0,
+									"_indexRangeEnd":	1
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152340",
+							"_geomID":	"251546254100152338"
+						},
+						"_renderSubsets[1]":	{
+							"_id":	"251546254104346627",
+							"_type":	2,
+							"_box":	{
+								"_center":	[50, 0, 0],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	2,
+									"_indexRangeEnd":	3
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152343",
+							"_geomID":	"251546254100152341"
+						},
+						"_renderSubsets[2]":	{
+							"_id":	"251546254104346628",
+							"_type":	2,
+							"_box":	{
+								"_center":	[100, 0, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	4,
+									"_indexRangeEnd":	5
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152346",
+							"_geomID":	"251546254100152344"
+						},
+						"_renderSubsets[3]":	{
+							"_id":	"251546254104346629",
+							"_type":	2,
+							"_box":	{
+								"_center":	[50, 0, 100],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	6,
+									"_indexRangeEnd":	7
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152349",
+							"_geomID":	"251546254100152347"
+						},
+						"_renderSubsets[4]":	{
+							"_id":	"251546254104346630",
+							"_type":	2,
+							"_box":	{
+								"_center":	[100, 50, 0],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	8,
+									"_indexRangeEnd":	9
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152352",
+							"_geomID":	"251546254100152350"
+						},
+						"_renderSubsets[5]":	{
+							"_id":	"251546254104346631",
+							"_type":	2,
+							"_box":	{
+								"_center":	[100, 100, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	10,
+									"_indexRangeEnd":	11
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152355",
+							"_geomID":	"251546254100152353"
+						},
+						"_renderSubsets[6]":	{
+							"_id":	"251546254104346632",
+							"_type":	2,
+							"_box":	{
+								"_center":	[100, 50, 100],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	12,
+									"_indexRangeEnd":	13
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152358",
+							"_geomID":	"251546254100152356"
+						},
+						"_renderSubsets[7]":	{
+							"_id":	"251546254104346633",
+							"_type":	2,
+							"_box":	{
+								"_center":	[50, 100, 0],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	14,
+									"_indexRangeEnd":	15
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152361",
+							"_geomID":	"251546254100152359"
+						},
+						"_renderSubsets[8]":	{
+							"_id":	"251546254104346634",
+							"_type":	2,
+							"_box":	{
+								"_center":	[0, 100, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	16,
+									"_indexRangeEnd":	17
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152364",
+							"_geomID":	"251546254100152362"
+						},
+						"_renderSubsets[9]":	{
+							"_id":	"251546254104346635",
+							"_type":	2,
+							"_box":	{
+								"_center":	[50, 100, 100],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	18,
+									"_indexRangeEnd":	19
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152367",
+							"_geomID":	"251546254100152365"
+						},
+						"_renderSubsets[10]":	{
+							"_id":	"251546254104346636",
+							"_type":	2,
+							"_box":	{
+								"_center":	[0, 50, 0],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	20,
+									"_indexRangeEnd":	21
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152370",
+							"_geomID":	"251546254100152368"
+						},
+						"_renderSubsets[11]":	{
+							"_id":	"251546254104346637",
+							"_type":	2,
+							"_box":	{
+								"_center":	[0, 50, 100],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	22,
+									"_indexRangeEnd":	23
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152373",
+							"_geomID":	"251546254100152371"
+						}
+					}
+				}
+			},
+			"_faceMeshSubsets(size = 1)":	{
+				"_faceMeshSubsets[0]":	{
+					"_renderMeshID":	"251546254100152403",
+					"_renderSubsets(size = 6)":	{
+						"_renderSubsets[0]":	{
+							"_id":	"251546254100152404",
+							"_type":	3,
+							"_box":	{
+								"_center":	[50, 0, 50],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	0,
+									"_vertexRangeEnd":	3,
+									"_indexRangeStart":	0,
+									"_indexRangeEnd":	5
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152322",
+							"_geomID":	"251546254100152320"
+						},
+						"_renderSubsets[1]":	{
+							"_id":	"251546254100152405",
+							"_type":	3,
+							"_box":	{
+								"_center":	[100, 50, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	4,
+									"_vertexRangeEnd":	7,
+									"_indexRangeStart":	6,
+									"_indexRangeEnd":	11
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152325",
+							"_geomID":	"251546254100152323"
+						},
+						"_renderSubsets[2]":	{
+							"_id":	"251546254100152406",
+							"_type":	3,
+							"_box":	{
+								"_center":	[50, 100, 50],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	8,
+									"_vertexRangeEnd":	11,
+									"_indexRangeStart":	12,
+									"_indexRangeEnd":	17
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152328",
+							"_geomID":	"251546254100152326"
+						},
+						"_renderSubsets[3]":	{
+							"_id":	"251546254100152407",
+							"_type":	3,
+							"_box":	{
+								"_center":	[0, 50, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	12,
+									"_vertexRangeEnd":	15,
+									"_indexRangeStart":	18,
+									"_indexRangeEnd":	23
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152331",
+							"_geomID":	"251546254100152329"
+						},
+						"_renderSubsets[4]":	{
+							"_id":	"251546254100152408",
+							"_type":	3,
+							"_box":	{
+								"_center":	[50, 50, 0],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	16,
+									"_vertexRangeEnd":	19,
+									"_indexRangeStart":	24,
+									"_indexRangeEnd":	29
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152334",
+							"_geomID":	"251546254100152332"
+						},
+						"_renderSubsets[5]":	{
+							"_id":	"251546254100152409",
+							"_type":	3,
+							"_box":	{
+								"_center":	[50, 50, 100],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	20,
+									"_vertexRangeEnd":	23,
+									"_indexRangeStart":	30,
+									"_indexRangeEnd":	35
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546254100152398",
+							"_topoID":	"251546254100152337",
+							"_geomID":	"251546254100152335"
+						}
+					}
+				}
+			},
+			"_refCount":	1
+		},
+		"renderBodySubset[2]":	{
+			"_id":	"251546254150483993",
+			"_pointMeshSubsets(size = 0)":	{
+			},
+			"_lineMeshSubsets(size = 1)":	{
+				"_lineMeshSubsets[0]":	{
+					"_renderMeshID":	"251546254150483980",
+					"_renderSubsets(size = 12)":	{
+						"_renderSubsets[0]":	{
+							"_id":	"251546254150483981",
+							"_type":	2,
+							"_box":	{
+								"_center":	[0, 0, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	0,
+									"_indexRangeEnd":	1
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289684",
+							"_geomID":	"251546254146289682"
+						},
+						"_renderSubsets[1]":	{
+							"_id":	"251546254150483982",
+							"_type":	2,
+							"_box":	{
+								"_center":	[50, 0, 0],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	2,
+									"_indexRangeEnd":	3
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289687",
+							"_geomID":	"251546254146289685"
+						},
+						"_renderSubsets[2]":	{
+							"_id":	"251546254150483983",
+							"_type":	2,
+							"_box":	{
+								"_center":	[100, 0, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	4,
+									"_indexRangeEnd":	5
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289690",
+							"_geomID":	"251546254146289688"
+						},
+						"_renderSubsets[3]":	{
+							"_id":	"251546254150483984",
+							"_type":	2,
+							"_box":	{
+								"_center":	[50, 0, 100],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	6,
+									"_indexRangeEnd":	7
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289693",
+							"_geomID":	"251546254146289691"
+						},
+						"_renderSubsets[4]":	{
+							"_id":	"251546254150483985",
+							"_type":	2,
+							"_box":	{
+								"_center":	[100, 50, 0],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	8,
+									"_indexRangeEnd":	9
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289696",
+							"_geomID":	"251546254146289694"
+						},
+						"_renderSubsets[5]":	{
+							"_id":	"251546254150483986",
+							"_type":	2,
+							"_box":	{
+								"_center":	[100, 100, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	10,
+									"_indexRangeEnd":	11
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289699",
+							"_geomID":	"251546254146289697"
+						},
+						"_renderSubsets[6]":	{
+							"_id":	"251546254150483987",
+							"_type":	2,
+							"_box":	{
+								"_center":	[100, 50, 100],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	12,
+									"_indexRangeEnd":	13
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289702",
+							"_geomID":	"251546254146289700"
+						},
+						"_renderSubsets[7]":	{
+							"_id":	"251546254150483988",
+							"_type":	2,
+							"_box":	{
+								"_center":	[50, 100, 0],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	14,
+									"_indexRangeEnd":	15
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289705",
+							"_geomID":	"251546254146289703"
+						},
+						"_renderSubsets[8]":	{
+							"_id":	"251546254150483989",
+							"_type":	2,
+							"_box":	{
+								"_center":	[0, 100, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	16,
+									"_indexRangeEnd":	17
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289708",
+							"_geomID":	"251546254146289706"
+						},
+						"_renderSubsets[9]":	{
+							"_id":	"251546254150483990",
+							"_type":	2,
+							"_box":	{
+								"_center":	[50, 100, 100],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	18,
+									"_indexRangeEnd":	19
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289711",
+							"_geomID":	"251546254146289709"
+						},
+						"_renderSubsets[10]":	{
+							"_id":	"251546254150483991",
+							"_type":	2,
+							"_box":	{
+								"_center":	[0, 50, 0],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	20,
+									"_indexRangeEnd":	21
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289714",
+							"_geomID":	"251546254146289712"
+						},
+						"_renderSubsets[11]":	{
+							"_id":	"251546254150483992",
+							"_type":	2,
+							"_box":	{
+								"_center":	[0, 50, 100],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	"(invalid)",
+									"_vertexRangeEnd":	"(invalid)",
+									"_indexRangeStart":	22,
+									"_indexRangeEnd":	23
+								}
+							},
+							"_length":	100,
+							"_area":	"(invalid)",
+							"_isTopoSolid":	"(invalid)",
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289717",
+							"_geomID":	"251546254146289715"
+						}
+					}
+				}
+			},
+			"_faceMeshSubsets(size = 1)":	{
+				"_faceMeshSubsets[0]":	{
+					"_renderMeshID":	"251546254150483972",
+					"_renderSubsets(size = 6)":	{
+						"_renderSubsets[0]":	{
+							"_id":	"251546254150483973",
+							"_type":	3,
+							"_box":	{
+								"_center":	[50, 0, 50],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	0,
+									"_vertexRangeEnd":	3,
+									"_indexRangeStart":	0,
+									"_indexRangeEnd":	5
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289666",
+							"_geomID":	"251546254146289664"
+						},
+						"_renderSubsets[1]":	{
+							"_id":	"251546254150483974",
+							"_type":	3,
+							"_box":	{
+								"_center":	[100, 50, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	4,
+									"_vertexRangeEnd":	7,
+									"_indexRangeStart":	6,
+									"_indexRangeEnd":	11
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289669",
+							"_geomID":	"251546254146289667"
+						},
+						"_renderSubsets[2]":	{
+							"_id":	"251546254150483975",
+							"_type":	3,
+							"_box":	{
+								"_center":	[50, 100, 50],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 0, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	8,
+									"_vertexRangeEnd":	11,
+									"_indexRangeStart":	12,
+									"_indexRangeEnd":	17
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289672",
+							"_geomID":	"251546254146289670"
+						},
+						"_renderSubsets[3]":	{
+							"_id":	"251546254150483976",
+							"_type":	3,
+							"_box":	{
+								"_center":	[0, 50, 50],
+								"_vectorX":	[0, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	12,
+									"_vertexRangeEnd":	15,
+									"_indexRangeStart":	18,
+									"_indexRangeEnd":	23
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289675",
+							"_geomID":	"251546254146289673"
+						},
+						"_renderSubsets[4]":	{
+							"_id":	"251546254150483977",
+							"_type":	3,
+							"_box":	{
+								"_center":	[50, 50, 0],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	16,
+									"_vertexRangeEnd":	19,
+									"_indexRangeStart":	24,
+									"_indexRangeEnd":	29
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289678",
+							"_geomID":	"251546254146289676"
+						},
+						"_renderSubsets[5]":	{
+							"_id":	"251546254150483978",
+							"_type":	3,
+							"_box":	{
+								"_center":	[50, 50, 100],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 0]
+							},
+							"_renderMeshRanges(size = 1)":	{
+								"_renderMeshRange[0]":	{
+									"_vertexRangeStart":	20,
+									"_vertexRangeEnd":	23,
+									"_indexRangeStart":	30,
+									"_indexRangeEnd":	35
+								}
+							},
+							"_length":	"(invalid)",
+							"_area":	10000,
+							"_isTopoSolid":	1,
+							"_brepID":	"251546254146289742",
+							"_topoID":	"251546254146289681",
+							"_geomID":	"251546254146289679"
+						}
+					}
+				}
+			},
+			"_refCount":	1
+		}
+	}
+}

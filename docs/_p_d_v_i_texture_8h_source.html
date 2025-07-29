@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVITexture.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_texture_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVITexture.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_texture_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVITEXTURE_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVITEXTURE_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#a4a38f11c94e80049ba9d3d2c18db145f">   23</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_texture_8h.html#a4a38f11c94e80049ba9d3d2c18db145f">TextureMagFilterType</a></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#a4a38f11c94e80049ba9d3d2c18db145fa6755ce1a5f74ba330eae1a3f3b16a182">   25</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#a4a38f11c94e80049ba9d3d2c18db145fa6755ce1a5f74ba330eae1a3f3b16a182">PDV_TEXTURE_MAGFILTER_NULL</a> = 0,    </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#a4a38f11c94e80049ba9d3d2c18db145fa8637c38f5110127097fec5713926acad">   26</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#a4a38f11c94e80049ba9d3d2c18db145fa8637c38f5110127097fec5713926acad">PDV_TEXTURE_MAGFILTER_NEAREST</a> = 1, </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#a4a38f11c94e80049ba9d3d2c18db145fabfacbae59e0268f8c008553ee27c98e6">   27</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#a4a38f11c94e80049ba9d3d2c18db145fabfacbae59e0268f8c008553ee27c98e6">PDV_TEXTURE_MAGFILTER_LINEAR</a> = 2   </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
+</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span></div>
+<div class="foldopen" id="foldopen00031" data-start="{" data-end="};">
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694">   31</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694">TextureMinFilterType</a></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>{</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a9501c21b6ced55f3cf53e5ef69d08e67">   33</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a9501c21b6ced55f3cf53e5ef69d08e67">PDV_TEXTURE_MINFILTER_NULL</a> = 0,                   </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a5d3e7a3ed9d6790863ef853d564721ae">   34</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a5d3e7a3ed9d6790863ef853d564721ae">PDV_TEXTURE_MINFILTER_NEAREST</a> = 1,                </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a0c722915569bd7eb15de18a72edac35c">   35</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a0c722915569bd7eb15de18a72edac35c">PDV_TEXTURE_MINFILTER_LINEAR</a> = 2,                 </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a925ca8edc74f8f90545c5c86f0fb4349">   36</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a925ca8edc74f8f90545c5c86f0fb4349">PDV_TEXTURE_MINFILTER_NEAREST_MIPMAP_NEAREST</a> = 3, </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a7c6eaf4b783b81780cbc5eeaaa582200">   37</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a7c6eaf4b783b81780cbc5eeaaa582200">PDV_TEXTURE_MINFILTER_LINEAR_MIPMAP_NEAREST</a> = 4,  </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a2b36053d850686acfcf80203c9d50a76">   38</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a2b36053d850686acfcf80203c9d50a76">PDV_TEXTURE_MINFILTER_NEAREST_MIPMAP_LINEAR</a> = 5,  </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a90b38f30c75c19f759a338d35aa4f4cf">   39</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a90b38f30c75c19f759a338d35aa4f4cf">PDV_TEXTURE_MINFILTER_LINEAR_MIPMAP_LINEAR</a> = 6    </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>};</div>
+</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="};">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfaf">   43</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfaf">TextureWrapType</a></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>{</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfafa24895f01c074fefa3b017b9842340e74">   45</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfafa24895f01c074fefa3b017b9842340e74">PDV_TEXTURE_WRAP_NULL</a> = 0,           </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfafaf6f3fabaa6e1baba8c9cbee032ec6035">   46</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfafaf6f3fabaa6e1baba8c9cbee032ec6035">PDV_TEXTURE_WRAP_REPEAT</a> = 1,         </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfafab509c7bd32a256dde724756a202b81cd">   47</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfafab509c7bd32a256dde724756a202b81cd">PDV_TEXTURE_WRAP_MIRROREDREPEAT</a> = 2, </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfafa518265b2b79e4cff663edeea9e164f20">   48</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfafa518265b2b79e4cff663edeea9e164f20">PDV_TEXTURE_WRAP_CLAMP</a> = 3           </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>};</div>
+</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
+<div class="foldopen" id="foldopen00052" data-start="{" data-end="};">
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html">   52</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_texture.html">ITexture</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>{</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#ac0bdc4f0f6f44f49708c1be9aea58e88">   61</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#ac0bdc4f0f6f44f49708c1be9aea58e88">GetName</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oName) = 0;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#a721a8b889f021962861a3084887c9c47">   69</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#a721a8b889f021962861a3084887c9c47">SetName</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iName) = 0;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#a744d9ddca2983d1695cd225dee4c3b34">   76</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#a744d9ddca2983d1695cd225dee4c3b34">GetImageID</a>() = 0;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#a03fe6fc9421bdb61e1bfc77fe7491b7c">   84</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#a03fe6fc9421bdb61e1bfc77fe7491b7c">SetImageID</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iImageID) = 0;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#a32557c4d4f21873cd0e903339a470e0d">   91</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#a32557c4d4f21873cd0e903339a470e0d">GetMagFilter</a>() = 0;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#a1da90ababcfab18cdd9a9678bb120b32">   99</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#a1da90ababcfab18cdd9a9678bb120b32">SetMagFilter</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iMagFilter) = 0;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#a08ebe308412e61ee48ff156b55fc6418">  106</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#a08ebe308412e61ee48ff156b55fc6418">GetMinFilter</a>() = 0;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#aec24551ac1247de5e237c85b12e9abff">  114</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#aec24551ac1247de5e237c85b12e9abff">SetMinFilter</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iMinFilter) = 0;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#ac90765764855753aa124264d545555bf">  123</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#ac90765764855753aa124264d545555bf">GetWrapType</a>(<a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;oWrapU, <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;oWrapV) = 0;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#af0fe005e709db080221b5b4ba3c608b2">  132</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#af0fe005e709db080221b5b4ba3c608b2">SetWrapType</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iWrapU, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iWrapV) = 0;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#a369dff3eb801684b86e0a5eaef445eda">  141</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#a369dff3eb801684b86e0a5eaef445eda">GetClipOffset</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;oOffsetU, <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;oOffsetV) = 0;</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span></div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#af8eee4597793d9d4f238dcf289020c85">  150</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#af8eee4597793d9d4f238dcf289020c85">SetClipOffset</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iOffsetU, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iOffsetV) = 0;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#a64bcf13f13f960cb58cbcc2be68af7b4">  159</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#a64bcf13f13f960cb58cbcc2be68af7b4">GetClipScale</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;oScaleU, <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;oScaleV) = 0;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span></div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#a88131bec66c5d68521d0856c02535c77">  168</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#a88131bec66c5d68521d0856c02535c77">SetClipScale</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iScaleU, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iScaleV) = 0;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#aa5318e6a31b1573b4d9f817bad927b55">  175</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#aa5318e6a31b1573b4d9f817bad927b55">GetRotation</a>() = 0;</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span></div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#af5a645135c2c7f5a41e7207232d1a2cf">  183</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#af5a645135c2c7f5a41e7207232d1a2cf">SetRotation</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iRotation) = 0;</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span></div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#af4972bb8a0c15520631e6b781154cc75">  192</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#af4972bb8a0c15520631e6b781154cc75">GetRotateCenter</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;oRotateCenterX, <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;oRotateCenterY) = 0;</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span></div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#a7535ed0db52572e0565856bf8d20ecbe">  201</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#a7535ed0db52572e0565856bf8d20ecbe">SetRotateCenter</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iRotateCenterX, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iRotateCenterY) = 0;</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span></div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#ab4ed947599c7901bcf49c500dadf12b3">  210</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#ab4ed947599c7901bcf49c500dadf12b3">GetRepeat</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;oRepeatU, <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;oRepeatV) = 0;</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span></div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_texture.html#a4ac3b895e4ec44de1fed5cd4e6688dd8">  219</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_texture.html#a4ac3b895e4ec44de1fed5cd4e6688dd8">SetRepeat</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iRepeatU, <span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iRepeatV) = 0;</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>};</div>
+</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span> </div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
+<div class="ttc" id="a_dft_types_8h_html_a053d8ce6a85300520cc14cd4650ced33"><div class="ttname"><a href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></div><div class="ttdeci">unsigned long long DftUInt64</div><div class="ttdoc">64位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:64</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a7d52a2546e42c2a67869161bc9af895b"><div class="ttname"><a href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></div><div class="ttdeci">float DftFloat</div><div class="ttdoc">单精度浮点数</div><div class="ttdef"><b>定义</b> DftTypes.h:66</div></div>
+<div class="ttc" id="a_dft_types_8h_html_ab3a04804b0cf7c050b58e7e7807455d6"><div class="ttname"><a href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></div><div class="ttdeci">unsigned char DftUInt8</div><div class="ttdoc">8位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:52</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_a4a38f11c94e80049ba9d3d2c18db145f"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#a4a38f11c94e80049ba9d3d2c18db145f">kernel::pdv::TextureMagFilterType</a></div><div class="ttdeci">TextureMagFilterType</div><div class="ttdoc">纹理放大过滤模式</div><div class="ttdef"><b>定义</b> PDVITexture.h:24</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_a4a38f11c94e80049ba9d3d2c18db145fa6755ce1a5f74ba330eae1a3f3b16a182"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#a4a38f11c94e80049ba9d3d2c18db145fa6755ce1a5f74ba330eae1a3f3b16a182">kernel::pdv::PDV_TEXTURE_MAGFILTER_NULL</a></div><div class="ttdeci">@ PDV_TEXTURE_MAGFILTER_NULL</div><div class="ttdoc">未知</div><div class="ttdef"><b>定义</b> PDVITexture.h:25</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_a4a38f11c94e80049ba9d3d2c18db145fa8637c38f5110127097fec5713926acad"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#a4a38f11c94e80049ba9d3d2c18db145fa8637c38f5110127097fec5713926acad">kernel::pdv::PDV_TEXTURE_MAGFILTER_NEAREST</a></div><div class="ttdeci">@ PDV_TEXTURE_MAGFILTER_NEAREST</div><div class="ttdoc">临近过滤</div><div class="ttdef"><b>定义</b> PDVITexture.h:26</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_a4a38f11c94e80049ba9d3d2c18db145fabfacbae59e0268f8c008553ee27c98e6"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#a4a38f11c94e80049ba9d3d2c18db145fabfacbae59e0268f8c008553ee27c98e6">kernel::pdv::PDV_TEXTURE_MAGFILTER_LINEAR</a></div><div class="ttdeci">@ PDV_TEXTURE_MAGFILTER_LINEAR</div><div class="ttdoc">线性过滤</div><div class="ttdef"><b>定义</b> PDVITexture.h:27</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_a5ada9030c160b814587399d79c9fdfaf"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfaf">kernel::pdv::TextureWrapType</a></div><div class="ttdeci">TextureWrapType</div><div class="ttdoc">纹理包裹模式</div><div class="ttdef"><b>定义</b> PDVITexture.h:44</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_a5ada9030c160b814587399d79c9fdfafa24895f01c074fefa3b017b9842340e74"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfafa24895f01c074fefa3b017b9842340e74">kernel::pdv::PDV_TEXTURE_WRAP_NULL</a></div><div class="ttdeci">@ PDV_TEXTURE_WRAP_NULL</div><div class="ttdoc">未知</div><div class="ttdef"><b>定义</b> PDVITexture.h:45</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_a5ada9030c160b814587399d79c9fdfafa518265b2b79e4cff663edeea9e164f20"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfafa518265b2b79e4cff663edeea9e164f20">kernel::pdv::PDV_TEXTURE_WRAP_CLAMP</a></div><div class="ttdeci">@ PDV_TEXTURE_WRAP_CLAMP</div><div class="ttdoc">纹理截取</div><div class="ttdef"><b>定义</b> PDVITexture.h:48</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_a5ada9030c160b814587399d79c9fdfafab509c7bd32a256dde724756a202b81cd"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfafab509c7bd32a256dde724756a202b81cd">kernel::pdv::PDV_TEXTURE_WRAP_MIRROREDREPEAT</a></div><div class="ttdeci">@ PDV_TEXTURE_WRAP_MIRROREDREPEAT</div><div class="ttdoc">镜像重复纹理</div><div class="ttdef"><b>定义</b> PDVITexture.h:47</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_a5ada9030c160b814587399d79c9fdfafaf6f3fabaa6e1baba8c9cbee032ec6035"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#a5ada9030c160b814587399d79c9fdfafaf6f3fabaa6e1baba8c9cbee032ec6035">kernel::pdv::PDV_TEXTURE_WRAP_REPEAT</a></div><div class="ttdeci">@ PDV_TEXTURE_WRAP_REPEAT</div><div class="ttdoc">重复纹理</div><div class="ttdef"><b>定义</b> PDVITexture.h:46</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_afc826f239e5f5aab4c1643fd30335694"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694">kernel::pdv::TextureMinFilterType</a></div><div class="ttdeci">TextureMinFilterType</div><div class="ttdoc">纹理缩小过滤模式</div><div class="ttdef"><b>定义</b> PDVITexture.h:32</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_afc826f239e5f5aab4c1643fd30335694a0c722915569bd7eb15de18a72edac35c"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a0c722915569bd7eb15de18a72edac35c">kernel::pdv::PDV_TEXTURE_MINFILTER_LINEAR</a></div><div class="ttdeci">@ PDV_TEXTURE_MINFILTER_LINEAR</div><div class="ttdoc">线性过滤</div><div class="ttdef"><b>定义</b> PDVITexture.h:35</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_afc826f239e5f5aab4c1643fd30335694a2b36053d850686acfcf80203c9d50a76"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a2b36053d850686acfcf80203c9d50a76">kernel::pdv::PDV_TEXTURE_MINFILTER_NEAREST_MIPMAP_LINEAR</a></div><div class="ttdeci">@ PDV_TEXTURE_MINFILTER_NEAREST_MIPMAP_LINEAR</div><div class="ttdoc">在两个最匹配像素大小的多级渐远纹理之间进行线性插值，使用邻近插值进行采样</div><div class="ttdef"><b>定义</b> PDVITexture.h:38</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_afc826f239e5f5aab4c1643fd30335694a5d3e7a3ed9d6790863ef853d564721ae"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a5d3e7a3ed9d6790863ef853d564721ae">kernel::pdv::PDV_TEXTURE_MINFILTER_NEAREST</a></div><div class="ttdeci">@ PDV_TEXTURE_MINFILTER_NEAREST</div><div class="ttdoc">临近过滤</div><div class="ttdef"><b>定义</b> PDVITexture.h:34</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_afc826f239e5f5aab4c1643fd30335694a7c6eaf4b783b81780cbc5eeaaa582200"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a7c6eaf4b783b81780cbc5eeaaa582200">kernel::pdv::PDV_TEXTURE_MINFILTER_LINEAR_MIPMAP_NEAREST</a></div><div class="ttdeci">@ PDV_TEXTURE_MINFILTER_LINEAR_MIPMAP_NEAREST</div><div class="ttdoc">使用最邻近的多级渐远纹理级别，并使用线性插值进行采样</div><div class="ttdef"><b>定义</b> PDVITexture.h:37</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_afc826f239e5f5aab4c1643fd30335694a90b38f30c75c19f759a338d35aa4f4cf"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a90b38f30c75c19f759a338d35aa4f4cf">kernel::pdv::PDV_TEXTURE_MINFILTER_LINEAR_MIPMAP_LINEAR</a></div><div class="ttdeci">@ PDV_TEXTURE_MINFILTER_LINEAR_MIPMAP_LINEAR</div><div class="ttdoc">在两个邻近的多级渐远纹理之间使用线性插值，并使用线性插值进行采样</div><div class="ttdef"><b>定义</b> PDVITexture.h:39</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_afc826f239e5f5aab4c1643fd30335694a925ca8edc74f8f90545c5c86f0fb4349"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a925ca8edc74f8f90545c5c86f0fb4349">kernel::pdv::PDV_TEXTURE_MINFILTER_NEAREST_MIPMAP_NEAREST</a></div><div class="ttdeci">@ PDV_TEXTURE_MINFILTER_NEAREST_MIPMAP_NEAREST</div><div class="ttdoc">使用最邻近的多级渐远纹理来匹配像素大小，并使用邻近插值进行纹理采样</div><div class="ttdef"><b>定义</b> PDVITexture.h:36</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html_afc826f239e5f5aab4c1643fd30335694a9501c21b6ced55f3cf53e5ef69d08e67"><div class="ttname"><a href="_p_d_v_i_texture_8h.html#afc826f239e5f5aab4c1643fd30335694a9501c21b6ced55f3cf53e5ef69d08e67">kernel::pdv::PDV_TEXTURE_MINFILTER_NULL</a></div><div class="ttdeci">@ PDV_TEXTURE_MINFILTER_NULL</div><div class="ttdoc">未知</div><div class="ttdef"><b>定义</b> PDVITexture.h:33</div></div>
+<div class="ttc" id="aclass_c_unicode_string_html"><div class="ttname"><a href="class_c_unicode_string.html">CUnicodeString</a></div><div class="ttdoc">Unicode字符操作接口</div><div class="ttdef"><b>定义</b> UnicodeString.h:80</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html">kernel::pdv::ITexture</a></div><div class="ttdoc">纹理的接口</div><div class="ttdef"><b>定义</b> PDVITexture.h:53</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_a03fe6fc9421bdb61e1bfc77fe7491b7c"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#a03fe6fc9421bdb61e1bfc77fe7491b7c">kernel::pdv::ITexture::SetImageID</a></div><div class="ttdeci">virtual PDV_RESULT SetImageID(const DftUInt64 &amp;iImageID)=0</div><div class="ttdoc">设置纹理对象关联的图像资源ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_a08ebe308412e61ee48ff156b55fc6418"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#a08ebe308412e61ee48ff156b55fc6418">kernel::pdv::ITexture::GetMinFilter</a></div><div class="ttdeci">virtual DftUInt8 GetMinFilter()=0</div><div class="ttdoc">获取缩小过滤模式</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_a1da90ababcfab18cdd9a9678bb120b32"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#a1da90ababcfab18cdd9a9678bb120b32">kernel::pdv::ITexture::SetMagFilter</a></div><div class="ttdeci">virtual PDV_RESULT SetMagFilter(const DftUInt8 &amp;iMagFilter)=0</div><div class="ttdoc">设置放大过滤模式</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_a32557c4d4f21873cd0e903339a470e0d"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#a32557c4d4f21873cd0e903339a470e0d">kernel::pdv::ITexture::GetMagFilter</a></div><div class="ttdeci">virtual DftUInt8 GetMagFilter()=0</div><div class="ttdoc">获取放大过滤模式</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_a369dff3eb801684b86e0a5eaef445eda"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#a369dff3eb801684b86e0a5eaef445eda">kernel::pdv::ITexture::GetClipOffset</a></div><div class="ttdeci">virtual PDV_RESULT GetClipOffset(DftFloat &amp;oOffsetU, DftFloat &amp;oOffsetV)=0</div><div class="ttdoc">获取图像裁剪偏移量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_a4ac3b895e4ec44de1fed5cd4e6688dd8"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#a4ac3b895e4ec44de1fed5cd4e6688dd8">kernel::pdv::ITexture::SetRepeat</a></div><div class="ttdeci">virtual PDV_RESULT SetRepeat(const DftFloat &amp;iRepeatU, const DftFloat &amp;iRepeatV)=0</div><div class="ttdoc">设置图像重复值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_a64bcf13f13f960cb58cbcc2be68af7b4"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#a64bcf13f13f960cb58cbcc2be68af7b4">kernel::pdv::ITexture::GetClipScale</a></div><div class="ttdeci">virtual PDV_RESULT GetClipScale(DftFloat &amp;oScaleU, DftFloat &amp;oScaleV)=0</div><div class="ttdoc">获取图像裁剪长度</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_a721a8b889f021962861a3084887c9c47"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#a721a8b889f021962861a3084887c9c47">kernel::pdv::ITexture::SetName</a></div><div class="ttdeci">virtual PDV_RESULT SetName(const CUnicodeString &amp;iName)=0</div><div class="ttdoc">设置纹理对象名称</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_a744d9ddca2983d1695cd225dee4c3b34"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#a744d9ddca2983d1695cd225dee4c3b34">kernel::pdv::ITexture::GetImageID</a></div><div class="ttdeci">virtual DftUInt64 GetImageID()=0</div><div class="ttdoc">获取纹理对象关联的图像资源ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_a7535ed0db52572e0565856bf8d20ecbe"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#a7535ed0db52572e0565856bf8d20ecbe">kernel::pdv::ITexture::SetRotateCenter</a></div><div class="ttdeci">virtual PDV_RESULT SetRotateCenter(const DftFloat &amp;iRotateCenterX, const DftFloat &amp;iRotateCenterY)=0</div><div class="ttdoc">设置旋转中心</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_a88131bec66c5d68521d0856c02535c77"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#a88131bec66c5d68521d0856c02535c77">kernel::pdv::ITexture::SetClipScale</a></div><div class="ttdeci">virtual PDV_RESULT SetClipScale(const DftFloat &amp;iScaleU, const DftFloat &amp;iScaleV)=0</div><div class="ttdoc">设置图像裁剪长度</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_aa5318e6a31b1573b4d9f817bad927b55"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#aa5318e6a31b1573b4d9f817bad927b55">kernel::pdv::ITexture::GetRotation</a></div><div class="ttdeci">virtual DftFloat GetRotation()=0</div><div class="ttdoc">获取旋转角度</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_ab4ed947599c7901bcf49c500dadf12b3"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#ab4ed947599c7901bcf49c500dadf12b3">kernel::pdv::ITexture::GetRepeat</a></div><div class="ttdeci">virtual PDV_RESULT GetRepeat(DftFloat &amp;oRepeatU, DftFloat &amp;oRepeatV)=0</div><div class="ttdoc">获取图像重复值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_ac0bdc4f0f6f44f49708c1be9aea58e88"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#ac0bdc4f0f6f44f49708c1be9aea58e88">kernel::pdv::ITexture::GetName</a></div><div class="ttdeci">virtual PDV_RESULT GetName(CUnicodeString &amp;oName)=0</div><div class="ttdoc">获取纹理对象名称</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_ac90765764855753aa124264d545555bf"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#ac90765764855753aa124264d545555bf">kernel::pdv::ITexture::GetWrapType</a></div><div class="ttdeci">virtual PDV_RESULT GetWrapType(DftUInt8 &amp;oWrapU, DftUInt8 &amp;oWrapV)=0</div><div class="ttdoc">获取纹理包裹模式</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_aec24551ac1247de5e237c85b12e9abff"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#aec24551ac1247de5e237c85b12e9abff">kernel::pdv::ITexture::SetMinFilter</a></div><div class="ttdeci">virtual PDV_RESULT SetMinFilter(const DftUInt8 &amp;iMinFilter)=0</div><div class="ttdoc">设置缩小过滤模式</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_af0fe005e709db080221b5b4ba3c608b2"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#af0fe005e709db080221b5b4ba3c608b2">kernel::pdv::ITexture::SetWrapType</a></div><div class="ttdeci">virtual PDV_RESULT SetWrapType(const DftUInt8 &amp;iWrapU, const DftUInt8 &amp;iWrapV)=0</div><div class="ttdoc">设置纹理包裹模式</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_af4972bb8a0c15520631e6b781154cc75"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#af4972bb8a0c15520631e6b781154cc75">kernel::pdv::ITexture::GetRotateCenter</a></div><div class="ttdeci">virtual PDV_RESULT GetRotateCenter(DftFloat &amp;oRotateCenterX, DftFloat &amp;oRotateCenterY)=0</div><div class="ttdoc">获取旋转中心</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_af5a645135c2c7f5a41e7207232d1a2cf"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#af5a645135c2c7f5a41e7207232d1a2cf">kernel::pdv::ITexture::SetRotation</a></div><div class="ttdeci">virtual PDV_RESULT SetRotation(const DftFloat &amp;iRotation)=0</div><div class="ttdoc">设置旋转角度</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html_af8eee4597793d9d4f238dcf289020c85"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html#af8eee4597793d9d4f238dcf289020c85">kernel::pdv::ITexture::SetClipOffset</a></div><div class="ttdeci">virtual PDV_RESULT SetClipOffset(const DftFloat &amp;iOffsetU, const DftFloat &amp;iOffsetV)=0</div><div class="ttdoc">设置图像裁剪偏移量</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_texture_8h.html">PDVITexture.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

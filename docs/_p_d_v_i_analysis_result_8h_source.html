@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIAnalysisResult.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_analysis_result_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIAnalysisResult.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_analysis_result_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIANALYSISRESULT_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIANALYSISRESULT_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html">   22</a></span><span class="keyword">struct </span><a class="code hl_function" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#acaa2747e6fe832f0a9a1f3a73b701993">PhysicalQuantityIdentity</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a77d92fb8c5a64f5e186b6949960f5d84">   24</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a77d92fb8c5a64f5e186b6949960f5d84">_physicalQuantityID</a>; </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a5ba1abaa6a8d8512d007e68a01160e59">   25</a></span>    <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a5ba1abaa6a8d8512d007e68a01160e59">_name</a>;          </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#ae901f37c2744ffc582882e58f93d778c">   26</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#ae901f37c2744ffc582882e58f93d778c">_type</a>;                </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a05bf23087c47e669fa9328ce0842cb90">   27</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a05bf23087c47e669fa9328ce0842cb90">_primitiveType</a>;       </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#acaa2747e6fe832f0a9a1f3a73b701993">   29</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#acaa2747e6fe832f0a9a1f3a73b701993">PhysicalQuantityIdentity</a>() { <a class="code hl_function" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a4431eeb8abe8f68fc69515f01bf60a49">Clear</a>(); }</div>
+<div class="foldopen" id="foldopen00031" data-start="{" data-end="}">
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#ad00ca19741523ba9fdf14759b50c7ca7">   31</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#ad00ca19741523ba9fdf14759b50c7ca7">PhysicalQuantityIdentity</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#acaa2747e6fe832f0a9a1f3a73b701993">PhysicalQuantityIdentity</a>&amp; data)</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a77d92fb8c5a64f5e186b6949960f5d84">_physicalQuantityID</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a77d92fb8c5a64f5e186b6949960f5d84">_physicalQuantityID</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a5ba1abaa6a8d8512d007e68a01160e59">_name</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a5ba1abaa6a8d8512d007e68a01160e59">_name</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#ae901f37c2744ffc582882e58f93d778c">_type</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#ae901f37c2744ffc582882e58f93d778c">_type</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a05bf23087c47e669fa9328ce0842cb90">_primitiveType</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a05bf23087c47e669fa9328ce0842cb90">_primitiveType</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
+</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a7eb2f3b232017acfe3387f9fbed4a5aa">   39</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#acaa2747e6fe832f0a9a1f3a73b701993">PhysicalQuantityIdentity</a>&amp; <a class="code hl_function" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a7eb2f3b232017acfe3387f9fbed4a5aa">operator=</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#acaa2747e6fe832f0a9a1f3a73b701993">PhysicalQuantityIdentity</a>&amp; data)</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">if</span> (&amp;data != <span class="keyword">this</span>)</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        {</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a77d92fb8c5a64f5e186b6949960f5d84">_physicalQuantityID</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a77d92fb8c5a64f5e186b6949960f5d84">_physicalQuantityID</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a5ba1abaa6a8d8512d007e68a01160e59">_name</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a5ba1abaa6a8d8512d007e68a01160e59">_name</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#ae901f37c2744ffc582882e58f93d778c">_type</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#ae901f37c2744ffc582882e58f93d778c">_type</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a05bf23087c47e669fa9328ce0842cb90">_primitiveType</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a05bf23087c47e669fa9328ce0842cb90">_primitiveType</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        }</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
+</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
+<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a4431eeb8abe8f68fc69515f01bf60a49">   51</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a4431eeb8abe8f68fc69515f01bf60a49">Clear</a>()</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    {</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a77d92fb8c5a64f5e186b6949960f5d84">_physicalQuantityID</a> = DFT_INVALID_ID;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a5ba1abaa6a8d8512d007e68a01160e59">_name</a> = DFT_L_CWCHAR(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#ae901f37c2744ffc582882e58f93d778c">_type</a> = 0;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a05bf23087c47e669fa9328ce0842cb90">_primitiveType</a> = 0;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    }</div>
+</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>};</div>
+</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="_p_d_v_i_analysis_result_8h.html#a8bffc49b8130fecbb1e198abc367e562">   61</a></span><span class="keyword">typedef</span> std::vector&lt;PhysicalQuantityIdentity&gt; <a class="code hl_typedef" href="_p_d_v_i_analysis_result_8h.html#a8bffc49b8130fecbb1e198abc367e562">PhysicalQuantityIdentityArray</a>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
+<div class="foldopen" id="foldopen00064" data-start="{" data-end="};">
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html">   64</a></span><span class="keyword">struct </span><a class="code hl_function" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a94436efa98ac92f35b443f6b38e74781">AnalysisResultRenderData</a></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>{</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#abe03884d95a9e885518c8e1647fa75b6">   66</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#abe03884d95a9e885518c8e1647fa75b6">_renderBodyID</a>;                                   </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a658128450395c8d5e8590107f6642a46">   67</a></span>    <a class="code hl_struct" href="structkernel_1_1pdv_1_1_statistics.html">Statistics</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a658128450395c8d5e8590107f6642a46">_statistics</a>;                                    </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#ae18bc3a5025213b8a397c35c610a6115">   68</a></span>    <a class="code hl_typedef" href="_p_d_v_i_analysis_result_8h.html#a8bffc49b8130fecbb1e198abc367e562">PhysicalQuantityIdentityArray</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#ae18bc3a5025213b8a397c35c610a6115">_physicalQuantityIdentities</a>; </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a94436efa98ac92f35b443f6b38e74781">   70</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a94436efa98ac92f35b443f6b38e74781">AnalysisResultRenderData</a>() { <a class="code hl_function" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a307b8854a11adf5514a6a9e0343285b3">Clear</a>(); }</div>
+<div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a8a245d7832a4444035235294cff01d11">   72</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a8a245d7832a4444035235294cff01d11">AnalysisResultRenderData</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a94436efa98ac92f35b443f6b38e74781">AnalysisResultRenderData</a>&amp; data)</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    {</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#abe03884d95a9e885518c8e1647fa75b6">_renderBodyID</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#abe03884d95a9e885518c8e1647fa75b6">_renderBodyID</a>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a658128450395c8d5e8590107f6642a46">_statistics</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a658128450395c8d5e8590107f6642a46">_statistics</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#ae18bc3a5025213b8a397c35c610a6115">_physicalQuantityIdentities</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#ae18bc3a5025213b8a397c35c610a6115">_physicalQuantityIdentities</a>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    }</div>
+</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span></div>
+<div class="foldopen" id="foldopen00079" data-start="{" data-end="}">
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#aeb4bb1f28f0bbdc91f28583380ab4075">   79</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a94436efa98ac92f35b443f6b38e74781">AnalysisResultRenderData</a>&amp; <a class="code hl_function" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#aeb4bb1f28f0bbdc91f28583380ab4075">operator=</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a94436efa98ac92f35b443f6b38e74781">AnalysisResultRenderData</a>&amp; data)</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    {</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <span class="keywordflow">if</span> (&amp;data != <span class="keyword">this</span>)</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        {</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#abe03884d95a9e885518c8e1647fa75b6">_renderBodyID</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#abe03884d95a9e885518c8e1647fa75b6">_renderBodyID</a>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a658128450395c8d5e8590107f6642a46">_statistics</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a658128450395c8d5e8590107f6642a46">_statistics</a>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#ae18bc3a5025213b8a397c35c610a6115">_physicalQuantityIdentities</a> = data.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#ae18bc3a5025213b8a397c35c610a6115">_physicalQuantityIdentities</a>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        }</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    }</div>
+</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span></div>
+<div class="foldopen" id="foldopen00090" data-start="{" data-end="}">
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a307b8854a11adf5514a6a9e0343285b3">   90</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a307b8854a11adf5514a6a9e0343285b3">Clear</a>()</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    {</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#abe03884d95a9e885518c8e1647fa75b6">_renderBodyID</a> = DFT_INVALID_ID;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a658128450395c8d5e8590107f6642a46">_statistics</a> = <a class="code hl_struct" href="structkernel_1_1pdv_1_1_statistics.html">Statistics</a>();</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#ae18bc3a5025213b8a397c35c610a6115">_physicalQuantityIdentities</a>.clear();</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    }</div>
+</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>};</div>
+</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="_p_d_v_i_analysis_result_8h.html#a16116dc98100fd15254b1be8697422f1">   99</a></span><span class="keyword">typedef</span> std::vector&lt;AnalysisResultRenderData&gt; <a class="code hl_typedef" href="_p_d_v_i_analysis_result_8h.html#a16116dc98100fd15254b1be8697422f1">AnalysisResultItem</a>;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span></div>
+<div class="foldopen" id="foldopen00102" data-start="{" data-end="};">
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_analysis_result.html">  102</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_analysis_result.html">IAnalysisResult</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>{</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_analysis_result.html#a3d9f070754389f40c0ad102b00c580e6">  111</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_analysis_result.html#a3d9f070754389f40c0ad102b00c580e6">GetAnalysisResultItems</a>(std::vector&lt;AnalysisResultItem&gt;&amp; oAnalysisResultItems) = 0;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_analysis_result.html#a99f60326b14dce93dc24b06ea93b0ee5">  119</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_analysis_result.html#a99f60326b14dce93dc24b06ea93b0ee5">SetAnalysisResultItems</a>(<span class="keyword">const</span> std::vector&lt;AnalysisResultItem&gt;&amp; iAnalysisResultItems) = 0;</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_analysis_result.html#a206710ae368b6a9fd0a15e1461c39eb9">  127</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_analysis_result.html#a206710ae368b6a9fd0a15e1461c39eb9">GetRenderBodies</a>(std::vector&lt;IRenderBody*&gt;&amp; oRenderBodies) = 0;</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span></div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_analysis_result.html#a9f9e51e58d28ca006c16dd5a6e6dedbe">  135</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_analysis_result.html#a9f9e51e58d28ca006c16dd5a6e6dedbe">AddRenderBody</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_render_body.html">IRenderBody</a>*&amp; oNewBody) = 0;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span></div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_analysis_result.html#a954db6d8e9d3caec7260b62ae482374e">  142</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_analysis_result.html#a954db6d8e9d3caec7260b62ae482374e">ClearRenderBodies</a>() = 0;</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>};</div>
+</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a053d8ce6a85300520cc14cd4650ced33"><div class="ttname"><a href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></div><div class="ttdeci">unsigned long long DftUInt64</div><div class="ttdoc">64位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:64</div></div>
+<div class="ttc" id="a_dft_types_8h_html_ab3a04804b0cf7c050b58e7e7807455d6"><div class="ttname"><a href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></div><div class="ttdeci">unsigned char DftUInt8</div><div class="ttdoc">8位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:52</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_analysis_result_8h_html_a16116dc98100fd15254b1be8697422f1"><div class="ttname"><a href="_p_d_v_i_analysis_result_8h.html#a16116dc98100fd15254b1be8697422f1">kernel::pdv::AnalysisResultItem</a></div><div class="ttdeci">std::vector&lt; AnalysisResultRenderData &gt; AnalysisResultItem</div><div class="ttdoc">分析结果项</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:99</div></div>
+<div class="ttc" id="a_p_d_v_i_analysis_result_8h_html_a8bffc49b8130fecbb1e198abc367e562"><div class="ttname"><a href="_p_d_v_i_analysis_result_8h.html#a8bffc49b8130fecbb1e198abc367e562">kernel::pdv::PhysicalQuantityIdentityArray</a></div><div class="ttdeci">std::vector&lt; PhysicalQuantityIdentity &gt; PhysicalQuantityIdentityArray</div><div class="ttdoc">物理量标识集</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:61</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="aclass_c_unicode_string_html"><div class="ttname"><a href="class_c_unicode_string.html">CUnicodeString</a></div><div class="ttdoc">Unicode字符操作接口</div><div class="ttdef"><b>定义</b> UnicodeString.h:80</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_analysis_result_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_analysis_result.html">kernel::pdv::IAnalysisResult</a></div><div class="ttdoc">分析结果的接口</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:103</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_analysis_result_html_a206710ae368b6a9fd0a15e1461c39eb9"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_analysis_result.html#a206710ae368b6a9fd0a15e1461c39eb9">kernel::pdv::IAnalysisResult::GetRenderBodies</a></div><div class="ttdeci">virtual PDV_RESULT GetRenderBodies(std::vector&lt; IRenderBody * &gt; &amp;oRenderBodies)=0</div><div class="ttdoc">获取渲染主体列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_analysis_result_html_a3d9f070754389f40c0ad102b00c580e6"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_analysis_result.html#a3d9f070754389f40c0ad102b00c580e6">kernel::pdv::IAnalysisResult::GetAnalysisResultItems</a></div><div class="ttdeci">virtual PDV_RESULT GetAnalysisResultItems(std::vector&lt; AnalysisResultItem &gt; &amp;oAnalysisResultItems)=0</div><div class="ttdoc">获取分析结果项列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_analysis_result_html_a954db6d8e9d3caec7260b62ae482374e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_analysis_result.html#a954db6d8e9d3caec7260b62ae482374e">kernel::pdv::IAnalysisResult::ClearRenderBodies</a></div><div class="ttdeci">virtual PDV_RESULT ClearRenderBodies()=0</div><div class="ttdoc">清空渲染主体列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_analysis_result_html_a99f60326b14dce93dc24b06ea93b0ee5"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_analysis_result.html#a99f60326b14dce93dc24b06ea93b0ee5">kernel::pdv::IAnalysisResult::SetAnalysisResultItems</a></div><div class="ttdeci">virtual PDV_RESULT SetAnalysisResultItems(const std::vector&lt; AnalysisResultItem &gt; &amp;iAnalysisResultItems)=0</div><div class="ttdoc">设置分析结果项列表</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_analysis_result_html_a9f9e51e58d28ca006c16dd5a6e6dedbe"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_analysis_result.html#a9f9e51e58d28ca006c16dd5a6e6dedbe">kernel::pdv::IAnalysisResult::AddRenderBody</a></div><div class="ttdeci">virtual PDV_RESULT AddRenderBody(IRenderBody *&amp;oNewBody)=0</div><div class="ttdoc">添加渲染主体</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html">kernel::pdv::IRenderBody</a></div><div class="ttdoc">渲染主体的接口</div><div class="ttdef"><b>定义</b> PDVIRenderBody.h:30</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_analysis_result_render_data_html_a307b8854a11adf5514a6a9e0343285b3"><div class="ttname"><a href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a307b8854a11adf5514a6a9e0343285b3">kernel::pdv::AnalysisResultRenderData::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:90</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_analysis_result_render_data_html_a658128450395c8d5e8590107f6642a46"><div class="ttname"><a href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a658128450395c8d5e8590107f6642a46">kernel::pdv::AnalysisResultRenderData::_statistics</a></div><div class="ttdeci">Statistics _statistics</div><div class="ttdoc">统计数据</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:67</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_analysis_result_render_data_html_a8a245d7832a4444035235294cff01d11"><div class="ttname"><a href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a8a245d7832a4444035235294cff01d11">kernel::pdv::AnalysisResultRenderData::AnalysisResultRenderData</a></div><div class="ttdeci">AnalysisResultRenderData(const AnalysisResultRenderData &amp;data)</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:72</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_analysis_result_render_data_html_a94436efa98ac92f35b443f6b38e74781"><div class="ttname"><a href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#a94436efa98ac92f35b443f6b38e74781">kernel::pdv::AnalysisResultRenderData::AnalysisResultRenderData</a></div><div class="ttdeci">AnalysisResultRenderData()</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:70</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_analysis_result_render_data_html_abe03884d95a9e885518c8e1647fa75b6"><div class="ttname"><a href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#abe03884d95a9e885518c8e1647fa75b6">kernel::pdv::AnalysisResultRenderData::_renderBodyID</a></div><div class="ttdeci">DftUInt64 _renderBodyID</div><div class="ttdoc">模型ID</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:66</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_analysis_result_render_data_html_ae18bc3a5025213b8a397c35c610a6115"><div class="ttname"><a href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#ae18bc3a5025213b8a397c35c610a6115">kernel::pdv::AnalysisResultRenderData::_physicalQuantityIdentities</a></div><div class="ttdeci">PhysicalQuantityIdentityArray _physicalQuantityIdentities</div><div class="ttdoc">物理量标识数据</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:68</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_analysis_result_render_data_html_aeb4bb1f28f0bbdc91f28583380ab4075"><div class="ttname"><a href="structkernel_1_1pdv_1_1_analysis_result_render_data.html#aeb4bb1f28f0bbdc91f28583380ab4075">kernel::pdv::AnalysisResultRenderData::operator=</a></div><div class="ttdeci">AnalysisResultRenderData &amp; operator=(const AnalysisResultRenderData &amp;data)</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:79</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_physical_quantity_identity_html_a05bf23087c47e669fa9328ce0842cb90"><div class="ttname"><a href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a05bf23087c47e669fa9328ce0842cb90">kernel::pdv::PhysicalQuantityIdentity::_primitiveType</a></div><div class="ttdeci">DftUInt8 _primitiveType</div><div class="ttdoc">图元类型，参见 PhysicalQuantityPrimitiveType</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:27</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_physical_quantity_identity_html_a4431eeb8abe8f68fc69515f01bf60a49"><div class="ttname"><a href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a4431eeb8abe8f68fc69515f01bf60a49">kernel::pdv::PhysicalQuantityIdentity::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:51</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_physical_quantity_identity_html_a5ba1abaa6a8d8512d007e68a01160e59"><div class="ttname"><a href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a5ba1abaa6a8d8512d007e68a01160e59">kernel::pdv::PhysicalQuantityIdentity::_name</a></div><div class="ttdeci">CUnicodeString _name</div><div class="ttdoc">名称</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:25</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_physical_quantity_identity_html_a77d92fb8c5a64f5e186b6949960f5d84"><div class="ttname"><a href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a77d92fb8c5a64f5e186b6949960f5d84">kernel::pdv::PhysicalQuantityIdentity::_physicalQuantityID</a></div><div class="ttdeci">DftUInt64 _physicalQuantityID</div><div class="ttdoc">物理量ID</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:24</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_physical_quantity_identity_html_a7eb2f3b232017acfe3387f9fbed4a5aa"><div class="ttname"><a href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#a7eb2f3b232017acfe3387f9fbed4a5aa">kernel::pdv::PhysicalQuantityIdentity::operator=</a></div><div class="ttdeci">PhysicalQuantityIdentity &amp; operator=(const PhysicalQuantityIdentity &amp;data)</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:39</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_physical_quantity_identity_html_acaa2747e6fe832f0a9a1f3a73b701993"><div class="ttname"><a href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#acaa2747e6fe832f0a9a1f3a73b701993">kernel::pdv::PhysicalQuantityIdentity::PhysicalQuantityIdentity</a></div><div class="ttdeci">PhysicalQuantityIdentity()</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:29</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_physical_quantity_identity_html_ad00ca19741523ba9fdf14759b50c7ca7"><div class="ttname"><a href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#ad00ca19741523ba9fdf14759b50c7ca7">kernel::pdv::PhysicalQuantityIdentity::PhysicalQuantityIdentity</a></div><div class="ttdeci">PhysicalQuantityIdentity(const PhysicalQuantityIdentity &amp;data)</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:31</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_physical_quantity_identity_html_ae901f37c2744ffc582882e58f93d778c"><div class="ttname"><a href="structkernel_1_1pdv_1_1_physical_quantity_identity.html#ae901f37c2744ffc582882e58f93d778c">kernel::pdv::PhysicalQuantityIdentity::_type</a></div><div class="ttdeci">DftUInt8 _type</div><div class="ttdoc">类型，参见 PhysicalQuantityType</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:26</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_statistics_html"><div class="ttname"><a href="structkernel_1_1pdv_1_1_statistics.html">kernel::pdv::Statistics</a></div><div class="ttdoc">模型统计信息</div><div class="ttdef"><b>定义</b> PDVBase.h:513</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_analysis_result_8h.html">PDVIAnalysisResult.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

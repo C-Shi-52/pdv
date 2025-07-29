@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIEllipse.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_ellipse_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIEllipse.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_ellipse_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIELLIPSE_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIELLIPSE_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_curve_8h.html">PDVICurve.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_ellipse2d.html">   23</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_ellipse2d.html">IEllipse2d</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_conic2d.html">IConic2d</a></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_ellipse2d.html#a2be1414694e04d45f554302e9bcae831">   31</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_ellipse2d.html#a2be1414694e04d45f554302e9bcae831">GetMajorRadius</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_ellipse2d.html#a899884ae5ea5f47696e0a75edfe544e8">   38</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_ellipse2d.html#a899884ae5ea5f47696e0a75edfe544e8">GetMinorRadius</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_ellipse2d.html#ab2e0454f79a7c8d08e2e35aa97c53da8">   45</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_ellipse2d.html#ab2e0454f79a7c8d08e2e35aa97c53da8">SetMajorRadius</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iMajorRadius) = 0;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_ellipse2d.html#a379bcd81c91a8c035be1206360558ce3">   52</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_ellipse2d.html#a379bcd81c91a8c035be1206360558ce3">SetMinorRadius</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iMinorRadius) = 0;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>};</div>
+</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span></div>
+<div class="foldopen" id="foldopen00056" data-start="{" data-end="};">
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_ellipse.html">   56</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_ellipse.html">IEllipse</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_conic.html">IConic</a></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>{</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_ellipse.html#a5f01a5f8055924c8d35f804d8060a984">   64</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_ellipse.html#a5f01a5f8055924c8d35f804d8060a984">SetZDirection</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iZDir) = 0;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_ellipse.html#a527e904138abfb96ad51f4eb19bf2767">   71</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_ellipse.html#a527e904138abfb96ad51f4eb19bf2767">GetMajorRadius</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_ellipse.html#a19a148884ce186b1021f26b95870abf3">   78</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_ellipse.html#a19a148884ce186b1021f26b95870abf3">GetMinorRadius</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_ellipse.html#abd058b432f06ef6f0d7526fee576e497">   85</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_ellipse.html#abd058b432f06ef6f0d7526fee576e497">SetMajorRadius</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iMajorRadius) = 0;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_ellipse.html#a42acdc022e6a55149155e0a6705e9522">   92</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_ellipse.html#a42acdc022e6a55149155e0a6705e9522">SetMinorRadius</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iMinorRadius) = 0;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>};</div>
+</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a498a500cb0cd9d5cbb7f60d581454d8e"><div class="ttname"><a href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></div><div class="ttdeci">double DftDouble</div><div class="ttdoc">双精度浮点数</div><div class="ttdef"><b>定义</b> DftTypes.h:68</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_i_curve_8h_html"><div class="ttname"><a href="_p_d_v_i_curve_8h.html">PDVICurve.h</a></div><div class="ttdoc">概述：曲线接口声明</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_conic2d_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_conic2d.html">kernel::pdv::IConic2d</a></div><div class="ttdoc">二维圆锥曲线接口</div><div class="ttdef"><b>定义</b> PDVICurve.h:53</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_conic_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_conic.html">kernel::pdv::IConic</a></div><div class="ttdoc">圆锥曲线接口</div><div class="ttdef"><b>定义</b> PDVICurve.h:120</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_ellipse2d_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_ellipse2d.html">kernel::pdv::IEllipse2d</a></div><div class="ttdoc">二维椭圆接口</div><div class="ttdef"><b>定义</b> PDVIEllipse.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_ellipse2d_html_a2be1414694e04d45f554302e9bcae831"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_ellipse2d.html#a2be1414694e04d45f554302e9bcae831">kernel::pdv::IEllipse2d::GetMajorRadius</a></div><div class="ttdeci">virtual DftDouble GetMajorRadius() const =0</div><div class="ttdoc">获取长轴半径</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_ellipse2d_html_a379bcd81c91a8c035be1206360558ce3"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_ellipse2d.html#a379bcd81c91a8c035be1206360558ce3">kernel::pdv::IEllipse2d::SetMinorRadius</a></div><div class="ttdeci">virtual void SetMinorRadius(DftDouble iMinorRadius)=0</div><div class="ttdoc">设置短轴半径</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_ellipse2d_html_a899884ae5ea5f47696e0a75edfe544e8"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_ellipse2d.html#a899884ae5ea5f47696e0a75edfe544e8">kernel::pdv::IEllipse2d::GetMinorRadius</a></div><div class="ttdeci">virtual DftDouble GetMinorRadius() const =0</div><div class="ttdoc">获取短轴半径</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_ellipse2d_html_ab2e0454f79a7c8d08e2e35aa97c53da8"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_ellipse2d.html#ab2e0454f79a7c8d08e2e35aa97c53da8">kernel::pdv::IEllipse2d::SetMajorRadius</a></div><div class="ttdeci">virtual void SetMajorRadius(DftDouble iMajorRadius)=0</div><div class="ttdoc">设置长轴半径</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_ellipse_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_ellipse.html">kernel::pdv::IEllipse</a></div><div class="ttdoc">椭圆接口</div><div class="ttdef"><b>定义</b> PDVIEllipse.h:57</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_ellipse_html_a19a148884ce186b1021f26b95870abf3"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_ellipse.html#a19a148884ce186b1021f26b95870abf3">kernel::pdv::IEllipse::GetMinorRadius</a></div><div class="ttdeci">virtual DftDouble GetMinorRadius() const =0</div><div class="ttdoc">获取短轴半径</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_ellipse_html_a42acdc022e6a55149155e0a6705e9522"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_ellipse.html#a42acdc022e6a55149155e0a6705e9522">kernel::pdv::IEllipse::SetMinorRadius</a></div><div class="ttdeci">virtual void SetMinorRadius(DftDouble iMinorRadius)=0</div><div class="ttdoc">设置短轴半径</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_ellipse_html_a527e904138abfb96ad51f4eb19bf2767"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_ellipse.html#a527e904138abfb96ad51f4eb19bf2767">kernel::pdv::IEllipse::GetMajorRadius</a></div><div class="ttdeci">virtual DftDouble GetMajorRadius() const =0</div><div class="ttdoc">获取长轴半径</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_ellipse_html_a5f01a5f8055924c8d35f804d8060a984"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_ellipse.html#a5f01a5f8055924c8d35f804d8060a984">kernel::pdv::IEllipse::SetZDirection</a></div><div class="ttdeci">virtual void SetZDirection(const PDVVector3D &amp;iZDir)=0</div><div class="ttdoc">设置Z轴方向</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_ellipse_html_abd058b432f06ef6f0d7526fee576e497"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_ellipse.html#abd058b432f06ef6f0d7526fee576e497">kernel::pdv::IEllipse::SetMajorRadius</a></div><div class="ttdeci">virtual void SetMajorRadius(DftDouble iMajorRadius)=0</div><div class="ttdoc">设置长轴半径</div></div>
+<div class="ttc" id="astruct_p_d_v_vector3_d_html"><div class="ttname"><a href="struct_p_d_v_vector3_d.html">PDVVector3D</a></div><div class="ttdoc">双精度浮点数三维向量</div><div class="ttdef"><b>定义</b> PDVMath.h:1023</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_ellipse_8h.html">PDVIEllipse.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

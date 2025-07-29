@@ -1,0 +1,3455 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: kernel::pdv::ISceneData类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('classkernel_1_1pdv_1_1_i_scene_data.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">kernel::pdv::ISceneData类 参考<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>场景数据接口  
+ <a href="#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_p_d_v_i_scene_data_8h_source.html">PDVISceneData.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ad5bd1cdb4848487507bfcaa3e1b008d4" id="r_ad5bd1cdb4848487507bfcaa3e1b008d4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5bd1cdb4848487507bfcaa3e1b008d4">Clear</a> ()=0</td></tr>
+<tr class="memdesc:ad5bd1cdb4848487507bfcaa3e1b008d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">清空数据  <br /></td></tr>
+<tr class="memitem:a9539c1d7f45f4716e6ac0cfaece425d3" id="r_a9539c1d7f45f4716e6ac0cfaece425d3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9539c1d7f45f4716e6ac0cfaece425d3">Release</a> ()=0</td></tr>
+<tr class="memdesc:a9539c1d7f45f4716e6ac0cfaece425d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">释放内存  <br /></td></tr>
+<tr class="memitem:af0a74d3c9e0865fce8e2a89ae3dd9036" id="r_af0a74d3c9e0865fce8e2a89ae3dd9036"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_scene.html">IScene</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0a74d3c9e0865fce8e2a89ae3dd9036">GetScene</a> ()=0</td></tr>
+<tr class="memdesc:af0a74d3c9e0865fce8e2a89ae3dd9036"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取场景对象接口  <br /></td></tr>
+<tr class="memitem:a937261beebbc677759d8cb275dd631be" id="r_a937261beebbc677759d8cb275dd631be"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_tile_set.html">ITileSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a937261beebbc677759d8cb275dd631be">GetTileSet</a> ()=0</td></tr>
+<tr class="memdesc:a937261beebbc677759d8cb275dd631be"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取瓦块对象接口  <br /></td></tr>
+<tr class="memitem:ac658224b567afc5cab85a31bc2f9f694" id="r_ac658224b567afc5cab85a31bc2f9f694"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac658224b567afc5cab85a31bc2f9f694">BuildTileSet</a> ()=0</td></tr>
+<tr class="memdesc:ac658224b567afc5cab85a31bc2f9f694"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建内部瓦片数据  <br /></td></tr>
+<tr class="memitem:a64f272053c5c6aa858760124c434a3fb" id="r_a64f272053c5c6aa858760124c434a3fb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64f272053c5c6aa858760124c434a3fb">BuildTileSetToCGo</a> (<a class="el" href="struct_tree_node_info.html">TreeNodeInfo</a> *iTreeNodeInfoData, <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;oLength, <a class="el" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a> *&amp;oStreamBuffer)=0</td></tr>
+<tr class="memdesc:a64f272053c5c6aa858760124c434a3fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建内部瓦片数据  <br /></td></tr>
+<tr class="memitem:ac23c46afb647b29d4c538fbf492786a9" id="r_ac23c46afb647b29d4c538fbf492786a9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac23c46afb647b29d4c538fbf492786a9">GetModelTreeArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_model_tree.html">IModelTree</a> * &gt; &amp;oModelTreeArray)=0</td></tr>
+<tr class="memdesc:ac23c46afb647b29d4c538fbf492786a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取模型树对象接口集  <br /></td></tr>
+<tr class="memitem:a96d06e086513bcfabee8e14474760e0f" id="r_a96d06e086513bcfabee8e14474760e0f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96d06e086513bcfabee8e14474760e0f">GetModelArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_model.html">IModel</a> * &gt; &amp;oModelArray)=0</td></tr>
+<tr class="memdesc:a96d06e086513bcfabee8e14474760e0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取模型对象接口集  <br /></td></tr>
+<tr class="memitem:ac232d2bab380def0e6d8e1a5e544a45c" id="r_ac232d2bab380def0e6d8e1a5e544a45c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac232d2bab380def0e6d8e1a5e544a45c">GetMeshArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_mesh.html">IMesh</a> * &gt; &amp;oMeshArray)=0</td></tr>
+<tr class="memdesc:ac232d2bab380def0e6d8e1a5e544a45c"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取网格对象接口集  <br /></td></tr>
+<tr class="memitem:ade9f62d5946c5319591cb27695f5e53d" id="r_ade9f62d5946c5319591cb27695f5e53d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade9f62d5946c5319591cb27695f5e53d">GetBRepArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_b_rep.html">IBRep</a> * &gt; &amp;oBRepArray)=0</td></tr>
+<tr class="memdesc:ade9f62d5946c5319591cb27695f5e53d"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取几何拓扑对象接口集  <br /></td></tr>
+<tr class="memitem:ad5a04e339f77e3821acf64012ab44ad4" id="r_ad5a04e339f77e3821acf64012ab44ad4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5a04e339f77e3821acf64012ab44ad4">GetAttributeArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_attribute.html">IAttribute</a> * &gt; &amp;oAttributeArray)=0</td></tr>
+<tr class="memdesc:ad5a04e339f77e3821acf64012ab44ad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取属性对象接口集  <br /></td></tr>
+<tr class="memitem:afab8e08017f8a1a18d2f5e9a912ccc40" id="r_afab8e08017f8a1a18d2f5e9a912ccc40"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afab8e08017f8a1a18d2f5e9a912ccc40">GetCameraArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_camera.html">ICamera</a> * &gt; &amp;oCameraArray)=0</td></tr>
+<tr class="memdesc:afab8e08017f8a1a18d2f5e9a912ccc40"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取摄像机对象接口集  <br /></td></tr>
+<tr class="memitem:aead9e2db0dc3bad4c568f60ddd57d92d" id="r_aead9e2db0dc3bad4c568f60ddd57d92d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aead9e2db0dc3bad4c568f60ddd57d92d">GetAnnotationArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_annotation.html">IAnnotation</a> * &gt; &amp;oAnnotationArray)=0</td></tr>
+<tr class="memdesc:aead9e2db0dc3bad4c568f60ddd57d92d"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取标注对象接口集  <br /></td></tr>
+<tr class="memitem:a0bfc802323fae8534803db76baab1b4e" id="r_a0bfc802323fae8534803db76baab1b4e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bfc802323fae8534803db76baab1b4e">GetReviewArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_review.html">IReview</a> * &gt; &amp;oReviewArray)=0</td></tr>
+<tr class="memdesc:a0bfc802323fae8534803db76baab1b4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取审阅对象接口集  <br /></td></tr>
+<tr class="memitem:a69c0b7274956d889d24c70e85f00164e" id="r_a69c0b7274956d889d24c70e85f00164e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69c0b7274956d889d24c70e85f00164e">GetViewArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_view.html">IView</a> * &gt; &amp;oViewArray)=0</td></tr>
+<tr class="memdesc:a69c0b7274956d889d24c70e85f00164e"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取视图对象接口集  <br /></td></tr>
+<tr class="memitem:a016098439cf7387e5a038e4993f5ebf4" id="r_a016098439cf7387e5a038e4993f5ebf4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a016098439cf7387e5a038e4993f5ebf4">GetMaterialArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_material.html">IMaterial</a> * &gt; &amp;oMaterialArray)=0</td></tr>
+<tr class="memdesc:a016098439cf7387e5a038e4993f5ebf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取材质对象接口集  <br /></td></tr>
+<tr class="memitem:aabc462b6bb5d2ac6f0eec1e900b79ec9" id="r_aabc462b6bb5d2ac6f0eec1e900b79ec9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabc462b6bb5d2ac6f0eec1e900b79ec9">GetAnimationArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_animation.html">IAnimation</a> * &gt; &amp;oAnimationArray)=0</td></tr>
+<tr class="memdesc:aabc462b6bb5d2ac6f0eec1e900b79ec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取动画对象接口集  <br /></td></tr>
+<tr class="memitem:a76a74b6135872c4560f6865a27efed0d" id="r_a76a74b6135872c4560f6865a27efed0d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76a74b6135872c4560f6865a27efed0d">GetPrimityArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_primity.html">IPrimity</a> * &gt; &amp;oPrimityArray)=0</td></tr>
+<tr class="memdesc:a76a74b6135872c4560f6865a27efed0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取基本体对象接口集  <br /></td></tr>
+<tr class="memitem:a53caedb107ab958f7de6cb5c9cae052f" id="r_a53caedb107ab958f7de6cb5c9cae052f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53caedb107ab958f7de6cb5c9cae052f">GetLightArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_light.html">ILight</a> * &gt; &amp;oLightArray)=0</td></tr>
+<tr class="memdesc:a53caedb107ab958f7de6cb5c9cae052f"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取灯光对象接口集  <br /></td></tr>
+<tr class="memitem:ad31d660d40da1b3f08090f62948dc554" id="r_ad31d660d40da1b3f08090f62948dc554"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad31d660d40da1b3f08090f62948dc554">GetTextureArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_texture.html">ITexture</a> * &gt; &amp;oTextureArray)=0</td></tr>
+<tr class="memdesc:ad31d660d40da1b3f08090f62948dc554"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取纹理对象接口集  <br /></td></tr>
+<tr class="memitem:aa571a4229aa9fbfb23212e8f6676b6b8" id="r_aa571a4229aa9fbfb23212e8f6676b6b8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa571a4229aa9fbfb23212e8f6676b6b8">GetResourceArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_resource.html">IResource</a> * &gt; &amp;oResourceArray)=0</td></tr>
+<tr class="memdesc:aa571a4229aa9fbfb23212e8f6676b6b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取资源文件对象接口集  <br /></td></tr>
+<tr class="memitem:ae11efb6f8e902d88ba3dbe96e33bab51" id="r_ae11efb6f8e902d88ba3dbe96e33bab51"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae11efb6f8e902d88ba3dbe96e33bab51">GetPhysicalQuantityArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_physical_quantity.html">IPhysicalQuantity</a> * &gt; &amp;oPhysicalQuantityArray)=0</td></tr>
+<tr class="memdesc:ae11efb6f8e902d88ba3dbe96e33bab51"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取物理量对象接口集  <br /></td></tr>
+<tr class="memitem:ae7deb16162c2cc1700d26cb4c3e3d895" id="r_ae7deb16162c2cc1700d26cb4c3e3d895"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7deb16162c2cc1700d26cb4c3e3d895">GetRenderBodyArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_render_body.html">IRenderBody</a> * &gt; &amp;oRenderBodyArray)=0</td></tr>
+<tr class="memdesc:ae7deb16162c2cc1700d26cb4c3e3d895"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取渲染主体对象接口集  <br /></td></tr>
+<tr class="memitem:a0281c9f8c82c2471bea4b84937fc5888" id="r_a0281c9f8c82c2471bea4b84937fc5888"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0281c9f8c82c2471bea4b84937fc5888">GetRenderBodySubsetArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_render_body_subset.html">IRenderBodySubset</a> * &gt; &amp;oRenderBodySubsetArray)=0</td></tr>
+<tr class="memdesc:a0281c9f8c82c2471bea4b84937fc5888"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取渲染主体子集对象接口集  <br /></td></tr>
+<tr class="memitem:a930832474a5d5202572fcce05583cda2" id="r_a930832474a5d5202572fcce05583cda2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a930832474a5d5202572fcce05583cda2">GetRenderVertexArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_render_vertex.html">IRenderVertex</a> * &gt; &amp;oRenderVertexArray)=0</td></tr>
+<tr class="memdesc:a930832474a5d5202572fcce05583cda2"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取渲染几何顶点对象接口集  <br /></td></tr>
+<tr class="memitem:ade4d07875ca1118fd037a2fd786f52d7" id="r_ade4d07875ca1118fd037a2fd786f52d7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade4d07875ca1118fd037a2fd786f52d7">GetRenderGeometryArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_render_geometry.html">IRenderGeometry</a> * &gt; &amp;oRenderGeometryArray)=0</td></tr>
+<tr class="memdesc:ade4d07875ca1118fd037a2fd786f52d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取渲染几何体对象接口集  <br /></td></tr>
+<tr class="memitem:a64a89e76b498561650670cc253b6c37a" id="r_a64a89e76b498561650670cc253b6c37a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64a89e76b498561650670cc253b6c37a">GetResultConfigArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_result_config.html">IResultConfig</a> * &gt; &amp;oResultConfigArray)=0</td></tr>
+<tr class="memdesc:a64a89e76b498561650670cc253b6c37a"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取分析结果配置对象接口集  <br /></td></tr>
+<tr class="memitem:a8856e19afe628ab85d9d0e21e481a9ff" id="r_a8856e19afe628ab85d9d0e21e481a9ff"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8856e19afe628ab85d9d0e21e481a9ff">GetRenderMeshArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_render_mesh.html">IRenderMesh</a> * &gt; &amp;oRenderMeshArray)=0</td></tr>
+<tr class="memdesc:a8856e19afe628ab85d9d0e21e481a9ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取渲染网格对象接口集  <br /></td></tr>
+<tr class="memitem:ab5dc5778157383fe42ec04a5b82a9fff" id="r_ab5dc5778157383fe42ec04a5b82a9fff"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5dc5778157383fe42ec04a5b82a9fff">GetReferenceGeometryGroupArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_reference_geometry_group.html">IReferenceGeometryGroup</a> * &gt; &amp;oReferenceGeometryGroupArray)=0</td></tr>
+<tr class="memdesc:ab5dc5778157383fe42ec04a5b82a9fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取辅助几何对象接口集  <br /></td></tr>
+<tr class="memitem:a63f12ec11d7315ee5f070acb2f39040b" id="r_a63f12ec11d7315ee5f070acb2f39040b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63f12ec11d7315ee5f070acb2f39040b">GetNodeSubsetMaterialArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_node_subset_material.html">INodeSubsetMaterial</a> * &gt; &amp;oNodeSubsetMaterialArray)=0</td></tr>
+<tr class="memdesc:a63f12ec11d7315ee5f070acb2f39040b"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取节点面材质对象接口集  <br /></td></tr>
+<tr class="memitem:a0a4c5371dcfff5bed360d6226f2068df" id="r_a0a4c5371dcfff5bed360d6226f2068df"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a4c5371dcfff5bed360d6226f2068df">GetInstancedMeshArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_instanced_mesh.html">IInstancedMesh</a> * &gt; &amp;oInstancedMeshArray)=0</td></tr>
+<tr class="memdesc:a0a4c5371dcfff5bed360d6226f2068df"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取实例化网格对象接口集  <br /></td></tr>
+<tr class="memitem:a97dd38d0fbeea525131ef0c17be277e7" id="r_a97dd38d0fbeea525131ef0c17be277e7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97dd38d0fbeea525131ef0c17be277e7">GetBatchedMeshArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_batched_mesh.html">IBatchedMesh</a> * &gt; &amp;oBatchedMeshArray)=0</td></tr>
+<tr class="memdesc:a97dd38d0fbeea525131ef0c17be277e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取批处理网格对象接口集  <br /></td></tr>
+<tr class="memitem:aecd89098a7123c34af446ee07650f05a" id="r_aecd89098a7123c34af446ee07650f05a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecd89098a7123c34af446ee07650f05a">GetAnalysisResultArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_analysis_result.html">IAnalysisResult</a> * &gt; &amp;oAnalysisResultArray)=0</td></tr>
+<tr class="memdesc:aecd89098a7123c34af446ee07650f05a"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取分析结果对象接口集  <br /></td></tr>
+<tr class="memitem:a77b21a3153f330109cbccf9bbc82f38d" id="r_a77b21a3153f330109cbccf9bbc82f38d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_security.html">ISecurity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77b21a3153f330109cbccf9bbc82f38d">GetSecurity</a> ()=0</td></tr>
+<tr class="memdesc:a77b21a3153f330109cbccf9bbc82f38d"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取安全控制数据接口  <br /></td></tr>
+<tr class="memitem:a58b5a44bac994849ac0ce80bfb32813a" id="r_a58b5a44bac994849ac0ce80bfb32813a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_user_data.html">IUserData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58b5a44bac994849ac0ce80bfb32813a">GetUserData</a> ()=0</td></tr>
+<tr class="memdesc:a58b5a44bac994849ac0ce80bfb32813a"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取用户自定义对象接口  <br /></td></tr>
+<tr class="memitem:a77909b1ab066cf79aaa17e8397a75cff" id="r_a77909b1ab066cf79aaa17e8397a75cff"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_external_link.html">IExternalLink</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77909b1ab066cf79aaa17e8397a75cff">GetExternalLink</a> ()=0</td></tr>
+<tr class="memdesc:a77909b1ab066cf79aaa17e8397a75cff"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取外部链接对象接口  <br /></td></tr>
+<tr class="memitem:aa2d67a88bff653a44d84c8dac9ccf313" id="r_aa2d67a88bff653a44d84c8dac9ccf313"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_model_tree.html">IModelTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2d67a88bff653a44d84c8dac9ccf313">FindModelTreeByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:aa2d67a88bff653a44d84c8dac9ccf313"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找模型树对象  <br /></td></tr>
+<tr class="memitem:a155674cf57103cf75bc602afb57a2d22" id="r_a155674cf57103cf75bc602afb57a2d22"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_model.html">IModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a155674cf57103cf75bc602afb57a2d22">FindModelByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a155674cf57103cf75bc602afb57a2d22"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找模型对象  <br /></td></tr>
+<tr class="memitem:a6a17828b56f1baf4f20b0d2c3e75547d" id="r_a6a17828b56f1baf4f20b0d2c3e75547d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_mesh.html">IMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a17828b56f1baf4f20b0d2c3e75547d">FindMeshByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a6a17828b56f1baf4f20b0d2c3e75547d"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找网格对象  <br /></td></tr>
+<tr class="memitem:a36397ce12174ad39592a07db972f8035" id="r_a36397ce12174ad39592a07db972f8035"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_b_rep.html">IBRep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36397ce12174ad39592a07db972f8035">FindBRepByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a36397ce12174ad39592a07db972f8035"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找几何拓扑对象  <br /></td></tr>
+<tr class="memitem:a0232fb6b604a58f032f2a0ef1f382b70" id="r_a0232fb6b604a58f032f2a0ef1f382b70"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_attribute.html">IAttribute</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0232fb6b604a58f032f2a0ef1f382b70">FindAttributeByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a0232fb6b604a58f032f2a0ef1f382b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找属性对象  <br /></td></tr>
+<tr class="memitem:abdd14c3c796ab33ae175900fac6212d8" id="r_abdd14c3c796ab33ae175900fac6212d8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_camera.html">ICamera</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdd14c3c796ab33ae175900fac6212d8">FindCameraByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:abdd14c3c796ab33ae175900fac6212d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找摄像机对象  <br /></td></tr>
+<tr class="memitem:aff679fe52ad0699bf697471ffce63692" id="r_aff679fe52ad0699bf697471ffce63692"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_annotation.html">IAnnotation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff679fe52ad0699bf697471ffce63692">FindAnnotationByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:aff679fe52ad0699bf697471ffce63692"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找标注对象  <br /></td></tr>
+<tr class="memitem:ad19727cc31547a5cddc06a4262361c5a" id="r_ad19727cc31547a5cddc06a4262361c5a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_review.html">IReview</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad19727cc31547a5cddc06a4262361c5a">FindReviewByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:ad19727cc31547a5cddc06a4262361c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找审阅对象  <br /></td></tr>
+<tr class="memitem:ac3c9b532127cabc6875a6d4f179a2fdf" id="r_ac3c9b532127cabc6875a6d4f179a2fdf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_view.html">IView</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3c9b532127cabc6875a6d4f179a2fdf">FindViewByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:ac3c9b532127cabc6875a6d4f179a2fdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找视图对象  <br /></td></tr>
+<tr class="memitem:af010710819e7f7890956a21f3ee6698b" id="r_af010710819e7f7890956a21f3ee6698b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_material.html">IMaterial</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af010710819e7f7890956a21f3ee6698b">FindMaterialByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:af010710819e7f7890956a21f3ee6698b"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找材质对象  <br /></td></tr>
+<tr class="memitem:aa279f06bb43b7f76ffa3b3d893dcca25" id="r_aa279f06bb43b7f76ffa3b3d893dcca25"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_animation.html">IAnimation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa279f06bb43b7f76ffa3b3d893dcca25">FindAnimationByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:aa279f06bb43b7f76ffa3b3d893dcca25"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找动画对象  <br /></td></tr>
+<tr class="memitem:a7c375369f03863bbf73ec66690ce1201" id="r_a7c375369f03863bbf73ec66690ce1201"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_resource.html">IResource</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c375369f03863bbf73ec66690ce1201">FindResourceByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a7c375369f03863bbf73ec66690ce1201"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找资源文件对象  <br /></td></tr>
+<tr class="memitem:a9bccdf25103c6eb1b80710e05f24b017" id="r_a9bccdf25103c6eb1b80710e05f24b017"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_primity.html">IPrimity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bccdf25103c6eb1b80710e05f24b017">FindPrimityByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a9bccdf25103c6eb1b80710e05f24b017"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找基本体对象  <br /></td></tr>
+<tr class="memitem:a17f55d65a0d17fdc39c8e67b27659945" id="r_a17f55d65a0d17fdc39c8e67b27659945"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_light.html">ILight</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17f55d65a0d17fdc39c8e67b27659945">FindLightByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a17f55d65a0d17fdc39c8e67b27659945"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找灯光对象  <br /></td></tr>
+<tr class="memitem:af4f1b99d13d3f9bc16d102be0bb82647" id="r_af4f1b99d13d3f9bc16d102be0bb82647"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_texture.html">ITexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4f1b99d13d3f9bc16d102be0bb82647">FindTextureByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:af4f1b99d13d3f9bc16d102be0bb82647"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找纹理对象  <br /></td></tr>
+<tr class="memitem:a39047b87ab67fa4d1c8de97981bc6e7d" id="r_a39047b87ab67fa4d1c8de97981bc6e7d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_physical_quantity.html">IPhysicalQuantity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39047b87ab67fa4d1c8de97981bc6e7d">FindPhysicalQuantityByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a39047b87ab67fa4d1c8de97981bc6e7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找物理量对象  <br /></td></tr>
+<tr class="memitem:aa3f81aad95747e52d53fd7d80943720a" id="r_aa3f81aad95747e52d53fd7d80943720a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_render_body.html">IRenderBody</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3f81aad95747e52d53fd7d80943720a">FindRenderBodyByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:aa3f81aad95747e52d53fd7d80943720a"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找渲染主体对象  <br /></td></tr>
+<tr class="memitem:a33e0b6d973f16ad1235ba2de778a4bdc" id="r_a33e0b6d973f16ad1235ba2de778a4bdc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_render_body_subset.html">IRenderBodySubset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33e0b6d973f16ad1235ba2de778a4bdc">FindRenderBodySubsetByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a33e0b6d973f16ad1235ba2de778a4bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找渲染主体子集对象  <br /></td></tr>
+<tr class="memitem:a2652b8d29a119b228bfc2b98352f3a05" id="r_a2652b8d29a119b228bfc2b98352f3a05"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_render_vertex.html">IRenderVertex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2652b8d29a119b228bfc2b98352f3a05">FindRenderVertexByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a2652b8d29a119b228bfc2b98352f3a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找渲染几何顶点对象  <br /></td></tr>
+<tr class="memitem:aca7436521d4e3e2b6035278e8bb18593" id="r_aca7436521d4e3e2b6035278e8bb18593"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_render_geometry.html">IRenderGeometry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca7436521d4e3e2b6035278e8bb18593">FindRenderGeometryByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:aca7436521d4e3e2b6035278e8bb18593"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找渲染几何体对象  <br /></td></tr>
+<tr class="memitem:acc9c50612568993a696eed74c6834374" id="r_acc9c50612568993a696eed74c6834374"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_result_config.html">IResultConfig</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc9c50612568993a696eed74c6834374">FindResultConfigByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:acc9c50612568993a696eed74c6834374"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找分析结果配置对象  <br /></td></tr>
+<tr class="memitem:a879bfabc7533caa21ebfcc9d3161f85a" id="r_a879bfabc7533caa21ebfcc9d3161f85a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_render_mesh.html">IRenderMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a879bfabc7533caa21ebfcc9d3161f85a">FindRenderMeshByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a879bfabc7533caa21ebfcc9d3161f85a"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找渲染网格对象  <br /></td></tr>
+<tr class="memitem:a117f7e4fad53b7d987dbb6f4e7cbdf1f" id="r_a117f7e4fad53b7d987dbb6f4e7cbdf1f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_reference_geometry_group.html">IReferenceGeometryGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a117f7e4fad53b7d987dbb6f4e7cbdf1f">FindReferenceGeometryGroupByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a117f7e4fad53b7d987dbb6f4e7cbdf1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找辅助几何对象  <br /></td></tr>
+<tr class="memitem:a9484f15aef65705f17ec56df0b6de49e" id="r_a9484f15aef65705f17ec56df0b6de49e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_node_subset_material.html">INodeSubsetMaterial</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9484f15aef65705f17ec56df0b6de49e">FindNodeSubsetMaterialByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a9484f15aef65705f17ec56df0b6de49e"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找节点面材质对象  <br /></td></tr>
+<tr class="memitem:aafaaf6b617df552be9671aa075283d47" id="r_aafaaf6b617df552be9671aa075283d47"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_instanced_mesh.html">IInstancedMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafaaf6b617df552be9671aa075283d47">FindInstancedMeshByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:aafaaf6b617df552be9671aa075283d47"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找实例化网格对象  <br /></td></tr>
+<tr class="memitem:a99280b88dd93a32837cf8f4a17779242" id="r_a99280b88dd93a32837cf8f4a17779242"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_batched_mesh.html">IBatchedMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99280b88dd93a32837cf8f4a17779242">FindBatchedMeshByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a99280b88dd93a32837cf8f4a17779242"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找批处理网格对象  <br /></td></tr>
+<tr class="memitem:a91073d7f1ae77cd96861dd12e30ea76a" id="r_a91073d7f1ae77cd96861dd12e30ea76a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_analysis_result.html">IAnalysisResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91073d7f1ae77cd96861dd12e30ea76a">FindAnalysisResultByID</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iID)=0</td></tr>
+<tr class="memdesc:a91073d7f1ae77cd96861dd12e30ea76a"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据ID查找分析结果对象  <br /></td></tr>
+<tr class="memitem:a5936483dd9abbbcab1d63674fd5cfb03" id="r_a5936483dd9abbbcab1d63674fd5cfb03"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5936483dd9abbbcab1d63674fd5cfb03">ChangeObjectID</a> (<a class="el" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a> *iObject, <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iNewID)=0</td></tr>
+<tr class="memdesc:a5936483dd9abbbcab1d63674fd5cfb03"><td class="mdescLeft">&#160;</td><td class="mdescRight">改变对象ID  <br /></td></tr>
+<tr class="memitem:ae115589ac5b352f8609a3e1fb0f61f7e" id="r_ae115589ac5b352f8609a3e1fb0f61f7e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae115589ac5b352f8609a3e1fb0f61f7e">OptimizeMesh</a> ()=0</td></tr>
+<tr class="memdesc:ae115589ac5b352f8609a3e1fb0f61f7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">优化网格数据  <br /></td></tr>
+<tr class="memitem:a1318b7ebbc12fb6f509c07fcf61f89a8" id="r_a1318b7ebbc12fb6f509c07fcf61f89a8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1318b7ebbc12fb6f509c07fcf61f89a8">DeleteUnreferencedMesh</a> ()=0</td></tr>
+<tr class="memdesc:a1318b7ebbc12fb6f509c07fcf61f89a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">删除未被引用的网格数据  <br /></td></tr>
+<tr class="memitem:a406254c1e4cb0aaaf3d864e8f7562325" id="r_a406254c1e4cb0aaaf3d864e8f7562325"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a406254c1e4cb0aaaf3d864e8f7562325">AddPDV</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iNodeID, const std::vector&lt; <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &gt; &amp;iPDVPaths, const std::vector&lt; <a class="el" href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a> &gt; &amp;iMatrices, const std::vector&lt; <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &gt; &amp;iNewNodeNames)=0</td></tr>
+<tr class="memdesc:a406254c1e4cb0aaaf3d864e8f7562325"><td class="mdescLeft">&#160;</td><td class="mdescRight">并根据需要创建新节点  <br /></td></tr>
+<tr class="memitem:a20448adb74ef42733271f4e798295621" id="r_a20448adb74ef42733271f4e798295621"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20448adb74ef42733271f4e798295621">GetDocInfoDocID</a> ()=0</td></tr>
+<tr class="memdesc:a20448adb74ef42733271f4e798295621"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的文档标识接口集  <br /></td></tr>
+<tr class="memitem:a5125d530279933f2a3a29bc30db2ad95" id="r_a5125d530279933f2a3a29bc30db2ad95"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5125d530279933f2a3a29bc30db2ad95">GetDocInfoTitle</a> ()=0</td></tr>
+<tr class="memdesc:a5125d530279933f2a3a29bc30db2ad95"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的文档标题接口集  <br /></td></tr>
+<tr class="memitem:a5245afd6047997398e6aa8a90f61decf" id="r_a5245afd6047997398e6aa8a90f61decf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5245afd6047997398e6aa8a90f61decf">GetDocInfoAuthor</a> ()=0</td></tr>
+<tr class="memdesc:a5245afd6047997398e6aa8a90f61decf"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的文档作者接口集  <br /></td></tr>
+<tr class="memitem:af7540bab62fc2b6cefb78387c0e60996" id="r_af7540bab62fc2b6cefb78387c0e60996"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7540bab62fc2b6cefb78387c0e60996">GetDocInfoCopyright</a> ()=0</td></tr>
+<tr class="memdesc:af7540bab62fc2b6cefb78387c0e60996"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的文档版权声明接口集  <br /></td></tr>
+<tr class="memitem:a9eaeffca5a10c308f9ef447370381b28" id="r_a9eaeffca5a10c308f9ef447370381b28"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9eaeffca5a10c308f9ef447370381b28">GetDocInfoCreationDate</a> ()=0</td></tr>
+<tr class="memdesc:a9eaeffca5a10c308f9ef447370381b28"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的文档创建时间接口集  <br /></td></tr>
+<tr class="memitem:af33243153e7bc2873ebba6320c91cec4" id="r_af33243153e7bc2873ebba6320c91cec4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af33243153e7bc2873ebba6320c91cec4">GetDocInfoProducer</a> ()=0</td></tr>
+<tr class="memdesc:af33243153e7bc2873ebba6320c91cec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的文档创建程序名称接口集  <br /></td></tr>
+<tr class="memitem:afcc49fbf79ebe86026ee3125a18093a5" id="r_afcc49fbf79ebe86026ee3125a18093a5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcc49fbf79ebe86026ee3125a18093a5">GetDocInfoCreator</a> ()=0</td></tr>
+<tr class="memdesc:afcc49fbf79ebe86026ee3125a18093a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的原始数据的创建程序接口集  <br /></td></tr>
+<tr class="memitem:a7b0ee2021be2b18b26b92e6941ac1bd1" id="r_a7b0ee2021be2b18b26b92e6941ac1bd1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b0ee2021be2b18b26b92e6941ac1bd1">SetDocInfoDocID</a> (<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> iDocID)=0</td></tr>
+<tr class="memdesc:a7b0ee2021be2b18b26b92e6941ac1bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置文件属性的文档标识接口集  <br /></td></tr>
+<tr class="memitem:a3bb3efc32f83145ad7aa348ad8a0558d" id="r_a3bb3efc32f83145ad7aa348ad8a0558d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bb3efc32f83145ad7aa348ad8a0558d">SetDocInfoTitle</a> (<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> iTitle)=0</td></tr>
+<tr class="memdesc:a3bb3efc32f83145ad7aa348ad8a0558d"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的文档标题接口集  <br /></td></tr>
+<tr class="memitem:a4d95a0c33aa0e04aed84cc2ee7d9e65d" id="r_a4d95a0c33aa0e04aed84cc2ee7d9e65d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d95a0c33aa0e04aed84cc2ee7d9e65d">SetDocInfoAuthor</a> (<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> iAuthor)=0</td></tr>
+<tr class="memdesc:a4d95a0c33aa0e04aed84cc2ee7d9e65d"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的文档作者接口集  <br /></td></tr>
+<tr class="memitem:a5485ad950ad54fa9424dfce424e97aa6" id="r_a5485ad950ad54fa9424dfce424e97aa6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5485ad950ad54fa9424dfce424e97aa6">SetDocInfoCopyright</a> (<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> iCopyright)=0</td></tr>
+<tr class="memdesc:a5485ad950ad54fa9424dfce424e97aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的文档版权声明接口集  <br /></td></tr>
+<tr class="memitem:a9c37d9010699e74b2594bf7407f1ae41" id="r_a9c37d9010699e74b2594bf7407f1ae41"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c37d9010699e74b2594bf7407f1ae41">SetDocInfoCreationDate</a> (<a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> iCreationDate)=0</td></tr>
+<tr class="memdesc:a9c37d9010699e74b2594bf7407f1ae41"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的文档创建时间接口集  <br /></td></tr>
+<tr class="memitem:a1fedae29662517dabf9592e7710e66f9" id="r_a1fedae29662517dabf9592e7710e66f9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fedae29662517dabf9592e7710e66f9">SetDocInfoProducer</a> (<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> iProducer)=0</td></tr>
+<tr class="memdesc:a1fedae29662517dabf9592e7710e66f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的文档创建程序名称接口集  <br /></td></tr>
+<tr class="memitem:af798bb6fb86981f5a17916cdc057827c" id="r_af798bb6fb86981f5a17916cdc057827c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af798bb6fb86981f5a17916cdc057827c">SetDocInfoCreator</a> (<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> iCreator)=0</td></tr>
+<tr class="memdesc:af798bb6fb86981f5a17916cdc057827c"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件属性的原始数据的创建程序接口集  <br /></td></tr>
+<tr class="memitem:ae8eee4ab46e3d61737d8ee4f430d7dfb" id="r_ae8eee4ab46e3d61737d8ee4f430d7dfb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8eee4ab46e3d61737d8ee4f430d7dfb">ExportXML</a> (<a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> iExportAttr, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iXMLPath)=0</td></tr>
+<tr class="memdesc:ae8eee4ab46e3d61737d8ee4f430d7dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">将pdv数据导出至XML  <br /></td></tr>
+<tr class="memitem:a7d131d778c4558f6169a823f84b34224" id="r_a7d131d778c4558f6169a823f84b34224"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d131d778c4558f6169a823f84b34224">BuildNodeSubsetMaterial</a> ()=0</td></tr>
+<tr class="memdesc:a7d131d778c4558f6169a823f84b34224"><td class="mdescLeft">&#160;</td><td class="mdescRight">构建节点面材质数据  <br /></td></tr>
+<tr class="memitem:a9bd48507809e2891fa7575cf4e7c0aa0" id="r_a9bd48507809e2891fa7575cf4e7c0aa0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bd48507809e2891fa7575cf4e7c0aa0">RunBatchedAndInstanced</a> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iInstancedMinVertexCount, <a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> iInstancedVertexCompareDecimalPlaces, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iBatchedMaxVertexCount, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iBatchedOctreeNodeReserveDepth)=0</td></tr>
+<tr class="memdesc:a9bd48507809e2891fa7575cf4e7c0aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">将renderMesh数据进行合批和实例化处理  <br /></td></tr>
+<tr class="memitem:ab75965b4508108b10e42ed0a2dcf6f18" id="r_ab75965b4508108b10e42ed0a2dcf6f18"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab75965b4508108b10e42ed0a2dcf6f18">RunBatchedAndInstanced2</a> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iInstancedMinVertexCount, <a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> iInstancedVertexCompareDecimalPlaces, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iBatchedMaxVertexCount, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iBatchedOctreeNodeReserveDepth)=0</td></tr>
+<tr class="memdesc:ab75965b4508108b10e42ed0a2dcf6f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">将renderMesh数据进行合批和实例化处理，合批前把节点下的body全部合并  <br /></td></tr>
+<tr class="memitem:a8dc380d80b2715e2bd92e6e6c53d0758" id="r_a8dc380d80b2715e2bd92e6e6c53d0758"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dc380d80b2715e2bd92e6e6c53d0758">RevertBatchedAndInstanced</a> ()=0</td></tr>
+<tr class="memdesc:a8dc380d80b2715e2bd92e6e6c53d0758"><td class="mdescLeft">&#160;</td><td class="mdescRight">将合批和实例化后的renderMesh数据进行还原  <br /></td></tr>
+<tr class="memitem:a4e1bae660a6e880f0fbf0e9411b9d7dd" id="r_a4e1bae660a6e880f0fbf0e9411b9d7dd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e1bae660a6e880f0fbf0e9411b9d7dd">MergeModeltreeNodesWithMultiBody</a> (const std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;iNodeIDs)=0</td></tr>
+<tr class="memdesc:a4e1bae660a6e880f0fbf0e9411b9d7dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">对输入的每个节点进行合并，将其子节点都合并到当前节点，并保留所有Body  <br /></td></tr>
+<tr class="memitem:a8f6f04c406d6099111039b5bcf7401ef" id="r_a8f6f04c406d6099111039b5bcf7401ef"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f6f04c406d6099111039b5bcf7401ef">MergeModeltreeNodesWithOneBody</a> (const std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;iNodeIDs)=0</td></tr>
+<tr class="memdesc:a8f6f04c406d6099111039b5bcf7401ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">对输入的每个节点进行合并，将其子节点都合并到当前节点，并合并所有Body为1个  <br /></td></tr>
+<tr class="memitem:a6e103a46a081cee1411827837ac2e2d8" id="r_a6e103a46a081cee1411827837ac2e2d8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e103a46a081cee1411827837ac2e2d8">RemoveUnReferenceData</a> ()=0</td></tr>
+<tr class="memdesc:a6e103a46a081cee1411827837ac2e2d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">移除未被引用的数据  <br /></td></tr>
+<tr class="memitem:acd73005295825b28ba21d76b904ec2c8" id="r_acd73005295825b28ba21d76b904ec2c8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd73005295825b28ba21d76b904ec2c8">StatisticsRenderDataCount</a> (<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oInfo)=0</td></tr>
+<tr class="memdesc:acd73005295825b28ba21d76b904ec2c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">统计渲染数据的数量  <br /></td></tr>
+<tr class="memitem:abb5e7e4b1cef609192037cbd517aafcb" id="r_abb5e7e4b1cef609192037cbd517aafcb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb5e7e4b1cef609192037cbd517aafcb">SetDefaultCameraByBox</a> (const <a class="el" href="structkernel_1_1pdv_1_1_bounding_box.html">BoundingBox</a> &amp;iBox, <a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> iCameraType, const <a class="el" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;iUpDir, const <a class="el" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;iRightDir)=0</td></tr>
+<tr class="memdesc:abb5e7e4b1cef609192037cbd517aafcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据包围盒设置默认相机数据  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>场景数据接口 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">成员函数说明</h2>
+<a id="a406254c1e4cb0aaaf3d864e8f7562325" name="a406254c1e4cb0aaaf3d864e8f7562325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a406254c1e4cb0aaaf3d864e8f7562325">&#9670;&#160;</a></span>AddPDV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::AddPDV </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iNodeID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iPDVPaths</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="struct_p_d_v_matrix4_f.html">PDVMatrix4F</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iMatrices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iNewNodeNames</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>并根据需要创建新节点 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iNodeID</td><td>节点ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPDVPaths</td><td>pdv路径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iMatrices</td><td>追加之后节点的世界矩阵 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iNewNodeNames</td><td>新节点名称，如果为空，则不创建新节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a7d131d778c4558f6169a823f84b34224" name="a7d131d778c4558f6169a823f84b34224"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d131d778c4558f6169a823f84b34224">&#9670;&#160;</a></span>BuildNodeSubsetMaterial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::BuildNodeSubsetMaterial </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>构建节点面材质数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ac658224b567afc5cab85a31bc2f9f694" name="ac658224b567afc5cab85a31bc2f9f694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac658224b567afc5cab85a31bc2f9f694">&#9670;&#160;</a></span>BuildTileSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::BuildTileSet </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建内部瓦片数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a64f272053c5c6aa858760124c434a3fb" name="a64f272053c5c6aa858760124c434a3fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64f272053c5c6aa858760124c434a3fb">&#9670;&#160;</a></span>BuildTileSetToCGo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::BuildTileSetToCGo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_tree_node_info.html">TreeNodeInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>iTreeNodeInfoData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oLength</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a> *&amp;</td>          <td class="paramname"><span class="paramname"><em>oStreamBuffer</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>创建内部瓦片数据 </p>
+<dl class="section return"><dt>返回</dt><dd>CGo调用 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iTreeNodeInfoData</td><td>模型节点信息数据 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oLength</td><td>oStreamBuffer的长度 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oStreamBuffer</td><td>构建的瓦片数据流 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a5936483dd9abbbcab1d63674fd5cfb03" name="a5936483dd9abbbcab1d63674fd5cfb03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5936483dd9abbbcab1d63674fd5cfb03">&#9670;&#160;</a></span>ChangeObjectID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::ChangeObjectID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a> *</td>          <td class="paramname"><span class="paramname"><em>iObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iNewID</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>改变对象ID </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iObject</td><td>对象 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iNewID</td><td>对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ad5bd1cdb4848487507bfcaa3e1b008d4" name="ad5bd1cdb4848487507bfcaa3e1b008d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5bd1cdb4848487507bfcaa3e1b008d4">&#9670;&#160;</a></span>Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::Clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>清空数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a1318b7ebbc12fb6f509c07fcf61f89a8" name="a1318b7ebbc12fb6f509c07fcf61f89a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1318b7ebbc12fb6f509c07fcf61f89a8">&#9670;&#160;</a></span>DeleteUnreferencedMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::DeleteUnreferencedMesh </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>删除未被引用的网格数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ae8eee4ab46e3d61737d8ee4f430d7dfb" name="ae8eee4ab46e3d61737d8ee4f430d7dfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8eee4ab46e3d61737d8ee4f430d7dfb">&#9670;&#160;</a></span>ExportXML()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::ExportXML </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></td>          <td class="paramname"><span class="paramname"><em>iExportAttr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iXMLPath</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>将pdv数据导出至XML </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iExportAttr</td><td>是否导出属性 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iXMLPath</td><td>XML路径 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a91073d7f1ae77cd96861dd12e30ea76a" name="a91073d7f1ae77cd96861dd12e30ea76a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91073d7f1ae77cd96861dd12e30ea76a">&#9670;&#160;</a></span>FindAnalysisResultByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_analysis_result.html">IAnalysisResult</a> * kernel::pdv::ISceneData::FindAnalysisResultByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找分析结果对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_analysis_result.html" title="分析结果的接口">IAnalysisResult</a> * 分析结果对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>分析结果对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到分析结果对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="aa279f06bb43b7f76ffa3b3d893dcca25" name="aa279f06bb43b7f76ffa3b3d893dcca25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa279f06bb43b7f76ffa3b3d893dcca25">&#9670;&#160;</a></span>FindAnimationByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_animation.html">IAnimation</a> * kernel::pdv::ISceneData::FindAnimationByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找动画对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_animation.html" title="动画的接口">IAnimation</a> * 动画对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>动画对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到动画对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="aff679fe52ad0699bf697471ffce63692" name="aff679fe52ad0699bf697471ffce63692"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff679fe52ad0699bf697471ffce63692">&#9670;&#160;</a></span>FindAnnotationByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_annotation.html">IAnnotation</a> * kernel::pdv::ISceneData::FindAnnotationByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找标注对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_annotation.html" title="标注的接口">IAnnotation</a> * 标注对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>标注对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到标注对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a0232fb6b604a58f032f2a0ef1f382b70" name="a0232fb6b604a58f032f2a0ef1f382b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0232fb6b604a58f032f2a0ef1f382b70">&#9670;&#160;</a></span>FindAttributeByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_attribute.html">IAttribute</a> * kernel::pdv::ISceneData::FindAttributeByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找属性对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_attribute.html" title="属性的接口">IAttribute</a> * 属性对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>属性对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到属性对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a99280b88dd93a32837cf8f4a17779242" name="a99280b88dd93a32837cf8f4a17779242"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99280b88dd93a32837cf8f4a17779242">&#9670;&#160;</a></span>FindBatchedMeshByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_batched_mesh.html">IBatchedMesh</a> * kernel::pdv::ISceneData::FindBatchedMeshByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找批处理网格对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_batched_mesh.html" title="批处理网格的接口">IBatchedMesh</a> * 批处理网格对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>批处理网格对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到批处理网格对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a36397ce12174ad39592a07db972f8035" name="a36397ce12174ad39592a07db972f8035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36397ce12174ad39592a07db972f8035">&#9670;&#160;</a></span>FindBRepByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_b_rep.html">IBRep</a> * kernel::pdv::ISceneData::FindBRepByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找几何拓扑对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_b_rep.html" title="几何拓扑数据的接口">IBRep</a> * 几何拓扑对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>几何拓扑对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到几何拓扑对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="abdd14c3c796ab33ae175900fac6212d8" name="abdd14c3c796ab33ae175900fac6212d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdd14c3c796ab33ae175900fac6212d8">&#9670;&#160;</a></span>FindCameraByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_camera.html">ICamera</a> * kernel::pdv::ISceneData::FindCameraByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找摄像机对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_camera.html" title="摄像机数据的接口">ICamera</a> * 摄像机对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>摄像机对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到摄像机对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="aafaaf6b617df552be9671aa075283d47" name="aafaaf6b617df552be9671aa075283d47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafaaf6b617df552be9671aa075283d47">&#9670;&#160;</a></span>FindInstancedMeshByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_instanced_mesh.html">IInstancedMesh</a> * kernel::pdv::ISceneData::FindInstancedMeshByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找实例化网格对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_instanced_mesh.html" title="实例化网格的接口">IInstancedMesh</a> * 实例化网格对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>实例化网格对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到实例化网格对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a17f55d65a0d17fdc39c8e67b27659945" name="a17f55d65a0d17fdc39c8e67b27659945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17f55d65a0d17fdc39c8e67b27659945">&#9670;&#160;</a></span>FindLightByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_light.html">ILight</a> * kernel::pdv::ISceneData::FindLightByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找灯光对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_light.html" title="灯光对象的接口">ILight</a> * 灯光对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>灯光对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到灯光对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="af010710819e7f7890956a21f3ee6698b" name="af010710819e7f7890956a21f3ee6698b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af010710819e7f7890956a21f3ee6698b">&#9670;&#160;</a></span>FindMaterialByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_material.html">IMaterial</a> * kernel::pdv::ISceneData::FindMaterialByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找材质对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_material.html" title="材质的接口">IMaterial</a> * 材质对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>材质对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到材质对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a6a17828b56f1baf4f20b0d2c3e75547d" name="a6a17828b56f1baf4f20b0d2c3e75547d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a17828b56f1baf4f20b0d2c3e75547d">&#9670;&#160;</a></span>FindMeshByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_mesh.html">IMesh</a> * kernel::pdv::ISceneData::FindMeshByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找网格对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_mesh.html" title="网格数据的接口">IMesh</a> * 网格对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>网格对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到网格对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a155674cf57103cf75bc602afb57a2d22" name="a155674cf57103cf75bc602afb57a2d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a155674cf57103cf75bc602afb57a2d22">&#9670;&#160;</a></span>FindModelByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_model.html">IModel</a> * kernel::pdv::ISceneData::FindModelByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找模型对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_model.html" title="模型的接口">IModel</a> * 模型对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>模型对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到模型对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="aa2d67a88bff653a44d84c8dac9ccf313" name="aa2d67a88bff653a44d84c8dac9ccf313"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2d67a88bff653a44d84c8dac9ccf313">&#9670;&#160;</a></span>FindModelTreeByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_model_tree.html">IModelTree</a> * kernel::pdv::ISceneData::FindModelTreeByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找模型树对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_model_tree.html" title="模型树的接口">IModelTree</a> * 模型树对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>模型树对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到模型树对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a9484f15aef65705f17ec56df0b6de49e" name="a9484f15aef65705f17ec56df0b6de49e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9484f15aef65705f17ec56df0b6de49e">&#9670;&#160;</a></span>FindNodeSubsetMaterialByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_node_subset_material.html">INodeSubsetMaterial</a> * kernel::pdv::ISceneData::FindNodeSubsetMaterialByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找节点面材质对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_node_subset_material.html" title="节点面材质的接口">INodeSubsetMaterial</a> * 节点面材质对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>节点面材质对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到节点面材质对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a39047b87ab67fa4d1c8de97981bc6e7d" name="a39047b87ab67fa4d1c8de97981bc6e7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39047b87ab67fa4d1c8de97981bc6e7d">&#9670;&#160;</a></span>FindPhysicalQuantityByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_physical_quantity.html">IPhysicalQuantity</a> * kernel::pdv::ISceneData::FindPhysicalQuantityByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找物理量对象 </p>
+<dl class="section return"><dt>返回</dt><dd>PDVIPhysicalQuantity * 物理量对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>物理量对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到物理量对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a9bccdf25103c6eb1b80710e05f24b017" name="a9bccdf25103c6eb1b80710e05f24b017"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bccdf25103c6eb1b80710e05f24b017">&#9670;&#160;</a></span>FindPrimityByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_primity.html">IPrimity</a> * kernel::pdv::ISceneData::FindPrimityByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找基本体对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_primity.html" title="基本体的接口">IPrimity</a> * 基本体对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>基本体对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到基本体对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a117f7e4fad53b7d987dbb6f4e7cbdf1f" name="a117f7e4fad53b7d987dbb6f4e7cbdf1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a117f7e4fad53b7d987dbb6f4e7cbdf1f">&#9670;&#160;</a></span>FindReferenceGeometryGroupByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_reference_geometry_group.html">IReferenceGeometryGroup</a> * kernel::pdv::ISceneData::FindReferenceGeometryGroupByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找辅助几何对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_reference_geometry_group.html" title="辅助几何集集合的接口">IReferenceGeometryGroup</a> * 辅助几何对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>辅助几何对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到辅助几何对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="aa3f81aad95747e52d53fd7d80943720a" name="aa3f81aad95747e52d53fd7d80943720a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3f81aad95747e52d53fd7d80943720a">&#9670;&#160;</a></span>FindRenderBodyByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_render_body.html">IRenderBody</a> * kernel::pdv::ISceneData::FindRenderBodyByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找渲染主体对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_render_body.html" title="渲染主体的接口">IRenderBody</a> * 渲染主体对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>渲染主体对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到渲染主体对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a33e0b6d973f16ad1235ba2de778a4bdc" name="a33e0b6d973f16ad1235ba2de778a4bdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33e0b6d973f16ad1235ba2de778a4bdc">&#9670;&#160;</a></span>FindRenderBodySubsetByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_render_body_subset.html">IRenderBodySubset</a> * kernel::pdv::ISceneData::FindRenderBodySubsetByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找渲染主体子集对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_render_body_subset.html" title="场景数据的接口">IRenderBodySubset</a> * 渲染主体子集对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>渲染主体子集对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到渲染主体子集对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="aca7436521d4e3e2b6035278e8bb18593" name="aca7436521d4e3e2b6035278e8bb18593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca7436521d4e3e2b6035278e8bb18593">&#9670;&#160;</a></span>FindRenderGeometryByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_render_geometry.html">IRenderGeometry</a> * kernel::pdv::ISceneData::FindRenderGeometryByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找渲染几何体对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_render_geometry.html" title="渲染几何体的接口">IRenderGeometry</a> * 渲染几何体对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>渲染几何体对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到渲染几何体对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a879bfabc7533caa21ebfcc9d3161f85a" name="a879bfabc7533caa21ebfcc9d3161f85a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a879bfabc7533caa21ebfcc9d3161f85a">&#9670;&#160;</a></span>FindRenderMeshByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_render_mesh.html">IRenderMesh</a> * kernel::pdv::ISceneData::FindRenderMeshByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找渲染网格对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_render_mesh.html" title="渲染网格的接口">IRenderMesh</a> * 渲染网格对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>渲染网格对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到渲染网格对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a2652b8d29a119b228bfc2b98352f3a05" name="a2652b8d29a119b228bfc2b98352f3a05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2652b8d29a119b228bfc2b98352f3a05">&#9670;&#160;</a></span>FindRenderVertexByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_render_vertex.html">IRenderVertex</a> * kernel::pdv::ISceneData::FindRenderVertexByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找渲染几何顶点对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_render_vertex.html" title="顶点数据的接口">IRenderVertex</a> * 渲染几何顶点对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>渲染几何顶点对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到渲染几何顶点对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="a7c375369f03863bbf73ec66690ce1201" name="a7c375369f03863bbf73ec66690ce1201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c375369f03863bbf73ec66690ce1201">&#9670;&#160;</a></span>FindResourceByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_resource.html">IResource</a> * kernel::pdv::ISceneData::FindResourceByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找资源文件对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_resource.html" title="资源的接口">IResource</a> * 资源文件对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>资源文件对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到资源文件对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="acc9c50612568993a696eed74c6834374" name="acc9c50612568993a696eed74c6834374"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc9c50612568993a696eed74c6834374">&#9670;&#160;</a></span>FindResultConfigByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_result_config.html">IResultConfig</a> * kernel::pdv::ISceneData::FindResultConfigByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找分析结果配置对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_result_config.html" title="分析结果配置的接口">IResultConfig</a> * 分析结果配置对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>分析结果配置对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到分析结果配置对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="ad19727cc31547a5cddc06a4262361c5a" name="ad19727cc31547a5cddc06a4262361c5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad19727cc31547a5cddc06a4262361c5a">&#9670;&#160;</a></span>FindReviewByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_review.html">IReview</a> * kernel::pdv::ISceneData::FindReviewByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找审阅对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_review.html" title="审阅对象的接口">IReview</a> * 审阅对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>审阅对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到审阅对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="af4f1b99d13d3f9bc16d102be0bb82647" name="af4f1b99d13d3f9bc16d102be0bb82647"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4f1b99d13d3f9bc16d102be0bb82647">&#9670;&#160;</a></span>FindTextureByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_texture.html">ITexture</a> * kernel::pdv::ISceneData::FindTextureByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找纹理对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_texture.html" title="纹理的接口">ITexture</a> * 纹理对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>纹理对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到纹理对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="ac3c9b532127cabc6875a6d4f179a2fdf" name="ac3c9b532127cabc6875a6d4f179a2fdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3c9b532127cabc6875a6d4f179a2fdf">&#9670;&#160;</a></span>FindViewByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_view.html">IView</a> * kernel::pdv::ISceneData::FindViewByID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据ID查找视图对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_view.html" title="视图的接口">IView</a> * 视图对象 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iID</td><td>视图对象ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>如果找不到视图对象，函数返回NULL </dd></dl>
+
+</div>
+</div>
+<a id="aecd89098a7123c34af446ee07650f05a" name="aecd89098a7123c34af446ee07650f05a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecd89098a7123c34af446ee07650f05a">&#9670;&#160;</a></span>GetAnalysisResultArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetAnalysisResultArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_analysis_result.html">IAnalysisResult</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oAnalysisResultArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取分析结果对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oAnalysisResultArray</td><td>分析结果对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aabc462b6bb5d2ac6f0eec1e900b79ec9" name="aabc462b6bb5d2ac6f0eec1e900b79ec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabc462b6bb5d2ac6f0eec1e900b79ec9">&#9670;&#160;</a></span>GetAnimationArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetAnimationArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_animation.html">IAnimation</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oAnimationArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取动画对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oAnimationArray</td><td>动画对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aead9e2db0dc3bad4c568f60ddd57d92d" name="aead9e2db0dc3bad4c568f60ddd57d92d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aead9e2db0dc3bad4c568f60ddd57d92d">&#9670;&#160;</a></span>GetAnnotationArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetAnnotationArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_annotation.html">IAnnotation</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oAnnotationArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取标注对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oAnnotationArray</td><td>标注对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ad5a04e339f77e3821acf64012ab44ad4" name="ad5a04e339f77e3821acf64012ab44ad4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5a04e339f77e3821acf64012ab44ad4">&#9670;&#160;</a></span>GetAttributeArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetAttributeArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_attribute.html">IAttribute</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oAttributeArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取属性对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oAttributeArray</td><td>属性对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a97dd38d0fbeea525131ef0c17be277e7" name="a97dd38d0fbeea525131ef0c17be277e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97dd38d0fbeea525131ef0c17be277e7">&#9670;&#160;</a></span>GetBatchedMeshArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetBatchedMeshArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_batched_mesh.html">IBatchedMesh</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oBatchedMeshArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取批处理网格对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oBatchedMeshArray</td><td>批处理网格对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ade9f62d5946c5319591cb27695f5e53d" name="ade9f62d5946c5319591cb27695f5e53d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade9f62d5946c5319591cb27695f5e53d">&#9670;&#160;</a></span>GetBRepArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetBRepArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_b_rep.html">IBRep</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oBRepArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取几何拓扑对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oBRepArray</td><td>几何拓扑象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="afab8e08017f8a1a18d2f5e9a912ccc40" name="afab8e08017f8a1a18d2f5e9a912ccc40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab8e08017f8a1a18d2f5e9a912ccc40">&#9670;&#160;</a></span>GetCameraArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetCameraArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_camera.html">ICamera</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oCameraArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取摄像机对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oCameraArray</td><td>摄像机对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a5245afd6047997398e6aa8a90f61decf" name="a5245afd6047997398e6aa8a90f61decf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5245afd6047997398e6aa8a90f61decf">&#9670;&#160;</a></span>GetDocInfoAuthor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> kernel::pdv::ISceneData::GetDocInfoAuthor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的文档作者接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="class_c_unicode_string.html" title="Unicode字符操作接口">CUnicodeString</a> 文件属性的文档作者 </dd></dl>
+
+</div>
+</div>
+<a id="af7540bab62fc2b6cefb78387c0e60996" name="af7540bab62fc2b6cefb78387c0e60996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7540bab62fc2b6cefb78387c0e60996">&#9670;&#160;</a></span>GetDocInfoCopyright()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> kernel::pdv::ISceneData::GetDocInfoCopyright </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的文档版权声明接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="class_c_unicode_string.html" title="Unicode字符操作接口">CUnicodeString</a> 文件属性的文档版权声明 </dd></dl>
+
+</div>
+</div>
+<a id="a9eaeffca5a10c308f9ef447370381b28" name="a9eaeffca5a10c308f9ef447370381b28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eaeffca5a10c308f9ef447370381b28">&#9670;&#160;</a></span>GetDocInfoCreationDate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> kernel::pdv::ISceneData::GetDocInfoCreationDate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的文档创建时间接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33" title="64位无符号整数">DftUInt64</a> 文件属性的文档创建时间 </dd></dl>
+
+</div>
+</div>
+<a id="afcc49fbf79ebe86026ee3125a18093a5" name="afcc49fbf79ebe86026ee3125a18093a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcc49fbf79ebe86026ee3125a18093a5">&#9670;&#160;</a></span>GetDocInfoCreator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> kernel::pdv::ISceneData::GetDocInfoCreator </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的原始数据的创建程序接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="class_c_unicode_string.html" title="Unicode字符操作接口">CUnicodeString</a> 文件属性的原始数据的创建程序 </dd></dl>
+
+</div>
+</div>
+<a id="a20448adb74ef42733271f4e798295621" name="a20448adb74ef42733271f4e798295621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20448adb74ef42733271f4e798295621">&#9670;&#160;</a></span>GetDocInfoDocID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> kernel::pdv::ISceneData::GetDocInfoDocID </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的文档标识接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="class_c_unicode_string.html" title="Unicode字符操作接口">CUnicodeString</a> 文件属性的文档标识 </dd></dl>
+
+</div>
+</div>
+<a id="af33243153e7bc2873ebba6320c91cec4" name="af33243153e7bc2873ebba6320c91cec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af33243153e7bc2873ebba6320c91cec4">&#9670;&#160;</a></span>GetDocInfoProducer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> kernel::pdv::ISceneData::GetDocInfoProducer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的文档创建程序名称接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="class_c_unicode_string.html" title="Unicode字符操作接口">CUnicodeString</a> 文件属性的文档创建程序名称 </dd></dl>
+
+</div>
+</div>
+<a id="a5125d530279933f2a3a29bc30db2ad95" name="a5125d530279933f2a3a29bc30db2ad95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5125d530279933f2a3a29bc30db2ad95">&#9670;&#160;</a></span>GetDocInfoTitle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> kernel::pdv::ISceneData::GetDocInfoTitle </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的文档标题接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="class_c_unicode_string.html" title="Unicode字符操作接口">CUnicodeString</a> 文件属性的文档标题 </dd></dl>
+
+</div>
+</div>
+<a id="a77909b1ab066cf79aaa17e8397a75cff" name="a77909b1ab066cf79aaa17e8397a75cff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77909b1ab066cf79aaa17e8397a75cff">&#9670;&#160;</a></span>GetExternalLink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_external_link.html">IExternalLink</a> * kernel::pdv::ISceneData::GetExternalLink </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取外部链接对象接口 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_external_link.html" title="外部链接对象的接口">IExternalLink</a> * 外部链接对象接口 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a0a4c5371dcfff5bed360d6226f2068df" name="a0a4c5371dcfff5bed360d6226f2068df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a4c5371dcfff5bed360d6226f2068df">&#9670;&#160;</a></span>GetInstancedMeshArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetInstancedMeshArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_instanced_mesh.html">IInstancedMesh</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oInstancedMeshArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取实例化网格对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oInstancedMeshArray</td><td>实例化网格对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a53caedb107ab958f7de6cb5c9cae052f" name="a53caedb107ab958f7de6cb5c9cae052f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53caedb107ab958f7de6cb5c9cae052f">&#9670;&#160;</a></span>GetLightArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetLightArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_light.html">ILight</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oLightArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取灯光对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oLightArray</td><td>灯光对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a016098439cf7387e5a038e4993f5ebf4" name="a016098439cf7387e5a038e4993f5ebf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a016098439cf7387e5a038e4993f5ebf4">&#9670;&#160;</a></span>GetMaterialArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetMaterialArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_material.html">IMaterial</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oMaterialArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取材质对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oMaterialArray</td><td>材质对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ac232d2bab380def0e6d8e1a5e544a45c" name="ac232d2bab380def0e6d8e1a5e544a45c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac232d2bab380def0e6d8e1a5e544a45c">&#9670;&#160;</a></span>GetMeshArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetMeshArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_mesh.html">IMesh</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oMeshArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取网格对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oMeshArray</td><td>网格对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a96d06e086513bcfabee8e14474760e0f" name="a96d06e086513bcfabee8e14474760e0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96d06e086513bcfabee8e14474760e0f">&#9670;&#160;</a></span>GetModelArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetModelArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_model.html">IModel</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oModelArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取模型对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oModelArray</td><td>模型对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ac23c46afb647b29d4c538fbf492786a9" name="ac23c46afb647b29d4c538fbf492786a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac23c46afb647b29d4c538fbf492786a9">&#9670;&#160;</a></span>GetModelTreeArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetModelTreeArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_model_tree.html">IModelTree</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oModelTreeArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取模型树对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oModelTreeArray</td><td>模型树对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a63f12ec11d7315ee5f070acb2f39040b" name="a63f12ec11d7315ee5f070acb2f39040b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63f12ec11d7315ee5f070acb2f39040b">&#9670;&#160;</a></span>GetNodeSubsetMaterialArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetNodeSubsetMaterialArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_node_subset_material.html">INodeSubsetMaterial</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oNodeSubsetMaterialArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取节点面材质对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oNodeSubsetMaterialArray</td><td>节点面材质对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ae11efb6f8e902d88ba3dbe96e33bab51" name="ae11efb6f8e902d88ba3dbe96e33bab51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae11efb6f8e902d88ba3dbe96e33bab51">&#9670;&#160;</a></span>GetPhysicalQuantityArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetPhysicalQuantityArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_physical_quantity.html">IPhysicalQuantity</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oPhysicalQuantityArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取物理量对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oPhysicalQuantityArray</td><td>物理量对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a76a74b6135872c4560f6865a27efed0d" name="a76a74b6135872c4560f6865a27efed0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76a74b6135872c4560f6865a27efed0d">&#9670;&#160;</a></span>GetPrimityArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetPrimityArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_primity.html">IPrimity</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oPrimityArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取基本体对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oPrimityArray</td><td>基本体象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ab5dc5778157383fe42ec04a5b82a9fff" name="ab5dc5778157383fe42ec04a5b82a9fff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5dc5778157383fe42ec04a5b82a9fff">&#9670;&#160;</a></span>GetReferenceGeometryGroupArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetReferenceGeometryGroupArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_reference_geometry_group.html">IReferenceGeometryGroup</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oReferenceGeometryGroupArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取辅助几何对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oReferenceGeometryGroupArray</td><td>辅助几何对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ae7deb16162c2cc1700d26cb4c3e3d895" name="ae7deb16162c2cc1700d26cb4c3e3d895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7deb16162c2cc1700d26cb4c3e3d895">&#9670;&#160;</a></span>GetRenderBodyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetRenderBodyArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_render_body.html">IRenderBody</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oRenderBodyArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取渲染主体对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oRenderBodyArray</td><td>渲染主体对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a0281c9f8c82c2471bea4b84937fc5888" name="a0281c9f8c82c2471bea4b84937fc5888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0281c9f8c82c2471bea4b84937fc5888">&#9670;&#160;</a></span>GetRenderBodySubsetArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetRenderBodySubsetArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_render_body_subset.html">IRenderBodySubset</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oRenderBodySubsetArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取渲染主体子集对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oRenderBodySubsetArray</td><td>渲染主体子集对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ade4d07875ca1118fd037a2fd786f52d7" name="ade4d07875ca1118fd037a2fd786f52d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade4d07875ca1118fd037a2fd786f52d7">&#9670;&#160;</a></span>GetRenderGeometryArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetRenderGeometryArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_render_geometry.html">IRenderGeometry</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oRenderGeometryArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取渲染几何体对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oRenderGeometryArray</td><td>渲染几何体对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a8856e19afe628ab85d9d0e21e481a9ff" name="a8856e19afe628ab85d9d0e21e481a9ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8856e19afe628ab85d9d0e21e481a9ff">&#9670;&#160;</a></span>GetRenderMeshArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetRenderMeshArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_render_mesh.html">IRenderMesh</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oRenderMeshArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取渲染网格对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oRenderMeshArray</td><td>渲染网格对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a930832474a5d5202572fcce05583cda2" name="a930832474a5d5202572fcce05583cda2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a930832474a5d5202572fcce05583cda2">&#9670;&#160;</a></span>GetRenderVertexArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetRenderVertexArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_render_vertex.html">IRenderVertex</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oRenderVertexArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取渲染几何顶点对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oRenderVertexArray</td><td>渲染几何顶点对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aa571a4229aa9fbfb23212e8f6676b6b8" name="aa571a4229aa9fbfb23212e8f6676b6b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa571a4229aa9fbfb23212e8f6676b6b8">&#9670;&#160;</a></span>GetResourceArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetResourceArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_resource.html">IResource</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oResourceArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取资源文件对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oResourceArray</td><td>资源文件对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a64a89e76b498561650670cc253b6c37a" name="a64a89e76b498561650670cc253b6c37a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64a89e76b498561650670cc253b6c37a">&#9670;&#160;</a></span>GetResultConfigArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetResultConfigArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_result_config.html">IResultConfig</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oResultConfigArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取分析结果配置对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oResultConfigArray</td><td>分析结果配置对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a0bfc802323fae8534803db76baab1b4e" name="a0bfc802323fae8534803db76baab1b4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bfc802323fae8534803db76baab1b4e">&#9670;&#160;</a></span>GetReviewArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetReviewArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_review.html">IReview</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oReviewArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取审阅对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oReviewArray</td><td>审阅对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="af0a74d3c9e0865fce8e2a89ae3dd9036" name="af0a74d3c9e0865fce8e2a89ae3dd9036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0a74d3c9e0865fce8e2a89ae3dd9036">&#9670;&#160;</a></span>GetScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_scene.html">IScene</a> * kernel::pdv::ISceneData::GetScene </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取场景对象接口 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_scene.html" title="场景数据的接口">IScene</a> * 场景对象接口 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a77b21a3153f330109cbccf9bbc82f38d" name="a77b21a3153f330109cbccf9bbc82f38d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77b21a3153f330109cbccf9bbc82f38d">&#9670;&#160;</a></span>GetSecurity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_security.html">ISecurity</a> * kernel::pdv::ISceneData::GetSecurity </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取安全控制数据接口 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_security.html" title="安全控制对象的接口">ISecurity</a> * 安全控制数据接口 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ad31d660d40da1b3f08090f62948dc554" name="ad31d660d40da1b3f08090f62948dc554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad31d660d40da1b3f08090f62948dc554">&#9670;&#160;</a></span>GetTextureArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetTextureArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_texture.html">ITexture</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oTextureArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取纹理对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oTextureArray</td><td>纹理对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a937261beebbc677759d8cb275dd631be" name="a937261beebbc677759d8cb275dd631be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a937261beebbc677759d8cb275dd631be">&#9670;&#160;</a></span>GetTileSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_tile_set.html">ITileSet</a> * kernel::pdv::ISceneData::GetTileSet </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取瓦块对象接口 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_tile_set.html" title="瓦片的接口">ITileSet</a> * 瓦块对象接口 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a58b5a44bac994849ac0ce80bfb32813a" name="a58b5a44bac994849ac0ce80bfb32813a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58b5a44bac994849ac0ce80bfb32813a">&#9670;&#160;</a></span>GetUserData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_user_data.html">IUserData</a> * kernel::pdv::ISceneData::GetUserData </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取用户自定义对象接口 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_user_data.html" title="用户自定义对象的接口">IUserData</a> * 用户自定义对象接口 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a69c0b7274956d889d24c70e85f00164e" name="a69c0b7274956d889d24c70e85f00164e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c0b7274956d889d24c70e85f00164e">&#9670;&#160;</a></span>GetViewArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::GetViewArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_view.html">IView</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oViewArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取视图对象接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oViewArray</td><td>视图对象接口集 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4e1bae660a6e880f0fbf0e9411b9d7dd" name="a4e1bae660a6e880f0fbf0e9411b9d7dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e1bae660a6e880f0fbf0e9411b9d7dd">&#9670;&#160;</a></span>MergeModeltreeNodesWithMultiBody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::MergeModeltreeNodesWithMultiBody </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iNodeIDs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>对输入的每个节点进行合并，将其子节点都合并到当前节点，并保留所有Body </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iNodeIDs</td><td>要合并的节点的ID数组 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a8f6f04c406d6099111039b5bcf7401ef" name="a8f6f04c406d6099111039b5bcf7401ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f6f04c406d6099111039b5bcf7401ef">&#9670;&#160;</a></span>MergeModeltreeNodesWithOneBody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::MergeModeltreeNodesWithOneBody </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>iNodeIDs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>对输入的每个节点进行合并，将其子节点都合并到当前节点，并合并所有Body为1个 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iNodeIDs</td><td>要合并的节点的ID数组 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ae115589ac5b352f8609a3e1fb0f61f7e" name="ae115589ac5b352f8609a3e1fb0f61f7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae115589ac5b352f8609a3e1fb0f61f7e">&#9670;&#160;</a></span>OptimizeMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::OptimizeMesh </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>优化网格数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a9539c1d7f45f4716e6ac0cfaece425d3" name="a9539c1d7f45f4716e6ac0cfaece425d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9539c1d7f45f4716e6ac0cfaece425d3">&#9670;&#160;</a></span>Release()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::Release </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>释放内存 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a6e103a46a081cee1411827837ac2e2d8" name="a6e103a46a081cee1411827837ac2e2d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e103a46a081cee1411827837ac2e2d8">&#9670;&#160;</a></span>RemoveUnReferenceData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::RemoveUnReferenceData </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>移除未被引用的数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a8dc380d80b2715e2bd92e6e6c53d0758" name="a8dc380d80b2715e2bd92e6e6c53d0758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dc380d80b2715e2bd92e6e6c53d0758">&#9670;&#160;</a></span>RevertBatchedAndInstanced()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::RevertBatchedAndInstanced </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>将合批和实例化后的renderMesh数据进行还原 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a9bd48507809e2891fa7575cf4e7c0aa0" name="a9bd48507809e2891fa7575cf4e7c0aa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bd48507809e2891fa7575cf4e7c0aa0">&#9670;&#160;</a></span>RunBatchedAndInstanced()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::RunBatchedAndInstanced </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></td>          <td class="paramname"><span class="paramname"><em>iInstancedMinVertexCount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a></td>          <td class="paramname"><span class="paramname"><em>iInstancedVertexCompareDecimalPlaces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></td>          <td class="paramname"><span class="paramname"><em>iBatchedMaxVertexCount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></td>          <td class="paramname"><span class="paramname"><em>iBatchedOctreeNodeReserveDepth</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>将renderMesh数据进行合批和实例化处理 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iInstancedMinVertexCount</td><td>实例化时，限制实例渲染顶点数的最小值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iInstancedVertexCompareDecimalPlaces</td><td>二次实例化算法中比较顶点数据时，涉及到小数点后的位数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBatchedMaxVertexCount</td><td>合批时，限制合批的顶点数据上限 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBatchedOctreeNodeReserveDepth</td><td>合批时，限制合批节点八叉树的层级深度 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ab75965b4508108b10e42ed0a2dcf6f18" name="ab75965b4508108b10e42ed0a2dcf6f18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab75965b4508108b10e42ed0a2dcf6f18">&#9670;&#160;</a></span>RunBatchedAndInstanced2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::RunBatchedAndInstanced2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></td>          <td class="paramname"><span class="paramname"><em>iInstancedMinVertexCount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a></td>          <td class="paramname"><span class="paramname"><em>iInstancedVertexCompareDecimalPlaces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></td>          <td class="paramname"><span class="paramname"><em>iBatchedMaxVertexCount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></td>          <td class="paramname"><span class="paramname"><em>iBatchedOctreeNodeReserveDepth</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>将renderMesh数据进行合批和实例化处理，合批前把节点下的body全部合并 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iInstancedMinVertexCount</td><td>实例化时，限制实例渲染顶点数的最小值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iInstancedVertexCompareDecimalPlaces</td><td>二次实例化算法中比较顶点数据时，涉及到小数点后的位数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBatchedMaxVertexCount</td><td>合批时，限制合批的顶点数据上限 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBatchedOctreeNodeReserveDepth</td><td>合批时，限制合批节点八叉树的层级深度 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="abb5e7e4b1cef609192037cbd517aafcb" name="abb5e7e4b1cef609192037cbd517aafcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb5e7e4b1cef609192037cbd517aafcb">&#9670;&#160;</a></span>SetDefaultCameraByBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::SetDefaultCameraByBox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structkernel_1_1pdv_1_1_bounding_box.html">BoundingBox</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iBox</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></td>          <td class="paramname"><span class="paramname"><em>iCameraType</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iUpDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iRightDir</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>根据包围盒设置默认相机数据 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBox</td><td>场景包围盒 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCameraType</td><td>摄像机类型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iUpDir</td><td>上方向 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iRightDir</td><td>右方向 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4d95a0c33aa0e04aed84cc2ee7d9e65d" name="a4d95a0c33aa0e04aed84cc2ee7d9e65d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d95a0c33aa0e04aed84cc2ee7d9e65d">&#9670;&#160;</a></span>SetDocInfoAuthor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::SetDocInfoAuthor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a></td>          <td class="paramname"><span class="paramname"><em>iAuthor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的文档作者接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iAuthor</td><td>文件属性的文档作者 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5485ad950ad54fa9424dfce424e97aa6" name="a5485ad950ad54fa9424dfce424e97aa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5485ad950ad54fa9424dfce424e97aa6">&#9670;&#160;</a></span>SetDocInfoCopyright()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::SetDocInfoCopyright </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a></td>          <td class="paramname"><span class="paramname"><em>iCopyright</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的文档版权声明接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCopyright</td><td>文件属性的文档版权声明 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9c37d9010699e74b2594bf7407f1ae41" name="a9c37d9010699e74b2594bf7407f1ae41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c37d9010699e74b2594bf7407f1ae41">&#9670;&#160;</a></span>SetDocInfoCreationDate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::SetDocInfoCreationDate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></td>          <td class="paramname"><span class="paramname"><em>iCreationDate</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的文档创建时间接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCreationDate</td><td>文件属性的文档创建时间 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af798bb6fb86981f5a17916cdc057827c" name="af798bb6fb86981f5a17916cdc057827c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af798bb6fb86981f5a17916cdc057827c">&#9670;&#160;</a></span>SetDocInfoCreator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::SetDocInfoCreator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a></td>          <td class="paramname"><span class="paramname"><em>iCreator</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的原始数据的创建程序接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCreator</td><td>文件属性的原始数据的创建程序 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7b0ee2021be2b18b26b92e6941ac1bd1" name="a7b0ee2021be2b18b26b92e6941ac1bd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b0ee2021be2b18b26b92e6941ac1bd1">&#9670;&#160;</a></span>SetDocInfoDocID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::SetDocInfoDocID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a></td>          <td class="paramname"><span class="paramname"><em>iDocID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置文件属性的文档标识接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDocID</td><td>文件属性的文档标识 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1fedae29662517dabf9592e7710e66f9" name="a1fedae29662517dabf9592e7710e66f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fedae29662517dabf9592e7710e66f9">&#9670;&#160;</a></span>SetDocInfoProducer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::SetDocInfoProducer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a></td>          <td class="paramname"><span class="paramname"><em>iProducer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的文档创建程序名称接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iProducer</td><td>文件属性的文档创建程序名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3bb3efc32f83145ad7aa348ad8a0558d" name="a3bb3efc32f83145ad7aa348ad8a0558d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bb3efc32f83145ad7aa348ad8a0558d">&#9670;&#160;</a></span>SetDocInfoTitle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::SetDocInfoTitle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a></td>          <td class="paramname"><span class="paramname"><em>iTitle</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取文件属性的文档标题接口集 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iTitle</td><td>文件属性的文档标题 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acd73005295825b28ba21d76b904ec2c8" name="acd73005295825b28ba21d76b904ec2c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd73005295825b28ba21d76b904ec2c8">&#9670;&#160;</a></span>StatisticsRenderDataCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::ISceneData::StatisticsRenderDataCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oInfo</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>统计渲染数据的数量 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oInfo</td><td>输出的统计结果 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>PDVSDK-docs/PDVCore/<a class="el" href="_p_d_v_i_scene_data_8h_source.html">PDVISceneData.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>kernel</b></li><li class="navelem"><b>pdv</b></li><li class="navelem"><a href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

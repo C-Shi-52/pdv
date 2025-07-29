@@ -1,0 +1,199 @@
+{
+	"_geometricError":	435.8899,
+	"_rootTile":	{
+		"_id":	"251546254158872578",
+		"_boundingVolume":	{
+			"_box":	{
+				"_center":	[150, 150, 50],
+				"_vectorX":	[150, 0, 0],
+				"_vectorY":	[0, 150, 0],
+				"_vectorZ":	[0, 0, 50]
+			},
+			"_sphere":	{
+				"_center":	[150, 150, 50],
+				"_radius":	217.9449
+			}
+		},
+		"_geometricError":	435.8899,
+		"_refine":	2,
+		"_content":	{
+			"_bitMask":	1,
+			"_treeNodeID":	"251546253420675073",
+			"_LodRenderBodyIDs":	"(invalid)",
+			"_envelopes(size = 0)":	{
+			}
+		},
+		"_localTransform(not saved)":	[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]],
+		"_name(not saved)":	"(null)",
+		"_children(size = 2)":	{
+			"_children[0]":	{
+				"_id":	"251546254158872579",
+				"_boundingVolume":	{
+					"_box":	{
+						"_center":	[150, 50, 50],
+						"_vectorX":	[150, 0, 0],
+						"_vectorY":	[0, 50, 0],
+						"_vectorZ":	[0, 0, 50]
+					},
+					"_sphere":	{
+						"_center":	[150, 50, 50],
+						"_radius":	165.8312
+					}
+				},
+				"_geometricError":	331.6625,
+				"_refine":	2,
+				"_content":	{
+					"_bitMask":	1,
+					"_treeNodeID":	"251546253424869377",
+					"_LodRenderBodyIDs":	"(invalid)",
+					"_envelopes(size = 0)":	{
+					}
+				},
+				"_localTransform(not saved)":	[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]],
+				"_name(not saved)":	"(null)",
+				"_children(size = 2)":	{
+					"_children[0]":	{
+						"_id":	"251546254158872580",
+						"_boundingVolume":	{
+							"_box":	{
+								"_center":	[50, 50, 50],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_sphere":	{
+								"_center":	[50, 50, 50],
+								"_radius":	86.6025
+							}
+						},
+						"_geometricError":	173.2051,
+						"_refine":	2,
+						"_content":	{
+							"_bitMask":	1,
+							"_treeNodeID":	"251546253433257984",
+							"_LodRenderBodyIDs":	"(invalid)",
+							"_envelopes(size = 0)":	{
+							}
+						},
+						"_localTransform(not saved)":	[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]],
+						"_name(not saved)":	"(null)",
+						"_children(size = 0)":	{
+						}
+					},
+					"_children[1]":	{
+						"_id":	"251546254158872581",
+						"_boundingVolume":	{
+							"_box":	{
+								"_center":	[50, 50, 50],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_sphere":	{
+								"_center":	[50, 50, 50],
+								"_radius":	86.6025
+							}
+						},
+						"_geometricError":	173.2051,
+						"_refine":	2,
+						"_content":	{
+							"_bitMask":	1,
+							"_treeNodeID":	"251546254079180800",
+							"_LodRenderBodyIDs":	"(invalid)",
+							"_envelopes(size = 0)":	{
+							}
+						},
+						"_localTransform(not saved)":	[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]],
+						"_name(not saved)":	"(null)",
+						"_children(size = 0)":	{
+						}
+					}
+				}
+			},
+			"_children[1]":	{
+				"_id":	"251546254158872582",
+				"_boundingVolume":	{
+					"_box":	{
+						"_center":	[150, 50, 50],
+						"_vectorX":	[150, 0, 0],
+						"_vectorY":	[0, 50, 0],
+						"_vectorZ":	[0, 0, 50]
+					},
+					"_sphere":	{
+						"_center":	[150, 50, 50],
+						"_radius":	165.8312
+					}
+				},
+				"_geometricError":	331.6625,
+				"_refine":	2,
+				"_content":	{
+					"_bitMask":	1,
+					"_treeNodeID":	"251546254108540931",
+					"_LodRenderBodyIDs":	"(invalid)",
+					"_envelopes(size = 0)":	{
+					}
+				},
+				"_localTransform(not saved)":	[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]],
+				"_name(not saved)":	"(null)",
+				"_children(size = 2)":	{
+					"_children[0]":	{
+						"_id":	"251546254158872583",
+						"_boundingVolume":	{
+							"_box":	{
+								"_center":	[50, 50, 50],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_sphere":	{
+								"_center":	[50, 50, 50],
+								"_radius":	86.6025
+							}
+						},
+						"_geometricError":	173.2051,
+						"_refine":	2,
+						"_content":	{
+							"_bitMask":	1,
+							"_treeNodeID":	"251546254112735232",
+							"_LodRenderBodyIDs":	"(invalid)",
+							"_envelopes(size = 0)":	{
+							}
+						},
+						"_localTransform(not saved)":	[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]],
+						"_name(not saved)":	"(null)",
+						"_children(size = 0)":	{
+						}
+					},
+					"_children[1]":	{
+						"_id":	"251546254158872584",
+						"_boundingVolume":	{
+							"_box":	{
+								"_center":	[50, 50, 50],
+								"_vectorX":	[50, 0, 0],
+								"_vectorY":	[0, 50, 0],
+								"_vectorZ":	[0, 0, 50]
+							},
+							"_sphere":	{
+								"_center":	[50, 50, 50],
+								"_radius":	86.6025
+							}
+						},
+						"_geometricError":	173.2051,
+						"_refine":	2,
+						"_content":	{
+							"_bitMask":	1,
+							"_treeNodeID":	"251546254121123840",
+							"_LodRenderBodyIDs":	"(invalid)",
+							"_envelopes(size = 0)":	{
+							}
+						},
+						"_localTransform(not saved)":	[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]],
+						"_name(not saved)":	"(null)",
+						"_children(size = 0)":	{
+						}
+					}
+				}
+			}
+		}
+	}
+}

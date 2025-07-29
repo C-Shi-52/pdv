@@ -1,0 +1,20 @@
+{
+	"views(size = 1)":	{
+		"views[0]":	{
+			"_id":	"251546254158872577",
+			"_name":	"defaultView",
+			"_cameraID":	"251546254158872576",
+			"_clippingPlanes(size = 0)":	{
+			},
+			"_clippedNodeIDs(size = 0)":	[],
+			"_hiddenNodeIDs(size = 0)":	[],
+			"_transformedNodeIDs(size = 0)":	[],
+			"_nodeTransformations(size = 0)":	{
+			},
+			"_matChangedNodeIDs(size = 0)":	[],
+			"_nodeMaterialIDs(size = 0)":	[],
+			"_backgroundType":	0,
+			"_reviewIDs(size = 0)":	[]
+		}
+	}
+}

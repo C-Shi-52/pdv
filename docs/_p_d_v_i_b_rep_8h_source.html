@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIBRep.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_b_rep_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIBRep.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_b_rep_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIBREP_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIBREP_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">class </span><a class="code hl_class" href="classkernel_1_1pdv_1_1_i_topo.html">ITopo</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">class </span><a class="code hl_class" href="classkernel_1_1pdv_1_1_i_geom_point_data.html">IGeomPointData</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">class </span><a class="code hl_class" href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">IGeomCurveData</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">class </span><a class="code hl_class" href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">IGeomSurfaceData</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html">   28</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_b_rep.html">IBRep</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a85d76d564f21450cdd1f4b0df6f28969">   36</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a85d76d564f21450cdd1f4b0df6f28969">ClearTopo</a>() = 0;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a534156f3a0250da92f7ad57da644c1af">   43</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a534156f3a0250da92f7ad57da644c1af">GetTopoCount</a>() = 0;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a44e0192ae7afc0f63b9ed86fad54a347">   51</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a44e0192ae7afc0f63b9ed86fad54a347">GetTopoArray</a>(std::vector&lt;ITopo*&gt;&amp; oTopos) = 0;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#adbba21da1f45f9dd4bf15545645293bb">   59</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#adbba21da1f45f9dd4bf15545645293bb">SetTopoArray</a>(<span class="keyword">const</span> std::vector&lt;ITopo*&gt;&amp; iTopos) = 0;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a82952a70db2149604639fdf3f9e1e826">   66</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a82952a70db2149604639fdf3f9e1e826">ClearGeomPointData</a>() = 0;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a6dbef23747477519f58fcec0254bc7c9">   73</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a6dbef23747477519f58fcec0254bc7c9">GetGeomPointDataCount</a>() = 0;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a654076aba81ec1e524dfb4da1e5d6074">   81</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a654076aba81ec1e524dfb4da1e5d6074">GetGeomPointDataArray</a>(std::vector&lt;IGeomPointData*&gt;&amp; oGeomPoints) = 0;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a94030d53c2560a98785733a849236344">   89</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a94030d53c2560a98785733a849236344">SetGeomPointDataArray</a>(<span class="keyword">const</span> std::vector&lt;IGeomPointData*&gt;&amp; iGeomPoints) = 0;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a0808b0408c1b08a8cc13aafb4baf8d23">   96</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a0808b0408c1b08a8cc13aafb4baf8d23">ClearGeomCurveData</a>() = 0;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a6a4db12f01549dd95ccdf90477fc9c8d">  103</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a6a4db12f01549dd95ccdf90477fc9c8d">GetGeomCurveDataCount</a>() = 0;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a059dc0e5017bcf56a1366b2ab6907897">  111</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a059dc0e5017bcf56a1366b2ab6907897">GetGeomCurveDataArray</a>(std::vector&lt;IGeomCurveData*&gt;&amp; oGeomCurves) = 0;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a403de742ead0a77ffb5ba3d6b2e94f00">  119</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a403de742ead0a77ffb5ba3d6b2e94f00">SetGeomCurveDataArray</a>(<span class="keyword">const</span> std::vector&lt;IGeomCurveData*&gt;&amp; iGeomCurves) = 0;</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a26d5247d98f116b96ea27ea6a808f37e">  126</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a26d5247d98f116b96ea27ea6a808f37e">ClearGeomSurfaceData</a>() = 0;</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a5fc5768eeac22d9334fbd93dfafcf97d">  133</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a5fc5768eeac22d9334fbd93dfafcf97d">GetGeomSurfaceDataCount</a>() = 0;</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a2be2f5e90ed1f4225c2db95cd78a7697">  141</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a2be2f5e90ed1f4225c2db95cd78a7697">GetGeomSurfaceDataArray</a>(std::vector&lt;IGeomSurfaceData*&gt;&amp; oGeomSurfaces) = 0;</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span></div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a165536cc73ff37860e57646dc707a2e5">  149</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a165536cc73ff37860e57646dc707a2e5">SetGeomSurfaceDataArray</a>(<span class="keyword">const</span> std::vector&lt;IGeomSurfaceData*&gt;&amp; iGeomSurfaces) = 0;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span></div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#aca45a708978e882b6fe7ba81fa3a6f58">  156</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#aca45a708978e882b6fe7ba81fa3a6f58">GetDataLength</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span></div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#ad0d5f24ba4824c987ac6841ef48b27b4">  165</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#ad0d5f24ba4824c987ac6841ef48b27b4">ReadData</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_p_d_v_types_8h.html#ad2d72d7b5e8dcc14feb717b3da19f038">PDV_CHAR</a>* iStreamBuffer, <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> iBufferLength) = 0;</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span></div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a7f7413c4be3020b570021b6d9e7705d6">  174</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a7f7413c4be3020b570021b6d9e7705d6">WriteData</a>(<a class="code hl_typedef" href="_p_d_v_types_8h.html#ad2d72d7b5e8dcc14feb717b3da19f038">PDV_CHAR</a>* ioStreamBuffer, <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> iBufferLength) <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_b_rep.html#a70631624cdd1202b6de45416a84b8de1">  182</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_b_rep.html#a70631624cdd1202b6de45416a84b8de1">Output</a>(<a class="code hl_typedef" href="_dft_json_8h.html#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> jsonNode) <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>};</div>
+</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span> </div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_json_8h_html_a530bdbd5eab3048787dbc7a1f07a3b55"><div class="ttname"><a href="_dft_json_8h.html#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></div><div class="ttdeci">void * DftJson</div><div class="ttdoc">json节点对象</div><div class="ttdef"><b>定义</b> DftJson.h:18</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a9dd0d1ca2dc17c79bf9082d2b72d957f"><div class="ttname"><a href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></div><div class="ttdeci">unsigned int DftUInt</div><div class="ttdoc">无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:48</div></div>
+<div class="ttc" id="a_dft_types_8h_html_afa7ca784b04bc26549651a5a04bc5f27"><div class="ttname"><a href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a></div><div class="ttdeci">long long DftInt64</div><div class="ttdoc">64位整数</div><div class="ttdef"><b>定义</b> DftTypes.h:62</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="a_p_d_v_types_8h_html_ad2d72d7b5e8dcc14feb717b3da19f038"><div class="ttname"><a href="_p_d_v_types_8h.html#ad2d72d7b5e8dcc14feb717b3da19f038">PDV_CHAR</a></div><div class="ttdeci">char PDV_CHAR</div><div class="ttdoc">字符</div><div class="ttdef"><b>定义</b> PDVTypes.h:27</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html">kernel::pdv::IBRep</a></div><div class="ttdoc">几何拓扑数据的接口</div><div class="ttdef"><b>定义</b> PDVIBRep.h:29</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a059dc0e5017bcf56a1366b2ab6907897"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a059dc0e5017bcf56a1366b2ab6907897">kernel::pdv::IBRep::GetGeomCurveDataArray</a></div><div class="ttdeci">virtual PDV_RESULT GetGeomCurveDataArray(std::vector&lt; IGeomCurveData * &gt; &amp;oGeomCurves)=0</div><div class="ttdoc">获取几何曲线数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a0808b0408c1b08a8cc13aafb4baf8d23"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a0808b0408c1b08a8cc13aafb4baf8d23">kernel::pdv::IBRep::ClearGeomCurveData</a></div><div class="ttdeci">virtual PDV_RESULT ClearGeomCurveData()=0</div><div class="ttdoc">清空几何曲线数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a165536cc73ff37860e57646dc707a2e5"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a165536cc73ff37860e57646dc707a2e5">kernel::pdv::IBRep::SetGeomSurfaceDataArray</a></div><div class="ttdeci">virtual PDV_RESULT SetGeomSurfaceDataArray(const std::vector&lt; IGeomSurfaceData * &gt; &amp;iGeomSurfaces)=0</div><div class="ttdoc">设置几何曲面数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a26d5247d98f116b96ea27ea6a808f37e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a26d5247d98f116b96ea27ea6a808f37e">kernel::pdv::IBRep::ClearGeomSurfaceData</a></div><div class="ttdeci">virtual PDV_RESULT ClearGeomSurfaceData()=0</div><div class="ttdoc">清空几何曲面数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a2be2f5e90ed1f4225c2db95cd78a7697"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a2be2f5e90ed1f4225c2db95cd78a7697">kernel::pdv::IBRep::GetGeomSurfaceDataArray</a></div><div class="ttdeci">virtual PDV_RESULT GetGeomSurfaceDataArray(std::vector&lt; IGeomSurfaceData * &gt; &amp;oGeomSurfaces)=0</div><div class="ttdoc">获取几何曲面数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a403de742ead0a77ffb5ba3d6b2e94f00"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a403de742ead0a77ffb5ba3d6b2e94f00">kernel::pdv::IBRep::SetGeomCurveDataArray</a></div><div class="ttdeci">virtual PDV_RESULT SetGeomCurveDataArray(const std::vector&lt; IGeomCurveData * &gt; &amp;iGeomCurves)=0</div><div class="ttdoc">设置几何曲线数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a44e0192ae7afc0f63b9ed86fad54a347"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a44e0192ae7afc0f63b9ed86fad54a347">kernel::pdv::IBRep::GetTopoArray</a></div><div class="ttdeci">virtual PDV_RESULT GetTopoArray(std::vector&lt; ITopo * &gt; &amp;oTopos)=0</div><div class="ttdoc">获取拓扑数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a534156f3a0250da92f7ad57da644c1af"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a534156f3a0250da92f7ad57da644c1af">kernel::pdv::IBRep::GetTopoCount</a></div><div class="ttdeci">virtual DftUInt GetTopoCount()=0</div><div class="ttdoc">获取拓扑对象的数量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a5fc5768eeac22d9334fbd93dfafcf97d"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a5fc5768eeac22d9334fbd93dfafcf97d">kernel::pdv::IBRep::GetGeomSurfaceDataCount</a></div><div class="ttdeci">virtual DftUInt GetGeomSurfaceDataCount()=0</div><div class="ttdoc">获取几何曲面的数量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a654076aba81ec1e524dfb4da1e5d6074"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a654076aba81ec1e524dfb4da1e5d6074">kernel::pdv::IBRep::GetGeomPointDataArray</a></div><div class="ttdeci">virtual PDV_RESULT GetGeomPointDataArray(std::vector&lt; IGeomPointData * &gt; &amp;oGeomPoints)=0</div><div class="ttdoc">获取几何点数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a6a4db12f01549dd95ccdf90477fc9c8d"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a6a4db12f01549dd95ccdf90477fc9c8d">kernel::pdv::IBRep::GetGeomCurveDataCount</a></div><div class="ttdeci">virtual DftUInt GetGeomCurveDataCount()=0</div><div class="ttdoc">获取几何曲线的数量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a6dbef23747477519f58fcec0254bc7c9"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a6dbef23747477519f58fcec0254bc7c9">kernel::pdv::IBRep::GetGeomPointDataCount</a></div><div class="ttdeci">virtual DftUInt GetGeomPointDataCount()=0</div><div class="ttdoc">获取几何点的数量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a70631624cdd1202b6de45416a84b8de1"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a70631624cdd1202b6de45416a84b8de1">kernel::pdv::IBRep::Output</a></div><div class="ttdeci">virtual void Output(DftJson jsonNode) const =0</div><div class="ttdoc">输出Json数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a7f7413c4be3020b570021b6d9e7705d6"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a7f7413c4be3020b570021b6d9e7705d6">kernel::pdv::IBRep::WriteData</a></div><div class="ttdeci">virtual DftInt64 WriteData(PDV_CHAR *ioStreamBuffer, DftInt64 iBufferLength) const =0</div><div class="ttdoc">向二进制数据流中写入数据信息</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a82952a70db2149604639fdf3f9e1e826"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a82952a70db2149604639fdf3f9e1e826">kernel::pdv::IBRep::ClearGeomPointData</a></div><div class="ttdeci">virtual PDV_RESULT ClearGeomPointData()=0</div><div class="ttdoc">清空几何点数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a85d76d564f21450cdd1f4b0df6f28969"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a85d76d564f21450cdd1f4b0df6f28969">kernel::pdv::IBRep::ClearTopo</a></div><div class="ttdeci">virtual PDV_RESULT ClearTopo()=0</div><div class="ttdoc">清空拓扑数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_a94030d53c2560a98785733a849236344"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#a94030d53c2560a98785733a849236344">kernel::pdv::IBRep::SetGeomPointDataArray</a></div><div class="ttdeci">virtual PDV_RESULT SetGeomPointDataArray(const std::vector&lt; IGeomPointData * &gt; &amp;iGeomPoints)=0</div><div class="ttdoc">设置几何点数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_aca45a708978e882b6fe7ba81fa3a6f58"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#aca45a708978e882b6fe7ba81fa3a6f58">kernel::pdv::IBRep::GetDataLength</a></div><div class="ttdeci">virtual DftInt64 GetDataLength() const =0</div><div class="ttdoc">传出数据长度</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_ad0d5f24ba4824c987ac6841ef48b27b4"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#ad0d5f24ba4824c987ac6841ef48b27b4">kernel::pdv::IBRep::ReadData</a></div><div class="ttdeci">virtual DftInt64 ReadData(const PDV_CHAR *iStreamBuffer, DftInt64 iBufferLength)=0</div><div class="ttdoc">从二进制数据流中读取数据信息</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html_adbba21da1f45f9dd4bf15545645293bb"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html#adbba21da1f45f9dd4bf15545645293bb">kernel::pdv::IBRep::SetTopoArray</a></div><div class="ttdeci">virtual PDV_RESULT SetTopoArray(const std::vector&lt; ITopo * &gt; &amp;iTopos)=0</div><div class="ttdoc">设置拓扑数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_geom_curve_data_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_geom_curve_data.html">kernel::pdv::IGeomCurveData</a></div><div class="ttdoc">几何曲线数据接口</div><div class="ttdef"><b>定义</b> PDVIGeomCurveData.h:67</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_geom_point_data_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_geom_point_data.html">kernel::pdv::IGeomPointData</a></div><div class="ttdoc">几何点数据接口</div><div class="ttdef"><b>定义</b> PDVIGeomPointData.h:23</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_geom_surface_data_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_geom_surface_data.html">kernel::pdv::IGeomSurfaceData</a></div><div class="ttdoc">几何曲面数据接口</div><div class="ttdef"><b>定义</b> PDVIGeomSurfaceData.h:25</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_topo_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_topo.html">kernel::pdv::ITopo</a></div><div class="ttdoc">拓扑的接口</div><div class="ttdef"><b>定义</b> PDVITopo.h:63</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_b_rep_8h.html">PDVIBRep.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

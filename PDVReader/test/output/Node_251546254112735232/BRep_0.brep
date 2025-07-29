@@ -1,0 +1,357 @@
+BRep Text Format
+=================
+
+Topology Elements (26):
+-------------------
+Topo ID: 251546253768802306
+  Type: FACE
+  Original ID: 411
+  Orientation: UNKNOWN
+  Geometry:
+    Type: SURFACE
+    ID: 251546253768802304
+
+Topo ID: 251546253772996610
+  Type: FACE
+  Original ID: 422
+  Orientation: UNKNOWN
+  Geometry:
+    Type: SURFACE
+    ID: 251546253772996608
+
+Topo ID: 251546253772996613
+  Type: FACE
+  Original ID: 430
+  Orientation: UNKNOWN
+  Geometry:
+    Type: SURFACE
+    ID: 251546253772996611
+
+Topo ID: 251546253772996616
+  Type: FACE
+  Original ID: 438
+  Orientation: UNKNOWN
+  Geometry:
+    Type: SURFACE
+    ID: 251546253772996614
+
+Topo ID: 251546253772996619
+  Type: FACE
+  Original ID: 443
+  Orientation: UNKNOWN
+  Geometry:
+    Type: SURFACE
+    ID: 251546253772996617
+
+Topo ID: 251546253772996622
+  Type: FACE
+  Original ID: 445
+  Orientation: UNKNOWN
+  Geometry:
+    Type: SURFACE
+    ID: 251546253772996620
+
+Topo ID: 251546253772996625
+  Type: EDGE
+  Original ID: 413
+  Orientation: UNKNOWN
+  Geometry:
+    Type: CURVE
+    ID: 251546253772996623
+
+Topo ID: 251546253772996628
+  Type: EDGE
+  Original ID: 419
+  Orientation: UNKNOWN
+  Geometry:
+    Type: CURVE
+    ID: 251546253772996626
+
+Topo ID: 251546253772996631
+  Type: EDGE
+  Original ID: 416
+  Orientation: UNKNOWN
+  Geometry:
+    Type: CURVE
+    ID: 251546253772996629
+
+Topo ID: 251546253772996634
+  Type: EDGE
+  Original ID: 420
+  Orientation: UNKNOWN
+  Geometry:
+    Type: CURVE
+    ID: 251546253772996632
+
+Topo ID: 251546253772996637
+  Type: EDGE
+  Original ID: 427
+  Orientation: UNKNOWN
+  Geometry:
+    Type: CURVE
+    ID: 251546253772996635
+
+Topo ID: 251546253772996640
+  Type: EDGE
+  Original ID: 424
+  Orientation: UNKNOWN
+  Geometry:
+    Type: CURVE
+    ID: 251546253772996638
+
+Topo ID: 251546253772996643
+  Type: EDGE
+  Original ID: 428
+  Orientation: UNKNOWN
+  Geometry:
+    Type: CURVE
+    ID: 251546253772996641
+
+Topo ID: 251546253772996646
+  Type: EDGE
+  Original ID: 435
+  Orientation: UNKNOWN
+  Geometry:
+    Type: CURVE
+    ID: 251546253772996644
+
+Topo ID: 251546253772996649
+  Type: EDGE
+  Original ID: 432
+  Orientation: UNKNOWN
+  Geometry:
+    Type: CURVE
+    ID: 251546253772996647
+
+Topo ID: 251546253772996652
+  Type: EDGE
+  Original ID: 436
+  Orientation: UNKNOWN
+  Geometry:
+    Type: CURVE
+    ID: 251546253772996650
+
+Topo ID: 251546253772996655
+  Type: EDGE
+  Original ID: 440
+  Orientation: UNKNOWN
+  Geometry:
+    Type: CURVE
+    ID: 251546253772996653
+
+Topo ID: 251546253772996658
+  Type: EDGE
+  Original ID: 441
+  Orientation: UNKNOWN
+  Geometry:
+    Type: CURVE
+    ID: 251546253772996656
+
+Topo ID: 251546253772996661
+  Type: VERTEX
+  Original ID: 414
+  Orientation: UNKNOWN
+  Geometry:
+    Type: POINT
+    ID: 251546253772996659
+
+Topo ID: 251546253772996664
+  Type: VERTEX
+  Original ID: 415
+  Orientation: UNKNOWN
+  Geometry:
+    Type: POINT
+    ID: 251546253772996662
+
+Topo ID: 251546253772996667
+  Type: VERTEX
+  Original ID: 417
+  Orientation: UNKNOWN
+  Geometry:
+    Type: POINT
+    ID: 251546253772996665
+
+Topo ID: 251546253772996670
+  Type: VERTEX
+  Original ID: 418
+  Orientation: UNKNOWN
+  Geometry:
+    Type: POINT
+    ID: 251546253772996668
+
+Topo ID: 251546253772996673
+  Type: VERTEX
+  Original ID: 425
+  Orientation: UNKNOWN
+  Geometry:
+    Type: POINT
+    ID: 251546253772996671
+
+Topo ID: 251546253772996676
+  Type: VERTEX
+  Original ID: 426
+  Orientation: UNKNOWN
+  Geometry:
+    Type: POINT
+    ID: 251546253772996674
+
+Topo ID: 251546253772996679
+  Type: VERTEX
+  Original ID: 433
+  Orientation: UNKNOWN
+  Geometry:
+    Type: POINT
+    ID: 251546253772996677
+
+Topo ID: 251546253772996682
+  Type: VERTEX
+  Original ID: 434
+  Orientation: UNKNOWN
+  Geometry:
+    Type: POINT
+    ID: 251546253772996680
+
+
+Topology Hierarchy:
+-------------------
+FACE [ID: 251546253768802306]
+
+FACE [ID: 251546253772996610]
+
+FACE [ID: 251546253772996613]
+
+FACE [ID: 251546253772996616]
+
+FACE [ID: 251546253772996619]
+
+FACE [ID: 251546253772996622]
+
+EDGE [ID: 251546253772996625]
+
+EDGE [ID: 251546253772996628]
+
+EDGE [ID: 251546253772996631]
+
+EDGE [ID: 251546253772996634]
+
+EDGE [ID: 251546253772996637]
+
+EDGE [ID: 251546253772996640]
+
+EDGE [ID: 251546253772996643]
+
+EDGE [ID: 251546253772996646]
+
+EDGE [ID: 251546253772996649]
+
+EDGE [ID: 251546253772996652]
+
+EDGE [ID: 251546253772996655]
+
+EDGE [ID: 251546253772996658]
+
+VERTEX [ID: 251546253772996661]
+
+VERTEX [ID: 251546253772996664]
+
+VERTEX [ID: 251546253772996667]
+
+VERTEX [ID: 251546253772996670]
+
+VERTEX [ID: 251546253772996673]
+
+VERTEX [ID: 251546253772996676]
+
+VERTEX [ID: 251546253772996679]
+
+VERTEX [ID: 251546253772996682]
+
+
+Points (8):
+-------
+Point 1 (ID: 251546253772996659): (0, 0, 0)
+Point 2 (ID: 251546253772996662): (0, 0, 100)
+Point 3 (ID: 251546253772996665): (100, 0, 0)
+Point 4 (ID: 251546253772996668): (100, 0, 100)
+Point 5 (ID: 251546253772996671): (100, 100, 0)
+Point 6 (ID: 251546253772996674): (100, 100, 100)
+Point 7 (ID: 251546253772996677): (0, 100, 0)
+Point 8 (ID: 251546253772996680): (0, 100, 100)
+
+Curves (12):
+-------
+Curve 1 (ID: 251546253772996623):
+  Type: 1
+  Start Parameter: 0
+  End Parameter: 100
+Curve 2 (ID: 251546253772996626):
+  Type: 1
+  Start Parameter: 0
+  End Parameter: 100
+Curve 3 (ID: 251546253772996629):
+  Type: 1
+  Start Parameter: 0
+  End Parameter: 100
+Curve 4 (ID: 251546253772996632):
+  Type: 1
+  Start Parameter: 0
+  End Parameter: 100
+Curve 5 (ID: 251546253772996635):
+  Type: 1
+  Start Parameter: 0
+  End Parameter: 100
+Curve 6 (ID: 251546253772996638):
+  Type: 1
+  Start Parameter: 0
+  End Parameter: 100
+Curve 7 (ID: 251546253772996641):
+  Type: 1
+  Start Parameter: 0
+  End Parameter: 100
+Curve 8 (ID: 251546253772996644):
+  Type: 1
+  Start Parameter: 0
+  End Parameter: 100
+Curve 9 (ID: 251546253772996647):
+  Type: 1
+  Start Parameter: 0
+  End Parameter: 100
+Curve 10 (ID: 251546253772996650):
+  Type: 1
+  Start Parameter: 0
+  End Parameter: 100
+Curve 11 (ID: 251546253772996653):
+  Type: 1
+  Start Parameter: 0
+  End Parameter: 100
+Curve 12 (ID: 251546253772996656):
+  Type: 1
+  Start Parameter: 0
+  End Parameter: 100
+
+Surfaces (6):
+---------
+Surface 1 (ID: 251546253768802304):
+  Type: 1
+  Domain Min: (0, 0)
+  Domain Max: (100, 100)
+Surface 2 (ID: 251546253772996608):
+  Type: 1
+  Domain Min: (0, 0)
+  Domain Max: (100, 100)
+Surface 3 (ID: 251546253772996611):
+  Type: 1
+  Domain Min: (0, 0)
+  Domain Max: (100, 100)
+Surface 4 (ID: 251546253772996614):
+  Type: 1
+  Domain Min: (0, 0)
+  Domain Max: (100, 100)
+Surface 5 (ID: 251546253772996617):
+  Type: 1
+  Domain Min: (0, 0)
+  Domain Max: (100, 100)
+Surface 6 (ID: 251546253772996620):
+  Type: 1
+  Domain Min: (0, 0)
+  Domain Max: (100, 100)

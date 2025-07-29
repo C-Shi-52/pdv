@@ -1,0 +1,47 @@
+var _dft_log_8h =
+[
+    [ "DFTLEVEL", "_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4", [
+      [ "DFT_LEVEL_INFO", "_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4a075e7b6e871eda9fe0eae596a7850a07", null ],
+      [ "DFT_LEVEL_DEBUG", "_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4a87c3b1c504d10b2e10817c0dce44b4bc", null ],
+      [ "DFT_LEVEL_WARNING", "_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4af14f97f0e25da43a4a63b23538665340", null ],
+      [ "DFT_LEVEL_ERROR", "_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4ac5d1aceae38c47f422ccdbd61a12c0f5", null ],
+      [ "DFT_LEVEL_FATAL", "_dft_log_8h.html#a6d377caf6a7df0eceecbfc02ecdf76d4aece8b4741d50096ac7fb7bd824c781ef", null ]
+    ] ],
+    [ "DFTLOGINFOKEY", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437", [
+      [ "DFT_CUSTOM", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a69f898d7ea521088cb17a7584b15f168", null ],
+      [ "DFT_VERSION", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a42eb98aa8050439395470a74726885cd", null ],
+      [ "DFT_ORIGIN_CAD", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a62c65bee39d5731b12b0dff60c495a98", null ],
+      [ "DFT_ORIGIN_CAD_VERSION", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437acef5a07344c7091a4494f00e2bf83ff2", null ],
+      [ "DFT_ORIGIN_MODEL_NAME", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437ae95f4c2ef57b52c80680901472710364", null ],
+      [ "DFT_ORIGIN_MODEL_PATH", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a04673278c033b09844e3214e8997ef64", null ],
+      [ "DFT_CONVERTER_CONFIG_ISHIDDENBODY", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437aced684a0d9f76cff34f9ee92ee724b08", null ],
+      [ "DFT_CONVERTER_CONFIG_ISHIDDENPART", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a6f3a54727a0669c389def8ac310f0089", null ],
+      [ "DFT_CONVERTER_CONFIG_ISCOLOR", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437afde565ab14c3c484df4fbfbf8f4f02df", null ],
+      [ "DFT_CONVERTER_CONFIG_ISATTRIBUTES", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a33e0e313b6ccd115a287c06ecd426385", null ],
+      [ "DFT_CONVERTER_CONFIG_ISWIREFRAMES", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437ac678e3791d16d9077b61b37a07396c27", null ],
+      [ "DFT_CONVERTER_CONFIG_ISGEOMETRY", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a1517106144246dcc5d5810fa1f35215c", null ],
+      [ "DFT_CONVERTER_CONFIG_ISPMI", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a4c14640045511aac2bddfcc71a1c98d3", null ],
+      [ "DFT_CONVERTER_STAGE_FLAG", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a1be9d5c366a8842806a815286a349714", null ],
+      [ "DFT_CONVERTER_LOAD_TIME", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437ace0044582512ae65bcbef07cf26a815f", null ],
+      [ "DFT_CONVERTER_CONVERT_TIME", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437acf4864f4a4fce1865ad0228c29b3ca3f", null ],
+      [ "DFT_CONVERTER_CONVERT_NODE_NAME", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a5b8e66c41f58c9b887e7f7bacfd50f58", null ],
+      [ "DFT_CONVERTER_CONVERT_NODE_FILE_NAME", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a28b00b049e15f846d29edb62ea748b40", null ],
+      [ "DFT_CONVERTER_CONVERT_CONVERT_PERCENTAGE", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a350a2e416a4bf0fa256b32c60788eaf5", null ],
+      [ "DFT_CONVERTER_EXPORT_TIME", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437aba3a50796160922f8f25d0fb58f29fea", null ],
+      [ "DFT_CONVERTER_EXPORT_FILE_NAME", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a89c5728d437a77598a5caa46554f13f4", null ],
+      [ "DFT_CONVERTER_SUMMARY_ORIGIN_SIZE", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437addec7d36fd1cc6d17e2db581098baddf", null ],
+      [ "DFT_CONVERTER_SUMMARY_NODE_COUNT", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a04eb96f728e182165a7a8ecd796dcdb9", null ],
+      [ "DFT_CONVERTER_SUMMARY_PART_COUNT", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a9fa937bdb4f58ee1172d5797857b1112", null ],
+      [ "DFT_CONVERTER_SUMMARY_CLE_SIZE", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437af7010e4ff46b9ada4ea29b82b9965e75", null ],
+      [ "DFT_CONVERTER_SUMMARY_PDV_SIZE", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437a5cfb19897620ed78ae1f0d9f3155ea93", null ],
+      [ "DFT_CONVERTER_SUMMARY_COMPRESS_PERCENTAGE", "_dft_log_8h.html#a207cacf01800f7200f475300589a2437ac498309d34ce1775c7f0c7d8eeb7cd15", null ]
+    ] ],
+    [ "DftLogError", "_dft_log_8h.html#a15efbad85a648cec838b544730912e72", null ],
+    [ "DftLogInfo", "_dft_log_8h.html#a8e955a82b0dcd7e3c93bc7d72983359f", null ],
+    [ "DftLogInit", "_dft_log_8h.html#ad316ff57560beb7f737110512c283d86", null ],
+    [ "DftLogSetErrorDestination", "_dft_log_8h.html#ababb4dccc4ee58ae0eb2c338e40dd2c0", null ],
+    [ "DftLogSetLogBufferSecs", "_dft_log_8h.html#a8d49f5cf62d0d4757dcd5d52cbddf5e2", null ],
+    [ "DftLogSetLogDestination", "_dft_log_8h.html#a9225e222c1fe1541265c4adfff85aa57", null ],
+    [ "DftLogUnInit", "_dft_log_8h.html#a68529b61db68fb3ab1c9285077b4e67f", null ],
+    [ "DftLogWarning", "_dft_log_8h.html#ab2a60efc106709ce31b744152d6a38e1", null ]
+];

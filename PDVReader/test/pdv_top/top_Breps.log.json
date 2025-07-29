@@ -1,0 +1,1525 @@
+{
+	"breps(size = 3)":	{
+		"breps[0]":	{
+			"_id":	"251546253772996683",
+			"_topos(size = 26)":	{
+				"_topos[0]":	{
+					"_id":	"251546253768802306",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"411",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546253768802304",
+					"_topos":	"(invalid)"
+				},
+				"_topos[1]":	{
+					"_id":	"251546253772996610",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"422",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546253772996608",
+					"_topos":	"(invalid)"
+				},
+				"_topos[2]":	{
+					"_id":	"251546253772996613",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"430",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546253772996611",
+					"_topos":	"(invalid)"
+				},
+				"_topos[3]":	{
+					"_id":	"251546253772996616",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"438",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546253772996614",
+					"_topos":	"(invalid)"
+				},
+				"_topos[4]":	{
+					"_id":	"251546253772996619",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"443",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546253772996617",
+					"_topos":	"(invalid)"
+				},
+				"_topos[5]":	{
+					"_id":	"251546253772996622",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"445",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546253772996620",
+					"_topos":	"(invalid)"
+				},
+				"_topos[6]":	{
+					"_id":	"251546253772996625",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"413",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546253772996623",
+					"_topos":	"(invalid)"
+				},
+				"_topos[7]":	{
+					"_id":	"251546253772996628",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"419",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546253772996626",
+					"_topos":	"(invalid)"
+				},
+				"_topos[8]":	{
+					"_id":	"251546253772996631",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"416",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546253772996629",
+					"_topos":	"(invalid)"
+				},
+				"_topos[9]":	{
+					"_id":	"251546253772996634",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"420",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546253772996632",
+					"_topos":	"(invalid)"
+				},
+				"_topos[10]":	{
+					"_id":	"251546253772996637",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"427",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546253772996635",
+					"_topos":	"(invalid)"
+				},
+				"_topos[11]":	{
+					"_id":	"251546253772996640",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"424",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546253772996638",
+					"_topos":	"(invalid)"
+				},
+				"_topos[12]":	{
+					"_id":	"251546253772996643",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"428",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546253772996641",
+					"_topos":	"(invalid)"
+				},
+				"_topos[13]":	{
+					"_id":	"251546253772996646",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"435",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546253772996644",
+					"_topos":	"(invalid)"
+				},
+				"_topos[14]":	{
+					"_id":	"251546253772996649",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"432",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546253772996647",
+					"_topos":	"(invalid)"
+				},
+				"_topos[15]":	{
+					"_id":	"251546253772996652",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"436",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546253772996650",
+					"_topos":	"(invalid)"
+				},
+				"_topos[16]":	{
+					"_id":	"251546253772996655",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"440",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546253772996653",
+					"_topos":	"(invalid)"
+				},
+				"_topos[17]":	{
+					"_id":	"251546253772996658",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"441",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546253772996656",
+					"_topos":	"(invalid)"
+				},
+				"_topos[18]":	{
+					"_id":	"251546253772996661",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"414",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546253772996659",
+					"_topos":	"(invalid)"
+				},
+				"_topos[19]":	{
+					"_id":	"251546253772996664",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"415",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546253772996662",
+					"_topos":	"(invalid)"
+				},
+				"_topos[20]":	{
+					"_id":	"251546253772996667",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"417",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546253772996665",
+					"_topos":	"(invalid)"
+				},
+				"_topos[21]":	{
+					"_id":	"251546253772996670",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"418",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546253772996668",
+					"_topos":	"(invalid)"
+				},
+				"_topos[22]":	{
+					"_id":	"251546253772996673",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"425",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546253772996671",
+					"_topos":	"(invalid)"
+				},
+				"_topos[23]":	{
+					"_id":	"251546253772996676",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"426",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546253772996674",
+					"_topos":	"(invalid)"
+				},
+				"_topos[24]":	{
+					"_id":	"251546253772996679",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"433",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546253772996677",
+					"_topos":	"(invalid)"
+				},
+				"_topos[25]":	{
+					"_id":	"251546253772996682",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"434",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546253772996680",
+					"_topos":	"(invalid)"
+				}
+			},
+			"_geomPoints(size = 8)":	{
+				"_geomPoints[0]":	{
+					"_id":	"251546253772996659",
+					"_pointData":	[0, 0, 0]
+				},
+				"_geomPoints[1]":	{
+					"_id":	"251546253772996662",
+					"_pointData":	[0, 0, 100]
+				},
+				"_geomPoints[2]":	{
+					"_id":	"251546253772996665",
+					"_pointData":	[100, 0, 0]
+				},
+				"_geomPoints[3]":	{
+					"_id":	"251546253772996668",
+					"_pointData":	[100, 0, 100]
+				},
+				"_geomPoints[4]":	{
+					"_id":	"251546253772996671",
+					"_pointData":	[100, 100, 0]
+				},
+				"_geomPoints[5]":	{
+					"_id":	"251546253772996674",
+					"_pointData":	[100, 100, 100]
+				},
+				"_geomPoints[6]":	{
+					"_id":	"251546253772996677",
+					"_pointData":	[0, 100, 0]
+				},
+				"_geomPoints[7]":	{
+					"_id":	"251546253772996680",
+					"_pointData":	[0, 100, 100]
+				}
+			},
+			"_geomCurves(size = 12)":	{
+				"_geomCurves[0]":	{
+					"_id":	"251546253772996623",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 0, 0],
+						"_direction":	[0, 0, 1]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[1]":	{
+					"_id":	"251546253772996626",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 0, 0],
+						"_direction":	[1, 0, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[2]":	{
+					"_id":	"251546253772996629",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 0, 0],
+						"_direction":	[0, 0, 1]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[3]":	{
+					"_id":	"251546253772996632",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 0, 100],
+						"_direction":	[1, 0, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[4]":	{
+					"_id":	"251546253772996635",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 0, 0],
+						"_direction":	[0, 1, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[5]":	{
+					"_id":	"251546253772996638",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 100, 0],
+						"_direction":	[0, 0, 1]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[6]":	{
+					"_id":	"251546253772996641",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 0, 100],
+						"_direction":	[0, 1, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[7]":	{
+					"_id":	"251546253772996644",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 100, 0],
+						"_direction":	[-1, 0, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[8]":	{
+					"_id":	"251546253772996647",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 100, 0],
+						"_direction":	[0, 0, 1]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[9]":	{
+					"_id":	"251546253772996650",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 100, 100],
+						"_direction":	[-1, 0, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[10]":	{
+					"_id":	"251546253772996653",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 100, 0],
+						"_direction":	[0, -1, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[11]":	{
+					"_id":	"251546253772996656",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 100, 100],
+						"_direction":	[0, -1, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				}
+			},
+			"_geomSurfaces(size = 6)":	{
+				"_geomSurfaces[0]":	{
+					"_id":	"251546253768802304",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[0, 0, 0],
+						"_xDir":	[1, 0, 0],
+						"_yDir":	[0, 0, 1],
+						"_zDir":	[0, -1, 0]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[1]":	{
+					"_id":	"251546253772996608",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[100, 0, 0],
+						"_xDir":	[0, 1, 0],
+						"_yDir":	[0, 0, 1],
+						"_zDir":	[1, 0, 0]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[2]":	{
+					"_id":	"251546253772996611",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[100, 100, 0],
+						"_xDir":	[-1, 0, 0],
+						"_yDir":	[0, 0, 1],
+						"_zDir":	[0, 1, 0]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[3]":	{
+					"_id":	"251546253772996614",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[0, 100, 0],
+						"_xDir":	[0, -1, 0],
+						"_yDir":	[0, 0, 1],
+						"_zDir":	[-1, 0, 0]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[4]":	{
+					"_id":	"251546253772996617",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[0, 0, 0],
+						"_xDir":	[1, 0, 0],
+						"_yDir":	[0, 1, 0],
+						"_zDir":	[0, 0, 1]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[5]":	{
+					"_id":	"251546253772996620",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[0, 0, 100],
+						"_xDir":	[1, 0, 0],
+						"_yDir":	[0, 1, 0],
+						"_zDir":	[0, 0, 1]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				}
+			}
+		},
+		"breps[1]":	{
+			"_id":	"251546254100152398",
+			"_topos(size = 26)":	{
+				"_topos[0]":	{
+					"_id":	"251546254100152322",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"411",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546254100152320",
+					"_topos":	"(invalid)"
+				},
+				"_topos[1]":	{
+					"_id":	"251546254100152325",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"422",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546254100152323",
+					"_topos":	"(invalid)"
+				},
+				"_topos[2]":	{
+					"_id":	"251546254100152328",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"430",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546254100152326",
+					"_topos":	"(invalid)"
+				},
+				"_topos[3]":	{
+					"_id":	"251546254100152331",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"438",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546254100152329",
+					"_topos":	"(invalid)"
+				},
+				"_topos[4]":	{
+					"_id":	"251546254100152334",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"443",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546254100152332",
+					"_topos":	"(invalid)"
+				},
+				"_topos[5]":	{
+					"_id":	"251546254100152337",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"445",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546254100152335",
+					"_topos":	"(invalid)"
+				},
+				"_topos[6]":	{
+					"_id":	"251546254100152340",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"413",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254100152338",
+					"_topos":	"(invalid)"
+				},
+				"_topos[7]":	{
+					"_id":	"251546254100152343",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"419",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254100152341",
+					"_topos":	"(invalid)"
+				},
+				"_topos[8]":	{
+					"_id":	"251546254100152346",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"416",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254100152344",
+					"_topos":	"(invalid)"
+				},
+				"_topos[9]":	{
+					"_id":	"251546254100152349",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"420",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254100152347",
+					"_topos":	"(invalid)"
+				},
+				"_topos[10]":	{
+					"_id":	"251546254100152352",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"427",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254100152350",
+					"_topos":	"(invalid)"
+				},
+				"_topos[11]":	{
+					"_id":	"251546254100152355",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"424",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254100152353",
+					"_topos":	"(invalid)"
+				},
+				"_topos[12]":	{
+					"_id":	"251546254100152358",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"428",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254100152356",
+					"_topos":	"(invalid)"
+				},
+				"_topos[13]":	{
+					"_id":	"251546254100152361",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"435",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254100152359",
+					"_topos":	"(invalid)"
+				},
+				"_topos[14]":	{
+					"_id":	"251546254100152364",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"432",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254100152362",
+					"_topos":	"(invalid)"
+				},
+				"_topos[15]":	{
+					"_id":	"251546254100152367",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"436",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254100152365",
+					"_topos":	"(invalid)"
+				},
+				"_topos[16]":	{
+					"_id":	"251546254100152370",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"440",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254100152368",
+					"_topos":	"(invalid)"
+				},
+				"_topos[17]":	{
+					"_id":	"251546254100152373",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"441",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254100152371",
+					"_topos":	"(invalid)"
+				},
+				"_topos[18]":	{
+					"_id":	"251546254100152376",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"414",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254100152374",
+					"_topos":	"(invalid)"
+				},
+				"_topos[19]":	{
+					"_id":	"251546254100152379",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"415",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254100152377",
+					"_topos":	"(invalid)"
+				},
+				"_topos[20]":	{
+					"_id":	"251546254100152382",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"417",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254100152380",
+					"_topos":	"(invalid)"
+				},
+				"_topos[21]":	{
+					"_id":	"251546254100152385",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"418",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254100152383",
+					"_topos":	"(invalid)"
+				},
+				"_topos[22]":	{
+					"_id":	"251546254100152388",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"425",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254100152386",
+					"_topos":	"(invalid)"
+				},
+				"_topos[23]":	{
+					"_id":	"251546254100152391",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"426",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254100152389",
+					"_topos":	"(invalid)"
+				},
+				"_topos[24]":	{
+					"_id":	"251546254100152394",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"433",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254100152392",
+					"_topos":	"(invalid)"
+				},
+				"_topos[25]":	{
+					"_id":	"251546254100152397",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"434",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254100152395",
+					"_topos":	"(invalid)"
+				}
+			},
+			"_geomPoints(size = 8)":	{
+				"_geomPoints[0]":	{
+					"_id":	"251546254100152374",
+					"_pointData":	[0, 0, 0]
+				},
+				"_geomPoints[1]":	{
+					"_id":	"251546254100152377",
+					"_pointData":	[0, 0, 100]
+				},
+				"_geomPoints[2]":	{
+					"_id":	"251546254100152380",
+					"_pointData":	[100, 0, 0]
+				},
+				"_geomPoints[3]":	{
+					"_id":	"251546254100152383",
+					"_pointData":	[100, 0, 100]
+				},
+				"_geomPoints[4]":	{
+					"_id":	"251546254100152386",
+					"_pointData":	[100, 100, 0]
+				},
+				"_geomPoints[5]":	{
+					"_id":	"251546254100152389",
+					"_pointData":	[100, 100, 100]
+				},
+				"_geomPoints[6]":	{
+					"_id":	"251546254100152392",
+					"_pointData":	[0, 100, 0]
+				},
+				"_geomPoints[7]":	{
+					"_id":	"251546254100152395",
+					"_pointData":	[0, 100, 100]
+				}
+			},
+			"_geomCurves(size = 12)":	{
+				"_geomCurves[0]":	{
+					"_id":	"251546254100152338",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 0, 0],
+						"_direction":	[0, 0, 1]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[1]":	{
+					"_id":	"251546254100152341",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 0, 0],
+						"_direction":	[1, 0, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[2]":	{
+					"_id":	"251546254100152344",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 0, 0],
+						"_direction":	[0, 0, 1]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[3]":	{
+					"_id":	"251546254100152347",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 0, 100],
+						"_direction":	[1, 0, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[4]":	{
+					"_id":	"251546254100152350",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 0, 0],
+						"_direction":	[0, 1, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[5]":	{
+					"_id":	"251546254100152353",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 100, 0],
+						"_direction":	[0, 0, 1]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[6]":	{
+					"_id":	"251546254100152356",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 0, 100],
+						"_direction":	[0, 1, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[7]":	{
+					"_id":	"251546254100152359",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 100, 0],
+						"_direction":	[-1, 0, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[8]":	{
+					"_id":	"251546254100152362",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 100, 0],
+						"_direction":	[0, 0, 1]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[9]":	{
+					"_id":	"251546254100152365",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 100, 100],
+						"_direction":	[-1, 0, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[10]":	{
+					"_id":	"251546254100152368",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 100, 0],
+						"_direction":	[0, -1, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[11]":	{
+					"_id":	"251546254100152371",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 100, 100],
+						"_direction":	[0, -1, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				}
+			},
+			"_geomSurfaces(size = 6)":	{
+				"_geomSurfaces[0]":	{
+					"_id":	"251546254100152320",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[0, 0, 0],
+						"_xDir":	[1, 0, 0],
+						"_yDir":	[0, 0, 1],
+						"_zDir":	[0, -1, 0]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[1]":	{
+					"_id":	"251546254100152323",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[100, 0, 0],
+						"_xDir":	[0, 1, 0],
+						"_yDir":	[0, 0, 1],
+						"_zDir":	[1, 0, 0]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[2]":	{
+					"_id":	"251546254100152326",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[100, 100, 0],
+						"_xDir":	[-1, 0, 0],
+						"_yDir":	[0, 0, 1],
+						"_zDir":	[0, 1, 0]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[3]":	{
+					"_id":	"251546254100152329",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[0, 100, 0],
+						"_xDir":	[0, -1, 0],
+						"_yDir":	[0, 0, 1],
+						"_zDir":	[-1, 0, 0]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[4]":	{
+					"_id":	"251546254100152332",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[0, 0, 0],
+						"_xDir":	[1, 0, 0],
+						"_yDir":	[0, 1, 0],
+						"_zDir":	[0, 0, 1]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[5]":	{
+					"_id":	"251546254100152335",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[0, 0, 100],
+						"_xDir":	[1, 0, 0],
+						"_yDir":	[0, 1, 0],
+						"_zDir":	[0, 0, 1]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				}
+			}
+		},
+		"breps[2]":	{
+			"_id":	"251546254146289742",
+			"_topos(size = 26)":	{
+				"_topos[0]":	{
+					"_id":	"251546254146289666",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"411",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546254146289664",
+					"_topos":	"(invalid)"
+				},
+				"_topos[1]":	{
+					"_id":	"251546254146289669",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"422",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546254146289667",
+					"_topos":	"(invalid)"
+				},
+				"_topos[2]":	{
+					"_id":	"251546254146289672",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"430",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546254146289670",
+					"_topos":	"(invalid)"
+				},
+				"_topos[3]":	{
+					"_id":	"251546254146289675",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"438",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546254146289673",
+					"_topos":	"(invalid)"
+				},
+				"_topos[4]":	{
+					"_id":	"251546254146289678",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"443",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546254146289676",
+					"_topos":	"(invalid)"
+				},
+				"_topos[5]":	{
+					"_id":	"251546254146289681",
+					"_type":	4,
+					"_bitMask":	5,
+					"_originalID":	"445",
+					"_orientation":	"(invalid)",
+					"_geomType":	3,
+					"_geomId":	"251546254146289679",
+					"_topos":	"(invalid)"
+				},
+				"_topos[6]":	{
+					"_id":	"251546254146289684",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"413",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254146289682",
+					"_topos":	"(invalid)"
+				},
+				"_topos[7]":	{
+					"_id":	"251546254146289687",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"419",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254146289685",
+					"_topos":	"(invalid)"
+				},
+				"_topos[8]":	{
+					"_id":	"251546254146289690",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"416",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254146289688",
+					"_topos":	"(invalid)"
+				},
+				"_topos[9]":	{
+					"_id":	"251546254146289693",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"420",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254146289691",
+					"_topos":	"(invalid)"
+				},
+				"_topos[10]":	{
+					"_id":	"251546254146289696",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"427",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254146289694",
+					"_topos":	"(invalid)"
+				},
+				"_topos[11]":	{
+					"_id":	"251546254146289699",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"424",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254146289697",
+					"_topos":	"(invalid)"
+				},
+				"_topos[12]":	{
+					"_id":	"251546254146289702",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"428",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254146289700",
+					"_topos":	"(invalid)"
+				},
+				"_topos[13]":	{
+					"_id":	"251546254146289705",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"435",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254146289703",
+					"_topos":	"(invalid)"
+				},
+				"_topos[14]":	{
+					"_id":	"251546254146289708",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"432",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254146289706",
+					"_topos":	"(invalid)"
+				},
+				"_topos[15]":	{
+					"_id":	"251546254146289711",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"436",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254146289709",
+					"_topos":	"(invalid)"
+				},
+				"_topos[16]":	{
+					"_id":	"251546254146289714",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"440",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254146289712",
+					"_topos":	"(invalid)"
+				},
+				"_topos[17]":	{
+					"_id":	"251546254146289717",
+					"_type":	7,
+					"_bitMask":	5,
+					"_originalID":	"441",
+					"_orientation":	"(invalid)",
+					"_geomType":	2,
+					"_geomId":	"251546254146289715",
+					"_topos":	"(invalid)"
+				},
+				"_topos[18]":	{
+					"_id":	"251546254146289720",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"414",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254146289718",
+					"_topos":	"(invalid)"
+				},
+				"_topos[19]":	{
+					"_id":	"251546254146289723",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"415",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254146289721",
+					"_topos":	"(invalid)"
+				},
+				"_topos[20]":	{
+					"_id":	"251546254146289726",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"417",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254146289724",
+					"_topos":	"(invalid)"
+				},
+				"_topos[21]":	{
+					"_id":	"251546254146289729",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"418",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254146289727",
+					"_topos":	"(invalid)"
+				},
+				"_topos[22]":	{
+					"_id":	"251546254146289732",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"425",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254146289730",
+					"_topos":	"(invalid)"
+				},
+				"_topos[23]":	{
+					"_id":	"251546254146289735",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"426",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254146289733",
+					"_topos":	"(invalid)"
+				},
+				"_topos[24]":	{
+					"_id":	"251546254146289738",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"433",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254146289736",
+					"_topos":	"(invalid)"
+				},
+				"_topos[25]":	{
+					"_id":	"251546254146289741",
+					"_type":	8,
+					"_bitMask":	5,
+					"_originalID":	"434",
+					"_orientation":	"(invalid)",
+					"_geomType":	1,
+					"_geomId":	"251546254146289739",
+					"_topos":	"(invalid)"
+				}
+			},
+			"_geomPoints(size = 8)":	{
+				"_geomPoints[0]":	{
+					"_id":	"251546254146289718",
+					"_pointData":	[0, 0, 0]
+				},
+				"_geomPoints[1]":	{
+					"_id":	"251546254146289721",
+					"_pointData":	[0, 0, 100]
+				},
+				"_geomPoints[2]":	{
+					"_id":	"251546254146289724",
+					"_pointData":	[100, 0, 0]
+				},
+				"_geomPoints[3]":	{
+					"_id":	"251546254146289727",
+					"_pointData":	[100, 0, 100]
+				},
+				"_geomPoints[4]":	{
+					"_id":	"251546254146289730",
+					"_pointData":	[100, 100, 0]
+				},
+				"_geomPoints[5]":	{
+					"_id":	"251546254146289733",
+					"_pointData":	[100, 100, 100]
+				},
+				"_geomPoints[6]":	{
+					"_id":	"251546254146289736",
+					"_pointData":	[0, 100, 0]
+				},
+				"_geomPoints[7]":	{
+					"_id":	"251546254146289739",
+					"_pointData":	[0, 100, 100]
+				}
+			},
+			"_geomCurves(size = 12)":	{
+				"_geomCurves[0]":	{
+					"_id":	"251546254146289682",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 0, 0],
+						"_direction":	[0, 0, 1]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[1]":	{
+					"_id":	"251546254146289685",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 0, 0],
+						"_direction":	[1, 0, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[2]":	{
+					"_id":	"251546254146289688",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 0, 0],
+						"_direction":	[0, 0, 1]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[3]":	{
+					"_id":	"251546254146289691",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 0, 100],
+						"_direction":	[1, 0, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[4]":	{
+					"_id":	"251546254146289694",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 0, 0],
+						"_direction":	[0, 1, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[5]":	{
+					"_id":	"251546254146289697",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 100, 0],
+						"_direction":	[0, 0, 1]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[6]":	{
+					"_id":	"251546254146289700",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 0, 100],
+						"_direction":	[0, 1, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[7]":	{
+					"_id":	"251546254146289703",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 100, 0],
+						"_direction":	[-1, 0, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[8]":	{
+					"_id":	"251546254146289706",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 100, 0],
+						"_direction":	[0, 0, 1]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[9]":	{
+					"_id":	"251546254146289709",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[100, 100, 100],
+						"_direction":	[-1, 0, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[10]":	{
+					"_id":	"251546254146289712",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 100, 0],
+						"_direction":	[0, -1, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				},
+				"_geomCurves[11]":	{
+					"_id":	"251546254146289715",
+					"_type":	1,
+					"_interval":	[0, 100],
+					"_curveData":	{
+						"_origin":	[0, 100, 100],
+						"_direction":	[0, -1, 0]
+					},
+					"_curveOnSurface(size = 0)":	{
+					}
+				}
+			},
+			"_geomSurfaces(size = 6)":	{
+				"_geomSurfaces[0]":	{
+					"_id":	"251546254146289664",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[0, 0, 0],
+						"_xDir":	[1, 0, 0],
+						"_yDir":	[0, 0, 1],
+						"_zDir":	[0, -1, 0]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[1]":	{
+					"_id":	"251546254146289667",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[100, 0, 0],
+						"_xDir":	[0, 1, 0],
+						"_yDir":	[0, 0, 1],
+						"_zDir":	[1, 0, 0]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[2]":	{
+					"_id":	"251546254146289670",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[100, 100, 0],
+						"_xDir":	[-1, 0, 0],
+						"_yDir":	[0, 0, 1],
+						"_zDir":	[0, 1, 0]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[3]":	{
+					"_id":	"251546254146289673",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[0, 100, 0],
+						"_xDir":	[0, -1, 0],
+						"_yDir":	[0, 0, 1],
+						"_zDir":	[-1, 0, 0]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[4]":	{
+					"_id":	"251546254146289676",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[0, 0, 0],
+						"_xDir":	[1, 0, 0],
+						"_yDir":	[0, 1, 0],
+						"_zDir":	[0, 0, 1]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				},
+				"_geomSurfaces[5]":	{
+					"_id":	"251546254146289679",
+					"_type":	1,
+					"_surfaceData":	{
+						"_origin":	[0, 0, 100],
+						"_xDir":	[1, 0, 0],
+						"_yDir":	[0, 1, 0],
+						"_zDir":	[0, 0, 1]
+					},
+					"_domainMin":	[0, 0],
+					"_domainMax":	[100, 100]
+				}
+			}
+		}
+	}
+}

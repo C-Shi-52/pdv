@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVITorus.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_torus_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVITorus.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_torus_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVITORUS_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVITORUS_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_surface_8h.html">PDVISurface.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_torus.html">   23</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_torus.html">ITorus</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_elementary_surface.html">IElementarySurface</a></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_torus.html#a0f374580e5630c8180643b18f9adf8cf">   31</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_torus.html#a0f374580e5630c8180643b18f9adf8cf">GetMajorRadius</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_torus.html#ac757f4cdb01a9f34f44d588e31afb4a3">   38</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_torus.html#ac757f4cdb01a9f34f44d588e31afb4a3">SetMajorRadius</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> &amp;iMajorRadius) = 0;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_torus.html#a9685bea267874553da3a9cb4573a8e69">   45</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_torus.html#a9685bea267874553da3a9cb4573a8e69">GetMinorRadius</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_torus.html#a4239a3c45b2646c7fc1933d79dfe0328">   52</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_torus.html#a4239a3c45b2646c7fc1933d79dfe0328">SetMinorRadius</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> &amp;iMinorRadius) = 0;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>};</div>
+</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a498a500cb0cd9d5cbb7f60d581454d8e"><div class="ttname"><a href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></div><div class="ttdeci">double DftDouble</div><div class="ttdoc">双精度浮点数</div><div class="ttdef"><b>定义</b> DftTypes.h:68</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_i_surface_8h_html"><div class="ttname"><a href="_p_d_v_i_surface_8h.html">PDVISurface.h</a></div><div class="ttdoc">概述：曲面接口声明</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_elementary_surface_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_elementary_surface.html">kernel::pdv::IElementarySurface</a></div><div class="ttdoc">基本几何曲面接口</div><div class="ttdef"><b>定义</b> PDVISurface.h:58</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_torus_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_torus.html">kernel::pdv::ITorus</a></div><div class="ttdoc">圆环面接口</div><div class="ttdef"><b>定义</b> PDVITorus.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_torus_html_a0f374580e5630c8180643b18f9adf8cf"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_torus.html#a0f374580e5630c8180643b18f9adf8cf">kernel::pdv::ITorus::GetMajorRadius</a></div><div class="ttdeci">virtual DftDouble GetMajorRadius() const =0</div><div class="ttdoc">获取主半径</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_torus_html_a4239a3c45b2646c7fc1933d79dfe0328"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_torus.html#a4239a3c45b2646c7fc1933d79dfe0328">kernel::pdv::ITorus::SetMinorRadius</a></div><div class="ttdeci">virtual void SetMinorRadius(const DftDouble &amp;iMinorRadius)=0</div><div class="ttdoc">设置副半径</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_torus_html_a9685bea267874553da3a9cb4573a8e69"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_torus.html#a9685bea267874553da3a9cb4573a8e69">kernel::pdv::ITorus::GetMinorRadius</a></div><div class="ttdeci">virtual DftDouble GetMinorRadius() const =0</div><div class="ttdoc">获取副半径</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_torus_html_ac757f4cdb01a9f34f44d588e31afb4a3"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_torus.html#ac757f4cdb01a9f34f44d588e31afb4a3">kernel::pdv::ITorus::SetMajorRadius</a></div><div class="ttdeci">virtual void SetMajorRadius(const DftDouble &amp;iMajorRadius)=0</div><div class="ttdoc">设置主半径</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_torus_8h.html">PDVITorus.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

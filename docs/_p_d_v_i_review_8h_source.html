@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIReview.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_review_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIReview.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_review_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIREVIEW_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIREVIEW_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2">   23</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2">ReviewMask</a></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2af2a7bfe3cad31b8bba6465a6c72606e4">   25</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2af2a7bfe3cad31b8bba6465a6c72606e4">REVIEWMASK_NULL</a> = 0,        </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2aba972d70ba085c9a5edc73deebea043d">   26</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2aba972d70ba085c9a5edc73deebea043d">REVIEWMASK_REPLY</a> = 1,       </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2aea6b442c7dec67c1c993edb13c85a232">   27</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2aea6b442c7dec67c1c993edb13c85a232">REVIEWMASK_CAMERA</a> = 1 &lt;&lt; 1, </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2aededa8f071e2a9a1ab9695f73bad25fc">   28</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2aededa8f071e2a9a1ab9695f73bad25fc">REVIEWMASK_OBJECT</a> = 1 &lt;&lt; 2, </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
+</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span></div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="};">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html">   32</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_review.html">IReview</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>{</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#ad46c44327fbe4190df434e16af66e9cf">   40</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#ad46c44327fbe4190df434e16af66e9cf">GetBitMask</a>() = 0;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a31fff8e587c4c7745942a2e478111af7">   48</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a31fff8e587c4c7745942a2e478111af7">SetBitMask</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> &amp;iBitMask) = 0;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#ae71346d919e31271e281b974f6a21b40">   56</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#ae71346d919e31271e281b974f6a21b40">GetReplyID</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;oReplyID) = 0;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a0947914bc06131f1def3f137264e41ce">   64</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a0947914bc06131f1def3f137264e41ce">SetReplyID</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iReplyID) = 0;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#afc5e9c8fa11a825d0ca0a23597a44550">   72</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#afc5e9c8fa11a825d0ca0a23597a44550">GetReviewer</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oReviewer) = 0;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a17b68dca61fd0a5c5a6a045da57d8645">   80</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a17b68dca61fd0a5c5a6a045da57d8645">SetReviewer</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iReviewer) = 0;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#ab052580f86eefc48e05b7324953345a8">   88</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#ab052580f86eefc48e05b7324953345a8">GetDateTime</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;oDateTime) = 0;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a30dd2da5d3a81914ce4d03e64cce942b">   96</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a30dd2da5d3a81914ce4d03e64cce942b">SetDateTime</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iDateTime) = 0;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#adeb3a607994f467f8f345ddf83958a09">  104</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#adeb3a607994f467f8f345ddf83958a09">GetText</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oText) = 0;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#abc174a388f9785f538a1c628e634b1ba">  112</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#abc174a388f9785f538a1c628e634b1ba">SetText</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iText) = 0;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a2f65e8e0ab43336bf6bdfbb34dbbe3da">  120</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a2f65e8e0ab43336bf6bdfbb34dbbe3da">GetColor</a>(<a class="code hl_struct" href="structkernel_1_1pdv_1_1_r_g_b_color.html">RGBColor</a> &amp;oColor) = 0;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a720eea7a1d515c644ec1a5d2143a152e">  128</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a720eea7a1d515c644ec1a5d2143a152e">SetColor</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structkernel_1_1pdv_1_1_r_g_b_color.html">RGBColor</a> &amp;iColor) = 0;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a6021499994e0425a08c825681fb5052e">  136</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a6021499994e0425a08c825681fb5052e">GetFontName</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oFontName) = 0;</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span></div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a546736bc4137eda9ca937a1503c60b0c">  144</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a546736bc4137eda9ca937a1503c60b0c">SetFontName</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iFontName) = 0;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span></div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a4505b7138a62f50e76b0487e955f0ecc">  151</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a4505b7138a62f50e76b0487e955f0ecc">GetFontSize</a>() = 0;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#afc8fe4aa2cb51766a002b03e758da87e">  159</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#afc8fe4aa2cb51766a002b03e758da87e">SetFontSize</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iFontSize) = 0;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span></div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a44ac8f4558af9fb13a84b77dc84c9941">  166</a></span>    <span class="keyword">virtual</span> <a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a44ac8f4558af9fb13a84b77dc84c9941">GetTextPosition</a>() = 0;</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span></div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#ae8833b7e42daa81de84ca76959eeb90f">  174</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#ae8833b7e42daa81de84ca76959eeb90f">SetTextPosition</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;iTextPosition) = 0;</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a87019b1c184743108525b5252acc1f7d">  182</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a87019b1c184743108525b5252acc1f7d">GetCameraID</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;oCameraID) = 0;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span></div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#af96c04939027975b1b1c752b398714d3">  190</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#af96c04939027975b1b1c752b398714d3">SetCameraID</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iCameraID) = 0;</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span></div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a4cc14790e217a50e372553139da1a7f6">  197</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a4cc14790e217a50e372553139da1a7f6">ClearLinkedObjects</a>() = 0;</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span></div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#a188fff933c3211f352a49e93e5d6267e">  205</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#a188fff933c3211f352a49e93e5d6267e">GetLinkedObjectCount</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;oLinkedObjIDsCount) = 0;</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span></div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#aafbcc1072c56c27c861f5d15c54a3b95">  214</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#aafbcc1072c56c27c861f5d15c54a3b95">GetLinkedObjects</a>(std::vector&lt;DftUInt64&gt; &amp;oLinkedObjIDs, std::vector&lt;PDVVector3F&gt; &amp;oLinkedObjPositions) = 0;</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span></div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_review.html#afacbf947a9da4ba000092411629f905e">  223</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_review.html#afacbf947a9da4ba000092411629f905e">SetLinkedObjects</a>(<span class="keyword">const</span> std::vector&lt;DftUInt64&gt; &amp;iLinkedObjIDs, <span class="keyword">const</span> std::vector&lt;PDVVector3F&gt; &amp;iLinkedObjPositions) = 0;</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>};</div>
+</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a053d8ce6a85300520cc14cd4650ced33"><div class="ttname"><a href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></div><div class="ttdeci">unsigned long long DftUInt64</div><div class="ttdoc">64位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:64</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a7d52a2546e42c2a67869161bc9af895b"><div class="ttname"><a href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></div><div class="ttdeci">float DftFloat</div><div class="ttdoc">单精度浮点数</div><div class="ttdef"><b>定义</b> DftTypes.h:66</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a9dd0d1ca2dc17c79bf9082d2b72d957f"><div class="ttname"><a href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></div><div class="ttdeci">unsigned int DftUInt</div><div class="ttdoc">无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:48</div></div>
+<div class="ttc" id="a_dft_types_8h_html_ab3a04804b0cf7c050b58e7e7807455d6"><div class="ttname"><a href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></div><div class="ttdeci">unsigned char DftUInt8</div><div class="ttdoc">8位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:52</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="a_p_d_v_i_review_8h_html_a40fc357a93cb288d6d06af5e3b234ae2"><div class="ttname"><a href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2">kernel::pdv::ReviewMask</a></div><div class="ttdeci">ReviewMask</div><div class="ttdoc">审阅对象内容标识类型</div><div class="ttdef"><b>定义</b> PDVIReview.h:24</div></div>
+<div class="ttc" id="a_p_d_v_i_review_8h_html_a40fc357a93cb288d6d06af5e3b234ae2aba972d70ba085c9a5edc73deebea043d"><div class="ttname"><a href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2aba972d70ba085c9a5edc73deebea043d">kernel::pdv::REVIEWMASK_REPLY</a></div><div class="ttdeci">@ REVIEWMASK_REPLY</div><div class="ttdoc">是否关联当前审阅对象答复的审阅对象ID</div><div class="ttdef"><b>定义</b> PDVIReview.h:26</div></div>
+<div class="ttc" id="a_p_d_v_i_review_8h_html_a40fc357a93cb288d6d06af5e3b234ae2aea6b442c7dec67c1c993edb13c85a232"><div class="ttname"><a href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2aea6b442c7dec67c1c993edb13c85a232">kernel::pdv::REVIEWMASK_CAMERA</a></div><div class="ttdeci">@ REVIEWMASK_CAMERA</div><div class="ttdoc">是否关联摄像机对象</div><div class="ttdef"><b>定义</b> PDVIReview.h:27</div></div>
+<div class="ttc" id="a_p_d_v_i_review_8h_html_a40fc357a93cb288d6d06af5e3b234ae2aededa8f071e2a9a1ab9695f73bad25fc"><div class="ttname"><a href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2aededa8f071e2a9a1ab9695f73bad25fc">kernel::pdv::REVIEWMASK_OBJECT</a></div><div class="ttdeci">@ REVIEWMASK_OBJECT</div><div class="ttdoc">是否包含被审阅对象的链接点</div><div class="ttdef"><b>定义</b> PDVIReview.h:28</div></div>
+<div class="ttc" id="a_p_d_v_i_review_8h_html_a40fc357a93cb288d6d06af5e3b234ae2af2a7bfe3cad31b8bba6465a6c72606e4"><div class="ttname"><a href="_p_d_v_i_review_8h.html#a40fc357a93cb288d6d06af5e3b234ae2af2a7bfe3cad31b8bba6465a6c72606e4">kernel::pdv::REVIEWMASK_NULL</a></div><div class="ttdeci">@ REVIEWMASK_NULL</div><div class="ttdoc">未知</div><div class="ttdef"><b>定义</b> PDVIReview.h:25</div></div>
+<div class="ttc" id="aclass_c_unicode_string_html"><div class="ttname"><a href="class_c_unicode_string.html">CUnicodeString</a></div><div class="ttdoc">Unicode字符操作接口</div><div class="ttdef"><b>定义</b> UnicodeString.h:80</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html">kernel::pdv::IReview</a></div><div class="ttdoc">审阅对象的接口</div><div class="ttdef"><b>定义</b> PDVIReview.h:33</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a0947914bc06131f1def3f137264e41ce"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a0947914bc06131f1def3f137264e41ce">kernel::pdv::IReview::SetReplyID</a></div><div class="ttdeci">virtual PDV_RESULT SetReplyID(const DftUInt64 &amp;iReplyID)=0</div><div class="ttdoc">设置当前审阅对象的答复对象ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a17b68dca61fd0a5c5a6a045da57d8645"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a17b68dca61fd0a5c5a6a045da57d8645">kernel::pdv::IReview::SetReviewer</a></div><div class="ttdeci">virtual PDV_RESULT SetReviewer(const CUnicodeString &amp;iReviewer)=0</div><div class="ttdoc">设置审阅者</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a188fff933c3211f352a49e93e5d6267e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a188fff933c3211f352a49e93e5d6267e">kernel::pdv::IReview::GetLinkedObjectCount</a></div><div class="ttdeci">virtual PDV_RESULT GetLinkedObjectCount(DftUInt &amp;oLinkedObjIDsCount)=0</div><div class="ttdoc">获取被审阅的对象ID数量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a2f65e8e0ab43336bf6bdfbb34dbbe3da"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a2f65e8e0ab43336bf6bdfbb34dbbe3da">kernel::pdv::IReview::GetColor</a></div><div class="ttdeci">virtual PDV_RESULT GetColor(RGBColor &amp;oColor)=0</div><div class="ttdoc">获取文本颜色</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a30dd2da5d3a81914ce4d03e64cce942b"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a30dd2da5d3a81914ce4d03e64cce942b">kernel::pdv::IReview::SetDateTime</a></div><div class="ttdeci">virtual PDV_RESULT SetDateTime(const DftUInt64 &amp;iDateTime)=0</div><div class="ttdoc">设置审阅时间</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a31fff8e587c4c7745942a2e478111af7"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a31fff8e587c4c7745942a2e478111af7">kernel::pdv::IReview::SetBitMask</a></div><div class="ttdeci">virtual PDV_RESULT SetBitMask(const DftUInt8 &amp;iBitMask)=0</div><div class="ttdoc">设置审阅对象的内容标志</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a44ac8f4558af9fb13a84b77dc84c9941"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a44ac8f4558af9fb13a84b77dc84c9941">kernel::pdv::IReview::GetTextPosition</a></div><div class="ttdeci">virtual PDVVector3F GetTextPosition()=0</div><div class="ttdoc">获取审阅文本定位位置</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a4505b7138a62f50e76b0487e955f0ecc"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a4505b7138a62f50e76b0487e955f0ecc">kernel::pdv::IReview::GetFontSize</a></div><div class="ttdeci">virtual DftFloat GetFontSize()=0</div><div class="ttdoc">获取文本大小</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a4cc14790e217a50e372553139da1a7f6"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a4cc14790e217a50e372553139da1a7f6">kernel::pdv::IReview::ClearLinkedObjects</a></div><div class="ttdeci">virtual PDV_RESULT ClearLinkedObjects()=0</div><div class="ttdoc">清空被审阅的对象ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a546736bc4137eda9ca937a1503c60b0c"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a546736bc4137eda9ca937a1503c60b0c">kernel::pdv::IReview::SetFontName</a></div><div class="ttdeci">virtual PDV_RESULT SetFontName(const CUnicodeString &amp;iFontName)=0</div><div class="ttdoc">设置使用的字体名称</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a6021499994e0425a08c825681fb5052e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a6021499994e0425a08c825681fb5052e">kernel::pdv::IReview::GetFontName</a></div><div class="ttdeci">virtual PDV_RESULT GetFontName(CUnicodeString &amp;oFontName)=0</div><div class="ttdoc">获取使用的字体名称</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a720eea7a1d515c644ec1a5d2143a152e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a720eea7a1d515c644ec1a5d2143a152e">kernel::pdv::IReview::SetColor</a></div><div class="ttdeci">virtual PDV_RESULT SetColor(const RGBColor &amp;iColor)=0</div><div class="ttdoc">设置文本颜色</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_a87019b1c184743108525b5252acc1f7d"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#a87019b1c184743108525b5252acc1f7d">kernel::pdv::IReview::GetCameraID</a></div><div class="ttdeci">virtual PDV_RESULT GetCameraID(DftUInt64 &amp;oCameraID)=0</div><div class="ttdoc">获取审阅关联的摄像机ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_aafbcc1072c56c27c861f5d15c54a3b95"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#aafbcc1072c56c27c861f5d15c54a3b95">kernel::pdv::IReview::GetLinkedObjects</a></div><div class="ttdeci">virtual PDV_RESULT GetLinkedObjects(std::vector&lt; DftUInt64 &gt; &amp;oLinkedObjIDs, std::vector&lt; PDVVector3F &gt; &amp;oLinkedObjPositions)=0</div><div class="ttdoc">获取被审阅的对象ID集合数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_ab052580f86eefc48e05b7324953345a8"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#ab052580f86eefc48e05b7324953345a8">kernel::pdv::IReview::GetDateTime</a></div><div class="ttdeci">virtual PDV_RESULT GetDateTime(DftUInt64 &amp;oDateTime)=0</div><div class="ttdoc">获取审阅时间</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_abc174a388f9785f538a1c628e634b1ba"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#abc174a388f9785f538a1c628e634b1ba">kernel::pdv::IReview::SetText</a></div><div class="ttdeci">virtual PDV_RESULT SetText(const CUnicodeString &amp;iText)=0</div><div class="ttdoc">设置审阅文本</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_ad46c44327fbe4190df434e16af66e9cf"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#ad46c44327fbe4190df434e16af66e9cf">kernel::pdv::IReview::GetBitMask</a></div><div class="ttdeci">virtual DftUInt8 GetBitMask()=0</div><div class="ttdoc">获取审阅对象的内容标志</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_adeb3a607994f467f8f345ddf83958a09"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#adeb3a607994f467f8f345ddf83958a09">kernel::pdv::IReview::GetText</a></div><div class="ttdeci">virtual PDV_RESULT GetText(CUnicodeString &amp;oText)=0</div><div class="ttdoc">获取审阅文本</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_ae71346d919e31271e281b974f6a21b40"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#ae71346d919e31271e281b974f6a21b40">kernel::pdv::IReview::GetReplyID</a></div><div class="ttdeci">virtual PDV_RESULT GetReplyID(DftUInt64 &amp;oReplyID)=0</div><div class="ttdoc">获取当前审阅对象的答复对象ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_ae8833b7e42daa81de84ca76959eeb90f"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#ae8833b7e42daa81de84ca76959eeb90f">kernel::pdv::IReview::SetTextPosition</a></div><div class="ttdeci">virtual PDV_RESULT SetTextPosition(const PDVVector3F &amp;iTextPosition)=0</div><div class="ttdoc">设置审阅文本定位位置</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_af96c04939027975b1b1c752b398714d3"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#af96c04939027975b1b1c752b398714d3">kernel::pdv::IReview::SetCameraID</a></div><div class="ttdeci">virtual PDV_RESULT SetCameraID(const DftUInt64 &amp;iCameraID)=0</div><div class="ttdoc">设置审阅关联的摄像机ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_afacbf947a9da4ba000092411629f905e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#afacbf947a9da4ba000092411629f905e">kernel::pdv::IReview::SetLinkedObjects</a></div><div class="ttdeci">virtual PDV_RESULT SetLinkedObjects(const std::vector&lt; DftUInt64 &gt; &amp;iLinkedObjIDs, const std::vector&lt; PDVVector3F &gt; &amp;iLinkedObjPositions)=0</div><div class="ttdoc">设置被审阅的对象ID集合数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_afc5e9c8fa11a825d0ca0a23597a44550"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#afc5e9c8fa11a825d0ca0a23597a44550">kernel::pdv::IReview::GetReviewer</a></div><div class="ttdeci">virtual PDV_RESULT GetReviewer(CUnicodeString &amp;oReviewer)=0</div><div class="ttdoc">获取审阅者</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html_afc8fe4aa2cb51766a002b03e758da87e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html#afc8fe4aa2cb51766a002b03e758da87e">kernel::pdv::IReview::SetFontSize</a></div><div class="ttdeci">virtual PDV_RESULT SetFontSize(const DftFloat &amp;iFontSize)=0</div><div class="ttdoc">设置文本大小</div></div>
+<div class="ttc" id="astruct_p_d_v_vector3_f_html"><div class="ttname"><a href="struct_p_d_v_vector3_f.html">PDVVector3F</a></div><div class="ttdoc">单精度浮点数三维向量</div><div class="ttdef"><b>定义</b> PDVMath.h:481</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_r_g_b_color_html"><div class="ttname"><a href="structkernel_1_1pdv_1_1_r_g_b_color.html">kernel::pdv::RGBColor</a></div><div class="ttdoc">颜色数据</div><div class="ttdef"><b>定义</b> PDVBase.h:351</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_review_8h.html">PDVIReview.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

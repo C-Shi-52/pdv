@@ -1,0 +1,410 @@
+{
+	"attributes(size = 7)":	{
+		"attributes[0]":	{
+			"_id":	"251546253420675074",
+			"_groups(size = 2)":	{
+				"_groups[0]":	{
+					"_id":	"251546253420675075",
+					"_name":	"部件",
+					"_items(size = 2)":	{
+						"_items[0]":	{
+							"_key":	"实例名称",
+							"_type":	4,
+							"svalue":	"top"
+						},
+						"_items[1]":	{
+							"_key":	"描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				},
+				"_groups[1]":	{
+					"_id":	"251546253424869376",
+					"_name":	"产品",
+					"_items(size = 6)":	{
+						"_items[0]":	{
+							"_key":	"零件编号",
+							"_type":	4,
+							"svalue":	"top"
+						},
+						"_items[1]":	{
+							"_key":	"版本",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[2]":	{
+							"_key":	"定义",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[3]":	{
+							"_key":	"术语",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[4]":	{
+							"_key":	"源",
+							"_type":	4,
+							"svalue":	"未知"
+						},
+						"_items[5]":	{
+							"_key":	"产品描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				}
+			},
+			"_refCount":	1
+		},
+		"attributes[1]":	{
+			"_id":	"251546253429063680",
+			"_groups(size = 2)":	{
+				"_groups[0]":	{
+					"_id":	"251546253429063681",
+					"_name":	"部件",
+					"_items(size = 2)":	{
+						"_items[0]":	{
+							"_key":	"实例名称",
+							"_type":	4,
+							"svalue":	"color_test.1"
+						},
+						"_items[1]":	{
+							"_key":	"描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				},
+				"_groups[1]":	{
+					"_id":	"251546253429063682",
+					"_name":	"产品",
+					"_items(size = 6)":	{
+						"_items[0]":	{
+							"_key":	"零件编号",
+							"_type":	4,
+							"svalue":	"color_test"
+						},
+						"_items[1]":	{
+							"_key":	"版本",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[2]":	{
+							"_key":	"定义",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[3]":	{
+							"_key":	"术语",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[4]":	{
+							"_key":	"源",
+							"_type":	4,
+							"svalue":	"未知"
+						},
+						"_items[5]":	{
+							"_key":	"产品描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				}
+			},
+			"_refCount":	1
+		},
+		"attributes[2]":	{
+			"_id":	"251546254074986496",
+			"_groups(size = 2)":	{
+				"_groups[0]":	{
+					"_id":	"251546254074986497",
+					"_name":	"部件",
+					"_items(size = 2)":	{
+						"_items[0]":	{
+							"_key":	"实例名称",
+							"_type":	4,
+							"svalue":	"red.1"
+						},
+						"_items[1]":	{
+							"_key":	"描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				},
+				"_groups[1]":	{
+					"_id":	"251546254074986498",
+					"_name":	"产品",
+					"_items(size = 6)":	{
+						"_items[0]":	{
+							"_key":	"零件编号",
+							"_type":	4,
+							"svalue":	"red"
+						},
+						"_items[1]":	{
+							"_key":	"版本",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[2]":	{
+							"_key":	"定义",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[3]":	{
+							"_key":	"术语",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[4]":	{
+							"_key":	"源",
+							"_type":	4,
+							"svalue":	"未知"
+						},
+						"_items[5]":	{
+							"_key":	"产品描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				}
+			},
+			"_refCount":	1
+		},
+		"attributes[3]":	{
+			"_id":	"251546254108540928",
+			"_groups(size = 2)":	{
+				"_groups[0]":	{
+					"_id":	"251546254108540929",
+					"_name":	"部件",
+					"_items(size = 2)":	{
+						"_items[0]":	{
+							"_key":	"实例名称",
+							"_type":	4,
+							"svalue":	"red.2"
+						},
+						"_items[1]":	{
+							"_key":	"描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				},
+				"_groups[1]":	{
+					"_id":	"251546254108540930",
+					"_name":	"产品",
+					"_items(size = 6)":	{
+						"_items[0]":	{
+							"_key":	"零件编号",
+							"_type":	4,
+							"svalue":	"red"
+						},
+						"_items[1]":	{
+							"_key":	"版本",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[2]":	{
+							"_key":	"定义",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[3]":	{
+							"_key":	"术语",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[4]":	{
+							"_key":	"源",
+							"_type":	4,
+							"svalue":	"未知"
+						},
+						"_items[5]":	{
+							"_key":	"产品描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				}
+			},
+			"_refCount":	1
+		},
+		"attributes[4]":	{
+			"_id":	"251546254108540932",
+			"_groups(size = 2)":	{
+				"_groups[0]":	{
+					"_id":	"251546254108540933",
+					"_name":	"部件",
+					"_items(size = 2)":	{
+						"_items[0]":	{
+							"_key":	"实例名称",
+							"_type":	4,
+							"svalue":	"color_test.2"
+						},
+						"_items[1]":	{
+							"_key":	"描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				},
+				"_groups[1]":	{
+					"_id":	"251546254108540934",
+					"_name":	"产品",
+					"_items(size = 6)":	{
+						"_items[0]":	{
+							"_key":	"零件编号",
+							"_type":	4,
+							"svalue":	"color_test"
+						},
+						"_items[1]":	{
+							"_key":	"版本",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[2]":	{
+							"_key":	"定义",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[3]":	{
+							"_key":	"术语",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[4]":	{
+							"_key":	"源",
+							"_type":	4,
+							"svalue":	"未知"
+						},
+						"_items[5]":	{
+							"_key":	"产品描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				}
+			},
+			"_refCount":	1
+		},
+		"attributes[5]":	{
+			"_id":	"251546254116929536",
+			"_groups(size = 2)":	{
+				"_groups[0]":	{
+					"_id":	"251546254116929537",
+					"_name":	"部件",
+					"_items(size = 2)":	{
+						"_items[0]":	{
+							"_key":	"实例名称",
+							"_type":	4,
+							"svalue":	"red.1"
+						},
+						"_items[1]":	{
+							"_key":	"描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				},
+				"_groups[1]":	{
+					"_id":	"251546254116929538",
+					"_name":	"产品",
+					"_items(size = 6)":	{
+						"_items[0]":	{
+							"_key":	"零件编号",
+							"_type":	4,
+							"svalue":	"red"
+						},
+						"_items[1]":	{
+							"_key":	"版本",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[2]":	{
+							"_key":	"定义",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[3]":	{
+							"_key":	"术语",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[4]":	{
+							"_key":	"源",
+							"_type":	4,
+							"svalue":	"未知"
+						},
+						"_items[5]":	{
+							"_key":	"产品描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				}
+			},
+			"_refCount":	1
+		},
+		"attributes[6]":	{
+			"_id":	"251546254154678272",
+			"_groups(size = 2)":	{
+				"_groups[0]":	{
+					"_id":	"251546254154678273",
+					"_name":	"部件",
+					"_items(size = 2)":	{
+						"_items[0]":	{
+							"_key":	"实例名称",
+							"_type":	4,
+							"svalue":	"red.2"
+						},
+						"_items[1]":	{
+							"_key":	"描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				},
+				"_groups[1]":	{
+					"_id":	"251546254154678274",
+					"_name":	"产品",
+					"_items(size = 6)":	{
+						"_items[0]":	{
+							"_key":	"零件编号",
+							"_type":	4,
+							"svalue":	"red"
+						},
+						"_items[1]":	{
+							"_key":	"版本",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[2]":	{
+							"_key":	"定义",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[3]":	{
+							"_key":	"术语",
+							"_type":	4,
+							"svalue":	"(null)"
+						},
+						"_items[4]":	{
+							"_key":	"源",
+							"_type":	4,
+							"svalue":	"未知"
+						},
+						"_items[5]":	{
+							"_key":	"产品描述",
+							"_type":	4,
+							"svalue":	"(null)"
+						}
+					}
+				}
+			},
+			"_refCount":	1
+		}
+	}
+}

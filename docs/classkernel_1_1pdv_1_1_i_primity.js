@@ -1,0 +1,25 @@
+var classkernel_1_1pdv_1_1_i_primity =
+[
+    [ "GetBitMask", "classkernel_1_1pdv_1_1_i_primity.html#a8b7a956f78a37be681d882c56a801853", null ],
+    [ "GetConeData", "classkernel_1_1pdv_1_1_i_primity.html#a92d36cc0ef9d904f0c86d7c8f0da93f3", null ],
+    [ "GetCubiodData", "classkernel_1_1pdv_1_1_i_primity.html#a7442f49f3d1e9cd3c00fa7d74f5714e6", null ],
+    [ "GetCylinderData", "classkernel_1_1pdv_1_1_i_primity.html#a39cd37df2f41d9de53ba0210da49d656", null ],
+    [ "GetFanData", "classkernel_1_1pdv_1_1_i_primity.html#abc42a62f7eb5d68498b0f6ab2d4570a5", null ],
+    [ "GetMaterialID", "classkernel_1_1pdv_1_1_i_primity.html#a5233dc31685b5760e09a7bfe418619b3", null ],
+    [ "GetSphCrownData", "classkernel_1_1pdv_1_1_i_primity.html#a974f3e5f29f93704fefe3af186eadd1b", null ],
+    [ "GetSphereData", "classkernel_1_1pdv_1_1_i_primity.html#a9dbc92eff94106b77c72ba0d7ca5a938", null ],
+    [ "GetTorusData", "classkernel_1_1pdv_1_1_i_primity.html#ab945024973b3fcfd9a79bd3868f6c7dd", null ],
+    [ "GetTransformation", "classkernel_1_1pdv_1_1_i_primity.html#a5e78d0f04d89ac12b1cc87a1930bae98", null ],
+    [ "GetType", "classkernel_1_1pdv_1_1_i_primity.html#af580dc192155c6c3f1030addf5f3373a", null ],
+    [ "SetBitMask", "classkernel_1_1pdv_1_1_i_primity.html#a79b7c9fdcf03b29f32d9778563b0db22", null ],
+    [ "SetConeData", "classkernel_1_1pdv_1_1_i_primity.html#ab4ee4b6e6671d986ac2b5317f30712f1", null ],
+    [ "SetCubiodData", "classkernel_1_1pdv_1_1_i_primity.html#ac9b8da0c842b8ddc1c36ce11138db89a", null ],
+    [ "SetCylinderData", "classkernel_1_1pdv_1_1_i_primity.html#ac6c4c4651b627d7e33a99a378be78df5", null ],
+    [ "SetFanData", "classkernel_1_1pdv_1_1_i_primity.html#a1913e75d1579b5c558f42486ee14b497", null ],
+    [ "SetMaterialID", "classkernel_1_1pdv_1_1_i_primity.html#a61d84652ed09ed06f4aa7cb3ba9f7bbc", null ],
+    [ "SetSphCrownData", "classkernel_1_1pdv_1_1_i_primity.html#ab84b982342706fd971eb8fbf5725e4cd", null ],
+    [ "SetSphereData", "classkernel_1_1pdv_1_1_i_primity.html#aca0babf990df24c0465bdfb3a6239b1e", null ],
+    [ "SetTorusData", "classkernel_1_1pdv_1_1_i_primity.html#a7dd52ee870a430888cc8d602d49a07a5", null ],
+    [ "SetTransformation", "classkernel_1_1pdv_1_1_i_primity.html#a84fa5fb20bd7ce4fc7ff6faf4309f576", null ],
+    [ "SetType", "classkernel_1_1pdv_1_1_i_primity.html#a016dc2cd0de8dfb16733ad7f20e2535d", null ]
+];

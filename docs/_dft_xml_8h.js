@@ -1,0 +1,27 @@
+var _dft_xml_8h =
+[
+    [ "DftXmlFindNode", "_dft_xml_8h.html#ad0c824fe9721200067b94af9e83933f4", null ],
+    [ "DftXmlGetChidrenNodeCount", "_dft_xml_8h.html#ae9265a230075ede83d62087ac1988a07", null ],
+    [ "DftXmlGetEncoding", "_dft_xml_8h.html#a2ae00614d8fd742d195056172373cad8", null ],
+    [ "DftXmlGetFirstChildNode", "_dft_xml_8h.html#addd90d2409b90a505c8b921d7e2113b5", null ],
+    [ "DftXmlGetHandle", "_dft_xml_8h.html#ab379a0adb5145e5ecfdbddf089ccca41", null ],
+    [ "DftXmlGetLastChildNode", "_dft_xml_8h.html#a89bcd511561d803db5decffbea13f5b2", null ],
+    [ "DftXmlGetNextSiblingNode", "_dft_xml_8h.html#a714ccf7ac7606940112e7b295d997920", null ],
+    [ "DftXmlGetNodeAttribute", "_dft_xml_8h.html#a0fc113b7547d5a59a3a5f4c07162379f", null ],
+    [ "DftXmlGetNodeName", "_dft_xml_8h.html#aad3cc76b7abee711ecc663d7aa56bfe6", null ],
+    [ "DftXmlGetNodeText", "_dft_xml_8h.html#a45dd8a006ca000ddd646d511fdec7e10", null ],
+    [ "DftXmlGetParentNode", "_dft_xml_8h.html#a54552da8118d4952bec2203682081e35", null ],
+    [ "DftXmlGetPreviousSiblingNode", "_dft_xml_8h.html#ae977779a8b95ac1ebcb20720daa1bbda", null ],
+    [ "DftXmlGetRootNode", "_dft_xml_8h.html#ac5b8517744e0d4376f49dec6eacbe737", null ],
+    [ "DftXmlInsertEndChildNode", "_dft_xml_8h.html#a72485039ac9536869b45d9adaba05f31", null ],
+    [ "DftXmlInsertEndSiblingNode", "_dft_xml_8h.html#ac1c26056b9be67ab2f804a69f1e52c12", null ],
+    [ "DftXmlLoadFromFile", "_dft_xml_8h.html#a773bbafe35f3b4beea123228526f0177", null ],
+    [ "DftXmlLoadFromString", "_dft_xml_8h.html#a3868ed16ab63bd959bc3b66c74a42822", null ],
+    [ "DftXmlOutputToString", "_dft_xml_8h.html#a5ce14e20329a425bc5d3e2409396ed49", null ],
+    [ "DftXmlReleaseHandle", "_dft_xml_8h.html#a6d3530b489982c1f0eca429b1eb26cdc", null ],
+    [ "DftXmlRemoveChildNode", "_dft_xml_8h.html#a0bfcbb061f36e57ee9871edd5bb73f11", null ],
+    [ "DftXmlSaveToFile", "_dft_xml_8h.html#abb3011dc34054e41b026a823d663910d", null ],
+    [ "DftXmlSetNodeAttribute", "_dft_xml_8h.html#a78a7f9625a0161d5b9b5750ac71f40f7", null ],
+    [ "DftXmlSetNodeName", "_dft_xml_8h.html#a1a3587838b218c65e79f01d5cea5ec75", null ],
+    [ "DftXmlSetNodeText", "_dft_xml_8h.html#a86c0057c1c2fc8a6435ecef02d814cc5", null ]
+];

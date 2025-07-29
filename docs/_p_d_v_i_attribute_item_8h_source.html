@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIAttributeItem.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_attribute_item_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIAttributeItem.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_attribute_item_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIATTRIBUTEITEM_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIATTRIBUTEITEM_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8f">   22</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8f">AttributeDataType</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fafd45bb7152d2022ef5af07f269d10402">   24</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fafd45bb7152d2022ef5af07f269d10402">DATATYPE_INT32</a> = 1,    </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fa7da606f236214afe62ab94c4cabfd803">   25</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fa7da606f236214afe62ab94c4cabfd803">DATATYPE_FLOAT</a> = 2,    </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fa3f3b54c173d5106f48c96607a4bfce0f">   26</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fa3f3b54c173d5106f48c96607a4bfce0f">DATATYPE_DOUBLE</a> = 3,   </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fa039f8ac9ebfe7b43effc695565fd980e">   27</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fa039f8ac9ebfe7b43effc695565fd980e">DATATYPE_STRING</a> = 4,   </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fafc1118957052e4e457110bc75a2fbcd5">   28</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fafc1118957052e4e457110bc75a2fbcd5">DATATYPE_VECTOR3F</a> = 5, </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8faea3abb3ef378debc77ee2dab46a557bb">   29</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8faea3abb3ef378debc77ee2dab46a557bb">DATATYPE_VECTOR3D</a> = 6, </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fa3ecb8dd0bd57ec061426de6b1578cbd1">   30</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fa3ecb8dd0bd57ec061426de6b1578cbd1">DATATYPE_BOOL</a> = 7,     </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>};</div>
+</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
+<div class="foldopen" id="foldopen00034" data-start="{" data-end="};">
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html">   34</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>{</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a34ec5feeece56991b0962a6b775c10ab">   43</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a34ec5feeece56991b0962a6b775c10ab">GetKey</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oKey) = 0;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#aa7c8c898a85a518158d49748d75c5893">   51</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#aa7c8c898a85a518158d49748d75c5893">SetKey</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iKey) = 0;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#ac010c42403a2313d500232483a32fe30">   58</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#ac010c42403a2313d500232483a32fe30">GetValueType</a>() = 0;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a84a4ae3c123403b13830e910fa1dab00">   66</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a84a4ae3c123403b13830e910fa1dab00">SetValueType</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;iValueType) = 0;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a0d67e9bbc0ba1acafa318663f2afcbf2">   74</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a0d67e9bbc0ba1acafa318663f2afcbf2">GetBoolean</a>(<a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;oBoolean) = 0;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a2632438435aea2d3af5f2cc0dd5fb0ba">   82</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a2632438435aea2d3af5f2cc0dd5fb0ba">SetBoolean</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> &amp;iBoolean) = 0;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#ad6d4f3c93dc0cc8d130c676bd46e433f">   90</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#ad6d4f3c93dc0cc8d130c676bd46e433f">GetInteger</a>(<a class="code hl_typedef" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> &amp;oInteger) = 0;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a666eced320936056578faaca8d6ea7ca">   98</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a666eced320936056578faaca8d6ea7ca">SetInteger</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> &amp;iInteger) = 0;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#ab749305945748fd6ad0aae4ecc1dc226">  106</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#ab749305945748fd6ad0aae4ecc1dc226">GetFloat</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;oFloat) = 0;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a283b04c47498ae12a556feee4d21536d">  114</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a283b04c47498ae12a556feee4d21536d">SetFloat</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iFloat) = 0;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#ab14aa4ea97d160f6c104f438513b9665">  122</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#ab14aa4ea97d160f6c104f438513b9665">GetDouble</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> &amp;oDouble) = 0;</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a8476686b2bfef1182220fc797ef81883">  130</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a8476686b2bfef1182220fc797ef81883">SetDouble</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> &amp;iDouble) = 0;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span></div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a44497d94f128fc3397520f39b25ee393">  138</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a44497d94f128fc3397520f39b25ee393">GetVectorFloat3</a>(<a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;oVectorFloat3) = 0;</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a1cac50c8ec4156a24f4d6f8434c0b157">  146</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a1cac50c8ec4156a24f4d6f8434c0b157">SetVectorFloat3</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;iVectorFloat3) = 0;</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span></div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a0832ee074a4052ea21925bff754037c4">  154</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a0832ee074a4052ea21925bff754037c4">GetVectorDouble3</a>(<a class="code hl_struct" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;oVectorDouble3) = 0;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span></div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a7a235ed6de9623f1b6d08c8dde2aeb8e">  162</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#a7a235ed6de9623f1b6d08c8dde2aeb8e">SetVectorDouble3</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iVectorDouble3) = 0;</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span></div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#abf56578875e3177e686438bae727c4ae">  170</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#abf56578875e3177e686438bae727c4ae">GetString</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oString) = 0;</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span></div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_attribute_item.html#accfea090f6bc5191b78b6de1136f6dec">  178</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_attribute_item.html#accfea090f6bc5191b78b6de1136f6dec">SetString</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iString) = 0;</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>};</div>
+</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a498a500cb0cd9d5cbb7f60d581454d8e"><div class="ttname"><a href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></div><div class="ttdeci">double DftDouble</div><div class="ttdoc">双精度浮点数</div><div class="ttdef"><b>定义</b> DftTypes.h:68</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a7d52a2546e42c2a67869161bc9af895b"><div class="ttname"><a href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></div><div class="ttdeci">float DftFloat</div><div class="ttdoc">单精度浮点数</div><div class="ttdef"><b>定义</b> DftTypes.h:66</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a9dd0d1ca2dc17c79bf9082d2b72d957f"><div class="ttname"><a href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></div><div class="ttdeci">unsigned int DftUInt</div><div class="ttdoc">无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:48</div></div>
+<div class="ttc" id="a_dft_types_8h_html_aa0f85f8d3a1d218672e4d650f38fb674"><div class="ttname"><a href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></div><div class="ttdeci">int DftBool</div><div class="ttdoc">布尔型</div><div class="ttdef"><b>定义</b> DftTypes.h:40</div></div>
+<div class="ttc" id="a_dft_types_8h_html_af0fc3c96826067c11a44bb8caca06b9e"><div class="ttname"><a href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a></div><div class="ttdeci">int DftInt</div><div class="ttdoc">整数</div><div class="ttdef"><b>定义</b> DftTypes.h:46</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_attribute_item_8h_html_a7e94e9b56a0a02e45fe919dd16a49d8f"><div class="ttname"><a href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8f">kernel::pdv::AttributeDataType</a></div><div class="ttdeci">AttributeDataType</div><div class="ttdoc">属性项值的数据类型</div><div class="ttdef"><b>定义</b> PDVIAttributeItem.h:23</div></div>
+<div class="ttc" id="a_p_d_v_i_attribute_item_8h_html_a7e94e9b56a0a02e45fe919dd16a49d8fa039f8ac9ebfe7b43effc695565fd980e"><div class="ttname"><a href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fa039f8ac9ebfe7b43effc695565fd980e">kernel::pdv::DATATYPE_STRING</a></div><div class="ttdeci">@ DATATYPE_STRING</div><div class="ttdoc">字符串类型</div><div class="ttdef"><b>定义</b> PDVIAttributeItem.h:27</div></div>
+<div class="ttc" id="a_p_d_v_i_attribute_item_8h_html_a7e94e9b56a0a02e45fe919dd16a49d8fa3ecb8dd0bd57ec061426de6b1578cbd1"><div class="ttname"><a href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fa3ecb8dd0bd57ec061426de6b1578cbd1">kernel::pdv::DATATYPE_BOOL</a></div><div class="ttdeci">@ DATATYPE_BOOL</div><div class="ttdoc">布尔类型</div><div class="ttdef"><b>定义</b> PDVIAttributeItem.h:30</div></div>
+<div class="ttc" id="a_p_d_v_i_attribute_item_8h_html_a7e94e9b56a0a02e45fe919dd16a49d8fa3f3b54c173d5106f48c96607a4bfce0f"><div class="ttname"><a href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fa3f3b54c173d5106f48c96607a4bfce0f">kernel::pdv::DATATYPE_DOUBLE</a></div><div class="ttdeci">@ DATATYPE_DOUBLE</div><div class="ttdoc">双精度浮点类型</div><div class="ttdef"><b>定义</b> PDVIAttributeItem.h:26</div></div>
+<div class="ttc" id="a_p_d_v_i_attribute_item_8h_html_a7e94e9b56a0a02e45fe919dd16a49d8fa7da606f236214afe62ab94c4cabfd803"><div class="ttname"><a href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fa7da606f236214afe62ab94c4cabfd803">kernel::pdv::DATATYPE_FLOAT</a></div><div class="ttdeci">@ DATATYPE_FLOAT</div><div class="ttdoc">单精度浮点类型</div><div class="ttdef"><b>定义</b> PDVIAttributeItem.h:25</div></div>
+<div class="ttc" id="a_p_d_v_i_attribute_item_8h_html_a7e94e9b56a0a02e45fe919dd16a49d8faea3abb3ef378debc77ee2dab46a557bb"><div class="ttname"><a href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8faea3abb3ef378debc77ee2dab46a557bb">kernel::pdv::DATATYPE_VECTOR3D</a></div><div class="ttdeci">@ DATATYPE_VECTOR3D</div><div class="ttdoc">三维向量，双精度浮点类型</div><div class="ttdef"><b>定义</b> PDVIAttributeItem.h:29</div></div>
+<div class="ttc" id="a_p_d_v_i_attribute_item_8h_html_a7e94e9b56a0a02e45fe919dd16a49d8fafc1118957052e4e457110bc75a2fbcd5"><div class="ttname"><a href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fafc1118957052e4e457110bc75a2fbcd5">kernel::pdv::DATATYPE_VECTOR3F</a></div><div class="ttdeci">@ DATATYPE_VECTOR3F</div><div class="ttdoc">三维向量，单精度浮点类型</div><div class="ttdef"><b>定义</b> PDVIAttributeItem.h:28</div></div>
+<div class="ttc" id="a_p_d_v_i_attribute_item_8h_html_a7e94e9b56a0a02e45fe919dd16a49d8fafd45bb7152d2022ef5af07f269d10402"><div class="ttname"><a href="_p_d_v_i_attribute_item_8h.html#a7e94e9b56a0a02e45fe919dd16a49d8fafd45bb7152d2022ef5af07f269d10402">kernel::pdv::DATATYPE_INT32</a></div><div class="ttdeci">@ DATATYPE_INT32</div><div class="ttdoc">整数类型</div><div class="ttdef"><b>定义</b> PDVIAttributeItem.h:24</div></div>
+<div class="ttc" id="aclass_c_unicode_string_html"><div class="ttname"><a href="class_c_unicode_string.html">CUnicodeString</a></div><div class="ttdoc">Unicode字符操作接口</div><div class="ttdef"><b>定义</b> UnicodeString.h:80</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html">kernel::pdv::IAttributeItem</a></div><div class="ttdoc">属性项的接口</div><div class="ttdef"><b>定义</b> PDVIAttributeItem.h:35</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_a0832ee074a4052ea21925bff754037c4"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#a0832ee074a4052ea21925bff754037c4">kernel::pdv::IAttributeItem::GetVectorDouble3</a></div><div class="ttdeci">virtual PDV_RESULT GetVectorDouble3(PDVVector3D &amp;oVectorDouble3)=0</div><div class="ttdoc">获取属性项的双精度浮点数三维向量值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_a0d67e9bbc0ba1acafa318663f2afcbf2"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#a0d67e9bbc0ba1acafa318663f2afcbf2">kernel::pdv::IAttributeItem::GetBoolean</a></div><div class="ttdeci">virtual PDV_RESULT GetBoolean(DftBool &amp;oBoolean)=0</div><div class="ttdoc">获取属性项的布尔值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_a1cac50c8ec4156a24f4d6f8434c0b157"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#a1cac50c8ec4156a24f4d6f8434c0b157">kernel::pdv::IAttributeItem::SetVectorFloat3</a></div><div class="ttdeci">virtual PDV_RESULT SetVectorFloat3(const PDVVector3F &amp;iVectorFloat3)=0</div><div class="ttdoc">设置属性项的浮点数三维向量值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_a2632438435aea2d3af5f2cc0dd5fb0ba"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#a2632438435aea2d3af5f2cc0dd5fb0ba">kernel::pdv::IAttributeItem::SetBoolean</a></div><div class="ttdeci">virtual PDV_RESULT SetBoolean(const DftBool &amp;iBoolean)=0</div><div class="ttdoc">设置属性项的布尔值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_a283b04c47498ae12a556feee4d21536d"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#a283b04c47498ae12a556feee4d21536d">kernel::pdv::IAttributeItem::SetFloat</a></div><div class="ttdeci">virtual PDV_RESULT SetFloat(const DftFloat &amp;iFloat)=0</div><div class="ttdoc">设置属性项的浮点数值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_a34ec5feeece56991b0962a6b775c10ab"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#a34ec5feeece56991b0962a6b775c10ab">kernel::pdv::IAttributeItem::GetKey</a></div><div class="ttdeci">virtual PDV_RESULT GetKey(CUnicodeString &amp;oKey)=0</div><div class="ttdoc">获取属性项键值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_a44497d94f128fc3397520f39b25ee393"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#a44497d94f128fc3397520f39b25ee393">kernel::pdv::IAttributeItem::GetVectorFloat3</a></div><div class="ttdeci">virtual PDV_RESULT GetVectorFloat3(PDVVector3F &amp;oVectorFloat3)=0</div><div class="ttdoc">获取属性项的浮点数三维向量值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_a666eced320936056578faaca8d6ea7ca"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#a666eced320936056578faaca8d6ea7ca">kernel::pdv::IAttributeItem::SetInteger</a></div><div class="ttdeci">virtual PDV_RESULT SetInteger(const DftInt &amp;iInteger)=0</div><div class="ttdoc">设置属性项的整型值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_a7a235ed6de9623f1b6d08c8dde2aeb8e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#a7a235ed6de9623f1b6d08c8dde2aeb8e">kernel::pdv::IAttributeItem::SetVectorDouble3</a></div><div class="ttdeci">virtual PDV_RESULT SetVectorDouble3(const PDVVector3D &amp;iVectorDouble3)=0</div><div class="ttdoc">设置属性项的双精度浮点数三维向量值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_a8476686b2bfef1182220fc797ef81883"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#a8476686b2bfef1182220fc797ef81883">kernel::pdv::IAttributeItem::SetDouble</a></div><div class="ttdeci">virtual PDV_RESULT SetDouble(const DftDouble &amp;iDouble)=0</div><div class="ttdoc">设置属性项的双精度浮点数值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_a84a4ae3c123403b13830e910fa1dab00"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#a84a4ae3c123403b13830e910fa1dab00">kernel::pdv::IAttributeItem::SetValueType</a></div><div class="ttdeci">virtual PDV_RESULT SetValueType(const DftUInt &amp;iValueType)=0</div><div class="ttdoc">设置属性项值的数据类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_aa7c8c898a85a518158d49748d75c5893"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#aa7c8c898a85a518158d49748d75c5893">kernel::pdv::IAttributeItem::SetKey</a></div><div class="ttdeci">virtual PDV_RESULT SetKey(const CUnicodeString &amp;iKey)=0</div><div class="ttdoc">设置属性项键值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_ab14aa4ea97d160f6c104f438513b9665"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#ab14aa4ea97d160f6c104f438513b9665">kernel::pdv::IAttributeItem::GetDouble</a></div><div class="ttdeci">virtual PDV_RESULT GetDouble(DftDouble &amp;oDouble)=0</div><div class="ttdoc">获取属性项的双精度浮点数值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_ab749305945748fd6ad0aae4ecc1dc226"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#ab749305945748fd6ad0aae4ecc1dc226">kernel::pdv::IAttributeItem::GetFloat</a></div><div class="ttdeci">virtual PDV_RESULT GetFloat(DftFloat &amp;oFloat)=0</div><div class="ttdoc">获取属性项的浮点数值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_abf56578875e3177e686438bae727c4ae"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#abf56578875e3177e686438bae727c4ae">kernel::pdv::IAttributeItem::GetString</a></div><div class="ttdeci">virtual PDV_RESULT GetString(CUnicodeString &amp;oString)=0</div><div class="ttdoc">获取属性项的字符串值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_ac010c42403a2313d500232483a32fe30"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#ac010c42403a2313d500232483a32fe30">kernel::pdv::IAttributeItem::GetValueType</a></div><div class="ttdeci">virtual DftUInt GetValueType()=0</div><div class="ttdoc">获取属性项值的数据类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_accfea090f6bc5191b78b6de1136f6dec"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#accfea090f6bc5191b78b6de1136f6dec">kernel::pdv::IAttributeItem::SetString</a></div><div class="ttdeci">virtual PDV_RESULT SetString(const CUnicodeString &amp;iString)=0</div><div class="ttdoc">设置属性项的字符串值</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_item_html_ad6d4f3c93dc0cc8d130c676bd46e433f"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute_item.html#ad6d4f3c93dc0cc8d130c676bd46e433f">kernel::pdv::IAttributeItem::GetInteger</a></div><div class="ttdeci">virtual PDV_RESULT GetInteger(DftInt &amp;oInteger)=0</div><div class="ttdoc">获取属性项的整型值</div></div>
+<div class="ttc" id="astruct_p_d_v_vector3_d_html"><div class="ttname"><a href="struct_p_d_v_vector3_d.html">PDVVector3D</a></div><div class="ttdoc">双精度浮点数三维向量</div><div class="ttdef"><b>定义</b> PDVMath.h:1023</div></div>
+<div class="ttc" id="astruct_p_d_v_vector3_f_html"><div class="ttname"><a href="struct_p_d_v_vector3_f.html">PDVVector3F</a></div><div class="ttdoc">单精度浮点数三维向量</div><div class="ttdef"><b>定义</b> PDVMath.h:481</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_attribute_item_8h.html">PDVIAttributeItem.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

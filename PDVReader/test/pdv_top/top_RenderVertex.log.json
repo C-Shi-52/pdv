@@ -1,0 +1,601 @@
+{
+	"renderVertexes(size = 3)":	{
+		"renderVertex[0]":	{
+			"_id":	"251546253785579520",
+			"_vertexMask":	131,
+			"_vertexes(size = 24)":	{
+				"_vertex[0]":	{
+					"_position":	[100, 0, 100],
+					"_normal":	[0, -1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	0
+				},
+				"_vertex[1]":	{
+					"_position":	[100, 0, 0],
+					"_normal":	[0, -1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	1
+				},
+				"_vertex[2]":	{
+					"_position":	[0, 0, 0],
+					"_normal":	[0, -1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	2
+				},
+				"_vertex[3]":	{
+					"_position":	[0, 0, 100],
+					"_normal":	[0, -1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	3
+				},
+				"_vertex[4]":	{
+					"_position":	[100, 100, 100],
+					"_normal":	[1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	4
+				},
+				"_vertex[5]":	{
+					"_position":	[100, 100, 0],
+					"_normal":	[1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	5
+				},
+				"_vertex[6]":	{
+					"_position":	[100, 0, 0],
+					"_normal":	[1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	6
+				},
+				"_vertex[7]":	{
+					"_position":	[100, 0, 100],
+					"_normal":	[1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	7
+				},
+				"_vertex[8]":	{
+					"_position":	[0, 100, 100],
+					"_normal":	[0, 1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	8
+				},
+				"_vertex[9]":	{
+					"_position":	[0, 100, 0],
+					"_normal":	[0, 1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	9
+				},
+				"_vertex[10]":	{
+					"_position":	[100, 100, 0],
+					"_normal":	[0, 1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	10
+				},
+				"_vertex[11]":	{
+					"_position":	[100, 100, 100],
+					"_normal":	[0, 1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	11
+				},
+				"_vertex[12]":	{
+					"_position":	[0, 0, 100],
+					"_normal":	[-1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	12
+				},
+				"_vertex[13]":	{
+					"_position":	[0, 0, 0],
+					"_normal":	[-1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	13
+				},
+				"_vertex[14]":	{
+					"_position":	[0, 100, 0],
+					"_normal":	[-1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	14
+				},
+				"_vertex[15]":	{
+					"_position":	[0, 100, 100],
+					"_normal":	[-1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	15
+				},
+				"_vertex[16]":	{
+					"_position":	[0, 100, 0],
+					"_normal":	[0, 0, -1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	16
+				},
+				"_vertex[17]":	{
+					"_position":	[100, 100, 0],
+					"_normal":	[0, 0, -1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	17
+				},
+				"_vertex[18]":	{
+					"_position":	[100, 0, 0],
+					"_normal":	[0, 0, -1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	18
+				},
+				"_vertex[19]":	{
+					"_position":	[0, 0, 0],
+					"_normal":	[0, 0, -1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	19
+				},
+				"_vertex[20]":	{
+					"_position":	[0, 100, 100],
+					"_normal":	[0, 0, 1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	20
+				},
+				"_vertex[21]":	{
+					"_position":	[100, 100, 100],
+					"_normal":	[0, 0, 1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	21
+				},
+				"_vertex[22]":	{
+					"_position":	[100, 0, 100],
+					"_normal":	[0, 0, 1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	22
+				},
+				"_vertex[23]":	{
+					"_position":	[0, 0, 100],
+					"_normal":	[0, 0, 1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	23
+				}
+			},
+			"_refCount":	2
+		},
+		"renderVertex[1]":	{
+			"_id":	"251546254100152401",
+			"_vertexMask":	131,
+			"_vertexes(size = 24)":	{
+				"_vertex[0]":	{
+					"_position":	[100, 0, 100],
+					"_normal":	[0, -1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	0
+				},
+				"_vertex[1]":	{
+					"_position":	[100, 0, 0],
+					"_normal":	[0, -1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	1
+				},
+				"_vertex[2]":	{
+					"_position":	[0, 0, 0],
+					"_normal":	[0, -1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	2
+				},
+				"_vertex[3]":	{
+					"_position":	[0, 0, 100],
+					"_normal":	[0, -1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	3
+				},
+				"_vertex[4]":	{
+					"_position":	[100, 100, 100],
+					"_normal":	[1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	4
+				},
+				"_vertex[5]":	{
+					"_position":	[100, 100, 0],
+					"_normal":	[1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	5
+				},
+				"_vertex[6]":	{
+					"_position":	[100, 0, 0],
+					"_normal":	[1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	6
+				},
+				"_vertex[7]":	{
+					"_position":	[100, 0, 100],
+					"_normal":	[1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	7
+				},
+				"_vertex[8]":	{
+					"_position":	[0, 100, 100],
+					"_normal":	[0, 1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	8
+				},
+				"_vertex[9]":	{
+					"_position":	[0, 100, 0],
+					"_normal":	[0, 1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	9
+				},
+				"_vertex[10]":	{
+					"_position":	[100, 100, 0],
+					"_normal":	[0, 1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	10
+				},
+				"_vertex[11]":	{
+					"_position":	[100, 100, 100],
+					"_normal":	[0, 1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	11
+				},
+				"_vertex[12]":	{
+					"_position":	[0, 0, 100],
+					"_normal":	[-1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	12
+				},
+				"_vertex[13]":	{
+					"_position":	[0, 0, 0],
+					"_normal":	[-1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	13
+				},
+				"_vertex[14]":	{
+					"_position":	[0, 100, 0],
+					"_normal":	[-1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	14
+				},
+				"_vertex[15]":	{
+					"_position":	[0, 100, 100],
+					"_normal":	[-1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	15
+				},
+				"_vertex[16]":	{
+					"_position":	[0, 100, 0],
+					"_normal":	[0, 0, -1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	16
+				},
+				"_vertex[17]":	{
+					"_position":	[100, 100, 0],
+					"_normal":	[0, 0, -1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	17
+				},
+				"_vertex[18]":	{
+					"_position":	[100, 0, 0],
+					"_normal":	[0, 0, -1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	18
+				},
+				"_vertex[19]":	{
+					"_position":	[0, 0, 0],
+					"_normal":	[0, 0, -1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	19
+				},
+				"_vertex[20]":	{
+					"_position":	[0, 100, 100],
+					"_normal":	[0, 0, 1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	20
+				},
+				"_vertex[21]":	{
+					"_position":	[100, 100, 100],
+					"_normal":	[0, 0, 1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	21
+				},
+				"_vertex[22]":	{
+					"_position":	[100, 0, 100],
+					"_normal":	[0, 0, 1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	22
+				},
+				"_vertex[23]":	{
+					"_position":	[0, 0, 100],
+					"_normal":	[0, 0, 1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	23
+				}
+			},
+			"_refCount":	2
+		},
+		"renderVertex[2]":	{
+			"_id":	"251546254150483970",
+			"_vertexMask":	131,
+			"_vertexes(size = 24)":	{
+				"_vertex[0]":	{
+					"_position":	[100, 0, 100],
+					"_normal":	[0, -1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	0
+				},
+				"_vertex[1]":	{
+					"_position":	[100, 0, 0],
+					"_normal":	[0, -1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	1
+				},
+				"_vertex[2]":	{
+					"_position":	[0, 0, 0],
+					"_normal":	[0, -1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	2
+				},
+				"_vertex[3]":	{
+					"_position":	[0, 0, 100],
+					"_normal":	[0, -1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	3
+				},
+				"_vertex[4]":	{
+					"_position":	[100, 100, 100],
+					"_normal":	[1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	4
+				},
+				"_vertex[5]":	{
+					"_position":	[100, 100, 0],
+					"_normal":	[1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	5
+				},
+				"_vertex[6]":	{
+					"_position":	[100, 0, 0],
+					"_normal":	[1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	6
+				},
+				"_vertex[7]":	{
+					"_position":	[100, 0, 100],
+					"_normal":	[1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	7
+				},
+				"_vertex[8]":	{
+					"_position":	[0, 100, 100],
+					"_normal":	[0, 1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	8
+				},
+				"_vertex[9]":	{
+					"_position":	[0, 100, 0],
+					"_normal":	[0, 1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	9
+				},
+				"_vertex[10]":	{
+					"_position":	[100, 100, 0],
+					"_normal":	[0, 1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	10
+				},
+				"_vertex[11]":	{
+					"_position":	[100, 100, 100],
+					"_normal":	[0, 1, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	11
+				},
+				"_vertex[12]":	{
+					"_position":	[0, 0, 100],
+					"_normal":	[-1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	12
+				},
+				"_vertex[13]":	{
+					"_position":	[0, 0, 0],
+					"_normal":	[-1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	13
+				},
+				"_vertex[14]":	{
+					"_position":	[0, 100, 0],
+					"_normal":	[-1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	14
+				},
+				"_vertex[15]":	{
+					"_position":	[0, 100, 100],
+					"_normal":	[-1, 0, 0],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	15
+				},
+				"_vertex[16]":	{
+					"_position":	[0, 100, 0],
+					"_normal":	[0, 0, -1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	16
+				},
+				"_vertex[17]":	{
+					"_position":	[100, 100, 0],
+					"_normal":	[0, 0, -1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	17
+				},
+				"_vertex[18]":	{
+					"_position":	[100, 0, 0],
+					"_normal":	[0, 0, -1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	18
+				},
+				"_vertex[19]":	{
+					"_position":	[0, 0, 0],
+					"_normal":	[0, 0, -1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	19
+				},
+				"_vertex[20]":	{
+					"_position":	[0, 100, 100],
+					"_normal":	[0, 0, 1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	20
+				},
+				"_vertex[21]":	{
+					"_position":	[100, 100, 100],
+					"_normal":	[0, 0, 1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	21
+				},
+				"_vertex[22]":	{
+					"_position":	[100, 0, 100],
+					"_normal":	[0, 0, 1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	22
+				},
+				"_vertex[23]":	{
+					"_position":	[0, 0, 100],
+					"_normal":	[0, 0, 1],
+					"_uv":	"(invalid)",
+					"_color":	"(invalid)",
+					"_opacity":	"(invalid)",
+					"_index":	23
+				}
+			},
+			"_refCount":	2
+		}
+	}
+}

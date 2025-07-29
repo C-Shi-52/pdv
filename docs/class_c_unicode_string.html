@@ -1,0 +1,547 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: CUnicodeString类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_c_unicode_string.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">CUnicodeString类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Unicode字符操作接口  
+ <a href="#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_unicode_string_8h_source.html">UnicodeString.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ae030c7aeeee9ec16f7ee3f88a3e0e267" id="r_ae030c7aeeee9ec16f7ee3f88a3e0e267"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae030c7aeeee9ec16f7ee3f88a3e0e267">CUnicodeString</a> ()</td></tr>
+<tr class="memitem:a43e1e37ef8a06f94ebf2f04c7ea5dabb" id="r_a43e1e37ef8a06f94ebf2f04c7ea5dabb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43e1e37ef8a06f94ebf2f04c7ea5dabb">CUnicodeString</a> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *pstrString)</td></tr>
+<tr class="memitem:a517a7e79d7f520a782e81115f0c6bd02" id="r_a517a7e79d7f520a782e81115f0c6bd02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a517a7e79d7f520a782e81115f0c6bd02">CUnicodeString</a> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *pstrString, <a class="el" href="_unicode_string_8h.html#a5b5e08ef2f7c184711a36611deaef3d1">CM_MULTIBYTE_TYPE</a> type=<a class="el" href="_unicode_string_8h.html#a5b5e08ef2f7c184711a36611deaef3d1a72a78523e9725ac615d17352840dcaae">CM_MULTIBYTE_SYSDEFAULT</a>)</td></tr>
+<tr class="memitem:a13ebe5d5ad3b52f42a2634fd92aa8c5c" id="r_a13ebe5d5ad3b52f42a2634fd92aa8c5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13ebe5d5ad3b52f42a2634fd92aa8c5c">CUnicodeString</a> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;strString)</td></tr>
+<tr class="memitem:ae61e8cbcec1d59c1d7af3a2ef8663b1e" id="r_ae61e8cbcec1d59c1d7af3a2ef8663b1e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae61e8cbcec1d59c1d7af3a2ef8663b1e">~CUnicodeString</a> ()</td></tr>
+<tr class="memitem:aa7f523b391772fa36a04d983f27423ac" id="r_aa7f523b391772fa36a04d983f27423ac"><td class="memItemLeft" align="right" valign="top"><a id="aa7f523b391772fa36a04d983f27423ac" name="aa7f523b391772fa36a04d983f27423ac"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>FindOneOf</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *lpszCharSet) const</td></tr>
+<tr class="memdesc:aa7f523b391772fa36a04d983f27423ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">查找输入字符串中的任意字符在当前字符串中第一次出现的位置 <br /></td></tr>
+<tr class="memitem:acaa9d5c51d6974f86f91ceb2c9b21322" id="r_acaa9d5c51d6974f86f91ceb2c9b21322"><td class="memItemLeft" align="right" valign="top"><a id="acaa9d5c51d6974f86f91ceb2c9b21322" name="acaa9d5c51d6974f86f91ceb2c9b21322"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>FindOneOf</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *lpszCharSet) const</td></tr>
+<tr class="memdesc:acaa9d5c51d6974f86f91ceb2c9b21322"><td class="mdescLeft">&#160;</td><td class="mdescRight">查找输入字符串中的任意字符在当前字符串中第一次出现的位置 <br /></td></tr>
+<tr class="memitem:a6fea747fb50ffd2c97dc3afd770e4e21" id="r_a6fea747fb50ffd2c97dc3afd770e4e21"><td class="memItemLeft" align="right" valign="top"><a id="a6fea747fb50ffd2c97dc3afd770e4e21" name="a6fea747fb50ffd2c97dc3afd770e4e21"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ReverseFind</b> (<a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> ch) const</td></tr>
+<tr class="memdesc:a6fea747fb50ffd2c97dc3afd770e4e21"><td class="mdescLeft">&#160;</td><td class="mdescRight">反向查找字符 <br /></td></tr>
+<tr class="memitem:aa7b066f3306a8b70c366496e4efcd63e" id="r_aa7b066f3306a8b70c366496e4efcd63e"><td class="memItemLeft" align="right" valign="top"><a id="aa7b066f3306a8b70c366496e4efcd63e" name="aa7b066f3306a8b70c366496e4efcd63e"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ReverseFind</b> (<a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> ch) const</td></tr>
+<tr class="memdesc:aa7b066f3306a8b70c366496e4efcd63e"><td class="mdescLeft">&#160;</td><td class="mdescRight">反向查找字符 <br /></td></tr>
+<tr class="memitem:ade65d9f1a7cb2f70cdebfe145e4635f6" id="r_ade65d9f1a7cb2f70cdebfe145e4635f6"><td class="memItemLeft" align="right" valign="top"><a id="ade65d9f1a7cb2f70cdebfe145e4635f6" name="ade65d9f1a7cb2f70cdebfe145e4635f6"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Find</b> (<a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> ch, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> nStart=0) const</td></tr>
+<tr class="memdesc:ade65d9f1a7cb2f70cdebfe145e4635f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">查找字符 <br /></td></tr>
+<tr class="memitem:af0eae4efb53c0ed82fc67ed445b64939" id="r_af0eae4efb53c0ed82fc67ed445b64939"><td class="memItemLeft" align="right" valign="top"><a id="af0eae4efb53c0ed82fc67ed445b64939" name="af0eae4efb53c0ed82fc67ed445b64939"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Find</b> (<a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> ch, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> nStart=0) const</td></tr>
+<tr class="memdesc:af0eae4efb53c0ed82fc67ed445b64939"><td class="mdescLeft">&#160;</td><td class="mdescRight">查找字符 <br /></td></tr>
+<tr class="memitem:a3222c7b11326c37bccb6b718aee2bf71" id="r_a3222c7b11326c37bccb6b718aee2bf71"><td class="memItemLeft" align="right" valign="top"><a id="a3222c7b11326c37bccb6b718aee2bf71" name="a3222c7b11326c37bccb6b718aee2bf71"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Find</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *lpszSub, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> nStart=0) const</td></tr>
+<tr class="memdesc:a3222c7b11326c37bccb6b718aee2bf71"><td class="mdescLeft">&#160;</td><td class="mdescRight">查找字符串 <br /></td></tr>
+<tr class="memitem:abd74603052742187b05733ace0d151cd" id="r_abd74603052742187b05733ace0d151cd"><td class="memItemLeft" align="right" valign="top"><a id="abd74603052742187b05733ace0d151cd" name="abd74603052742187b05733ace0d151cd"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Find</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *lpszSub, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> nStart=0) const</td></tr>
+<tr class="memdesc:abd74603052742187b05733ace0d151cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">查找字符串 <br /></td></tr>
+<tr class="memitem:a29d34b59b14631a5c704ff0cec43a5c3" id="r_a29d34b59b14631a5c704ff0cec43a5c3"><td class="memItemLeft" align="right" valign="top"><a id="a29d34b59b14631a5c704ff0cec43a5c3" name="a29d34b59b14631a5c704ff0cec43a5c3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>TrimRight</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *lpszTargets)</td></tr>
+<tr class="memdesc:a29d34b59b14631a5c704ff0cec43a5c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">去掉字符串末尾的特定字符，该字符为输入字符串中的任意字符 <br /></td></tr>
+<tr class="memitem:aaa032e3afb5c7308ad0f0b150c569f3c" id="r_aaa032e3afb5c7308ad0f0b150c569f3c"><td class="memItemLeft" align="right" valign="top"><a id="aaa032e3afb5c7308ad0f0b150c569f3c" name="aaa032e3afb5c7308ad0f0b150c569f3c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>TrimRight</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *lpszTargets)</td></tr>
+<tr class="memdesc:aaa032e3afb5c7308ad0f0b150c569f3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">去掉字符串末尾的特定字符，该字符为输入字符串中的任意字符 <br /></td></tr>
+<tr class="memitem:a4b6e22de8f322fb2c1de31269ed512c9" id="r_a4b6e22de8f322fb2c1de31269ed512c9"><td class="memItemLeft" align="right" valign="top"><a id="a4b6e22de8f322fb2c1de31269ed512c9" name="a4b6e22de8f322fb2c1de31269ed512c9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>TrimRight</b> (<a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> chTarget)</td></tr>
+<tr class="memdesc:a4b6e22de8f322fb2c1de31269ed512c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">去掉字符串末尾的指定字符 <br /></td></tr>
+<tr class="memitem:a0e3a410db530569cfd381d7a31203647" id="r_a0e3a410db530569cfd381d7a31203647"><td class="memItemLeft" align="right" valign="top"><a id="a0e3a410db530569cfd381d7a31203647" name="a0e3a410db530569cfd381d7a31203647"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>TrimRight</b> (<a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> chTarget)</td></tr>
+<tr class="memdesc:a0e3a410db530569cfd381d7a31203647"><td class="mdescLeft">&#160;</td><td class="mdescRight">去掉字符串末尾的指定字符 <br /></td></tr>
+<tr class="memitem:a05688bf6a116bab467871a3ff4cadd03" id="r_a05688bf6a116bab467871a3ff4cadd03"><td class="memItemLeft" align="right" valign="top"><a id="a05688bf6a116bab467871a3ff4cadd03" name="a05688bf6a116bab467871a3ff4cadd03"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>TrimRight</b> ()</td></tr>
+<tr class="memdesc:a05688bf6a116bab467871a3ff4cadd03"><td class="mdescLeft">&#160;</td><td class="mdescRight">去掉字符串末尾的空白 <br /></td></tr>
+<tr class="memitem:abdb72222020cb2299ae9d9d96df6b1e6" id="r_abdb72222020cb2299ae9d9d96df6b1e6"><td class="memItemLeft" align="right" valign="top"><a id="abdb72222020cb2299ae9d9d96df6b1e6" name="abdb72222020cb2299ae9d9d96df6b1e6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>TrimLeft</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *lpszTargets)</td></tr>
+<tr class="memdesc:abdb72222020cb2299ae9d9d96df6b1e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">去掉字符串开头的特定字符，该字符为输入字符串中的任意字符 <br /></td></tr>
+<tr class="memitem:a2cc018d1264b518b60ae0cd449355485" id="r_a2cc018d1264b518b60ae0cd449355485"><td class="memItemLeft" align="right" valign="top"><a id="a2cc018d1264b518b60ae0cd449355485" name="a2cc018d1264b518b60ae0cd449355485"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>TrimLeft</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *lpszTargets)</td></tr>
+<tr class="memdesc:a2cc018d1264b518b60ae0cd449355485"><td class="mdescLeft">&#160;</td><td class="mdescRight">去掉字符串开头的特定字符，该字符为输入字符串中的任意字符 <br /></td></tr>
+<tr class="memitem:a54382cc144687e408e293053a94978e6" id="r_a54382cc144687e408e293053a94978e6"><td class="memItemLeft" align="right" valign="top"><a id="a54382cc144687e408e293053a94978e6" name="a54382cc144687e408e293053a94978e6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>TrimLeft</b> (<a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> chTarget)</td></tr>
+<tr class="memdesc:a54382cc144687e408e293053a94978e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">去掉字符串开头的指定字符 <br /></td></tr>
+<tr class="memitem:ab0a14f1d6d768401aef0d139589a0ead" id="r_ab0a14f1d6d768401aef0d139589a0ead"><td class="memItemLeft" align="right" valign="top"><a id="ab0a14f1d6d768401aef0d139589a0ead" name="ab0a14f1d6d768401aef0d139589a0ead"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>TrimLeft</b> (<a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> chTarget)</td></tr>
+<tr class="memdesc:ab0a14f1d6d768401aef0d139589a0ead"><td class="mdescLeft">&#160;</td><td class="mdescRight">去掉字符串开头的指定字符 <br /></td></tr>
+<tr class="memitem:a4ba8b6026c828cc56841f2ef6d41f0cc" id="r_a4ba8b6026c828cc56841f2ef6d41f0cc"><td class="memItemLeft" align="right" valign="top"><a id="a4ba8b6026c828cc56841f2ef6d41f0cc" name="a4ba8b6026c828cc56841f2ef6d41f0cc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>TrimLeft</b> ()</td></tr>
+<tr class="memdesc:a4ba8b6026c828cc56841f2ef6d41f0cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">去掉字符串开头的空白 <br /></td></tr>
+<tr class="memitem:a2f9aa472c5a3acd71e9be4f9a4bb83cc" id="r_a2f9aa472c5a3acd71e9be4f9a4bb83cc"><td class="memItemLeft" align="right" valign="top"><a id="a2f9aa472c5a3acd71e9be4f9a4bb83cc" name="a2f9aa472c5a3acd71e9be4f9a4bb83cc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Replace</b> (<a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> chOld, <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> chNew)</td></tr>
+<tr class="memdesc:a2f9aa472c5a3acd71e9be4f9a4bb83cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">替换字符 <br /></td></tr>
+<tr class="memitem:a9130355aa60e37d896bf40ee124038a8" id="r_a9130355aa60e37d896bf40ee124038a8"><td class="memItemLeft" align="right" valign="top"><a id="a9130355aa60e37d896bf40ee124038a8" name="a9130355aa60e37d896bf40ee124038a8"></a>
+<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Delete</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> nIndex, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> nCount=1)</td></tr>
+<tr class="memdesc:a9130355aa60e37d896bf40ee124038a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">删除字符 <br /></td></tr>
+<tr class="memitem:a612e9148c438f0001b41adf6478dc7eb" id="r_a612e9148c438f0001b41adf6478dc7eb"><td class="memItemLeft" align="right" valign="top"><a id="a612e9148c438f0001b41adf6478dc7eb" name="a612e9148c438f0001b41adf6478dc7eb"></a>
+<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Insert</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> nIndex, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *pstr)</td></tr>
+<tr class="memdesc:a612e9148c438f0001b41adf6478dc7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">在指定位置插入字符串 <br /></td></tr>
+<tr class="memitem:ac8b63c95b69a83b6ef724c1bd4b1595d" id="r_ac8b63c95b69a83b6ef724c1bd4b1595d"><td class="memItemLeft" align="right" valign="top"><a id="ac8b63c95b69a83b6ef724c1bd4b1595d" name="ac8b63c95b69a83b6ef724c1bd4b1595d"></a>
+<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Insert</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> nIndex, const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *pstr)</td></tr>
+<tr class="memdesc:ac8b63c95b69a83b6ef724c1bd4b1595d"><td class="mdescLeft">&#160;</td><td class="mdescRight">在指定位置插入字符串 <br /></td></tr>
+<tr class="memitem:aab9d4bf105f083c45c5658a86ffa6587" id="r_aab9d4bf105f083c45c5658a86ffa6587"><td class="memItemLeft" align="right" valign="top"><a id="aab9d4bf105f083c45c5658a86ffa6587" name="aab9d4bf105f083c45c5658a86ffa6587"></a>
+<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Insert</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> nIndex, <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> ch)</td></tr>
+<tr class="memdesc:aab9d4bf105f083c45c5658a86ffa6587"><td class="mdescLeft">&#160;</td><td class="mdescRight">在指定位置插入字符 <br /></td></tr>
+<tr class="memitem:affdd0590a4d74696aa7cb2f2bb958bd3" id="r_affdd0590a4d74696aa7cb2f2bb958bd3"><td class="memItemLeft" align="right" valign="top"><a id="affdd0590a4d74696aa7cb2f2bb958bd3" name="affdd0590a4d74696aa7cb2f2bb958bd3"></a>
+<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Insert</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> nIndex, <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> ch)</td></tr>
+<tr class="memdesc:affdd0590a4d74696aa7cb2f2bb958bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">在指定位置插入字符 <br /></td></tr>
+<tr class="memitem:a6e825eba92575ca8813ce510a96fc521" id="r_a6e825eba92575ca8813ce510a96fc521"><td class="memItemLeft" align="right" valign="top"><a id="a6e825eba92575ca8813ce510a96fc521" name="a6e825eba92575ca8813ce510a96fc521"></a>
+<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> (<a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> ch)</td></tr>
+<tr class="memdesc:a6e825eba92575ca8813ce510a96fc521"><td class="mdescLeft">&#160;</td><td class="mdescRight">移除指定字符 <br /></td></tr>
+<tr class="memitem:ad612661c3d0866e405a67203280774ae" id="r_ad612661c3d0866e405a67203280774ae"><td class="memItemLeft" align="right" valign="top"><a id="ad612661c3d0866e405a67203280774ae" name="ad612661c3d0866e405a67203280774ae"></a>
+<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> (<a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> ch)</td></tr>
+<tr class="memdesc:ad612661c3d0866e405a67203280774ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">移除指定字符 <br /></td></tr>
+<tr class="memitem:a1f82b2b37902e51cbe89989decef4b05" id="r_a1f82b2b37902e51cbe89989decef4b05"><td class="memItemLeft" align="right" valign="top"><a id="a1f82b2b37902e51cbe89989decef4b05" name="a1f82b2b37902e51cbe89989decef4b05"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MakeReverse</b> ()</td></tr>
+<tr class="memdesc:a1f82b2b37902e51cbe89989decef4b05"><td class="mdescLeft">&#160;</td><td class="mdescRight">反转字符串 <br /></td></tr>
+<tr class="memitem:a98a70a38d0065bbf708b2cbf07e11530" id="r_a98a70a38d0065bbf708b2cbf07e11530"><td class="memItemLeft" align="right" valign="top"><a id="a98a70a38d0065bbf708b2cbf07e11530" name="a98a70a38d0065bbf708b2cbf07e11530"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MakeLower</b> ()</td></tr>
+<tr class="memdesc:a98a70a38d0065bbf708b2cbf07e11530"><td class="mdescLeft">&#160;</td><td class="mdescRight">将当前字符串转换为小写 <br /></td></tr>
+<tr class="memitem:a2ff5a2116ec35d91663590859a441514" id="r_a2ff5a2116ec35d91663590859a441514"><td class="memItemLeft" align="right" valign="top"><a id="a2ff5a2116ec35d91663590859a441514" name="a2ff5a2116ec35d91663590859a441514"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MakeUpper</b> ()</td></tr>
+<tr class="memdesc:a2ff5a2116ec35d91663590859a441514"><td class="mdescLeft">&#160;</td><td class="mdescRight">将当前字符串转换为大写 <br /></td></tr>
+<tr class="memitem:afa6641d5e291135b3bef757fee388e65" id="r_afa6641d5e291135b3bef757fee388e65"><td class="memItemLeft" align="right" valign="top"><a id="afa6641d5e291135b3bef757fee388e65" name="afa6641d5e291135b3bef757fee388e65"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SpanExcluding</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *lpszCharSet)</td></tr>
+<tr class="memdesc:afa6641d5e291135b3bef757fee388e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取从开头开始不包含输入字符串中的任意字符的最大前缀 <br /></td></tr>
+<tr class="memitem:ae2652f907f32017b2005a95c4026f46b" id="r_ae2652f907f32017b2005a95c4026f46b"><td class="memItemLeft" align="right" valign="top"><a id="ae2652f907f32017b2005a95c4026f46b" name="ae2652f907f32017b2005a95c4026f46b"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SpanExcluding</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *lpszCharSet)</td></tr>
+<tr class="memdesc:ae2652f907f32017b2005a95c4026f46b"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取从开头开始不包含输入字符串中的任意字符的最大前缀 <br /></td></tr>
+<tr class="memitem:aa760f103edbcbc4e42d57c8edcbd1cd4" id="r_aa760f103edbcbc4e42d57c8edcbd1cd4"><td class="memItemLeft" align="right" valign="top"><a id="aa760f103edbcbc4e42d57c8edcbd1cd4" name="aa760f103edbcbc4e42d57c8edcbd1cd4"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SpanIncluding</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *lpszCharSet)</td></tr>
+<tr class="memdesc:aa760f103edbcbc4e42d57c8edcbd1cd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取从开头开始包含输入字符串中的任意字符的最大前缀 <br /></td></tr>
+<tr class="memitem:a632e1ed8a9e65e56f3a6db6d0b371ebf" id="r_a632e1ed8a9e65e56f3a6db6d0b371ebf"><td class="memItemLeft" align="right" valign="top"><a id="a632e1ed8a9e65e56f3a6db6d0b371ebf" name="a632e1ed8a9e65e56f3a6db6d0b371ebf"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SpanIncluding</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *lpszCharSet)</td></tr>
+<tr class="memdesc:a632e1ed8a9e65e56f3a6db6d0b371ebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取从开头开始包含输入字符串中的任意字符的最大前缀 <br /></td></tr>
+<tr class="memitem:a1747745536456f418a36b8bcabcebacb" id="r_a1747745536456f418a36b8bcabcebacb"><td class="memItemLeft" align="right" valign="top"><a id="a1747745536456f418a36b8bcabcebacb" name="a1747745536456f418a36b8bcabcebacb"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CollateNoCase</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *lpsz) const</td></tr>
+<tr class="memdesc:a1747745536456f418a36b8bcabcebacb"><td class="mdescLeft">&#160;</td><td class="mdescRight">基于本地化设置locale以不区分大小写的方式比较当前字符串和输入字符串, 返回0时两字符串相等 <br /></td></tr>
+<tr class="memitem:a83049211393c965213091f05e0490383" id="r_a83049211393c965213091f05e0490383"><td class="memItemLeft" align="right" valign="top"><a id="a83049211393c965213091f05e0490383" name="a83049211393c965213091f05e0490383"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CollateNoCase</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *lpsz) const</td></tr>
+<tr class="memdesc:a83049211393c965213091f05e0490383"><td class="mdescLeft">&#160;</td><td class="mdescRight">基于本地化设置locale以不区分大小写的方式比较当前字符串和输入字符串, 返回0时两字符串相等 <br /></td></tr>
+<tr class="memitem:accadf78246b62e088699c4c92325bdab" id="r_accadf78246b62e088699c4c92325bdab"><td class="memItemLeft" align="right" valign="top"><a id="accadf78246b62e088699c4c92325bdab" name="accadf78246b62e088699c4c92325bdab"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Collate</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *lpsz) const</td></tr>
+<tr class="memdesc:accadf78246b62e088699c4c92325bdab"><td class="mdescLeft">&#160;</td><td class="mdescRight">基于本地化设置locale以区分大小写的方式比较当前字符串和输入字符串, 返回0时两字符串相等 <br /></td></tr>
+<tr class="memitem:a0c73d309f171afc8dba3b532e76f8ce8" id="r_a0c73d309f171afc8dba3b532e76f8ce8"><td class="memItemLeft" align="right" valign="top"><a id="a0c73d309f171afc8dba3b532e76f8ce8" name="a0c73d309f171afc8dba3b532e76f8ce8"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Collate</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *lpsz) const</td></tr>
+<tr class="memdesc:a0c73d309f171afc8dba3b532e76f8ce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">基于本地化设置locale以区分大小写的方式比较当前字符串和输入字符串, 返回0时两字符串相等 <br /></td></tr>
+<tr class="memitem:a9ddd595bbcc46a4b89e22bffeb56c403" id="r_a9ddd595bbcc46a4b89e22bffeb56c403"><td class="memItemLeft" align="right" valign="top"><a id="a9ddd595bbcc46a4b89e22bffeb56c403" name="a9ddd595bbcc46a4b89e22bffeb56c403"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CompareNoCase</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *lpsz) const</td></tr>
+<tr class="memdesc:a9ddd595bbcc46a4b89e22bffeb56c403"><td class="mdescLeft">&#160;</td><td class="mdescRight">以不区分大小写的方式比较当前字符串和输入字符串, 返回0时两字符串相等 <br /></td></tr>
+<tr class="memitem:a8e50d405db0510020ef8d46147e46868" id="r_a8e50d405db0510020ef8d46147e46868"><td class="memItemLeft" align="right" valign="top"><a id="a8e50d405db0510020ef8d46147e46868" name="a8e50d405db0510020ef8d46147e46868"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CompareNoCase</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *lpsz) const</td></tr>
+<tr class="memdesc:a8e50d405db0510020ef8d46147e46868"><td class="mdescLeft">&#160;</td><td class="mdescRight">以不区分大小写的方式比较当前字符串和输入字符串, 返回0时两字符串相等 <br /></td></tr>
+<tr class="memitem:a9684e26ce0e7e512ae45a66f5d3d878a" id="r_a9684e26ce0e7e512ae45a66f5d3d878a"><td class="memItemLeft" align="right" valign="top"><a id="a9684e26ce0e7e512ae45a66f5d3d878a" name="a9684e26ce0e7e512ae45a66f5d3d878a"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Compare</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *lpsz) const</td></tr>
+<tr class="memdesc:a9684e26ce0e7e512ae45a66f5d3d878a"><td class="mdescLeft">&#160;</td><td class="mdescRight">以区分大小写的方式比较当前字符串和输入字符串, 返回0时两字符串相等 <br /></td></tr>
+<tr class="memitem:a2ffeb8659c5c40644e04fa11f304db14" id="r_a2ffeb8659c5c40644e04fa11f304db14"><td class="memItemLeft" align="right" valign="top"><a id="a2ffeb8659c5c40644e04fa11f304db14" name="a2ffeb8659c5c40644e04fa11f304db14"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Compare</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *lpsz) const</td></tr>
+<tr class="memdesc:a2ffeb8659c5c40644e04fa11f304db14"><td class="mdescLeft">&#160;</td><td class="mdescRight">以区分大小写的方式比较当前字符串和输入字符串, 返回0时两字符串相等 <br /></td></tr>
+<tr class="memitem:a453f6f86c38ca703e484e02722d4502d" id="r_a453f6f86c38ca703e484e02722d4502d"><td class="memItemLeft" align="right" valign="top"><a id="a453f6f86c38ca703e484e02722d4502d" name="a453f6f86c38ca703e484e02722d4502d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetAt</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> dwPos, <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> ch)</td></tr>
+<tr class="memdesc:a453f6f86c38ca703e484e02722d4502d"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置指定位置的字符 <br /></td></tr>
+<tr class="memitem:a4532cc7bb39da0bf8c4aff70d87d86d0" id="r_a4532cc7bb39da0bf8c4aff70d87d86d0"><td class="memItemLeft" align="right" valign="top"><a id="a4532cc7bb39da0bf8c4aff70d87d86d0" name="a4532cc7bb39da0bf8c4aff70d87d86d0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetAt</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> dwPos, <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> ch)</td></tr>
+<tr class="memdesc:a4532cc7bb39da0bf8c4aff70d87d86d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置指定位置的字符 <br /></td></tr>
+<tr class="memitem:ab178f523cf24316f2549513039c62534" id="r_ab178f523cf24316f2549513039c62534"><td class="memItemLeft" align="right" valign="top"><a id="ab178f523cf24316f2549513039c62534" name="ab178f523cf24316f2549513039c62534"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Empty</b> ()</td></tr>
+<tr class="memdesc:ab178f523cf24316f2549513039c62534"><td class="mdescLeft">&#160;</td><td class="mdescRight">清空当前字符串 <br /></td></tr>
+<tr class="memitem:a2256d9cd0e0c97b7abda0cd7ff35eb28" id="r_a2256d9cd0e0c97b7abda0cd7ff35eb28"><td class="memItemLeft" align="right" valign="top"><a id="a2256d9cd0e0c97b7abda0cd7ff35eb28" name="a2256d9cd0e0c97b7abda0cd7ff35eb28"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsEmpty</b> () const</td></tr>
+<tr class="memdesc:a2256d9cd0e0c97b7abda0cd7ff35eb28"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前字符串是否为空 <br /></td></tr>
+<tr class="memitem:a4fe2061dac669f90651ca2b1ba4d3676" id="r_a4fe2061dac669f90651ca2b1ba4d3676"><td class="memItemLeft" align="right" valign="top"><a id="a4fe2061dac669f90651ca2b1ba4d3676" name="a4fe2061dac669f90651ca2b1ba4d3676"></a>
+<a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetBuffer</b> () const</td></tr>
+<tr class="memdesc:a4fe2061dac669f90651ca2b1ba4d3676"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前字符串的宽字符指针 <br /></td></tr>
+<tr class="memitem:aeba1f6f3ee0e0aba76ead07444fb3472" id="r_aeba1f6f3ee0e0aba76ead07444fb3472"><td class="memItemLeft" align="right" valign="top"><a id="aeba1f6f3ee0e0aba76ead07444fb3472" name="aeba1f6f3ee0e0aba76ead07444fb3472"></a>
+<a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>DuplicateBuffer</b> () const</td></tr>
+<tr class="memdesc:aeba1f6f3ee0e0aba76ead07444fb3472"><td class="mdescLeft">&#160;</td><td class="mdescRight">复制字符串并返回字符数组，内存由调用者负责释放 <br /></td></tr>
+<tr class="memitem:ac326a938cb310a7b052f1006ac1dafbe" id="r_ac326a938cb310a7b052f1006ac1dafbe"><td class="memItemLeft" align="right" valign="top"><a id="ac326a938cb310a7b052f1006ac1dafbe" name="ac326a938cb310a7b052f1006ac1dafbe"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Mid</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> dwStart, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> dwCount) const</td></tr>
+<tr class="memdesc:ac326a938cb310a7b052f1006ac1dafbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取从指定位置开始指定个数的子字符串 <br /></td></tr>
+<tr class="memitem:ab5bb9ba65c780202aa4a2c220eb3bf5f" id="r_ab5bb9ba65c780202aa4a2c220eb3bf5f"><td class="memItemLeft" align="right" valign="top"><a id="ab5bb9ba65c780202aa4a2c220eb3bf5f" name="ab5bb9ba65c780202aa4a2c220eb3bf5f"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Right</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> dwCount) const</td></tr>
+<tr class="memdesc:ab5bb9ba65c780202aa4a2c220eb3bf5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取从末尾开始指定个数的子字符串 <br /></td></tr>
+<tr class="memitem:aa72f098b15d2bb709b5b2fcd01d039ab" id="r_aa72f098b15d2bb709b5b2fcd01d039ab"><td class="memItemLeft" align="right" valign="top"><a id="aa72f098b15d2bb709b5b2fcd01d039ab" name="aa72f098b15d2bb709b5b2fcd01d039ab"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Left</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> dwCount) const</td></tr>
+<tr class="memdesc:aa72f098b15d2bb709b5b2fcd01d039ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取从开头开始指定个数的子字符串 <br /></td></tr>
+<tr class="memitem:aeca1d231edf333d902663ccbea49f2c9" id="r_aeca1d231edf333d902663ccbea49f2c9"><td class="memItemLeft" align="right" valign="top"><a id="aeca1d231edf333d902663ccbea49f2c9" name="aeca1d231edf333d902663ccbea49f2c9"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetSubStringBy</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *lpsz, <a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> nCount, <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;strSub)</td></tr>
+<tr class="memdesc:aeca1d231edf333d902663ccbea49f2c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取以输入字符串中任意字符为分隔符将当前字符串拆分后的第nCount个子字符串 <br /></td></tr>
+<tr class="memitem:aad3e680119d7f82fbccb73023508de2c" id="r_aad3e680119d7f82fbccb73023508de2c"><td class="memItemLeft" align="right" valign="top"><a id="aad3e680119d7f82fbccb73023508de2c" name="aad3e680119d7f82fbccb73023508de2c"></a>
+<a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetSubStringBy</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *lpsz, <a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> nCount, <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;strSub)</td></tr>
+<tr class="memdesc:aad3e680119d7f82fbccb73023508de2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取以输入字符串中任意字符为分隔符将当前字符串拆分后的第nCount个子字符串 <br /></td></tr>
+<tr class="memitem:a9b489ae00f93ee5928f23ca0bf0e3b61" id="r_a9b489ae00f93ee5928f23ca0bf0e3b61"><td class="memItemLeft" align="right" valign="top"><a id="a9b489ae00f93ee5928f23ca0bf0e3b61" name="a9b489ae00f93ee5928f23ca0bf0e3b61"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Format</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *pstrFormat,...)</td></tr>
+<tr class="memdesc:a9b489ae00f93ee5928f23ca0bf0e3b61"><td class="mdescLeft">&#160;</td><td class="mdescRight">将格式化的数据写入字符串 <br /></td></tr>
+<tr class="memitem:a24149a691604ebdb0f2731a2358b1c91" id="r_a24149a691604ebdb0f2731a2358b1c91"><td class="memItemLeft" align="right" valign="top"><a id="a24149a691604ebdb0f2731a2358b1c91" name="a24149a691604ebdb0f2731a2358b1c91"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Format</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *pstrFormat,...)</td></tr>
+<tr class="memdesc:a24149a691604ebdb0f2731a2358b1c91"><td class="mdescLeft">&#160;</td><td class="mdescRight">将格式化的数据写入字符串 <br /></td></tr>
+<tr class="memitem:a55924c3516d6a9237a7ae4476760c537" id="r_a55924c3516d6a9237a7ae4476760c537"><td class="memItemLeft" align="right" valign="top"><a id="a55924c3516d6a9237a7ae4476760c537" name="a55924c3516d6a9237a7ae4476760c537"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AppendFormat</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *pstrFormat,...)</td></tr>
+<tr class="memdesc:a55924c3516d6a9237a7ae4476760c537"><td class="mdescLeft">&#160;</td><td class="mdescRight">在当前字符串的末尾追加格式化数据 <br /></td></tr>
+<tr class="memitem:a7487b322b2022bfdfd7051fc98424584" id="r_a7487b322b2022bfdfd7051fc98424584"><td class="memItemLeft" align="right" valign="top"><a id="a7487b322b2022bfdfd7051fc98424584" name="a7487b322b2022bfdfd7051fc98424584"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AppendFormat</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *pstrFormat,...)</td></tr>
+<tr class="memdesc:a7487b322b2022bfdfd7051fc98424584"><td class="mdescLeft">&#160;</td><td class="mdescRight">在当前字符串的末尾追加格式化数据 <br /></td></tr>
+<tr class="memitem:a15e2096fa325eff7baf0160fc9fcb208" id="r_a15e2096fa325eff7baf0160fc9fcb208"><td class="memItemLeft" align="right" valign="top"><a id="a15e2096fa325eff7baf0160fc9fcb208" name="a15e2096fa325eff7baf0160fc9fcb208"></a>
+<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetLength</b> () const</td></tr>
+<tr class="memdesc:a15e2096fa325eff7baf0160fc9fcb208"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取当前宽字节字符串的长度 <br /></td></tr>
+<tr class="memitem:a1f1d8349dbbaeddfda4f9d31a9101917" id="r_a1f1d8349dbbaeddfda4f9d31a9101917"><td class="memItemLeft" align="right" valign="top"><a id="a1f1d8349dbbaeddfda4f9d31a9101917" name="a1f1d8349dbbaeddfda4f9d31a9101917"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;strString)</td></tr>
+<tr class="memdesc:a1f1d8349dbbaeddfda4f9d31a9101917"><td class="mdescLeft">&#160;</td><td class="mdescRight">赋值运算符 <br /></td></tr>
+<tr class="memitem:af30c7201f9ebc75a82f1fa30ab147a6e" id="r_af30c7201f9ebc75a82f1fa30ab147a6e"><td class="memItemLeft" align="right" valign="top"><a id="af30c7201f9ebc75a82f1fa30ab147a6e" name="af30c7201f9ebc75a82f1fa30ab147a6e"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *pstrString)</td></tr>
+<tr class="memdesc:af30c7201f9ebc75a82f1fa30ab147a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">赋值运算符 <br /></td></tr>
+<tr class="memitem:a835045edd055b9d88439388f113c49ee" id="r_a835045edd055b9d88439388f113c49ee"><td class="memItemLeft" align="right" valign="top"><a id="a835045edd055b9d88439388f113c49ee" name="a835045edd055b9d88439388f113c49ee"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *pstrString)</td></tr>
+<tr class="memdesc:a835045edd055b9d88439388f113c49ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">赋值运算符 <br /></td></tr>
+<tr class="memitem:a096c01c3d32181e07cd6d82a913dfc86" id="r_a096c01c3d32181e07cd6d82a913dfc86"><td class="memItemLeft" align="right" valign="top"><a id="a096c01c3d32181e07cd6d82a913dfc86" name="a096c01c3d32181e07cd6d82a913dfc86"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> ch)</td></tr>
+<tr class="memdesc:a096c01c3d32181e07cd6d82a913dfc86"><td class="mdescLeft">&#160;</td><td class="mdescRight">赋值运算符 <br /></td></tr>
+<tr class="memitem:a20693655f3a1ae9b590fa973e468512d" id="r_a20693655f3a1ae9b590fa973e468512d"><td class="memItemLeft" align="right" valign="top"><a id="a20693655f3a1ae9b590fa973e468512d" name="a20693655f3a1ae9b590fa973e468512d"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> ch)</td></tr>
+<tr class="memdesc:a20693655f3a1ae9b590fa973e468512d"><td class="mdescLeft">&#160;</td><td class="mdescRight">赋值运算符 <br /></td></tr>
+<tr class="memitem:a56c866de35dbb84f1e51f5160614aecb" id="r_a56c866de35dbb84f1e51f5160614aecb"><td class="memItemLeft" align="right" valign="top"><a id="a56c866de35dbb84f1e51f5160614aecb" name="a56c866de35dbb84f1e51f5160614aecb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>operator+=</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;usString)</td></tr>
+<tr class="memdesc:a56c866de35dbb84f1e51f5160614aecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">追加运算符 <br /></td></tr>
+<tr class="memitem:a117c3e501acde6288d9d0a6c134e6558" id="r_a117c3e501acde6288d9d0a6c134e6558"><td class="memItemLeft" align="right" valign="top"><a id="a117c3e501acde6288d9d0a6c134e6558" name="a117c3e501acde6288d9d0a6c134e6558"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>operator+=</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *pstrString)</td></tr>
+<tr class="memdesc:a117c3e501acde6288d9d0a6c134e6558"><td class="mdescLeft">&#160;</td><td class="mdescRight">追加运算符 <br /></td></tr>
+<tr class="memitem:a6cc0b96d3b6b10b6b333b4a7edbd7266" id="r_a6cc0b96d3b6b10b6b333b4a7edbd7266"><td class="memItemLeft" align="right" valign="top"><a id="a6cc0b96d3b6b10b6b333b4a7edbd7266" name="a6cc0b96d3b6b10b6b333b4a7edbd7266"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>operator+=</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *pstrString)</td></tr>
+<tr class="memdesc:a6cc0b96d3b6b10b6b333b4a7edbd7266"><td class="mdescLeft">&#160;</td><td class="mdescRight">追加运算符 <br /></td></tr>
+<tr class="memitem:a91e3b45a645abe43839df7a2abde91ca" id="r_a91e3b45a645abe43839df7a2abde91ca"><td class="memItemLeft" align="right" valign="top"><a id="a91e3b45a645abe43839df7a2abde91ca" name="a91e3b45a645abe43839df7a2abde91ca"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>operator+=</b> (<a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> wch)</td></tr>
+<tr class="memdesc:a91e3b45a645abe43839df7a2abde91ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">追加运算符 <br /></td></tr>
+<tr class="memitem:adc7ea5929938617104f6e3b69acc9449" id="r_adc7ea5929938617104f6e3b69acc9449"><td class="memItemLeft" align="right" valign="top"><a id="adc7ea5929938617104f6e3b69acc9449" name="adc7ea5929938617104f6e3b69acc9449"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>operator+=</b> (<a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> ch)</td></tr>
+<tr class="memdesc:adc7ea5929938617104f6e3b69acc9449"><td class="mdescLeft">&#160;</td><td class="mdescRight">追加运算符 <br /></td></tr>
+<tr class="memitem:a0c14d46d7d6e76b2fc378bdf3208840c" id="r_a0c14d46d7d6e76b2fc378bdf3208840c"><td class="memItemLeft" align="right" valign="top"><a id="a0c14d46d7d6e76b2fc378bdf3208840c" name="a0c14d46d7d6e76b2fc378bdf3208840c"></a>
+<a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetAt</b> (<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> dwPos) const</td></tr>
+<tr class="memdesc:a0c14d46d7d6e76b2fc378bdf3208840c"><td class="mdescLeft">&#160;</td><td class="mdescRight">按位置取字符 <br /></td></tr>
+<tr class="memitem:a989c38d751be299e74ecedbb0e8fc244" id="r_a989c38d751be299e74ecedbb0e8fc244"><td class="memItemLeft" align="right" valign="top"><a id="a989c38d751be299e74ecedbb0e8fc244" name="a989c38d751be299e74ecedbb0e8fc244"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator const DftWChar *</b> () const</td></tr>
+<tr class="memdesc:a989c38d751be299e74ecedbb0e8fc244"><td class="mdescLeft">&#160;</td><td class="mdescRight">转换为DftWChar类型 <br /></td></tr>
+<tr class="memitem:ac343a89cc77fd6ab5ee0564acacc1a2e" id="r_ac343a89cc77fd6ab5ee0564acacc1a2e"><td class="memItemLeft" align="right" valign="top"><a id="ac343a89cc77fd6ab5ee0564acacc1a2e" name="ac343a89cc77fd6ab5ee0564acacc1a2e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator const DftUTF8Char *</b> ()</td></tr>
+<tr class="memdesc:ac343a89cc77fd6ab5ee0564acacc1a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">转换为DftUTF8Char类型 <br /></td></tr>
+<tr class="memitem:ae82b7ddae87a5ff1e565d5eb47c62b2b" id="r_ae82b7ddae87a5ff1e565d5eb47c62b2b"><td class="memItemLeft" align="right" valign="top"><a id="ae82b7ddae87a5ff1e565d5eb47c62b2b" name="ae82b7ddae87a5ff1e565d5eb47c62b2b"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>AssignUTF8</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *pstrString)</td></tr>
+<tr class="memdesc:ae82b7ddae87a5ff1e565d5eb47c62b2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">从UTF8字符串赋值 <br /></td></tr>
+<tr class="memitem:a80f175db08745729b8046b00b07ec7b0" id="r_a80f175db08745729b8046b00b07ec7b0"><td class="memItemLeft" align="right" valign="top"><a id="a80f175db08745729b8046b00b07ec7b0" name="a80f175db08745729b8046b00b07ec7b0"></a>
+const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>AsUTF8</b> () const</td></tr>
+<tr class="memdesc:a80f175db08745729b8046b00b07ec7b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">转为UTF8字符串 <br /></td></tr>
+<tr class="memitem:a37dbff32ac04fc0b0e96aa383aaf5f24" id="r_a37dbff32ac04fc0b0e96aa383aaf5f24"><td class="memItemLeft" align="right" valign="top"><a id="a37dbff32ac04fc0b0e96aa383aaf5f24" name="a37dbff32ac04fc0b0e96aa383aaf5f24"></a>
+const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>ToMultiByte</b> (<a class="el" href="_unicode_string_8h.html#a5b5e08ef2f7c184711a36611deaef3d1">CM_MULTIBYTE_TYPE</a> type=<a class="el" href="_unicode_string_8h.html#a5b5e08ef2f7c184711a36611deaef3d1a72a78523e9725ac615d17352840dcaae">CM_MULTIBYTE_SYSDEFAULT</a>) const</td></tr>
+<tr class="memdesc:a37dbff32ac04fc0b0e96aa383aaf5f24"><td class="mdescLeft">&#160;</td><td class="mdescRight">转换为单字节字符 <br /></td></tr>
+<tr class="memitem:acbb1cfe13c91e709cc1d148ba9e5f39f" id="r_acbb1cfe13c91e709cc1d148ba9e5f39f"><td class="memItemLeft" align="right" valign="top"><a id="acbb1cfe13c91e709cc1d148ba9e5f39f" name="acbb1cfe13c91e709cc1d148ba9e5f39f"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>AssignUTF16</b> (const <a class="el" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a> *iDataBuffer, <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iDataLength)</td></tr>
+<tr class="memdesc:acbb1cfe13c91e709cc1d148ba9e5f39f"><td class="mdescLeft">&#160;</td><td class="mdescRight">从UTF16字节数组赋值 <br /></td></tr>
+<tr class="memitem:a2cbe35449ea67d553c08bbcb5021424a" id="r_a2cbe35449ea67d553c08bbcb5021424a"><td class="memItemLeft" align="right" valign="top"><a id="a2cbe35449ea67d553c08bbcb5021424a" name="a2cbe35449ea67d553c08bbcb5021424a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SpanString</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;strDelimit, std::vector&lt; <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &gt; &amp;arrText)</td></tr>
+<tr class="memdesc:a2cbe35449ea67d553c08bbcb5021424a"><td class="mdescLeft">&#160;</td><td class="mdescRight">字符串分割 <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:ac69c1188f44adb6783668ea8d6f6d24f" id="r_ac69c1188f44adb6783668ea8d6f6d24f"><td class="memItemLeft" align="right" valign="top"><a id="ac69c1188f44adb6783668ea8d6f6d24f" name="ac69c1188f44adb6783668ea8d6f6d24f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>InitializeFromWideString</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *pstrString)</td></tr>
+<tr class="memdesc:ac69c1188f44adb6783668ea8d6f6d24f"><td class="mdescLeft">&#160;</td><td class="mdescRight">从宽字符字符串初始化对象 <br /></td></tr>
+<tr class="memitem:a222f6170f56bacf3bea08c33f7db665f" id="r_a222f6170f56bacf3bea08c33f7db665f"><td class="memItemLeft" align="right" valign="top"><a id="a222f6170f56bacf3bea08c33f7db665f" name="a222f6170f56bacf3bea08c33f7db665f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>InitializeFromString</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *pstrString, <a class="el" href="_unicode_string_8h.html#a5b5e08ef2f7c184711a36611deaef3d1">CM_MULTIBYTE_TYPE</a> type)</td></tr>
+<tr class="memdesc:a222f6170f56bacf3bea08c33f7db665f"><td class="mdescLeft">&#160;</td><td class="mdescRight">从utf8字符串初始化对象 <br /></td></tr>
+<tr class="memitem:ab4cf29e60687a0eaf708935c1b3be771" id="r_ab4cf29e60687a0eaf708935c1b3be771"><td class="memItemLeft" align="right" valign="top"><a id="ab4cf29e60687a0eaf708935c1b3be771" name="ab4cf29e60687a0eaf708935c1b3be771"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> ()</td></tr>
+<tr class="memdesc:ab4cf29e60687a0eaf708935c1b3be771"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化对象 <br /></td></tr>
+<tr class="memitem:af3e4f46699be9dcb496d8aca8ec53c5f" id="r_af3e4f46699be9dcb496d8aca8ec53c5f"><td class="memItemLeft" align="right" valign="top"><a id="af3e4f46699be9dcb496d8aca8ec53c5f" name="af3e4f46699be9dcb496d8aca8ec53c5f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ReleaseBuffer</b> ()</td></tr>
+<tr class="memdesc:af3e4f46699be9dcb496d8aca8ec53c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">释放缓冲区内存 <br /></td></tr>
+<tr class="memitem:a201cc70e827eb3f89da7a75422cdbb4f" id="r_a201cc70e827eb3f89da7a75422cdbb4f"><td class="memItemLeft" align="right" valign="top"><a id="a201cc70e827eb3f89da7a75422cdbb4f" name="a201cc70e827eb3f89da7a75422cdbb4f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ReleaseTempBuffer</b> ()</td></tr>
+<tr class="memdesc:a201cc70e827eb3f89da7a75422cdbb4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">释放临时缓冲区内存 <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:af8f4e1e1469e93fbd41d27d5b9de1105" id="r_af8f4e1e1469e93fbd41d27d5b9de1105"><td class="memItemLeft" align="right" valign="top"><a id="af8f4e1e1469e93fbd41d27d5b9de1105" name="af8f4e1e1469e93fbd41d27d5b9de1105"></a>
+<a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_Length</b></td></tr>
+<tr class="memdesc:af8f4e1e1469e93fbd41d27d5b9de1105"><td class="mdescLeft">&#160;</td><td class="mdescRight">长度 <br /></td></tr>
+<tr class="memitem:a727059b24d7a06997df0fdf216b6da91" id="r_a727059b24d7a06997df0fdf216b6da91"><td class="memItemLeft" align="right" valign="top"><a id="a727059b24d7a06997df0fdf216b6da91" name="a727059b24d7a06997df0fdf216b6da91"></a>
+<a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_Buffer</b></td></tr>
+<tr class="memdesc:a727059b24d7a06997df0fdf216b6da91"><td class="mdescLeft">&#160;</td><td class="mdescRight">宽字符串 <br /></td></tr>
+<tr class="memitem:ab724d30a11b74ddb1e4df5804a066522" id="r_ab724d30a11b74ddb1e4df5804a066522"><td class="memItemLeft" align="right" valign="top"><a id="ab724d30a11b74ddb1e4df5804a066522" name="ab724d30a11b74ddb1e4df5804a066522"></a>
+<a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_TempBuff</b></td></tr>
+<tr class="memdesc:ab724d30a11b74ddb1e4df5804a066522"><td class="mdescLeft">&#160;</td><td class="mdescRight">utf8字符串 <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
+友元</h2></td></tr>
+<tr class="memitem:afc4299176b49fc49ce6c90f8823897fb" id="r_afc4299176b49fc49ce6c90f8823897fb"><td class="memItemLeft" align="right" valign="top"><a id="afc4299176b49fc49ce6c90f8823897fb" name="afc4299176b49fc49ce6c90f8823897fb"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s1, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s2)</td></tr>
+<tr class="memdesc:afc4299176b49fc49ce6c90f8823897fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">加法运算符 <br /></td></tr>
+<tr class="memitem:afa579a6afaf833b36c450fb477e82204" id="r_afa579a6afaf833b36c450fb477e82204"><td class="memItemLeft" align="right" valign="top"><a id="afa579a6afaf833b36c450fb477e82204" name="afa579a6afaf833b36c450fb477e82204"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *pstrString)</td></tr>
+<tr class="memdesc:afa579a6afaf833b36c450fb477e82204"><td class="mdescLeft">&#160;</td><td class="mdescRight">加法运算符 <br /></td></tr>
+<tr class="memitem:a7843bd4afc75bcfa2602458e491c24d5" id="r_a7843bd4afc75bcfa2602458e491c24d5"><td class="memItemLeft" align="right" valign="top"><a id="a7843bd4afc75bcfa2602458e491c24d5" name="a7843bd4afc75bcfa2602458e491c24d5"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *pstrString, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s)</td></tr>
+<tr class="memdesc:a7843bd4afc75bcfa2602458e491c24d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">加法运算符 <br /></td></tr>
+<tr class="memitem:ae3acf33caf945fe37ad62daaf010a0ce" id="r_ae3acf33caf945fe37ad62daaf010a0ce"><td class="memItemLeft" align="right" valign="top"><a id="ae3acf33caf945fe37ad62daaf010a0ce" name="ae3acf33caf945fe37ad62daaf010a0ce"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> ch)</td></tr>
+<tr class="memdesc:ae3acf33caf945fe37ad62daaf010a0ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">加法运算符 <br /></td></tr>
+<tr class="memitem:a849f2450990c048efb7acd72496c427f" id="r_a849f2450990c048efb7acd72496c427f"><td class="memItemLeft" align="right" valign="top"><a id="a849f2450990c048efb7acd72496c427f" name="a849f2450990c048efb7acd72496c427f"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> ch, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s)</td></tr>
+<tr class="memdesc:a849f2450990c048efb7acd72496c427f"><td class="mdescLeft">&#160;</td><td class="mdescRight">加法运算符 <br /></td></tr>
+<tr class="memitem:a764a634b11d910ecb7faf981cb9a698f" id="r_a764a634b11d910ecb7faf981cb9a698f"><td class="memItemLeft" align="right" valign="top"><a id="a764a634b11d910ecb7faf981cb9a698f" name="a764a634b11d910ecb7faf981cb9a698f"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s, const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *pstrString)</td></tr>
+<tr class="memdesc:a764a634b11d910ecb7faf981cb9a698f"><td class="mdescLeft">&#160;</td><td class="mdescRight">加法运算符 <br /></td></tr>
+<tr class="memitem:a18632f576e642157a0d974c719a3323d" id="r_a18632f576e642157a0d974c719a3323d"><td class="memItemLeft" align="right" valign="top"><a id="a18632f576e642157a0d974c719a3323d" name="a18632f576e642157a0d974c719a3323d"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *pstrString, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s)</td></tr>
+<tr class="memdesc:a18632f576e642157a0d974c719a3323d"><td class="mdescLeft">&#160;</td><td class="mdescRight">加法运算符 <br /></td></tr>
+<tr class="memitem:a9d34f168061367f330176ef1e6124dad" id="r_a9d34f168061367f330176ef1e6124dad"><td class="memItemLeft" align="right" valign="top"><a id="a9d34f168061367f330176ef1e6124dad" name="a9d34f168061367f330176ef1e6124dad"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s, const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> ch)</td></tr>
+<tr class="memdesc:a9d34f168061367f330176ef1e6124dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">加法运算符 <br /></td></tr>
+<tr class="memitem:ab9fff3e36c1aeb52e7493673b0ec0f99" id="r_ab9fff3e36c1aeb52e7493673b0ec0f99"><td class="memItemLeft" align="right" valign="top"><a id="ab9fff3e36c1aeb52e7493673b0ec0f99" name="ab9fff3e36c1aeb52e7493673b0ec0f99"></a>
+<a class="el" href="class_c_unicode_string.html">CUnicodeString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> ch, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s)</td></tr>
+<tr class="memdesc:ab9fff3e36c1aeb52e7493673b0ec0f99"><td class="mdescLeft">&#160;</td><td class="mdescRight">加法运算符 <br /></td></tr>
+<tr class="memitem:a5527467c2c9f542e95f06d7a929946bc" id="r_a5527467c2c9f542e95f06d7a929946bc"><td class="memItemLeft" align="right" valign="top"><a id="a5527467c2c9f542e95f06d7a929946bc" name="a5527467c2c9f542e95f06d7a929946bc"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s1, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s2)</td></tr>
+<tr class="memdesc:a5527467c2c9f542e95f06d7a929946bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否相等 <br /></td></tr>
+<tr class="memitem:a65fb09a7db5560a13e71930e819f713d" id="r_a65fb09a7db5560a13e71930e819f713d"><td class="memItemLeft" align="right" valign="top"><a id="a65fb09a7db5560a13e71930e819f713d" name="a65fb09a7db5560a13e71930e819f713d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s1, const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *s2)</td></tr>
+<tr class="memdesc:a65fb09a7db5560a13e71930e819f713d"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否相等 <br /></td></tr>
+<tr class="memitem:af9e52877733def66767b334b609828d7" id="r_af9e52877733def66767b334b609828d7"><td class="memItemLeft" align="right" valign="top"><a id="af9e52877733def66767b334b609828d7" name="af9e52877733def66767b334b609828d7"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s1, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *s2)</td></tr>
+<tr class="memdesc:af9e52877733def66767b334b609828d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否相等 <br /></td></tr>
+<tr class="memitem:a86569b16382365627e0f62f44b1e4128" id="r_a86569b16382365627e0f62f44b1e4128"><td class="memItemLeft" align="right" valign="top"><a id="a86569b16382365627e0f62f44b1e4128" name="a86569b16382365627e0f62f44b1e4128"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *s1, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s2)</td></tr>
+<tr class="memdesc:a86569b16382365627e0f62f44b1e4128"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否相等 <br /></td></tr>
+<tr class="memitem:acd0f806f4d8171162ddf6074d87f7a05" id="r_acd0f806f4d8171162ddf6074d87f7a05"><td class="memItemLeft" align="right" valign="top"><a id="acd0f806f4d8171162ddf6074d87f7a05" name="acd0f806f4d8171162ddf6074d87f7a05"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *s1, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s2)</td></tr>
+<tr class="memdesc:acd0f806f4d8171162ddf6074d87f7a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否相等 <br /></td></tr>
+<tr class="memitem:aedee7407dd9eefc69a85f69f82ff9a8b" id="r_aedee7407dd9eefc69a85f69f82ff9a8b"><td class="memItemLeft" align="right" valign="top"><a id="aedee7407dd9eefc69a85f69f82ff9a8b" name="aedee7407dd9eefc69a85f69f82ff9a8b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s1, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s2)</td></tr>
+<tr class="memdesc:aedee7407dd9eefc69a85f69f82ff9a8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否不等 <br /></td></tr>
+<tr class="memitem:adc843f67c99465879b983eef7ca37dd6" id="r_adc843f67c99465879b983eef7ca37dd6"><td class="memItemLeft" align="right" valign="top"><a id="adc843f67c99465879b983eef7ca37dd6" name="adc843f67c99465879b983eef7ca37dd6"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s1, const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *s2)</td></tr>
+<tr class="memdesc:adc843f67c99465879b983eef7ca37dd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否不等 <br /></td></tr>
+<tr class="memitem:af10b3f5a69239e2de5caf70dfedcf038" id="r_af10b3f5a69239e2de5caf70dfedcf038"><td class="memItemLeft" align="right" valign="top"><a id="af10b3f5a69239e2de5caf70dfedcf038" name="af10b3f5a69239e2de5caf70dfedcf038"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s1, const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *s2)</td></tr>
+<tr class="memdesc:af10b3f5a69239e2de5caf70dfedcf038"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否不等 <br /></td></tr>
+<tr class="memitem:a529d7d70363794858a33cbe5a0555e0a" id="r_a529d7d70363794858a33cbe5a0555e0a"><td class="memItemLeft" align="right" valign="top"><a id="a529d7d70363794858a33cbe5a0555e0a" name="a529d7d70363794858a33cbe5a0555e0a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *s1, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s2)</td></tr>
+<tr class="memdesc:a529d7d70363794858a33cbe5a0555e0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否不等 <br /></td></tr>
+<tr class="memitem:ab28ad8b6979b4a7b7772a494922bc0f5" id="r_ab28ad8b6979b4a7b7772a494922bc0f5"><td class="memItemLeft" align="right" valign="top"><a id="ab28ad8b6979b4a7b7772a494922bc0f5" name="ab28ad8b6979b4a7b7772a494922bc0f5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *s1, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;s2)</td></tr>
+<tr class="memdesc:ab28ad8b6979b4a7b7772a494922bc0f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否不等 <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>Unicode字符操作接口 </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">构造及析构函数说明</h2>
+<a id="ae030c7aeeee9ec16f7ee3f88a3e0e267" name="ae030c7aeeee9ec16f7ee3f88a3e0e267"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae030c7aeeee9ec16f7ee3f88a3e0e267">&#9670;&#160;</a></span>CUnicodeString() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CUnicodeString::CUnicodeString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>构造函数 </p>
+
+</div>
+</div>
+<a id="a43e1e37ef8a06f94ebf2f04c7ea5dabb" name="a43e1e37ef8a06f94ebf2f04c7ea5dabb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43e1e37ef8a06f94ebf2f04c7ea5dabb">&#9670;&#160;</a></span>CUnicodeString() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CUnicodeString::CUnicodeString </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#aa75848e35b93db4a8ab950fc945be558">DftWChar</a> *</td>          <td class="paramname"><span class="paramname"><em>pstrString</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>带参构造函数 </p>
+
+</div>
+</div>
+<a id="a517a7e79d7f520a782e81115f0c6bd02" name="a517a7e79d7f520a782e81115f0c6bd02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a517a7e79d7f520a782e81115f0c6bd02">&#9670;&#160;</a></span>CUnicodeString() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CUnicodeString::CUnicodeString </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_dft_types_8h.html#a5d93be842d58e31eed8521c9012501a0">DftUTF8Char</a> *</td>          <td class="paramname"><span class="paramname"><em>pstrString</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_unicode_string_8h.html#a5b5e08ef2f7c184711a36611deaef3d1">CM_MULTIBYTE_TYPE</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="_unicode_string_8h.html#a5b5e08ef2f7c184711a36611deaef3d1a72a78523e9725ac615d17352840dcaae">CM_MULTIBYTE_SYSDEFAULT</a></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>带参构造函数 </p>
+
+</div>
+</div>
+<a id="a13ebe5d5ad3b52f42a2634fd92aa8c5c" name="a13ebe5d5ad3b52f42a2634fd92aa8c5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13ebe5d5ad3b52f42a2634fd92aa8c5c">&#9670;&#160;</a></span>CUnicodeString() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CUnicodeString::CUnicodeString </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>strString</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>拷贝构造函数 </p>
+
+</div>
+</div>
+<a id="ae61e8cbcec1d59c1d7af3a2ef8663b1e" name="ae61e8cbcec1d59c1d7af3a2ef8663b1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae61e8cbcec1d59c1d7af3a2ef8663b1e">&#9670;&#160;</a></span>~CUnicodeString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CUnicodeString::~CUnicodeString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>析构函数 </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>PDVSDK-docs/PDVCore/<a class="el" href="_unicode_string_8h_source.html">UnicodeString.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="class_c_unicode_string.html">CUnicodeString</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

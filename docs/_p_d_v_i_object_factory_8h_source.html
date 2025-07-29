@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIObjectFactory.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_object_factory_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIObjectFactory.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_object_factory_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIOBJECTFACTORY_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIOBJECTFACTORY_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_scene_data_8h.html">PDVISceneData.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_material_8h.html">PDVIMaterial.h</a>&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_model_8h.html">PDVIModel.h</a>&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_mesh_8h.html">PDVIMesh.h</a>&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_attribute_8h.html">PDVIAttribute.h</a>&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_camera_8h.html">PDVICamera.h</a>&quot;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_annotation_8h.html">PDVIAnnotation.h</a>&quot;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_b_rep_8h.html">PDVIBRep.h</a>&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_primity_8h.html">PDVIPrimity.h</a>&quot;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_light_8h.html">PDVILight.h</a>&quot;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_texture_8h.html">PDVITexture.h</a>&quot;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_review_8h.html">PDVIReview.h</a>&quot;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_animation_8h.html">PDVIAnimation.h</a>&quot;</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_external_link_8h.html">PDVIExternalLink.h</a>&quot;</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_render_body_8h.html">PDVIRenderBody.h</a>&quot;</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_render_mesh_8h.html">PDVIRenderMesh.h</a>&quot;</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_render_geometry_8h.html">PDVIRenderGeometry.h</a>&quot;</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_render_body_subset_8h.html">PDVIRenderBodySubset.h</a>&quot;</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_physical_quantity_8h.html">PDVIPhysicalQuantity.h</a>&quot;</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_render_vertex_8h.html">PDVIRenderVertex.h</a>&quot;</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_result_config_8h.html">PDVIResultConfig.h</a>&quot;</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_reference_geometry_8h.html">PDVIReferenceGeometry.h</a>&quot;</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_node_subset_material_8h.html">PDVINodeSubsetMaterial.h</a>&quot;</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_instanced_mesh_8h.html">PDVIInstancedMesh.h</a>&quot;</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_batched_mesh_8h.html">PDVIBatchedMesh.h</a>&quot;</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_analysis_result_8h.html">PDVIAnalysisResult.h</a>&quot;</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>{</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
+<div class="foldopen" id="foldopen00048" data-start="{" data-end="};">
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html">   48</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_object_factory.html">IObjectFactory</a></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>{</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#acd64655c1914ae12ea68f1420100d7ae">   56</a></span>    <span class="keyword">static</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_object_factory.html">IObjectFactory</a>* <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#acd64655c1914ae12ea68f1420100d7ae">GetObjectFactory</a>();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#ace8e922017b5325775542174b9d09eb6">   64</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#ace8e922017b5325775542174b9d09eb6">CreateSceneData</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *&amp;oSceneData) = 0;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a7dbf8f6b193992b7c8f3bb04dc41de97">   73</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a7dbf8f6b193992b7c8f3bb04dc41de97">CreateModelTree</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_model_tree.html">IModelTree</a> *&amp;oModelTree) = 0;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#ae37980d391f7ccba1a0f1aa0b4f64f89">   82</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#ae37980d391f7ccba1a0f1aa0b4f64f89">CreateModel</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_model.html">IModel</a> *&amp;oModel) = 0;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#aaac992e20905d162096ec9a9dce2053e">   91</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#aaac992e20905d162096ec9a9dce2053e">CreateMesh</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_mesh.html">IMesh</a> *&amp;oMesh) = 0;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a7fdfd7f362b7794c4e5ec14fce147634">  100</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a7fdfd7f362b7794c4e5ec14fce147634">CreateBRep</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_b_rep.html">IBRep</a> *&amp;oBRep) = 0;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#abed6dc5bb6e22a23d558e3d83ea78280">  109</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#abed6dc5bb6e22a23d558e3d83ea78280">CreateAttribute</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_attribute.html">IAttribute</a> *&amp;oAttribute) = 0;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#ab49511fc50e98fc8849adc32f58d2034">  118</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#ab49511fc50e98fc8849adc32f58d2034">CreateCamera</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_camera.html">ICamera</a> *&amp;oCamera) = 0;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a261474205b4b9b0b3aa7b268ce53f064">  127</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a261474205b4b9b0b3aa7b268ce53f064">CreateMaterial</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_material.html">IMaterial</a> *&amp;oMaterial) = 0;</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a8b94994dd8590d2c3c2666bcb4067a63">  136</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a8b94994dd8590d2c3c2666bcb4067a63">CreateAnnotation</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_annotation.html">IAnnotation</a> *&amp;oAnnotation) = 0;</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span></div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a77586582fe467def0ea3196647729943">  145</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a77586582fe467def0ea3196647729943">CreateView</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_view.html">IView</a> *&amp;oView) = 0;</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span></div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a0d20d865d9f7baeeacc69a131f8a8384">  154</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a0d20d865d9f7baeeacc69a131f8a8384">CreateAnimation</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_animation.html">IAnimation</a> *&amp;oAnimation) = 0;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span></div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a31fa3ff8671b9db025cff17d65c32f73">  163</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a31fa3ff8671b9db025cff17d65c32f73">CreatePrimity</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_primity.html">IPrimity</a> *&amp;oPrimity) = 0;</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span></div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#aad355a2df028cf6271d2d39bc9514f7b">  172</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#aad355a2df028cf6271d2d39bc9514f7b">CreateLight</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_light.html">ILight</a> *&amp;oLight) = 0;</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span></div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a88a4f6e4b9d218d42542bea41d656446">  181</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a88a4f6e4b9d218d42542bea41d656446">CreateTexture</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_texture.html">ITexture</a> *&amp;oTexture) = 0;</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span></div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#af254377bbbf9a650c73777820a7eb008">  190</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#af254377bbbf9a650c73777820a7eb008">CreateResource</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_resource.html">IResource</a> *&amp;oResource) = 0;</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span></div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#abfd67cf713efc15ba348f1eadcbbf836">  199</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#abfd67cf713efc15ba348f1eadcbbf836">CreateReview</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a> *iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_review.html">IReview</a> *&amp;oReview) = 0;</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span></div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a0cea6bfef6133c2cdbf60555318a51d6">  208</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a0cea6bfef6133c2cdbf60555318a51d6">CreateRenderBody</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a>* iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_render_body.html">IRenderBody</a>*&amp; oRenderBody) = 0;</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span></div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a6c795284ace4a04c324149ac55e92f67">  217</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a6c795284ace4a04c324149ac55e92f67">CreateRenderMesh</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a>* iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_render_mesh.html">IRenderMesh</a>*&amp; oRenderMesh) = 0;</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span></div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a6dc657b261421c00792f65ef61ea023c">  226</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a6dc657b261421c00792f65ef61ea023c">CreateRenderVertex</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a>* iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_render_vertex.html">IRenderVertex</a>*&amp; oRenderVertex) = 0;</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span></div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a4101a72b8228d9ff7a01d60716ba8400">  235</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a4101a72b8228d9ff7a01d60716ba8400">CreateRenderGeometry</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a>* iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_render_geometry.html">IRenderGeometry</a>*&amp; oRenderGeometry) = 0;</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span></div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a990779244fb36c5643b7430ebb8c0eb2">  244</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a990779244fb36c5643b7430ebb8c0eb2">CreateRenderBodySubset</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a>* iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_render_body_subset.html">IRenderBodySubset</a>*&amp; oResultConfig) = 0;</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span></div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#ac8bf28b49984b832857479bff21b6863">  253</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#ac8bf28b49984b832857479bff21b6863">CreatePhysicalQuantity</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a>* iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_physical_quantity.html">IPhysicalQuantity</a>*&amp; oPhysicalQuantity) = 0;</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span></div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#ae538e467e52d1b69be1ad4e3f6531395">  262</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#ae538e467e52d1b69be1ad4e3f6531395">CreateResultConfig</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a>* iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_result_config.html">IResultConfig</a>*&amp; oResultConfig) = 0;</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span></div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#a15a3d2b935ff2a937c35538c3d4e8a5f">  271</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#a15a3d2b935ff2a937c35538c3d4e8a5f">CreateReferenceGeometryGroup</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a>* iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_reference_geometry_group.html">IReferenceGeometryGroup</a>*&amp; oReferenceGeometryGroup) = 0;</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span></div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#ade0f3654be734231cdae998768994b6f">  280</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#ade0f3654be734231cdae998768994b6f">CreateNodeSubsetMaterial</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a>* iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_node_subset_material.html">INodeSubsetMaterial</a>*&amp; oNodeSubsetMaterial) = 0;</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span></div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#acc2c148b51ba31a6bd9b3d7a3ceb64bb">  289</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#acc2c148b51ba31a6bd9b3d7a3ceb64bb">CreateInstancedMesh</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a>* iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_instanced_mesh.html">IInstancedMesh</a>*&amp; oInstancedMesh) = 0;</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span></div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#ae06293bb9607a0d26e24fae2ed35a13f">  298</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#ae06293bb9607a0d26e24fae2ed35a13f">CreateBatchedMesh</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a>* iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_batched_mesh.html">IBatchedMesh</a>*&amp; oBatchedMesh) = 0;</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span></div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_object_factory.html#ac9bb88b8be7353cf2ed6315ea07c56e3">  307</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_object_factory.html#ac9bb88b8be7353cf2ed6315ea07c56e3">CreateAnalysisResult</a>(<a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene_data.html">ISceneData</a>* iOwner, <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_analysis_result.html">IAnalysisResult</a>*&amp; oAnalysisResult) = 0;</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>};</div>
+</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span> </div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_analysis_result_8h_html"><div class="ttname"><a href="_p_d_v_i_analysis_result_8h.html">PDVIAnalysisResult.h</a></div><div class="ttdoc">概述：分析结果的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_animation_8h_html"><div class="ttname"><a href="_p_d_v_i_animation_8h.html">PDVIAnimation.h</a></div><div class="ttdoc">概述：动画的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_annotation_8h_html"><div class="ttname"><a href="_p_d_v_i_annotation_8h.html">PDVIAnnotation.h</a></div><div class="ttdoc">概述：标注的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_attribute_8h_html"><div class="ttname"><a href="_p_d_v_i_attribute_8h.html">PDVIAttribute.h</a></div><div class="ttdoc">概述：属性的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_b_rep_8h_html"><div class="ttname"><a href="_p_d_v_i_b_rep_8h.html">PDVIBRep.h</a></div><div class="ttdoc">概述：几何拓扑数据的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_batched_mesh_8h_html"><div class="ttname"><a href="_p_d_v_i_batched_mesh_8h.html">PDVIBatchedMesh.h</a></div><div class="ttdoc">概述：IBatchedMesh的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_camera_8h_html"><div class="ttname"><a href="_p_d_v_i_camera_8h.html">PDVICamera.h</a></div><div class="ttdoc">概述：摄像机数据的接口</div></div>
+<div class="ttc" id="a_p_d_v_i_external_link_8h_html"><div class="ttname"><a href="_p_d_v_i_external_link_8h.html">PDVIExternalLink.h</a></div><div class="ttdoc">概述：外部链接对象的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_instanced_mesh_8h_html"><div class="ttname"><a href="_p_d_v_i_instanced_mesh_8h.html">PDVIInstancedMesh.h</a></div><div class="ttdoc">概述：实例化网格接口说明</div></div>
+<div class="ttc" id="a_p_d_v_i_light_8h_html"><div class="ttname"><a href="_p_d_v_i_light_8h.html">PDVILight.h</a></div><div class="ttdoc">概述：灯光的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_material_8h_html"><div class="ttname"><a href="_p_d_v_i_material_8h.html">PDVIMaterial.h</a></div><div class="ttdoc">概述：材质的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_mesh_8h_html"><div class="ttname"><a href="_p_d_v_i_mesh_8h.html">PDVIMesh.h</a></div><div class="ttdoc">概述：网格数据的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_model_8h_html"><div class="ttname"><a href="_p_d_v_i_model_8h.html">PDVIModel.h</a></div><div class="ttdoc">概述：模型的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_node_subset_material_8h_html"><div class="ttname"><a href="_p_d_v_i_node_subset_material_8h.html">PDVINodeSubsetMaterial.h</a></div><div class="ttdoc">概述：NodeSubsetMaterial的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_physical_quantity_8h_html"><div class="ttname"><a href="_p_d_v_i_physical_quantity_8h.html">PDVIPhysicalQuantity.h</a></div><div class="ttdoc">概述：PDVIPhysicalQuantity的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_primity_8h_html"><div class="ttname"><a href="_p_d_v_i_primity_8h.html">PDVIPrimity.h</a></div><div class="ttdoc">概述：基本体的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_reference_geometry_8h_html"><div class="ttname"><a href="_p_d_v_i_reference_geometry_8h.html">PDVIReferenceGeometry.h</a></div><div class="ttdoc">概述：PDVIReferenceGeometry的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_render_body_8h_html"><div class="ttname"><a href="_p_d_v_i_render_body_8h.html">PDVIRenderBody.h</a></div><div class="ttdoc">概述：渲染主体的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_render_body_subset_8h_html"><div class="ttname"><a href="_p_d_v_i_render_body_subset_8h.html">PDVIRenderBodySubset.h</a></div><div class="ttdoc">概述：渲染主体子集的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_render_geometry_8h_html"><div class="ttname"><a href="_p_d_v_i_render_geometry_8h.html">PDVIRenderGeometry.h</a></div><div class="ttdoc">概述：PDVRenderGeometry的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_render_mesh_8h_html"><div class="ttname"><a href="_p_d_v_i_render_mesh_8h.html">PDVIRenderMesh.h</a></div><div class="ttdoc">概述：渲染网格的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_render_vertex_8h_html"><div class="ttname"><a href="_p_d_v_i_render_vertex_8h.html">PDVIRenderVertex.h</a></div><div class="ttdoc">概述：PDVIRenderVertex的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_result_config_8h_html"><div class="ttname"><a href="_p_d_v_i_result_config_8h.html">PDVIResultConfig.h</a></div><div class="ttdoc">概述：IResultConfig的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_review_8h_html"><div class="ttname"><a href="_p_d_v_i_review_8h.html">PDVIReview.h</a></div><div class="ttdoc">概述：审阅对象的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_data_8h_html"><div class="ttname"><a href="_p_d_v_i_scene_data_8h.html">PDVISceneData.h</a></div><div class="ttdoc">概述：包含SceneData的接口声明</div></div>
+<div class="ttc" id="a_p_d_v_i_texture_8h_html"><div class="ttname"><a href="_p_d_v_i_texture_8h.html">PDVITexture.h</a></div><div class="ttdoc">概述：纹理对象的接口声明</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_analysis_result_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_analysis_result.html">kernel::pdv::IAnalysisResult</a></div><div class="ttdoc">分析结果的接口</div><div class="ttdef"><b>定义</b> PDVIAnalysisResult.h:103</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_animation_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_animation.html">kernel::pdv::IAnimation</a></div><div class="ttdoc">动画的接口</div><div class="ttdef"><b>定义</b> PDVIAnimation.h:583</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_annotation_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_annotation.html">kernel::pdv::IAnnotation</a></div><div class="ttdoc">标注的接口</div><div class="ttdef"><b>定义</b> PDVIAnnotation.h:28</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_attribute_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_attribute.html">kernel::pdv::IAttribute</a></div><div class="ttdoc">属性的接口</div><div class="ttdef"><b>定义</b> PDVIAttribute.h:26</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_b_rep_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_b_rep.html">kernel::pdv::IBRep</a></div><div class="ttdoc">几何拓扑数据的接口</div><div class="ttdef"><b>定义</b> PDVIBRep.h:29</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_batched_mesh_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_batched_mesh.html">kernel::pdv::IBatchedMesh</a></div><div class="ttdoc">批处理网格的接口</div><div class="ttdef"><b>定义</b> PDVIBatchedMesh.h:109</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html">kernel::pdv::ICamera</a></div><div class="ttdoc">摄像机数据的接口</div><div class="ttdef"><b>定义</b> PDVICamera.h:30</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_instanced_mesh_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_instanced_mesh.html">kernel::pdv::IInstancedMesh</a></div><div class="ttdoc">实例化网格的接口</div><div class="ttdef"><b>定义</b> PDVIInstancedMesh.h:65</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_light_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_light.html">kernel::pdv::ILight</a></div><div class="ttdoc">灯光对象的接口</div><div class="ttdef"><b>定义</b> PDVILight.h:286</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_material_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_material.html">kernel::pdv::IMaterial</a></div><div class="ttdoc">材质的接口</div><div class="ttdef"><b>定义</b> PDVIMaterial.h:218</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_mesh_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_mesh.html">kernel::pdv::IMesh</a></div><div class="ttdoc">网格数据的接口</div><div class="ttdef"><b>定义</b> PDVIMesh.h:100</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model.html">kernel::pdv::IModel</a></div><div class="ttdoc">模型的接口</div><div class="ttdef"><b>定义</b> PDVIModel.h:46</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_model_tree_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_model_tree.html">kernel::pdv::IModelTree</a></div><div class="ttdoc">模型树的接口</div><div class="ttdef"><b>定义</b> PDVIModelTree.h:26</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_node_subset_material_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_node_subset_material.html">kernel::pdv::INodeSubsetMaterial</a></div><div class="ttdoc">节点面材质的接口</div><div class="ttdef"><b>定义</b> PDVINodeSubsetMaterial.h:153</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html">kernel::pdv::IObjectFactory</a></div><div class="ttdoc">PDV数据工厂接口</div><div class="ttdef"><b>定义</b> PDVIObjectFactory.h:49</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a0cea6bfef6133c2cdbf60555318a51d6"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a0cea6bfef6133c2cdbf60555318a51d6">kernel::pdv::IObjectFactory::CreateRenderBody</a></div><div class="ttdeci">virtual PDV_RESULT CreateRenderBody(ISceneData *iOwner, IRenderBody *&amp;oRenderBody)=0</div><div class="ttdoc">创建 IRenderBody 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a0d20d865d9f7baeeacc69a131f8a8384"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a0d20d865d9f7baeeacc69a131f8a8384">kernel::pdv::IObjectFactory::CreateAnimation</a></div><div class="ttdeci">virtual PDV_RESULT CreateAnimation(ISceneData *iOwner, IAnimation *&amp;oAnimation)=0</div><div class="ttdoc">创建 IAnimation 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a15a3d2b935ff2a937c35538c3d4e8a5f"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a15a3d2b935ff2a937c35538c3d4e8a5f">kernel::pdv::IObjectFactory::CreateReferenceGeometryGroup</a></div><div class="ttdeci">virtual PDV_RESULT CreateReferenceGeometryGroup(ISceneData *iOwner, IReferenceGeometryGroup *&amp;oReferenceGeometryGroup)=0</div><div class="ttdoc">创建 IReferenceGeometryGroup 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a261474205b4b9b0b3aa7b268ce53f064"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a261474205b4b9b0b3aa7b268ce53f064">kernel::pdv::IObjectFactory::CreateMaterial</a></div><div class="ttdeci">virtual PDV_RESULT CreateMaterial(ISceneData *iOwner, IMaterial *&amp;oMaterial)=0</div><div class="ttdoc">创建 IMaterial 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a31fa3ff8671b9db025cff17d65c32f73"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a31fa3ff8671b9db025cff17d65c32f73">kernel::pdv::IObjectFactory::CreatePrimity</a></div><div class="ttdeci">virtual PDV_RESULT CreatePrimity(ISceneData *iOwner, IPrimity *&amp;oPrimity)=0</div><div class="ttdoc">创建 IPrimity 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a4101a72b8228d9ff7a01d60716ba8400"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a4101a72b8228d9ff7a01d60716ba8400">kernel::pdv::IObjectFactory::CreateRenderGeometry</a></div><div class="ttdeci">virtual PDV_RESULT CreateRenderGeometry(ISceneData *iOwner, IRenderGeometry *&amp;oRenderGeometry)=0</div><div class="ttdoc">创建 IRenderGeometry 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a6c795284ace4a04c324149ac55e92f67"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a6c795284ace4a04c324149ac55e92f67">kernel::pdv::IObjectFactory::CreateRenderMesh</a></div><div class="ttdeci">virtual PDV_RESULT CreateRenderMesh(ISceneData *iOwner, IRenderMesh *&amp;oRenderMesh)=0</div><div class="ttdoc">创建 IRenderMesh 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a6dc657b261421c00792f65ef61ea023c"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a6dc657b261421c00792f65ef61ea023c">kernel::pdv::IObjectFactory::CreateRenderVertex</a></div><div class="ttdeci">virtual PDV_RESULT CreateRenderVertex(ISceneData *iOwner, IRenderVertex *&amp;oRenderVertex)=0</div><div class="ttdoc">创建 IRenderVertex 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a77586582fe467def0ea3196647729943"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a77586582fe467def0ea3196647729943">kernel::pdv::IObjectFactory::CreateView</a></div><div class="ttdeci">virtual PDV_RESULT CreateView(ISceneData *iOwner, IView *&amp;oView)=0</div><div class="ttdoc">创建 IView 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a7dbf8f6b193992b7c8f3bb04dc41de97"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a7dbf8f6b193992b7c8f3bb04dc41de97">kernel::pdv::IObjectFactory::CreateModelTree</a></div><div class="ttdeci">virtual PDV_RESULT CreateModelTree(ISceneData *iOwner, IModelTree *&amp;oModelTree)=0</div><div class="ttdoc">创建 IModelTree 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a7fdfd7f362b7794c4e5ec14fce147634"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a7fdfd7f362b7794c4e5ec14fce147634">kernel::pdv::IObjectFactory::CreateBRep</a></div><div class="ttdeci">virtual PDV_RESULT CreateBRep(ISceneData *iOwner, IBRep *&amp;oBRep)=0</div><div class="ttdoc">创建 IBRep 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a88a4f6e4b9d218d42542bea41d656446"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a88a4f6e4b9d218d42542bea41d656446">kernel::pdv::IObjectFactory::CreateTexture</a></div><div class="ttdeci">virtual PDV_RESULT CreateTexture(ISceneData *iOwner, ITexture *&amp;oTexture)=0</div><div class="ttdoc">创建 ITexture 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a8b94994dd8590d2c3c2666bcb4067a63"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a8b94994dd8590d2c3c2666bcb4067a63">kernel::pdv::IObjectFactory::CreateAnnotation</a></div><div class="ttdeci">virtual PDV_RESULT CreateAnnotation(ISceneData *iOwner, IAnnotation *&amp;oAnnotation)=0</div><div class="ttdoc">创建 IAnnotation 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_a990779244fb36c5643b7430ebb8c0eb2"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#a990779244fb36c5643b7430ebb8c0eb2">kernel::pdv::IObjectFactory::CreateRenderBodySubset</a></div><div class="ttdeci">virtual PDV_RESULT CreateRenderBodySubset(ISceneData *iOwner, IRenderBodySubset *&amp;oResultConfig)=0</div><div class="ttdoc">创建 IRenderBodySubset 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_aaac992e20905d162096ec9a9dce2053e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#aaac992e20905d162096ec9a9dce2053e">kernel::pdv::IObjectFactory::CreateMesh</a></div><div class="ttdeci">virtual PDV_RESULT CreateMesh(ISceneData *iOwner, IMesh *&amp;oMesh)=0</div><div class="ttdoc">创建 IMesh 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_aad355a2df028cf6271d2d39bc9514f7b"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#aad355a2df028cf6271d2d39bc9514f7b">kernel::pdv::IObjectFactory::CreateLight</a></div><div class="ttdeci">virtual PDV_RESULT CreateLight(ISceneData *iOwner, ILight *&amp;oLight)=0</div><div class="ttdoc">创建 ILight 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_ab49511fc50e98fc8849adc32f58d2034"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#ab49511fc50e98fc8849adc32f58d2034">kernel::pdv::IObjectFactory::CreateCamera</a></div><div class="ttdeci">virtual PDV_RESULT CreateCamera(ISceneData *iOwner, ICamera *&amp;oCamera)=0</div><div class="ttdoc">创建 ICamera 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_abed6dc5bb6e22a23d558e3d83ea78280"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#abed6dc5bb6e22a23d558e3d83ea78280">kernel::pdv::IObjectFactory::CreateAttribute</a></div><div class="ttdeci">virtual PDV_RESULT CreateAttribute(ISceneData *iOwner, IAttribute *&amp;oAttribute)=0</div><div class="ttdoc">创建 IAttribute 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_abfd67cf713efc15ba348f1eadcbbf836"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#abfd67cf713efc15ba348f1eadcbbf836">kernel::pdv::IObjectFactory::CreateReview</a></div><div class="ttdeci">virtual PDV_RESULT CreateReview(ISceneData *iOwner, IReview *&amp;oReview)=0</div><div class="ttdoc">创建 IReview 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_ac8bf28b49984b832857479bff21b6863"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#ac8bf28b49984b832857479bff21b6863">kernel::pdv::IObjectFactory::CreatePhysicalQuantity</a></div><div class="ttdeci">virtual PDV_RESULT CreatePhysicalQuantity(ISceneData *iOwner, IPhysicalQuantity *&amp;oPhysicalQuantity)=0</div><div class="ttdoc">创建 IPhysicalQuantity 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_ac9bb88b8be7353cf2ed6315ea07c56e3"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#ac9bb88b8be7353cf2ed6315ea07c56e3">kernel::pdv::IObjectFactory::CreateAnalysisResult</a></div><div class="ttdeci">virtual PDV_RESULT CreateAnalysisResult(ISceneData *iOwner, IAnalysisResult *&amp;oAnalysisResult)=0</div><div class="ttdoc">创建 IAnalysisResult 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_acc2c148b51ba31a6bd9b3d7a3ceb64bb"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#acc2c148b51ba31a6bd9b3d7a3ceb64bb">kernel::pdv::IObjectFactory::CreateInstancedMesh</a></div><div class="ttdeci">virtual PDV_RESULT CreateInstancedMesh(ISceneData *iOwner, IInstancedMesh *&amp;oInstancedMesh)=0</div><div class="ttdoc">创建 IInstancedMesh 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_acd64655c1914ae12ea68f1420100d7ae"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#acd64655c1914ae12ea68f1420100d7ae">kernel::pdv::IObjectFactory::GetObjectFactory</a></div><div class="ttdeci">static IObjectFactory * GetObjectFactory()</div><div class="ttdoc">获取 IObjectFactory 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_ace8e922017b5325775542174b9d09eb6"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#ace8e922017b5325775542174b9d09eb6">kernel::pdv::IObjectFactory::CreateSceneData</a></div><div class="ttdeci">virtual PDV_RESULT CreateSceneData(ISceneData *&amp;oSceneData)=0</div><div class="ttdoc">创建 ISceneData 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_ade0f3654be734231cdae998768994b6f"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#ade0f3654be734231cdae998768994b6f">kernel::pdv::IObjectFactory::CreateNodeSubsetMaterial</a></div><div class="ttdeci">virtual PDV_RESULT CreateNodeSubsetMaterial(ISceneData *iOwner, INodeSubsetMaterial *&amp;oNodeSubsetMaterial)=0</div><div class="ttdoc">创建 INodeSubsetMaterial 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_ae06293bb9607a0d26e24fae2ed35a13f"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#ae06293bb9607a0d26e24fae2ed35a13f">kernel::pdv::IObjectFactory::CreateBatchedMesh</a></div><div class="ttdeci">virtual PDV_RESULT CreateBatchedMesh(ISceneData *iOwner, IBatchedMesh *&amp;oBatchedMesh)=0</div><div class="ttdoc">创建 IBatchedMesh 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_ae37980d391f7ccba1a0f1aa0b4f64f89"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#ae37980d391f7ccba1a0f1aa0b4f64f89">kernel::pdv::IObjectFactory::CreateModel</a></div><div class="ttdeci">virtual PDV_RESULT CreateModel(ISceneData *iOwner, IModel *&amp;oModel)=0</div><div class="ttdoc">创建 IModel 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_ae538e467e52d1b69be1ad4e3f6531395"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#ae538e467e52d1b69be1ad4e3f6531395">kernel::pdv::IObjectFactory::CreateResultConfig</a></div><div class="ttdeci">virtual PDV_RESULT CreateResultConfig(ISceneData *iOwner, IResultConfig *&amp;oResultConfig)=0</div><div class="ttdoc">创建 IResultConfig 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_object_factory_html_af254377bbbf9a650c73777820a7eb008"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_object_factory.html#af254377bbbf9a650c73777820a7eb008">kernel::pdv::IObjectFactory::CreateResource</a></div><div class="ttdeci">virtual PDV_RESULT CreateResource(ISceneData *iOwner, IResource *&amp;oResource)=0</div><div class="ttdoc">创建 IResource 接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_physical_quantity_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_physical_quantity.html">kernel::pdv::IPhysicalQuantity</a></div><div class="ttdoc">物理量的接口</div><div class="ttdef"><b>定义</b> PDVIPhysicalQuantity.h:79</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_primity_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_primity.html">kernel::pdv::IPrimity</a></div><div class="ttdoc">基本体的接口</div><div class="ttdef"><b>定义</b> PDVIPrimity.h:319</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_reference_geometry_group_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_reference_geometry_group.html">kernel::pdv::IReferenceGeometryGroup</a></div><div class="ttdoc">辅助几何集集合的接口</div><div class="ttdef"><b>定义</b> PDVIReferenceGeometry.h:84</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body.html">kernel::pdv::IRenderBody</a></div><div class="ttdoc">渲染主体的接口</div><div class="ttdef"><b>定义</b> PDVIRenderBody.h:30</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_body_subset_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_body_subset.html">kernel::pdv::IRenderBodySubset</a></div><div class="ttdoc">场景数据的接口</div><div class="ttdef"><b>定义</b> PDVIRenderBodySubset.h:165</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_geometry_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_geometry.html">kernel::pdv::IRenderGeometry</a></div><div class="ttdoc">渲染几何体的接口</div><div class="ttdef"><b>定义</b> PDVIRenderGeometry.h:23</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_mesh_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_mesh.html">kernel::pdv::IRenderMesh</a></div><div class="ttdoc">渲染网格的接口</div><div class="ttdef"><b>定义</b> PDVIRenderMesh.h:72</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_render_vertex_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_render_vertex.html">kernel::pdv::IRenderVertex</a></div><div class="ttdoc">顶点数据的接口</div><div class="ttdef"><b>定义</b> PDVIRenderVertex.h:83</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_resource_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_resource.html">kernel::pdv::IResource</a></div><div class="ttdoc">资源的接口</div><div class="ttdef"><b>定义</b> PDVIResource.h:44</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_result_config_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_result_config.html">kernel::pdv::IResultConfig</a></div><div class="ttdoc">分析结果配置的接口</div><div class="ttdef"><b>定义</b> PDVIResultConfig.h:70</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_review_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_review.html">kernel::pdv::IReview</a></div><div class="ttdoc">审阅对象的接口</div><div class="ttdef"><b>定义</b> PDVIReview.h:33</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_data_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene_data.html">kernel::pdv::ISceneData</a></div><div class="ttdoc">场景数据接口</div><div class="ttdef"><b>定义</b> PDVISceneData.h:94</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_texture_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_texture.html">kernel::pdv::ITexture</a></div><div class="ttdoc">纹理的接口</div><div class="ttdef"><b>定义</b> PDVITexture.h:53</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_view_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_view.html">kernel::pdv::IView</a></div><div class="ttdoc">视图的接口</div><div class="ttdef"><b>定义</b> PDVIView.h:34</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_object_factory_8h.html">PDVIObjectFactory.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

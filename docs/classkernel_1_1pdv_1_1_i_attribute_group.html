@@ -1,0 +1,704 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: kernel::pdv::IAttributeGroup类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('classkernel_1_1pdv_1_1_i_attribute_group.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">kernel::pdv::IAttributeGroup类 参考<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>属性组的接口  
+ <a href="#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_p_d_v_i_attribute_group_8h_source.html">PDVIAttributeGroup.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a447b4f465135e90bd530581a9516dd1f" id="r_a447b4f465135e90bd530581a9516dd1f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a447b4f465135e90bd530581a9516dd1f">GetID</a> ()=0</td></tr>
+<tr class="memdesc:a447b4f465135e90bd530581a9516dd1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取属性组对象唯一标识  <br /></td></tr>
+<tr class="memitem:aef2c73b8f075c24e378e5e5a0c07dcbb" id="r_aef2c73b8f075c24e378e5e5a0c07dcbb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef2c73b8f075c24e378e5e5a0c07dcbb">GetName</a> (<a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oName)=0</td></tr>
+<tr class="memdesc:aef2c73b8f075c24e378e5e5a0c07dcbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取属性组命名  <br /></td></tr>
+<tr class="memitem:aa876bb8f377b55a125b6c13bebf8a4d4" id="r_aa876bb8f377b55a125b6c13bebf8a4d4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa876bb8f377b55a125b6c13bebf8a4d4">SetName</a> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iName)=0</td></tr>
+<tr class="memdesc:aa876bb8f377b55a125b6c13bebf8a4d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置属性组命名  <br /></td></tr>
+<tr class="memitem:a776cc549ef1279f8ce6aa17c5912c615" id="r_a776cc549ef1279f8ce6aa17c5912c615"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_attribute.html">IAttribute</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a776cc549ef1279f8ce6aa17c5912c615">GetOwner</a> ()=0</td></tr>
+<tr class="memdesc:a776cc549ef1279f8ce6aa17c5912c615"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取所属属性对象  <br /></td></tr>
+<tr class="memitem:ac36770f32e2859af099092dd2afc5f28" id="r_ac36770f32e2859af099092dd2afc5f28"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac36770f32e2859af099092dd2afc5f28">AddBooleanAttributeItem</a> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iKey, <a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a> iValue, <a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;oNewAttributeItem)=0</td></tr>
+<tr class="memdesc:ac36770f32e2859af099092dd2afc5f28"><td class="mdescLeft">&#160;</td><td class="mdescRight">增加布尔类型属性项  <br /></td></tr>
+<tr class="memitem:a874b959fd7748cd034e6757f7a3298c0" id="r_a874b959fd7748cd034e6757f7a3298c0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a874b959fd7748cd034e6757f7a3298c0">AddIntegerAttributeItem</a> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iKey, <a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a> iValue, <a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;oNewAttributeItem)=0</td></tr>
+<tr class="memdesc:a874b959fd7748cd034e6757f7a3298c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">增加整型属性项  <br /></td></tr>
+<tr class="memitem:a0a6b224f8bc336477e53f1100dd90d1c" id="r_a0a6b224f8bc336477e53f1100dd90d1c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a6b224f8bc336477e53f1100dd90d1c">AddFloatAttributeItem</a> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iKey, <a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iValue, <a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;oNewAttributeItem)=0</td></tr>
+<tr class="memdesc:a0a6b224f8bc336477e53f1100dd90d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">增加单精度浮点型属性项  <br /></td></tr>
+<tr class="memitem:adf6278306850c20af2f1a6706ade8f83" id="r_adf6278306850c20af2f1a6706ade8f83"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf6278306850c20af2f1a6706ade8f83">AddDoubleAttributeItem</a> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iKey, <a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a> iValue, <a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;oNewAttributeItem)=0</td></tr>
+<tr class="memdesc:adf6278306850c20af2f1a6706ade8f83"><td class="mdescLeft">&#160;</td><td class="mdescRight">增加双精度浮点型属性项  <br /></td></tr>
+<tr class="memitem:a76d74a4130bee758a6d3b0a69b2f0d63" id="r_a76d74a4130bee758a6d3b0a69b2f0d63"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76d74a4130bee758a6d3b0a69b2f0d63">AddVectorFloat3AttributeItem</a> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iKey, const <a class="el" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;iValue, <a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;oNewAttributeItem)=0</td></tr>
+<tr class="memdesc:a76d74a4130bee758a6d3b0a69b2f0d63"><td class="mdescLeft">&#160;</td><td class="mdescRight">增加单精度浮点三维向量属性项  <br /></td></tr>
+<tr class="memitem:a650c993c0fbdd4ae7c9760bd8d500646" id="r_a650c993c0fbdd4ae7c9760bd8d500646"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a650c993c0fbdd4ae7c9760bd8d500646">AddVectorDouble3AttributeItem</a> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iKey, const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;iValue, <a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;oNewAttributeItem)=0</td></tr>
+<tr class="memdesc:a650c993c0fbdd4ae7c9760bd8d500646"><td class="mdescLeft">&#160;</td><td class="mdescRight">增加双精度浮点三维向量属性项  <br /></td></tr>
+<tr class="memitem:a8f46815f81e2d4b17dbac098b1512e7a" id="r_a8f46815f81e2d4b17dbac098b1512e7a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f46815f81e2d4b17dbac098b1512e7a">AddStringAttributeItem</a> (const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iKey, const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iValue, <a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;oNewAttributeItem)=0</td></tr>
+<tr class="memdesc:a8f46815f81e2d4b17dbac098b1512e7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">增加字符串属性项  <br /></td></tr>
+<tr class="memitem:a310ae0e0bc8fe3df511c3f196271fd32" id="r_a310ae0e0bc8fe3df511c3f196271fd32"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a310ae0e0bc8fe3df511c3f196271fd32">ClearAttributeItem</a> ()=0</td></tr>
+<tr class="memdesc:a310ae0e0bc8fe3df511c3f196271fd32"><td class="mdescLeft">&#160;</td><td class="mdescRight">清空属性组  <br /></td></tr>
+<tr class="memitem:ae12dbfa5a9826d2929e8cc47ce5a376e" id="r_ae12dbfa5a9826d2929e8cc47ce5a376e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae12dbfa5a9826d2929e8cc47ce5a376e">GetAttributeItemCount</a> ()=0</td></tr>
+<tr class="memdesc:ae12dbfa5a9826d2929e8cc47ce5a376e"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取属性项的数量  <br /></td></tr>
+<tr class="memitem:a949707f7d692475474d253c658040885" id="r_a949707f7d692475474d253c658040885"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a949707f7d692475474d253c658040885">GetAttributeItemArray</a> (std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> * &gt; &amp;oAttributeItemArray)=0</td></tr>
+<tr class="memdesc:a949707f7d692475474d253c658040885"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取属性项的数组  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>属性组的接口 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">成员函数说明</h2>
+<a id="ac36770f32e2859af099092dd2afc5f28" name="ac36770f32e2859af099092dd2afc5f28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac36770f32e2859af099092dd2afc5f28">&#9670;&#160;</a></span>AddBooleanAttributeItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAttributeGroup::AddBooleanAttributeItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iKey</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#aa0f85f8d3a1d218672e4d650f38fb674">DftBool</a></td>          <td class="paramname"><span class="paramname"><em>iValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;</td>          <td class="paramname"><span class="paramname"><em>oNewAttributeItem</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>增加布尔类型属性项 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>属性项键值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iValue</td><td>属性项布尔数值 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oNewAttributeItem</td><td>新的属性项对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="adf6278306850c20af2f1a6706ade8f83" name="adf6278306850c20af2f1a6706ade8f83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6278306850c20af2f1a6706ade8f83">&#9670;&#160;</a></span>AddDoubleAttributeItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAttributeGroup::AddDoubleAttributeItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iKey</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a498a500cb0cd9d5cbb7f60d581454d8e">DftDouble</a></td>          <td class="paramname"><span class="paramname"><em>iValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;</td>          <td class="paramname"><span class="paramname"><em>oNewAttributeItem</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>增加双精度浮点型属性项 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>属性项键值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iValue</td><td>属性项双精度浮点型数值 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oNewAttributeItem</td><td>新的属性项对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a0a6b224f8bc336477e53f1100dd90d1c" name="a0a6b224f8bc336477e53f1100dd90d1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a6b224f8bc336477e53f1100dd90d1c">&#9670;&#160;</a></span>AddFloatAttributeItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAttributeGroup::AddFloatAttributeItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iKey</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></td>          <td class="paramname"><span class="paramname"><em>iValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;</td>          <td class="paramname"><span class="paramname"><em>oNewAttributeItem</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>增加单精度浮点型属性项 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>属性项键值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iValue</td><td>属性项单精度浮点型数值 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oNewAttributeItem</td><td>新的属性项对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a874b959fd7748cd034e6757f7a3298c0" name="a874b959fd7748cd034e6757f7a3298c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a874b959fd7748cd034e6757f7a3298c0">&#9670;&#160;</a></span>AddIntegerAttributeItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAttributeGroup::AddIntegerAttributeItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iKey</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_dft_types_8h.html#af0fc3c96826067c11a44bb8caca06b9e">DftInt</a></td>          <td class="paramname"><span class="paramname"><em>iValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;</td>          <td class="paramname"><span class="paramname"><em>oNewAttributeItem</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>增加整型属性项 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>属性项键值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iValue</td><td>属性项整型数值 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oNewAttributeItem</td><td>新的属性项对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a8f46815f81e2d4b17dbac098b1512e7a" name="a8f46815f81e2d4b17dbac098b1512e7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f46815f81e2d4b17dbac098b1512e7a">&#9670;&#160;</a></span>AddStringAttributeItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAttributeGroup::AddStringAttributeItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iKey</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;</td>          <td class="paramname"><span class="paramname"><em>oNewAttributeItem</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>增加字符串属性项 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>属性项键值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iValue</td><td>属性项字符串属性项数值 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oNewAttributeItem</td><td>新的属性项对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a650c993c0fbdd4ae7c9760bd8d500646" name="a650c993c0fbdd4ae7c9760bd8d500646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a650c993c0fbdd4ae7c9760bd8d500646">&#9670;&#160;</a></span>AddVectorDouble3AttributeItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAttributeGroup::AddVectorDouble3AttributeItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iKey</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_d.html">PDVVector3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;</td>          <td class="paramname"><span class="paramname"><em>oNewAttributeItem</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>增加双精度浮点三维向量属性项 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>属性项键值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iValue</td><td>属性项双精度浮点三维向量数值 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oNewAttributeItem</td><td>新的属性项对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a76d74a4130bee758a6d3b0a69b2f0d63" name="a76d74a4130bee758a6d3b0a69b2f0d63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76d74a4130bee758a6d3b0a69b2f0d63">&#9670;&#160;</a></span>AddVectorFloat3AttributeItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAttributeGroup::AddVectorFloat3AttributeItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iKey</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> *&amp;</td>          <td class="paramname"><span class="paramname"><em>oNewAttributeItem</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>增加单精度浮点三维向量属性项 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>属性项键值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iValue</td><td>属性项单精度浮点三维向量数值 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">oNewAttributeItem</td><td>新的属性项对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a310ae0e0bc8fe3df511c3f196271fd32" name="a310ae0e0bc8fe3df511c3f196271fd32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a310ae0e0bc8fe3df511c3f196271fd32">&#9670;&#160;</a></span>ClearAttributeItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAttributeGroup::ClearAttributeItem </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>清空属性组 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a949707f7d692475474d253c658040885" name="a949707f7d692475474d253c658040885"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a949707f7d692475474d253c658040885">&#9670;&#160;</a></span>GetAttributeItemArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAttributeGroup::GetAttributeItemArray </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classkernel_1_1pdv_1_1_i_attribute_item.html">IAttributeItem</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oAttributeItemArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取属性项的数组 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oAttributeItemArray</td><td>返回Item的数组 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ae12dbfa5a9826d2929e8cc47ce5a376e" name="ae12dbfa5a9826d2929e8cc47ce5a376e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae12dbfa5a9826d2929e8cc47ce5a376e">&#9670;&#160;</a></span>GetAttributeItemCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> kernel::pdv::IAttributeGroup::GetAttributeItemCount </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取属性项的数量 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f" title="无符号整数">DftUInt</a> 返回Item的数量 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a447b4f465135e90bd530581a9516dd1f" name="a447b4f465135e90bd530581a9516dd1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a447b4f465135e90bd530581a9516dd1f">&#9670;&#160;</a></span>GetID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> kernel::pdv::IAttributeGroup::GetID </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取属性组对象唯一标识 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33" title="64位无符号整数">DftUInt64</a> 属性组对象唯一标识 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aef2c73b8f075c24e378e5e5a0c07dcbb" name="aef2c73b8f075c24e378e5e5a0c07dcbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef2c73b8f075c24e378e5e5a0c07dcbb">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAttributeGroup::GetName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取属性组命名 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">oName</td><td>属性组命名 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a776cc549ef1279f8ce6aa17c5912c615" name="a776cc549ef1279f8ce6aa17c5912c615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a776cc549ef1279f8ce6aa17c5912c615">&#9670;&#160;</a></span>GetOwner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classkernel_1_1pdv_1_1_i_attribute.html">IAttribute</a> * kernel::pdv::IAttributeGroup::GetOwner </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取所属属性对象 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classkernel_1_1pdv_1_1_i_attribute.html" title="属性的接口">IAttribute</a> * 所属属性对象 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aa876bb8f377b55a125b6c13bebf8a4d4" name="aa876bb8f377b55a125b6c13bebf8a4d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa876bb8f377b55a125b6c13bebf8a4d4">&#9670;&#160;</a></span>SetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> kernel::pdv::IAttributeGroup::SetName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_unicode_string.html">CUnicodeString</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>iName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置属性组命名 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d" title="函数返回结果类型">PDV_RESULT</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iName</td><td>属性组命名 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd></dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>PDVSDK-docs/PDVCore/<a class="el" href="_p_d_v_i_attribute_group_8h_source.html">PDVIAttributeGroup.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>kernel</b></li><li class="navelem"><b>pdv</b></li><li class="navelem"><a href="classkernel_1_1pdv_1_1_i_attribute_group.html">IAttributeGroup</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+{
+	"renderMeshes(size = 6)":	{
+		"renderMesh[0]":	{
+			"_id":	"251546253785579522",
+			"_type":	1,
+			"_renderGeomInfos(size = 1)":	{
+				"_renderGeomInfos[0]":	{
+					"_renderGeometryID":	"251546253785579521",
+					"_lodDetail":	0
+				}
+			},
+			"_materialID":	"251546253781385217",
+			"_box":	{
+				"_center":	[50, 50, 50],
+				"_vectorX":	[50, 0, 0],
+				"_vectorY":	[0, 50, 0],
+				"_vectorZ":	[0, 0, 50]
+			},
+			"_renderMethod":	1,
+			"_batchedMeshID":	"(invalid)",
+			"_instancedMeshID":	"(invalid)",
+			"_refCount":	0
+		},
+		"renderMesh[1]":	{
+			"_id":	"251546253789773826",
+			"_type":	1,
+			"_renderGeomInfos(size = 1)":	{
+				"_renderGeomInfos[0]":	{
+					"_renderGeometryID":	"251546253789773825",
+					"_lodDetail":	0
+				}
+			},
+			"_materialID":	"251546253789773824",
+			"_box":	{
+				"_center":	[50, 50, 50],
+				"_vectorX":	[50, 0, 0],
+				"_vectorY":	[0, 50, 0],
+				"_vectorZ":	[0, 0, 50]
+			},
+			"_renderMethod":	1,
+			"_batchedMeshID":	"(invalid)",
+			"_instancedMeshID":	"(invalid)",
+			"_refCount":	0
+		},
+		"renderMesh[2]":	{
+			"_id":	"251546254100152403",
+			"_type":	1,
+			"_renderGeomInfos(size = 1)":	{
+				"_renderGeomInfos[0]":	{
+					"_renderGeometryID":	"251546254100152402",
+					"_lodDetail":	0
+				}
+			},
+			"_materialID":	"251546254100152400",
+			"_box":	{
+				"_center":	[50, 50, 50],
+				"_vectorX":	[50, 0, 0],
+				"_vectorY":	[0, 50, 0],
+				"_vectorZ":	[0, 0, 50]
+			},
+			"_renderMethod":	1,
+			"_batchedMeshID":	"(invalid)",
+			"_instancedMeshID":	"(invalid)",
+			"_refCount":	0
+		},
+		"renderMesh[3]":	{
+			"_id":	"251546254104346625",
+			"_type":	1,
+			"_renderGeomInfos(size = 1)":	{
+				"_renderGeomInfos[0]":	{
+					"_renderGeometryID":	"251546254104346624",
+					"_lodDetail":	0
+				}
+			},
+			"_materialID":	"251546253789773824",
+			"_box":	{
+				"_center":	[50, 50, 50],
+				"_vectorX":	[50, 0, 0],
+				"_vectorY":	[0, 50, 0],
+				"_vectorZ":	[0, 0, 50]
+			},
+			"_renderMethod":	1,
+			"_batchedMeshID":	"(invalid)",
+			"_instancedMeshID":	"(invalid)",
+			"_refCount":	0
+		},
+		"renderMesh[4]":	{
+			"_id":	"251546254150483972",
+			"_type":	1,
+			"_renderGeomInfos(size = 1)":	{
+				"_renderGeomInfos[0]":	{
+					"_renderGeometryID":	"251546254150483971",
+					"_lodDetail":	0
+				}
+			},
+			"_materialID":	"251546254150483969",
+			"_box":	{
+				"_center":	[50, 50, 50],
+				"_vectorX":	[50, 0, 0],
+				"_vectorY":	[0, 50, 0],
+				"_vectorZ":	[0, 0, 50]
+			},
+			"_renderMethod":	1,
+			"_batchedMeshID":	"(invalid)",
+			"_instancedMeshID":	"(invalid)",
+			"_refCount":	0
+		},
+		"renderMesh[5]":	{
+			"_id":	"251546254150483980",
+			"_type":	1,
+			"_renderGeomInfos(size = 1)":	{
+				"_renderGeomInfos[0]":	{
+					"_renderGeometryID":	"251546254150483979",
+					"_lodDetail":	0
+				}
+			},
+			"_materialID":	"251546253789773824",
+			"_box":	{
+				"_center":	[50, 50, 50],
+				"_vectorX":	[50, 0, 0],
+				"_vectorY":	[0, 50, 0],
+				"_vectorZ":	[0, 0, 50]
+			},
+			"_renderMethod":	1,
+			"_batchedMeshID":	"(invalid)",
+			"_instancedMeshID":	"(invalid)",
+			"_refCount":	0
+		}
+	}
+}

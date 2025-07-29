@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVICamera.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_camera_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVICamera.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_camera_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVICAMERA_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVICAMERA_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_p_d_v_i_camera_8h.html#ad11227e5bdbfa88ee2966f1b86949d66">   22</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_camera_8h.html#ad11227e5bdbfa88ee2966f1b86949d66">CameraType</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_p_d_v_i_camera_8h.html#ad11227e5bdbfa88ee2966f1b86949d66a64929cf4ede17d4989a8c2891e386266">   24</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_camera_8h.html#ad11227e5bdbfa88ee2966f1b86949d66a64929cf4ede17d4989a8c2891e386266">PERSPECTIVE</a> = 1, </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_d_v_i_camera_8h.html#ad11227e5bdbfa88ee2966f1b86949d66a4e768effb5715c2a553dc76364f9238b">   25</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_camera_8h.html#ad11227e5bdbfa88ee2966f1b86949d66a4e768effb5715c2a553dc76364f9238b">PARALLEL</a> = 2     </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>};</div>
+</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
+<div class="foldopen" id="foldopen00029" data-start="{" data-end="};">
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html">   29</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_camera.html">ICamera</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>{</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#a0b6de744af55a1e3b01e48632f243e3b">   37</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#a0b6de744af55a1e3b01e48632f243e3b">GetType</a>() = 0;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#ab85fda4ff924ee193ac6de3d356c6902">   45</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#ab85fda4ff924ee193ac6de3d356c6902">SetType</a>(<a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a> iType) = 0;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#a65ddcaeacc6f47ee8fdea2f40f8ba6b2">   52</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#a65ddcaeacc6f47ee8fdea2f40f8ba6b2">GetFOV</a>() = 0;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#a347feece2c93a7f5d0f055c26543c564">   60</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#a347feece2c93a7f5d0f055c26543c564">SetFOV</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a>&amp; iFOV) = 0;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#ab88f2889e020280057b6ca4ebc58ad59">   67</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#ab88f2889e020280057b6ca4ebc58ad59">GetXSize</a>() = 0;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#a691d6ddcefece6560287251b92e32238">   75</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#a691d6ddcefece6560287251b92e32238">SetXSize</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iXSize) = 0;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#ae4d8ef43257d91d5476a580a297a4ab2">   82</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#ae4d8ef43257d91d5476a580a297a4ab2">GetYSize</a>() = 0;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#a606da72f179eb6065d2ce86d8360b0ef">   90</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#a606da72f179eb6065d2ce86d8360b0ef">SetYSize</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> iYSize) = 0;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#a48780f64c2eb8ed0585eea0f665ba5e0">   98</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#a48780f64c2eb8ed0585eea0f665ba5e0">GetPosition</a>(<a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;oPosition) = 0;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#a605a38f13f2b0c3b83bea6bf84b090b7">  106</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#a605a38f13f2b0c3b83bea6bf84b090b7">SetPosition</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;iPosition) = 0;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#ae2e7146fe42ad94feeed0fd895208c40">  114</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#ae2e7146fe42ad94feeed0fd895208c40">GetTarget</a>(<a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;oTarget) = 0;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#a2612279cf1d0c9567c911390818026b8">  122</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#a2612279cf1d0c9567c911390818026b8">SetTarget</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;iTarget) = 0;</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#ad271e082a1e8e841f6e87388ddb35e7d">  130</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#ad271e082a1e8e841f6e87388ddb35e7d">GetUp</a>(<a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;oUp) = 0;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span></div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#af696d9a496394893a1a0c761271debe3">  138</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#af696d9a496394893a1a0c761271debe3">SetUp</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_vector3_f.html">PDVVector3F</a> &amp;iUp) = 0;</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span></div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#a6135d7a5803f3a49b25a2a2e150f6c34">  145</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#a6135d7a5803f3a49b25a2a2e150f6c34">GetZNear</a>() = 0;</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span></div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#abb6351c911594b00282ad54b06dfbbb5">  153</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#abb6351c911594b00282ad54b06dfbbb5">SetZNear</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iZNear) = 0;</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span></div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#ae26f6aea9b8d0dc245dbaafc6ddf1ebb">  160</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#ae26f6aea9b8d0dc245dbaafc6ddf1ebb">GetZFar</a>() = 0;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span></div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_camera.html#a3510930ebef1e4d255fba6aae3131b5e">  168</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_camera.html#a3510930ebef1e4d255fba6aae3131b5e">SetZFar</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a> &amp;iZFar) = 0;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>};</div>
+</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a7d52a2546e42c2a67869161bc9af895b"><div class="ttname"><a href="_dft_types_8h.html#a7d52a2546e42c2a67869161bc9af895b">DftFloat</a></div><div class="ttdeci">float DftFloat</div><div class="ttdoc">单精度浮点数</div><div class="ttdef"><b>定义</b> DftTypes.h:66</div></div>
+<div class="ttc" id="a_dft_types_8h_html_ab3a04804b0cf7c050b58e7e7807455d6"><div class="ttname"><a href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></div><div class="ttdeci">unsigned char DftUInt8</div><div class="ttdoc">8位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:52</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_camera_8h_html_ad11227e5bdbfa88ee2966f1b86949d66"><div class="ttname"><a href="_p_d_v_i_camera_8h.html#ad11227e5bdbfa88ee2966f1b86949d66">kernel::pdv::CameraType</a></div><div class="ttdeci">CameraType</div><div class="ttdoc">摄像机类型</div><div class="ttdef"><b>定义</b> PDVICamera.h:23</div></div>
+<div class="ttc" id="a_p_d_v_i_camera_8h_html_ad11227e5bdbfa88ee2966f1b86949d66a4e768effb5715c2a553dc76364f9238b"><div class="ttname"><a href="_p_d_v_i_camera_8h.html#ad11227e5bdbfa88ee2966f1b86949d66a4e768effb5715c2a553dc76364f9238b">kernel::pdv::PARALLEL</a></div><div class="ttdeci">@ PARALLEL</div><div class="ttdoc">平行摄像机</div><div class="ttdef"><b>定义</b> PDVICamera.h:25</div></div>
+<div class="ttc" id="a_p_d_v_i_camera_8h_html_ad11227e5bdbfa88ee2966f1b86949d66a64929cf4ede17d4989a8c2891e386266"><div class="ttname"><a href="_p_d_v_i_camera_8h.html#ad11227e5bdbfa88ee2966f1b86949d66a64929cf4ede17d4989a8c2891e386266">kernel::pdv::PERSPECTIVE</a></div><div class="ttdeci">@ PERSPECTIVE</div><div class="ttdoc">透视摄像机</div><div class="ttdef"><b>定义</b> PDVICamera.h:24</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html">kernel::pdv::ICamera</a></div><div class="ttdoc">摄像机数据的接口</div><div class="ttdef"><b>定义</b> PDVICamera.h:30</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_a0b6de744af55a1e3b01e48632f243e3b"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#a0b6de744af55a1e3b01e48632f243e3b">kernel::pdv::ICamera::GetType</a></div><div class="ttdeci">virtual DftUInt8 GetType()=0</div><div class="ttdoc">获取相机类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_a2612279cf1d0c9567c911390818026b8"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#a2612279cf1d0c9567c911390818026b8">kernel::pdv::ICamera::SetTarget</a></div><div class="ttdeci">virtual PDV_RESULT SetTarget(const PDVVector3F &amp;iTarget)=0</div><div class="ttdoc">设置摄像机兴趣点位置</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_a347feece2c93a7f5d0f055c26543c564"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#a347feece2c93a7f5d0f055c26543c564">kernel::pdv::ICamera::SetFOV</a></div><div class="ttdeci">virtual PDV_RESULT SetFOV(const DftFloat &amp;iFOV)=0</div><div class="ttdoc">设置Y方向的视角(弧度值)</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_a3510930ebef1e4d255fba6aae3131b5e"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#a3510930ebef1e4d255fba6aae3131b5e">kernel::pdv::ICamera::SetZFar</a></div><div class="ttdeci">virtual PDV_RESULT SetZFar(const DftFloat &amp;iZFar)=0</div><div class="ttdoc">设置远平面</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_a48780f64c2eb8ed0585eea0f665ba5e0"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#a48780f64c2eb8ed0585eea0f665ba5e0">kernel::pdv::ICamera::GetPosition</a></div><div class="ttdeci">virtual PDV_RESULT GetPosition(PDVVector3F &amp;oPosition)=0</div><div class="ttdoc">获取摄像机位置</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_a605a38f13f2b0c3b83bea6bf84b090b7"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#a605a38f13f2b0c3b83bea6bf84b090b7">kernel::pdv::ICamera::SetPosition</a></div><div class="ttdeci">virtual PDV_RESULT SetPosition(const PDVVector3F &amp;iPosition)=0</div><div class="ttdoc">设置摄像机位置</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_a606da72f179eb6065d2ce86d8360b0ef"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#a606da72f179eb6065d2ce86d8360b0ef">kernel::pdv::ICamera::SetYSize</a></div><div class="ttdeci">virtual PDV_RESULT SetYSize(DftFloat iYSize)=0</div><div class="ttdoc">设置相机纵向视野大小</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_a6135d7a5803f3a49b25a2a2e150f6c34"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#a6135d7a5803f3a49b25a2a2e150f6c34">kernel::pdv::ICamera::GetZNear</a></div><div class="ttdeci">virtual DftFloat GetZNear()=0</div><div class="ttdoc">获取近平面</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_a65ddcaeacc6f47ee8fdea2f40f8ba6b2"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#a65ddcaeacc6f47ee8fdea2f40f8ba6b2">kernel::pdv::ICamera::GetFOV</a></div><div class="ttdeci">virtual DftFloat GetFOV()=0</div><div class="ttdoc">获取Y方向的视角(弧度值)</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_a691d6ddcefece6560287251b92e32238"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#a691d6ddcefece6560287251b92e32238">kernel::pdv::ICamera::SetXSize</a></div><div class="ttdeci">virtual PDV_RESULT SetXSize(DftFloat iXSize)=0</div><div class="ttdoc">设置相机横向视野大小</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_ab85fda4ff924ee193ac6de3d356c6902"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#ab85fda4ff924ee193ac6de3d356c6902">kernel::pdv::ICamera::SetType</a></div><div class="ttdeci">virtual PDV_RESULT SetType(DftUInt8 iType)=0</div><div class="ttdoc">设置相机类型</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_ab88f2889e020280057b6ca4ebc58ad59"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#ab88f2889e020280057b6ca4ebc58ad59">kernel::pdv::ICamera::GetXSize</a></div><div class="ttdeci">virtual DftFloat GetXSize()=0</div><div class="ttdoc">获取相机横向视野大小</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_abb6351c911594b00282ad54b06dfbbb5"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#abb6351c911594b00282ad54b06dfbbb5">kernel::pdv::ICamera::SetZNear</a></div><div class="ttdeci">virtual PDV_RESULT SetZNear(const DftFloat &amp;iZNear)=0</div><div class="ttdoc">设置近平面</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_ad271e082a1e8e841f6e87388ddb35e7d"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#ad271e082a1e8e841f6e87388ddb35e7d">kernel::pdv::ICamera::GetUp</a></div><div class="ttdeci">virtual PDV_RESULT GetUp(PDVVector3F &amp;oUp)=0</div><div class="ttdoc">获取摄像机的上方向向量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_ae26f6aea9b8d0dc245dbaafc6ddf1ebb"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#ae26f6aea9b8d0dc245dbaafc6ddf1ebb">kernel::pdv::ICamera::GetZFar</a></div><div class="ttdeci">virtual DftFloat GetZFar()=0</div><div class="ttdoc">获取远平面</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_ae2e7146fe42ad94feeed0fd895208c40"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#ae2e7146fe42ad94feeed0fd895208c40">kernel::pdv::ICamera::GetTarget</a></div><div class="ttdeci">virtual PDV_RESULT GetTarget(PDVVector3F &amp;oTarget)=0</div><div class="ttdoc">获取摄像机兴趣点位置</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_ae4d8ef43257d91d5476a580a297a4ab2"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#ae4d8ef43257d91d5476a580a297a4ab2">kernel::pdv::ICamera::GetYSize</a></div><div class="ttdeci">virtual DftFloat GetYSize()=0</div><div class="ttdoc">获取相机纵向视野大小</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_camera_html_af696d9a496394893a1a0c761271debe3"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_camera.html#af696d9a496394893a1a0c761271debe3">kernel::pdv::ICamera::SetUp</a></div><div class="ttdeci">virtual PDV_RESULT SetUp(const PDVVector3F &amp;iUp)=0</div><div class="ttdoc">设置摄像机的上方向向量</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="astruct_p_d_v_vector3_f_html"><div class="ttname"><a href="struct_p_d_v_vector3_f.html">PDVVector3F</a></div><div class="ttdoc">单精度浮点数三维向量</div><div class="ttdef"><b>定义</b> PDVMath.h:481</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_camera_8h.html">PDVICamera.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

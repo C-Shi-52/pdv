@@ -1,0 +1,11 @@
+{
+	"resources(size = 1)":	{
+		"resource[0]":	{
+			"_id":	"251546254163066880",
+			"_name":	"materialAppData",
+			"_type":	103,
+			"_format":	"json",
+			"_fileDataLength":	"2076"
+		}
+	}
+}

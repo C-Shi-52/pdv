@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIScene.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_scene_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIScene.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_scene_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVISCENE_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVISCENE_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682">   22</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682">LengthUnitType</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a24f6d65b94c922de82eb88de8e04826b">   24</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a24f6d65b94c922de82eb88de8e04826b">LENGTHUNIT_NULL</a> = 0, </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682ab77a01484aa67269c02420a3d3fb2278">   25</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682ab77a01484aa67269c02420a3d3fb2278">LENGTHUNIT_MM</a> = 1,   </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a9bca38488168c1685cc6a9957fab8aef">   26</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a9bca38488168c1685cc6a9957fab8aef">LENGTHUNIT_CM</a> = 2,   </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682ad97e2c1b5f0ae96431d1e4546fd53c83">   27</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682ad97e2c1b5f0ae96431d1e4546fd53c83">LENGTHUNIT_M</a> = 3,    </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a496b9175be5d918b160334e45c656fd5">   28</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a496b9175be5d918b160334e45c656fd5">LENGTHUNIT_KM</a> = 4,   </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a11eae4c5db229a518ef400b9ac87f57b">   29</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a11eae4c5db229a518ef400b9ac87f57b">LENGTHUNIT_INCH</a> = 5, </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682ad0479d4e323a4957149fe691d10afe4e">   30</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682ad0479d4e323a4957149fe691d10afe4e">LENGTHUNIT_DM</a> = 6,   </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682aba79039f0743be0ac315a49f50e17551">   31</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682aba79039f0743be0ac315a49f50e17551">LENGTHUNIT_FOOT</a> = 7, </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a0f2c951057cf9a3f9e41c3cc05064482">   32</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a0f2c951057cf9a3f9e41c3cc05064482">LENGTHUNIT_YARD</a> = 8, </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682ab752676c749b4aa10900537efda2a434">   33</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682ab752676c749b4aa10900537efda2a434">LENGTHUNIT_MILE</a> = 9, </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
+</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="};">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5">   37</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5">MassUnitType</a></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>{</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5a603de30d9e622352acdc82410fb85aef">   39</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5a603de30d9e622352acdc82410fb85aef">MASSUNIT_NULL</a> = 0, </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5af06a806c9d12b91ca78787060c25b7ce">   40</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5af06a806c9d12b91ca78787060c25b7ce">MASSUNIT_MG</a> = 1,   </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5af93e3e9104da922cec428cab32fa4f76">   41</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5af93e3e9104da922cec428cab32fa4f76">MASSUNIT_G</a> = 2,    </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5a481466be211d0cfe37d30b641dab9f4a">   42</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5a481466be211d0cfe37d30b641dab9f4a">MASSUNIT_KG</a> = 3,   </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5add056f9881e5b38b5be1b05123bfe5e6">   43</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5add056f9881e5b38b5be1b05123bfe5e6">MASSUNIT_T</a> = 4,    </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
+</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="};">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html">   47</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_scene.html">IScene</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>{</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#a9a5755f087380af86b3d73f453099687">   55</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#a9a5755f087380af86b3d73f453099687">GetDefaultViewID</a>() = 0;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#abfd85b82df38db02c2d090969b2e38d4">   63</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#abfd85b82df38db02c2d090969b2e38d4">SetDefaultViewID</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iViewID) = 0;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#a5c6da7ef0c1b00a81d4f29ce4e93fb87">   70</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#a5c6da7ef0c1b00a81d4f29ce4e93fb87">GetDefaultCameraID</a>() = 0;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#ac6a910831c028c81993c0cd1b6fe8bc6">   78</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#ac6a910831c028c81993c0cd1b6fe8bc6">SetDefaultCameraID</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a> &amp;iCameraID) = 0;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#a0300eecb66009860f076f07bc1462f14">   85</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#a0300eecb66009860f076f07bc1462f14">GetLengthUnit</a>() = 0;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#acf8bf356e4021ba17830071367674faf">   93</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#acf8bf356e4021ba17830071367674faf">SetLengthUnit</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;iLengthUnit) = 0;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#ac42ea237b6cf81710cff9c55cb293e74">  100</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#ac42ea237b6cf81710cff9c55cb293e74">GetMassUnit</a>() = 0;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#a6707b157dcd8961401b02d47342ae504">  108</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#a6707b157dcd8961401b02d47342ae504">SetMassUnit</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> &amp;iMassUnit) = 0;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#a221109bd0c01b1043d78759dbfe36231">  115</a></span>    <span class="keyword">virtual</span> <a class="code hl_struct" href="struct_p_d_v_matrix4_d.html">PDVMatrix4D</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#a221109bd0c01b1043d78759dbfe36231">GetGlobalTransformation</a>() = 0;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#a166f0ec109892ddb05a9e2729d03650d">  123</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#a166f0ec109892ddb05a9e2729d03650d">SetGlobalTransformation</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_p_d_v_matrix4_d.html">PDVMatrix4D</a> &amp;iGlobalTransformation) = 0;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#ad83531ad6abd48155048ea07e3588bcd">  130</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#ad83531ad6abd48155048ea07e3588bcd">GetDataLength</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span></div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#a21902b2600c8cf20b40f7742e8b455bb">  139</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#a21902b2600c8cf20b40f7742e8b455bb">ReadData</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="_p_d_v_types_8h.html#ad2d72d7b5e8dcc14feb717b3da19f038">PDV_CHAR</a> *iStreamBuffer, <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> iBufferLength) = 0;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_scene.html#aff0464b87619b5f87b9080cfde139a42">  148</a></span>    <span class="keyword">virtual</span> <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_scene.html#aff0464b87619b5f87b9080cfde139a42">WriteData</a>(<a class="code hl_typedef" href="_p_d_v_types_8h.html#ad2d72d7b5e8dcc14feb717b3da19f038">PDV_CHAR</a> *ioStreamBuffer, <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> iBufferLength) <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>};</div>
+</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_types_8h_html_a053d8ce6a85300520cc14cd4650ced33"><div class="ttname"><a href="_dft_types_8h.html#a053d8ce6a85300520cc14cd4650ced33">DftUInt64</a></div><div class="ttdeci">unsigned long long DftUInt64</div><div class="ttdoc">64位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:64</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a9dd0d1ca2dc17c79bf9082d2b72d957f"><div class="ttname"><a href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></div><div class="ttdeci">unsigned int DftUInt</div><div class="ttdoc">无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:48</div></div>
+<div class="ttc" id="a_dft_types_8h_html_afa7ca784b04bc26549651a5a04bc5f27"><div class="ttname"><a href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a></div><div class="ttdeci">long long DftInt64</div><div class="ttdoc">64位整数</div><div class="ttdef"><b>定义</b> DftTypes.h:62</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a4b929efc5cb3794506ce522a6d02c4c5"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5">kernel::pdv::MassUnitType</a></div><div class="ttdeci">MassUnitType</div><div class="ttdoc">场景质量单位</div><div class="ttdef"><b>定义</b> PDVIScene.h:38</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a4b929efc5cb3794506ce522a6d02c4c5a481466be211d0cfe37d30b641dab9f4a"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5a481466be211d0cfe37d30b641dab9f4a">kernel::pdv::MASSUNIT_KG</a></div><div class="ttdeci">@ MASSUNIT_KG</div><div class="ttdoc">千克</div><div class="ttdef"><b>定义</b> PDVIScene.h:42</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a4b929efc5cb3794506ce522a6d02c4c5a603de30d9e622352acdc82410fb85aef"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5a603de30d9e622352acdc82410fb85aef">kernel::pdv::MASSUNIT_NULL</a></div><div class="ttdeci">@ MASSUNIT_NULL</div><div class="ttdoc">未知</div><div class="ttdef"><b>定义</b> PDVIScene.h:39</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a4b929efc5cb3794506ce522a6d02c4c5add056f9881e5b38b5be1b05123bfe5e6"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5add056f9881e5b38b5be1b05123bfe5e6">kernel::pdv::MASSUNIT_T</a></div><div class="ttdeci">@ MASSUNIT_T</div><div class="ttdoc">吨</div><div class="ttdef"><b>定义</b> PDVIScene.h:43</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a4b929efc5cb3794506ce522a6d02c4c5af06a806c9d12b91ca78787060c25b7ce"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5af06a806c9d12b91ca78787060c25b7ce">kernel::pdv::MASSUNIT_MG</a></div><div class="ttdeci">@ MASSUNIT_MG</div><div class="ttdoc">毫克</div><div class="ttdef"><b>定义</b> PDVIScene.h:40</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a4b929efc5cb3794506ce522a6d02c4c5af93e3e9104da922cec428cab32fa4f76"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a4b929efc5cb3794506ce522a6d02c4c5af93e3e9104da922cec428cab32fa4f76">kernel::pdv::MASSUNIT_G</a></div><div class="ttdeci">@ MASSUNIT_G</div><div class="ttdoc">克</div><div class="ttdef"><b>定义</b> PDVIScene.h:41</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a9ff92a69da60e7cacb279eb07daad682"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682">kernel::pdv::LengthUnitType</a></div><div class="ttdeci">LengthUnitType</div><div class="ttdoc">场景时间单位</div><div class="ttdef"><b>定义</b> PDVIScene.h:23</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a9ff92a69da60e7cacb279eb07daad682a0f2c951057cf9a3f9e41c3cc05064482"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a0f2c951057cf9a3f9e41c3cc05064482">kernel::pdv::LENGTHUNIT_YARD</a></div><div class="ttdeci">@ LENGTHUNIT_YARD</div><div class="ttdoc">码 1YARD=3FOOT=0.9144m</div><div class="ttdef"><b>定义</b> PDVIScene.h:32</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a9ff92a69da60e7cacb279eb07daad682a11eae4c5db229a518ef400b9ac87f57b"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a11eae4c5db229a518ef400b9ac87f57b">kernel::pdv::LENGTHUNIT_INCH</a></div><div class="ttdeci">@ LENGTHUNIT_INCH</div><div class="ttdoc">英寸</div><div class="ttdef"><b>定义</b> PDVIScene.h:29</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a9ff92a69da60e7cacb279eb07daad682a24f6d65b94c922de82eb88de8e04826b"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a24f6d65b94c922de82eb88de8e04826b">kernel::pdv::LENGTHUNIT_NULL</a></div><div class="ttdeci">@ LENGTHUNIT_NULL</div><div class="ttdoc">未知</div><div class="ttdef"><b>定义</b> PDVIScene.h:24</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a9ff92a69da60e7cacb279eb07daad682a496b9175be5d918b160334e45c656fd5"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a496b9175be5d918b160334e45c656fd5">kernel::pdv::LENGTHUNIT_KM</a></div><div class="ttdeci">@ LENGTHUNIT_KM</div><div class="ttdoc">千米</div><div class="ttdef"><b>定义</b> PDVIScene.h:28</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a9ff92a69da60e7cacb279eb07daad682a9bca38488168c1685cc6a9957fab8aef"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682a9bca38488168c1685cc6a9957fab8aef">kernel::pdv::LENGTHUNIT_CM</a></div><div class="ttdeci">@ LENGTHUNIT_CM</div><div class="ttdoc">厘米</div><div class="ttdef"><b>定义</b> PDVIScene.h:26</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a9ff92a69da60e7cacb279eb07daad682ab752676c749b4aa10900537efda2a434"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682ab752676c749b4aa10900537efda2a434">kernel::pdv::LENGTHUNIT_MILE</a></div><div class="ttdeci">@ LENGTHUNIT_MILE</div><div class="ttdoc">英里</div><div class="ttdef"><b>定义</b> PDVIScene.h:33</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a9ff92a69da60e7cacb279eb07daad682ab77a01484aa67269c02420a3d3fb2278"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682ab77a01484aa67269c02420a3d3fb2278">kernel::pdv::LENGTHUNIT_MM</a></div><div class="ttdeci">@ LENGTHUNIT_MM</div><div class="ttdoc">毫米</div><div class="ttdef"><b>定义</b> PDVIScene.h:25</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a9ff92a69da60e7cacb279eb07daad682aba79039f0743be0ac315a49f50e17551"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682aba79039f0743be0ac315a49f50e17551">kernel::pdv::LENGTHUNIT_FOOT</a></div><div class="ttdeci">@ LENGTHUNIT_FOOT</div><div class="ttdoc">英尺</div><div class="ttdef"><b>定义</b> PDVIScene.h:31</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a9ff92a69da60e7cacb279eb07daad682ad0479d4e323a4957149fe691d10afe4e"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682ad0479d4e323a4957149fe691d10afe4e">kernel::pdv::LENGTHUNIT_DM</a></div><div class="ttdeci">@ LENGTHUNIT_DM</div><div class="ttdoc">分米</div><div class="ttdef"><b>定义</b> PDVIScene.h:30</div></div>
+<div class="ttc" id="a_p_d_v_i_scene_8h_html_a9ff92a69da60e7cacb279eb07daad682ad97e2c1b5f0ae96431d1e4546fd53c83"><div class="ttname"><a href="_p_d_v_i_scene_8h.html#a9ff92a69da60e7cacb279eb07daad682ad97e2c1b5f0ae96431d1e4546fd53c83">kernel::pdv::LENGTHUNIT_M</a></div><div class="ttdeci">@ LENGTHUNIT_M</div><div class="ttdoc">米</div><div class="ttdef"><b>定义</b> PDVIScene.h:27</div></div>
+<div class="ttc" id="a_p_d_v_types_8h_html_ad2d72d7b5e8dcc14feb717b3da19f038"><div class="ttname"><a href="_p_d_v_types_8h.html#ad2d72d7b5e8dcc14feb717b3da19f038">PDV_CHAR</a></div><div class="ttdeci">char PDV_CHAR</div><div class="ttdoc">字符</div><div class="ttdef"><b>定义</b> PDVTypes.h:27</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html">kernel::pdv::IScene</a></div><div class="ttdoc">场景数据的接口</div><div class="ttdef"><b>定义</b> PDVIScene.h:48</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_a0300eecb66009860f076f07bc1462f14"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#a0300eecb66009860f076f07bc1462f14">kernel::pdv::IScene::GetLengthUnit</a></div><div class="ttdeci">virtual DftUInt GetLengthUnit()=0</div><div class="ttdoc">获取场景长度单位</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_a166f0ec109892ddb05a9e2729d03650d"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#a166f0ec109892ddb05a9e2729d03650d">kernel::pdv::IScene::SetGlobalTransformation</a></div><div class="ttdeci">virtual PDV_RESULT SetGlobalTransformation(const PDVMatrix4D &amp;iGlobalTransformation)=0</div><div class="ttdoc">设置场景全局变换矩阵</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_a21902b2600c8cf20b40f7742e8b455bb"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#a21902b2600c8cf20b40f7742e8b455bb">kernel::pdv::IScene::ReadData</a></div><div class="ttdeci">virtual DftInt64 ReadData(const PDV_CHAR *iStreamBuffer, DftInt64 iBufferLength)=0</div><div class="ttdoc">从二进制数据流中读取数据信息</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_a221109bd0c01b1043d78759dbfe36231"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#a221109bd0c01b1043d78759dbfe36231">kernel::pdv::IScene::GetGlobalTransformation</a></div><div class="ttdeci">virtual PDVMatrix4D GetGlobalTransformation()=0</div><div class="ttdoc">获取场景全局变换矩阵</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_a5c6da7ef0c1b00a81d4f29ce4e93fb87"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#a5c6da7ef0c1b00a81d4f29ce4e93fb87">kernel::pdv::IScene::GetDefaultCameraID</a></div><div class="ttdeci">virtual DftUInt64 GetDefaultCameraID()=0</div><div class="ttdoc">获取场景默认相机ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_a6707b157dcd8961401b02d47342ae504"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#a6707b157dcd8961401b02d47342ae504">kernel::pdv::IScene::SetMassUnit</a></div><div class="ttdeci">virtual PDV_RESULT SetMassUnit(const DftUInt &amp;iMassUnit)=0</div><div class="ttdoc">设置场景质量单位</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_a9a5755f087380af86b3d73f453099687"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#a9a5755f087380af86b3d73f453099687">kernel::pdv::IScene::GetDefaultViewID</a></div><div class="ttdeci">virtual DftUInt64 GetDefaultViewID()=0</div><div class="ttdoc">获取场景默认视图ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_abfd85b82df38db02c2d090969b2e38d4"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#abfd85b82df38db02c2d090969b2e38d4">kernel::pdv::IScene::SetDefaultViewID</a></div><div class="ttdeci">virtual PDV_RESULT SetDefaultViewID(const DftUInt64 &amp;iViewID)=0</div><div class="ttdoc">设置场景默认视图ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_ac42ea237b6cf81710cff9c55cb293e74"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#ac42ea237b6cf81710cff9c55cb293e74">kernel::pdv::IScene::GetMassUnit</a></div><div class="ttdeci">virtual DftUInt GetMassUnit()=0</div><div class="ttdoc">获取场景质量单位</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_ac6a910831c028c81993c0cd1b6fe8bc6"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#ac6a910831c028c81993c0cd1b6fe8bc6">kernel::pdv::IScene::SetDefaultCameraID</a></div><div class="ttdeci">virtual PDV_RESULT SetDefaultCameraID(const DftUInt64 &amp;iCameraID)=0</div><div class="ttdoc">设置场景默认相机ID</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_acf8bf356e4021ba17830071367674faf"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#acf8bf356e4021ba17830071367674faf">kernel::pdv::IScene::SetLengthUnit</a></div><div class="ttdeci">virtual PDV_RESULT SetLengthUnit(const DftUInt &amp;iLengthUnit)=0</div><div class="ttdoc">设置场景长度单位</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_ad83531ad6abd48155048ea07e3588bcd"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#ad83531ad6abd48155048ea07e3588bcd">kernel::pdv::IScene::GetDataLength</a></div><div class="ttdeci">virtual DftInt64 GetDataLength() const =0</div><div class="ttdoc">获取数据的长度</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_scene_html_aff0464b87619b5f87b9080cfde139a42"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_scene.html#aff0464b87619b5f87b9080cfde139a42">kernel::pdv::IScene::WriteData</a></div><div class="ttdeci">virtual DftInt64 WriteData(PDV_CHAR *ioStreamBuffer, DftInt64 iBufferLength) const =0</div><div class="ttdoc">向二进制数据流中写入数据信息</div></div>
+<div class="ttc" id="astruct_p_d_v_matrix4_d_html"><div class="ttname"><a href="struct_p_d_v_matrix4_d.html">PDVMatrix4D</a></div><div class="ttdoc">双精度浮点数4X4矩阵</div><div class="ttdef"><b>定义</b> PDVMath.h:1322</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_scene_8h.html">PDVIScene.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

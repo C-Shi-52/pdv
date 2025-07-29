@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PDVSDK: PDVSDK-docs/PDVCore/PDVIUserData.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PDVSDK
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_p_d_v_i_user_data_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PDVIUserData.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_d_v_i_user_data_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef PDVIUSERDATA_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define PDVIUSERDATA_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_base_8h.html">PDVBase.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="_dft_buffer_stream_8h.html">DftBufferStream.h</a>&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span>kernel</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">namespace </span>pdv</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="};">
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2">   24</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2">UserDataType</a></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2a7fdc334e02d5a8e11cde45b3bb52cc60">   26</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2a7fdc334e02d5a8e11cde45b3bb52cc60">USER_DATA_TYPE_TREE_NODE_MATERIAL</a> = 1,           </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2aa222720d7140c102da988be6fddaed9e">   27</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2aa222720d7140c102da988be6fddaed9e">USER_DATA_TYPE_TREE_NODE_AUXILIARY_GEOMETRY</a> = 2, </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2a2701045a689ee6fe647bef0bc3c4870c">   28</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2a2701045a689ee6fe647bef0bc3c4870c">USER_DATA_TYPE_ANALYSISQUANTITYARRAY</a> = 3,        </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2afc83221c40bd84d13e4c185f26ef8559">   29</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2afc83221c40bd84d13e4c185f26ef8559">USER_DATA_TYPE_GEOMTOPO_CURVEONSURFACE</a> = 4,      </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2ad899caf9b50bbf895bb98638fb67a766">   30</a></span>    <a class="code hl_enumvalue" href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2ad899caf9b50bbf895bb98638fb67a766">USER_DATA_TYPE_ANNOTATIONAUXILIARYARRAY</a> = 5      </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>};</div>
+</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
+<div class="foldopen" id="foldopen00034" data-start="{" data-end="};">
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html">   34</a></span><span class="keyword">struct </span>PDVCORE_API <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a6c3aaef5945beb71054a53db5d80e106">UserDataIndexItem</a></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>{</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a60b8209612b77c1928b09fdaa87a2d5f">   36</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a>  <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a60b8209612b77c1928b09fdaa87a2d5f">_dataType</a>;               </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html#aa4de5c0d2f5fceb076e753bb6cd19b3b">   37</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#aa4de5c0d2f5fceb076e753bb6cd19b3b">_dataOffset</a>;             </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a609eb441a8e1bc46ec1b6a33eb5d1e4b">   38</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a609eb441a8e1bc46ec1b6a33eb5d1e4b">_nextIndexItemOffset</a>;    </div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a6c3aaef5945beb71054a53db5d80e106">   40</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a6c3aaef5945beb71054a53db5d80e106">UserDataIndexItem</a>()</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a6b33637d7b83459620ba3f1f64bbd7c1">Clear</a>();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
+</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span></div>
+<div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a624c35f6a58984abe5824c453e12a4c8">   45</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a624c35f6a58984abe5824c453e12a4c8">UserDataIndexItem</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a6c3aaef5945beb71054a53db5d80e106">UserDataIndexItem</a>&amp; iData)</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    {</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a60b8209612b77c1928b09fdaa87a2d5f">_dataType</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a60b8209612b77c1928b09fdaa87a2d5f">_dataType</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#aa4de5c0d2f5fceb076e753bb6cd19b3b">_dataOffset</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#aa4de5c0d2f5fceb076e753bb6cd19b3b">_dataOffset</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a609eb441a8e1bc46ec1b6a33eb5d1e4b">_nextIndexItemOffset</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a609eb441a8e1bc46ec1b6a33eb5d1e4b">_nextIndexItemOffset</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
+</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
+<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a31c44d9ab29dad379c3e3e4005c48b1a">   52</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a6c3aaef5945beb71054a53db5d80e106">UserDataIndexItem</a>&amp; <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a31c44d9ab29dad379c3e3e4005c48b1a">operator=</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a6c3aaef5945beb71054a53db5d80e106">UserDataIndexItem</a>&amp; iData)</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    {</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordflow">if</span> (&amp;iData != <span class="keyword">this</span>)</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a60b8209612b77c1928b09fdaa87a2d5f">_dataType</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a60b8209612b77c1928b09fdaa87a2d5f">_dataType</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#aa4de5c0d2f5fceb076e753bb6cd19b3b">_dataOffset</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#aa4de5c0d2f5fceb076e753bb6cd19b3b">_dataOffset</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a609eb441a8e1bc46ec1b6a33eb5d1e4b">_nextIndexItemOffset</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a609eb441a8e1bc46ec1b6a33eb5d1e4b">_nextIndexItemOffset</a>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        }</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    }</div>
+</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
+<div class="foldopen" id="foldopen00063" data-start="{" data-end="}">
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a6b33637d7b83459620ba3f1f64bbd7c1">   63</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a6b33637d7b83459620ba3f1f64bbd7c1">Clear</a>()</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    {</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a60b8209612b77c1928b09fdaa87a2d5f">_dataType</a> = 0;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#aa4de5c0d2f5fceb076e753bb6cd19b3b">_dataOffset</a> = 0;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a609eb441a8e1bc46ec1b6a33eb5d1e4b">_nextIndexItemOffset</a> = 0;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    }</div>
+</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a8dcf62cd86703995532f6e5b0e35431b">   70</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a8dcf62cd86703995532f6e5b0e35431b">ReadData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a>* iData, <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> iLength);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html#ab754d8e150ce30ab5904b03ff791f5e8">   72</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#ab754d8e150ce30ab5904b03ff791f5e8">WriteData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a>* iData, <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> iLength) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html#ad23911c9b3f6feef318f4422866fa7d1">   74</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#ad23911c9b3f6feef318f4422866fa7d1">OverWriteData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a>* iData, <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> iLength) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html#ae8a431ff9198693beb2b565fa77b49bc">   76</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#ae8a431ff9198693beb2b565fa77b49bc">GetDataLength</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a05da5982e83651584bc66195594af515">   78</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_item.html#a05da5982e83651584bc66195594af515">Output</a>(<a class="code hl_typedef" href="_dft_json_8h.html#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iJsonNode) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>};</div>
+</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="_p_d_v_i_user_data_8h.html#ae1a650ca695daba5c4d781ce72d9a378">   82</a></span><span class="keyword">typedef</span> std::vector&lt;UserDataIndexItem&gt; <a class="code hl_typedef" href="_p_d_v_i_user_data_8h.html#ae1a650ca695daba5c4d781ce72d9a378">UserDataIndexItemArray</a>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="foldopen" id="foldopen00085" data-start="{" data-end="};">
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_table.html">   85</a></span><span class="keyword">struct </span>PDVCORE_API <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a2429539ef35ac6f0fddc4b69359310d7">UserDataIndexTable</a></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>{</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a0394d246a8e89e291da5d7a51fd4fb0a">   87</a></span>    <a class="code hl_typedef" href="_p_d_v_i_user_data_8h.html#ae1a650ca695daba5c4d781ce72d9a378">UserDataIndexItemArray</a> <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a0394d246a8e89e291da5d7a51fd4fb0a">_indexItems</a>; </div>
+<div class="foldopen" id="foldopen00089" data-start="{" data-end="}">
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a2429539ef35ac6f0fddc4b69359310d7">   89</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a2429539ef35ac6f0fddc4b69359310d7">UserDataIndexTable</a>()</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    {</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a260e3d19ebfc5e905f37eb816f9aaf01">Clear</a>();</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    }</div>
+</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span></div>
+<div class="foldopen" id="foldopen00094" data-start="{" data-end="}">
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a980c1094b4917ae9160368b859526017">   94</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a980c1094b4917ae9160368b859526017">UserDataIndexTable</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a2429539ef35ac6f0fddc4b69359310d7">UserDataIndexTable</a>&amp; iData)</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    {</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a0394d246a8e89e291da5d7a51fd4fb0a">_indexItems</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a0394d246a8e89e291da5d7a51fd4fb0a">_indexItems</a>;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    }</div>
+</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span></div>
+<div class="foldopen" id="foldopen00099" data-start="{" data-end="}">
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a652e6a129058f0288d45a4b3e27f71c4">   99</a></span>    <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a2429539ef35ac6f0fddc4b69359310d7">UserDataIndexTable</a>&amp; <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a652e6a129058f0288d45a4b3e27f71c4">operator=</a>(<span class="keyword">const</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a2429539ef35ac6f0fddc4b69359310d7">UserDataIndexTable</a>&amp; iData)</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    {</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        <span class="keywordflow">if</span> (&amp;iData != <span class="keyword">this</span>)</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        {</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>            <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a0394d246a8e89e291da5d7a51fd4fb0a">_indexItems</a> = iData.<a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a0394d246a8e89e291da5d7a51fd4fb0a">_indexItems</a>;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        }</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    }</div>
+</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span></div>
+<div class="foldopen" id="foldopen00108" data-start="{" data-end="}">
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a260e3d19ebfc5e905f37eb816f9aaf01">  108</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a260e3d19ebfc5e905f37eb816f9aaf01">Clear</a>()</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    {</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <a class="code hl_variable" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a0394d246a8e89e291da5d7a51fd4fb0a">_indexItems</a>.clear();</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    }</div>
+</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a2304570022db0042a2aca7663174605b">  113</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a2304570022db0042a2aca7663174605b">ReadData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a>* iData, <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> iLength);</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_table.html#ab798749f6ecde030c2746eeb79e67295">  115</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#ab798749f6ecde030c2746eeb79e67295">OverWriteData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a>* iData, <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> iLength) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a97a8f1ebb3b86ca4312eb3ebf4700449">  117</a></span>    <a class="code hl_typedef" href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a97a8f1ebb3b86ca4312eb3ebf4700449">GetDataLength</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a51093f8c91be30de7efccba91f5581db">  119</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structkernel_1_1pdv_1_1_user_data_index_table.html#a51093f8c91be30de7efccba91f5581db">Output</a>(<a class="code hl_typedef" href="_dft_json_8h.html#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a> iJsonNode) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>};</div>
+</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span></div>
+<div class="foldopen" id="foldopen00124" data-start="{" data-end="};">
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_user_data.html">  124</a></span><span class="keyword">class </span>PDVCORE_API <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_user_data.html">IUserData</a> : <span class="keyword">public</span> <a class="code hl_class" href="classkernel_1_1pdv_1_1_i_data_object.html">IDataObject</a></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>{</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_user_data.html#ad39493754bec846ed2ccbc2ccba0f33a">  131</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_user_data.html#ad39493754bec846ed2ccbc2ccba0f33a">AssignID</a>() = 0;</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span></div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_user_data.html#a342434781a785ffd37b3384c99c224d2">  139</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_user_data.html#a342434781a785ffd37b3384c99c224d2">GetProducer</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oProducer) = 0;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span></div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_user_data.html#a5bb2b72958929d37a19e8580e3566dbc">  147</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_user_data.html#a5bb2b72958929d37a19e8580e3566dbc">SetProducer</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iProducer) = 0;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span></div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_user_data.html#ab37673cad561cdcffb3daff70f200313">  155</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_user_data.html#ab37673cad561cdcffb3daff70f200313">GetProducerVersion</a>(<a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;oProducerVersion) = 0;</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span></div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_user_data.html#a3dc679870367bef373d07c79ae7b0202">  163</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_user_data.html#a3dc679870367bef373d07c79ae7b0202">SetProducerVersion</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_c_unicode_string.html">CUnicodeString</a> &amp;iProducerVersion) = 0;</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span></div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_user_data.html#a5b982e86bbe121376baf160250e80fa9">  172</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_user_data.html#a5b982e86bbe121376baf160250e80fa9">GetData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a>&amp; oDataLength, <a class="code hl_typedef" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a>*&amp; oData) = 0;</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span></div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_user_data.html#a0a38cae8804508a39912437e3a2ecfa9">  181</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_user_data.html#a0a38cae8804508a39912437e3a2ecfa9">SetData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iDataLength, <a class="code hl_typedef" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a>* iData) = 0;</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span></div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_user_data.html#a8ee2a7fd334e96795ae3d337b284c283">  190</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_user_data.html#a8ee2a7fd334e96795ae3d337b284c283">AddData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iDataLength, <a class="code hl_typedef" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a>* iData) = 0;</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span></div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno"><a class="line" href="classkernel_1_1pdv_1_1_i_user_data.html#ad321552a95abf1d909ea79268b08028b">  199</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">PDV_RESULT</a> <a class="code hl_function" href="classkernel_1_1pdv_1_1_i_user_data.html#ad321552a95abf1d909ea79268b08028b">AppendData</a>(<a class="code hl_typedef" href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a> iDataLength, <a class="code hl_typedef" href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a>* iData) = 0;</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>};</div>
+</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span> </div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>} <span class="comment">// namespace pdv</span></div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>} <span class="comment">// namespace kernel</span></div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_dft_buffer_stream_8h_html"><div class="ttname"><a href="_dft_buffer_stream_8h.html">DftBufferStream.h</a></div><div class="ttdoc">概述：数据流操作</div></div>
+<div class="ttc" id="a_dft_json_8h_html_a530bdbd5eab3048787dbc7a1f07a3b55"><div class="ttname"><a href="_dft_json_8h.html#a530bdbd5eab3048787dbc7a1f07a3b55">DftJson</a></div><div class="ttdeci">void * DftJson</div><div class="ttdoc">json节点对象</div><div class="ttdef"><b>定义</b> DftJson.h:18</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a707c1d82ee5ee4556ced400697de3dcf"><div class="ttname"><a href="_dft_types_8h.html#a707c1d82ee5ee4556ced400697de3dcf">DftUInt32</a></div><div class="ttdeci">unsigned int DftUInt32</div><div class="ttdoc">32位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:60</div></div>
+<div class="ttc" id="a_dft_types_8h_html_a9dd0d1ca2dc17c79bf9082d2b72d957f"><div class="ttname"><a href="_dft_types_8h.html#a9dd0d1ca2dc17c79bf9082d2b72d957f">DftUInt</a></div><div class="ttdeci">unsigned int DftUInt</div><div class="ttdoc">无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:48</div></div>
+<div class="ttc" id="a_dft_types_8h_html_ab3a04804b0cf7c050b58e7e7807455d6"><div class="ttname"><a href="_dft_types_8h.html#ab3a04804b0cf7c050b58e7e7807455d6">DftUInt8</a></div><div class="ttdeci">unsigned char DftUInt8</div><div class="ttdoc">8位无符号整数</div><div class="ttdef"><b>定义</b> DftTypes.h:52</div></div>
+<div class="ttc" id="a_dft_types_8h_html_ac2aba550cab19b83538f0e748d793efa"><div class="ttname"><a href="_dft_types_8h.html#ac2aba550cab19b83538f0e748d793efa">DftByte</a></div><div class="ttdeci">unsigned char DftByte</div><div class="ttdoc">字节</div><div class="ttdef"><b>定义</b> DftTypes.h:42</div></div>
+<div class="ttc" id="a_dft_types_8h_html_afa7ca784b04bc26549651a5a04bc5f27"><div class="ttname"><a href="_dft_types_8h.html#afa7ca784b04bc26549651a5a04bc5f27">DftInt64</a></div><div class="ttdeci">long long DftInt64</div><div class="ttdoc">64位整数</div><div class="ttdef"><b>定义</b> DftTypes.h:62</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html"><div class="ttname"><a href="_p_d_v_base_8h.html">PDVBase.h</a></div><div class="ttdoc">概述：pdv的基本数据定义</div></div>
+<div class="ttc" id="a_p_d_v_base_8h_html_aa642ea7f62d6891a6576c9322054e62d"><div class="ttname"><a href="_p_d_v_base_8h.html#aa642ea7f62d6891a6576c9322054e62d">kernel::pdv::PDV_RESULT</a></div><div class="ttdeci">PDV_RESULT</div><div class="ttdoc">函数返回结果类型</div><div class="ttdef"><b>定义</b> PDVBase.h:50</div></div>
+<div class="ttc" id="a_p_d_v_i_data_object_8h_html"><div class="ttname"><a href="_p_d_v_i_data_object_8h.html">PDVIDataObject.h</a></div><div class="ttdoc">概述：IDataObject，数据对象接口类</div></div>
+<div class="ttc" id="a_p_d_v_i_user_data_8h_html_aa904e0055e42310c003ddc578d84c2f2"><div class="ttname"><a href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2">kernel::pdv::UserDataType</a></div><div class="ttdeci">UserDataType</div><div class="ttdoc">用户数据类型</div><div class="ttdef"><b>定义</b> PDVIUserData.h:25</div></div>
+<div class="ttc" id="a_p_d_v_i_user_data_8h_html_aa904e0055e42310c003ddc578d84c2f2a2701045a689ee6fe647bef0bc3c4870c"><div class="ttname"><a href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2a2701045a689ee6fe647bef0bc3c4870c">kernel::pdv::USER_DATA_TYPE_ANALYSISQUANTITYARRAY</a></div><div class="ttdeci">@ USER_DATA_TYPE_ANALYSISQUANTITYARRAY</div><div class="ttdoc">VTK物理量数据</div><div class="ttdef"><b>定义</b> PDVIUserData.h:28</div></div>
+<div class="ttc" id="a_p_d_v_i_user_data_8h_html_aa904e0055e42310c003ddc578d84c2f2a7fdc334e02d5a8e11cde45b3bb52cc60"><div class="ttname"><a href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2a7fdc334e02d5a8e11cde45b3bb52cc60">kernel::pdv::USER_DATA_TYPE_TREE_NODE_MATERIAL</a></div><div class="ttdeci">@ USER_DATA_TYPE_TREE_NODE_MATERIAL</div><div class="ttdoc">模型树节点材质数据</div><div class="ttdef"><b>定义</b> PDVIUserData.h:26</div></div>
+<div class="ttc" id="a_p_d_v_i_user_data_8h_html_aa904e0055e42310c003ddc578d84c2f2aa222720d7140c102da988be6fddaed9e"><div class="ttname"><a href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2aa222720d7140c102da988be6fddaed9e">kernel::pdv::USER_DATA_TYPE_TREE_NODE_AUXILIARY_GEOMETRY</a></div><div class="ttdeci">@ USER_DATA_TYPE_TREE_NODE_AUXILIARY_GEOMETRY</div><div class="ttdoc">模型树节点辅助几何对象数据</div><div class="ttdef"><b>定义</b> PDVIUserData.h:27</div></div>
+<div class="ttc" id="a_p_d_v_i_user_data_8h_html_aa904e0055e42310c003ddc578d84c2f2ad899caf9b50bbf895bb98638fb67a766"><div class="ttname"><a href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2ad899caf9b50bbf895bb98638fb67a766">kernel::pdv::USER_DATA_TYPE_ANNOTATIONAUXILIARYARRAY</a></div><div class="ttdeci">@ USER_DATA_TYPE_ANNOTATIONAUXILIARYARRAY</div><div class="ttdoc">标注辅助几何数据</div><div class="ttdef"><b>定义</b> PDVIUserData.h:30</div></div>
+<div class="ttc" id="a_p_d_v_i_user_data_8h_html_aa904e0055e42310c003ddc578d84c2f2afc83221c40bd84d13e4c185f26ef8559"><div class="ttname"><a href="_p_d_v_i_user_data_8h.html#aa904e0055e42310c003ddc578d84c2f2afc83221c40bd84d13e4c185f26ef8559">kernel::pdv::USER_DATA_TYPE_GEOMTOPO_CURVEONSURFACE</a></div><div class="ttdeci">@ USER_DATA_TYPE_GEOMTOPO_CURVEONSURFACE</div><div class="ttdoc">几何拓扑对象的pCurve数据</div><div class="ttdef"><b>定义</b> PDVIUserData.h:29</div></div>
+<div class="ttc" id="a_p_d_v_i_user_data_8h_html_ae1a650ca695daba5c4d781ce72d9a378"><div class="ttname"><a href="_p_d_v_i_user_data_8h.html#ae1a650ca695daba5c4d781ce72d9a378">kernel::pdv::UserDataIndexItemArray</a></div><div class="ttdeci">std::vector&lt; UserDataIndexItem &gt; UserDataIndexItemArray</div><div class="ttdoc">用户数据索引项集</div><div class="ttdef"><b>定义</b> PDVIUserData.h:82</div></div>
+<div class="ttc" id="aclass_c_unicode_string_html"><div class="ttname"><a href="class_c_unicode_string.html">CUnicodeString</a></div><div class="ttdoc">Unicode字符操作接口</div><div class="ttdef"><b>定义</b> UnicodeString.h:80</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_data_object_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_data_object.html">kernel::pdv::IDataObject</a></div><div class="ttdoc">数据对象接口类</div><div class="ttdef"><b>定义</b> PDVIDataObject.h:24</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_user_data_html"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_user_data.html">kernel::pdv::IUserData</a></div><div class="ttdoc">用户自定义对象的接口</div><div class="ttdef"><b>定义</b> PDVIUserData.h:125</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_user_data_html_a0a38cae8804508a39912437e3a2ecfa9"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_user_data.html#a0a38cae8804508a39912437e3a2ecfa9">kernel::pdv::IUserData::SetData</a></div><div class="ttdeci">virtual PDV_RESULT SetData(DftUInt iDataLength, DftByte *iData)=0</div><div class="ttdoc">设置用户自定义数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_user_data_html_a342434781a785ffd37b3384c99c224d2"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_user_data.html#a342434781a785ffd37b3384c99c224d2">kernel::pdv::IUserData::GetProducer</a></div><div class="ttdeci">virtual PDV_RESULT GetProducer(CUnicodeString &amp;oProducer)=0</div><div class="ttdoc">获取规定用户自定义对象的用户或企业标识</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_user_data_html_a3dc679870367bef373d07c79ae7b0202"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_user_data.html#a3dc679870367bef373d07c79ae7b0202">kernel::pdv::IUserData::SetProducerVersion</a></div><div class="ttdeci">virtual PDV_RESULT SetProducerVersion(const CUnicodeString &amp;iProducerVersion)=0</div><div class="ttdoc">设置规定用户自定义对象的软件版本号</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_user_data_html_a5b982e86bbe121376baf160250e80fa9"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_user_data.html#a5b982e86bbe121376baf160250e80fa9">kernel::pdv::IUserData::GetData</a></div><div class="ttdeci">virtual PDV_RESULT GetData(DftUInt &amp;oDataLength, DftByte *&amp;oData)=0</div><div class="ttdoc">获取用户自定义数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_user_data_html_a5bb2b72958929d37a19e8580e3566dbc"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_user_data.html#a5bb2b72958929d37a19e8580e3566dbc">kernel::pdv::IUserData::SetProducer</a></div><div class="ttdeci">virtual PDV_RESULT SetProducer(const CUnicodeString &amp;iProducer)=0</div><div class="ttdoc">设置规定用户自定义对象的用户或企业标识</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_user_data_html_a8ee2a7fd334e96795ae3d337b284c283"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_user_data.html#a8ee2a7fd334e96795ae3d337b284c283">kernel::pdv::IUserData::AddData</a></div><div class="ttdeci">virtual PDV_RESULT AddData(DftUInt iDataLength, DftByte *iData)=0</div><div class="ttdoc">追加用户自定义数据</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_user_data_html_ab37673cad561cdcffb3daff70f200313"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_user_data.html#ab37673cad561cdcffb3daff70f200313">kernel::pdv::IUserData::GetProducerVersion</a></div><div class="ttdeci">virtual PDV_RESULT GetProducerVersion(CUnicodeString &amp;oProducerVersion)=0</div><div class="ttdoc">获取规定用户自定义对象的软件版本号</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_user_data_html_ad321552a95abf1d909ea79268b08028b"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_user_data.html#ad321552a95abf1d909ea79268b08028b">kernel::pdv::IUserData::AppendData</a></div><div class="ttdeci">virtual PDV_RESULT AppendData(DftUInt iDataLength, DftByte *iData)=0</div><div class="ttdoc">追加用户自定义数据（PDVCWrap专用）</div></div>
+<div class="ttc" id="aclasskernel_1_1pdv_1_1_i_user_data_html_ad39493754bec846ed2ccbc2ccba0f33a"><div class="ttname"><a href="classkernel_1_1pdv_1_1_i_user_data.html#ad39493754bec846ed2ccbc2ccba0f33a">kernel::pdv::IUserData::AssignID</a></div><div class="ttdeci">virtual void AssignID()=0</div><div class="ttdoc">生成新ID</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_item_html_a05da5982e83651584bc66195594af515"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_item.html#a05da5982e83651584bc66195594af515">kernel::pdv::UserDataIndexItem::Output</a></div><div class="ttdeci">void Output(DftJson iJsonNode) const</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_item_html_a31c44d9ab29dad379c3e3e4005c48b1a"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_item.html#a31c44d9ab29dad379c3e3e4005c48b1a">kernel::pdv::UserDataIndexItem::operator=</a></div><div class="ttdeci">UserDataIndexItem &amp; operator=(const UserDataIndexItem &amp;iData)</div><div class="ttdef"><b>定义</b> PDVIUserData.h:52</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_item_html_a609eb441a8e1bc46ec1b6a33eb5d1e4b"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_item.html#a609eb441a8e1bc46ec1b6a33eb5d1e4b">kernel::pdv::UserDataIndexItem::_nextIndexItemOffset</a></div><div class="ttdeci">DftUInt32 _nextIndexItemOffset</div><div class="ttdoc">下一索引项偏移字节数，如果为0，则下一索引项不存在</div><div class="ttdef"><b>定义</b> PDVIUserData.h:38</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_item_html_a60b8209612b77c1928b09fdaa87a2d5f"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_item.html#a60b8209612b77c1928b09fdaa87a2d5f">kernel::pdv::UserDataIndexItem::_dataType</a></div><div class="ttdeci">DftUInt8 _dataType</div><div class="ttdoc">数据类型，见 UserDataType</div><div class="ttdef"><b>定义</b> PDVIUserData.h:36</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_item_html_a624c35f6a58984abe5824c453e12a4c8"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_item.html#a624c35f6a58984abe5824c453e12a4c8">kernel::pdv::UserDataIndexItem::UserDataIndexItem</a></div><div class="ttdeci">UserDataIndexItem(const UserDataIndexItem &amp;iData)</div><div class="ttdef"><b>定义</b> PDVIUserData.h:45</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_item_html_a6b33637d7b83459620ba3f1f64bbd7c1"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_item.html#a6b33637d7b83459620ba3f1f64bbd7c1">kernel::pdv::UserDataIndexItem::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>定义</b> PDVIUserData.h:63</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_item_html_a6c3aaef5945beb71054a53db5d80e106"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_item.html#a6c3aaef5945beb71054a53db5d80e106">kernel::pdv::UserDataIndexItem::UserDataIndexItem</a></div><div class="ttdeci">UserDataIndexItem()</div><div class="ttdef"><b>定义</b> PDVIUserData.h:40</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_item_html_a8dcf62cd86703995532f6e5b0e35431b"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_item.html#a8dcf62cd86703995532f6e5b0e35431b">kernel::pdv::UserDataIndexItem::ReadData</a></div><div class="ttdeci">DftInt64 ReadData(DftByte *iData, DftInt64 iLength)</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_item_html_aa4de5c0d2f5fceb076e753bb6cd19b3b"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_item.html#aa4de5c0d2f5fceb076e753bb6cd19b3b">kernel::pdv::UserDataIndexItem::_dataOffset</a></div><div class="ttdeci">DftUInt32 _dataOffset</div><div class="ttdoc">数据起始偏移字节数</div><div class="ttdef"><b>定义</b> PDVIUserData.h:37</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_item_html_ab754d8e150ce30ab5904b03ff791f5e8"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_item.html#ab754d8e150ce30ab5904b03ff791f5e8">kernel::pdv::UserDataIndexItem::WriteData</a></div><div class="ttdeci">DftInt64 WriteData(DftByte *iData, DftInt64 iLength) const</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_item_html_ad23911c9b3f6feef318f4422866fa7d1"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_item.html#ad23911c9b3f6feef318f4422866fa7d1">kernel::pdv::UserDataIndexItem::OverWriteData</a></div><div class="ttdeci">DftInt64 OverWriteData(DftByte *iData, DftInt64 iLength) const</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_item_html_ae8a431ff9198693beb2b565fa77b49bc"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_item.html#ae8a431ff9198693beb2b565fa77b49bc">kernel::pdv::UserDataIndexItem::GetDataLength</a></div><div class="ttdeci">DftInt64 GetDataLength() const</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_table_html_a0394d246a8e89e291da5d7a51fd4fb0a"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_table.html#a0394d246a8e89e291da5d7a51fd4fb0a">kernel::pdv::UserDataIndexTable::_indexItems</a></div><div class="ttdeci">UserDataIndexItemArray _indexItems</div><div class="ttdoc">索引项集</div><div class="ttdef"><b>定义</b> PDVIUserData.h:87</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_table_html_a2304570022db0042a2aca7663174605b"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_table.html#a2304570022db0042a2aca7663174605b">kernel::pdv::UserDataIndexTable::ReadData</a></div><div class="ttdeci">DftInt64 ReadData(DftByte *iData, DftInt64 iLength)</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_table_html_a2429539ef35ac6f0fddc4b69359310d7"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_table.html#a2429539ef35ac6f0fddc4b69359310d7">kernel::pdv::UserDataIndexTable::UserDataIndexTable</a></div><div class="ttdeci">UserDataIndexTable()</div><div class="ttdef"><b>定义</b> PDVIUserData.h:89</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_table_html_a260e3d19ebfc5e905f37eb816f9aaf01"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_table.html#a260e3d19ebfc5e905f37eb816f9aaf01">kernel::pdv::UserDataIndexTable::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>定义</b> PDVIUserData.h:108</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_table_html_a51093f8c91be30de7efccba91f5581db"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_table.html#a51093f8c91be30de7efccba91f5581db">kernel::pdv::UserDataIndexTable::Output</a></div><div class="ttdeci">void Output(DftJson iJsonNode) const</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_table_html_a652e6a129058f0288d45a4b3e27f71c4"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_table.html#a652e6a129058f0288d45a4b3e27f71c4">kernel::pdv::UserDataIndexTable::operator=</a></div><div class="ttdeci">UserDataIndexTable &amp; operator=(const UserDataIndexTable &amp;iData)</div><div class="ttdef"><b>定义</b> PDVIUserData.h:99</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_table_html_a97a8f1ebb3b86ca4312eb3ebf4700449"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_table.html#a97a8f1ebb3b86ca4312eb3ebf4700449">kernel::pdv::UserDataIndexTable::GetDataLength</a></div><div class="ttdeci">DftInt64 GetDataLength() const</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_table_html_a980c1094b4917ae9160368b859526017"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_table.html#a980c1094b4917ae9160368b859526017">kernel::pdv::UserDataIndexTable::UserDataIndexTable</a></div><div class="ttdeci">UserDataIndexTable(const UserDataIndexTable &amp;iData)</div><div class="ttdef"><b>定义</b> PDVIUserData.h:94</div></div>
+<div class="ttc" id="astructkernel_1_1pdv_1_1_user_data_index_table_html_ab798749f6ecde030c2746eeb79e67295"><div class="ttname"><a href="structkernel_1_1pdv_1_1_user_data_index_table.html#ab798749f6ecde030c2746eeb79e67295">kernel::pdv::UserDataIndexTable::OverWriteData</a></div><div class="ttdeci">DftInt64 OverWriteData(DftByte *iData, DftInt64 iLength) const</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_0ac8874f532026382acf20efac5019e6.html">PDVSDK-docs</a></li><li class="navelem"><a href="dir_3ad9f9035f6fee8a729fa49842154037.html">PDVCore</a></li><li class="navelem"><a href="_p_d_v_i_user_data_8h.html">PDVIUserData.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

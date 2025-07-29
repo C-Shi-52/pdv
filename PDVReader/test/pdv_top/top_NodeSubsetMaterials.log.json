@@ -1,0 +1,96 @@
+{
+	"nodeSubsetMaterials(size = 4)":	{
+		"nodeSubsetMaterial[0]":	{
+			"_id":	"251546254158872585",
+			"_nodeID":	"251546253433257984",
+			"_renderBodyInfoArray(size = 1)":	{
+				"_renderBodyInfoArray[0]":	{
+					"_renderBodyID":	"251546253781385216",
+					"_renderMeshInfoArray(size = 1)":	{
+						"_renderMeshInfoArray[0]":	{
+							"_renderMeshID":	"251546253785579522",
+							"_nodeVertexInfoArray(size = 1)":	{
+								"_nodeVertexInfoArray[0]":	{
+									"_vertexStart":	0,
+									"_vertexEnd":	23,
+									"_indexStart":	0,
+									"_indexEnd":	35,
+									"_materialID":	"251546253781385217"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"nodeSubsetMaterial[1]":	{
+			"_id":	"251546254158872586",
+			"_nodeID":	"251546254079180800",
+			"_renderBodyInfoArray(size = 1)":	{
+				"_renderBodyInfoArray[0]":	{
+					"_renderBodyID":	"251546254100152399",
+					"_renderMeshInfoArray(size = 1)":	{
+						"_renderMeshInfoArray[0]":	{
+							"_renderMeshID":	"251546254100152403",
+							"_nodeVertexInfoArray(size = 1)":	{
+								"_nodeVertexInfoArray[0]":	{
+									"_vertexStart":	0,
+									"_vertexEnd":	23,
+									"_indexStart":	0,
+									"_indexEnd":	35,
+									"_materialID":	"251546254100152400"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"nodeSubsetMaterial[2]":	{
+			"_id":	"251546254158872587",
+			"_nodeID":	"251546254112735232",
+			"_renderBodyInfoArray(size = 1)":	{
+				"_renderBodyInfoArray[0]":	{
+					"_renderBodyID":	"251546253781385216",
+					"_renderMeshInfoArray(size = 1)":	{
+						"_renderMeshInfoArray[0]":	{
+							"_renderMeshID":	"251546253785579522",
+							"_nodeVertexInfoArray(size = 1)":	{
+								"_nodeVertexInfoArray[0]":	{
+									"_vertexStart":	0,
+									"_vertexEnd":	23,
+									"_indexStart":	0,
+									"_indexEnd":	35,
+									"_materialID":	"251546253781385217"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"nodeSubsetMaterial[3]":	{
+			"_id":	"251546254158872588",
+			"_nodeID":	"251546254121123840",
+			"_renderBodyInfoArray(size = 1)":	{
+				"_renderBodyInfoArray[0]":	{
+					"_renderBodyID":	"251546254150483968",
+					"_renderMeshInfoArray(size = 1)":	{
+						"_renderMeshInfoArray[0]":	{
+							"_renderMeshID":	"251546254150483972",
+							"_nodeVertexInfoArray(size = 1)":	{
+								"_nodeVertexInfoArray[0]":	{
+									"_vertexStart":	0,
+									"_vertexEnd":	23,
+									"_indexStart":	0,
+									"_indexEnd":	35,
+									"_materialID":	"251546254150483969"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
