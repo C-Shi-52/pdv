@@ -1,39 +1,51 @@
-// ºËĞÄPDV½Ó¿ÚÍ·ÎÄ¼ş  
+#include "PDVICurve.h"
+#include "PDVILine.h"
+#include "PDVICircle.h"
+#include "PDVIEllipse.h"
+#include "PDVINurbsCurve.h"
+#include "PDVISurface.h"
+#include "PDVIPlane.h"
+#include "PDVICylinder.h"
+#include "PDVICone.h"
+#include "PDVITorus.h"
+#include "PDVISphere.h"
+#include "PDVINurbsSurface.h"
+// æ ¸å¿ƒPDVæ¥å£å¤´æ–‡ä»¶  
 #include "DftBase.h"  
 #include "PDVISceneData.h"  
 #include "PDVIObjectFactory.h"  
 #include "PDVFile.h"  
 
-// Ä£ĞÍÊ÷Ïà¹ØÍ·ÎÄ¼ş  
+// æ¨¡å‹æ ‘ç›¸å…³å¤´æ–‡ä»¶  
 #include "PDVIModelTree.h"  
 #include "PDVIModelTreeNode.h"  
 #include "PDVIModel.h"  
 
-// ¼¸ºÎºÍÍØÆËÏà¹ØÍ·ÎÄ¼ş  
+// å‡ ä½•å’Œæ‹“æ‰‘ç›¸å…³å¤´æ–‡ä»¶  
 #include "PDVIBRep.h"  
 #include "PDVITopo.h"  
 #include "PDVIGeomPointData.h"  
 #include "PDVIGeomCurveData.h"  
 #include "PDVIGeomSurfaceData.h"  
 
-// äÖÈ¾Ïà¹ØÍ·ÎÄ¼ş  
+// æ¸²æŸ“ç›¸å…³å¤´æ–‡ä»¶  
 #include "PDVIRenderBody.h"  
 #include "PDVIRenderMesh.h"  
 #include "PDVIRenderVertex.h"  
 #include "PDVIReferenceGeometry.h"  
 
-// ÊôĞÔÏà¹ØÍ·ÎÄ¼ş  
+// å±æ€§ç›¸å…³å¤´æ–‡ä»¶  
 #include "PDVIAttribute.h"  
 #include "PDVIAttributeGroup.h"  
 #include "PDVIAttributeItem.h"  
 
-// ±ê×¢Ïà¹ØÍ·ÎÄ¼ş  
+// æ ‡æ³¨ç›¸å…³å¤´æ–‡ä»¶  
 #include "PDVIAnnotation.h"  
 #include "PDVIAnnotationItem.h"  
 #include "PDVIAnnotationView.h"  
 #include "PDVIAnnotationGeometry.h"  
 
-// ±ê×¼¿âÍ·ÎÄ¼ş  
+// æ ‡å‡†åº“å¤´æ–‡ä»¶  
 #include <fstream>  
 #include <vector>  
 #include <iostream>  
@@ -43,12 +55,12 @@
 #include <map>  
 #include <set>  
 #include <functional>  
-#include <Windows.h> // ÓÃÓÚ´´½¨Ä¿Â¼  
+#include <Windows.h> // ç”¨äºåˆ›å»ºç›®å½•  
 
 using namespace std;
 using namespace kernel::pdv;
 
-// Êı¾İ½á¹¹¶¨Òå  
+// æ•°æ®ç»“æ„å®šä¹‰  
 struct NodeInfo {
     DftUInt64 nodeID;
     string nodeName;
@@ -58,7 +70,7 @@ struct NodeInfo {
     bool hasModel;
     map<string, string> attributes;
 
-    // ĞÂÔöPMIÏà¹ØĞÅÏ¢  
+    // æ–°å¢PMIç›¸å…³ä¿¡æ¯  
     struct PMIData {
         DftUInt64 annotationID;
         string annotationType;
@@ -66,13 +78,15 @@ struct NodeInfo {
         string viewMode;
         map<string, string> properties;
     };
-    vector<PMIData> pmiData;  // Ò»¸ö½Úµã¿ÉÄÜÓĞ¶à¸öPMI±ê×¢  
+string CurveTypeToString(DftUInt8 curveType);
+string SurfaceTypeToString(DftUInt8 surfaceType);
+    vector<PMIData> pmiData;  // ä¸€ä¸ªèŠ‚ç‚¹å¯èƒ½æœ‰å¤šä¸ªPMIæ ‡æ³¨  
 };
 
-// È«¾Ö±äÁ¿´æ´¢½ÚµãĞÅÏ¢  
+// å…¨å±€å˜é‡å­˜å‚¨èŠ‚ç‚¹ä¿¡æ¯  
 vector<NodeInfo> g_nodeInfos;
 
-// º¯ÊıÉùÃ÷  
+// å‡½æ•°å£°æ˜  
 void CollectNodeInfo(ISceneData* iSceneData, const string& outputDir);
 void CollectPMIData(IAnnotation* annotation, vector<NodeInfo::PMIData>& pmiData);
 void CollectAttributes(IAttribute* attr, map<string, string>& attributes);
@@ -90,33 +104,33 @@ string OrientationToString(DftUInt8 orientation);
 string GeomTypeToString(DftUInt8 geomType);
 bool ExportNodeToStl(ISceneData* iSceneData, IModelTreeNode* node, const string& stlPath);
 
-// ¾ØÕó×ª»»ÎªÎ»ÖÃºÍĞı×ª£¨PDVÒÑ¾­ÊÇÈ«¾Ö×ø±êÏµ£©  
+// çŸ©é˜µè½¬æ¢ä¸ºä½ç½®å’Œæ—‹è½¬ï¼ˆPDVå·²ç»æ˜¯å…¨å±€åæ ‡ç³»ï¼‰  
 void MatrixToTransform(const PDVMatrix4F& matrix, float& x, float& y, float& z,
     float& qx, float& qy, float& qz, float& qw,
     float& sx, float& sy, float& sz) {
 
-    // ÌáÈ¡Î»ÖÃĞÅÏ¢£¨4x4¾ØÕóµÄµÚ4ÁĞÇ°3¸öÔªËØ£©  
+    // æå–ä½ç½®ä¿¡æ¯ï¼ˆ4x4çŸ©é˜µçš„ç¬¬4åˆ—å‰3ä¸ªå…ƒç´ ï¼‰  
     x = matrix[0][3];
     y = matrix[1][3];
     z = matrix[2][3];
 
-    // ÌáÈ¡Ëõ·ÅĞÅÏ¢£¨¸÷ÖáÏòÁ¿µÄ³¤¶È£©  
+    // æå–ç¼©æ”¾ä¿¡æ¯ï¼ˆå„è½´å‘é‡çš„é•¿åº¦ï¼‰  
     sx = sqrt(matrix[0][0] * matrix[0][0] + matrix[1][0] * matrix[1][0] + matrix[2][0] * matrix[2][0]);
     sy = sqrt(matrix[0][1] * matrix[0][1] + matrix[1][1] * matrix[1][1] + matrix[2][1] * matrix[2][1]);
     sz = sqrt(matrix[0][2] * matrix[0][2] + matrix[1][2] * matrix[1][2] + matrix[2][2] * matrix[2][2]);
 
-    // Èç¹ûËõ·ÅÖµ¹ıĞ¡£¬Ê¹ÓÃµ¥Î»Ëõ·Å  
+    // å¦‚æœç¼©æ”¾å€¼è¿‡å°ï¼Œä½¿ç”¨å•ä½ç¼©æ”¾  
     if (sx < 1e-6f) sx = 1.0f;
     if (sy < 1e-6f) sy = 1.0f;
     if (sz < 1e-6f) sz = 1.0f;
 
-    // ¼ò»¯´¦Àí£ºÔİÊ±Ê¹ÓÃµ¥Î»ËÄÔªÊı  
-    // Èç¹ûĞèÒª¾«È·µÄĞı×ªĞÅÏ¢£¬¿ÉÒÔºóĞø´ÓĞı×ª¾ØÕó²¿·Ö¼ÆËã  
+    // ç®€åŒ–å¤„ç†ï¼šæš‚æ—¶ä½¿ç”¨å•ä½å››å…ƒæ•°  
+    // å¦‚æœéœ€è¦ç²¾ç¡®çš„æ—‹è½¬ä¿¡æ¯ï¼Œå¯ä»¥åç»­ä»æ—‹è½¬çŸ©é˜µéƒ¨åˆ†è®¡ç®—  
     qx = qy = qz = 0.0f;
     qw = 1.0f;
 }
 
-// ÊÕ¼¯½ÚµãĞÅÏ¢µÄ±éÀúº¯Êı  
+// æ”¶é›†èŠ‚ç‚¹ä¿¡æ¯çš„éå†å‡½æ•°  
 void CollectNodeInfo(ISceneData* iSceneData, const string& outputDir)
 {
     if (!iSceneData) return;
@@ -152,7 +166,7 @@ void CollectNodeInfo(ISceneData* iSceneData, const string& outputDir)
                 currentNode->GetName(nodeName);
                 nodeInfo.nodeName = nodeName.ToMultiByte();
 
-                // ĞŞÕı£º¼ì²é±ä»»±êÖ¾Î»²¢ÕıÈ·»ñÈ¡±ä»»¾ØÕó  
+                // ä¿®æ­£ï¼šæ£€æŸ¥å˜æ¢æ ‡å¿—ä½å¹¶æ­£ç¡®è·å–å˜æ¢çŸ©é˜µ  
                 if (currentNode->GetWorldTransformFlag())
                 {
                     PDV_RESULT result = currentNode->GetWorldTransform(nodeInfo.worldTransform);
@@ -219,7 +233,7 @@ void CollectNodeInfo(ISceneData* iSceneData, const string& outputDir)
     }
 }
 
-// ĞÂÔöPMIÊı¾İÊÕ¼¯º¯Êı  
+// æ–°å¢PMIæ•°æ®æ”¶é›†å‡½æ•°  
 void CollectPMIData(IAnnotation* annotation, vector<NodeInfo::PMIData>& pmiData)
 {
     if (!annotation) return;
@@ -234,18 +248,18 @@ void CollectPMIData(IAnnotation* annotation, vector<NodeInfo::PMIData>& pmiData)
         NodeInfo::PMIData pmi;
         pmi.annotationID = item->GetID();
 
-        // »ñÈ¡±ê×¢ÏîÀàĞÍ  
+        // è·å–æ ‡æ³¨é¡¹ç±»å‹  
         CUnicodeString itemType = item->GetType();
         pmi.annotationType = itemType.ToMultiByte();
 
-        // »ñÈ¡±ê×¢ÏîÃû³Æ  
+        // è·å–æ ‡æ³¨é¡¹åç§°  
         CUnicodeString itemName;
         if (item->GetName(itemName) == PDV_RESULT_NO_ERROR)
         {
             pmi.annotationName = itemName.ToMultiByte();
         }
 
-        // »ñÈ¡ÏÔÊ¾Ä£Ê½  
+        // è·å–æ˜¾ç¤ºæ¨¡å¼  
         DftUInt8 viewMode = item->GetFaceViewMode();
         switch (viewMode)
         {
@@ -263,7 +277,7 @@ void CollectPMIData(IAnnotation* annotation, vector<NodeInfo::PMIData>& pmiData)
             break;
         }
 
-        // ÊÕ¼¯ÆäËûPMIÊôĞÔ  
+        // æ”¶é›†å…¶ä»–PMIå±æ€§  
         DftUInt64 renderBodyID = item->GetRenderBodyID();
         if (renderBodyID != 0)
         {
@@ -281,7 +295,7 @@ void CollectPMIData(IAnnotation* annotation, vector<NodeInfo::PMIData>& pmiData)
     }
 }
 
-// ÊÕ¼¯ÊôĞÔĞÅÏ¢  
+// æ”¶é›†å±æ€§ä¿¡æ¯  
 void CollectAttributes(IAttribute* attr, map<string, string>& attributes)
 {
     if (!attr) return;
@@ -378,12 +392,12 @@ void CollectAttributes(IAttribute* attr, map<string, string>& attributes)
     }
 }
 
-// Éú³ÉÈı¸öCSVÎÄ¼ş  
+// ç”Ÿæˆä¸‰ä¸ªCSVæ–‡ä»¶  
 void GenerateCSVFiles(const string& outputDir)
 {
-    // 1. Éú³É produce_models.csv  
+    // 1. ç”Ÿæˆ produce_models.csv  
     ofstream modelsFile(outputDir + "\\produce_models.csv");
-    modelsFile << "UUID,ÊµÀıÃû³Æ,ÒıÓÃÄ£ĞÍÃû³Æ,X,Y,Z,QX,QY,QZ,QW,SX,SY,SZ\n";
+    modelsFile << "UUID,å®ä¾‹åç§°,å¼•ç”¨æ¨¡å‹åç§°,X,Y,Z,QX,QY,QZ,QW,SX,SY,SZ\n";
 
     for (const auto& nodeInfo : g_nodeInfos)
     {
@@ -403,9 +417,9 @@ void GenerateCSVFiles(const string& outputDir)
     }
     modelsFile.close();
 
-    // 2. Éú³É product_tree.csv  
+    // 2. ç”Ÿæˆ product_tree.csv  
     ofstream treeFile(outputDir + "\\product_tree.csv");
-    treeFile << "¸¸UUID,ÏÔÊ¾Ãû³Æ,²úÆ·UUID,ÊµÀıÃû³Æ\n";
+    treeFile << "çˆ¶UUID,æ˜¾ç¤ºåç§°,äº§å“UUID,å®ä¾‹åç§°\n";
 
     for (const auto& nodeInfo : g_nodeInfos)
     {
@@ -416,7 +430,7 @@ void GenerateCSVFiles(const string& outputDir)
     }
     treeFile.close();
 
-    // 3. Éú³É product_properties.csv  
+    // 3. ç”Ÿæˆ product_properties.csv  
     ofstream propsFile(outputDir + "\\product_properties.csv");
 
     set<string> allAttributeKeys;
@@ -428,7 +442,7 @@ void GenerateCSVFiles(const string& outputDir)
         }
     }
 
-    propsFile << "UUID,ÊµÀıÃû³Æ,Áã¼şºÅ,¶¨Òå,°æ±¾";
+    propsFile << "UUID,å®ä¾‹åç§°,é›¶ä»¶å·,å®šä¹‰,ç‰ˆæœ¬";
     for (const auto& key : allAttributeKeys)
     {
         propsFile << ",\"" << key << "\"";
@@ -459,10 +473,10 @@ void GenerateCSVFiles(const string& outputDir)
     }
     propsFile.close();
 
-    // 4. Éú³É product_pmi.csv - Í³Ò»´¦ÀíPMIÊı¾İ  
+    // 4. ç”Ÿæˆ product_pmi.csv - ç»Ÿä¸€å¤„ç†PMIæ•°æ®  
     ofstream pmiFile(outputDir + "\\product_pmi.csv");
 
-    // ÊÕ¼¯ËùÓĞPMIÊôĞÔ¼ü  
+    // æ”¶é›†æ‰€æœ‰PMIå±æ€§é”®  
     set<string> allPMIKeys;
     for (const auto& nodeInfo : g_nodeInfos)
     {
@@ -475,15 +489,15 @@ void GenerateCSVFiles(const string& outputDir)
         }
     }
 
-    // Ğ´ÈëPMI±íÍ·  
-    pmiFile << "½ÚµãUUID,½ÚµãÃû³Æ,±ê×¢ID,±ê×¢ÀàĞÍ,±ê×¢Ãû³Æ,ÏÔÊ¾Ä£Ê½";
+    // å†™å…¥PMIè¡¨å¤´  
+    pmiFile << "èŠ‚ç‚¹UUID,èŠ‚ç‚¹åç§°,æ ‡æ³¨ID,æ ‡æ³¨ç±»å‹,æ ‡æ³¨åç§°,æ˜¾ç¤ºæ¨¡å¼";
     for (const auto& key : allPMIKeys)
     {
         pmiFile << ",\"" << key << "\"";
     }
     pmiFile << "\n";
 
-    // Ğ´ÈëPMIÊı¾İĞĞ  
+    // å†™å…¥PMIæ•°æ®è¡Œ  
     for (const auto& nodeInfo : g_nodeInfos)
     {
         for (const auto& pmi : nodeInfo.pmiData)
@@ -513,7 +527,7 @@ void GenerateCSVFiles(const string& outputDir)
     pmiFile.close();
 }
 
-// ÍØÆËÀàĞÍ×ª»»Îª×Ö·û´®  
+// æ‹“æ‰‘ç±»å‹è½¬æ¢ä¸ºå­—ç¬¦ä¸²  
 string TopoTypeToString(DftUInt8 topoType)
 {
     switch (topoType)
@@ -530,7 +544,36 @@ string TopoTypeToString(DftUInt8 topoType)
     }
 }
 
-// ·½Ïò×ª»»Îª×Ö·û´®  
+string CurveTypeToString(DftUInt8 curveType)
+{
+    switch(curveType)
+    {
+    case CT_LINE: return "LINE";
+    case CT_CIRCLE: return "CIRCLE";
+    case CT_ELLIPSE: return "ELLIPSE";
+    case CT_BSPLINECURVE: return "BSPLINE";
+    default: return "UNKNOWN";
+    }
+}
+
+string SurfaceTypeToString(DftUInt8 surfaceType)
+{
+    switch(surfaceType)
+    {
+    case ST_PLANE: return "PLANE";
+    case ST_CYLINDER: return "CYLINDER";
+    case ST_CONE: return "CONE";
+    case ST_TORUS: return "TORUS";
+    case ST_SPHERE: return "SPHERE";
+    case ST_BSPLINESURFACE: return "BSPLINE";
+    case ST_LINEAREXTRUSION: return "LINEAREXTRUSION";
+    case ST_REVOLUTION: return "REVOLUTION";
+    default: return "UNKNOWN";
+    }
+}
+
+
+// æ–¹å‘è½¬æ¢ä¸ºå­—ç¬¦ä¸²  
 string OrientationToString(DftUInt8 orientation)
 {
     switch (orientation)
@@ -541,7 +584,7 @@ string OrientationToString(DftUInt8 orientation)
     }
 }
 
-// ¼¸ºÎÀàĞÍ×ª»»Îª×Ö·û´®  
+// å‡ ä½•ç±»å‹è½¬æ¢ä¸ºå­—ç¬¦ä¸²  
 string GeomTypeToString(DftUInt8 geomType)
 {
     switch (geomType)
@@ -553,7 +596,7 @@ string GeomTypeToString(DftUInt8 geomType)
     }
 }
 
-// ĞŞ¸ÄºóµÄÖ÷×ª»»º¯Êı  
+// ä¿®æ”¹åçš„ä¸»è½¬æ¢å‡½æ•°  
 DftBool Convert(const CUnicodeString& iPdvPath, const string& outputDir)
 {
     IObjectFactory* piObjectFactory = IObjectFactory::GetObjectFactory();
@@ -573,7 +616,7 @@ DftBool Convert(const CUnicodeString& iPdvPath, const string& outputDir)
         return FALSE;
     }
 
-    // È·±£Êä³öÄ¿Â¼´æÔÚ  
+    // ç¡®ä¿è¾“å‡ºç›®å½•å­˜åœ¨  
     if (!CreateDirectoryA(outputDir.c_str(), NULL)) {
         if (GetLastError() != ERROR_ALREADY_EXISTS) {
             cerr << "Failed to create output directory: " << outputDir << endl;
@@ -582,10 +625,10 @@ DftBool Convert(const CUnicodeString& iPdvPath, const string& outputDir)
         }
     }
 
-    // ÊÕ¼¯½ÚµãĞÅÏ¢  
+    // æ”¶é›†èŠ‚ç‚¹ä¿¡æ¯  
     CollectNodeInfo(sceneData, outputDir);
 
-    // Éú³ÉCSVÎÄ¼ş  
+    // ç”ŸæˆCSVæ–‡ä»¶  
     GenerateCSVFiles(outputDir);
 
     cout << "Generated CSV files:" << endl;
@@ -594,10 +637,10 @@ DftBool Convert(const CUnicodeString& iPdvPath, const string& outputDir)
     cout << "  - product_properties.csv" << endl;
     cout << "  - product_pmi.csv" << endl;
 
-    // Èç¹ûĞèÒª£¬ÈÔÈ»¿ÉÒÔ±éÀúÄ£ĞÍÊ÷²¢Êä³öÏêÏ¸ĞÅÏ¢  
+    // å¦‚æœéœ€è¦ï¼Œä»ç„¶å¯ä»¥éå†æ¨¡å‹æ ‘å¹¶è¾“å‡ºè¯¦ç»†ä¿¡æ¯  
     TraverseModelTree(sceneData, outputDir);
 
-    // ÊÍ·Å×ÊÔ´  
+    // é‡Šæ”¾èµ„æº  
     sceneData->Release();
     return TRUE;
 }
@@ -607,7 +650,7 @@ void TraverseModelTree(ISceneData* iSceneData, const string& outputDir)
     if (!iSceneData)
         return;
 
-    // »ñÈ¡ËùÓĞÄ£ĞÍÊ÷  
+    // è·å–æ‰€æœ‰æ¨¡å‹æ ‘  
     std::vector<IModelTree*> modelTreeArray;
     iSceneData->GetModelTreeArray(modelTreeArray);
 
@@ -619,16 +662,16 @@ void TraverseModelTree(ISceneData* iSceneData, const string& outputDir)
         if (!tree)
             continue;
 
-        // »ñÈ¡Ä£ĞÍÊ÷Ãû³Æ  
+        // è·å–æ¨¡å‹æ ‘åç§°  
         CUnicodeString treeName;
         tree->GetName(treeName);
         cout << "\nModel Tree: " << treeName.ToMultiByte() << endl;
 
-        // »ñÈ¡¸ù½Úµã  
+        // è·å–æ ¹èŠ‚ç‚¹  
         IModelTreeNode* rootNode = nullptr;
         if (tree->GetRootNode(rootNode) == PDV_RESULT_NO_ERROR && rootNode)
         {
-            // Ê¹ÓÃÕ»½øĞĞ·Çµİ¹éÉî¶ÈÓÅÏÈ±éÀú  
+            // ä½¿ç”¨æ ˆè¿›è¡Œéé€’å½’æ·±åº¦ä¼˜å…ˆéå†  
             stack<pair<IModelTreeNode*, int>> nodeStack;
             nodeStack.push(make_pair(rootNode, 0));
 
@@ -638,14 +681,14 @@ void TraverseModelTree(ISceneData* iSceneData, const string& outputDir)
                 int depth = nodeStack.top().second;
                 nodeStack.pop();
 
-                // ´¦Àíµ±Ç°½Úµã  
+                // å¤„ç†å½“å‰èŠ‚ç‚¹  
                 ProcessTreeNode(currentNode, depth, iSceneData, outputDir);
 
-                // »ñÈ¡×Ó½Úµã  
+                // è·å–å­èŠ‚ç‚¹  
                 std::vector<IModelTreeNode*> children;
                 if (currentNode->GetChildren(children) == PDV_RESULT_NO_ERROR)
                 {
-                    // ·´ÏòÌí¼Ó×Ó½ÚµãÒÔ±£Ö¤Ô­Ê¼Ë³Ğò  
+                    // åå‘æ·»åŠ å­èŠ‚ç‚¹ä»¥ä¿è¯åŸå§‹é¡ºåº  
                     for (int i = static_cast<int>(children.size()) - 1; i >= 0; i--)
                     {
                         if (children[i])
@@ -663,29 +706,29 @@ void ProcessTreeNode(IModelTreeNode* node, int depth, ISceneData* sceneData, con
 {
     if (!node) return;
 
-    // »ñÈ¡½ÚµãĞÅÏ¢  
+    // è·å–èŠ‚ç‚¹ä¿¡æ¯  
     CUnicodeString nodeName;
     node->GetName(nodeName);
     DftUInt64 nodeID = node->GetID();
 
-    // ´òÓ¡½ÚµãĞÅÏ¢  
+    // æ‰“å°èŠ‚ç‚¹ä¿¡æ¯  
     string indent(depth * 2, ' ');
     cout << "\n" << indent << "Node: " << nodeName.ToMultiByte()
         << " (ID: " << nodeID << ")" << endl;
 
-    // ´òÓ¡¿É¼ûĞÔ  
+    // æ‰“å°å¯è§æ€§  
     cout << indent << "  Visible: " << (node->GetVisible() ? "Yes" : "No") << endl;
 
-    // »ñÈ¡±ä»»ĞÅÏ¢ - ĞŞÕı¾ØÕó´òÓ¡  
+    // è·å–å˜æ¢ä¿¡æ¯ - ä¿®æ­£çŸ©é˜µæ‰“å°  
     PDVMatrix4F worldTransform;
     if (node->GetWorldTransform(worldTransform) == PDV_RESULT_NO_ERROR)
     {
         cout << indent << "  World Transform:" << endl;
-        // ÕıÈ·´òÓ¡¾ØÕóÔªËØÖµ  
+        // æ­£ç¡®æ‰“å°çŸ©é˜µå…ƒç´ å€¼  
         for (int i = 0; i < 4; i++) {
             cout << indent << "    ";
             for (int j = 0; j < 4; j++) {
-                // Ê¹ÓÃ¹Ì¶¨¸¡µãÊı¸ñÊ½£¬ÉèÖÃ¾«¶ÈÎª6Î»  
+                // ä½¿ç”¨å›ºå®šæµ®ç‚¹æ•°æ ¼å¼ï¼Œè®¾ç½®ç²¾åº¦ä¸º6ä½  
                 cout << fixed << setw(12) << setprecision(6)
                     << worldTransform._data[i * 4 + j] << " ";
             }
@@ -693,18 +736,18 @@ void ProcessTreeNode(IModelTreeNode* node, int depth, ISceneData* sceneData, con
         }
     }
 
-    // ¼ì²éÊÇ·ñ¹ØÁªÄ£ĞÍ  
+    // æ£€æŸ¥æ˜¯å¦å…³è”æ¨¡å‹  
     if (node->GetModelFlag())
     {
         IModel* model = node->GetModel();
         if (model)
         {
-            // »ñÈ¡Ä£ĞÍÃû³Æ  
+            // è·å–æ¨¡å‹åç§°  
             CUnicodeString modelName;
             model->GetName(modelName);
             cout << indent << "  Model: " << modelName.ToMultiByte() << endl;
 
-            // ´òÓ¡ÊôĞÔ±í  
+            // æ‰“å°å±æ€§è¡¨  
             IAttribute* attr = model->GetAttribute();
             if (attr)
             {
@@ -715,7 +758,7 @@ void ProcessTreeNode(IModelTreeNode* node, int depth, ISceneData* sceneData, con
                 cout << indent << "  No Attributes" << endl;
             }
 
-            // ´òÓ¡PMIĞÅÏ¢  
+            // æ‰“å°PMIä¿¡æ¯  
             IAnnotation* annotation = model->GetAnnotation();
             if (annotation)
             {
@@ -726,32 +769,32 @@ void ProcessTreeNode(IModelTreeNode* node, int depth, ISceneData* sceneData, con
                 cout << indent << "  No PMI Information" << endl;
             }
 
-            // ´¦ÀíBRepÊı¾İ  
+            // å¤„ç†BRepæ•°æ®  
             DftUInt brepCount = model->GetBRepCount();
             cout << indent << "  BRep Count: " << brepCount << endl;
 
-            // Îª½Úµã´´½¨×ÓÄ¿Â¼  
+            // ä¸ºèŠ‚ç‚¹åˆ›å»ºå­ç›®å½•  
             string nodeDir = outputDir + "\\Node_" + to_string(nodeID);
             CreateDirectoryA(nodeDir.c_str(), NULL);
 
-            // µ¼³ö½ÚµãÕûÌåSTL  
+            // å¯¼å‡ºèŠ‚ç‚¹æ•´ä½“STL  
             string nodeStlPath = nodeDir + "\\" + nodeName.ToMultiByte() + ".stl";
             if (ExportNodeToStl(sceneData, node, nodeStlPath))
             {
                 cout << indent << "    Exported Node STL to: " << nodeStlPath << endl;
             }
 
-            // ´¦ÀíÃ¿¸öBRep  
+            // å¤„ç†æ¯ä¸ªBRep  
             for (DftUInt i = 0; i < brepCount; i++)
             {
                 IBRep* brep = model->GetBRep(i);
                 if (brep)
                 {
-                    // Éú³É»ù´¡ÎÄ¼şÃû  
+                    // ç”ŸæˆåŸºç¡€æ–‡ä»¶å  
                     stringstream filename;
                     filename << nodeDir << "\\BRep_" << i;
 
-                    // µ¼³öBRepÎÄ±¾ÃèÊö  
+                    // å¯¼å‡ºBRepæ–‡æœ¬æè¿°  
                     ExportBRepAsText(brep, filename.str());
                     cout << indent << "    Exported BRep text to: " << filename.str() << ".brep" << endl;
                 }
@@ -766,11 +809,11 @@ void PrintAttributeInfo(IAttribute* attr, int depth)
 
     string indent(depth * 2 + 4, ' ');
 
-    // »ñÈ¡ÊôĞÔ×éÊıÁ¿    
+    // è·å–å±æ€§ç»„æ•°é‡    
     DftUInt groupCount = attr->GetAttributeGroupCount();
     cout << indent << "Attributes (" << groupCount << " groups):" << endl;
 
-    // »ñÈ¡ÊôĞÔ×éÊı×é    
+    // è·å–å±æ€§ç»„æ•°ç»„    
     std::vector<IAttributeGroup*> attributeGroups;
     if (attr->GetAttributeGroupArray(attributeGroups) == PDV_RESULT_NO_ERROR)
     {
@@ -782,14 +825,14 @@ void PrintAttributeInfo(IAttribute* attr, int depth)
             cout << indent << "  Group " << i + 1 << ": " << endl;
             cout << indent << "    Group ID: " << group->GetID() << endl;
 
-            // »ñÈ¡ÊôĞÔ×éÃû³Æ    
+            // è·å–å±æ€§ç»„åç§°    
             CUnicodeString groupName;
             if (group->GetName(groupName) == PDV_RESULT_NO_ERROR)
             {
                 cout << indent << "    Group Name: " << groupName.ToMultiByte() << endl;
             }
 
-            // »ñÈ¡ÊôĞÔÏîÊıÁ¿ºÍÊı×é    
+            // è·å–å±æ€§é¡¹æ•°é‡å’Œæ•°ç»„    
             DftUInt itemCount = group->GetAttributeItemCount();
             cout << indent << "    Attribute Items: " << itemCount << endl;
 
@@ -801,13 +844,13 @@ void PrintAttributeInfo(IAttribute* attr, int depth)
                     IAttributeItem* item = attributeItems[j];
                     if (!item) continue;
 
-                    // »ñÈ¡ÊôĞÔÏî¼üÖµ    
+                    // è·å–å±æ€§é¡¹é”®å€¼    
                     CUnicodeString key;
                     if (item->GetKey(key) == PDV_RESULT_NO_ERROR)
                     {
                         cout << indent << "      Item " << j + 1 << ": " << key.ToMultiByte();
 
-                        // ¸ù¾İÊı¾İÀàĞÍ»ñÈ¡Öµ    
+                        // æ ¹æ®æ•°æ®ç±»å‹è·å–å€¼    
                         DftUInt valueType = item->GetValueType();
                         cout << " (Type: " << valueType << ") = ";
 
@@ -884,7 +927,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
 
     string indent(depth * 2 + 4, ' ');
 
-    // »ñÈ¡¸÷Àà±ê×¢¶ÔÏóµÄÊıÁ¿    
+    // è·å–å„ç±»æ ‡æ³¨å¯¹è±¡çš„æ•°é‡    
     DftUInt itemCount = annotation->GetAnnotationItemCount();
     DftUInt viewCount = annotation->GetAnnotationViewCount();
     DftUInt geomCount = annotation->GetAnnotationGeometryCount();
@@ -894,7 +937,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
     cout << indent << "  Annotation Views: " << viewCount << endl;
     cout << indent << "  Annotation Geometries: " << geomCount << endl;
 
-    // ÏêÏ¸Êä³ö±ê×¢ÏîĞÅÏ¢    
+    // è¯¦ç»†è¾“å‡ºæ ‡æ³¨é¡¹ä¿¡æ¯    
     for (DftUInt i = 0; i < itemCount; i++)
     {
         IAnnotationItem* item = annotation->GetAnnotationItemByIndex(i);
@@ -903,17 +946,17 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
         cout << indent << "  Item " << i + 1 << ":" << endl;
         cout << indent << "    ID: " << item->GetID() << endl;
 
-        // »ñÈ¡±ê×¢ÏîÃû³Æ    
+        // è·å–æ ‡æ³¨é¡¹åç§°    
         CUnicodeString itemName;
         if (item->GetName(itemName) == PDV_RESULT_NO_ERROR)
         {
             cout << indent << "    Name: " << itemName.ToMultiByte() << endl;
         }
 
-        // »ñÈ¡±ê×¢ÏîÀàĞÍ    
+        // è·å–æ ‡æ³¨é¡¹ç±»å‹    
         CUnicodeString itemType = item->GetType();
         cout << indent << "    Type: " << itemType.ToMultiByte() << endl;
-        // »ñÈ¡ÏÔÊ¾Ä£Ê½    
+        // è·å–æ˜¾ç¤ºæ¨¡å¼    
         DftUInt8 viewMode = item->GetFaceViewMode();
         string viewModeStr;
         switch (viewMode)
@@ -933,7 +976,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
         }
         cout << indent << "    View Mode: " << viewModeStr << endl;
 
-        // »ñÈ¡±ä»»¾ØÕó    
+        // è·å–å˜æ¢çŸ©é˜µ    
         PDVMatrix4F transformation = item->GetTransformation();
         cout << indent << "    Transformation Matrix:" << endl;
         for (int row = 0; row < 4; row++)
@@ -947,14 +990,14 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
             cout << endl;
         }
 
-        // »ñÈ¡äÖÈ¾Ö÷ÌåID    
+        // è·å–æ¸²æŸ“ä¸»ä½“ID    
         DftUInt64 renderBodyID = item->GetRenderBodyID();
         if (renderBodyID != 0)
         {
             cout << indent << "    Render Body ID: " << renderBodyID << endl;
         }
 
-        // »ñÈ¡Èı½ÇĞÎÍø¸ñĞÅÏ¢    
+        // è·å–ä¸‰è§’å½¢ç½‘æ ¼ä¿¡æ¯    
         std::vector<PDVVector2F> trianglePoints;
         if (item->GetTrianglePoints(trianglePoints) == PDV_RESULT_NO_ERROR && !trianglePoints.empty())
         {
@@ -967,14 +1010,14 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
             cout << indent << "    Triangle Indexes: " << triangleIndexes.size() << endl;
         }
 
-        // »ñÈ¡Èı½ÇĞÎÑÕÉ«    
+        // è·å–ä¸‰è§’å½¢é¢œè‰²    
         RGBColor triangleColor = item->GetTriangleColor();
         cout << indent << "    Triangle Color: RGB("
             << static_cast<int>(triangleColor._red) << ", "
             << static_cast<int>(triangleColor._green) << ", "
             << static_cast<int>(triangleColor._blue) << ")" << endl;
 
-        // »ñÈ¡Ïß¿òÊı¾İ    
+        // è·å–çº¿æ¡†æ•°æ®    
         std::vector<WireFrame2DData> wires;
         if (item->GetWires(wires) == PDV_RESULT_NO_ERROR && !wires.empty())
         {
@@ -985,7 +1028,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
                 cout << indent << "      Wire " << w + 1 << ": "
                     << wire._points.size() << " points";
 
-                // Êä³öÏß¿òÊôĞÔ    
+                // è¾“å‡ºçº¿æ¡†å±æ€§    
                 if (wire._bitMasks & WIRE_MASK_CLOSE)
                     cout << " [Closed]";
                 if (wire._bitMasks & WIRE_MASK_FILLED)
@@ -996,7 +1039,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
             }
         }
 
-        // »ñÈ¡Í¼ĞÎÊı¾İ    
+        // è·å–å›¾å½¢æ•°æ®    
         AnnotationGraphicData graphicData;
         if (item->GetGraphicData(graphicData) == PDV_RESULT_NO_ERROR)
         {
@@ -1011,14 +1054,14 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
             }
         }
 
-        // »ñÈ¡Íâ°üºĞĞÅÏ¢    
+        // è·å–å¤–åŒ…ç›’ä¿¡æ¯    
         OrientedBoundingBox boundingBox;
         if (item->GetBox(boundingBox) == PDV_RESULT_NO_ERROR)
         {
             cout << indent << "    Bounding Box: Available" << endl;
         }
 
-        // »ñÈ¡Á´½ÓµÄ¼¸ºÎ¶ÔÏóĞÅÏ¢    
+        // è·å–é“¾æ¥çš„å‡ ä½•å¯¹è±¡ä¿¡æ¯    
         LinkedSubsetInfoArray linkedSubsets;
         if (item->GetLinkedSubsetInfoArray(linkedSubsets) == PDV_RESULT_NO_ERROR && !linkedSubsets.empty())
         {
@@ -1034,7 +1077,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
             }
         }
 
-        // »ñÈ¡Á´½ÓµÄ¸¨Öú¼¸ºÎ¶ÔÏóID    
+        // è·å–é“¾æ¥çš„è¾…åŠ©å‡ ä½•å¯¹è±¡ID    
         std::vector<DftUInt64> annotationGeometryIDs;
         if (item->GetAnnotationGeometryIDs(annotationGeometryIDs) == PDV_RESULT_NO_ERROR && !annotationGeometryIDs.empty())
         {
@@ -1050,7 +1093,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
         cout << endl;
     }
 
-    // Êä³ö±ê×¢ÊÓÍ¼ĞÅÏ¢    
+    // è¾“å‡ºæ ‡æ³¨è§†å›¾ä¿¡æ¯    
     if (viewCount > 0)
     {
         cout << indent << "  Annotation Views:" << endl;
@@ -1062,19 +1105,19 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
             cout << indent << "    View " << i + 1 << ":" << endl;
             cout << indent << "      ID: " << view->GetID() << endl;
 
-            // »ñÈ¡ÊÓÍ¼Ãû³Æ    
+            // è·å–è§†å›¾åç§°    
             CUnicodeString viewName;
             if (view->GetName(viewName) == PDV_RESULT_NO_ERROR)
             {
                 cout << indent << "      Name: " << viewName.ToMultiByte() << endl;
             }
 
-            // ¼ì²éÊÓÍ¼ÊôĞÔ    
+            // æ£€æŸ¥è§†å›¾å±æ€§    
             cout << indent << "      Is Default View: " << (view->IsDefaultView() ? "Yes" : "No") << endl;
             cout << indent << "      Has Camera: " << (view->GetCameraFlag() ? "Yes" : "No") << endl;
             cout << indent << "      Has Clip Plane: " << (view->GetClipPlaneFlag() ? "Yes" : "No") << endl;
 
-            // »ñÈ¡ÊÓÍ¼±êÊ¶Î»    
+            // è·å–è§†å›¾æ ‡è¯†ä½    
             DftByte bitMask = view->GetBitMask();
             cout << indent << "      View Properties:" << endl;
             if (bitMask & ANNOVIEW_MASK_DEFAULT_VIEW)
@@ -1088,7 +1131,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
             if (bitMask & ANNOVIEW_MASK_MESHVISIBLE)
                 cout << indent << "        - Mesh Visible" << endl;
 
-            // »ñÈ¡¹ØÁªµÄ±ê×¢ÏîID    
+            // è·å–å…³è”çš„æ ‡æ³¨é¡¹ID    
             std::vector<DftUInt64> annotationItemIDs;
             if (view->GetAnnotationItemIDs(annotationItemIDs) == PDV_RESULT_NO_ERROR && !annotationItemIDs.empty())
             {
@@ -1101,7 +1144,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
                 cout << endl;
             }
 
-            // »ñÈ¡ÉãÏñ»úĞÅÏ¢    
+            // è·å–æ‘„åƒæœºä¿¡æ¯    
             if (view->GetCameraFlag())
             {
                 DftUInt64 cameraID = view->GetCameraID();
@@ -1111,7 +1154,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
                 }
             }
 
-            // »ñÈ¡ÆÊÇĞÃæĞÅÏ¢    
+            // è·å–å‰–åˆ‡é¢ä¿¡æ¯    
             if (view->GetClipPlaneFlag())
             {
                 std::vector<PlaneData> clippingPlanes;
@@ -1130,7 +1173,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
                 }
             }
 
-            // »ñÈ¡±»ÆÊÇĞºÍÒş²ØµÄ½ÚµãID    
+            // è·å–è¢«å‰–åˆ‡å’Œéšè—çš„èŠ‚ç‚¹ID    
             std::vector<DftUInt64> clippedNodeIDs;
             if (view->GetClippedNodeIDs(clippedNodeIDs) == PDV_RESULT_NO_ERROR && !clippedNodeIDs.empty())
             {
@@ -1155,7 +1198,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
                 cout << endl;
             }
 
-            // »ñÈ¡¹ØÁªµÄ¸¨Öú¼¸ºÎID    
+            // è·å–å…³è”çš„è¾…åŠ©å‡ ä½•ID    
             std::vector<DftUInt64> refGeometryIDs;
             if (view->GetReferenceGeometryIDs(refGeometryIDs) == PDV_RESULT_NO_ERROR && !refGeometryIDs.empty())
             {
@@ -1172,7 +1215,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
         }
     }
 
-    // Êä³ö±ê×¢¼¸ºÎĞÅÏ¢    
+    // è¾“å‡ºæ ‡æ³¨å‡ ä½•ä¿¡æ¯    
     if (geomCount > 0)
     {
         cout << indent << "  Annotation Geometries:" << endl;
@@ -1184,7 +1227,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
             cout << indent << "    Geometry " << i + 1 << ":" << endl;
             cout << indent << "      ID: " << geom->GetID() << endl;
 
-            // »ñÈ¡±ä»»¾ØÕó    
+            // è·å–å˜æ¢çŸ©é˜µ    
             PDVMatrix4F matrix = geom->GetMatrix();
             cout << indent << "      Transformation Matrix:" << endl;
             for (int row = 0; row < 4; row++)
@@ -1198,7 +1241,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
                 cout << endl;
             }
 
-            // »ñÈ¡Íâ°üºĞ    
+            // è·å–å¤–åŒ…ç›’    
             OrientedBoundingBox boundingBox;
             if (geom->GetBox(boundingBox) == PDV_RESULT_NO_ERROR)
             {
@@ -1213,7 +1256,7 @@ void PrintPMIInfo(IAnnotation* annotation, int depth)
                     << boundingBox._axisZ.y() << ", " << boundingBox._axisZ.z() << ")" << endl;
             }
 
-            // »ñÈ¡äÖÈ¾Ö÷ÌåID    
+            // è·å–æ¸²æŸ“ä¸»ä½“ID    
             DftUInt64 renderBodyID = geom->GetRenderBodyID();
             if (renderBodyID != 0)
             {
@@ -1229,7 +1272,7 @@ void ExportBRepAsText(IBRep* bRep, const string& filenameBase)
 {
     if (!bRep) return;
 
-    // ´´½¨ÎÄ±¾ÎÄ¼ş  
+    // åˆ›å»ºæ–‡æœ¬æ–‡ä»¶  
     ofstream outFile((filenameBase + ".brep").c_str());
     if (!outFile.is_open())
     {
@@ -1237,18 +1280,18 @@ void ExportBRepAsText(IBRep* bRep, const string& filenameBase)
         return;
     }
 
-    // ÎÄ¼şÍ·  
+    // æ–‡ä»¶å¤´  
     outFile << "BRep Text Format" << endl;
     outFile << "=================" << endl << endl;
 
-    // 1. ÍØÆËĞÅÏ¢  
+    // 1. æ‹“æ‰‘ä¿¡æ¯  
     std::vector<ITopo*> topos;
     if (bRep->GetTopoArray(topos) == PDV_RESULT_NO_ERROR)
     {
         outFile << "Topology Elements (" << topos.size() << "):" << endl;
         outFile << "-------------------" << endl;
 
-        // Ê¹ÓÃÓ³Éä´æ´¢ÍØÆË¶ÔÏó£¬±ãÓÚºóĞøÒıÓÃ  
+        // ä½¿ç”¨æ˜ å°„å­˜å‚¨æ‹“æ‰‘å¯¹è±¡ï¼Œä¾¿äºåç»­å¼•ç”¨  
         map<DftUInt64, ITopo*> topoMap;
 
         for (size_t i = 0; i < topos.size(); i++)
@@ -1259,18 +1302,18 @@ void ExportBRepAsText(IBRep* bRep, const string& filenameBase)
             DftUInt64 topoID = topo->GetID();
             topoMap[topoID] = topo;
 
-            // Êä³öÍØÆË»ù±¾ĞÅÏ¢  
+            // è¾“å‡ºæ‹“æ‰‘åŸºæœ¬ä¿¡æ¯  
             outFile << "Topo ID: " << topoID << endl;
             outFile << "  Type: " << TopoTypeToString(topo->GetTopoType()) << endl;
             outFile << "  Original ID: " << topo->GetOriginalID().ToMultiByte() << endl;
             outFile << "  Orientation: " << OrientationToString(topo->GetOrientation()) << endl;
 
-            // Êä³ö¹ØÁªµÄ¼¸ºÎĞÅÏ¢  
+            // è¾“å‡ºå…³è”çš„å‡ ä½•ä¿¡æ¯  
             outFile << "  Geometry:" << endl;
             outFile << "    Type: " << GeomTypeToString(topo->GetGeometryType()) << endl;
             outFile << "    ID: " << topo->GetGeometryID() << endl;
 
-            // Êä³ö×ÓÍØÆË  
+            // è¾“å‡ºå­æ‹“æ‰‘  
             const std::vector<DftUInt64>& subTopoIDs = topo->GetTopoIDs();
             if (!subTopoIDs.empty())
             {
@@ -1283,11 +1326,11 @@ void ExportBRepAsText(IBRep* bRep, const string& filenameBase)
             outFile << endl;
         }
 
-        // 2. ÍØÆË²ã´Î½á¹¹  
+        // 2. æ‹“æ‰‘å±‚æ¬¡ç»“æ„  
         outFile << endl << "Topology Hierarchy:" << endl;
         outFile << "-------------------" << endl;
 
-        // ²éÕÒ¶¥¼¶ÍØÆË£¨Ã»ÓĞ¸¸ÍØÆËµÄ£©  
+        // æŸ¥æ‰¾é¡¶çº§æ‹“æ‰‘ï¼ˆæ²¡æœ‰çˆ¶æ‹“æ‰‘çš„ï¼‰  
         set<DftUInt64> childTopos;
         for (auto& pair : topoMap)
         {
@@ -1298,7 +1341,7 @@ void ExportBRepAsText(IBRep* bRep, const string& filenameBase)
             }
         }
 
-        // µİ¹é´òÓ¡ÍØÆË²ã´Î  
+        // é€’å½’æ‰“å°æ‹“æ‰‘å±‚æ¬¡  
         std::function<void(DftUInt64, int)> printTopoHierarchy = [&](DftUInt64 topoID, int level) {
             auto it = topoMap.find(topoID);
             if (it == topoMap.end()) return;
@@ -1309,7 +1352,7 @@ void ExportBRepAsText(IBRep* bRep, const string& filenameBase)
             outFile << indent << TopoTypeToString(topo->GetTopoType())
                 << " [ID: " << topoID << "]" << endl;
 
-            // µİ¹é´òÓ¡×ÓÍØÆË  
+            // é€’å½’æ‰“å°å­æ‹“æ‰‘  
             const std::vector<DftUInt64>& subIDs = topo->GetTopoIDs();
             for (DftUInt64 subID : subIDs)
             {
@@ -1317,7 +1360,7 @@ void ExportBRepAsText(IBRep* bRep, const string& filenameBase)
             }
             };
 
-        // ´òÓ¡ËùÓĞ¶¥¼¶ÍØÆË  
+        // æ‰“å°æ‰€æœ‰é¡¶çº§æ‹“æ‰‘  
         for (auto& pair : topoMap)
         {
             if (childTopos.find(pair.first) == childTopos.end())
@@ -1332,7 +1375,7 @@ void ExportBRepAsText(IBRep* bRep, const string& filenameBase)
         outFile << "No topology information available" << endl;
     }
 
-    // 3. ¼¸ºÎµãĞÅÏ¢  
+    // 3. å‡ ä½•ç‚¹ä¿¡æ¯  
     std::vector<IGeomPointData*> points;
     if (bRep->GetGeomPointDataArray(points) == PDV_RESULT_NO_ERROR)
     {
@@ -1351,8 +1394,175 @@ void ExportBRepAsText(IBRep* bRep, const string& filenameBase)
         }
     }
 
-    // 4. ¼¸ºÎÇúÏßĞÅÏ¢  
-    std::vector<IGeomCurveData*> curves;
+                outFile << "  Type: " << CurveTypeToString(curve->GetType()) << endl;
+                ICurve* baseCurve = curve->GetCurve();
+                if (baseCurve)
+                {
+                    switch (baseCurve->GetType())
+                    {
+                    case CT_LINE:
+                    {
+                        ILine* line = dynamic_cast<ILine*>(baseCurve);
+                        if (line)
+                        {
+                            PDVVector3D origin = line->GetOrigin();
+                            PDVVector3D dir = line->GetDirection();
+                            outFile << "  Origin: (" << origin.x() << ", " << origin.y() << ", " << origin.z() << ")" << endl;
+                            outFile << "  Direction: (" << dir.x() << ", " << dir.y() << ", " << dir.z() << ")" << endl;
+                        }
+                        break;
+                    }
+                    case CT_CIRCLE:
+                    {
+                        ICircle* circle = dynamic_cast<ICircle*>(baseCurve);
+                        if (circle)
+                        {
+                            PDVVector3D origin = circle->GetOrigin();
+                            PDVVector3D xDir = circle->GetXDirection();
+                            PDVVector3D yDir = circle->GetYDirection();
+                            outFile << "  Origin: (" << origin.x() << ", " << origin.y() << ", " << origin.z() << ")" << endl;
+                            outFile << "  XDirection: (" << xDir.x() << ", " << xDir.y() << ", " << xDir.z() << ")" << endl;
+                            outFile << "  YDirection: (" << yDir.x() << ", " << yDir.y() << ", " << yDir.z() << ")" << endl;
+                            outFile << "  Radius: " << circle->GetRadius() << endl;
+                        }
+                        break;
+                    }
+                    case CT_ELLIPSE:
+                    {
+                        IEllipse* ellipse = dynamic_cast<IEllipse*>(baseCurve);
+                        if (ellipse)
+                        {
+                            PDVVector3D origin = ellipse->GetOrigin();
+                            PDVVector3D xDir = ellipse->GetXDirection();
+                            PDVVector3D yDir = ellipse->GetYDirection();
+                            outFile << "  Origin: (" << origin.x() << ", " << origin.y() << ", " << origin.z() << ")" << endl;
+                            outFile << "  XDirection: (" << xDir.x() << ", " << xDir.y() << ", " << xDir.z() << ")" << endl;
+                            outFile << "  YDirection: (" << yDir.x() << ", " << yDir.y() << ", " << yDir.z() << ")" << endl;
+                            outFile << "  Major Radius: " << ellipse->GetMajorRadius() << endl;
+                            outFile << "  Minor Radius: " << ellipse->GetMinorRadius() << endl;
+                        }
+                        break;
+                    }
+                    case CT_BSPLINECURVE:
+                    {
+                        INurbsCurve* nc = dynamic_cast<INurbsCurve*>(baseCurve);
+                        if (nc)
+                        {
+                            NurbsCurveData data;
+                            nc->GetNurbsCurve(data);
+                            outFile << "  Degree: " << static_cast<int>(data._degree) << endl;
+                            outFile << "  Control Points: " << data._ctrlPoints.size() << endl;
+                            for (size_t cpi = 0; cpi < data._ctrlPoints.size(); ++cpi)
+                            {
+                                const PDVVector3D& p = data._ctrlPoints[cpi];
+                                outFile << "    CP" << cpi + 1 << ": (" << p.x() << ", " << p.y() << ", " << p.z() << ")";
+                                if (cpi < data._weights.size())
+                                    outFile << " w=" << data._weights[cpi];
+                                outFile << endl;
+                            }
+                            outFile << "  Knots: ";
+                            for (size_t ki = 0; ki < data._knots.size(); ++ki)
+                            {
+                                outFile << data._knots[ki];
+                                if (ki + 1 < data._knots.size()) outFile << ", ";
+                            }
+                            outFile << endl;
+                        }
+                        break;
+                    }
+                    }
+                }
+                outFile << "  Type: " << SurfaceTypeToString(surface->GetType()) << endl;
+                ISurface* srf = surface->GetSurface();
+                if (srf)
+                {
+                    switch (srf->GetType())
+                    {
+                    case ST_PLANE:
+                    {
+                        IPlane* plane = dynamic_cast<IPlane*>(srf);
+                        if (plane)
+                        {
+                            PDVVector3D origin = plane->GetOrigin();
+                            PDVVector3D normal = plane->GetZDirection();
+                            outFile << "  Origin: (" << origin.x() << ", " << origin.y() << ", " << origin.z() << ")" << endl;
+                            outFile << "  Normal: (" << normal.x() << ", " << normal.y() << ", " << normal.z() << ")" << endl;
+                        }
+                        break;
+                    }
+                    case ST_CYLINDER:
+                    {
+                        ICylinder* cyl = dynamic_cast<ICylinder*>(srf);
+                        if (cyl)
+                        {
+                            PDVVector3D origin = cyl->GetOrigin();
+                            PDVVector3D axis = cyl->GetZDirection();
+                            outFile << "  Origin: (" << origin.x() << ", " << origin.y() << ", " << origin.z() << ")" << endl;
+                            outFile << "  Axis: (" << axis.x() << ", " << axis.y() << ", " << axis.z() << ")" << endl;
+                            outFile << "  Radius: " << cyl->GetRadius() << endl;
+                        }
+                        break;
+                    }
+                    case ST_CONE:
+                    {
+                        ICone* cone = dynamic_cast<ICone*>(srf);
+                        if (cone)
+                        {
+                            PDVVector3D origin = cone->GetOrigin();
+                            PDVVector3D axis = cone->GetZDirection();
+                            outFile << "  Origin: (" << origin.x() << ", " << origin.y() << ", " << origin.z() << ")" << endl;
+                            outFile << "  Axis: (" << axis.x() << ", " << axis.y() << ", " << axis.z() << ")" << endl;
+                            outFile << "  Radius: " << cone->GetRadius() << endl;
+                            outFile << "  Half Angle: " << cone->GetHalfAngle() << endl;
+                        }
+                        break;
+                    }
+                    case ST_TORUS:
+                    {
+                        ITorus* torus = dynamic_cast<ITorus*>(srf);
+                        if (torus)
+                        {
+                            PDVVector3D origin = torus->GetOrigin();
+                            PDVVector3D axis = torus->GetZDirection();
+                            outFile << "  Origin: (" << origin.x() << ", " << origin.y() << ", " << origin.z() << ")" << endl;
+                            outFile << "  Axis: (" << axis.x() << ", " << axis.y() << ", " << axis.z() << ")" << endl;
+                            outFile << "  Major Radius: " << torus->GetMajorRadius() << endl;
+                            outFile << "  Minor Radius: " << torus->GetMinorRadius() << endl;
+                        }
+                        break;
+                    }
+                    case ST_SPHERE:
+                    {
+                        ISphere* sphere = dynamic_cast<ISphere*>(srf);
+                        if (sphere)
+                        {
+                            PDVVector3D origin = sphere->GetOrigin();
+                            outFile << "  Origin: (" << origin.x() << ", " << origin.y() << ", " << origin.z() << ")" << endl;
+                            outFile << "  Radius: " << sphere->GetRadius() << endl;
+                        }
+                        break;
+                    }
+                    case ST_BSPLINESURFACE:
+                    {
+                        INurbsSurface* ns = dynamic_cast<INurbsSurface*>(srf);
+                        if (ns)
+                        {
+                            NurbsSurfaceData d;
+                            ns->GetNurbsSurface(d);
+                            outFile << "  U Degree: " << static_cast<int>(d._uDegree) << endl;
+                            outFile << "  V Degree: " << static_cast<int>(d._vDegree) << endl;
+                            outFile << "  Control Net: " << d._ctrlRowCount << " x " << d._ctrlColumnCount << endl;
+                            outFile << "  Knots U: ";
+                            for(size_t ki=0; ki<d._uKnots.size(); ++ki){ outFile << d._uKnots[ki]; if(ki+1<d._uKnots.size()) outFile << ", "; }
+                            outFile << endl;
+                            outFile << "  Knots V: ";
+                            for(size_t ki=0; ki<d._vKnots.size(); ++ki){ outFile << d._vKnots[ki]; if(ki+1<d._vKnots.size()) outFile << ", "; }
+                            outFile << endl;
+                        }
+                        break;
+                    }
+                    }
+                }
     if (bRep->GetGeomCurveDataArray(curves) == PDV_RESULT_NO_ERROR)
     {
         outFile << endl << "Curves (" << curves.size() << "):" << endl;
@@ -1371,7 +1581,7 @@ void ExportBRepAsText(IBRep* bRep, const string& filenameBase)
         }
     }
 
-    // 5. ¼¸ºÎÇúÃæĞÅÏ¢  
+    // 5. å‡ ä½•æ›²é¢ä¿¡æ¯  
     std::vector<IGeomSurfaceData*> surfaces;
     if (bRep->GetGeomSurfaceDataArray(surfaces) == PDV_RESULT_NO_ERROR)
     {
@@ -1461,13 +1671,13 @@ bool ExportNodeToStl(ISceneData* iSceneData, IModelTreeNode* node, const string&
                 const VertexData& v2 = vertexData[indexes[c * 3 + 1]];
                 const VertexData& v3 = vertexData[indexes[c * 3 + 2]];
 
-                // Ó¦ÓÃÊÀ½ç±ä»»  
+                // åº”ç”¨ä¸–ç•Œå˜æ¢  
                 DftTransformVector3F(v1._normal, worldTrans._data, worldNormal);
                 DftTransformPoint3F(v1._position, worldTrans._data, worldP1);
                 DftTransformPoint3F(v2._position, worldTrans._data, worldP2);
                 DftTransformPoint3F(v3._position, worldTrans._data, worldP3);
 
-                // Ğ´ÈëSTL¸ñÊ½  
+                // å†™å…¥STLæ ¼å¼  
                 ofStl << "   facet normal " << worldNormal.x() << " " << worldNormal.y() << " " << worldNormal.z() << endl;
                 ofStl << "      outer loop" << endl;
                 ofStl << "         vertex " << worldP1.x() << " " << worldP1.y() << " " << worldP1.z() << endl;
@@ -1486,7 +1696,7 @@ bool ExportNodeToStl(ISceneData* iSceneData, IModelTreeNode* node, const string&
 
 int main()
 {
-    // Ê¹ÓÃÊµ¼ÊPDVÎÄ¼şÂ·¾¶ºÍÊä³öÄ¿Â¼  
+    // ä½¿ç”¨å®é™…PDVæ–‡ä»¶è·¯å¾„å’Œè¾“å‡ºç›®å½•  
     Convert(
         "D:\\work\\code\\DevelopmentCode\\PDVReader\\test\\pdv_top\\top.pdv",
         "D:\\work\\code\\DevelopmentCode\\PDVReader\\test\\output"
